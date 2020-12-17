@@ -404,10 +404,10 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 
   
      \savebox\unitcellwater{ 
-     \begin{tikzpicture}\path (0.45,3.3) node {\includegraphics[width=0.75cm]{./water}}
-      (1.6,4.4)  node {\includegraphics[width=0.75cm]{./water}}
-      (0.5,4.45) node {\includegraphics[width=0.75cm]{./water}}
-      (1.1,3.7)  node {\includegraphics[width=0.75cm]{./water}};
+     \begin{tikzpicture}\path (0.45,3.3) node {\includegraphics[width=0.75cm]{../Ch-solids/water}}
+      (1.6,4.4)  node {\includegraphics[width=0.75cm]{../Ch-solids/water}}
+      (0.5,4.45) node {\includegraphics[width=0.75cm]{../Ch-solids/water}}
+      (1.1,3.7)  node {\includegraphics[width=0.75cm]{../Ch-solids/water}};
  \path[draw,ultra thick] (0,3) rectangle (2,5);\end{tikzpicture}}
     \begin{center}
 \begin{tikzpicture}
@@ -417,10 +417,10 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 \foreach \x in {5,7,9} {
     \foreach \y in {1,3,5} {
         % water molecules in images
-        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{./water}};
-       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{./water}};
-        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{./water}};
-        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{./water}};
+        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{../Ch-solids/water}};
+       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{../Ch-solids/water}};
+        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{../Ch-solids/water}};
+        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{../Ch-solids/water}};
         % edge of each box
      }
 }\end{scope}
@@ -430,10 +430,10 @@ As the lattice is made of repetition, the smallest repeating unit is called the 
 \foreach \x in {5,7,9} {
     \foreach \y in {1,3,5} {
         % water molecules in images
-        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{./water}};
-       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{./water}};
-        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{./water}};
-        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{./water}};
+        \node at (\x+0.45,\y+0.3)         {\includegraphics[width=0.75cm]{../Ch-solids/water}};
+       \node at (\x+1.6 ,\y+1.4) {\includegraphics[width=0.75cm]{../Ch-solids/water}};
+        \node at (\x+0.5 ,\y+1.45) {\includegraphics[width=0.75cm]{../Ch-solids/water}};
+        \node at (\x+1.1 ,\y+0.7) {\includegraphics[width=0.75cm]{../Ch-solids/water}};
         % edge of each box
         \path[draw,thick] (\x,\y) rectangle (\x+2,\y+2);
     }
@@ -2185,19 +2185,19 @@ smooth,
 thin,
 red,
 solid
-] file[skip first] {./data1.dat};
+] file[skip first] {../Ch-solids/data1.dat};
 \addplot[
 smooth,
 thin,
 blue,
 solid
-] file[skip first] {./data2.dat};
+] file[skip first] {../Ch-solids/data2.dat};
 \addplot[
 smooth,
 thin,
 green,
 solid
-] file[skip first] {./data3.dat};
+] file[skip first] {../Ch-solids/data3.dat};
 %\legend{Benzene,Water}
 \draw  (axis cs:25,1000)  node[right, green] {Acetone, $\Delta H_{vap}$=31kJ/mol };
 \draw  (axis cs:60,700)  node[right, red] {Benzene, $\Delta H_{vap}$=34kJ/mol };
