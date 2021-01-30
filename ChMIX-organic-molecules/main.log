@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 18:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5055,7 +5055,7 @@ Package microtype Info: Loading generic settings for font family
 (../ChMIX-organic-molecules/ChMIX-organic-molecules.tex
 (../Ch-orgo/files/ChapterName
 Chapter 1.
-) <../Ch-orgo/figure1.png, id=157, 1204.5pt x 803.0pt>
+) <../Ch-orgo/figure1.png, id=161, 1204.5pt x 803.0pt>
 File: ../Ch-orgo/figure1.png Graphic file (type png)
 
 <use ../Ch-orgo/figure1.png>
@@ -5172,7 +5172,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 ) (../Ch-orgo/files/SideFigure-Hydrocarbons
-<../Ch-orgo/figure3.png, id=184, 1284.8pt x 904.37875pt>
+<../Ch-orgo/figure3.png, id=188, 1284.8pt x 904.37875pt>
 File: ../Ch-orgo/figure3.png Graphic file (type png)
 
 <use ../Ch-orgo/figure3.png>
@@ -5183,7 +5183,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure2.png, id=185, 321.2pt x 200.75pt>
+<../Ch-orgo/figure2.png, id=189, 321.2pt x 200.75pt>
 File: ../Ch-orgo/figure2.png Graphic file (type png)
 
 <use ../Ch-orgo/figure2.png>
@@ -5197,7 +5197,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-<../Ch-orgo/figure4.png, id=186, 385.44pt x 289.08pt>
+<../Ch-orgo/figure4.png, id=190, 385.44pt x 289.08pt>
 File: ../Ch-orgo/figure4.png Graphic file (type png)
 
 <use ../Ch-orgo/figure4.png>
@@ -5241,7 +5241,7 @@ Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--24
 ) (../Ch-orgo/files/SubSection-Alkanes-Condensed-structural-formula)
 (../Ch-orgo/problems/SampleProblem2 (../Ch-orgo/problems/StudyCheck2) [4])
 (../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=211, 1505.625pt x 1388.93906pt>
+<../Ch-orgo/figure5.png, id=215, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 
 <use ../Ch-orgo/figure5.png>
@@ -5252,7 +5252,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=213, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=217, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 
 <use ../Ch-orgo/figure6.png>
@@ -5266,7 +5266,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-<../Ch-orgo/figure7.png, id=214, 1505.625pt x 1319.68031pt>
+<../Ch-orgo/figure7.png, id=218, 1505.625pt x 1319.68031pt>
 File: ../Ch-orgo/figure7.png Graphic file (type png)
 
 <use ../Ch-orgo/figure7.png>
@@ -5395,7 +5395,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 (../Ch-orgo/files/SectionIntro-Molecular-diversity [9])
 (../Ch-orgo/files/SideFigure-Acids
-<../Ch-orgo/figure10.png, id=256, 1304.875pt x 1304.875pt>
+<../Ch-orgo/figure10.png, id=260, 1304.875pt x 1304.875pt>
 File: ../Ch-orgo/figure10.png Graphic file (type png)
 
 <use ../Ch-orgo/figure10.png>
@@ -5409,7 +5409,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
 
 LaTeX Warning: Marginpar on page 10 moved.
 
-<../Ch-orgo/figure14.png, id=257, 279.2031pt x 433.62pt>
+<../Ch-orgo/figure14.png, id=261, 279.2031pt x 433.62pt>
 File: ../Ch-orgo/figure14.png Graphic file (type png)
 
 <use ../Ch-orgo/figure14.png>
@@ -5427,7 +5427,7 @@ LaTeX Warning: Marginpar on page 10 moved.
 (../Ch-orgo/problems/SampleProblem11 (../Ch-orgo/problems/StudyCheck11)
 [10 <../Ch-orgo/figure10.png (PNG copy)> <../Ch-orgo/figure14.png (PNG copy)>])
 (../Ch-orgo/files/SideFigure-cinnamon
-<../Ch-orgo/figure11.png, id=263, 298.11375pt x 170.6375pt>
+<../Ch-orgo/figure11.png, id=267, 298.11375pt x 170.6375pt>
 File: ../Ch-orgo/figure11.png Graphic file (type png)
 
 <use ../Ch-orgo/figure11.png>
@@ -5441,7 +5441,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-<../Ch-orgo/figure15.png, id=264, 217.81375pt x 232.87pt>
+<../Ch-orgo/figure15.png, id=268, 217.81375pt x 232.87pt>
 File: ../Ch-orgo/figure15.png Graphic file (type png)
 
 <use ../Ch-orgo/figure15.png>
@@ -5455,7 +5455,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 13--23
 
 LaTeX Warning: Marginpar on page 11 moved.
 
-<../Ch-orgo/figure16.png, id=265, 226.8475pt x 223.83624pt>
+<../Ch-orgo/figure16.png, id=269, 226.8475pt x 223.83624pt>
 File: ../Ch-orgo/figure16.png Graphic file (type png)
 
 <use ../Ch-orgo/figure16.png>
@@ -5479,7 +5479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 (../Ch-orgo/problems/StudyCheck12) [11 <../Ch-orgo/figure11.png (PNG copy)> <..
 /Ch-orgo/figure15.png (PNG copy)> <../Ch-orgo/figure16.png (PNG copy)>])
 (../Ch-orgo/files/SideFigure-Meat
-<../Ch-orgo/figure18.png, id=270, 1159.33125pt x 602.25pt>
+<../Ch-orgo/figure18.png, id=274, 1159.33125pt x 602.25pt>
 File: ../Ch-orgo/figure18.png Graphic file (type png)
 
 <use ../Ch-orgo/figure18.png>
@@ -5490,7 +5490,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
  [] 
  []
 
-<../Ch-orgo/figure19.png, id=271, 592.2125pt x 301.125pt>
+<../Ch-orgo/figure19.png, id=275, 592.2125pt x 301.125pt>
 File: ../Ch-orgo/figure19.png Graphic file (type png)
 
 <use ../Ch-orgo/figure19.png>
@@ -5508,7 +5508,7 @@ LaTeX Warning: Marginpar on page 12 moved.
 (../Ch-orgo/problems/SampleProblem13 (../Ch-orgo/problems/StudyCheck13)
 [12 <../Ch-orgo/figure18.png (PNG copy)> <../Ch-orgo/figure19.png (PNG copy)>])
 (../Ch-orgo/files/SideFigure-Acetone
-<../Ch-orgo/figure8.png, id=279, 122.6768pt x 273.28992pt>
+<../Ch-orgo/figure8.png, id=283, 122.6768pt x 273.28992pt>
 File: ../Ch-orgo/figure8.png Graphic file (type png)
 
 <use ../Ch-orgo/figure8.png>
@@ -5519,7 +5519,7 @@ Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
  [] 
  []
 
-<../Ch-orgo/figure17.png, id=280, 277.035pt x 183.68625pt>
+<../Ch-orgo/figure17.png, id=284, 277.035pt x 183.68625pt>
 File: ../Ch-orgo/figure17.png Graphic file (type png)
 
 <use ../Ch-orgo/figure17.png>
@@ -5600,17 +5600,26 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 159.
 
+
+(../Ch-thermochemistry/files/SubSection-Calorimetry-Exothermic-and-endothermic-
+reactions--Exothermic-and-endothermic-reactions)
+(../Ch-thermochemistry/problems/SampleProblem14
+(../Ch-thermochemistry/problems/StudyCheck14) [18])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 165.
+
 (../Ch-nuclear/files/SectionIntro-Nuclear-reactions)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-beta-decay)
 (../Ch-nuclear/files/SubSection-Nuclear-reactions-positron-emission)
-(../Ch-nuclear/files/SubSection-Nuclear-reactions-gamma-decay [18])
+(../Ch-nuclear/files/SubSection-Nuclear-reactions-gamma-decay)
 (../Ch-nuclear/problems/SampleProblem2
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-(../Ch-nuclear/problems/StudyCheck2)) (../Ch-nuclear/files/Table-Halflife
+(../Ch-nuclear/problems/StudyCheck2) [19]) (../Ch-nuclear/files/Table-Halflife
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 32.
@@ -5618,23 +5627,32 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 174.
+(hyperref)                removing `\char' on input line 180.
 
-(../Ch-nuclear/files/SectionIntro-Half-life-of-a-radioisotope [19])
+(../Ch-nuclear/files/SectionIntro-Half-life-of-a-radioisotope)
 (../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half
--live) (../Ch-nuclear/problems/SampleProblem8
+-live [20]) (../Ch-nuclear/problems/SampleProblem8
 (../Ch-nuclear/problems/StudyCheck8
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
 ))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 190.
+
+LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
+t line 190.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
+)
 (../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
 ts)
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Length) [20]
+-Length)
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Volume)
+-Volume [21])
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
 -Mass)
 (../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
@@ -5647,11 +5665,11 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 6.
 
 )
-Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--198
+Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--204
 [][] 
  []
 
-(../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors [21])
+(../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors [22])
 (../Ch-measurements/files/Table-Prefixes
 
 Package hyperref Warning: Option `colorlinks' has already been used,
@@ -5661,8 +5679,8 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-identif
 y-prefixes)
 (../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
-nit-equalities-and-conversion-factors [22])
-(../Ch-measurements/problems/SampleProblem2) [23] [24
+nit-equalities-and-conversion-factors)
+(../Ch-measurements/problems/SampleProblem2 [23]) [24] [25
 
 ])
 
@@ -5682,9 +5700,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5394.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5394.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5394.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 988CAEC6E9BA95664C6A5869C3B25B98;2577.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: ED9CEBCD71260C3F651AB8039087EB81;2744
+(rerunfilecheck)             After:  7378A4E13EA6A330DFA611E46E7D8364;2870.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5692,47 +5716,52 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
  ) 
 Here is how much of TeX's memory you used:
- 84032 strings out of 493014
- 1890911 string characters out of 6133351
+ 84069 strings out of 493014
+ 1892464 string characters out of 6133351
  2747107 words of memory out of 5000000
- 85325 multiletter control sequences out of 15000+600000
- 265625 words of font info for 361 fonts, out of 8000000 for 9000
+ 85344 multiletter control sequences out of 15000+600000
+ 266119 words of font info for 363 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,26n,111p,10369b,2029s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
-enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
-ype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
-me/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
-wesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-aratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/parat
-ype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on main.pdf (24 pages, 10728550 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometh
+ree.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
+ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
+fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fon
+tawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
+/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
+mri8a.pfb>
+Output written on main.pdf (25 pages, 10737858 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 81453 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 98 named destinations out of 1000 (max. 500000)
+ 81461 words of extra memory for PDF output out of 89155 (max. 10000000)
 
