@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 JAN 2021 13:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5138,19 +5138,14 @@ rgo/figure1.png (PNG copy)>]) (../Ch-Table/files/Figure-The-periodic-table
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 37.
+ line 289.
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 37.
+ line 289.
 
-Overfull \hbox (0.644pt too wide) in paragraph at lines 248--248
+Overfull \hbox (0.644pt too wide) in paragraph at lines 289--289
  \T1/PTSansNarrow-TLF/b/n/24 Symbol 
- []
-
-
-Overfull \hbox (284.52863pt too wide) in paragraph at lines 4--289
- [] 
  []
 
 )
@@ -5236,10 +5231,10 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 /Ch-orgo/figure2.png (PNG copy)> <../Ch-orgo/figure4.png>]
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 23.
+(hyperref)                setting the option has no effect on input line 24.
 
 
-Overfull \hbox (68.73083pt too wide) in paragraph at lines 3--24
+Overfull \hbox (171.82971pt too wide) in paragraph at lines 4--24
  [] 
  []
 
@@ -5248,7 +5243,7 @@ Overfull \hbox (68.73083pt too wide) in paragraph at lines 3--24
 (../Ch-orgo/files/SubSection-Alkanes-Skeletal-structural-formula)
 (../Ch-orgo/files/SubSection-Alkanes-A-review-of-the-different-structural-formu
 las) (../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=216, 1505.625pt x 1388.93906pt>
+<../Ch-orgo/figure5.png, id=215, 1505.625pt x 1388.93906pt>
 File: ../Ch-orgo/figure5.png Graphic file (type png)
 
 <use ../Ch-orgo/figure5.png>
@@ -5259,7 +5254,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
  [] 
  []
 
-<../Ch-orgo/figure6.png, id=218, 289.08pt x 242.9075pt>
+<../Ch-orgo/figure6.png, id=217, 289.08pt x 242.9075pt>
 File: ../Ch-orgo/figure6.png Graphic file (type png)
 
 <use ../Ch-orgo/figure6.png>
@@ -5273,7 +5268,7 @@ Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
 
 LaTeX Warning: Marginpar on page 5 moved.
 
-<../Ch-orgo/figure7.png, id=219, 1505.625pt x 1319.68031pt>
+<../Ch-orgo/figure7.png, id=218, 1505.625pt x 1319.68031pt>
 File: ../Ch-orgo/figure7.png Graphic file (type png)
 
 <use ../Ch-orgo/figure7.png>
@@ -5319,8 +5314,8 @@ Underfull \hbox (badness 1365) in paragraph at lines 1--2
 
 ) (../Ch-orgo/problems/SampleProblem6 (../Ch-orgo/problems/StudyCheck6))
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-different-s
-ubstituents) (../Ch-orgo/problems/SampleProblem7
-(../Ch-orgo/problems/StudyCheck7) [7])
+ubstituents [7]) (../Ch-orgo/problems/SampleProblem7
+(../Ch-orgo/problems/StudyCheck7))
 (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Numbering-the-chain
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
@@ -5708,16 +5703,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
  ) 
 Here is how much of TeX's memory you used:
- 84032 strings out of 493014
- 1891125 string characters out of 6133351
- 2733406 words of memory out of 5000000
- 85328 multiletter control sequences out of 15000+600000
+ 84047 strings out of 493014
+ 1891462 string characters out of 6133351
+ 2734397 words of memory out of 5000000
+ 85343 multiletter control sequences out of 15000+600000
  265495 words of font info for 359 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,23n,111p,10369b,2038s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,23n,111p,10369b,2034s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
@@ -5746,7 +5744,7 @@ f-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (25 pages, 10732915 bytes).
+Output written on main.pdf (25 pages, 10732669 bytes).
 PDF statistics:
  480 PDF objects out of 1000 (max. 8388607)
  345 compressed objects within 4 object streams
