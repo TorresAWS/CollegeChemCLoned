@@ -738,6 +738,23 @@ function eqFilter(filterMethod) {
             return this.toString();
     }
 }
+function checkTheSpelling(targetFieldName) {
+  var spellChkCnt=0;
+  var f=this.getField(targetFieldName);
+  var value=f.value;
+  var valueStrip = value.replace(/\s+/g,"");
+  if ( valueStrip != "" ) {
+    aBrk=value.split(/\s+/);
+    for (var i=0; i<aBrk.length; i++){
+      var word=aBrk[i];
+      var aRetnSC=spell.checkWord(word);
+      if (aRetnSC!=null) spellChkCnt++;
+    }
+    var corrdStr=spell.checkText(value);
+    f.value=corrdStr;
+  }
+  return spellChkCnt;
+}
 }%
 \gdef\dljsexerquizviii{%
 function InitMsg(msg) { return (\eqInitQuizMsg) }
@@ -810,12 +827,12 @@ function InitializeQuiz(qtfield,mark) {
     ProcessIt = false;
     aQuizControl[qtfield] = 1;
     this.resetForm(["ScoreField." + qtfield,"mc."+qtfield,
-        "obj."+qtfield,"mck."+qtfield,"Ans."+qtfield,
-        "PointsField."+qtfield,"PercentField."+qtfield,
-        "essay."+qtfield,"GradeField."+qtfield,
-        "grpobj."+qtfield,"qMark."+qtfield, qtfield+"SanityCheck",
-        qtfield+"SanityCheckPts",qtfield+"SanityCheckOOPts",
-        "rbmarkup."+qtfield]);
+      "obj."+qtfield,"mck."+qtfield,"Ans."+qtfield,
+      "PointsField."+qtfield,"PercentField."+qtfield,
+      "essay."+qtfield,"GradeField."+qtfield,
+      "grpobj."+qtfield,"qMark."+qtfield, qtfield+"SanityCheck",
+      qtfield+"SanityCheckPts",qtfield+"SanityCheckOOPts",
+      "rbmarkup."+qtfield]);
     ProcessIt = true;
     var f = this.getField("qMark."+qtfield);
     if ( f != null ) f.display = display.hidden;
@@ -937,16 +954,16 @@ function DisplayQuizResults(qtfield,nPointTotal,nQuestions)
     NPointTotal=nPointTotal; NQuestions=nQuestions;
     for (var i=1; i < RightWrong.length; i++)
     {
-        if ( (typeof RightWrong[i] == "object" ) %
-            && ( RightWrong[i][0] == "grp" ) ) {
+        if ( (typeof RightWrong[i] == "object" ) && %
+( RightWrong[i][0] == "grp" ) ) {
             // grouped question
-                Score += GrpRight(RightWrong[i], i, qtfield);
-                var aWeights = ProbValue[i].slice(2);
-                var evalGrpJS = eval(ProbValue[i][1]);
-                var evalGrpJSValue = evalGrpJS(this,qtfield,i,
-                    RightWrong[i],aWeights);
-                ProbDist[i] = evalGrpJSValue;
-                ptScore = ptScore + evalGrpJSValue;
+            Score += GrpRight(RightWrong[i], i, qtfield);
+            var aWeights = ProbValue[i].slice(2);
+            var evalGrpJS = eval(ProbValue[i][1]);
+            var evalGrpJSValue = evalGrpJS(this,qtfield,i,
+                RightWrong[i],aWeights);
+            ProbDist[i] = evalGrpJSValue;
+            ptScore = ptScore + evalGrpJSValue;
         } else {
             if (typeof RightWrong[i] == "object") {
                 if ( RightWrong[i][0] == 1 ) {
@@ -958,21 +975,24 @@ function DisplayQuizResults(qtfield,nPointTotal,nQuestions)
                     if (RightWrong[i][1] == 1)
                         ProbDist[i]=(typeof ProbValue[i]=="object") ?
                             1*ProbValue[i][1] : 1*ProbValue[i];
-                    else
+                    else {
                         ProbDist[i]=(typeof ProbValue[i] == "object") ?
                             1*ProbValue[i][1] : 0;
+                        if (!negPointsAllowed && %
+!negPointsMarkupAllowed && (ProbDist[i]<0) ) ProbDist[i]=0;
+                    }
                     ptScore += (1*ProbDist[i]);
                 }
             } else {
                 if (RightWrong[i]==1) {
                     Score++;
-                    ProbDist[i] = ( typeof ProbValue[i] == "object") ?
-                        1*ProbValue[i][1] : 1*ProbValue[i];
+                    ProbDist[i] = ( typeof ProbValue[i] == "object") ? %
+1*ProbValue[i][1] : 1*ProbValue[i];
                     ptScore += (1*ProbDist[i]);
                 }
                 else {
-                    ProbDist[i] = ( typeof ProbValue[i] == "object") ?
-                        1*ProbValue[i][2] : 0;
+                    ProbDist[i] = ( typeof ProbValue[i] == "object") ? %
+1*ProbValue[i][2] : 0;
                     ptScore += (1*ProbDist[i]);
                 }
             }
