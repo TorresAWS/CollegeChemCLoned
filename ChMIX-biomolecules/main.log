@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 FEB 2021 11:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 13:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -423,9 +423,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count108
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -447,14 +446,14 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count109
+\c@tracingmulticols=\count108
 \mult@box=\box30
 \multicol@leftmargin=\dimen124
-\c@unbalance=\count110
-\c@collectmore=\count111
-\doublecol@number=\count112
-\multicoltolerance=\count113
-\multicolpretolerance=\count114
+\c@unbalance=\count109
+\c@collectmore=\count110
+\doublecol@number=\count111
+\multicoltolerance=\count112
+\multicolpretolerance=\count113
 \full@width=\dimen125
 \page@free=\dimen126
 \premulticols=\dimen127
@@ -485,14 +484,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\c@columnbadness=\count115
-\c@finalcolumnbadness=\count116
+\c@columnbadness=\count114
+\c@finalcolumnbadness=\count115
 \last@try=\dimen130
 \multicolovershoot=\dimen131
 \multicolundershoot=\dimen132
 \mult@nat@firstbox=\box54
 \colbreak@box=\box55
-\mc@col@check@num=\count117
+\mc@col@check@num=\count116
 )))
 
 Package geometry Warning: Over-specification in `v'-direction.
@@ -524,7 +523,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (./main.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
-\c@asy=\count118
+\c@asy=\count117
 \AsyStream=\write3
 \AsyPreStream=\write4
 
@@ -540,14 +539,14 @@ Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen136
 \WF@size=\dimen137
-\c@WF@wrappedlines=\count119
+\c@WF@wrappedlines=\count118
 \WF@box=\box57
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
-\c@dirtytalk@qdepth=\count120
+\c@dirtytalk@qdepth=\count119
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/savesym/savesym.sty
 Package: savesym 2013/09/02 v1.2 Saves and restores symbols (JG)
@@ -578,16 +577,16 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box58
-\sift@deathcycles=\count121
+\sift@deathcycles=\count120
 \@vwid@loff=\dimen140
 \@vwid@roff=\dimen141
 )
-\c@taburow=\count122
-\tabu@nbcols=\count123
-\tabu@cnt=\count124
-\tabu@Xcol=\count125
-\tabu@alloc=\count126
-\tabu@nested=\count127
+\c@taburow=\count121
+\tabu@nbcols=\count122
+\tabu@cnt=\count123
+\tabu@Xcol=\count124
+\tabu@alloc=\count125
+\tabu@nested=\count126
 \tabu@target=\dimen142
 \tabu@spreadtarget=\dimen143
 \tabu@naturalX=\dimen144
@@ -619,24 +618,24 @@ L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
 L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/03/24 v6441 L3 Integers
-\c_max_int=\count128
-\l_tmpa_int=\count129
-\l_tmpb_int=\count130
-\g_tmpa_int=\count131
-\g_tmpb_int=\count132
+\c_max_int=\count127
+\l_tmpa_int=\count128
+\l_tmpb_int=\count129
+\g_tmpa_int=\count130
+\g_tmpb_int=\count131
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count133
+\g__prg_map_int=\count132
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2016/03/26 v6464 L3 Messages
 L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
-\l_iow_line_count_int=\count134
-\l__iow_target_count_int=\count135
-\l__iow_current_line_int=\count136
-\l__iow_current_word_int=\count137
-\l__iow_current_indentation_int=\count138
+\l_iow_line_count_int=\count133
+\l__iow_target_count_int=\count134
+\l__iow_current_line_int=\count135
+\l__iow_current_word_int=\count136
+\l__iow_current_indentation_int=\count137
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen151
 \c_max_dim=\dimen152
@@ -657,18 +656,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count139
-\l_keys_choice_int=\count140
+\g__keyval_level_int=\count138
+\l_keys_choice_int=\count139
 L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
-\c__fp_leading_shift_int=\count141
-\c__fp_middle_shift_int=\count142
-\c__fp_trailing_shift_int=\count143
-\c__fp_big_leading_shift_int=\count144
-\c__fp_big_middle_shift_int=\count145
-\c__fp_big_trailing_shift_int=\count146
-\c__fp_Bigg_leading_shift_int=\count147
-\c__fp_Bigg_middle_shift_int=\count148
-\c__fp_Bigg_trailing_shift_int=\count149
+\c__fp_leading_shift_int=\count140
+\c__fp_middle_shift_int=\count141
+\c__fp_trailing_shift_int=\count142
+\c__fp_big_leading_shift_int=\count143
+\c__fp_big_middle_shift_int=\count144
+\c__fp_big_trailing_shift_int=\count145
+\c__fp_Bigg_leading_shift_int=\count146
+\c__fp_Bigg_middle_shift_int=\count147
+\c__fp_Bigg_trailing_shift_int=\count148
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box63
 \l_tmpa_box=\box64
@@ -718,16 +717,16 @@ L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count150
+\l__driver_color_stack_int=\count149
 \l__driver_tmp_box=\box78
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count151
-\l__xparse_m_args_int=\count152
-\l__xparse_mandatory_args_int=\count153
-\l__xparse_processor_int=\count154
-\l__xparse_v_nesting_int=\count155
+\l__xparse_current_arg_int=\count150
+\l__xparse_m_args_int=\count151
+\l__xparse_mandatory_args_int=\count152
+\l__xparse_processor_int=\count153
+\l__xparse_v_nesting_int=\count154
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
@@ -773,10 +772,10 @@ ode.tex
 \pgf@yc=\dimen191
 \w@pgf@writea=\write5
 \r@pgf@reada=\read1
-\c@pgf@counta=\count156
-\c@pgf@countb=\count157
-\c@pgf@countc=\count158
-\c@pgf@countd=\count159
+\c@pgf@counta=\count155
+\c@pgf@countb=\count156
+\c@pgf@countc=\count157
+\c@pgf@countd=\count158
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
@@ -797,8 +796,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count160
-\pgfsyssoftpath@bigbuffer@items=\count161
+\pgfsyssoftpath@smallbuffer@items=\count159
+\pgfsyssoftpath@bigbuffer@items=\count160
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -811,7 +810,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen192
-\pgfmath@count=\count162
+\pgfmath@count=\count161
 \pgfmath@box=\box80
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
@@ -836,7 +835,7 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count163
+\c@pgfmathroundto@lastzeros=\count162
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -874,7 +873,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box81
 \pgf@hbox=\box82
 \pgf@layerbox@main=\box83
-\pgf@picture@serial@count=\count164
+\pgf@picture@serial@count=\count163
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -909,7 +908,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen272
-\pgf@sys@shading@range@num=\count165
+\pgf@sys@shading@range@num=\count164
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -972,7 +971,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count166
+\pgf@plot@mark@count=\count165
 \pgfplotmarksize=\dimen277
 )
 \tikz@lastx=\dimen278
@@ -985,19 +984,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box87
 \tikz@tempbox=\box88
 \tikz@tempbox@bg=\box89
-\tikztreelevel=\count167
-\tikznumberofchildren=\count168
-\tikznumberofcurrentchild=\count169
-\tikz@fig@count=\count170
+\tikztreelevel=\count166
+\tikznumberofchildren=\count167
+\tikznumberofcurrentchild=\count168
+\tikz@fig@count=\count169
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count171
-\pgfmatrixcurrentcolumn=\count172
-\pgf@matrix@numberofcolumns=\count173
+\pgfmatrixcurrentrow=\count170
+\pgfmatrixcurrentcolumn=\count171
+\pgf@matrix@numberofcolumns=\count172
 )
-\tikz@expandcount=\count174
+\tikz@expandcount=\count173
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1014,8 +1013,8 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 ))
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
 istry (CN)
-\l__chemgreek_tmpa_int=\count175
-\g__chemgreek_tmpa_int=\count176
+\l__chemgreek_tmpa_int=\count174
+\g__chemgreek_tmpa_int=\count175
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1149,7 +1148,7 @@ Package: modiagram 2015/09/23 v0.2g easy creation of molecular orbital diagrams
 \l__MOdiagram_AO_px_shift_dim=\dimen318
 \l__MOdiagram_AO_py_shift_dim=\dimen319
 \l__MOdiagram_AO_pz_shift_dim=\dimen320
-\g__MOdiagram_AO_name_int=\count177
+\g__MOdiagram_AO_name_int=\count176
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1191,13 +1190,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count178
+\inf@bad=\count177
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count179
-\leftroot@=\count180
+\uproot@=\count178
+\leftroot@=\count179
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count181
-\DOTSCASE@=\count182
+\classnum@=\count180
+\DOTSCASE@=\count181
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -1206,15 +1205,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen323
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count183
-\c@MaxMatrixCols=\count184
+\macc@depth=\count182
+\c@MaxMatrixCols=\count183
 \dotsspace@=\muskip17
-\c@parentequation=\count185
-\dspbrk@lvl=\count186
+\c@parentequation=\count184
+\dspbrk@lvl=\count185
 \tag@help=\toks36
-\row@=\count187
-\column@=\count188
-\maxfields@=\count189
+\row@=\count186
+\column@=\count187
+\maxfields@=\count188
 \andhelp@=\toks37
 \eqnshift@=\dimen324
 \alignsep@=\dimen325
@@ -1244,16 +1243,16 @@ Package: l3regex 2016/05/14 v6492 L3 Experimental regular expressions
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.s
 ty
 Package: l3tl-build 2016/05/14 v6492 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count190
-\l__tl_build_index_int=\count191
+\l__tl_build_start_index_int=\count189
+\l__tl_build_index_int=\count190
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysi
 s.sty
 Package: l3tl-analysis 2016/03/24 v6443 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count192
-\l__tl_analysis_index_int=\count193
-\l__tl_analysis_nesting_int=\count194
-\l__tl_analysis_type_int=\count195
+\l__tl_analysis_normal_int=\count191
+\l__tl_analysis_index_int=\count192
+\l__tl_analysis_nesting_int=\count193
+\l__tl_analysis_type_int=\count194
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2016/05/14 v6492 L3 Experimental flags
@@ -1262,48 +1261,48 @@ Package: l3flag 2016/05/14 v6492 L3 Experimental flags
 t.sty
 Package: l3str-convert 2016/03/24 v6443 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count196
-\c__str_replacement_char_int=\count197
+\l__str_internal_int=\count195
+\c__str_replacement_char_int=\count196
 )
-\l__regex_internal_a_int=\count198
-\l__regex_internal_b_int=\count199
-\l__regex_internal_c_int=\count266
-\l__regex_balance_int=\count267
-\l__regex_group_level_int=\count268
-\l__regex_mode_int=\count269
-\l__regex_catcodes_int=\count270
-\l__regex_default_catcodes_int=\count271
-\c__regex_catcode_D_int=\count272
-\c__regex_catcode_S_int=\count273
-\c__regex_catcode_L_int=\count274
-\c__regex_catcode_O_int=\count275
-\c__regex_catcode_A_int=\count276
-\c__regex_all_catcodes_int=\count277
-\l__regex_show_lines_int=\count278
-\l__regex_min_state_int=\count279
-\l__regex_max_state_int=\count280
-\l__regex_left_state_int=\count281
-\l__regex_right_state_int=\count282
-\l__regex_capturing_group_int=\count283
-\l__regex_min_pos_int=\count284
-\l__regex_max_pos_int=\count285
-\l__regex_current_pos_int=\count286
-\l__regex_start_pos_int=\count287
-\l__regex_success_pos_int=\count288
-\l__regex_current_char_int=\count289
-\l__regex_current_catcode_int=\count290
-\l__regex_last_char_int=\count291
-\l__regex_case_changed_char_int=\count292
-\l__regex_current_state_int=\count293
-\l__regex_step_int=\count294
-\l__regex_min_active_int=\count295
-\l__regex_max_active_int=\count296
-\l__regex_replacement_csnames_int=\count297
-\l__regex_match_count_int=\count298
-\l__regex_submatch_int=\count299
-\l__regex_zeroth_submatch_int=\count300
+\l__regex_internal_a_int=\count197
+\l__regex_internal_b_int=\count198
+\l__regex_internal_c_int=\count199
+\l__regex_balance_int=\count266
+\l__regex_group_level_int=\count267
+\l__regex_mode_int=\count268
+\l__regex_catcodes_int=\count269
+\l__regex_default_catcodes_int=\count270
+\c__regex_catcode_D_int=\count271
+\c__regex_catcode_S_int=\count272
+\c__regex_catcode_L_int=\count273
+\c__regex_catcode_O_int=\count274
+\c__regex_catcode_A_int=\count275
+\c__regex_all_catcodes_int=\count276
+\l__regex_show_lines_int=\count277
+\l__regex_min_state_int=\count278
+\l__regex_max_state_int=\count279
+\l__regex_left_state_int=\count280
+\l__regex_right_state_int=\count281
+\l__regex_capturing_group_int=\count282
+\l__regex_min_pos_int=\count283
+\l__regex_max_pos_int=\count284
+\l__regex_current_pos_int=\count285
+\l__regex_start_pos_int=\count286
+\l__regex_success_pos_int=\count287
+\l__regex_current_char_int=\count288
+\l__regex_current_catcode_int=\count289
+\l__regex_last_char_int=\count290
+\l__regex_case_changed_char_int=\count291
+\l__regex_current_state_int=\count292
+\l__regex_step_int=\count293
+\l__regex_min_active_int=\count294
+\l__regex_max_active_int=\count295
+\l__regex_replacement_csnames_int=\count296
+\l__regex_match_count_int=\count297
+\l__regex_submatch_int=\count298
+\l__regex_zeroth_submatch_int=\count299
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count301
+\l__mhchem_ce_distanceFromLastComma_int=\count300
 \__mhchem_arrow_extPgfLength_skip=\skip98
 \mhchem@minispace@tmp=\skip99
 \mhchem@minibackspace@tmp=\skip100
@@ -1314,7 +1313,7 @@ ions
 \mhchem@smallbondwidth=\skip105
 \mhchem@bondtmp@minussidebearingleft=\skip106
 \mhchem@bondtmp@minussidebearingright=\skip107
-\l__mhchem_option_version_int=\count302
+\l__mhchem_option_version_int=\count301
 \mhchem@option@minusmathsidebearingleft=\dimen330
 \mhchem@option@minusmathsidebearingright=\dimen331
 \mhchem@option@minustextsidebearingleft=\dimen332
@@ -1340,25 +1339,25 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fonttable/fonttable.sty
 Package: fonttable 2011/02/13 v1.6b displays a font
-\f@tm=\count303
-\f@tn=\count304
-\f@tp=\count305
+\f@tm=\count302
+\f@tn=\count303
+\f@tp=\count304
 \f@tdim=\dimen337
 \ftablewidth=\dimen338
 \fntcolwidth=\dimen339
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2015/10/10 v1.32 
-\pcol@currcol=\count306
-\pcol@nextcol=\count307
-\pcol@ncol=\count308
-\pcol@ncolleft=\count309
-\pcol@page=\count310
-\pcol@basepage=\count311
-\pcol@toppage=\count312
-\pcol@footnotebase=\count313
-\pcol@nfootnotes=\count314
-\pcol@mcid=\count315
+\pcol@currcol=\count305
+\pcol@nextcol=\count306
+\pcol@ncol=\count307
+\pcol@ncolleft=\count308
+\pcol@page=\count309
+\pcol@basepage=\count310
+\pcol@toppage=\count311
+\pcol@footnotebase=\count312
+\pcol@nfootnotes=\count313
+\pcol@mcid=\count314
 \pcol@prevdepth=\dimen340
 \pcol@colht=\dimen341
 \pcol@textfloatsep=\dimen342
@@ -1381,17 +1380,17 @@ File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowwidth=\dimen347
 \pgfarrowlinewidth=\dimen348
 )
-\CF@cnt@atomingroup=\count316
-\CF@cnt@groupnumber=\count317
-\CF@cnt@atomnumber=\count318
-\CF@cnt@cycle=\count319
+\CF@cnt@atomingroup=\count315
+\CF@cnt@groupnumber=\count316
+\CF@cnt@atomnumber=\count317
+\CF@cnt@cycle=\count318
 \CF@dim=\dimen349
 \CF@lewis@box=\box98
 \CF@box@boxa=\box99
 \CF@box@boxb=\box100
 \CF@stuff@box=\box101
 \CF@unused=\write6
-\CF@compound@cnt=\count320
+\CF@compound@cnt=\count319
 \CF@arrow@size=\dimen350
 )
 Package: chemfig 2015/12/01 v1.2d Draw molecule with an easy syntax
@@ -1402,9 +1401,9 @@ File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cutwin/cutwin.sty
 Package: cutwin 2010/09/29 v0.1 cutout windows
-\c@twwinlines=\count321
-\c@twtoplines=\count322
-\c@twcnt=\count323
+\c@twwinlines=\count320
+\c@twtoplines=\count321
+\c@twcnt=\count322
 \c@twlftside=\dimen351
 \c@twrtside=\dimen352
 \c@twtopht=\dimen353
@@ -1427,8 +1426,8 @@ Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
 \t@pgfplots@tokb=\toks50
 \t@pgfplots@tokc=\toks51
 \pgfplots@tmpa=\dimen355
-\c@pgfplots@coordindex=\count324
-\c@pgfplots@scanlineindex=\count325
+\c@pgfplots@coordindex=\count323
+\c@pgfplots@scanlineindex=\count324
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -1444,7 +1443,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 soldpgfsupp_pgflibraryfpu.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
 soldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count326
+\c@pgfmathroundto@lastzeros=\count325
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
 .tex
@@ -1454,13 +1453,13 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count327
+\c@pgfplotsarray@tmp=\count326
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count328
+\c@pgfplotstable@counta=\count327
 \t@pgfplotstable@a=\toks52
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
@@ -1473,7 +1472,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count329
+\c@pgfplotslibrarysurf@no=\count328
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -1510,7 +1509,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen358
 \pgfdecoratedinputsegmentremainingdistance=\dimen359
 \pgf@decorate@distancetomove=\dimen360
-\pgf@decorate@repeatstate=\count330
+\pgf@decorate@repeatstate=\count329
 \pgfdecorationsegmentamplitude=\dimen361
 \pgfdecorationsegmentlength=\dimen362
 )
@@ -1524,7 +1523,7 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count331
+\pgfplots@numplots=\count330
 \pgfplots@xmin@reg=\dimen363
 \pgfplots@xmax@reg=\dimen364
 \pgfplots@ymin@reg=\dimen365
@@ -1546,12 +1545,12 @@ Package: movie15 2012/05/16
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
-\@MXV@page=\count332
-\@MXV@adict=\count333
-\@MXV@aadict=\count334
-\@MXV@includes=\count335
-\@MXV@players=\count336
-\@MXV@links=\count337
+\@MXV@page=\count331
+\@MXV@adict=\count332
+\@MXV@aadict=\count333
+\@MXV@includes=\count334
+\@MXV@players=\count335
+\@MXV@links=\count336
 \@MXV@width=\dimen369
 \@MXV@height=\dimen370
 \@MXV@depth=\dimen371
@@ -1569,11 +1568,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 53.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks53
-\MT@count=\count338
+\MT@count=\count337
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen378
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count339
+\MT@listname@count=\count338
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
@@ -1589,7 +1588,7 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count340
+\c@lips@count=\count339
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -1603,12 +1602,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen386
 \cmidrulekern=\dimen387
 \defaultaddspace=\dimen388
-\@cmidla=\count341
-\@cmidlb=\count342
+\@cmidla=\count340
+\@cmidlb=\count341
 \@aboverulesep=\dimen389
 \@belowrulesep=\dimen390
-\@thisruleclass=\count343
-\@lastruleclass=\count344
+\@thisruleclass=\count342
+\@lastruleclass=\count343
 \@thisrulewidth=\dimen391
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
@@ -1616,11 +1615,11 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count345
+\FV@CodeLineNo=\count344
 \FV@InFile=\read2
 \FV@TabBox=\box110
-\c@FancyVerbLine=\count346
-\FV@StepNumber=\count347
+\c@FancyVerbLine=\count345
+\FV@StepNumber=\count346
 \FV@OutFile=\write7
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
@@ -1660,15 +1659,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count348
+\etb@tempcnta=\count347
 )
 \tcb@titlebox=\box111
 \tcb@upperbox=\box112
 \tcb@lowerbox=\box113
 \tcb@phantombox=\box114
-\c@tcbbreakpart=\count349
-\c@tcblayer=\count350
-\tcolorbox@number=\count351
+\c@tcbbreakpart=\count348
+\c@tcblayer=\count349
+\tcolorbox@number=\count350
 \tcb@temp=\box115
 \tcb@temp=\box116
 \tcb@temp=\box117
@@ -1678,9 +1677,9 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '3.91'
-\c@tcbrastercolumn=\count352
-\c@tcbrasterrow=\count353
-\c@tcbraster=\count354
+\c@tcbrastercolumn=\count351
+\c@tcbrasterrow=\count352
+\c@tcbraster=\count353
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '3.91'
 \tcb@waterbox=\box119
@@ -1702,7 +1701,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '3.91'
 \tcbfitdim=\dimen392
 \tcb@lowerfitdim=\dimen393
 \tcb@upperfitdim=\dimen394
-\tcb@cur@hbadness=\count355
+\tcb@cur@hbadness=\count354
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '3.91'
 .................................................
@@ -1716,8 +1715,8 @@ Library (tcolorbox): 'tcbxparse.code.tex' version '3.91'
 . Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
 .................................................
 ))
-\c@tcb@cnt@example=\count356
-\c@tcb@cnt@problem=\count357
+\c@tcb@cnt@example=\count355
+\c@tcb@cnt@problem=\count356
  (/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks56
@@ -1725,20 +1724,20 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen395
 \enit@toks=\toks57
 \enit@inbox=\box123
-\enitdp@description=\count358
+\enitdp@description=\count357
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count359
-\c@DefaultDepth=\count360
+\c@DefaultLines=\count358
+\c@DefaultDepth=\count359
 \DefaultFindent=\dimen396
 \DefaultNindent=\dimen397
 \DefaultSlope=\dimen398
 \DiscardVskip=\dimen399
 \L@lbox=\box124
 \L@tbox=\box125
-\c@L@lines=\count361
-\c@L@depth=\count362
+\c@L@lines=\count360
+\c@L@depth=\count361
 \L@Pindent=\dimen400
 \L@Findent=\dimen401
 \L@Nindent=\dimen402
@@ -1801,14 +1800,14 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count363
+\c@abspage=\count362
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip115
-\c@mdf@globalstyle@cnt=\count364
+\c@mdf@globalstyle@cnt=\count363
 \mdf@skipabove@length=\skip116
 \mdf@skipbelow@length=\skip117
 \mdf@leftmargin@length=\skip118
@@ -1884,7 +1883,7 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip179
 \mdfsubtitleheight=\skip180
 \mdfsubsubtitleheight=\skip181
-\c@mdfcountframes=\count365
+\c@mdfcountframes=\count364
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -1900,32 +1899,32 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count366
-\c@mdf@env@i=\count367
-\c@mdf@env@ii=\count368
-\c@mdf@zref@counter=\count369
+\mdf@envdepth=\count365
+\c@mdf@env@i=\count366
+\c@mdf@env@ii=\count367
+\c@mdf@zref@counter=\count368
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count370
-\c@Blindtext=\count371
-\c@blind@countparstart=\count372
-\blind@countxx=\count373
-\blindtext@numBlindtext=\count374
-\blind@countyy=\count375
-\c@blindlist=\count376
-\c@blindlistlevel=\count377
-\c@blindlist@level=\count378
-\blind@listitem=\count379
-\c@blind@listcount=\count380
-\c@blind@levelcount=\count381
-\blind@mathformula=\count382
-\blind@Mathformula=\count383
-\c@blind@randomcount=\count384
-\c@blind@randommax=\count385
-\c@blind@pangramcount=\count386
-\c@blind@pangrammax=\count387
+\c@blindtext=\count369
+\c@Blindtext=\count370
+\c@blind@countparstart=\count371
+\blind@countxx=\count372
+\blindtext@numBlindtext=\count373
+\blind@countyy=\count374
+\c@blindlist=\count375
+\c@blindlistlevel=\count376
+\c@blindlist@level=\count377
+\blind@listitem=\count378
+\c@blind@listcount=\count379
+\c@blind@levelcount=\count380
+\blind@mathformula=\count381
+\blind@Mathformula=\count382
+\c@blind@randomcount=\count383
+\c@blind@randommax=\count384
+\c@blind@pangramcount=\count385
+\c@blind@pangrammax=\count386
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -2401,8 +2400,8 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforefigskip=\skip267
 \cftfigindent=\skip268
 \cftfignumwidth=\skip269
-\c@lofdepth=\count388
-\c@lotdepth=\count389
+\c@lofdepth=\count387
+\c@lotdepth=\count388
 \cftbeforelottitleskip=\skip270
 \cftafterlottitleskip=\skip271
 \cftbeforetabskip=\skip272
@@ -2546,7 +2545,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count390
+\g_MT_multlinerow_int=\count389
 \l_MT_multwidth_dim=\dimen417
 \origjot=\skip277
 \l_MT_shortvdotswithinadjustabove_dim=\dimen418
@@ -2558,13 +2557,13 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/empheq.sty
 Package: empheq 2014/07/16 v2.14 Emphasizing equations
-\l_EQ_equationtype_int=\count391
-\l_EQ_alignmentmode_int=\count392
+\l_EQ_equationtype_int=\count390
+\l_EQ_alignmentmode_int=\count391
 \l_EQ_totalwidth_dim=\dimen424
 \l_EQ_displaywidth_dim=\dimen425
 \l_EQ_temp_linewidth_dim=\dimen426
 \EmphEqdelimitershortfall=\dimen427
-\EmphEqdelimiterfactor=\count393
+\EmphEqdelimiterfactor=\count392
 \g_EQ_toptag_height_dim=\dimen428
 \g_EQ_bottomtag_depth_dim=\dimen429
 \g_EQ_toprow_height_dim=\dimen430
@@ -2572,7 +2571,7 @@ Package: empheq 2014/07/16 v2.14 Emphasizing equations
 \g_EQ_widesttag_dim=\dimen432
 \EQ_mathdisplay_box=\box151
 \EQ_tag_box=\box152
-\g_EQ_temprow_int=\count394
+\g_EQ_temprow_int=\count393
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty
 Package: hf-tikz 2014/07/25 v0.3a A simple way to highlight formulas and formul
@@ -2608,7 +2607,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@old@col=\dimen435
 \TX@target=\dimen436
 \TX@delta=\dimen437
-\TX@cols=\count395
+\TX@cols=\count394
 \TX@ftn=\toks63
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
@@ -2640,7 +2639,7 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \Verbatim@Outfile=\write11
 \Verbatim@Infile=\read4
 )
-\enitdp@where=\count396
+\enitdp@where=\count395
  (/usr/local/texlive/2016/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2013/04/19 v0.3a Automatic creation of smart diagrams fro
 m lists of items.
@@ -2648,8 +2647,8 @@ m lists of items.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write12
-\integerpart=\count397
-\decimalpart=\count398
+\integerpart=\count396
+\decimalpart=\count397
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -2701,21 +2700,21 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count399
+\c@r@tfl@t=\count398
 \rotFPtop=\skip279
 \rotFPbot=\skip280
 \rot@float@box=\box163
 \rot@mess@toks=\toks68
 )
-\c@saveenumerate=\count400
-\c@figurenewcounter=\count401
-\c@tablenewcounter=\count402
-\c@formulanewcounter=\count403
-\c@tcb@cnt@summary=\count404
+\c@saveenumerate=\count399
+\c@figurenewcounter=\count400
+\c@tablenewcounter=\count401
+\c@formulanewcounter=\count402
+\c@tcb@cnt@summary=\count403
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count405
+\c@ifsymcnt=\count404
 )
 (/usr/local/texlive/texmf-local/tex/latex/carbohydrates/carbohydrates.sty
 Package: carbohydrates 2015/12/01 v0.1 carbohydrate molecules with chemfig (CN)
@@ -2755,7 +2754,7 @@ Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 197
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen439
-\c@nlinenum=\count406
+\c@nlinenum=\count405
 \TeXr@lab=\toks69
 )
 .................................................
@@ -2763,8 +2762,8 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 . 
 . Defining command \newstep with sig. 'o' on line 1343.
 .................................................
-\c@stepsi=\count407
-\enitdp@steps=\count408
+\c@stepsi=\count406
+\enitdp@steps=\count407
 \tempfile=\write13
 .................................................
 . LaTeX info: "xparse/redefine-command"
@@ -2790,14 +2789,14 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen446
 \caption@hangindent=\dimen447
 )
-\c@ContinuedFloat=\count409
+\c@ContinuedFloat=\count408
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count410
+\c@float@type=\count409
 \float@exts=\toks70
 \float@box=\box164
 \@float@everytoks=\toks71
@@ -2805,16 +2804,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/floatflt/floatflt.sty
 Package: floatflt 1997/07/16 v. 1.31
-\c@OptionTest=\count411
+\c@OptionTest=\count410
 \figbox=\box166
 \tabbox=\box167
 \pagebox=\box168
-\ffigcount=\count412
-\ftabcount=\count413
-\fftest=\count414
-\hangcount=\count415
-\nosuccesstryfig=\count416
-\nosuccesstrytab=\count417
+\ffigcount=\count411
+\ftabcount=\count412
+\fftest=\count413
+\hangcount=\count414
+\nosuccesstryfig=\count415
+\nosuccesstrytab=\count416
 \figgutter=\dimen448
 \tabgutter=\dimen449
 \htdone=\dimen450
@@ -2850,16 +2849,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip283
 \LTpre=\skip284
 \LTpost=\skip285
-\LTchunksize=\count418
+\LTchunksize=\count417
 \LTcapwidth=\dimen456
 \LT@head=\box171
 \LT@firsthead=\box172
 \LT@foot=\box173
 \LT@lastfoot=\box174
-\LT@cols=\count419
-\LT@rows=\count420
-\c@LT@tables=\count421
-\c@LT@chunks=\count422
+\LT@cols=\count418
+\LT@rows=\count419
+\c@LT@tables=\count420
+\c@LT@chunks=\count421
 \LT@p@ftn=\toks73
 )
 \tablebox=\box175
@@ -2894,34 +2893,34 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count423
+\c@checkoddpage=\count422
 LaTeX Info: Redefining \checkoddpage on input line 45.
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box177
 \l__siunitx_tmp_dim=\dimen465
-\l__siunitx_tmp_int=\count424
-\l__siunitx_number_mantissa_length_int=\count425
-\l__siunitx_number_uncert_length_int=\count426
-\l__siunitx_round_int=\count427
-\l__siunitx_process_decimal_int=\count428
-\l__siunitx_process_uncertainty_int=\count429
-\l__siunitx_process_fixed_int=\count430
-\l__siunitx_process_integer_min_int=\count431
-\l__siunitx_process_precision_int=\count432
-\l__siunitx_group_min_int=\count433
+\l__siunitx_tmp_int=\count423
+\l__siunitx_number_mantissa_length_int=\count424
+\l__siunitx_number_uncert_length_int=\count425
+\l__siunitx_round_int=\count426
+\l__siunitx_process_decimal_int=\count427
+\l__siunitx_process_uncertainty_int=\count428
+\l__siunitx_process_fixed_int=\count429
+\l__siunitx_process_integer_min_int=\count430
+\l__siunitx_process_precision_int=\count431
+\l__siunitx_group_min_int=\count432
 \l__siunitx_angle_marker_box=\box178
 \l__siunitx_angle_unit_box=\box179
 \l__siunitx_angle_marker_dim=\dimen466
 \l__siunitx_angle_unit_dim=\dimen467
-\l__siunitx_unit_int=\count434
-\l__siunitx_unit_denominator_int=\count435
-\l__siunitx_unit_numerator_int=\count436
-\l__siunitx_unit_prefix_int=\count437
-\l__siunitx_unit_prefix_base_int=\count438
-\l__siunitx_unit_prefix_gram_int=\count439
-\l__siunitx_number_product_int=\count440
+\l__siunitx_unit_int=\count433
+\l__siunitx_unit_denominator_int=\count434
+\l__siunitx_unit_numerator_int=\count435
+\l__siunitx_unit_prefix_int=\count436
+\l__siunitx_unit_prefix_base_int=\count437
+\l__siunitx_unit_prefix_gram_int=\count438
+\l__siunitx_number_product_int=\count439
 \c__siunitx_one_fill_skip=\skip286
 \l__siunitx_table_unit_align_skip=\skip287
 \l__siunitx_table_exponent_dim=\dimen468
@@ -3073,7 +3072,7 @@ fillbetween.code.tex
 s/tikzlibraryintersections.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
 ctions.code.tex
-\pgf@intersect@solutions=\count441
+\pgf@intersect@solutions=\count440
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
 decorations.softclip.code.tex
@@ -3085,16 +3084,16 @@ ts.decorations.softclip.code.tex))
 ts.colormaps.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count442
+\linenopenalty=\count441
 \output=\toks74
-\linenoprevgraf=\count443
+\linenoprevgraf=\count442
 \linenumbersep=\dimen477
 \linenumberwidth=\dimen478
-\c@linenumber=\count444
-\c@pagewiselinenumber=\count445
-\c@LN@truepage=\count446
-\c@internallinenumber=\count447
-\c@internallinenumbers=\count448
+\c@linenumber=\count443
+\c@pagewiselinenumber=\count444
+\c@LN@truepage=\count445
+\c@internallinenumber=\count446
+\c@internallinenumbers=\count447
 \quotelinenumbersep=\dimen479
 \bframerule=\dimen480
 \bframesep=\dimen481
@@ -3116,16 +3115,16 @@ Package: spath 2011/06/03 v1.0 Functions for manipulating PGF soft paths
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.te
 x
-\pgfoo@objectcount=\count449
-\pgfoothis@count=\count450
+\pgfoo@objectcount=\count448
+\pgfoothis@count=\count449
 \pgfoo@toks=\toks75
 )
 \spath@trx=\dimen482
 \spath@try=\dimen483
-\c@spath@length=\count451
-\c@spath@reallength=\count452
-\c@spath@components=\count453
-\c@spath@array=\count454
+\c@spath@length=\count450
+\c@spath@reallength=\count451
+\c@spath@components=\count452
+\c@spath@array=\count453
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/scalerel/scalerel.sty
 Package: scalerel 2015/02/18 v1.7 Routines for constrained scaling and stretchi
 ng of objects, relative to a reference object or in absolute terms
@@ -3169,9 +3168,9 @@ mistry documents (CN)
 \l__chemmacros_tmpa_dim=\dimen484
 \l__chemmacros_tmpb_dim=\dimen485
 \l__chemmacros_tmpc_dim=\dimen486
-\l__chemmacros_tmpa_int=\count455
-\l__chemmacros_tmpb_int=\count456
-\l__chemmacros_tmpc_int=\count457
+\l__chemmacros_tmpa_int=\count454
+\l__chemmacros_tmpb_int=\count455
+\l__chemmacros_tmpc_int=\count456
 \l__chemmacros_tmpa_box=\box190
 \l__chemmacros_tmpb_box=\box191
 \l__chemmacros_tmpc_box=\box192
@@ -3246,9 +3245,9 @@ Package: translations 2016/04/19 v1.3 internationalization of LaTeX2e packages
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cnltx/cnltx-base.sty
 Package: cnltx-base 2015/08/17 v0.13 LaTeX tools and documenting facilities (CN
 )
-\c@cnltx@tmpa=\count458
-\c@cnltx@tmpb=\count459
-\c@cnltx@tmpc=\count460
+\c@cnltx@tmpa=\count457
+\c@cnltx@tmpb=\count458
+\c@cnltx@tmpc=\count459
 \cnltx@tmpa@length=\skip299
 \cnltx@tmpb@length=\skip300
 \cnltx@tmpc@length=\skip301
@@ -3647,7 +3646,7 @@ y
 Package: xtemplate 2016/05/18 v6512 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen494
-\l__xtemplate_tmp_int=\count461
+\l__xtemplate_tmp_int=\count460
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip302
 )
@@ -3680,7 +3679,7 @@ Package: xfrac 2016/05/18 v6512 L3 Experimental split-level fractions
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count462
+\l__chemmacros_ox_number_int=\count461
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -3712,8 +3711,8 @@ reactions' 2016/04/27 reaction environments
 . 
 . Defining command \AddRxnDesc with sig. 'm' on line 83.
 .................................................
-\c@chemmacros_save_reaction=\count463
-\c@reaction=\count464
+\c@chemmacros_save_reaction=\count462
+\c@reaction=\count463
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -3760,7 +3759,7 @@ s/tikzlibrarylindenmayersystems.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibrarylindenm
 ayersystems.code.tex
 \pgflsystemstep=\dimen503
-\c@pgf@lsystem@iteration=\count465
+\c@pgf@lsystem@iteration=\count464
 ))
 (/Users/daniel/Library/texmf/tex/latex/emerald/emerald.sty
 Package: emerald 2006/01/26 v1.0 LaTeX2e package which gives support for ECF (e
@@ -3791,8 +3790,8 @@ LaTeX Font Warning: Font shape `T1/ppl//' undefined
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
-\c@ttlp@side=\count466
-\ttlp@side=\count467
+\c@ttlp@side=\count465
+\ttlp@side=\count466
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
@@ -3807,7 +3806,7 @@ File: tikzlibrarycalendar.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.3)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count468
+\pgfcalendarcurrentjulian=\count467
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryer.code.tex
@@ -3819,7 +3818,7 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 (/usr/local/texlive/2016/texmf-dist/tex/latex/stackengine/stackengine.sty
 Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
 ways
-\c@@stackindex=\count469
+\c@@stackindex=\count468
 \@boxshift=\skip303
 \stack@tmplength=\skip304
 \temp@stkl=\skip305
@@ -3828,39 +3827,39 @@ ways
 \@anchorbox=\box197
 \stackedbox=\box198
 \@centerbox=\box199
-\c@ROWcellindex@=\count470
+\c@ROWcellindex@=\count469
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tasks/tasks.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count471
-\d@lta=\count472
+\@@multicnt=\count470
+\d@lta=\count471
 \@delta=\dimen510
 \@@delta=\dimen511
-\@gridcnt=\count473
-\@joinkind=\count474
+\@gridcnt=\count472
+\@joinkind=\count473
 \@dotgap=\dimen512
 \@ddotgap=\dimen513
-\@x@diff=\count475
-\@y@diff=\count476
+\@x@diff=\count474
+\@y@diff=\count475
 \x@diff=\dimen514
 \y@diff=\dimen515
 \@dotbox=\box256
-\num@segments=\count477
-\num@segmentsi=\count478
+\num@segments=\count476
+\num@segmentsi=\count477
 \@datafile=\read6
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/cntformats/cntformats.sty
 Package: cntformats 2014/07/20 v0.7 A different way to read counters. (CN)
 )
 Package: tasks 2016/05/04 v0.11a Horizontalcolumnedlists (CN)
-\l__tasks_depth_int=\count479
-\g__tasks_int=\count480
-\g__tasks_total_items_int=\count481
-\l__tasks_columns_int=\count482
-\l__tasks_rows_int=\count483
-\g__tasks_current_col_num_int=\count484
-\g__tasks_current_row_num_int=\count485
-\l__tasks_item_columns_int=\count486
+\l__tasks_depth_int=\count478
+\g__tasks_int=\count479
+\g__tasks_total_items_int=\count480
+\l__tasks_columns_int=\count481
+\l__tasks_rows_int=\count482
+\g__tasks_current_col_num_int=\count483
+\g__tasks_current_row_num_int=\count484
+\l__tasks_item_columns_int=\count485
 \l__tasks_item_indent_dim=\dimen516
 \l__tasks_item_default_indent_dim=\dimen517
 \l__tasks_item_width_dim=\dimen518
@@ -3875,9 +3874,9 @@ Package: tasks 2016/05/04 v0.11a Horizontalcolumnedlists (CN)
 \l__tasks_after_list_skip=\skip310
 \l__tasks_item_coffin=\box257
 \l__tasks_label_coffin=\box258
-\c@task=\count487
-\l__tasks_tmpa_int=\count488
-\l__tasks_tmpb_int=\count489
+\c@task=\count486
+\l__tasks_tmpa_int=\count487
+\l__tasks_tmpb_int=\count488
 \l__tasks_tmpa_coffin=\box259
 .................................................
 . xtemplate info: "declare-object-type"
@@ -3945,28 +3944,28 @@ Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
 \QuestionIndent=\skip328
 \subQuestionIndent=\skip329
 \subsubQuestionIndent=\skip330
-\c@Exercise=\count490
-\c@Answer=\count491
-\c@ExePart=\count492
-\c@Question=\count493
-\c@subQuestion=\count494
-\c@subsubQuestion=\count495
-\c@savedQuestion=\count496
-\c@savedsubQuestion=\count497
-\c@savedsubsubQuestion=\count498
-\@QuestionLevel=\count499
+\c@Exercise=\count489
+\c@Answer=\count490
+\c@ExePart=\count491
+\c@Question=\count492
+\c@subQuestion=\count493
+\c@subsubQuestion=\count494
+\c@savedQuestion=\count495
+\c@savedsubQuestion=\count496
+\c@savedsubsubQuestion=\count497
+\@QuestionLevel=\count498
 \@Exercisebox=\box260
 \all@Exercisebox=\box261
 \temp@Exercisebox=\box262
 \all@Answerbox=\box263
 \temp@Answerbox=\box264
-\ExerciseDifficulty=\count500
-\QuestionDifficulty=\count501
-\subQuestionDifficulty=\count502
-\subsubQuestionDifficulty=\count503
-\ExePartDifficulty=\count504
+\ExerciseDifficulty=\count499
+\QuestionDifficulty=\count500
+\subQuestionDifficulty=\count501
+\subsubQuestionDifficulty=\count502
+\ExePartDifficulty=\count503
 \@Answerbox=\box265
-\colonnesLevel=\count505
+\colonnesLevel=\count504
 \tempskipa=\skip331
 \tempskipb=\skip332
 \@savedmathindent=\skip333
@@ -3978,25 +3977,25 @@ l colors using the xcolor package
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exsheets/exsheets.sty
 Package: exsheets 2016/02/01 v0.21b Yet another package for the creation of exe
 rcise sheets and exams.
-\l__exsheets_tmpa_int=\count506
-\l__exsheets_tmpb_int=\count507
-\l__exsheets_tmpc_int=\count508
-\l__exsheets_tmpd_int=\count509
-\l__exsheets_tmpe_int=\count510
+\l__exsheets_tmpa_int=\count505
+\l__exsheets_tmpb_int=\count506
+\l__exsheets_tmpc_int=\count507
+\l__exsheets_tmpd_int=\count508
+\l__exsheets_tmpe_int=\count509
 \l__exsheets_tmpa_dim=\dimen528
 \l__exsheets_tmpb_dim=\dimen529
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 Package: l3sort 2016/05/14 v6492 L3 Experimental sorting functions
-\l__sort_length_int=\count511
-\l__sort_block_int=\count512
-\l__sort_begin_int=\count513
-\l__sort_end_int=\count514
-\l__sort_A_int=\count515
-\l__sort_B_int=\count516
-\l__sort_C_int=\count517
+\l__sort_length_int=\count510
+\l__sort_block_int=\count511
+\l__sort_begin_int=\count512
+\l__sort_end_int=\count513
+\l__sort_A_int=\count514
+\l__sort_B_int=\count515
+\l__sort_C_int=\count516
 )
-\c@question=\count518
+\c@question=\count517
 \l__exsheets_questions_skip_below_dim=\dimen530
 \l__exsheets_solutions_skip_below_dim=\dimen531
 *************************************************
@@ -4049,7 +4048,7 @@ Package: l3sort 2016/05/14 v6492 L3 Experimental sorting functions
 . 
 . Defining command \totalpoints with sig. 's' on line 594.
 .................................................
-\l__exsheets_variations_int=\count519
+\l__exsheets_variations_int=\count518
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4105,8 +4104,8 @@ Package: l3sort 2016/05/14 v6492 L3 Experimental sorting functions
 . 
 . Defining command \PrintQuestionClassF with sig. 'mm' on line 978.
 .................................................
-\g__exsheets_questions_id_int=\count520
-\g__exsheets_questions_used_int=\count521
+\g__exsheets_questions_id_int=\count519
+\g__exsheets_questions_used_int=\count520
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4173,16 +4172,16 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 . 
 . Defining command \GetQuestionProperty with sig. 'mm' on line 1700.
 .................................................
-\g__exsheets_tmpa_int=\count522
-\l__exsheets_include_random_int=\count523
+\g__exsheets_tmpa_int=\count521
+\l__exsheets_include_random_int=\count522
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \includequestions with sig. 'om' on line 1841.
 .................................................
-\l__exsheets_questions_set_int=\count524
-\g__exsheets_select_random_int=\count525
-\g__exsheets_selection_number_int=\count526
+\l__exsheets_questions_set_int=\count523
+\g__exsheets_select_random_int=\count524
+\g__exsheets_selection_number_int=\count525
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4203,11 +4202,11 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 . 
 . Defining command \printsolutions with sig. 'O{all}' on line 2328.
 .................................................
-\l__exsheets_counter_ch_int=\count527
-\l__exsheets_current_ch_int=\count528
-\l__exsheets_counter_sec_int=\count529
-\l__exsheets_current_sec_int=\count530
-\l_exsheets_counter_qu_int=\count531
+\l__exsheets_counter_ch_int=\count526
+\l__exsheets_current_ch_int=\count527
+\l__exsheets_counter_sec_int=\count528
+\l__exsheets_current_sec_int=\count529
+\l_exsheets_counter_qu_int=\count530
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4225,7 +4224,7 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 \UL@skip=\skip334
 \UL@hook=\toks77
 \UL@height=\dimen534
-\UL@pe=\count532
+\UL@pe=\count531
 \UL@pixel=\dimen535
 \ULC@box=\box275
 Package: ulem 2012/05/18
@@ -4265,7 +4264,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count533
+\c@section@level=\count532
 )
 .................................................
 . LaTeX info: "xparse/define-environment"
@@ -4278,7 +4277,7 @@ Package: flushend 2015/04/14 v3.1 Balancing columns in twocolumn mode
 \flushend@@lastskip@a=\skip335
 \flushend@@lastskip@b=\skip336
 \flushend@@lastskip@c=\skip337
-\flushend@@penalty@a=\count534
+\flushend@@penalty@a=\count533
 \flushend@@lastkern@a=\dimen538
 \var@@temp@spread=\dimen539
 \var@@temp@a=\dimen540
@@ -4308,7 +4307,7 @@ File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
 Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
 ounters
 )
-\c@numA=\count535
+\c@numA=\count534
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
 Package: tkz-euclide 2011/06/01 1.16 c for plots 2d 
@@ -4328,10 +4327,10 @@ Package etex Warning: Extended allocation already in use.
 
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/numprint/numprint.sty
 Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count536
-\c@nprt@mantissa@digitsafter=\count537
-\c@nprt@exponent@digitsbefore=\count538
-\c@nprt@exponent@digitsafter=\count539
+\c@nprt@mantissa@digitsbefore=\count535
+\c@nprt@mantissa@digitsafter=\count536
+\c@nprt@exponent@digitsbefore=\count537
+\c@nprt@exponent@digitsafter=\count538
 \nprt@digitwidth=\skip338
 \nprt@sepwidth=\skip339
 \nprt@decimalwidth=\skip340
@@ -4339,12 +4338,12 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 \nprt@digittoks=\toks80
 \nprt@pretoks=\toks81
 \nprt@posttoks=\toks82
-\nprt@thisdigit=\count540
-\nprt@curpos=\count541
-\nprt@rndpos=\count542
-\c@nprt@digitsfirstblock=\count543
-\c@nprt@blockcnt=\count544
-\c@nprt@cntprint=\count545
+\nprt@thisdigit=\count539
+\nprt@curpos=\count540
+\nprt@rndpos=\count541
+\c@nprt@digitsfirstblock=\count542
+\c@nprt@blockcnt=\count543
+\c@nprt@cntprint=\count544
 
 No configuration file `numprint.cfg' found.)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp.sty
@@ -4353,19 +4352,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count546
+\actioncount=\count545
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count547
-\FP@xia=\count548
-\FP@xib=\count549
-\FP@xfa=\count550
-\FP@xfb=\count551
-\FP@rega=\count552
-\FP@regb=\count553
-\FP@regs=\count554
-\FP@times=\count555
+\FP@xs=\count546
+\FP@xia=\count547
+\FP@xib=\count548
+\FP@xfa=\count549
+\FP@xfb=\count550
+\FP@rega=\count551
+\FP@regb=\count552
+\FP@regs=\count553
+\FP@times=\count554
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -4384,7 +4383,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count556
+\FPseed=\count555
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -4417,7 +4416,7 @@ File: tkz-tool-arith.tex tkz-tool-arith 1.161 c
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-base/tkz-obj-points.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-base/tkz-obj-segments.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-base/tkz-obj-marks.tex
-\tkz@cntmk=\count557
+\tkz@cntmk=\count556
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-euclide/tkz-tools-intersectio
 ns.tex)
@@ -4489,25 +4488,25 @@ eX document
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
 ts.groupplots.code.tex
-\pgfplots@group@current@plot=\count558
-\pgfplots@group@current@row=\count559
-\pgfplots@group@current@column=\count560
+\pgfplots@group@current@plot=\count557
+\pgfplots@group@current@row=\count558
+\pgfplots@group@current@column=\count559
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/endiagram/endiagram.sty
 Package: endiagram 2014/06/28 v0.1d Easy creation of potential energy curve dia
 grams
 \l__endiagram_tmpa_dim=\dimen553
 \g__Endiagram_tmpa_dim=\dimen554
-\l__endiagram_points_int=\count561
-\g__endiagram_curve_int=\count562
-\g__endiagram_points_max_int=\count563
-\l__endiagram_points_counter_int=\count564
+\l__endiagram_points_int=\count560
+\g__endiagram_curve_int=\count561
+\g__endiagram_points_max_int=\count562
+\l__endiagram_points_counter_int=\count563
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ENcurve with sig. 'om' on line 318.
 .................................................
-\l__endiagram_niveau_counter_int=\count565
+\l__endiagram_niveau_counter_int=\count564
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4518,8 +4517,8 @@ grams
 . 
 . Defining command \ShowGain with sig. 'o' on line 569.
 .................................................
-\g__endiagram_ea_int=\count566
-\l__endiagram_ea_count_int=\count567
+\g__endiagram_ea_int=\count565
+\l__endiagram_ea_count_int=\count566
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4561,9 +4560,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen555
 \l__chemformula_tmpb_dim=\dimen556
 \l__chemformula_tmpc_dim=\dimen557
-\l__chemformula_tmpa_int=\count568
-\l__chemformula_tmpb_int=\count569
-\l__chemformula_tmpc_int=\count570
+\l__chemformula_tmpa_int=\count567
+\l__chemformula_tmpb_int=\count568
+\l__chemformula_tmpc_int=\count569
 \l__chemformula_tmpa_box=\box288
 \l__chemformula_tmpb_box=\box289
 \l__chemformula_arrow_length_dim=\dimen558
@@ -4596,8 +4595,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen585
 \l__chemformula_stoich_space_skip=\skip342
 \l__chemformula_math_space_skip=\skip343
-\l__chemformula_count_tokens_int=\count571
-\g__chemformula_lewis_int=\count572
+\l__chemformula_count_tokens_int=\count570
+\g__chemformula_lewis_int=\count571
 \l__chemformula_arrow_arg_i_box=\box290
 \l__chemformula_arrow_arg_ii_box=\box291
 \l__chemformula_superscript_box=\box292
@@ -4869,16 +4868,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count573
+\scratchcounter=\count572
 \scratchdimen=\dimen586
 \scratchbox=\box295
-\nofMPsegments=\count574
-\nofMParguments=\count575
+\nofMPsegments=\count573
+\nofMParguments=\count574
 \everyMPshowfont=\toks83
-\MPscratchCnt=\count576
+\MPscratchCnt=\count575
 \MPscratchDim=\dimen587
-\MPnumerator=\count577
-\makeMPintoPDFobject=\count578
+\MPnumerator=\count576
+\makeMPintoPDFobject=\count577
 \everyMPtoPDFconversion=\toks84
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -4886,8 +4885,10 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -4905,8 +4906,8 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@mv@tabular=\count579
-\c@mv@boldtabular=\count580
+\c@mv@tabular=\count578
+\c@mv@boldtabular=\count579
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5309.
 Package caption Info: Begin \AtBeginDocument code.
@@ -4966,7 +4967,7 @@ or `english'. on input line 5309.
 cfg
 File: exsheets_configurations.cfg 
 )
-\c__siunitx_mathsf_int=\count581
+\c__siunitx_mathsf_int=\count580
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5309
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -5040,7 +5041,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count582
+\c__siunitx_mathtt_int=\count581
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 530
 9.
 
@@ -5052,83 +5053,46 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../ChMIX-organic-molecules/ChMIX-organic-molecules.tex
-(../Ch-orgo/files/ChapterName
+(../ChMIX-biomolecules/ChMIX-biomolecules.tex
+(../Ch-biochemistry/files/ChapterName
 Chapter 1.
-) <../Ch-orgo/figure1.png, id=157, 1204.5pt x 803.0pt>
-File: ../Ch-orgo/figure1.png Graphic file (type png)
-
-<use ../Ch-orgo/figure1.png>
-Package pdftex.def Info: ../Ch-orgo/figure1.png used on input line 14.
-(pdftex.def)             Requested size: 140.54549pt x 93.69699pt.
- (../Ch-orgo/files/ChapterIntro)
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 19.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 )
-(../Ch-orgo/files/SectionGoal-Alkanes)
-(../Ch-orgo/files/SectionGoal-Alkanes-with-substituents)
+<../Ch-biochemistry/figure1.png, id=121, 2804.4775pt x 2308.625pt>
+File: ../Ch-biochemistry/figure1.png Graphic file (type png)
+<use ../Ch-biochemistry/figure1.png>
+Package pdftex.def Info: ../Ch-biochemistry/figure1.png  used on input line 14.
+
+(pdftex.def)             Requested size: 140.53163pt x 115.6846pt.
+ (../Ch-biochemistry/files/ChapterIntro)
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 25.
+line 59.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
 )
-(../Ch-orgo/files/SectionGoal-Molecular-diversity-Identifying-organic-acids-and
--bases) (../Ch-orgo/files/SectionGoal-Molecular-diversity)
-LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 31.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
-)
-(../Ch-electrolytes/files/SectionGoal-Solutions-and-composition-What-makes-a-so
-lution)
-(../Ch-thermochemistry/files/SectionGoal-Calorimetry-Exothermic-and-endothermic
--reactions--Exothermic-and-endothermic-reactions)
-Underfull \hbox (badness 2698) in paragraph at lines 1--39
-[]\T1/ptm/m/n/8 (+20) Identify exother-mic and en-
- []
-
-(../Ch-nuclear/files/SectionGoal-Radiation,-particles-and-radioisotopes)
-(../Ch-nuclear/files/SectionGoal-Half-life-of-a-radioisotope-The-concept-of-hal
-f-live)
-(../Ch-measurements/files/SectionGoal-Units-of-Measurements-and-systems-of-unit
-s) (../Ch-orgo/files/ChapterDiscussion
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 69.
+(Font)              <5> on input line 61.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 69.
+(Font)              scaled to size 8.33606pt on input line 61.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 69.
+(Font)              scaled to size 5.21004pt on input line 61.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 69.
+(Font)              scaled to size 8.33606pt on input line 61.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 69.
-
-
-LaTeX Warning: Marginpar on page 1 moved.
+(Font)              scaled to size 5.21004pt on input line 61.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 73.
+(hyperref)                removing `\color' on input line 67.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 67.
 
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 73.
+ut line 67.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5137,47 +5101,45 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
+line 67.
 
-(../Ch-Table/files/SectionIntro-The-periodic-table)
-(../Ch-Table/files/SubSection-The-periodic-table-Elements-and-Symbols
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
+)
+(../Ch-biochemistry/files/Figure-Biomolecules)
+(../Ch-biochemistry/files/SectionIntro-Biomolecules
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-b
+iochemistry/figure1.png (PNG copy)>])
+(../Ch-measurements/files/SectionIntro-Matter-and-density [2])
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 124.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 1.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 124.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-(../Ch-Table/problems/SampleProblem9 (../Ch-Table/problems/StudyCheck9)
-[1
+(../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
+tures) (../Ch-measurements/files/SubSection-Matter-and-density-Types-of-Mixture
+) (../Ch-measurements/problems/SampleProblem10
+(../Ch-measurements/problems/StudyCheck10
+Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-o
-rgo/figure1.png (PNG copy)>]) (../Ch-Table/files/Figure-The-periodic-table
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 288.
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 288.
-
-Overfull \hbox (0.644pt too wide) in paragraph at lines 288--288
- \T1/PTSansNarrow-TLF/b/n/24 Symbol 
  []
 
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 84.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 84.
-
-(../Ch-orgo/files/SectionIntro-Alkanes)
-(../Ch-orgo/files/SubSection-Alkanes-Identifying-organic-compounds [2])
-(../Ch-orgo/files/Table-Organic-Prefixes
+)) (../Ch-measurements/files/SubSection-Matter-and-density-Density)
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
+(../Ch-measurements/files/Table-Density [3]
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5189,621 +5151,20 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
-) (../Ch-orgo/files/SideFigure-Hydrocarbons
-<../Ch-orgo/figure3.png, id=190, 1284.8pt x 904.37875pt>
-File: ../Ch-orgo/figure3.png Graphic file (type png)
-
-<use ../Ch-orgo/figure3.png>
-Package pdftex.def Info: ../Ch-orgo/figure3.png used on input line 2.
-(pdftex.def)             Requested size: 113.80379pt x 80.1072pt.
-
-Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
- [] 
- []
-
-<../Ch-orgo/figure2.png, id=191, 321.2pt x 200.75pt>
-File: ../Ch-orgo/figure2.png Graphic file (type png)
-
-<use ../Ch-orgo/figure2.png>
-Package pdftex.def Info: ../Ch-orgo/figure2.png used on input line 7.
-(pdftex.def)             Requested size: 113.8087pt x 71.13043pt.
-
-Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-<../Ch-orgo/figure4.png, id=192, 385.44pt x 289.08pt>
-File: ../Ch-orgo/figure4.png Graphic file (type png)
-
-<use ../Ch-orgo/figure4.png>
-Package pdftex.def Info: ../Ch-orgo/figure4.png used on input line 12.
-(pdftex.def)             Requested size: 113.80968pt x 85.35725pt.
-
-Overfull \hbox (8.55995pt too wide) in paragraph at lines 11--15
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-) (../Ch-orgo/files/SubSection-Alkanes-Molecular-formulafor-alkanes)
-(../Ch-orgo/problems/SampleProblem1
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 6.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 6.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 6.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 6.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 6.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 6.
- (../Ch-orgo/problems/StudyCheck1))
-(../Ch-orgo/files/SubSection-Alkanes-Expanded-structural-formula-for-alkanes)
-(../Ch-orgo/files/Table-Alkane-names [3 <../Ch-orgo/figure3.png (PNG copy)> <..
-/Ch-orgo/figure2.png (PNG copy)> <../Ch-orgo/figure4.png>]
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 23.
-
-
-Overfull \hbox (101.5079pt too wide) in paragraph at lines 3--24
-[][] 
- []
-
-) (../Ch-orgo/files/SubSection-Alkanes-Condensed-structural-formula)
-(../Ch-orgo/problems/SampleProblem2 (../Ch-orgo/problems/StudyCheck2) [4])
-(../Ch-orgo/files/SideFigure-Alkanes
-<../Ch-orgo/figure5.png, id=218, 1505.625pt x 1388.93906pt>
-File: ../Ch-orgo/figure5.png Graphic file (type png)
-
-<use ../Ch-orgo/figure5.png>
-Package pdftex.def Info: ../Ch-orgo/figure5.png used on input line 2.
-(pdftex.def)             Requested size: 113.79001pt x 104.97128pt.
-
-Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--5
- [] 
- []
-
-<../Ch-orgo/figure6.png, id=220, 289.08pt x 242.9075pt>
-File: ../Ch-orgo/figure6.png Graphic file (type png)
-
-<use ../Ch-orgo/figure6.png>
-Package pdftex.def Info: ../Ch-orgo/figure6.png used on input line 7.
-(pdftex.def)             Requested size: 113.8082pt x 95.6305pt.
-
-Overfull \hbox (8.55995pt too wide) in paragraph at lines 6--10
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-<../Ch-orgo/figure7.png, id=221, 1505.625pt x 1319.68031pt>
-File: ../Ch-orgo/figure7.png Graphic file (type png)
-
-<use ../Ch-orgo/figure7.png>
-Package pdftex.def Info: ../Ch-orgo/figure7.png used on input line 12.
-(pdftex.def)             Requested size: 76.80194pt x 67.3169pt.
-
-Overfull \hbox (8.55995pt too wide) in paragraph at lines 11--15
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 5 moved.
-
-) (../Ch-orgo/files/SubSection-Alkanes-Skeletal-structural-formula)
-(../Ch-orgo/files/SubSection-Alkanes-A-review-of-the-different-structural-formu
-las) (../Ch-orgo/problems/SampleProblem3 (../Ch-orgo/problems/StudyCheck3)
-[5 <../Ch-orgo/figure5.png> <../Ch-orgo/figure6.png> <../Ch-orgo/figure7.png>])
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 111.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 111.
-
-(../Ch-orgo/files/SectionIntro-Alkanes-with-substituents)
-(../Ch-orgo/files/Table-Substituents
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 20.
-
-
-Overfull \hbox (103.90787pt too wide) in paragraph at lines 4--21
-[][] 
- []
-
-) (../Ch-orgo/files/SubSection-Alkanes-with-substituents-Substituents)
-(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-a-single-su
-bstituent [6])
-(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-two-or-more
--equal-substituents
-Underfull \hbox (badness 1365) in paragraph at lines 1--2
-[]\T1/ptm/m/n/10 (+20) In the same way as
- []
-
-) (../Ch-orgo/problems/SampleProblem6 (../Ch-orgo/problems/StudyCheck6))
-(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Alkanes-with-different-s
-ubstituents [7]) (../Ch-orgo/problems/SampleProblem7
-(../Ch-orgo/problems/StudyCheck7))
-(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Numbering-the-chain
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 4.
-
 )
-(../Ch-orgo/files/SubSection-Alkanes-with-substituents-Naming-rules-for-alkanes
-[8]) (../Ch-orgo/problems/SampleProblem8
+(../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
+of-objects) (../Ch-measurements/problems/SampleProblem12
+(../Ch-measurements/problems/StudyCheck12
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-(../Ch-orgo/problems/StudyCheck8)) (../Ch-orgo/files/Table-Functional-groups
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 17.
-
-
-Overfull \hbox (103.90787pt too wide) in paragraph at lines 3--18
-[][] 
  []
 
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 134.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 134.
-
-(../Ch-orgo/files/SectionIntro-Molecular-diversity [9])
-(../Ch-orgo/files/SideFigure-Acids
-<../Ch-orgo/figure10.png, id=262, 1304.875pt x 1304.875pt>
-File: ../Ch-orgo/figure10.png Graphic file (type png)
-
-<use ../Ch-orgo/figure10.png>
-Package pdftex.def Info: ../Ch-orgo/figure10.png used on input line 2.
-(pdftex.def)             Requested size: 113.80992pt x 113.80992pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
+)) (../Ch-measurements/files/Figure-Volume-objects
+Overfull \hbox (169.06755pt too wide) in paragraph at lines 56--57
  [] 
  []
 
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-<../Ch-orgo/figure14.png, id=263, 279.2031pt x 433.62pt>
-File: ../Ch-orgo/figure14.png Graphic file (type png)
-
-<use ../Ch-orgo/figure14.png>
-Package pdftex.def Info: ../Ch-orgo/figure14.png used on input line 14.
-(pdftex.def)             Requested size: 73.28125pt x 113.81041pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 13--23
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 10 moved.
-
-) (../Ch-orgo/files/SubSection-Molecular-diversity-Alkene-and-alkyne)
-(../Ch-orgo/problems/SampleProblem11 (../Ch-orgo/problems/StudyCheck11)
-[10 <../Ch-orgo/figure10.png (PNG copy)> <../Ch-orgo/figure14.png (PNG copy)>])
-(../Ch-orgo/files/SideFigure-cinnamon
-<../Ch-orgo/figure11.png, id=269, 298.11375pt x 170.6375pt>
-File: ../Ch-orgo/figure11.png Graphic file (type png)
-
-<use ../Ch-orgo/figure11.png>
-Package pdftex.def Info: ../Ch-orgo/figure11.png used on input line 2.
-(pdftex.def)             Requested size: 113.81206pt x 65.14494pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 11 moved.
-
-<../Ch-orgo/figure15.png, id=270, 217.81375pt x 232.87pt>
-File: ../Ch-orgo/figure15.png Graphic file (type png)
-
-<use ../Ch-orgo/figure15.png>
-Package pdftex.def Info: ../Ch-orgo/figure15.png used on input line 14.
-(pdftex.def)             Requested size: 106.45049pt x 113.8088pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 13--23
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 11 moved.
-
-<../Ch-orgo/figure16.png, id=271, 226.8475pt x 223.83624pt>
-File: ../Ch-orgo/figure16.png Graphic file (type png)
-
-<use ../Ch-orgo/figure16.png>
-Package pdftex.def Info: ../Ch-orgo/figure16.png used on input line 26.
-(pdftex.def)             Requested size: 113.81114pt x 112.30037pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 25--35
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 11 moved.
-
-) (../Ch-orgo/files/SubSection-Molecular-diversity-Aromatic-group)
-(../Ch-orgo/files/SubSection-Molecular-diversity-Alcohol,-ether-and-thiol-group
-) (../Ch-orgo/problems/SampleProblem12
-Underfull \hbox (badness 10000) in paragraph at lines 4--6
-
- []
-
-(../Ch-orgo/problems/StudyCheck12) [11 <../Ch-orgo/figure11.png (PNG copy)> <..
-/Ch-orgo/figure15.png (PNG copy)> <../Ch-orgo/figure16.png (PNG copy)>])
-(../Ch-orgo/files/SideFigure-Meat
-<../Ch-orgo/figure18.png, id=276, 1159.33125pt x 602.25pt>
-File: ../Ch-orgo/figure18.png Graphic file (type png)
-
-<use ../Ch-orgo/figure18.png>
-Package pdftex.def Info: ../Ch-orgo/figure18.png used on input line 2.
-(pdftex.def)             Requested size: 113.79942pt x 59.11658pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
- [] 
- []
-
-<../Ch-orgo/figure19.png, id=277, 592.2125pt x 301.125pt>
-File: ../Ch-orgo/figure19.png Graphic file (type png)
-
-<use ../Ch-orgo/figure19.png>
-Package pdftex.def Info: ../Ch-orgo/figure19.png used on input line 14.
-(pdftex.def)             Requested size: 113.8047pt x 57.86679pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 13--23
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 12 moved.
-
-) (../Ch-orgo/files/SubSection-Molecular-diversity-Aldehydes-and-ketones)
-(../Ch-orgo/problems/SampleProblem13 (../Ch-orgo/problems/StudyCheck13)
-[12 <../Ch-orgo/figure18.png (PNG copy)> <../Ch-orgo/figure19.png (PNG copy)>])
-(../Ch-orgo/files/SideFigure-Acetone
-<../Ch-orgo/figure8.png, id=285, 122.6768pt x 273.28992pt>
-File: ../Ch-orgo/figure8.png Graphic file (type png)
-
-<use ../Ch-orgo/figure8.png>
-Package pdftex.def Info: ../Ch-orgo/figure8.png used on input line 2.
-(pdftex.def)             Requested size: 51.08774pt x 113.80934pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 1--11
- [] 
- []
-
-<../Ch-orgo/figure17.png, id=286, 277.035pt x 183.68625pt>
-File: ../Ch-orgo/figure17.png Graphic file (type png)
-
-<use ../Ch-orgo/figure17.png>
-Package pdftex.def Info: ../Ch-orgo/figure17.png used on input line 14.
-(pdftex.def)             Requested size: 113.80911pt x 75.46039pt.
-
-Overfull \hbox (9.35425pt too wide) in paragraph at lines 13--23
- [] 
- []
-
-
-LaTeX Warning: Marginpar on page 13 moved.
-
-) (../Ch-orgo/files/SubSection-Molecular-diversity-Carboxylic-acids-and-esters)
-(../Ch-orgo/problems/SampleProblem14 (../Ch-orgo/problems/StudyCheck14)
-[13 <../Ch-orgo/figure8.png (PNG copy)> <../Ch-orgo/figure17.png (PNG copy)>])
-(../Ch-orgo/files/SubSection-Molecular-diversity-Amines-and-amides)
-(../Ch-orgo/problems/SampleProblem15 (../Ch-orgo/problems/StudyCheck15)
-[14])
-(../Ch-orgo/files/SubSection-Molecular-diversity-Identifying-organic-acids-and-
-bases) (../Ch-orgo/problems/SampleProblem16
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
-(../Ch-orgo/problems/StudyCheck16)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\color' on input line 166.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 166.
-
-(../Ch-electrolytes/files/SectionIntro-Solutions-and-composition)
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-What-makes-a-sol
-ution [16])
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Types-of-solutio
-ns) (../Ch-electrolytes/problems/SampleProblem1
-(../Ch-electrolytes/problems/StudyCheck1))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 174.
-
-
-(../Ch-thermochemistry/files/SubSection-Calorimetry-Exothermic-and-endothermic-
-reactions--Exothermic-and-endothermic-reactions)
-(../Ch-thermochemistry/problems/SampleProblem14
-(../Ch-thermochemistry/problems/StudyCheck14) [17])
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 180.
-
-(../Ch-nuclear/files/SectionIntro-Radiation,-particles-and-radioisotopes)
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-alpha-ra
-diation)
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-beta-rad
-iation)
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-gamma-ra
-diation)
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-protons)
-
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-positron
-s)
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-neutrons
-)
-(../Ch-nuclear/files/SubSection-Radiation,-particles-and-radioisotopes-Radioiso
-tope-notation [18]) (../Ch-nuclear/files/Table-Nuclear-symbols
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 22.
-
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 201.
-
-(../Ch-nuclear/files/SectionIntro-Nuclear-reactions)
-(../Ch-nuclear/files/SubSection-Nuclear-reactions-alpha-decay)
-(../Ch-nuclear/files/SubSection-Nuclear-reactions-beta-decay)
-(../Ch-nuclear/files/SubSection-Nuclear-reactions-positron-emission)
-(../Ch-nuclear/files/SubSection-Nuclear-reactions-gamma-decay)
-(../Ch-nuclear/problems/SampleProblem2
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
-
- []
-
-(../Ch-nuclear/problems/StudyCheck2) [19]) (../Ch-nuclear/files/Table-Halflife
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 32.
-
-)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 216.
-
-(../Ch-nuclear/files/SectionIntro-Half-life-of-a-radioisotope)
-(../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-The-concept-of-half
--live [20]) (../Ch-nuclear/problems/SampleProblem8
-(../Ch-nuclear/problems/StudyCheck8
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
-
- []
-
-))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 226.
-
-
-(../Ch-measurements/files/SectionIntro-Units-of-Measurements-and-systems-of-uni
-ts)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Length)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Volume [21])
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Mass)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Temperature)
-(../Ch-measurements/files/SubSection-Units-of-Measurements-and-systems-of-units
--Time) (../Ch-measurements/problems/SampleProblem1
-(../Ch-measurements/problems/StudyCheck1
-Underfull \hbox (badness 10000) in paragraph at lines 11--1
-
- []
-
-)) (../Ch-measurements/files/Table-Unit-systems
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
-
-)
-Overfull \hbox (1.38701pt too wide) in paragraph at lines 3--236
-[][] 
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 239.
-
-(../Ch-measurements/files/SectionIntro-Prefixes-Conversion-Factors [22])
-(../Ch-measurements/files/Table-Prefixes
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 33.
-
-)
-(../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-identif
-y-prefixes)
-(../Ch-measurements/files/SubSection-Prefixes-Conversion-Factors-How-to-write-u
-nit-equalities-and-conversion-factors)
-(../Ch-measurements/problems/SampleProblem2
-(../Ch-measurements/problems/StudyCheck2
-Underfull \hbox (badness 10000) in paragraph at lines 13--1
-
- []
-
-) [23]) [24] [25
-
-])
-(../ChMIX-organic-molecules/ChMIX-organic-moleculesProblems.tex
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=481.87546pt
-* \textheight=702.78308pt
-* \oddsidemargin=-14.45378pt
-* \evensidemargin=-14.45378pt
-* \topmargin=-43.1381pt
-* \headheight=14.0pt
-* \headsep=28.0pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-Package mdframed Info: mdframed works in twoside mode on input line 12.
-Package mdframed Info: Not enough space on this page on input line 12.
-
-(../Ch-orgo/problems/problems/Problems-Alkanes
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
-vailable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 9.
-)
-(../Ch-orgo/problems/problems/Problems-Alkanes-with-substituents)
-(../Ch-orgo/problems/problems/Problems-Functional-groups [26
-
-
-])
-(../Ch-electrolytes/problems/problems/Problems-Solutions-and-composition-What-m
-akes-a-solution) (../Ch-thermochemistry/problems/problems/Problems-Exo-endo)
-(../Ch-nuclear/problems/problems/Problems-Radiation-particles-and-radioisotopes
-[27]) (../Ch-nuclear/problems/problems/Problems-Nuclear-reactions)
-(../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-The-conce
-pt-of-half-live)
-(../Ch-measurements/problems/problems/Problems-Units-and-measurements)
-(../Ch-measurements/problems/problems/Problems-Identify-Prefixes-Conversion-Fac
-tors) [28]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=481.87546pt
-* \textheight=702.78308pt
-* \oddsidemargin=-14.45378pt
-* \evensidemargin=-14.45378pt
-* \topmargin=-43.1381pt
-* \headheight=14.0pt
-* \headsep=28.0pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 53.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 45--55
-[]$[]$ 
- []
-
-[29
+) [4] [5
 
 ])
 
@@ -5824,7 +5185,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5394.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5394.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BCE32C0DB9336B0A7D359C46DFFB5169;2353.
+(rerunfilecheck)             Checksum: 464142AA47BC2B8D9F97F3E1D4B1DE99;447.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5833,52 +5194,41 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
  ) 
 Here is how much of TeX's memory you used:
- 84748 strings out of 493014
- 1909435 string characters out of 6133351
- 2782596 words of memory out of 5000000
- 85837 multiletter control sequences out of 15000+600000
- 300135 words of font info for 380 fonts, out of 8000000 for 9000
+ 81177 strings out of 493014
+ 1828314 string characters out of 6133351
+ 2616334 words of memory out of 5000000
+ 82917 multiletter control sequences out of 15000+600000
+ 150131 words of font info for 216 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,26n,111p,10369b,2029s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/
-enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
-ype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
-me/fontawesomethree.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fon
-tawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
-/fontawesome/fontawesomeone.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
-lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
-/lmr9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/ut
-mri8a.pfb>
-Output written on main.pdf (29 pages, 10771963 bytes).
+ 71i,14n,107p,10369b,2068s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
+6/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-di
+st/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
+nc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
+aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+aratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pa
+latino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 5650900 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
- 221 named destinations out of 1000 (max. 500000)
- 85549 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 50080 words of extra memory for PDF output out of 51595 (max. 10000000)
 
