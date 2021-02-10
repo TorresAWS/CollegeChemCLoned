@@ -3,7 +3,7 @@
 \newcommand\chapterlabel{ChMIX-biomolecules}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
 
 \begin{document}
-
+\setcounter{chapter}{2}
 
 
 \import{../Ch-biochemistry/files/}{ChapterName}\begin{marginfigure}\includegraphics{../Ch-biochemistry/figure1} \end{marginfigure}\import{../Ch-biochemistry/files/}{ChapterIntro}
@@ -24,12 +24,14 @@
 \begin{center}\textcolor{blue}{\faTint  Electrolytes and solutions }\end{center}
 \begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
 \import{../Ch-measurements/files/}{SectionGoal-Matter-and-density}
+\import{../Ch-electrolytes/files/}{SectionGoal-polarity}
+
 \end{enumerate}
-%
-%\begin{center}\textcolor{blue}{\faFire Reactions and energy} \end{center}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%\import{../Ch-thermochemistry/files/}{SectionGoal-Calorimetry-Exothermic-and-endothermic-reactions--Exothermic-and-endothermic-reactions}
-%\end{enumerate}
+
+\begin{center}\textcolor{blue}{\faFire Reactions and energy} \end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{../Ch-thermochemistry/files/}{SectionGoal-Energy-value}
+\end{enumerate}
 %
 \begin{center}\textcolor{blue}{\faFlash The chemistry of cancer} \end{center}
 \begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
@@ -51,7 +53,7 @@
   arc=0pt,outer arc=0pt,drop heavy lifted shadow]
 \faGears\ 
  \import{../Ch-biochemistry/files/}{ChapterDiscussion}
-\end{tcolorbox}
+ 
 \end{marginfigure}%LEARNING GOALS BOX
 
 
@@ -71,16 +73,9 @@
 \item[\docfilehook{Conjugated acids and bases}{}]\import{../Ch-acidbase/files/}{Subsection-Dissociation-of-acids-and-base-Conjugate-organic-acids-and-bases}
 \import{../Ch-acidbase/problems/}{SampleProblem4}
    \end{description}
+ 
 
-% \section{\faFire Reactions and energy}
-%\sloppy \begin{description}
-%\item[\docfilehook{Exothermic and endothermic reactions}{ }]  \import{../Ch-thermochemistry/files/}{SubSection-Calorimetry-Exothermic-and-endothermic-reactions--Exothermic-and-endothermic-reactions}
-%  \import{../Ch-thermochemistry/problems/}{SampleProblem14}
-%  \end{description}
-
-
-
-\section{\faTint Density}
+\section{\faTint Density and empirical polarity}
 \import{../Ch-measurements/files/}{SectionIntro-Matter-and-density}
 \sloppy\begin{description}
 \item[\docfilehook{Density }{}]\import{../Ch-measurements/files/}{SubSection-Matter-and-density-Density}
@@ -89,8 +84,17 @@
 \import{../Ch-measurements/problems/}{SampleProblem11}
 \item[\docfilehook{Density and the volume of objects}{}]\import{../Ch-measurements/files/}{SubSection-Matter-and-density-Density-and-the-volume-of-objects}
 \import{../Ch-measurements/problems/}{SampleProblem12}
-\import{../Ch-measurements/files/}{Figure-Volume-objects}
+
+ 
+\item[\docfilehook{Empirical rules of polarity}{}] \import{../Ch-electrolytes/files/}{SubSection-Solutions-and-composition-Empirical-rules-of-polarity}
+\import{../Ch-electrolytes/problems/}{SampleProblem2}
+\item[\docfilehook{Mixing and polarity}{}]\import{../Ch-electrolytes/files/}{SubSection-Solutions-and-composition-Mixing-and-polarity}
+ \hspace{2cm}\import{../Ch-electrolytes/files/}{Table-Polarity-and-mixing}	
+\import{../Ch-electrolytes/problems/}{SampleProblem3}
 \end{description}
+
+
+ 
 
 
 \section{\faFire Energy and food}
@@ -103,10 +107,12 @@
 
 
 \section{\faFlash Quantitative analysis of half-life}
+
+ \import{../Ch-nuclear/files/}{SubSection-Half-life-of-a-radioisotope-Quantifying-half-live}
 \sloppy \begin{description}
-\import{../Ch-nuclear/files/}{SideFigure-HalfLife-plots}
-\item[\docfilehook{Quantifying half-live}{ }]\import{../Ch-nuclear/files/}{SubSection-Half-life-of-a-radioisotope-Quantifying-half-live}
 \item[\docfilehook{After several half-lives}{}] \import{../Ch-nuclear/files/}{SubSection-Half-life-of-a-radioisotope-after-several-half-lives}
+\import{../Ch-nuclear/files/}{SideFigure-HalfLife-plots}
+
   \import{../Ch-nuclear/problems/}{SampleProblem4}
   \end{description}
 
@@ -123,23 +129,16 @@
 \import{../Ch-measurements/problems/}{SampleProblem3}
 \item[\docfilehook{Switching prefixes}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Switching-prefixes}
 \import{../Ch-measurements/problems/}{SampleProblem4}
-\item[\docfilehook{Square or cubic units}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Square-or-cubic-units}
-\import{../Ch-measurements/problems/}{SampleProblem5}
-\item[\docfilehook{Units of volume}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Units-of-volume}
-\import{../Ch-measurements/problems/}{SampleProblem6}
-\item[\docfilehook{Using other equalities}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Using-other-equalities}
-\import{../Ch-measurements/files/}{Table-Common-units}
-\import{../Ch-measurements/problems/}{SampleProblem7}
+%\item[\docfilehook{Square or cubic units}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Square-or-cubic-units}
+%\import{../Ch-measurements/problems/}{SampleProblem5}
+%\item[\docfilehook{Units of volume}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Units-of-volume}
+%\import{../Ch-measurements/problems/}{SampleProblem6}
+%\item[\docfilehook{Using other equalities}{}]\import{../Ch-measurements/files/}{SubSection-Using-Conversion-Factors-Using-other-equalities}
+%\import{../Ch-measurements/files/}{Table-Common-units}
+%\import{../Ch-measurements/problems/}{SampleProblem7}
 \end{description}
  
-\section{\faGears Empirical polarity}
-\sloppy\begin{description}
-\item[\docfilehook{Empirical rules of polarity}{}] \import{../Ch-electrolytes/files/}{SubSection-Solutions-and-composition-Empirical-rules-of-polarity}
-\import{../Ch-electrolytes/problems/}{SampleProblem2}
-\item[\docfilehook{Mixing and polarity}{}]\import{../Ch-electrolytes/files/}{SubSection-Solutions-and-composition-Mixing-and-polarity}
- \hspace{2cm}\import{../Ch-electrolytes/files/}{Table-Polarity-and-mixing}	
-\import{../Ch-electrolytes/problems/}{SampleProblem3}
-\end{description}
+
 
 \clearpage\thispagestyle{empty}\mbox{}\clearpage
 
