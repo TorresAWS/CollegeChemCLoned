@@ -1,0 +1,62 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}\newpage
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\end{conclusion}
+%\setstretch{0.3}
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
+
+
+
+
+
+
+
+{\raggedright\textsc{\textbf{Alkanes}}\par}\import{../Ch-orgo/problems/problems/}{Problems-Alkanes}
+{\raggedright\textsc{\textbf{Alkanes with substituents}}\par}\import{../Ch-orgo/problems/problems/}{Problems-Alkanes-with-substituents}
+{\raggedright\textsc{\textbf{Functional groups}}\par}\import{../Ch-orgo/problems/problems/}{Problems-Functional-groups}
+
+{\raggedright\textsc{\textbf{Solutions}}\par}\import{../Ch-electrolytes/problems/problems/}{Problems-Solutions-and-composition-What-makes-a-solution}
+
+
+{\raggedright\textsc{\textbf{Reactions and energy	}}\par}\import{../Ch-thermochemistry/problems/problems/}{Problems-Exo-endo}
+ {\raggedright\textsc{\textbf{Radiation, particles \& radioisotopes	}}\par}\import{../Ch-nuclear/problems/problems/}{Problems-Radiation-particles-and-radioisotopes		}
+ {\raggedright\textsc{\textbf{Nuclear Reactions	}}\par}\import{../Ch-nuclear/problems/problems/}{Problems-Nuclear-reactions}
+ {\raggedright\textsc{\textbf{Half-life	}}\par}\import{../Ch-nuclear/problems/problems/}{Problems-Half-life-of-a-radioisotope-The-concept-of-half-live}
+
+{\raggedright\textsc{\textbf{Measurements}}\par}\import{../Ch-measurements/problems/problems/}{Problems-Units-and-measurements}
+{\raggedright\textsc{\textbf{ Prefixes and Conversion Factors}}\par}\import{../Ch-measurements/problems/problems/}{Problems-Identify-Prefixes-Conversion-Factors}
+
+
+
+ 
+ 
+
+\end{multicols*}
+\newpage
+\begin{answersenvironment}
+\begin{minipage}[c]{1\textwidth}
+\begin{localsize}{10}
+{\Large \bf Answers}
+\SetupExSheets{
+  headings = inline-nr , % numbered and inline
+  counter-format = qu) , % numbers 1) 2) ... 
+}
+%\printsolutions 
+ \printsolutions[byID={1,3,5,7,9,11,13,15,17, 19,21,23,25,27, 29, 31, 33, 35,37, 39, 41, 43}]
+\end{localsize}
+\end{minipage}\end{answersenvironment}
+
+\end{document}
+
+
+
+
+
