@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 13:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 15:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5057,7 +5057,7 @@ Package microtype Info: Loading generic settings for font family
 (../Ch-biochemistry/files/ChapterName
 Chapter 1.
 )
-<../Ch-biochemistry/figure1.png, id=121, 2804.4775pt x 2308.625pt>
+<../Ch-biochemistry/figure1.png, id=141, 2804.4775pt x 2308.625pt>
 File: ../Ch-biochemistry/figure1.png Graphic file (type png)
 <use ../Ch-biochemistry/figure1.png>
 Package pdftex.def Info: ../Ch-biochemistry/figure1.png  used on input line 14.
@@ -5118,25 +5118,166 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 iochemistry/figure1.png (PNG copy)>])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 120.
+(hyperref)                removing `\color' on input line 76.
 
-LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 120.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
-) (../Ch-measurements/files/SectionIntro-Matter-and-density [2])
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 124.
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 76.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 78.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 124.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 78.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+(../Ch-acidbase/files/Subsection-Dissociation-of-acids-and-base-Conjugate-organ
+ic-acids-and-bases [2]
+LaTeX Font Info:    Try loading font information for U+ark on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/uark.fd
+File: uark.fd 2001/04/27 v1.00 Font definitions for the ark10 font
+)
+
+LaTeX Font Warning: Font shape `U/ark/m/it' undefined
+(Font)              using `U/ark/m/n' instead on input line 1.
+
+
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 7--7
+ []|[]| 
+ []
+
+
+Overfull \hbox (4.66931pt too wide) in paragraph at lines 12--12
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 3--13
+ [] 
+ []
+
+
+Overfull \hbox (14.4319pt too wide) in paragraph at lines 20--20
+ []|[]| 
+ []
+
+
+Overfull \hbox (0.83994pt too wide) in paragraph at lines 23--24
+ []|[]| 
+ []
+
+
+Overfull \hbox (4.66931pt too wide) in paragraph at lines 25--25
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 16--26
+ [] 
+ []
+
+) (../Ch-acidbase/problems/SampleProblem4
+Overfull \hbox (21.09286pt too wide) in paragraph at lines 8--8
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 9--9
+ []|[]| 
+ []
+
+
+Overfull \hbox (9.50937pt too wide) in paragraph at lines 10--10
+ []|[]| 
+ []
+
+
+Overfull \hbox (16.32565pt too wide) in paragraph at lines 12--13
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 5--15
+[] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.8334pt too wide) in paragraph at lines 22--22
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 23--23
+ []|[]| 
+ []
+
+
+Overfull \hbox (9.50937pt too wide) in paragraph at lines 24--24
+ []|[]| 
+ []
+
+
+Overfull \hbox (27.68816pt too wide) in paragraph at lines 28--28
+ []|[]\T1/ptm/m/n/10 (-20) Conjugate 
+ []
+
+
+Overfull \hbox (6.50163pt too wide) in paragraph at lines 28--28
+ \T1/ptm/m/n/10 (-20) Base[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 19--29
+[] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (13.32698pt too wide) in paragraph at lines 37--37
+ []|[]| 
+ []
+
+
+Overfull \hbox (18.61967pt too wide) in paragraph at lines 38--38
+ []|[]| 
+ []
+
+
+Overfull \hbox (14.11212pt too wide) in paragraph at lines 39--39
+ []|[]| 
+ []
+
+
+Overfull \hbox (8.96709pt too wide) in alignment at lines 34--44
+[] [] [] [] [] [] [] 
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 45.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 45.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 45.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 45.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 45.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 45.
+[3])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 90.
+
+LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
+t line 90.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
+) (../Ch-measurements/files/SectionIntro-Matter-and-density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
 (../Ch-measurements/files/Table-Density
@@ -5152,7 +5293,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 ) (../Ch-measurements/problems/SampleProblem11
-<../ChMIX-biomolecules/Image-Glass-with-three-liquids.png, id=141, 1204.5pt x 2
+<../ChMIX-biomolecules/Image-Glass-with-three-liquids.png, id=170, 1204.5pt x 2
 156.055pt>
 File: ../ChMIX-biomolecules/Image-Glass-with-three-liquids.png Graphic file (ty
 pe png)
@@ -5165,7 +5306,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
-)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4])
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
 of-objects) (../Ch-measurements/problems/SampleProblem12
 (../Ch-measurements/problems/StudyCheck12
@@ -5173,13 +5317,148 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) [3 <../ChMIX-biomolecules/Image-Glass-with-three-liquids.png>])
-(../Ch-measurements/files/Figure-Volume-objects
+)) (../Ch-measurements/files/Figure-Volume-objects
 Overfull \hbox (169.06755pt too wide) in paragraph at lines 56--57
  [] 
  []
 
-) [4] [5
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 103.
+
+(../Ch-thermochemistry/files/Table-Energy-values
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+
+Overfull \hbox (14.03764pt too wide) in paragraph at lines 5--17
+[][] 
+ []
+
+) (../Ch-thermochemistry/files/SubSection-Calorimetry-Food-Calories [5 <../ChMI
+X-biomolecules/Image-Glass-with-three-liquids.png>])
+(../Ch-thermochemistry/files/SubSection-Calorimetry-Energy-value)
+(../Ch-thermochemistry/problems/SampleProblem13
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+(../Ch-thermochemistry/problems/StudyCheck13) [6])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 112.
+
+(../Ch-nuclear/files/SideFigure-HalfLife-plots
+Package pgfplots info on input line 24: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 30.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 30.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 30.
+Package pgfplots info on input line 52: Using 'lua backend=false' for axis: x c
+oord trafo unsupported.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--61
+[]
+ []
+
+)
+(../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-Quantifying-half-li
+ve)
+(../Ch-nuclear/files/SubSection-Half-life-of-a-radioisotope-after-several-half-
+lives) (../Ch-nuclear/problems/SampleProblem4
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 20--21
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+
+ []
+
+(../Ch-nuclear/problems/StudyCheck4) [7])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 126.
+
+(../Ch-measurements/files/SectionIntro-Using-Conversion-Factors
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Removing-or-addin
+g-prefixes
+
+LaTeX Warning: Reference `tab:units2' on page 8 undefined on input line 1.
+
+) (../Ch-measurements/problems/SampleProblem3
+(../Ch-measurements/problems/StudyCheck3
+Underfull \hbox (badness 10000) in paragraph at lines 7--1
+
+ []
+
+) [8])
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
+s
+
+LaTeX Warning: Reference `tab:units2' on page 9 undefined on input line 1.
+
+) (../Ch-measurements/problems/SampleProblem4
+(../Ch-measurements/problems/StudyCheck4))
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Square-or-cubic-u
+nits [9]) (../Ch-measurements/problems/SampleProblem5
+(../Ch-measurements/problems/StudyCheck5))
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Units-of-volume)
+(../Ch-measurements/problems/SampleProblem6
+(../Ch-measurements/problems/StudyCheck6))
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
+ities
+
+LaTeX Warning: Reference `tab:units2' on page 10 undefined on input line 1.
+
+
+LaTeX Warning: Reference `tab:units3' on page 10 undefined on input line 1.
+
+) (../Ch-measurements/files/Table-Common-units [10]
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 7.
+
+) (../Ch-measurements/problems/SampleProblem7
+(../Ch-measurements/problems/StudyCheck7))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 142.
+
+
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Empirical-rules-
+of-polarity [11]) (../Ch-electrolytes/problems/SampleProblem2
+(../Ch-electrolytes/problems/StudyCheck2))
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mixing-and-polar
+ity) (../Ch-electrolytes/files/Table-Polarity-and-mixing
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+) (../Ch-electrolytes/problems/SampleProblem3
+(../Ch-electrolytes/problems/StudyCheck3)) [12] [13
 
 ])
 
@@ -5199,15 +5478,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5394.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5394.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5394.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 50BACD265A5D2C0C253AE4CD640E9B34;1381.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 464142AA47BC2B8D9F97F3E1D4B1DE99;447
-(rerunfilecheck)             After:  E53008D404E5584A520342CBD727F51A;396.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5215,42 +5488,52 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
  ) 
 Here is how much of TeX's memory you used:
- 81128 strings out of 493014
- 1827683 string characters out of 6133351
- 2616337 words of memory out of 5000000
- 82915 multiletter control sequences out of 15000+600000
- 145951 words of font info for 191 fonts, out of 8000000 for 9000
+ 82030 strings out of 493014
+ 1848767 string characters out of 6133351
+ 2630260 words of memory out of 5000000
+ 83569 multiletter control sequences out of 15000+600000
+ 204194 words of font info for 293 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,14n,107p,10369b,2068s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
-6/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-di
-st/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2016/te
-xmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/f
-onts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
-/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
-/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 9060387 bytes).
+ 71i,25n,107p,10369b,3077s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
+e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/fontawesome/fontawesomethree.enc} </Users/daniel/Library/texlive/2016/texm
+f-var/fonts/pk/ljfour/public/dingbat/ark10.600pk>{/usr/local/texlive/2016/texmf
+-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/font
+s/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/
+fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/font
+s/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
+9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (13 pages, 9158318 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 48037 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 67545 words of extra memory for PDF output out of 74296 (max. 10000000)
 
