@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 13:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 13:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5116,7 +5116,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-b
 iochemistry/figure1.png (PNG copy)>])
-(../Ch-measurements/files/SectionIntro-Matter-and-density [2])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 120.
+
+LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
+t line 120.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
+) (../Ch-measurements/files/SectionIntro-Matter-and-density [2])
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 124.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -5129,17 +5137,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
-tures) (../Ch-measurements/files/SubSection-Matter-and-density-Types-of-Mixture
-) (../Ch-measurements/problems/SampleProblem10
-(../Ch-measurements/problems/StudyCheck10
-Underfull \hbox (badness 10000) in paragraph at lines 12--1
-
- []
-
-)) (../Ch-measurements/files/SubSection-Matter-and-density-Density)
+(../Ch-measurements/files/SubSection-Matter-and-density-Density)
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-mixing)
-(../Ch-measurements/files/Table-Density [3]
+(../Ch-measurements/files/Table-Density
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5151,6 +5151,20 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
+) (../Ch-measurements/problems/SampleProblem11
+<../ChMIX-biomolecules/Image-Glass-with-three-liquids.png, id=141, 1204.5pt x 2
+156.055pt>
+File: ../ChMIX-biomolecules/Image-Glass-with-three-liquids.png Graphic file (ty
+pe png)
+<use ../ChMIX-biomolecules/Image-Glass-with-three-liquids.png>
+Package pdftex.def Info: ../ChMIX-biomolecules/Image-Glass-with-three-liquids.p
+ng  used on input line 3.
+(pdftex.def)             Requested size: 43.9262pt x 78.6279pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
 )
 (../Ch-measurements/files/SubSection-Matter-and-density-Density-and-the-volume-
 of-objects) (../Ch-measurements/problems/SampleProblem12
@@ -5159,7 +5173,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-)) (../Ch-measurements/files/Figure-Volume-objects
+) [3 <../ChMIX-biomolecules/Image-Glass-with-three-liquids.png>])
+(../Ch-measurements/files/Figure-Volume-objects
 Overfull \hbox (169.06755pt too wide) in paragraph at lines 56--57
  [] 
  []
@@ -5184,9 +5199,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5394.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5394.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5394.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 464142AA47BC2B8D9F97F3E1D4B1DE99;447.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 464142AA47BC2B8D9F97F3E1D4B1DE99;447
+(rerunfilecheck)             After:  E53008D404E5584A520342CBD727F51A;396.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5197,38 +5218,39 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5394.
  ) 
 Here is how much of TeX's memory you used:
- 81177 strings out of 493014
- 1828314 string characters out of 6133351
- 2616334 words of memory out of 5000000
- 82917 multiletter control sequences out of 15000+600000
- 150131 words of font info for 216 fonts, out of 8000000 for 9000
+ 81128 strings out of 493014
+ 1827683 string characters out of 6133351
+ 2616337 words of memory out of 5000000
+ 82915 multiletter control sequences out of 15000+600000
+ 145951 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,14n,107p,10369b,2068s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/201
 6/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-di
-st/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
-nc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
-wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
-aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
-wesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-aratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pa
-latino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 5650900 bytes).
+st/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2016/te
+xmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/f
+onts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/paratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
+mmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/tim
+es/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (5 pages, 9060387 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 50080 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 48037 words of extra memory for PDF output out of 51595 (max. 10000000)
 
