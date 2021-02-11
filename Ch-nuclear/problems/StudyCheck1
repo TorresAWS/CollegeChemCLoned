@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the number of protons, neutrons and electrons of \ce{^99_43Tc}.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: 43e, 43p, 56n.
- \end{flushright} }
-

@@ -1,9 +1,0 @@
-How big is your apartment? You might be living in a 750$ft^2$ loft in Brooklyn or in a larger house Upstate. Often times we encounter cubic or square units such as cubic centimeter ($cm^3$) or square feet ($ft^2$). The equivalencies for cubic or square units should take into account the unit power (power of two or power of three). 
-If $1cm=1\times 10^{-2}m$, for square units the relation should be squared and $1cm^2=1\times (10^{-2})^2m^2=1\times 10^{-4}m^2$. Another example, for the case of mm and $mm^3$:
-\begin{equation*}
-\boxed{   \frac{1mm}{1\times10^{-3}m}\ \enspace \text{ and  } \enspace \frac{1mm^3}{1\times10^{-9}m^3}}     
-\end{equation*}
-Let us work on an example in which we want to convert $30m^2$ into $m^2$:
- \begin{equation*}
-30\cancel{\text{m}^2} \times \dfrac{1cm^2 }{1\times10^{-4}\cancel{m^2}}=3\times 10^{5}cm^2
-\end{equation*}

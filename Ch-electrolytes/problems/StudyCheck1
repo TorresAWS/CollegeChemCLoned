@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Identify solute and solvent in the following mixture: (a) 10g of \ce{H2O(l)} and 20g of \ce{CH3OH(l)}; (b) 1g of \ce{I2(s)} and 100g of \ce{CH3CH2OH(l)}
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
-  \small Answer: (a) water(solute); (b) iodine(solute). 
- \end{flushright} }

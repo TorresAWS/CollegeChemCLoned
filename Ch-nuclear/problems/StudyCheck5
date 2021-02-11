@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Quadramet is a radiopharmaceutical used treat pain when cancer has spread to the bone. A injection of this drug has a 740 MBq activity. Convert this value to mCi.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: $20mCi$.
- \end{flushright} }
-

@@ -1,8 +1,0 @@
-
-\begin{fullwidth}
-\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
- \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{\begin{tikzpicture} \node (a) at (0,0) {\includegraphics{../{\chapterlabel}/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
-\node[text width=12cm, fontscale=.2,shift={(-1em,-18em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A solution results from dissolving a solute into a solvent };
-\end{tikzpicture}
-}\end{minipage}
-\end{fullwidth}

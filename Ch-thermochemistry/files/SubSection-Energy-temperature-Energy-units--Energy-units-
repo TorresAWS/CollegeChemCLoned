@@ -1,7 +1,0 @@
-Two different units of energy are often employed: calories (cal) and joules (J). Joule is the SI unit of energy equal to $\text{kg}\cdot \text{m}^2/\text{s}^2$. One can transform calories to joules and joules to calories using the following conversion factor: 
-\begin{equation}
-\boxed{    1 \text{cal}=4.184 \text{J}   } \qquad\text{or}\qquad  \boxed{\frac{1\text{cal}}{4.184 \text{J}}}        
-\label{formula2:1}
-\end{equation}
-As a note, often you will read in food labels the caloric content of certain foods. In these labels, they use the unit Calorie, with capitalized C, that is not the same as a calorie. One Calorie represents a kilocalorie, and contains 1000calories.
-

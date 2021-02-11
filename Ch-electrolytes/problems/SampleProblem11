@@ -1,9 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Classify the following reactions as acid-base, redox or precipitation.\\
-(a) \ce{ Fe_{(s)} +   Cu^{+2}_{(aq)} -> Fe^{+2}_{(aq)} +   Cu_{(s)} } \\
-(b) \ce{ AgNO3_{(aq)} + NaCl_{(aq)} -> AgCl_{(s)} + NaNO3_{(aq)} }  \\
-(c) \ce{ 2HCl_{(aq)} +   Ca(OH)2_{(aq)} -> CaCl2_{(aq)}   + 2H2O_{(l)} } \\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The first reaction is a redox reaction. This is because we can find two different oxidation states for Cu and also for Fe. That means one of these elements lost electrons and the other won electrons. The second reaction is a precipitation reaction as it produces a solid. The last reaction is an acid base, as the reactants are an acid and a base.\\
- \import{./}{StudyCheck11}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

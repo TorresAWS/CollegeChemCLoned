@@ -1,8 +1,0 @@
-The goal is to identify the element that undergoes oxidation and reduction in a chemical reaction. 
-We can reach this goal by using the half-reaction method. Every redox reaction is composed of two process, a reduction and the oxidation. These two processes can be separated into two half-reactions so that the combination of both half-reactions lead to the balanced redox. Let us work on a simple unbalanced redox reaction:
-\begin{center}\ce{Al_{(s)} + Cu_{(aq)}^{+2} -> Al_{(aq)}^{+3} + Cu_{(s)}       }\end{center}
-Solid \ce{Al_{(s)}} on the reactant side has zero redox number, whereas ionic \ce{Al_{(aq)}^{+3}} on the product side has redox number equal to $\text{III}$. Al has undergone oxidation as its redox number increases from zero to three. Al has lost three electrons. We can write the oxidation half-reaction:
-\begin{center}\ce{Al_{(s)}  -> Al_{(aq)}^{+3} + 3e^-     \textcolor{red}{ (oxidation) }   }\end{center}
-Mind that electrons have negative charge and we add electrons to compensate the charge of \ce{Al_{(aq)}^{+3}}. 
-Now let us compare the redox number of \ce{Cu}. In the reactant side we have \ce{Cu_{(aq)}^{+2}} with redox of $\text{II}$. In the product side we have \ce{Cu_{(s)}} with zero redox number. Cu has undergone reduction as its redox number has decreases. This means it has gained electrons, in particular two electrons: 
-\begin{center}\ce{Cu_{(aq)}^{+2} + 2e^- ->Cu_{(s)}      \textcolor{red}{ (reduction) }   }\end{center}

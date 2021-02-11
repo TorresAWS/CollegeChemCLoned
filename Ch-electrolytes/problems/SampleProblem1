@@ -1,8 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Identify the solute and the solvent in the following mixtures: (a) 10g of \ce{H2O(l)} mixed with 3g of \ce{KCl(s)}; (b) 10g \ce{Cu(s)} mixed with 3g \ce{Zn(s)}
-\\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-(a) Potassium chloride is in less amount and hence will be the solute. Water, in larger quantity, will be the solvent. This is an example of an aquose-based solution. (b) Zn is in less amount and hence will be the solute, and Cu the solvent. This is a solid solution.
-\\
- \import{./}{StudyCheck1}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

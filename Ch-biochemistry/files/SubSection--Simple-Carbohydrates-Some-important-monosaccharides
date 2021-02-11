@@ -1,9 +1,0 @@
-The most important monosaccharides are glucose, fructose and galactose. These are all hexose with six carbon atoms. Glucose and galactose are aldohexose whereas fructose is a ketohexose.
-\begin{center}
-\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}\glucose[color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]&
-\galactose[color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]&
-\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[4]H)(-[0, 1.2]\textcolor{red}{OH})-!x-!y-!k-!t)}
-\tabularnewline\addlinespace
-\textcolor{blue}{Glucose} & \textcolor{blue}{Galactose} & \textcolor{blue}{Fructose}\tabularnewline
-\end{tabular*}\end{center}
-Glucose is also known as dextrose or blood sugar, is the most important simple sugar involved in the metabolism of humans. Glucose is found in corn syrup and honey as well as in fruits and vegetables in the form of more complex carbohydrates. Galactose can not be found in free form, but is found in the form of lactose, a disaccharide, in milk. Only when lactose is broken down you can find free galactose. Fructose is the sweetest of all carbs found in fruits--thus its name--and honey.

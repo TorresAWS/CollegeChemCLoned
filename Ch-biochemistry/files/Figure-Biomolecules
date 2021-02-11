@@ -1,3 +1,0 @@
-\begin{minipage}[b]{1.0\linewidth}\resizebox{0.8\textwidth}{!}{\smartdiagram[bubble diagram]{Biomolecules, Lipids\\ \chemfig {-[:-45]-[:45]-[:-45]-[:45](=[:90]O)(-[:-45]OH)} , Carbohydrates\\ {\setatomsep{2.5em}\glucose[model=haworth,ring, anomer = beta, color={anomerH}{orange}, color={anomerO}{orange}, color={ringO}{red}]}, Proteins\\ \chemfig[][scale=.85]{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]OH))(-[:90]CH_2-[:90]CH_2-[:90]S-[:90]CH_3)(-[:270]H)}, Nucleic Acids\\ {\setatomsep{2.5em}\chemfig[][scale=.65]{!{thyminephosphate} } }	}}\end{minipage}
-
- 

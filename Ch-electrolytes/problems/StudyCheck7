@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-How many liters of a 5M NaCl solution are required to prepare 3L of a 3M diluted NaCl solution.
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: 1.8 L.
- \end{flushright} }

@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-How many grams of a 6\% (m/m) solution do you need to provide 5 grams of solute.
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: $83.3$g.
- \end{flushright} } 
