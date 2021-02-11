@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 FEB 2021 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 FEB 2021 09:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5055,7 +5055,7 @@ Package microtype Info: Loading generic settings for font family
 
 (../ChMIX-biomolecules/ChMIX-biomolecules.tex
 (../Ch-biochemistry/files/ChapterName
-Chapter 3.
+Chapter 2.
 )
 <../Ch-biochemistry/figure1.png, id=137, 2804.4775pt x 2308.625pt>
 File: ../Ch-biochemistry/figure1.png Graphic file (type png)
@@ -5442,6 +5442,113 @@ LaTeX Warning: Reference `tab:units2' on page 10 undefined on input line 1.
 (../Ch-measurements/problems/StudyCheck4) [10]) [11] [12
 
 ])
+(../ChMIX-biomolecules/ChMIX-biomoleculesProblems.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package mdframed Info: mdframed works in twoside mode on input line 12.
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 12.
+Package mdframed Info: Not enough space on this page on input line 12.
+
+(../Ch-biochemistry/problems/problems/Problems-Biomolecules
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
+vailable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 7.
+)
+(../Ch-measurements/problems/problems/Problems-Density-and-mixing)
+(../Ch-electrolytes/problems/problems/Problems-Solutions-and-composition-Empiri
+cal-rules-of-polarity)
+(../Ch-electrolytes/problems/problems/Problems-Solutions-and-composition-Mixing
+-and-polarity) (../Ch-thermochemistry/problems/problems/Problems-Energy-value)
+(../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-Quantifyi
+ng-half-live [13
+
+
+])
+(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
+efixes)
+(../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
+ed) [14]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=481.87546pt
+* \textheight=702.78308pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-43.1381pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=140.5566pt
+* \marginparsep=23.33124pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 47.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 39--49
+[]$[]$ 
+ []
+
+[15
+
+])
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -5460,7 +5567,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5405.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5405.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B24474583089A8CEEB10BDBB57E162BF;1348.
+(rerunfilecheck)             Checksum: 16EA52F436DE2785D2C5063F58C953DF;1348.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5472,51 +5579,49 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 82117 strings out of 493014
- 1850494 string characters out of 6133351
- 2655992 words of memory out of 5000000
- 83659 multiletter control sequences out of 15000+600000
- 198905 words of font info for 292 fonts, out of 8000000 for 9000
+ 82559 strings out of 493014
+ 1861643 string characters out of 6133351
+ 2671571 words of memory out of 5000000
+ 83986 multiletter control sequences out of 15000+600000
+ 239956 words of font info for 313 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,25n,112p,10369b,3079s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/parat
-ype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
+ 71i,25n,112p,10369b,3081s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
+usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/
+texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
+fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fontaweso
 me/fontawesomethree.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fon
 tawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
 /fontawesome/fontawesomeone.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/
-local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy
-8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/urw/times/utmri8a.pfb>
-Output written on main.pdf (12 pages, 9149313 bytes).
+/paratype/ptsans/PTN77F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+public/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/
+lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
+lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy9.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on main.pdf (15 pages, 9170577 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
- 52 named destinations out of 1000 (max. 500000)
- 63947 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 68555 words of extra memory for PDF output out of 74296 (max. 10000000)
 
