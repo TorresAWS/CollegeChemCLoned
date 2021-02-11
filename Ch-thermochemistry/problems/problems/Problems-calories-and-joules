@@ -1,0 +1,12 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Carry the following conversions:
+\begin{inparaenum}[(a)]	
+\item 650J into calories
+\item	  3.25 kcal into joules
+\end{inparaenum} 
+\end{question}
+\begin{solution}\begin{inparaenum}[(a)]
+\item  155 cal
+\item  13598 J
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

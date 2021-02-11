@@ -1,0 +1,17 @@
+\begin{example} % EXAMPLE BOX
+Do the following calculation with the correct number of figures.
+\begin{equation*}
+\dfrac{88.5-87.57}{345.13\times100}
+\end{equation*}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will analyze each number indicating the number of SF and Digits (DP): 88.5(3SF, 1DP), 87.57(4SF, 2DP),  345.13(6SF, 2DP) and  100(1SF, 0DP). The result of doing the addition needs to be rounded to one single decimal place: $88.5-87.57=0.93\simeq 0.9$. After that we have only multiplications and divisions and hence we will now focus on the number of SFs:
+\begin{equation*}
+\dfrac{0.9\text{ (1SF) }}{345.13\text{ (5SF) }\times100\text{ (1SF) }}
+\end{equation*}
+The result of this operation needs to be rounded to one SF:
+\begin{equation*}
+\dfrac{0.9}{345.13\times100}=2.6077\times 10^{-5} \simeq 3\times 10^5\text{ (1SF) }
+\end{equation*}
+\import{./}{StudyCheck9}
+\end{example}% EXAMPLE BOX ALTERNATIVE
+

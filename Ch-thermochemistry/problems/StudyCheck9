@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Using the enthalpy tables at the end of the chapter, locate the enthalpy values for:  \ce{I2_{(aq)}},  \ce{F2_{(g)}} and  \ce{C_{diamond}_{(s)}}.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 23, 0, 1.9KJ/mol.
+ \end{flushright} }
+

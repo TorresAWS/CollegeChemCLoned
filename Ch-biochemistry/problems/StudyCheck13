@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following biomolecule as a carbohydrate, a lipid, a protein or a nucleic acid.
+\begin{center}\chemfig{-[:45]-[:-45]=[:0]-[:45]-[:-45]=[:0]-[:45](=[:90]O)(-[:-45]OH)}
+\end{center}
+ \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small lipid 
+ \end{flushright} }

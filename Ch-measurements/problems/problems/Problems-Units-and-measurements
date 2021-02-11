@@ -1,0 +1,74 @@
+ 
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the magnitude measure in the following measurements: 
+\begin{inparaenum}[(a)]
+\item 2 L %(volume)
+\item 5 cm %(length) 
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 2 L  (volume)
+\item 5 cm  (length) 
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions:
+\begin{inparaenum}[(a)]
+\item Indicate the metric base unit for mass %(g)
+\item Indicate the metric base unit for mass %(volume)
+\item Indicate metric base unit for volume %(L)
+\item Indicate basic unit of mass in the SI %(kg)
+\item What magnitude measures the amount of space occupied by a substance
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item    g 
+\item     volume 
+\item     L 
+\item kg
+\item the volume
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+%
+%
+%%%%%%%PROBLEM
+%\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%Which of the following is a measurement of mass in the metric system? 
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item  milliliter
+%\item centimeter
+%\item  gram
+%\item  Celsius
+%\item  meter
+%\end{enumerate}
+%\end{multicols}    
+%\end{question}
+%\begin{solution}
+%gram
+%\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+
+

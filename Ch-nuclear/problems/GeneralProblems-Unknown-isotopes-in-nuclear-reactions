@@ -1,0 +1,22 @@
+
+
+ 
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Identify the radioactive particle involved in the following nuclear equations:
+\begin{inparaenum}[(a)]
+\item \ce{^9_4Be + ^A_ZX -> ^12_6C + ^1_0n}   %($\alpha$ particle)
+\item \ce{^31_15P + ^1_1H -> ^31_16S + ^A_ZX}  %(neutron)
+\item \ce{^3_1H + ^2_1H  -> ^A_ZX + ^1_0n} %($\alpha$ particle)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item \ce{^9_4Be + ^A_ZX -> ^12_6C + ^1_0n}    ($\alpha$ particle)
+\item \ce{^31_15P + ^1_1H -> ^31_16S + ^A_ZX}   (neutron)
+\item \ce{^3_1H + ^2_1H  -> ^A_ZX + ^1_0n}  ($\alpha$ particle)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+

@@ -1,0 +1,17 @@
+   \begin{marginfigure}[0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure1-1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Scales measure mass};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure1-2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Watches are used to measure time};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure1-15}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Beakers can carry a liquid volume};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure1-16}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}Thermometers measure temperature};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=6cm ]{../{\chapterlabel}/figure1-17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.weberscientific.com} ;
+\node[text width=5cm] at ([yshift=0.2cm]a.north) {\mytriangle{red}pipets are used in chemistry practice to add an exact volume of liquid};
+\end{tikzpicture}
+\end{marginfigure}

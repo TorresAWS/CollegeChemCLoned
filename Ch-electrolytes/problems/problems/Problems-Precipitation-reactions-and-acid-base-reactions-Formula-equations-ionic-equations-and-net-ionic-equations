@@ -1,0 +1,32 @@
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Obtain the net ionic equation for the following reaction:
+ \begin{center}\ce{ NaCl_{(aq)} + AgNO3 _{(aq)} -> NaNO3_{(aq)} + AgCl_{(s)} v    }\end{center}
+\end{question}\begin{solution}
+\ce{   Ag^+ _{(aq)} + Cl^- _{(aq)} ->  AgCl_{(s)} v    }
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Obtain the net ionic equation for the following reaction:
+\begin{center}\ce{H2SO4_{(aq)} + 2NaOH_{(aq)} -> 2H2O_{(l)} + Na2SO4_{(aq)}       }\end{center}
+\end{question}\begin{solution}
+ \ce{   2H^+ _{(aq)} + 2OH^- _{(aq)} ->  2 H2O_{(l)}     }  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Obtain the net ionic equation for the following reaction:
+	{\raggedleft \ce{  2 Na3PO4_{(aq)} + 3 CaCl2_{(aq)} -> } }  \\ 
+	\hspace*{\fill}\ce{6 NaCl_{(aq)} + Ca3(PO4)2_{(s)} v   }\\ 
+
+ 
+
+\end{question}\begin{solution}
+  \ce{   3Ca^{2+} _{(aq)} + 2PO4^{3-} _{(aq)} ->  Ca3(PO4)2_{(s)} v    }
+   \hspace{0.1cm}\end{solution}\stepcounter{numA}
+
+

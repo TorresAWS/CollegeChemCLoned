@@ -1,0 +1,6 @@
+Imagine they give you the following reaction:
+\begin{center}\ce{ N2_{(g)} + O2_{(g)} -> 2NO_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_1=-114KJ$\end{center}
+and you need to calculate the enthalpy change for this other reaction:
+\begin{center}\ce{2N2_{(g)} + 2O2_{(g)} -> 4NO_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_2$\end{center}
+If you compare both reaction you will see the second reaction equals to the first reaction timed by two. If you time a reaction by two, the enthalpy change should also be timed by two. Therefore, $\Delta H^{\circ}_2=2\cdot -114=-228KJ$.
+

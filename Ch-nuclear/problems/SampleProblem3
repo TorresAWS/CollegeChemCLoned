@@ -1,0 +1,24 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the unknown isotope in the following nuclear reaction:\\
+\centerline{ \ce{^4_2He + ^14_7N -> ^A_ZX + ^1_{1}H}}\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will solve this problem by using the fact that the total mass number as well as the total atomic number should stay constant before and after the nuclear reaction. In order to do this, we will calculate the total atomic number before the reaction (in the left) and the total atomic number after the reaction (in the right) and equal both values. We will do the same for the mass number.
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{5}{Y} }
+  \toprule
+&\heading{\ce{^4_2He}} & \heading{\ce{^14_7N}}  &  \heading{\ce{->}} & \heading{\ce{^A_ZX}} & \heading{\ce{^1_1H}}   \\
+    \midrule
+  A  &4 &14    &    &$A$  &1    \\
+    \midrule 
+    Z  &2 &7    &    &$Z$  &1    \\
+    \bottomrule
+\end{tabularx}
+Now we build up two equations, one for $A$ and another for  $Z$, from each of the columns (column 2 and 3) of the table:
+\begin{align}
+ 4 +14  =A  +1                  \tag*{Equation for A from column 2 of the table}
+  \\2 +7  =Z  +1                  \tag*{Equation for Z from column 3 of the table}
+\end{align}
+We now solve for $A$ geting a value of $A=17$ and for $Z$, getting $Z=8$. With the atomic number $Z$ we can go to the periodic table and identify the name of the isotope. The element with $Z=8$ is called oxygen, and the final answer would be: \ce{^17_8O}.\\
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

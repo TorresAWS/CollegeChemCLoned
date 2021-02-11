@@ -1,0 +1,9 @@
+\begin{example} % EXAMPLE BOX
+Convert 20 in to cm.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+ We want to convert 20 inches into centimeters. The relationship between Inch and centimeter is given in Table \ref{tab:{\chapterlabel}\thetablenewcounter}. In order to do this, you need the conversion factor:$\dfrac{1in}{2.54cm}$ or $\dfrac{2.54cm}{1in}$. You will have to arrange the number (20 in) and the conversion factor in the following form:
+ \begin{equation*}
+20\cancel{in} \times \dfrac{2.54cm}{1\cancel{in}}=50.80cm
+\end{equation*}
+\import{./}{StudyCheck7}
+\end{example}% EXAMPLE BOX ALTERNATIVE

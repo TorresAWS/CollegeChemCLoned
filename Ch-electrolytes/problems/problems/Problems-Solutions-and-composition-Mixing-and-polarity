@@ -1,0 +1,28 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which chemicals from the following list will mix with \ce{H2O_{(l)}}:
+\begin{inparaenum}[(a)]
+\item  \ce{NH3_{(l)}}  % (polar)
+\item  \ce{C5H12_{(l)}}  % (nonpolar)
+\item \ce{C6H14_{(l)}}  % (nonpolar)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \ce{NH3_{(l)}}   (polar)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which chemicals from the following list will mix with \ce{C5H12_{(l)}}:
+\begin{inparaenum}[(a)]
+\item  \ce{H2O_{(l)}}  % (polar)
+\item   \ce{C6H14_{(l)}}  % (nonpolar)
+\item \ce{CH3COOH_{(l)}}  % (polar)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ \ce{C6H14_{(l)}}    (nonpolar)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

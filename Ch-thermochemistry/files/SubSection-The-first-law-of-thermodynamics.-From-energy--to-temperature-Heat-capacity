@@ -1,0 +1,9 @@
+The heat capacity $c$ of a material is defined as:
+\begin{equation}
+ c=\frac{\text{heat adsorbed}}{\text{temperature increase}}   
+\end{equation}
+The heat capacity is a characteristic property of each material that indicates the energy required to rise its temperature and can be expressed in $\text{cal}/^{\circ}\text{C}$ or $\text{J}/^{\circ}\text{C}$ units. As this property depends on the amount of matter, often times the heat capacity is expressed per mass as the specific heat capacity ($c_e$) or mole unit as the molar heat capacity $c_m$. For example, the specific heat of water is $1 \text{cal}/\text{g}^{\circ}\text{C}$ that is the same as $4.184 \text{J}/\text{g}^{\circ}\text{C}$. That means that we need to give 1 calorie in order to warm up one gram of water $1^{\circ}C$. Similarly, the specific heat of aluminum, a metal, is $0.2 \text{cal}/\text{g}^{\circ}\text{C}$ or $0.89\text{J}/\text{g}^{\circ}\text{C}$; that means the energy needed to rise the temperature of an aluminum gram is  0.2 calories of 0.89 J. Mind the difference between these two values: we need to give 1 cal in order to increase the temperature of a gram of water in $1^{\circ}C$, whereas we need to give 0.2 cal in order to increase the temperature of a gram of aluminum in $1^{\circ}C$. Why are these two numbers so different? The answer is because water and aluminum are different materials. Normally metals warp up very easily, that is, they need less heat to increase their temperature, whereas liquids need more heat to increase their temperature. That is why pans and cooking pots tend to be metallic. Mind the specific heat if water is a well know value that you need to be familiar with:
+\begin{equation}
+\boxed{   c_e^{\ce{H2O}} = 4.184 \text{J}/\text{g}^{\circ}\text{C} \qquad or \qquad  c_e^{\ce{H2O}} = 1 \text{cal}/\text{g}^{\circ}\text{C} }
+\label{formula2:9}
+\end{equation}

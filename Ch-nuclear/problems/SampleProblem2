@@ -1,0 +1,15 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Label the following nuclear reactions as: $\alpha$, $\beta$ or $\gamma$ decay, or positron emission:
+\begin{multicols}{2}
+\begin{enumerate}[label=(\alph*)]
+\item \ce{^238_92U -> ^234_90Th + ^4_2He}
+\item \ce{^24_13Al -> ^24_12Mg + ^0_{+1}e}
+\item \ce{^14_6C -> ^14_7N + ^0_{-1}e}
+\item \ce{^99_43Tc^* -> ^99_43Tc + ^0_{0}\gamma}
+\end{enumerate}
+\end{multicols}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) This process produces \ce{^4_2He} and therefore is alpha emission. (b) This process generates \ce{^0_{+1}e} and therefore is positron emission. (c) This process produces \ce{^0_{-1}e} and therefore is beta emission. (d) This process produces \ce{^0_{0}\gamma} and therefore is gamma emission.  \\
+
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

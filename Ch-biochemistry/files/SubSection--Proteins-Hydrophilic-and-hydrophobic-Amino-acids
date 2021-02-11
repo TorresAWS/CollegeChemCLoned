@@ -1,0 +1,17 @@
+There 20 common amino acids. They can be classified according to they hydrophilic  and hydrophobic. Hydrophilic means that they solve in water whereas hydrophobic means that they do not solve in water. The classification is result of their side chain, as some of their side chains are hydrophilic whereas others are hydrophobic. For example, Glycine is an hydrophobic amino acid as its side chain is mainly made of carbon and hydrogen and is hence nonpolar. Differently, Serine is an hydrophilic amino acid as its side chain contains oxygen and is hence polar.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.2\textwidth}}
+\setatomsep{2.5em}\chemfig{
+C(-[:0]C(-[:0]@{C}O^{-})(=[:270]O))
+(-[:270]H)(-[:180]H_3N^{+}(-[:270,1,,,draw=none]@{A}))
+(-[:90]@{R}H)
+}&
+\setatomsep{2.5em}\chemfig{
+C(-[:0]C(-[:0]@{C}O^{-})(=[:270]O))
+(-[:270]H)(-[:180]H_3N^{+}(-[:270,1,,,draw=none]@{A}))
+(-[:90]@{R}H)
+}
+\tabularnewline\addlinespace
+\textcolor{blue}{Glycine (Gly)}  &\textcolor{blue}{Histidine (His)} \tabularnewline
+\textcolor{green}{Hydrophobic AA}  &   \textcolor{green}{Hydrofilic AA} \tabularnewline
+\end{tabular*}\end{center}

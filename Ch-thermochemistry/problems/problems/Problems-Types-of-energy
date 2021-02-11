@@ -1,0 +1,14 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions:
+\begin{inparaenum}[(a)]	
+\item What is the name of the energy associated with the motion of particles in a substance?
+\item	 What is the name of the energy stored in the chemical bonds of a carbohydrate molecule? 
+\item  What is the name of the energy stored in heigh?
+\end{inparaenum} 
+\end{question}
+\begin{solution}\begin{inparaenum}[(a)]
+\item kinetic energy
+\item chemical energy
+\item potential energy
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

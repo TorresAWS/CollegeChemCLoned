@@ -1,0 +1,15 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the enthalpy for this reaction:
+\begin{center}\ce{CS2_{(l)} + 3 O2_{(g)} -> CO2_{(g)} + 2 SO2_{(g)} }\end{center}
+Given the following thermochemical equations:
+\begin{center}
+\begin{tabular}{ r l r }
+\ce{C_{(s)} + O2_{(g)}  & -> \: CO2_{(g)} }&$\qquad \Delta H_1=-393.5 KJ$ \\
+\ce{S_{(s)} + O2_{(g)} & -> \:  SO2_{(g)}}&$\qquad \Delta H_2=-296.8KJ$ \\
+\ce{C_{(s)} + 2 S_{(s)}& -> \:  CS2_{(l)}}&$\qquad \Delta H_3=87.9 KJ$ \\
+ \end{tabular}
+ \end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $-1075 KJ$.
+ \end{flushright} }
+

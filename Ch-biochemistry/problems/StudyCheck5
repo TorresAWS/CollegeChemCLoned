@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following glycosidic bond:
+\begin{center}\chemfig[][scale=.7]{HO-[:-90,0.8,2]?[b]-[:-30,1.3](-[:90,0.8]OH)-[0,1.3](-[:-90,0.8]OH)-[:30,1.3](-[:90,0.8]-[:-45,1.5]\textcolor{orange}{O}-[:-45,1.2]-[:90,0.8]?[a]-[:-30,1.3](-[:90,0.8]OH)-[0,1.3](-[:-90,0.8]OH)-[:30,1.3](-[:-90,0.8]\textcolor{orange}{OH})-[:150,1.2]\textcolor{red}{O}-[4, 1.3]?[a](-[:90, 1.0]-[:160, 0.7]OH))-[:150,1.2]\textcolor{red}{O}-[4, 1.3]?[b](-[:90, 1.0]-[:160, 0.7]OH)} \end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small $\beta$-1-4-glycosidic bond 
+ \end{flushright} }

@@ -1,0 +1,14 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Balance the following redox reactions in basic medium:
+\begin{enumerate}[label=(\alph*)]
+ \item \ce{   Sn^{2+}_{(aq)} + Cr2O7^{2-}_{(aq)} ->Cr^{3+}_{(aq)} + Sn^{4+}_{(aq)}  }
+ \item \ce{   FeS_{(s)} + NO3^{-}_{(aq)} ->NO_{(g)} + Fe^{3+}_{(aq)} + SO4^{2-}_{(aq)}  }
+ \item \ce{   Sn_{(s)} + NO3^{-}_{(aq)} + Cl^{-}_{(aq)} -> SnCl6^{2-}_{(aq)} + NO2_{(g)}  }
+\end{enumerate}
+\end{question}\begin{solution}
+ No solution listed
+     \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+

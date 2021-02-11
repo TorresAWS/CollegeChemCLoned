@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+When a hot ballon deflates, it receives $10^7$J of work from the external atmosphere and its temperature change from 90$^{\circ}$C to 25$^{\circ}$C. Given that the air initially contained in the ballon has a mass of $3\times 10^5$g and a specific heat of 1$\text{J}/\text{g}^{\circ}\text{C}$
+ Calculate the internal energy of the hot ballon.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   $-9.5\times 10^6$J.
+ \end{flushright} }
+

@@ -1,0 +1,62 @@
+
+\begin{marginfigure}[0cm]%%%%%%%MARGIN PLOT
+\begin{tikzpicture}[yscale=0.8]
+\begin{axis}[axis background/.style = {%
+      shade,
+      top color = blue!10,
+      bottom color = white},
+    x tick label style={
+        /pgf/number format/1000 sep=},
+    ymax=19,%
+    ymin=1,%
+    title={ \boxed{\ce{^131_53Ir -> ^131_54Xe + ^0_{-1}e}} },
+    xmax=40,%
+    xmin=0,%
+    width=\linewidth,
+    enlargelimits=0.1,
+    legend style={at={(0.5,0.5)},
+      anchor=north,legend columns=-1},
+    ylabel={\Large $N(t)$ of \ce{^131_53Ir} (g)},xlabel={\Large Time (days)},
+    bar width=5mm, y=4mm,
+    symbolic x coords={0, 8, 24, 32, 40},
+    xtick=data,
+    nodes near coords align={vertical},
+    ]
+\addplot[ybar,  fill=black!10] 
+    coordinates {(0,20) (8,5) (24,2.5) (32,1.25) (40,0.6)} ;
+    \node [above] at (axis cs:  8,5) {$t_{1/2}$};
+        \node [above] at (axis cs:  24,2.5) {$2t_{1/2}$};
+        \node [above] at (axis cs:  32,1.25) {$3t_{1/2}$}; 
+\end{axis}
+    \end{tikzpicture}
+    \begin{tikzpicture}[yscale=0.8]
+\begin{axis}[axis background/.style = {%
+      shade,
+      top color = red!10,
+      bottom color = white},
+    x tick label style={
+        /pgf/number format/1000 sep=},
+    ymax=19,%
+    ymin=1,%
+    xmax=40,%
+    xmin=0,%
+    width=\linewidth,
+    enlargelimits=0.1,
+    legend style={at={(0.5,0.5)},
+      anchor=north,legend columns=-1},
+    ylabel={\Large $N(t)$ of \ce{^131_54Xe} (g)},xlabel={\Large Time (days)},
+    bar width=5mm, y=4mm,
+    symbolic x coords={0, 8, 24, 32, 40},
+    xtick=data,
+    nodes near coords align={vertical},
+    ]
+\addplot[ybar,  fill=black!10] 
+    coordinates {(0,0) (8,15) (24,17) (32,18) (40,19)} ;
+    \node [above] at (axis cs:  8,15) {$t_{1/2}$};
+        \node [above] at (axis cs:  24,17) {$2t_{1/2}$};
+        \node [above] at (axis cs:  32,18) {$3t_{1/2}$};  
+      
+\end{axis}
+    \end{tikzpicture}
+\end{marginfigure}%%%%%%%MARGIN PLOT
+

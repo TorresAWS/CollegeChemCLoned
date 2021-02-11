@@ -1,0 +1,11 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Combine the following molecules to produce a nucleoside:
+\begin{center}\begin{tikzpicture}
+\node (a) at (0,0) {\setatomsep{2.5em}\chemfig[][scale=.65]{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
+\node (b) at (2,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{adenine} } };
+\node (c) at (4,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyribose} } };
+\end{tikzpicture}\end{center}
+ \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: \small Adenosine-5'-monophosphate, part of DNA 
+ \end{flushright} }
+

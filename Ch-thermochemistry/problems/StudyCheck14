@@ -1,0 +1,9 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following reactions as exothermic and endothermic:
+\begin{center}\ce{C_{(s)} + O2_{(g)}   ->  CO2_{(g)} +} \textcolor{red}{\faFire} \hspace*{0pt}\hfill $\Delta Q_{r}=-393.5kJ$.\end{center}
+\begin{center}\ce{ C_{(s)} + 2 S_{(s)} + }\textcolor{red}{\faFire}\ce{  ->  CS2_{(l)}} \hspace*{0pt}\hfill $\Delta Q_{r}=+87.9kJ$.\end{center}
+\begin{center}\ce{S_{(s)} + O2_{(g)}   ->    SO2_{(g)} +} \textcolor{red}{\faFire} \hspace*{0pt}\hfill $\Delta Q_{r}=-296.8kJ$.\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: exothermic, endothermic, enxothermic
+ \end{flushright} }
+

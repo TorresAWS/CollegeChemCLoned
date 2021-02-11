@@ -1,0 +1,26 @@
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{center}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Density of some common substances at 273.15 K and 100 kPa } \\
+\midrule
+Substance& \multicolumn{1}{c}{Density ($g/mL$)}&  \multicolumn{1}{c}{Physical State}\\
+\midrule
+Helium	&\multicolumn{1}{c}{0.2}& \multicolumn{1}{c}{gas}	\\
+Hydrogen	&\multicolumn{1}{c}{0.1}& \multicolumn{1}{c}{gas}	\\
+Water  & \multicolumn{1}{c}{1.0} & \multicolumn{1}{c}{Liquid} \\
+Cooking oil&	\multicolumn{1}{c}{0.9}& \multicolumn{1}{c}{Liquid}\\
+Mercury&	\multicolumn{1}{c}{13.5} & \multicolumn{1}{c}{Liquid}\\
+Tetrachloroethene  &	\multicolumn{1}{c}{1.6} & \multicolumn{1}{c}{Liquid}\\	 
+Gold	&\multicolumn{1}{c}{19.3} &\multicolumn{1}{c}{solid}\\
+Plastics&	\multicolumn{1}{c}{1.2}&\multicolumn{1}{c}{solid}	\\
+Ice	&\multicolumn{1}{c}{0.916$^\ast$}	&\multicolumn{1}{c}{solid}\\
+
+\bottomrule
+\multicolumn{3}{l}{$^\ast$Ice is given at T $<$273.15 K } \\
+
+\end{tabular}
+\end{center}
+

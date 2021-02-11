@@ -1,0 +1,64 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following molecules as polar or nonpolar:
+\begin{inparaenum}[(a)]
+\item\ce{C6H14_{(l)}}  % (nonpolar)
+\item\ce{CH3CH2CH2OH_{(l)}}  % (polar)
+\item \ce{C5H10_{(l)}}  % (nonpolar)
+\item \ce{C6H5CH3_{(l)}}  % (nonpolar)
+\item \ce{CH3CH2OH_{(l)}}  % (polar)
+\item \ce{C6H5NH2_{(l)}}  % (polar)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item\ce{C6H14_{(l)}}    (nonpolar)
+\item\ce{CH3CH2CH2OH_{(l)}}    (polar)
+\item \ce{C5H10_{(l)}}    (nonpolar)
+\item \ce{C6H5CH3_{(l)}}    (nonpolar)
+\item \ce{CH3CH2OH_{(l)}}    (polar)
+\item \ce{C6H5NH2_{(l)}}    (polar)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following molecules as polar or nonpolar:
+\begin{inparaenum}[(a)]
+\item \ce{H2O_{(l)}}  % (polar)
+\item\ce{C5H12_{(l)}}  % (nonpolar)
+\item \ce{CH3COOH_{(l)}}  % (polar)
+\item \ce{CH3OH_{(l)}}  % (polar)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H2O_{(l)}}    (polar)
+\item\ce{C5H12_{(l)}}    (nonpolar)
+\item \ce{CH3COOH_{(l)}}    (polar)
+\item \ce{CH3OH_{(l)}}    (polar)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following molecules as polar or nonpolar:
+\begin{inparaenum}[(a)]
+\item \ce{H2O_{(l)}}  % (polar)
+\item\ce{C5H12_{(l)}}  % (nonpolar)
+\item \ce{CH3COOH_{(l)}}  % (polar)
+\item \ce{CH3OH_{(l)}}  % (polar)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H2O_{(l)}}    (polar)
+\item \ce{C5H12_{(l)}}    (nonpolar)
+\item \ce{CH3COOH_{(l)}}    (polar)
+\item \ce{CH3OH_{(l)}}    (polar)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

@@ -1,0 +1,27 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A solution is prepared by mixing 4 g of \ce{C6H6_{(l)}} and 10 g of \ce{CCl4_{(l)}}. Indicate the true statement:
+\begin{inparaenum}[(a)]	
+\item \ce{C6H6} is the solute
+\item\ce{CCl4} is the solute
+\item Both chemicals do not mix
+\item The mixture is not a solution
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+ \ce{C6H6} is the solute
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A solution is prepared by mixing 5 g of \ce{Au_{(s)}} and 2 g of \ce{Cu_{(s)}}. Indicate the true statement:
+\begin{inparaenum}[(a)]	
+\item \ce{Au} is the solute
+\item\ce{Cu} is the solute
+\item Both elements do not mix
+\item The mixture is not a solution
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+ \ce{Cu} is the solute
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

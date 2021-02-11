@@ -1,0 +1,4 @@
+The radioactivity of an isotope, often referred as \emph{activity}, can be measure in two different units: Curies (Ci) or becquerel (Bq). Curie was somehow the original unit employed to measure the radioactivity of radium and becquerel is a more modern unit of radioactivity. Bq is the SI unit of activity. Both units are related by:
+\begin{equation}\boxed{    1 Ci=3.7 \times10^{10} Bq   } \hspace{0.5cm} \text{or} \hspace{0.5cm}   \boxed{\frac{1 Ci}{3.7 \times10^{10} Bq}}\hspace{0.5cm} \text{or} \hspace{0.5cm}   \boxed{\frac{3.7 \times10^{10} Bq}{1 Ci}} \label{formula4:3}\end{equation}
+Activity refers to the isotope and is also measured in disintegration per minute (cpm).
+

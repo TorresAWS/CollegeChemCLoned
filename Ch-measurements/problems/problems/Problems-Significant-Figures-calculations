@@ -1,0 +1,45 @@
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Carry the following calculations with the correct number of digits or significant figures:
+  \begin{multicols}{2} \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+  \item $0.2301+0.123$	 \iffalse $0.353$ \fi
+  \item $0.2301-1.12$	\iffalse $-0.89$ \fi
+    \item $ 88.1-87.57$	\iffalse $=0.5$ \fi
+  \item $24.56+2.4$	\iffalse $=27.0$ \fi
+  \end{enumerate}\end{multicols}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item $0.2301+0.123$	  $=0.353$  
+    \item $0.2301-1.12$	  $=-0.89$  
+        \item $ 88.1-87.57$	  $=0.5$  
+          \item $24.56+2.4$	  $=27.0$  
+  \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Carry the following calculations with the correct number of digits or significant figures:
+  \begin{multicols}{2} \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+   \item $523\times5000$	\iffalse $3000000$ \fi
+  \item $5/0.123$	\iffalse $40$ \fi
+  \item $27.0\times 0.01$	\iffalse $0.3$ \fi
+    \item $ 345.13/ 100$	\iffalse $=3$ \fi
+  %\item $\frac{0.5}{345.13\times 10^2}$	\iffalse $\frac{0.5}{34000}=9.0\times 10^{-4}$ \fi
+  \end{enumerate}\end{multicols}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+   \item $523\times5000$	  $=3000000$  
+  \item $5/0.123$	  $=40$  
+  \item $27.0\times 0.01$	  $=0.3$  
+      \item $ 345.13/ 100$	  $=3$ 
+ % \item $\frac{88.1-87.57}{345.13\times 10^2}$	  $=\frac{30.5}{34000}=9.0\times 10^{-4}$ 
+  \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+

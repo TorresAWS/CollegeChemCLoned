@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A 2 mol-sample of a chemical reacts in a  constant-volume calorimeter with 20g of water and a heat capacity of 11$K\text{J}/^{\circ}\text{C}$. Calculate the heat of reaction knowing that the temperature of water inside the calorimeter rises $10^{\circ}C$.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $-55KJ/mol$.
+ \end{flushright} }
+
