@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Using the enthalpy tables at the end of the chapter, locate the enthalpy values for:  \ce{CaS_{(s)}}, \ce{AlCl3_{(s)}} and \ce{H2O_{(l)}}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The enthalpy of calcium sulfide in solid state (\ce{CaS_{(s)}}) is -482.4KJ/mol. For the case of aluminum  chloride in solid state too (\ce{AlCl3_{(s)}}), the enthalpy is -705.63KJ/mol. Finally, the enthalpy of liquid water is -285.8KJ/mol.
+\\
+\import{./}{StudyCheck9}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

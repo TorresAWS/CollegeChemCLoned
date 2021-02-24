@@ -1,0 +1,14 @@
+Proteins are made of amino acids. Amino acids have the following parts: (1) a central carbon called $\alpha$ carbon; (2) an amino (\ce{NH2}) group connected to the $\alpha$ carbon; (3) a carboxylic acid (\ce{COOH}) group connected to the $\alpha$ carbon; (4) a hydrogen atom (\ce{H}) connected to the $\alpha$ carbon; (5) a side chain (\ce{R}). All amino acids have the same $\alpha$ carbon, amino group and acid group as well as hydrogen connected to the $\alpha$ carbon. They differ in the side chain. Here is an example of an amino acid called Alanine, indicating the amino, the acid and the side chain.
+\begin{center}\vspace{1cm}\chemfig{C(-[:180]@{AR}N(-[:135]H)(-[:225]@{AL}H))(-[:0]@{CL}C(=[:45]@{CR}O)(-[:315]OH))(-[:90]@{R}CH_3)(-[:270]H)}
+\chemmove{\draw[fill=purple,draw=purple,fill opacity=.2,rounded corners=2pt]
+    ([xshift=-3pt,yshift=-3pt]R.south west) rectangle ([xshift=4pt,yshift=3pt]R.north east)   node[xshift=0pt,yshift=5pt,above,opacity=1]{\textcolor{blue}{R Group (Side Chain)}};}
+\chemmove{\draw[fill=purple,draw=purple,fill opacity=.2,rounded corners=2pt]([xshift=-6pt,yshift=-15pt]AL.south west) node[xshift=15pt,yshift=-6pt,below,opacity=1]{\textcolor{blue}{Amino Group}} rectangle([xshift=3pt,yshift=35pt]AR.north east);}
+\chemmove{\draw[fill=red,draw=red,fill opacity=.2,rounded corners=2pt]    ([xshift=-3pt,yshift=-39pt]CL.south west) node[xshift=24pt,yshift=-6pt,below,opacity=1]{\textcolor{blue}{Carboxyl Group}} rectangle ([xshift=12pt,yshift=15pt]CR.north east) ; }\vspace{1cm}\end{center}
+Two more amino acids examples:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.2\textwidth}}
+\chemfig{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]OH))(-[:90]CH_2-[:90]**6(------))(-[:270]H)}&
+\chemfig{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]OH))(-[:90]CH_2-[:90]CH_2-[:90]S-[:90]CH_3)(-[:270]H)}&
+\tabularnewline\addlinespace
+\textcolor{blue}{Phenylalanine}  &\textcolor{blue}{Methionine} \tabularnewline
+\end{tabular*}\end{center}

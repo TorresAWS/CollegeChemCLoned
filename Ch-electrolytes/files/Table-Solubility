@@ -1,0 +1,31 @@
+\begin{fullwidth} 
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Soluble and insoluble compounds } \\
+\midrule
+\rowcolor{gray!45} Ions that form \textit{soluble} compounds... & ... \begin{bf}except\end{bf}  when combined with        \\
+ \midrule
+Group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) & no exceptions   \\
+Ammonium (\ce{NH4+}) &  no exceptions  \\
+Nitrate (\ce{NO3-}) &   no exceptions  \\
+Acetate (\ce{CH3COO-}) &  no exceptions   \\
+Hydrogen carbonate (\ce{HCO3-}) & no exceptions   \\
+Chlorate (\ce{ClO3-})  &   no exceptions \\
+Halide (\ce{F-}, \ce{Cl-}, \ce{Br-})  & \ce{Pb^2+}, \ce{Ag+} and \ce{Hg2^{2+}}   \\
+Sulfate (\ce{SO4^{2-}})  & \ce{Ag^{+}}, \ce{Ca^{2+}}, \ce{Sr^{2+}}, \ce{Ba^{2+}}, \ce{Hg2^{2+}} and  \ce{Pb^{2+}} \\
+ \rowcolor{black!45}
+\midrule
+\rowcolor{gray!45}Ions that form \textit{insoluble} compounds... & ... \begin{bf}except\end{bf} when combined with     \\
+ \midrule
+Carbonates (\ce{CO3^2-}) & group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or ammonium (\ce{NH4+})      \\
+ Chromates (\ce{CrO4^2-})    &  group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or \ce{Ca^2+}, \ce{Mg^2+}\newline  or ammonium (\ce{NH4+})  \\
+Phosphates (\ce{PO4^3-})   &  group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or ammonium (\ce{NH4+})  \\
+Sulfides (\ce{S^2-})    &  group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or  ammonium (\ce{NH4+})   \\
+Hydroxides (\ce{OH-})     & group I ions (\ce{Na+}, \ce{Li+}, \ce{K+}, etc) or \ce{Ca^2+}, \ce{Mg^2+},  \ce{Sr^2+} \newline or ammonium (\ce{NH4+})   \\
+\bottomrule
+\end{tabular}} \end{minipage}
+\end{fullwidth}

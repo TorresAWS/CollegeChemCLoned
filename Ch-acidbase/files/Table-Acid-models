@@ -1,0 +1,19 @@
+
+ \begin{minipage}[b]{0.8\linewidth}\resizebox{1.0\textwidth}{!}{
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Acid-base models} \\
+\midrule
+ Model & Acid definition   &   Base definition       \\
+\midrule
+Arrhenius &    \ce{H^+} producer     & \ce{OH^-} producer      \\
+Br\"{o}nsted-Lowry &     \ce{H^+} donnor     & \ce{H^+} acceptor    \\
+Lewis &   electron-pair acceptor    &  electron-pair giver   \\
+  \bottomrule
+\end{tabular}
+}\end{minipage} 
+ 

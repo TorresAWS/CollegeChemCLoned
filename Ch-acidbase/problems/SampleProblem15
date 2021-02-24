@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the PH of 20mL of a 0.1M \ce{NH4Cl}/0.2M \ce{NH3} ($K_b=1.80 \times 10^{-5}$). \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+This is a basic buffer and the main equilibrium involves ammonia, a weak base. In order to calculate the PH we need the concentration of the acid and base counter parts. The buffer volume is not important as it will be cancel out in the the Henderson-Hasselbalch equation. We would also need $K_a$, as we have  $K_b$ we can easily compute $K_a$, giving $5.5\times 10^{-10}$. The final PH will be:
+\[ PH=9.25 + \text{log} \Big(\frac{20\cdot 0.2}{20\cdot 0.1}\Big)=9.56 	\]
+\\
+\import{./}{StudyCheck15}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

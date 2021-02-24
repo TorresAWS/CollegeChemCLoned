@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name the following hydrocarbon:
+\begin{center} \chemfig{CH_3CH_2CH_2-C(-[:90,1]F)(-[:-90,1]F)-Br}\end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: Bromodifluorobutane. \end{flushright} }
+

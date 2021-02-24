@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the acid, the base, the conjugate acid and the conjugate base in the reaction:
+\begin{center}\ce{ CO3^{2-}_{(aq)} + H2O_{(l)}   <=> HCO3^{-}_{(aq)} + H3O^+_{(aq)}}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{$\textcolor{blue}{\underset{\text{Base}}{\ce{CO3^{2-}_{(aq)}}}}$ + $\textcolor{red}{\underset{\text{Acid}}{\ce{H2O_{(l)}}}}$  <=> $\textcolor{red}{\underset{\text{Conjugate Acid}}{\ce{HCO3^-_{(aq)}}}}$ + $\textcolor{blue}{\underset{\text{Conjugate Base}}{\ce{H3O^+_{(aq)}}}}$}
+ \end{flushright} }
+

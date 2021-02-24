@@ -1,0 +1,25 @@
+Acids and bases are indeed electrolytes. Remember electrolytes can be weak or strong depending on the degree to what they dissociate. Strong acids are strong electrolytes that dissociate completely in water producing large quantities of protons \ce{H^+}. Strong bases are strong electrolytes that dissociate completely to produce this time large quantities of hydroxyls \ce{OH^-}. Weak acid or weak bases dissociate only partially and hence they produce less protons or hydroxyls. Examples of strong electrolytes are: \ce{HCl}, \ce{H2SO4} or \ce{HNO3}. As they dissociate completely we use a single arrow to indicate the are strong electrolytes:
+\begin{center}\ce{HCl(l) ->[H2O] H^+(aq) +Cl^{-}(aq)} \hspace{1cm} \textcolor{blue}{One arrow indicates strong acids or bases}\end{center}
+Weak acids or basis that only dissociate partially are represented by a double arrow as the reaction is indeed an equilibrium. Examples of weak acids or bases are: \ce{NH3} or  \ce{HF}. 
+\begin{center}\ce{HF(l) <=>[H2O] H^+(aq) +F^{-}(aq)} \hspace{1cm} \textcolor{blue}{A double arrow indicates weak acids or bases}\end{center}
+How do we quantify the strength of an acid or base? Weak acids dissociate partially in water. And hence, the dissociation process is in equilibrium, that means you have at the same time in the same container the whole form of the acid and the conjugate base that lost its proton. For this reason, we can employ equilibrium constant $K_a$--in this chapter they are called acidity constant equivalent to $K_c$--to characterize the degree of dissociation. The larger $K_a$ the stronger the acid and hence the more protons will the acid produce in solution. Let's consider the case of \ce{HF}:
+\begin{center}\ce{HF_{(l)}  <=>[H2O] H^+_{(aq)}  +F^{-}_{(aq)} } \hspace{1cm} $K_a=\frac{\big[ \ce{H^+} \big] \cdot \big[ \ce{F^-} \big]} {\big[ \ce{HF} \big] }$\end{center}
+In a very similar way, bases also have what we call base dissociation constants: $K_b$. The bigger this value the stronger the base and the more hydroxyls will be produced. For the case of ammonia:
+\begin{center}\ce{NH3_{(aq)} + H2O_{(l)} <=>NH4^+_{(aq)}  +OH^{-}_{(aq)} } \hspace{1cm} $K_b=\frac{\big[ \ce{NH4^+} \big] \cdot \big[ \ce{OH^-} \big]} {\big[ \ce{NH3} \big] }$\end{center}
+remember liquid water can not be part of an equilibrium constant. As acids can also act as bases, there is relationship between the constant of acidity and the constant of basicity of an acid or base given by:
+\begin{equation}
+\boxed{ K_a\cdot K_b= 1.0\cdot 10^{-14}  }\label{\chapterlabel:equation1}
+\end{equation}
+For example, if the constant of acidity of a given acid is $1.5\times 10^{-5}$, the basicity constant of the same specie would be $6.6\times 10^{-10}$.
+
+In Table \ref{Fig:{\chapterlabel}\thefigurenewcounter} you can find a list of some acidity and basicity constants. In general, there are some simple rules that predict the the acid-base character of an acid-conjugate base pair. Strong acids in general produce weak conjugate bases. For example, \ce{HCl} is a strong acid and its conjugate base (\ce{Cl^-}) is a weak base. Differently, \ce{HF} is a weak acid and its conjugate base (\ce{F^-}) is a moderately strong base.
+Water is a weak electrolyte.
+The dissociation equilibrium of water is listed below:
+\begin{center}\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{H2O_{(l)}}}}$ + $\textcolor{blue}{\underset{\text{Base}}{\ce{H2O_{(l)}}}}$  <=> $\textcolor{red}{\underset{\text{Conjugate Base}}{\ce{OH^-_{(aq)}}}}$ + $\textcolor{blue}{\underset{\text{Conjugate Acid}}{\ce{H3O^+_{(aq)}}}}$}\hfill $K_w$\end{center}
+We have that water, as well as many other chemicals, can acts as a base or an acid. We call these type of chemicals \emph{amphoteric} or \emph{amphiprotic}; the last two terms are synonyms, which means they have the same meaning. Other example of amphoteric chemicals are: \ce{HCO3^-} or \ce{HSO4^-}. The dissociation constant of water is called the ion-product of water $K_w$:
+\begin{center}\ce{H2O_{(l)} <=>H^+_{(aq)}  +OH^{-}_{(aq)} } \hspace{1cm} $\big[ \ce{H^+} \big] \cdot \big[ \ce{OH^-} \big]=1.0\cdot 10^{-14}$\end{center}
+$K_w$ is constant that only depends on the temperature of water being $1.0\cdot 10^{-14}$ at 25$^\circ$C. The ion-product of water stablished a relationship between protons and hydroxyls in solution:
+\begin{equation}
+\boxed{ \big[ \ce{H^+} \big] \cdot \big[ \ce{OH^-} \big]=1.0\cdot 10^{-14}    }\label{\chapterlabel:equation2}
+\end{equation}
+We will explore more the use of this constant in the following sections.

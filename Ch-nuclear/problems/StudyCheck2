@@ -1,0 +1,12 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Label the following nuclear reactions as: $\alpha$, $\beta$ or $\gamma$ decay, or positron emission:
+\begin{multicols}{2}
+\begin{enumerate}[label=(\alph*)]
+\item \ce{^127_55Cs -> ^127_54Xe + ^0_{+1}e}
+\item \ce{^27_13Al^* -> ^27_13Al + ^0_{0}\gamma}
+\item \ce{^218_85At -> ^214_83Bi + ^4_{2}He}
+\end{enumerate}\end{multicols}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) positron emission; (b) gamma emission; (c) alpha emission.
+ \end{flushright} }
+

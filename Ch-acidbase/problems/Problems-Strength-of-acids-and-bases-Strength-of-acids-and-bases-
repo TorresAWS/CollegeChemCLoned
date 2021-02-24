@@ -1,0 +1,29 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following pairs, select the strongest acid:
+\begin{enumerate}[label=(\alph*)]
+\item  \ce{HIO3} ($K_a=1.6\cdot 10^{-1}$) or \ce{H2SO3} ($K_a=1.5\cdot 10^{-2}$) %(\ce{HIO3})
+\item  \ce{HN3} ($K_a=1.9\cdot 10^{-5}$) or \ce{H2CO3} ($K_a=4.3\cdot 10^{-7}$) %(\ce{H2CO3} )
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item    \ce{HIO3} 
+\item    \ce{H2CO3}  
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following pairs, select the strongest base:
+\begin{enumerate}[label=(\alph*)]
+\item  \ce{CN^-} ($K_a=6.2\cdot 10^{-10}$) or \ce{H2O} ($K_a=1.0\cdot 10^{-14}$) %(\ce{CN^-})
+\item  \ce{H2C6H5O^-} ($K_a=1.8\cdot 10^{-5}$) or \ce{HCOOH} ($K_a=1.7\cdot 10^{-4}$) %(\ce{HCOOH} )
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \ce{CN^-} 
+\item  \ce{HCOOH}   
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

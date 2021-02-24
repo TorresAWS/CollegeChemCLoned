@@ -1,0 +1,81 @@
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Select from below the atomic symbol for the element Gold is:
+\begin{multicols}{3}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item Go
+\item Au
+\item G
+\item Ca
+\item Ol
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+ (b)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The atomic symbol for aluminum is:
+\begin{multicols}{3}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item Al
+\item Am
+\item A
+\item Sn
+\item Ag
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+ (a)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The atomic symbol for iron is:
+\begin{multicols}{3}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item Ir
+\item Fs
+\item Fe
+\item In
+\item Ir
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+(c)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Ca is the symbol for:
+\begin{multicols}{2}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item Carbon
+\item Calcium
+\item Cobalt
+\item Copper
+\item Cadmium
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+(b)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

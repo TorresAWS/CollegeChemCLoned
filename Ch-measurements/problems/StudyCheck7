@@ -1,0 +1,5 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }
+Convert 200mL to drops.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $200\cancel{mL} \times \dfrac{15 drops}{1\cancel{mL}}=3000drops=3\times 10^3drops$ \end{flushright} }

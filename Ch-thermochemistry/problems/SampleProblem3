@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the work (in $\text{L}\cdot \text{atm}$) involved in the expansion of a gas from 10L to 20L at constant external pressure of 2atm. Convert the value in joules using 1J=$101.3\text{L}\cdot \text{atm}$.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Equation \ref{formula2:92} that related work with pressure and volume change:
+\[\text{W} = -\text{P}\cdot \Delta \text{V}=-2\text{atm}\cdot (20-10)\text{L}=-20\text{L}\cdot \text{atm} \]
+If we convert this value into J:
+\[-20\text{L}\cdot \text{atm}\times \frac{1J}{101.3\text{L}\cdot \text{atm}}=-0.2J \]
+As the value is negative, it means that the system gives away work.\\
+
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

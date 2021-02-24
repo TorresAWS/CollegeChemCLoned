@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the dissociation reaction using double arrows for the following chemicals: \ce{H3PO4_{(l)}} and \ce{NH3_{(g)}}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Phosphoric acid is a triprotic acid with three possible protons that can be given away:
+\begin{center}\ce{H3PO4_{(l)} <=>[H2O] 3H^+_{(aq)} +PO4^{3-}_{(aq)}}\end{center}
+As the molecules contains protons there is no need to explicitly include water in the equilibrium. Ammonia is a base and needs is the only case in which you need to explicitly use water to help dissociate the base. This is because ammonia does not contain hydroxyls.
+\begin{center}\ce{NH3_{(g)} + H2O_{(l)} <=>NH4^+_{(aq)} +OH^{-}_{(aq)}}\end{center}
+\import{./}{StudyCheck7}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX\end{description}

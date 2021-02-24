@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Indicate whether the following chemicals are lewis acid or lewis bases: (a) \ce{BH3} and (b) \ce{CH_3-O-CH_3}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The lewis structure of the molecules are:
+\begin{center}
+\hspace{.05in}  \chemfig{B( (-[:90]H)(-[:180]H)(-[:-90]H))} \hspace{.05in}and\hspace{.05in} \chemfig{ CH_3-\lewis{26,O}-CH_3}
+\end{center}
+\ce{BH3} can receive a lone pair to complete the octet of Boron and hence it will be a Lewis acid. Differently, \ce{CH_3-O-CH_3} is a Lewis base as oxygen has two lone pairs that can be given away.\\
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

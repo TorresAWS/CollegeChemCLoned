@@ -1,0 +1,15 @@
+\begin{example} % EXAMPLE BOX
+State the type of measurement indicated in each of the following:
+\begin{multicols}{4}
+\begin{enumerate}[label=(\alph*)]
+\item 1foot
+\item 20Kg
+\item 3L
+\item 300K
+\end{enumerate}
+\end{multicols}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) length; (b) mass; (c) volume; (d) temperature; 
+\\
+\import{./}{StudyCheck1}
+\end{example}% EXAMPLE BOX ALTERNATIVE

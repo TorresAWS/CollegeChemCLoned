@@ -1,0 +1,33 @@
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A potato contains 20 g of carbohydrate. If carbohydrate has a caloric value of 4 $kcal/g$, how many kcal are obtained from the carbohydrate in the potato?
+
+\end{question}
+\begin{solution}
+80 cal 
+
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A diet has a total caloric intake of 1400 kcal.  The diet consists of 50.\% carbohydrate, 35\% protein, and 15\% fat.  The number of kcal of protein in the diet is
+
+\end{question}
+\begin{solution}
+490 kcal. 
+
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A serving of fish contains 50 g of protein and 4 g of fat.  If protein has a caloric value of 4.0 $kcal/g$ and fat has 9 $kcal/g$, how many kcal are in the serving?  
+
+\end{question}
+\begin{solution}
+236 cal 
+
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+

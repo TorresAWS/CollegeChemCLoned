@@ -1,0 +1,25 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The mass percentage composition of a compound is: 18.59\% O, 37.25\% S, and 44.16\% F. Calculate its empirical formula.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will set up the the molecular formula table, knowing that the percentage are mass percentages, that is the mass of each element in the chemical, hence they should go in the grams row. Also the atomic weights of O, S and F are 16, 32 and 19 amu.
+\begin{center}\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\toprule
+\multicolumn{3}{c}{Empirical Formula Calculation} \\
+\midrule
+ &  O  &S & F\\
+\midrule
+  Grams &  0.1859g  & 0.3725g & 0.4416g \\
+\midrule
+   AW &  16 &32 &19 \\
+\midrule
+  Grams/AW &  0.0116  &0.0116 & 0.0232 \\
+\midrule
+  $\div$ by smallest &  1  &1 &2 \\
+  \midrule
+  Formula & \multicolumn{2}{c}{\ce{OSF2}}     \\
+\bottomrule
+\end{tabular}\end{center}
+\import{./}{StudyCheck8}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

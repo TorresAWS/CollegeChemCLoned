@@ -1,0 +1,17 @@
+In order to balance a redox in basic medium we need first to balance the reaction in acidic medium. After, we will compensate all \ce{H^+} with \ce{OH^-} in both sides of the reaction. Mind that when combining \ce{H^+} with \ce{OH^-} we obtain \ce{H2O}. For example, in order to balance the following reaction in basic medium:
+\begin{center}\ce{ 3Fe_{(aq)}^{2+} + MnO4_{(aq)}^{-}  + 4H_{(aq)}^{+} -> 3Fe_{(aq)}^{3+} + Mn_{(aq)}^{2+}  + 2H2O_{(l)}      }\end{center}
+we will add four \ce{OH^-} in both sides:
+%\begin{center}\ce{ 3Fe_{(aq)}^{2+} + MnO4_{(aq)}^{-}  + 4H_{(aq)}^{+} +  4OH_{(aq)}^{-} -> 3Fe_{(aq)}^{3+} + Mn_{(aq)}^{2+}  + 2H2O_{(l)}     }\end{center}
+%\hspace*{\fill}\ce{+ 4OH_{(aq)}^{-}}
+\begin{center}
+{\raggedleft \ce{ 3Fe_{(aq)}^{2+} + MnO4_{(aq)}^{-}  + 4H_{(aq)}^{+} +  4OH_{(aq)}^{-} -> 3Fe_{(aq)}^{3+} + Mn_{(aq)}^{2+}  + 2H2O_{(l)}  } \hspace*{0pt}\hfill   }  \\ 
+\hspace*{\fill}
+\ce{+ 4OH_{(aq)}^{-}     }
+\end{center}
+
+And after cancelling the four protons with the four hydroxyls, we have:
+\begin{center}\ce{ 3Fe_{(aq)}^{2+} + MnO4_{(aq)}^{-}  + 4H2O_{(l)}    -> 3Fe_{(aq)}^{3+} + Mn_{(aq)}^{2+}  + 2H2O_{(l)} +  4OH_{(aq)}^{-}     }\end{center}
+Now we have four water molecules in the left and two in the right. We will cancel two molecules from each side in order not to report water molecules twice:
+\begin{center}\ce{ 3Fe_{(aq)}^{2+} + MnO4_{(aq)}^{-}  + 2H2O_{(l)}    -> 3Fe_{(aq)}^{3+} + Mn_{(aq)}^{2+}  +  4OH_{(aq)}^{-}     }\end{center}
+
+

@@ -1,0 +1,149 @@
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+$1dm=\hlmath{\hspace{35pt }}$m
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item $1\times 10^{-1}$
+%\item $1\times 10^{3}$
+%\item $1\times 10^{-2}$
+%\item $1\times 10^{-6}$
+%\item $1\times 10^{12}$
+%\end{enumerate}
+%\end{multicols}    
+\end{question}
+\begin{solution}
+$1\times 10^{-1}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+$1cm=\hlmath{\hspace{35pt }}$m
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item $1\times 10^{-1}$
+%\item $1\times 10^{3}$
+%\item $1\times 10^{-2}$
+%\item $1\times 10^{-6}$
+%\item $1\times 10^{12}$
+%\end{enumerate}
+%\end{multicols}    
+\end{question}
+\begin{solution}
+$1\times 10^{-2}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+$\dfrac{1nm}{\hlmath{\hspace{35pt }}m}$
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item $1\times 10^{-1}$
+%\item $1\times 10^{-9}$
+%\item $1\times 10^{-2}$
+%\item $1\times 10^{-6}$
+%\item $1\times 10^{12}$
+%\end{enumerate}
+%\end{multicols}    
+\end{question}
+\begin{solution}
+$1\times 10^{-9}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+$\dfrac{1fs}{\hlmath{\hspace{35pt }}s}$
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item $1\times 10^{-1}$
+%\item $1\times 10^{-9}$
+%\item $1\times 10^{-2}$
+%\item $1\times 10^{-15}$
+%\item $1\times 10^{-12}$
+%\end{enumerate}
+%\end{multicols}    
+\end{question}
+\begin{solution}
+$1\times 10^{-15}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+\begin{multicols}{2}  
+\noindent\RaggedRight
+ $1Tm=\hlmath{\hspace{35pt }}$m
+  $1dm=\hlmath{\hspace{35pt }}$m
+   $1cg=\hlmath{\hspace{35pt }}$g
+   $1ms=\hlmath{\hspace{35pt }}$s
+  %$1kcal=\hlmath{\hspace{35pt }}$cal
+  $1qt=\hlmath{\hspace{35pt }}$mL
+  $1L=\hlmath{\hspace{35pt }}dm^3$
+  $1lb=\hlmath{\hspace{35pt }}$g
+  $1in=\hlmath{\hspace{35pt }}$cm
+ \end{multicols}
+\end{question}
+\begin{solution}
+$1\text{Tm}= 10^{12}$m
+  $1\text{dm}= 10^{-1}$m
+   $1\text{cg}= 10^{-2}$g
+   $1\text{ms}= 10^{-3}$s
+  %$1kcal= $cal
+  $1\text{qt}= 1$mL
+  $1\text{L}= 1dm^3$
+  $1\text{lb}= 454$g
+  $1\text{in}= 2.54$cm
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+\begin{multicols}{2} 
+  \noindent\begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item $\dfrac{1\text{km}}{\hlmath{\hspace{35pt }} \text{m}}$
+   \item$\dfrac{1\text{cm}}{\hlmath{\hspace{35pt }} \text{m}}$
+  \item $\dfrac{1\text{ms}}{\hlmath{\hspace{35pt }} \text{s}}$
+  % \item $\dfrac{1kcal}{\hlmath{\hspace{35pt }} cal}$
+  \item $\dfrac{\hlmath{\hspace{35pt }} \text{L}}{ 10^{-3}\text{L}}$
+ \item  $\dfrac{\hlmath{\hspace{35pt }} \text{L}}{ 10^{-2}\text{L}}$
+  \item   $\dfrac{\hlmath{\hspace{35pt }} \text{g}}{ 10^{-1}\text{g}}$
+  \end{enumerate}
+ \end{multicols}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item $\dfrac{1\text{km}}{ 10^{3}     \text{m}}$
+   \item$\dfrac{1\text{cm}}{ 10^{-2}   \text{m}}$
+  \item $\dfrac{1\text{ms}}{  10^{-3} \text{s}}$
+  % \item $\dfrac{1kcal}{   cal}$
+  \item $\dfrac{   \text{mL}}{ 10^{-3}\text{L}}$
+ \item  $\dfrac{   \text{cL}}{ 10^{-2}\text{L}}$
+  \item   $\dfrac{   \text{dg}}{ 10^{-1}\text{g}}$
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+
+
+
+

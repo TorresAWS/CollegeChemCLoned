@@ -1,0 +1,44 @@
+
+\begin{fullwidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+
+
+\begin{tikzpicture}
+ \begin{axis}[
+ scale only axis, width=0pt, height=0pt, hide axis,
+ tick label style={/pgf/number format/.cd, fixed},
+ colorbar,colormap/jet,
+ point meta min=0,
+ point meta max=14,
+  colorbar horizontal,
+  colorbar style={
+    width=0.8\textwidth,
+    xtick={0,..., 14},
+    },
+    ] (arrow)
+   { 
+  };
+ \end{axis}
+\node[font=\Large, anchor=south west ]  at (0cm,0cm) {Acidic}; 
+\node[font=\Large, anchor=south west ]  at (6.5cm,0cm) {neutral}; 
+\node[font=\Large, anchor=south west ]  at (13.5cm,0cm) {Basic}; 
+
+
+\draw[dashed] (2.1,-1) -- (2.1,-3);
+   \node[anchor=south west,inner sep=0] (image1) at (.1cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure6}};\node[font=\small, anchor=south west ]  at ([shift={(0.5cm,-0.5cm)}]image1.south west)  {lemon}; 
+\draw[dashed] (5.25,-1.2) -- (5.25,-2);
+   \node[anchor=south west,inner sep=0] (image2) at (4cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure3}};\node[font=\small, anchor=south west ]  at ([shift={(0.5cm,-0.5cm)}]image2.south west)  {Coffee}; 
+\draw[dashed] (7.3,-1) -- (7.3,-3);
+   \node[anchor=south west,inner sep=0] (image2) at (7.0cm,-3cm) {\includegraphics[width=0.05\columnwidth]{../Ch-acidbase/figure4}};\node[font=\small, anchor=south west ]  at ([shift={(-0.0cm,-0.5cm)}]image2.south west)  {water};
+    
+    \draw[dashed] (9.3,-1.2) -- (9.3,-3);
+   \node[anchor=south west,inner sep=0] (image2) at (9.0cm,-3cm) {\includegraphics[width=0.05\columnwidth]{../Ch-acidbase/figure5}};\node[font=\small, anchor=south west ]  at ([shift={(-0.0cm,-0.5cm)}]image2.south west)  {egg-whites};
+\draw[dashed] (12.5,-1.2) -- (12.5,-3);
+   \node[anchor=south west,inner sep=0] (image2) at (12.5cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure2}};\node[font=\small, anchor=south west ]  at ([shift={(0.3cm,-0.5cm)}]image2.south west)  {chlorox};
+\node[text width=12cm, fontscale=.2,shift={(15em,-19em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The PH scale };
+
+\end{tikzpicture}
+
+}\end{minipage}
+\end{fullwidth}

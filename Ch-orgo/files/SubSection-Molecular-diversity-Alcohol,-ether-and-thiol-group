@@ -1,0 +1,11 @@
+Alcohols contain an \ce{-OH} group attached to a carbon. 
+\begin{center}\chemfig{R-OH}\hspace{0.5cm}\textcolor{blue}{Alcohol}\end{center}
+Whereas ethers have oxygen atoms attached to two carbon atoms:
+\begin{center}\chemfig{R-O-R'}\hspace{0.5cm}\textcolor{blue}{Ether}\end{center}
+Examples of alcohols and ether are:
+\begin{center}\chemname[0.9ex]{\chemfig{CH_3-CH_2-OH}}{alcohol}     \hspace{0.5cm}  \chemname{\chemfig{CH_3-O-CH_2-CH_3}}{ether}   \end{center}
+Thiols contain a  \ce{-SH} group attached to a carbon. They are equivalent to alcohols but based in sulfur:
+\begin{center}\chemfig{R-SH}\hspace{0.5cm}\textcolor{blue}{thiol}\end{center}
+Examples of thiols  are:
+\begin{center}\chemfig{CH_3-CH_2-SH}    \hspace{0.5cm}  \chemfig{CH_3-CH(-[:90]SH)-CH_3}  \end{center}
+Thiols are responsible for the characteristic smell of rotten eggs and burned hair.

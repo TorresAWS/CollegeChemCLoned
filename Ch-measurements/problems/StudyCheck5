@@ -1,0 +1,5 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Convert 100$m^3$ to $dm^3$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:$100\cancel{m^3} \times \dfrac{1dm^3}{1\times10^{-3}\cancel{m^3}}=1\times 10^5dm^3$. \end{flushright} }

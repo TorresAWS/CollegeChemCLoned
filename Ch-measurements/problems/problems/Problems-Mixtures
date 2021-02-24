@@ -1,0 +1,55 @@
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following objects as an element, compound, and homogeneous mixture, a heterogeneous mixture or none of the others:
+\begin{inparaenum}[(a)]
+  \item a energy drink %(Homogeneous mixture)
+  \item helium gas %(element)
+    \item sulfur %(element)
+  \item milk %(homogeneous mixture)
+  \item milkshake %(Homogeneous mixture)
+    \item gelato %(Homogeneous mixture)
+    \item  air %(Homogeneous mixture)
+ \item  granite %(Heterogeneous mixture)
+  \item uranium %(element)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item a energy drink  (Homogeneous mixture)
+  \item helium gas  (element)
+    \item sulfur  (element)
+  \item milk  (homogeneous mixture)
+  \item milkshake  (Homogeneous mixture)
+    \item gelato  (Homogeneous mixture)
+    \item  air  (Homogeneous mixture)
+ \item  granite  (Heterogeneous mixture)
+  \item uranium  (element)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following objects as an element, compound, and homogeneous mixture, a heterogeneous mixture or none of the others:
+\begin{inparaenum}[(a)]
+\item a copper wire
+\item a chocolate cookie
+\item a chocolate-chip cookie
+\item vinegar
+\item ice
+\item baking soda
+\item aluminum foil
+\item vitamin C
+ \end{inparaenum}
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item a copper wire (Element)
+\item a chocolate cookie (Homogeneous mixture)
+\item a chocolate-chip cookie (Heterogeneous mixture)
+\item vinegar (Homogeneous mixture)
+\item ice (Compound)
+\item baking soda(Compound)
+\item aluminum foil(element)
+\item vitamin C(compound)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%

@@ -1,0 +1,143 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-thermochemistry}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+
+\begin{document}
+\linenumbers
+
+
+
+\import{files/}{ChapterName}
+
+
+   
+   \begin{marginfigure}
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\end{tikzpicture}
+\end{marginfigure}
+
+
+
+
+\import{files/}{ChapterIntro}
+
+%\textquotesingle 
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{files/}{SectionGoal-Energy-temperature}
+\import{files/}{SectionGoal-Calorimetry}
+\import{files/}{SectionGoal-Enthalpy}
+\import{files/}{SectionGoal-Hesss-Law-Manipulating-reaction-enthalpies}
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+\import{files/}{ChapterDiscussion}
+\end{tcolorbox}
+
+\end{marginfigure}%LEARNING GOALS BOX
+\section{Energy \& temperature}
+\import{files/}{SectionIntro-Energy-temperature}
+\sloppy\begin{description}
+\item[\docfilehook{Potential \& Kinetic Energy: heat}{}] 
+  \import{files/}{SubSection-Energy-temperature-Potential-Kinetic-Energy-heat}
+\item[\docfilehook{Mechanical energy: work}{}] 
+  \import{files/}{SubSection-Energy-temperature-Mechanical-energy-work}
+   \import{files/}{SideFigure-Energy}
+\item[\docfilehook{The law of conservation energy}{}]
+  \import{files/}{SubSection-Energy-temperature-The-law-of-conservation-energy}
+\item[\docfilehook{Energy units}{Energy units}] 
+  \import{files/}{SubSection-Energy-temperature-Energy-units--Energy-units-}
+   \import{problems/}{SampleProblem1}
+\item[\docfilehook{Temperature }{Temperature }]
+  \import{files/}{SubSection-Energy-temperature-Temperature---Temperature}
+   \import{problems/}{SampleProblem2}
+\item[\docfilehook{Thermodynamics}{}] 
+  \import{files/}{SubSection-Energy-temperature-Thermodynamics}
+\end{description}
+\section{The first law of thermodynamics. From energy  to temperature}
+\import{files/}{SectionIntro-The-first-law-of-thermodynamics.-From-energy--to-temperature}
+\sloppy\begin{description}
+\item[\docfilehook{Work}{}] 
+  \import{files/}{SubSection-The-first-law-of-thermodynamics.-From-energy--to-temperature-Work}
+   \import{problems/}{SampleProblem3}
+\item[\docfilehook{Heat capacity}{}] 
+  \import{files/}{SubSection-The-first-law-of-thermodynamics.-From-energy--to-temperature-Heat-capacity}
+   \import{files/}{Table-Specific-heat}
+\item[\docfilehook{Heat}{}] 
+  \import{files/}{SubSection-The-first-law-of-thermodynamics.-From-energy--to-temperature-Heat}
+   \import{problems/}{SampleProblem4}
+\item[\docfilehook{First law of thermodynamics: the internal energy}{}] 
+  \import{files/}{SubSection-The-first-law-of-thermodynamics.-From-energy--to-temperature-First-law-of-thermodynamics:-the-internal-energy}
+   \import{problems/}{SampleProblem5}
+   \import{problems/}{SampleProblem6}
+\end{description}
+
+\section{Calorimetry}
+\import{files/}{SectionIntro-Calorimetry}
+\sloppy\begin{description}
+\item[\docfilehook{The calorimeter}{}] 
+  \import{files/}{SubSection-Calorimetry-The-calorimeter--The-calorimeter}
+\item[\docfilehook{Exothermic and endothermic reactions}{ }]  \import{files/}{SubSection-Calorimetry-Exothermic-and-endothermic-reactions--Exothermic-and-endothermic-reactions}
+  \import{problems/}{SampleProblem14}
+\item[\docfilehook{Constant-pressure calorimeter}{ }] \import{files/}{SubSection-Calorimetry-Constant-pressure-calorimeter}
+   \import{problems/}{SampleProblem7}
+\item[\docfilehook{Constant-volume calorimeter}{ }]  \import{files/}{SubSection-Calorimetry-Constant-volume-calorimeter}
+   \import{problems/}{SampleProblem8}
+\hspace{-2cm}\import{files/}{Figure-Calorimeter}
+ \import{files/}{Table-Energy-values}
+
+\item[\docfilehook{Calories in food }{ }]  \import{files/}{SubSection-Calorimetry-Food-Calories}
+\item[\docfilehook{ Energy values}{ }]  \import{files/}{SubSection-Calorimetry-Energy-value}
+ \import{problems/}{SampleProblem13}
+
+\end{description}
+     
+     
+     
+  \section{Enthalpy}
+\import{files/}{SectionIntro-Enthalpy}
+\sloppy\begin{description}
+  \item[\docfilehook{What is enthalpy?}{ }] 
+  \import{files/}{SubSection-Enthalpy-What-is-enthalpy?}
+\item[\docfilehook{Table of standard enthalpies}{}] 
+  \import{files/}{SubSection-Enthalpy-Table-of-standard-enthalpies--Table-of-standard-enthalpies}
+   \import{problems/}{SampleProblem9}
+\item[\docfilehook{Natural state of an element}{Natural state of an element}]
+ \import{files/}{SubSection-Enthalpy-Natural-state-of-an-element--Natural-state-of-an-element}
+   \import{files/}{Table-Standard-states}
+\item[\docfilehook{Formation reactions: standard enthalpy of formation}{}] 
+  \import{files/}{SubSection-Enthalpy-Formation-reactions:-standard-enthalpy-of-formation}
+ \item[\docfilehook{ $\Delta H^{\circ}_R$ and $\Delta H^{\circ}_f$ }{$\Delta H^{\circ}_R$ and $\Delta H^{\circ}_f$ }]
+  \import{files/}{SubSection-Enthalpy-Delta-H}
+\item[\docfilehook{Standard enthalpy change for a reaction}{Standard enthalpy change for a reaction}] 
+  \import{files/}{SubSection-Enthalpy-Standard-enthalpy-change-for-a-reaction--Standard-enthalpy-change-for-a-reaction}
+   \import{problems/}{SampleProblem10}
+  \item[\docfilehook{Heat-Mole conversions}{Heat-Mole conversions}] 
+    \import{files/}{SubSection-Enthalpy-Heat-Mole-conversions--Heat-Mole-conversions}
+   \import{problems/}{SampleProblem11}
+  \end{description}
+  
+  
+ \section{Hess's Law: Manipulating reaction enthalpies }
+\import{files/}{SectionIntro-Hesss-Law-Manipulating-reaction-enthalpies}
+\sloppy\begin{description}
+\item[\docfilehook{Reverting reactions}{Reverting reactions}] 
+  \import{files/}{SubSection-Hesss-Law-Reverting-reactions--Reverting-reactions}
+ \item[\docfilehook{Timing reactions by a number}{Timing reactions by a number}] 
+ \import{files/}{SubSection-Hesss-Law-Timing-reactions-by-a-number--Timing-reactions-by-a-number}
+  \item[\docfilehook{Combining reactions}{Combining reactions}] 
+  \import{files/}{SubSection-Hesss-Law-Combining-reactions--Combining-reactions} 
+   \import{problems/}{SampleProblem12}
+\end{description}
+
+
+
+   \import{files/}{Table-Enthapy}
+
+
+
+\end{document}
+

@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the following chemicals as acids or bases and give their names: \ce{NaOH} and \ce{H2CO3}.
+
+ \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: sodium hydroxide (base) and carbonic acid (acid).  
+ \end{flushright} }
+

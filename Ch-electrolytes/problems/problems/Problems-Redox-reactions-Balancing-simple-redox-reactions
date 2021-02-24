@@ -1,0 +1,14 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Balance the following redox reactions:
+\begin{enumerate}[label=(\alph*)]
+\item \ce{  Fe_{(s)} + O_2_{(g)} -> Fe^{3+}_{(aq)}  + O^{2-}_{(aq)}}
+\item \ce{  Cu_{(s)} + Ag^{+}_{(aq)} -> Ag_{(s)}  + Cu^{2+}_{(aq)}}
+\end{enumerate}
+\end{question}\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \ce{  Fe_{(s)} + O_2_{(g)} -> Fe^{3+}_{(aq)}  + O^{2-}_{(aq)}}
+\item  Precipitation
+ \end{inparaenum}
+     \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

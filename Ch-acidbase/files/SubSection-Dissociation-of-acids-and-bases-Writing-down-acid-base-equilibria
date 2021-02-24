@@ -1,0 +1,45 @@
+Now let us address how to write down acid-base equilibria from scratch, starting by the dissociation of ammonia (\ce{NH3}). Dissociation reactions are the reaction of an acid or base and water:
+\begin{center}\ce{H2O_{(l)} + NH3_{(g)}   <=>  }\end{center}
+We have that ammonia is a base and hence water will act as an acid. Bases receive protons whereas acids give protons away. In the equilibrium, we will remove one proton from water and add it to ammonia, producing respectively an hydroxyle and an ammonium ion:
+%%%% ACID AND CONJUGATE BASE
+\begin{center}\begin{tikzpicture}
+  \node (firstleft) {\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{H2O^ _{(l)}}}}$}};
+  \node [right =of firstleft] (secondleft) {$\textcolor{blue}{\underset{\text{Base}}{\ce{NH3_{(g)}}}}$};
+  \node [right =of secondleft] (firstright) {\ce{$\textcolor{red}{\underset{\text{Conjugate Base}}{\ce{OH^-_{(l)}}}}$}};
+  \node [right =of firstright] (secondright) {\ce{$\textcolor{blue}{\underset{\text{Conjugate Acid}}{\ce{NH4^+_{(aq)}}}}$}};
+  \node at ($(firstleft)!.5!(secondleft)$) {$+$};
+  \node at ($(secondleft)!.4!(firstright)$) {\ce{<=>}};
+  \node at ($(firstright)!.5!(secondright)$) {$+$};
+  \node [above =of firstleft] (startox) {};
+  \node [above =of firstright] (endox) {};
+  \node [below =of secondleft] (startred) {};
+  \node [below =of secondright] (endred) {};
+  \draw [->] (firstleft.north) -- (startox.south) -- node[above] {\ce{H^+} loss} (endox.south) -- (firstright.north);
+  \draw [->] (secondleft.south) -- (startred.north) -- node[below] {\ce{H^+} gain} (endred.north) -- (secondright.south);
+\end{tikzpicture}\end{center}
+%%%% ACID AND CONJUGATE BASE
+And that will give the dissociation equilibrium of ammonia. 
+\begin{center}\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{H2O_{(l)}}}}$ + $\textcolor{blue}{\underset{\text{Base}}{\ce{NH3_{(g)}}}}$  <=> $\textcolor{red}{\underset{\text{Conjugate Base}}{\ce{OH^-_{(aq)}}}}$ + $\textcolor{blue}{\underset{\text{Conjugate Base}}{\ce{NH4^+_{(l)}}}}$}\end{center}
+We can now address the reaction between an acid and a base for example, between sodium hydroxide and hydroioidic acid:
+\begin{center}\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{HI_{(g)}}}}$ + $\textcolor{blue}{\underset{\text{Base}}{\ce{NaOH_{(aq)}}}}$   -> NaCl_{(aq)} + H2O_{(l)}}\end{center}
+In these types of acid-base reaction, we have that the acid will generate a proton and the base will generate an hydroxyle, which will both combine to produce water and a salt, sodium chloride:
+
+%%%% ACID AND CONJUGATE BASE
+\begin{center}\begin{tikzpicture}
+  \node (firstleft) {\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{HI^ _{(g)}}}}$}};
+  \node [right =of firstleft] (secondleft) {$\textcolor{blue}{\underset{\text{Base}}{\ce{NaOH_{(s)}}}}$};
+  \node [right =of secondleft] (firstright) {\ce{$\textcolor{red}{\underset{\text{ }}{\ce{NaCl_{(s)}}}}$}};
+  \node [right =of firstright] (secondright) {\ce{$\textcolor{blue}{\underset{\text{ }}{\ce{H2O_{(l)}}}}$}};
+  \node at ($(firstleft)!.5!(secondleft)$) {$+$};
+  \node at ($(secondleft)!.4!(firstright)$) {\ce{->}};
+  \node at ($(firstright)!.5!(secondright)$) {$+$};
+  \node [above =of firstleft] (startox) {};
+  \node [above =of firstright] (endox) {};
+    \node [above =of secondright] (endox2) {};
+  \node [below =of secondleft] (startred) {};
+  \node [below =of secondright] (endred) {};
+  \draw [->] (firstleft.north) -- (startox.south) -- node[above] {\ce{H^+} loss} ( endox2.south) -- (secondright.north);
+  \draw [->] (secondleft.south) -- (startred.north) -- node[below] {\ce{OH^-} loss} (endred.north) -- (secondright.south);
+\end{tikzpicture}\end{center}
+%%%% ACID AND CONJUGATE BASE
+This way, dissociation and acid-base reaction function in a very similar manner.

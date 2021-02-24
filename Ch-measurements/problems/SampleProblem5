@@ -1,0 +1,9 @@
+\begin{example} % EXAMPLE BOX
+How many $m^2$ is 20$cm^2$.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to convert 20$cm^2$ to square meters, we need to remove the centi prefix and that will give us the unit square meter without any prefix. We will use the conversion factor that relates $m^2$ to $cm^2$:$\dfrac{1\times10^{-4}m^2}{1cm^2}$ or $\dfrac{1cm^2}{1\times10^{-4}m^2}$. 
+ \begin{equation*}
+20\cancel{cm^2} \times \dfrac{1\times10^{-4}m^2}{1\cancel{cm^2}}=2\times 10^{-3}m^2
+\end{equation*}
+\import{./}{StudyCheck5}
+\end{example}% EXAMPLE BOX ALTERNATIVE

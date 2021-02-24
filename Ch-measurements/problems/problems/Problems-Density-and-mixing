@@ -1,0 +1,30 @@
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which one of the following substances will float in gasoline, which has a density of 0.66 g/mL?  Assume no mixing:    
+  \begin{inparaenum}[(a)]
+
+\item table salt	(2.16 g/mL)
+\item balsa wood	(0.16 g/mL)
+\item sugar	(1.59 g/mL)
+\item aluminum	(2.70 g/mL)
+\item mercury	(13.6 g/mL)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+balsa wood	(0.16 g/mL)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+You have a large water tank used as a cooler in a party and you have a bunch of cans: a coke can, a diet coke can, a water can and a schweppes can. You add all unopened cans on the tank. Describe the final vertical distribution of cans in the tank. Which can will stay on top and which will sink in more?
+\end{question}
+\begin{solution}
+from top to bottom: coke, diet, schweppes, water
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+

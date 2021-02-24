@@ -1,0 +1,10 @@
+There are two different rules that allow you to express the result of a calculations with the correct number of figures.
+\\ 
+\faCodeFork\ \begin{bf}Rule 1 ($+\text{ }-$)\end{bf}  \begin{it} For additions or subtractions, the results has the same number of decimal places as the number with the least decimal places in the calculation.\end{it} For example:
+\[34.3451+34.5=68.8 \text{ }(+\text{ }- \text{less decimals})\]
+If you add $34.3451+34.5$ you will obtain $68.8451$, however, as $34.3451$ has four decimal places (4DP) and $34.5$ has one decimal place (1DP), the result of adding both numbers will have to have only one decimal place, therefore $68.8451$ needs to be rounded to $68.8$ (1DP). Overall, we have:
+\[34.3451\text{ (4DP) }+34.5\text{ (1DP) }=68.8 \text{ (1DP) }\]
+ \faCodeFork\ \begin{bf}Rule 2 ($\times\text{ }\div$)\end{bf}  \begin{it} For multiplications and divisions, the number of significant figures of the result should be the same as the least number of significant figures involved\end{it}. For example, if you carry the following multiplication:
+\[4500 \times 342 =1500000\text{ }(\times\text{ }\div \text{less SFs})\]
+the number $4500$ (2SF) has two significant figures, whereas the number $342$ (3SF) has three significant figures. If we multiply both numbers the results should contain just two significant figures. The result of multiplying $4500 \times 342$ is $1539000$ (4SF), however, this number needs to be rounded into two significant figures into 1500000 (2SF). Overall we have:
+\[4500 \text{ (2SF) } \times 342\text{ (3SF) } =1500000 \text{ (2SF) }\]

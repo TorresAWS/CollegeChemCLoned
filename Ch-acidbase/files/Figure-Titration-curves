@@ -1,0 +1,46 @@
+ \vspace{3cm}\hspace{0cm}\begin{center}
+  \begin{fullwidth}
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+% \begin{minipage}[b]{1.0\linewidth}\resizebox{0.5\textwidth}{!}{
+
+\begin{tikzpicture} 
+\begin{scope}[transform canvas={shift={(-1,0)}	},scale=0.8, every node/.append style={transform shape}]
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (5,0) node [rotate=0, shift={(-6em,-1em)}]{Volume, (mL)} ;
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (0,5) node [rotate=90, shift={(-5em,2em)}]{PH} ;
+\draw [cyan, thick, shift={(-8em,2em)}] plot [smooth, tension=0.25] coordinates { (3,-0.2) (5,0) (5.1,3) (7,3.2)};
+\draw [black,dashed, shift={(0,0)}] node[shift={(-.5em,6.5em)}] {7} (-0.1,2) -- (2.25,2)  -- (2.25,0);
+\node[shift={(5em,13em)}] {HCl Titration};
+\end{scope}
+
+\begin{scope}[transform canvas={shift={(11em,0)}	},scale=0.8, every node/.append style={transform shape}]
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (5,0) node [rotate=0, shift={(-6em,-1em)}]{Volume, (mL)} ;
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (0,5) node [rotate=90, shift={(-5em,2em)}]{PH} ;
+\draw [cyan, thick, shift={(-8em,2em)}] plot [smooth, tension=0.25] coordinates { (3,3) (4.75,2.8) (5,0) (7,0)};
+\draw [black,dashed, shift={(0,0)}] node[shift={(-.5em,6.5em)}] {7} (-0.1,2) -- (2.1,2)  -- (2.1,0);
+\node[shift={(5em,13em)}] {NaOH Titration};
+\end{scope} 
+
+\begin{scope}[transform canvas={shift={(24em,0)}	},scale=0.8, every node/.append style={transform shape}]
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (5,0) node [rotate=0, shift={(-6em,-1em)}]{Volume, (mL)} ;
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (0,5) node [rotate=90, shift={(-5em,2em)}]{PH} ;
+\draw [cyan, thick, shift={(-8em,2em)}] plot [smooth, tension=0.35] coordinates { (3,0.5) (4.7,0.9) (5.1,3.0) (6.5, 3.5)};
+\draw [black,dashed, shift={(0,0)}] node[shift={(-.5em,8.9em)}] {11} (-0.1,2.9) -- (2.1,2.9)  -- (2.1,0);
+\node[shift={(5em,13em)}] {\ce{CH3COOH} Titration};
+\end{scope}
+
+\begin{scope}[transform canvas={shift={(40em,0)}	},scale=0.8, every node/.append style={transform shape}]
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (5,0) node [rotate=0, shift={(-6em,-1em)}]{Volume, (mL)} ;
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (0,5) node [rotate=90, shift={(-5em,2em)}]{PH} ;
+\draw [cyan, thick, shift={(-8em,2em)}] plot [smooth, tension=0.35] coordinates { (3,2.0) (4.6,1.5) (5.2,-0.2) (7, -0.5)};
+\draw [black,dashed, shift={(0,0)}] node[shift={(-.5em,4.0em)}] {3} (-0.1,1.2) -- (2.1,1.2)  -- (2.1,0);
+\node[shift={(5em,13em)}] {\ce{NH3} Titration};
+\end{scope}
+
+\begin{scope}[transform canvas={shift={(11em,12em)}	},scale=1.0, every node/.append style={transform shape}]
+ \node[text width=7cm, fontscale=.3,shift={(-5em,-10em)}] at (5em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Different shapes of titration curves };
+\end{scope}
+\end{tikzpicture}
+% }\end{minipage}
+  \end{fullwidth}
+
+ \end{center} \vspace{1cm}

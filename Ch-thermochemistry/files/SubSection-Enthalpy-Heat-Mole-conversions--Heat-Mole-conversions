@@ -1,0 +1,18 @@
+
+Remember that a chemical reaction can be translated into a series of conversion factors that relate the moles of reactants with the products or with other reactants. At the same time, a chemical reaction involving heat can be converted into a series of conversion factors that related energy and the moles of reactants and products. 
+For the exothermic reaction:
+\begin{center}\ce{ 2H2_ {(g)}  + O2_{(g)}   ->  2H2O_ {(g)} } \hspace*{0pt}\hfill $\Delta H=-572KJ$.\end{center}
+the moles of hydrogen are related to heat as:
+\begin{equation*}
+\boxed{   \frac{\text{2 moles of }\ce{H2}}{\text{-572 KJ }}\ \text{ or  } \frac{ \text{-572 KJ } }{ \text{2 moles of } \ce{H2} }\   }
+\end{equation*}
+Similarly, we can relate energy with moles of \ce{O2}  or moles of water:
+
+\begin{equation*}
+\boxed{   \frac{\text{1 moles of }\ce{O2}}{\text{-572 KJ }}\ \text{ or  } \frac{\text{-572 KJ } }{ \text{1 moles of } \ce{O2} }\   }\quad
+\boxed{   \frac{\text{2 moles of }\ce{H2O}}{\text{-572 KJ }}\ \text{ or  } \frac{ \text{-572 KJ }}{  \text{2 moles of } \ce{H2O} }\   }
+\end{equation*}
+
+
+We will use these relationships to convert moles of reactant or products into heat.
+ 

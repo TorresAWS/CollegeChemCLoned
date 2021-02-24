@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A 50mL sample of an unknown acid is neutralized with 25 mL of a \ce{NaOH} 3M solution. Calculate the molarity of the unknown acid.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Equation \ref{\chapterlabel:equation13}, given: $c_b=3$M, $V_b=25mL$ and $V_a=50mL$.
+\begin{equation*}
+c_a\cdot 50mL=3M\cdot 25mL 
+ \end{equation*}
+and the results is $1.5$M.
+\\
+\import{./}{StudyCheck17}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

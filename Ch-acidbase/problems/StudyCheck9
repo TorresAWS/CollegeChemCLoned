@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the PH for: (a) an acid solution with proton concentration of $3.0\cdot 10^{-8}$M (b) a basic solution with a hydroxyl concentration of $2.0\cdot 10^{-9}$M.\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 7.5;  5.3
+ \end{flushright} }
+

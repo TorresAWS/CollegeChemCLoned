@@ -1,0 +1,8 @@
+At this point have addressed the molecular formulas of three simple alkanes: methane (\ce{CH4}), ethane (\ce{C2H6}) and propane (\ce{C3H8}). However, these type of formulas does not inform about the structure of the molecule, that is how the atoms are connected. The structure of ethane and propane is shown below:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-H}};
+\node at (0,-1) {\textcolor{blue}{Ethane, \ce{C2H6}}};
+\node at (6,0) {\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}};
+\node at (6,-1) {\textcolor{blue}{Propane, \ce{C3H8}}};
+\end{tikzpicture}\end{center}
+These structures show that each carbon is connected to four different atoms and each hydrogen is only connected to one atom. The formulas presented above are called \emph{expanded structural formulas} as all atoms and all bonds connecting these atoms are shown, hence representing the structure of the molecule.

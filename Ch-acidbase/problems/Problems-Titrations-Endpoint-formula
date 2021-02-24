@@ -1,0 +1,18 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Solve the following titration scenarios:
+\begin{inparaenum}[(a)]
+\item In a titration experiment, 13.5 mL of 0.34 M \ce{HCl} neutralize 34.3 mL of KOH. What is the concentration of the \ce{KOH} solution? %0.13M
+\item In a titration experiment, 20.4 mL of 0.10 M \ce{HCl} neutralize 12.4 mL of \ce{Ca(OH)2}. What is the concentration of the base solution? %0.08M
+\item In a titration experiment, 10.4 mL of 0.20 M \ce{H2SO4} neutralize 8.4 mL of \ce{Ca(OH)2}. What is the concentration of the base solution? %0.24M
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  0.13M
+\item  0.08M
+\item  0.24M
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+

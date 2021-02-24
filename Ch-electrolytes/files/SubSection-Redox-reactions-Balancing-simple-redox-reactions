@@ -1,0 +1,17 @@
+The goal here is to balance a redox chemical reaction by combining two half-reactions. In the example above the oxidation and reaction involve different number of electrons. Hence in order to be able to add both redox we need to time each half-reaction by a number so that the number of electrons cancel out. As the first reaction involved three electrons and the second two, we will do:
+ \begin{center}
+$2\cdot \big($ \ce{ Al_{(s)}  -> Al_{(aq)}^{+3} + 3e^- } $\big)$ \hspace*{0pt}\hfill  \textcolor{red}{ (oxidation) }\\
+$3\cdot \big($  \ce{ Cu_{(aq)}^{+2} + 2e^- ->Cu_{(s)} }$\big)$ \hspace*{0pt}\hfill  \textcolor{red}{ (reduction) } \\
+\rule{12cm}{0.4pt}$+$\\
+  \ce{ 2Al_{(s)}  + 3Cu_{(aq)}^{+2} + \Cancel{6e^-} ->2Al_{(aq)}^{+3} + 3Cu_{(s)}  + \Cancel{6e^-}}\hspace*{0pt}\hfill  \textcolor{green}{ (redox) } \\
+ \end{center}
+The overall balanced redox equation is:\\
+\\
+ \begin{reaction*}
+   2 "\OX{o1,\ox*{0,Al}}" \sld{} + 3 "\OX{r1,\ox*{+2,Cu^2+}}" \aq{} 
+    ->
+  2 "\OX{o2,\ox*{+3,Al^3+}}" \aq{} + 3 "\OX{r2,\ox*{0,Cu}}" \sld{}
+  "\redox(o1,o2)[->]{\small Oxidation: $- 3\el$}"
+  "\redox(r1,r2)[->][-1]{\small Reduction: $+ 2\el$}"
+\end{reaction*}
+\vspace{0.0cm}

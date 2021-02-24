@@ -1,0 +1,106 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit conversion:
+\begin{center}$20\cancel{cm} \times \dfrac{ \hlmath{\hspace{35pt}}m }{1\cancel{cm}}=0.2m$\end{center}
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item $1\times 10^{-2}$
+%\item $1\times 10^{-3}$
+%\item $1\times 10^{2}$
+%\item $1\times 10^{3}$
+%\item $1\times 10^{-6}$
+%\end{enumerate}
+%\end{multicols}    
+\end{question}
+\begin{solution}
+$1\times 10^{-2}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The following conversion factor is used to convert $100\mu m$ into m. Fill in the gaps:
+\[100\cancel{\mu m} \times \dfrac{\hlmath{\hspace{35pt}}m}{1\cancel{\mu m}}=1\times 10^{-4}m\]
+\end{question}
+\begin{solution}
+$1\cdot 10^{-6}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The following conversion factor is used to convert $40 m$ into $nm$. Fill in the gaps:
+\[40\cancel{ m} \times \dfrac{  1   nm}{\hlmath{\hspace{35pt}} \cancel{ m}}=4\times 10^{-8}nm\]
+\end{question}
+\begin{solution}
+$1\cdot 10^{-9}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=17]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Complete the following unit conversion:
+\[100\cancel{ Gm} \times \dfrac{ \hlmath{\hspace{35pt}}  m}{\hlmath{\hspace{35pt}} \cancel{ Gm}}= \hlmath{\hspace{35pt}}   m\]
+\end{question}
+\begin{solution}
+$1\cdot 10^{12}m$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Complete the following unit conversion:
+\[50\cancel{ km} \times \dfrac{ \hlmath{\hspace{35pt}}  m}{\hlmath{\hspace{35pt}} \cancel{ km}}= \hlmath{\hspace{35pt}}   m\]
+\end{question}
+\begin{solution}
+$5\cdot 10^{4}m$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Complete the following unit conversion:
+\[2\cancel{ m} \times \dfrac{ \hlmath{\hspace{35pt}}  cm}{\hlmath{\hspace{35pt}} \cancel{ m}}= \hlmath{\hspace{35pt}}   cm\]
+\end{question}
+\begin{solution}
+$2\cdot 10^{-2}cm$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+
+%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Complete the following unit conversion:
+\[0.3\cancel{ m} \times \dfrac{ \hlmath{\hspace{35pt}}  mm}{\hlmath{\hspace{35pt}} \cancel{ m}}= \hlmath{\hspace{35pt}}   mm\]
+\end{question}
+\begin{solution}
+$3\cdot 10^{2}mm$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%%
+
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Complete the following unit conversion:
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+  \item $0.5\cancel{ \mu \text{g}} \times \dfrac{  \hlmath{\hspace{35pt}}  \text{g}}{\hlmath{\hspace{35pt}} \cancel{ \mu \text{g}}}= \hlmath{\hspace{35pt}}   \text{g}$
+\item $125\cancel{ \text{L}} \times \dfrac{  \hlmath{\hspace{35pt}}  \text{mL}}{\hlmath{\hspace{35pt}} \cancel{ \text{L}}}= \hlmath{\hspace{35pt}}   \text{mL}$
+  \item $100\cancel{ \text{nm}} \times \dfrac{  \hlmath{\hspace{35pt}}  \text{m}}{\hlmath{\hspace{35pt}} \cancel{ \text{nm}}}= \hlmath{\hspace{35pt}}   \text{m}$
+  \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item $0.5\cancel{ \mu g} \times \dfrac{  1\times 10^{-6}  g}{    \cancel{ \mu g}}=     5\times 10^{-7}g$
+\item $125\cancel{ L} \times \dfrac{     mL}{    1\times 10^{-3} \cancel{ L}}=   1.25\times 10^{5}  mL$
+\item $100\cancel{ nm} \times \dfrac{   1\times 10^{-9}  m}{   \cancel{ nm}}=   1\times 10^{-7}  m$
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+

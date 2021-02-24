@@ -1,0 +1,43 @@
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the empirical formula of a compound if a sample of this compound contains 2.8 g of nitrogen and 3.2 g of oxygen?
+\end{question}
+\begin{solution}
+\ce{NO}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the empirical formula and the molecular formula of a compound if a sample contains 3 g of C, 0.5 H and 4 g of oxygen? MW=60amu
+\end{question}
+\begin{solution}
+\ce{CH2O} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the empirical and molecular formula of a compound with a percent composition of 49.47\% C, 5.201\% H, 28.84\% N, and 16.48\% O, if its molecular mass is 194.2 amu.
+\end{question}
+\begin{solution}
+\ce{C4H5N2O}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A 1.587 g sample of a compound containing N and O was analyzed finding a composition of 0.483 g of Nitrogen and 1.104 g of Oxygen. Calculate the empirical formula of the compound.
+
+\end{question}
+\begin{solution}
+\ce{NO2} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+

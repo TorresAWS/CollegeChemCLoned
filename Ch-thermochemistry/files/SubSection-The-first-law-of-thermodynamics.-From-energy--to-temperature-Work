@@ -1,0 +1,22 @@
+Think about what happens at a car's engine. In an engine, chemical energy is converted in movement and with this movement, a car is able to carry work. Work ($W$) is force ($F$) applied over a distance ($\Delta h$):
+\begin{equation*}
+    W = F\cdot \Delta h    = (P\cdot A) \cdot \Delta h
+\end{equation*}
+For the case of a gas confined in a cylindrical container, force is related to pressure times area ($A$). Therefore, if the pressure is constant as $A\cdot \Delta h$ equals to volume ($V$), we have that
+\begin{equation}
+\boxed{   W = -P\cdot \Delta V   }
+\label{formula2:92}
+\end{equation}
+where:
+\begin{where}
+ \item W represent work
+\item P is the pressure 
+ \item $\Delta V$ is the change of volume calculated as $V_{final}-V_{initial}$
+\end{where}
+
+The minus sign is just a convention, as in chemistry the work done by the surroundings to a system is considered positive, as the system gains work (energy). Therefore, when $\Delta V$ is negative because the system receives work, the value of $W$ has to be positive. In another words, the sign convention for work is:
+\begin{solutionbox}
+\[ W > 0 \; \text{the system receives work}\qquad and \qquad W < 0 \; \text{the system gives away work}\]
+\end{solutionbox}
+As a final note, the type of work that involves change in volume at constant pressure is normally called PV work.
+

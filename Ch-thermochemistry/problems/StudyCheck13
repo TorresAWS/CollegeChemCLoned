@@ -1,0 +1,7 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A pepperoni pizza slice contains 11g of fat ($9kcal/g$), 36g of carbs ($4kcal/g$) and 14 g of protein ($4kcal/g$), where the caloric values are indicated in parenthesis. What is the total energy content of a pizza slice?
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $299kcal$.
+ \end{flushright} }
+

@@ -1,0 +1,58 @@
+\begin{fullwidth}
+
+
+\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{7}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Acidity and basicity constants at 25$^{\circ}$C} \\
+\midrule
+	\rowcolor{gray!10}Name &Formula	&$K_a$ &&  Name &Formula	&$K_a$ \\ 
+
+\midrule
+\rowcolor{red!10}\tikzmark{start} 	&							&				&&				\multicolumn{3}{c}{	 }															\\
+\rowcolor{red!10} Hypoiodous acid	&		\ce{HIO}				&	$3.20 \times 10^{-11}$		&&				\multicolumn{3}{c}{	$\vdots$}															\\
+\rowcolor{red!10}Phenol			&		\ce{C6H5OH}			&	$1.00 \times 10^{-10}$	 	&&	Fluoroacetic acid	&		\ce{CH2FCO2H}		&	$2.60 \times 10^{-3}$		\\
+\rowcolor{red!10} Hydrocyanic acid	&		\ce{HCN}				&	$6.20 \times 10^{-10}$	 	&&	Formic acid		&		\ce{CH2O2}			&	$1.80 \times 10^{-4}$		\\	
+\rowcolor{red!10}Hypobromous acid	&		\ce{HBrO}				&	$2.80 \times 10^{-9}$		&&	Bromoacetic acid	&		\ce{CH2BrCO2H}		&	$1.30 \times 10^{-3}$		\\
+\rowcolor{red!10}Hypochlorous acid	&		\ce{HClO}				&	$4.00 \times 10^{-8}$		&&	Chloroacetic acid	&		\ce{CH2ClCO2H}		&	$1.30 \times 10^{-3}$		\\
+\rowcolor{red!10}Benzoic acid		&		\ce{C6H5CO2H}		&	$6.25 \times 10^{-5}$		&&	Dichloroacetic acid	&		\ce{CHCl2CO2H}		&	$4.50 \times 10^{-2}$		\\
+\rowcolor{red!10}Hydrazoic acid		&		\ce{HN3}				&	$2.50 \times 10^{-5}$	&&	Periodic acid		&		\ce{HIO4}				&	$2.30 \times 10^{-2}$		\\
+\rowcolor{red!10}Acetic acid		&		\ce{CH3COOH}			&	$1.75 \times 10^{-5}$		&&	Chlorous acid		&		\ce{HClO2	}			&	$1.10 \times 10^{-2}$		\\
+\rowcolor{red!10}Iodoacetic acid		&		\ce{CH2ICO2H}		&	$6.60 \times 10^{-4}$	&&	Trichloroacetic acid	&		\ce{CCl3CO2H}			&	$2.20 \times 10^{-1}$		\\
+\rowcolor{red!10}Hydrofluoric acid	&		\ce{HF}				&	$6.30 \times 10^{-4}$		&&	Trifluoroacetic acid	&		\ce{CF3CO2H}			&	$3.00 \times 10^{-1}$		\\
+\rowcolor{red!10}Nitrous acid		&		\ce{HNO2}			&	$5.60 \times 10^{-4}$		&&	Iodic acid			&		\ce{HIO3}				&	$1.70 \times 10^{-1}$		\\
+\rowcolor{red!10} Cyanic acid		&		\ce{HCNO}			&	$3.50 \times 10^{-4}$		&&	Chromic acid		&		\ce{HCrO4}			&	$1.80 \times 10^{-1}$		\\
+\rowcolor{red!10}\multicolumn{3}{c}{	$\vdots$}					 								&&	 			&						&				\\
+\rowcolor{red!10}\tikzmark{end} 	&							&				&&				\multicolumn{3}{c}{	 }															\\
+\midrule
+	\rowcolor{gray!10}Name &Formula	&$K_b$ &&  Name &Formula	&$K_b$ \\ 
+\midrule
+\rowcolor{blue!10}\tikzmark{start2} 	&							&				&&				\multicolumn{3}{c}{	 }															\\
+
+\rowcolor{blue!10}Aniline			&	\ce{C6H5NH2}			&	$7.40 \times 10^{-10}$	&&	\multicolumn{3}{c}{	$\vdots$}		\\
+\rowcolor{blue!10}Pyridine			&	\ce{C5H5N}			&	$1.70 \times 10^{-9}$	&&	n-Butylamine		&	\ce{C4H9NH2}			&	$4.00 \times 10^{-4}$	\\
+\rowcolor{blue!10}Hydroxylamine		&	\ce{NH2OH}			&	$8.70 \times 10^{-9}$	&&	Ethylamine		&	\ce{C2H5NH2}			&	$4.50 \times 10^{-4}$	\\
+\rowcolor{blue!10}Hydrazine			&	\ce{N2H4}				&	$1.30 \times 10^{-6}$	&&	Methylamine		&	\ce{CH3NH2}			&	$4.60 \times 10^{-4}$	\\
+\rowcolor{blue!10}Ammonia			&	\ce{NH3}				&	$1.80 \times 10^{-5}$	&&	tert-Butylamine		&	\ce{(CH3)3CNH2}		&	$4.80 \times 10^{-4}$	\\
+\rowcolor{blue!10}Propylamine		&	\ce{C3H7NH2}			&	$3.50 \times 10^{-4}$	&&	Dimethylamine		&	\ce{(CH3)2NH}			&	$5.40 \times 10^{-4}$	\\
+\rowcolor{blue!10}\multicolumn{3}{c}{	$\vdots$}											&&				&	&		\\
+\rowcolor{blue!10}\tikzmark{end2} 	&							&				&&				\multicolumn{3}{c}{	 }															\\
+
+  \bottomrule
+\end{tabular}
+\begin{tikzpicture}[overlay,remember picture]
+    \draw[->] let \p1=(start), \p2=(end) in [shift={(-1,0)}]($(\x1-3,\y1)+(0.8,.2)$) -- node[rotate=90, shift={(0.0,0.4)} ] {Increasing acidic strength  } ($(\x1-3,\y2)+(0.8,1)$);
+        \draw[->] let \p1=(start), \p2=(end) in [shift={(15.7,1)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.4)} ] {Increasing acidic strength  } ($(\x1-3,\y2)+(0.8,0)$);
+ \draw[->] let \p1=(start2), \p2=(end2) in [shift={(-1,0)}]($(\x1-3,\y1)+(0.8,.2)$) -- node[rotate=90, shift={(0.0,0.4)} ] {Increasing basicity strength  } ($(\x1-3,\y2)+(0.8,1)$);
+        \draw[->] let \p1=(start2), \p2=(end2) in [shift={(15.7,1)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.4)} ] {Increasing basicity strength  } ($(\x1-3,\y2)+(0.8,0)$);
+  \end{tikzpicture}
+}
+\end{minipage}
+
+\end{fullwidth}
+

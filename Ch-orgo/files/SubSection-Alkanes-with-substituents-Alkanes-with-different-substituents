@@ -1,0 +1,4 @@
+Now imagine you have two different halogens as substituents: \chemfig{Br-[:0,1]} and \chemfig{I-[:0,1]} like in next example
+\begin{center} \chemfig{CH(-[:90,1]Br)(-[:-90,1]I)-CH_2-CH_3}\end{center}
+As both substituents have different names you cannot use the prefix \emph{di}. Still, when you indicate the names of the substituents you need to order them alphabetically. So Bromo goes first in the name and Iodo after. You also need to separate the different substituents with a hyphen ('-'). The final name of the hydrocarbon above would be Bromo-Iodopropane.
+

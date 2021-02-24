@@ -1,0 +1,18 @@
+ Let us take a look at the following cycloalkane:
+\begin{center}\chemfig{*6(---(-F)-(-!\Me)---)} \end{center}
+this is a cyclopentane connected to two different substituents: a methyl and a fluoro. In order to name this molecule we need to number the carbons first, and there are two different ways to number the cyclohexane ring:
+\definesubmol\A{(-[,-0.3,,,draw=none]\textcolor{red}{1})}
+\definesubmol\B{(-[,-0.3,,,draw=none]\textcolor{red}{2})}
+\definesubmol\C{(-[,-0.3,,,draw=none]\textcolor{red}{3})}
+\definesubmol\D{(-[,-0.3,,,draw=none]\textcolor{red}{4})}
+\definesubmol\E{(-[,-0.3,,,draw=none]\textcolor{red}{5})}
+\definesubmol\F{(-[,-0.3,,,draw=none]\textcolor{red}{6})}
+\newcommand\X[1]{(-[,-0.3,,,draw=none]{#1})}
+\begin{center}
+\chemname{\chemfig{*6((!\D)-(!\E)-(!\F)-(!\A)(-F)-(!\B)(-!\Me)-(!\C)--)} }{1-Fluoro-2-methylcyclohexane}
+\hspace{4.5cm}
+\chemname{\chemfig{*6((!\E)-(!\D)-(!\C)-(!\B)(-F)-(!\A)(-!\Me)-(!\F)--)} }{\textst{
+Fluoro-1-methylcyclohexane}}
+\end{center}
+we will choose the name that gives the lowest numbers: 1-Fluoro-2-methylcyclohexane.
+

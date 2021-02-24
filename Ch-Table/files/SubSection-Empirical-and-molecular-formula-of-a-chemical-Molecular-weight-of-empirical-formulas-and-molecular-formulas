@@ -1,0 +1,13 @@
+\item[\docfilehook{Molecular weight of empirical formulas and molecular formulas }{}] 
+The molecular weight of an empirical formula and its corresponding molecular formula are related by the following formula:
+%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}\begin{split}
+\boxed{  n =\frac{ MW_{MF}}{MW_{EF}} } 
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $MW_{EF}$   is the molecular weight of the empirical formula
+ \item $MW_{MF}$   is the molecular weight of the molecular formula
+\item $n$ is a integer number such as 1, 2, 3...
+\end{where}
+Understanding the formula above is simple. On one hand, the MW of a molecular formula \ce{H2O2} that is 34 amu. On the other hand, the molecular weight of the empirical formula of the same chemical \ce{HO} is 17 amu. If we do $34/17$ we would obtain 2, as we need to multiply \ce{HO} by two in order to obtain \ce{H2O2}. As a final note, mind that empirical formulas are just simplified formulas. So when we think about the molecular weight of a chemical we normally have molecular formula in mind. Let us work on an example:

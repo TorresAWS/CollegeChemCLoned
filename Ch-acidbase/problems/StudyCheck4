@@ -1,0 +1,18 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the acid, the base, the conjugate acid and the conjugate base in the reaction:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.04\textwidth}>{\centering}m{0.04\textwidth}>{\centering}m{0.25\textwidth}}
+\chemfig{H_2O}&
+$+$&
+\setpolymerdelim()\chemfig{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]OH))(-[:90]CH_3)(-[:270]H)} &
+\schemestart\arrow{-U>}[,1.]\schemestop&
+\chemfig{H_3O^{+}}&
+$+$&
+\setpolymerdelim()\chemfig{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]O^{-}))(-[:90]CH_3)(-[:270]H)}
+\tabularnewline\addlinespace
+% \textcolor{blue}{Acid} && \textcolor{red}{Base} && \textcolor{blue}{Conjugate Base} &&\textcolor{red}{Conjugate Acid}\tabularnewline
+\end{tabular*}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{ B  +  A    -> CA   + CB}
+ \end{flushright} }
+

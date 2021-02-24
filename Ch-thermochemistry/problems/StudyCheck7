@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+We mix 2.5mL of \ce{NaOH} 0.5M with 2.5mL of \ce{HCl} 0.5M both at 25$^{\circ}$C in a constant-pressure calorimeter. The heat of reaction is -40KJ/mol. Calculate the final temperature inside the calorimeter, if the solution density is 1g/mL and the specific heat of the solution is 4.184$\text{J}/g^{\circ}\text{C}$.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 27.39$^{\circ}$C.
+ \end{flushright} }

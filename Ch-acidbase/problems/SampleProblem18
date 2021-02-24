@@ -1,0 +1,19 @@
+The following example demonstrate how to select the appropriate PH formula for a titration. They key is to identify the location in terms of the endpoint (before, at or after) and the nature of the titrate (strong, weak, acid or base).
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A 50mL sample of 3M HCl is titrated with with 25 mL of a \ce{NaOH} 2M solution. \begin{inparaenum}[(a)] 
+\item indicate whether you are before, after or at the endpoint
+\item indicate whether the titrate is an acid or a base, and a weak or a strong electrolyte
+\item indicate the formula that would need to be used from Table \ref{tab:{\chapterlabel}2} to calculate the PH 
+\item calculate the PH 
+\end{inparaenum}
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that HCl is the titrant and \ce{NaOH} is the titrate. This is because the question indicates that you titrate HCl and therefore the chemical to be titrated is the titrant. The titrant is a strong acid. In order to find out whether we are before, at or after the endpoint, we will have to use \ref{\chapterlabel:equation13} and calculate the volume of titrant needed to neutralize the titrate. If the volume of titrant we have used is less than the endoint volume then we will be before the end point. If it is larger then we will be beyond the end point. We will be at the endpoint if the volume of titrant used is the same as the endpoint volume. We have that $c_a=$3M, $V_a=50$mL, and $n_{H}=$1. We also have that $c_b=$2M, and $n_{OH}=$1. We will calculate $V_b$ that fulfills \ref{\chapterlabel:equation13}:
+\[  1\cdot 3\cdot 50=1\cdot 2\cdot V_b \]
+Therefore, $V_b=$75mL. As we have used only 25mL of base, we would be before the endpoint and the formula to use for the endpoint PH would be: $\big[ \ce{H^+} \big]= c_{R}$. We can calculate $c_{R}$:
+\[\begin{split}c_R=\frac{\rvert n_{H}\cdot c_a\cdot V_a -n_{OH}\cdot c_b\cdot V_b \lvert}{V_a+V_b}=\frac{\rvert 1\cdot 3M\cdot 25mL -1\cdot 2M\cdot 25mL \lvert}{(50+25)mL}=\\=0.33M\end{split} \]
+We have that PH=0.47.
+\\
+\import{./}{StudyCheck18}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

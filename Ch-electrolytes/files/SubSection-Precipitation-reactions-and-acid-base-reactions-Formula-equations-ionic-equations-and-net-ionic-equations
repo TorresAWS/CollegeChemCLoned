@@ -1,0 +1,16 @@
+ Electrolytes in solutions contains ions--cations and anions--however, when we write chemical formulas we barely show those ions. Differently, we just write the formulas and that is the reason that chemical equations are referred as \emph{formula equation}. Look for example:
+\begin{center}\ce{K2CrO4_{(aq)} + Ba(NO3)2_{(aq)} -> BaCrO4_{(s)} v + 2KNO3_{(aq)}    \textcolor{red}{ (formula equation) }      }\end{center}
+In this equation, \ce{K2CrO4_{(aq)}} is actually in the form of ions: 2\ce{K^+_{(aq)}} and \ce{CrO4^{2-}_{(aq)}}. At the same time, \ce{Ba(NO3)2_{(aq)}} in the form of ions results in \ce{Ba^{2+}_{(aq)}} and 2\ce{NO3^{-}_{(aq)}}. Also, 2\ce{KNO3_{(aq)}} contains 2\ce{K^{+}_{(aq)}} and 2\ce{NO3^{-}_{(aq)}}. Finally, \ce{Ba(CrO4)_{(s)}} does not produce any ions in solution, as it is a solid.
+Ionic equations result from writing all ions in a formula equation:
+\\
+{\raggedleft \ce{   2K^+_{(aq)} + CrO4^{2-}_{(aq)} + Ba^{2+}_{(aq)} + 2NO3^{-}_{(aq)}  -> } }  \\ 
+\hspace*{\fill}
+\ce{BaCrO4_{(s)} v + 2K^{+}_{(aq)} + 2NO3^{-}_{(aq)}    \textcolor{red}{ (ionic equation) }      } \\
+However, the ionic equation contains repeated ions. Look for example the previous equation with \ce{   2K^+_{(aq)}} on the left and on the right of the equation. If we simplify the repeated ions \\
+{\raggedleft \ce{   \Cancel{2K^+_{(aq)}} + CrO4^{2-}_{(aq)} + Ba^{2+}_{(aq)} + \Cancel{2NO3^{-}_{(aq)}}  -> } }  \\ 
+\hspace*{\fill}
+\ce{BaCrO4_{(s)} + \Cancel{2K^{+}_{(aq)}} + \Cancel{2NO3^{-}_{(aq)}}       }\\ 
+we obtain what is called as the \emph{net ionic equation}:
+\begin{center} \ce{    CrO4^{2-}_{(aq)} + Ba^{2+}_{(aq)}   ->  BaCrO4_{(s)} v     \textcolor{red}{ (net ionic equation) }      } \end{center}
+Overall, we have that the formula equation, ionic equation and net ionic equation are just three different ways to express the same chemical equation. The first form includes only molecules whereas the second included all ions produced by each chemical. The last form, includes only ions that are not repeated in both sides of the equation.
+

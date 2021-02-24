@@ -1,0 +1,13 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Compare the melting point of the following fatty acids and predict whether they will likely be solid or liquid at room temperature.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}
+\setpolymerdelim()\chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]=[:0]-[:45]-[:-45]}\makebraces(12pt,12pt){$\scriptstyle\!\!16$}{A}{B}
+&
+\setpolymerdelim()\chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!18$}{A}{B}
+\tabularnewline\addlinespace
+\textcolor{blue}{A} & \textcolor{blue}{B} \tabularnewline
+\end{tabular*}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small MP($A$) lower MP($B$)
+ \end{flushright} } 

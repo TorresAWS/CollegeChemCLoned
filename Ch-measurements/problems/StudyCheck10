@@ -1,0 +1,14 @@
+ 
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify as  element, compound, homogeneous mixture, heterogeneous mixture:
+\begin{multicols}{4}
+\begin{enumerate}[label=(\alph*)]
+\item muscle milk
+\item water
+\item a gold ring
+\item rice \& beans
+\end{enumerate}
+\end{multicols}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) homog. mix.; (b) compound; (c) element; (d) heterog. mix.
+ \end{flushright} }

@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following reactions as exothermic and endothermic:
+\begin{center}\ce{ 2H2_ {(g)}  + O2_{(g)}   ->  2H2O_ {(g)} + }\textcolor{red}{\faFire} \hspace*{0pt}\hfill $\Delta Q_{r}=-572kJ$.\end{center}
+\begin{center}\ce{ 6CO2_ {(g)}  + 6H2O_{(l)} + }\textcolor{red}{\faFire}\ce{  ->  C_6H_12O6_ {(s)} + 6O2_ {(g)}} \hspace*{0pt}\hfill $\Delta Q_{r}=+47kJ$.\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The first reaction is exothermic as it produces hear. Differently, the second reaction is endothermic and absorbs energy.
+\\
+\import{./}{StudyCheck14}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

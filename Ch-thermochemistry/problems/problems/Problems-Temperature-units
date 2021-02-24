@@ -1,0 +1,17 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Carry the following conversions:
+\begin{inparaenum}[(a)]	
+\item 20$^{\circ}$C to F
+\item	  300K to $^{\circ}$C
+\item  41$^{\circ}$F into celsius
+
+\end{inparaenum} 
+\end{question}
+\begin{solution}\begin{inparaenum}[(a)]
+\item  68$^{\circ}F$
+\item  27$^{\circ}$C
+\item  5$^{\circ}$C
+
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+

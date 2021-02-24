@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following molecules as an amide or amine:
+\begin{center} \chemfig{*6(---(-N(-[:-45]CH_3)(-CH_3))---)} \hspace{0.5cm}   \chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]N(-CH_3)(-[:180]CH_3)))-----)}     \end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ \begin{flushright}  \mytriangleright{dgreen}\small Answer: (left) amine; (right) amide. \end{flushright}}
+

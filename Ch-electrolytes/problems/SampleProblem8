@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Predict the soluble/insoluble nature of the following compounds: (a) \ce{K2CO3}, (b) \ce{NaNO3} and (c) \ce{Ca(OH)2}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) \ce{K2CO3_{(aq)}} is soluble, as \ce{CO3^{-2}} is insoluble but when combined with \ce{K+} the salt becomes soluble. (b) All nitrates are soluble without exceptions. (c) \ce{Ca(OH)2_{(aq)}} is soluble.
+\\
+ \import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,11 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or give the symbols for the following nuclear particles: beta particle, $\beta^+$, $p$ and \ce{^0_0\gamma}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Beta particles are represented by $\beta$ or \ce{^0_-1e}. These particles are indeed simply electrons ejected during a nuclear decay. $\beta^+$ represents a positron, an anti-electron. $p$ stands for protons, a nuclear particle with positive charge. Finally, \ce{^0_0\gamma} represents gamma radiation.
+
+
+\import{./}{StudyCheck7}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

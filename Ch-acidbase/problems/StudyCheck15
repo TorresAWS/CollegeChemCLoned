@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the PH of a 0.2M \ce{HF}/0.3M \ce{KF} ($K_a=6.30 \times 10^{-4}$).
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 3.36
+ \end{flushright} }
+

@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Using the enthalpy table, calculate $\Delta H^{\circ}_R$ for the following reaction: 
+\begin{center}\ce{ Fe2O3_{(s)} +  3CO_{(g)} -> 2Fe_{(s)} + 3CO2_{(g)} }\end{center}   
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $-25KJ$.
+ \end{flushright} }
+

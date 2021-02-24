@@ -1,0 +1,19 @@
+The four major types of biomolecules are carbohydrates, lipids, nucleic acids, and proteins.
+ Carbohydrates (sugars or simply carbs) are organic molecules composed of numerous alcohol groups as well as a ketone or ether group. An example of a carbohydrate is presented below. We can find simple carbohydrates such as glucose and complex carbohydrates such as starch.
+\begin{center}\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[0]H)(-[4,1.2]\textcolor{red}{HO})-!k-!t)}\end{center}
+Lipids (fats) tend to contain carboxylic acids or esters. We can find different types of lipids such as fatty acids, waxes or steroids. An example of a lipid is presented below.
+
+\begin{center}\setpolymerdelim()\chemfig{[2]([0]-O-[:45,1](=[:90,.8]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1])-[,1.7]([0]-O-[:45,1](=[:90,.8]O)-[@{C,0.5}:-45,1]-[:45]-[@{D,0.5}:-45,1])-[,1.7]([0]-O-[:45,1](=[:90,.8]O)-[@{E,0.5}:-45,1]-[:45]-[@{F,0.5}:-45,1])}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{A}{B}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{C}{D}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{E}{F}\end{center}
+
+
+Proteins (meat) contain amino or amide groups. Proteins are made of amino acids. We can find complex proteins or simple proteins called peptides. An example of a protein in general is presented below.
+\begin{center}\chemfig{C(-[:180]N(-[:135]H)(-[:225]H))(-[:0]C(=[:45]O)(-[:315]OH))(-[:90]CH_2-[:90]**6(------))(-[:270]H)}\end{center}
+
+Finally, nucleic acids (DNA or RNA) are made of a sugar connected to an amine, or amide. Sometimes you will find phosphorus atoms on its structure. An example of nucleic acid is presented below.
+\begin{center}{\setatomsep{2.5em}\chemfig[][scale=.75]{!{thyminephosphate} } }\end{center}
+
+It is very important to be able to differentiate the different biomolecules as well as to be able to identify each of them. 
+
+
+
+

@@ -1,0 +1,8 @@
+
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A lead weight used in the belt of a scuba diver has a mass of 226 g. When the weight is placed in a graduated cylinder containing 200.0 mL of water, the water level rises to 220.0 mL. What is the density of the lead weight (g/mL)?
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+
+ Answer:$11.3\text{ }g/mL$.
+ \end{flushright} }

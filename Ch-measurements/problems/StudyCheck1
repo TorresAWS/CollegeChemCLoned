@@ -1,0 +1,13 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+State the type of measurement indicated in each of the following:
+\begin{multicols}{4}
+\begin{enumerate}[label=(\alph*)]
+\item 800F
+\item 1$\text{m}^3$
+\item 3m
+\item 67s
+\end{enumerate}
+\end{multicols}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) temperature; (b) volume; (c) length; (d) time; \end{flushright} }

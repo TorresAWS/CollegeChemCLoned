@@ -1,0 +1,6 @@
+
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Convert 100mm to km.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:$100\cancel{mm} \times \dfrac{1\times10^{-3}\cancel{m}}{1\cancel{mm}}   \times \dfrac{1km}{1\times10^{3}\cancel{m}}       =1\times 10^{-4}km$. \end{flushright} }
