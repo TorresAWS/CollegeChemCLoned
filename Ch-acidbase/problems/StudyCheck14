@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the percent dissociation of a 0.05M methylamine \ce{CH3NH2} solution. $K_b=4.4 \times 10^{-4}$
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- \small Answer: 9\%
- \end{flushright} }
-

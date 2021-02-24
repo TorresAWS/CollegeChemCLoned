@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Write down the ionic equation and net ionic for the following formula equation:
-\begin{center}\ce{ AgNO3_{(aq)} + NaBr_{(aq)}  -> AgBr_{(s)} v  +  NaNO3_{(aq)}   }\end{center}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
-Answer:     \ce{ Ag^{+}_{(aq)} + NO3^{-}_{(aq)} + Na^{+}_{(aq)} + Br^{-}_{(aq)}  -> AgBr_{(s)} v  +  Na^{+}_{(aq)} + NO3^{-}_{(aq)}   } ;  \ce{ Ag^{+}_{(aq)} + Br^{-}_{(aq)}  -> AgBr_{(s)} v     }
- \end{flushright} }

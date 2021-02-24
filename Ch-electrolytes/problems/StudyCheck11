@@ -1,8 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Classify the following reactions as acid-base, redox or precipitation.\\
-(a) \ce{ HNO2_{(aq)}  + NaOH_{(aq)} -> NaNO2_{(aq)} +  H2O_{(l)}  }\\ 
-(b) \ce{ 2Na_{(s)} +  Cl2_{(g)} -> 2NaCl_{(s)} }   \\
-(c) \ce{ MgCl2_{(aq)}  +   2AgNO3_{(aq)} -> 2AgCl_{(s)} +   Mg(NO3)2_{(aq)} }   
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
-Answer:  acid-base; redox; precipitation   
- \end{flushright} }

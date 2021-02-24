@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the redox number of the elements underlined in the following molecules: (a) \ce{{\underline{Cr}}2O7^{2-}} and (b) \ce{{\underline{Cr}}2O3} 
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: $\text{VI}$; $\text{III}$.
- \end{flushright} }

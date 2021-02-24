@@ -1,4 +1,0 @@
-How do we calculate the redox number for example of manganese in this chemical: \ce{{\underline{Mn}}O4^-}, permanganate. In order to do this, we need to set up a formula so that the redox numbers of all elements in the molecule--taking into account the number of atoms in the molecule--equals to the charge. In the case of permanganate, let us call $x$ to the redox number of manganese. We know the redox of oxygen is $-2$ and we have four oxygens in the molecule. We also know the charge of the ion is $-1$. Therefore we have:
-\[x+4\cdot (-2)=-1\]
-If we solve for $x$ we obtain a redox number of manganese of $\text{VII}$.
-

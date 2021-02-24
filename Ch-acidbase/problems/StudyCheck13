@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the PH of a 0.01M sodium acetate (\ce{CH3COONa}). $K_a=1.75 \times 10^{-5}$
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: 8.38
- \end{flushright} }
-

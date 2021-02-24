@@ -1,5 +1,0 @@
-Dilution is the process for preparing a diluted solution from a more concentrated solution. Solutions are often times stored in a stock room in concentrated form. These stocks should be diluted before use. In order to dilute a solution we need to take a certain amount of the concentrated solution and add water. When adding water, the number of moles of solute does not change, and the concentration always decreases. We have a concentrated solution ($c_1$) and we need to prepare a certain volume ($V_2$) of a more diluted solution ($c_2$). The question is how much volume of the concentrated solution ($V_1$) we need to take. In order to answer this we should use the following formula:
- \begin{equation*}
-\boxed{ c_1\cdot V_1=c_2\cdot V_2 }   
-\end{equation*}
-

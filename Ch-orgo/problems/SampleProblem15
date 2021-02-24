@@ -1,8 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Classify the following molecules as an amide or amine:
-\begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45]NH_2)} \hspace{0.5cm}\chemfig{-[:45]-[:-45]-[:45]N-[:-45]}  \end{center}
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The molecule in the left is a amide as the carbonyl group (\ce{C=O}) is connected to a nitrogen atom. Differently, the molecule in the right is an amine as the nitrogen group is not connected to any carbonyl group.
-\begin{flushright}  \mytriangleright{dgreen}\small Answer: (left) amide; (right) amine. \end{flushright}
-\import{./}{StudyCheck15}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

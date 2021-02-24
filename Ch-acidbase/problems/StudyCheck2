@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Indicate whether the following chemicals are lewis acid or lewis bases: (a) \ce{AlH3} and (b) \ce{OH^{-}}.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
-Answer (a) acid and (b) base.
- \end{flushright} }
-

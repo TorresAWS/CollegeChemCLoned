@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-The PH of a solution is 9.5. Calculate the proton concentration of that solution.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: $3.16\cdot 10^{-10}$M
- \end{flushright} }
-

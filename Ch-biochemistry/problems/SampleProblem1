@@ -1,7 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Classify the following monosaccharide as aldo or keto:
-\begin{center}\carbohydrate[hexose, color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]{rlrr}\end{center}
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The monosaccharide has a \chemfig{R-C(=[:90]O)-R'} group on carbon one and therefore it will be aldo. As it also has six carbons, it will be an aldohexose.\\
-\import{./}{StudyCheck1}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

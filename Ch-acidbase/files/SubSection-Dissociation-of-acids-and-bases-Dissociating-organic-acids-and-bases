@@ -1,4 +1,0 @@
-Organic acids and bases often times contain numerous hydrogen atoms on its molecular structure. It is critical to dissociate these molecules using the acid and basic centers and not others. For example, acetic acid \ce{CH3-COOH} contains a methyl group and an carboxylic group. When dissociation this molecule, we need to remove the proton only from the acidic group, hence its name:
-\begin{center}\ce{CH3-COOH_{(l)} + H2O_{(l)}   <=> CH3-COO^-_{(aq)} + H3O^+_{(aq)} }\end{center}
-Methylamine \ce{CH3-NH2}, on the other hand, is an organic base with a methyl and an amine group. Amine groups are basic per nature--they resemble ammonia--and hence when dissociation this base we need to attach an extra proton to the basic center:
-\begin{center}\ce{CH3-NH2_{(l)} + H2O_{(l)}   <=> CH3-NH3^+_{(aq)} + OH^-_{(aq)} }\end{center}

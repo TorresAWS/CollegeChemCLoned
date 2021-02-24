@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the PH of 5mL of a 0.2M \ce{HF}/0.3M \ce{KF} ($K_a=6.30 \times 10^{-4}$) after adding 1mL of HCl 0.2M.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: 3.23
- \end{flushright} }
-

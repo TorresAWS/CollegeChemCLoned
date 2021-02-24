@@ -1,9 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Classify the following molecules as an acid or base:
-\begin{center}\chemname{\chemfig{*6(-=-(-O-[::-60](=[::-60]O)-[::+60])=(-(=[::+60]O)-[::-60]OH)-=)}}{Aspirin} \hspace{0.5cm}\chemname{\chemfig{[:-90]HN(-[::-45](-[::-45]R)=[::+45]O)>[::+45]*4(-(=O)-N*5(-(<:(=[::-60]O)
--[::+60]OH)-(<[::+0])(<:[::-108])-S>)--)} }{Penicillin} \end{center}
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-Aspirin contains an acid group and hence it will be acidic. Penicillin contains both acidic and amine groups and hence will be both acidic and basic.\\
-\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) acid; (right) both. \end{flushright}
-\import{./}{StudyCheck16}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

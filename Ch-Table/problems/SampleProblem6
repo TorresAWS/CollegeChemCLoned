@@ -1,8 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-From the following formulas identify the empirical and molecular formulas: \ce{P4O10}, \ce{C3H6O}, \ce{N2O4} and \ce{C5H11}.\\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-Empirical formulas are simplified versions of molecular formulas. For example, \ce{C3H6O} and \ce{C5H11} are empirical formulas. Differently, \ce{P4O10} and and \ce{N2O4} are molecular formulas.
-\\
-\import{./}{StudyCheck6}
-
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,6 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-For the following chemicals indicate whether you will have in the solution (a) only ions, (b) ions and some molecules, or (c) molecules: \ce{NH3}, \ce{KOH}, and \ce{C12H22O11}.\\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-Ammonia (\ce{NH3}) is a weak electrolyte and a solution of ammonia will contain ions and well as ammonia molecules. Differently \ce{KOH} is a strong electrolyte and in solution you would find only ions (\ce{K^+} and \ce{OH^-}). Sucrose (\ce{C12H22O11}) is a nonelectrolyte and in solution you will find molecules.\\
- \import{./}{StudyCheck9}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

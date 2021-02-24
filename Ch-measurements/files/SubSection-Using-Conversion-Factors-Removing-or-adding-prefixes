@@ -1,9 +1,0 @@
-Imagine that you need to remove a prefix from a unit, and convert 3 km (we will call this one the original unit) in meters (this is the final unit). First, you would need the conversion factor corresponding to the prefix (centi) from Table \ref{tab:units2}. Then you need to arrange the conversion factor placing the prefix at the bottom of the fraction. This will cancel out the prefix in the original unit and in the bottom part of the conversion factor, hence leaving the final unit on top of the conversion factor. The arrangement would be:
-\begin{equation*}
-3\cancel{km} \times \dfrac{1\times10^{3}m}{1\cancel{km}}=3000m
-\end{equation*}
-Imagine now that you need to add a prefix into a unit, and convert 4000 m in km. The same would apply for this case, but now you will have to arrange the conversion factor so that the prefix is on the top:
-\begin{equation*}
-4000\cancel{m} \times \dfrac{\text{1 km}}{1\times10^{3}\cancel{m}}=4km
-\end{equation*}
-

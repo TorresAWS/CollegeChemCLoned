@@ -1,5 +1,0 @@
-Carbohydrates are made of carbon and oxygen and hydrogen, thus their name: carbon hydrates. The simples carbohydrate is glucose with molecular formula \ce{C6H12O6} and with structure
-\begin{center} \glucose[color={anomerO}{orange}]\end{center}
- This molecule is produced in plants by means of a process called photosynthesis, in which carbon dioxide and water are added together with the help of sunlight to produce glucose and oxygen. At the same time our bodies burn glucose with oxygen while we breath.
- \begin{center}\ce{6CO2 + 6H2O +} \Sun\ce{<=>[$\textcolor{green}{\text{Photosynthesis}}$][$\textcolor{brown}{\text{Respiration}}$] } \chemfig{C_6H_{12}O_6} 
-\ce{ + 6O2}\end{center}
