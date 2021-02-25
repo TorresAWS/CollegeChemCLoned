@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 FEB 2021 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 FEB 2021 08:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5119,14 +5119,17 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../Ch-biochemistry/files/SectionIntro-Simple-Carbohydrates)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 66.
+(../Ch-biochemistry/files/SectionIntro-Simple-Carbohydrates) [1
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-e
+lectrolytes/figure1.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 67.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 66.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 67.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5134,13 +5137,6 @@ Package microtype Info: Loading generic settings for font family
 
 (../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Carbs-are-made-of-C-
 H-and-O
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-e
-lectrolytes/figure1.png>]
 LaTeX Font Info:    Try loading font information for U+ifwea on input line 4.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/ifsym/uifwea.fd))
 (../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Monosaccharides-aldo
@@ -5150,7 +5146,10 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
  []
 
 ) (../Ch-biochemistry/problems/SampleProblem1
-(../Ch-biochemistry/problems/StudyCheck1) [2])
+(../Ch-biochemistry/problems/StudyCheck1)
+Underfull \vbox (badness 5563) has occurred while \output is active []
+
+ [2])
 (../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Some-important-monos
 accharides
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
@@ -5159,16 +5158,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
 
 )
 (../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-d-and-l-monosacchari
-des
+des [3]
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--7
  [] 
  []
 
-
-Underfull \vbox (badness 5832) has occurred while \output is active []
-
- [3])
-(../Ch-biochemistry/problems/SampleProblem2
+) (../Ch-biochemistry/problems/SampleProblem2
 (../Ch-biochemistry/problems/StudyCheck2))
 (../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Skeletal-structure-o
 f--monosaccharides
@@ -5177,7 +5172,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--8
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
  [4])
 (../Ch-biochemistry/files/SubSection--Simple-Carbohydrates-Haworth-cyclic-struc
@@ -5434,7 +5429,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 38--44
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 80.
+(hyperref)                removing `\char' on input line 81.
 
 (../Ch-biochemistry/files/SectionIntro-Disaccharides-and-polysaccharides)
 (../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-Disacch
@@ -5530,7 +5525,7 @@ Overfull \hbox (9.04613pt too wide) in paragraph at lines 6--7
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 92.
+(hyperref)                removing `\char' on input line 93.
 
 (../Ch-biochemistry/files/SectionIntro-Lipids)
 (../Ch-biochemistry/files/Figure-Fatty-acids-diagram
@@ -5608,7 +5603,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 17--25
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 108.
+(hyperref)                removing `\char' on input line 109.
 
 (../Ch-biochemistry/files/SectionIntro-Proteins)
 (../Ch-biochemistry/files/SubSection--Proteins-Amino-acids
@@ -5641,7 +5636,7 @@ Underfull \hbox (badness 2393) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) There 20 com-mon amino
  []
 
-[16]
+
 Overfull \hbox (30.35895pt too wide) in paragraph at lines 8--8
  []|[]| 
  []
@@ -5651,22 +5646,24 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--17
  [] 
  []
 
-) (../Ch-biochemistry/files/SubSection--Proteins-Acid-and-basic-Amino-acids
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
+(../Ch-biochemistry/files/SubSection--Proteins-Acid-and-basic-Amino-acids
 Overfull \hbox (12.0pt too wide) in paragraph at lines 3--10
  [] 
  []
 
 ) (../Ch-biochemistry/problems/SampleProblem11
 (../Ch-biochemistry/problems/StudyCheck11) [17])
-(../Ch-biochemistry/files/SubSection--Proteins-Isoelectronic-point-of-an-Amino-
-acid)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 123.
 
 (../Ch-biochemistry/files/SectionIntro-Nucleic-acids)
 (../Ch-biochemistry/files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids
-Overfull \hbox (476.95747pt too wide) in paragraph at lines 9--9
+Overfull \hbox (136.23738pt too wide) in paragraph at lines 9--9
  []|[]| 
  []
 
@@ -5681,7 +5678,10 @@ Underfull \hbox (badness 1189) in paragraph at lines 1--126
 -oxyri-bonu-cleic acid
  []
 
-[18] (../Ch-biochemistry/files/SubSection--Nucleic-acids-Bases-in-DNA-and-RNA)
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-Bases-in-DNA-and-RNA)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
 (../Ch-biochemistry/files/SubSection--Nucleic-acids-DNA-and-RNA-contain-phospha
 te)
 (../Ch-biochemistry/files/SubSection--Nucleic-acids-Nucleoside-a-base-connected
@@ -5690,7 +5690,10 @@ Underfull \hbox (badness 1184) in paragraph at lines 1--2
 []\T1/ptm/m/n/10 (+20) Nucleic acids are poly-mers.
  []
 
-[19])
+
+Underfull \vbox (badness 1448) has occurred while \output is active []
+
+ [19])
 (../Ch-biochemistry/files/SubSection--Nucleic-acids-Nucleotide-a-nucleoside-con
 nected-to-phosphate
 Overfull \hbox (7.261pt too wide) in paragraph at lines 25--25
@@ -5702,15 +5705,14 @@ Overfull \hbox (10.3647pt too wide) in paragraph at lines 32--32
  [] 
  []
 
-[20]) (../Ch-biochemistry/problems/SampleProblem12
-(../Ch-biochemistry/problems/StudyCheck12) [21])
+[20]) (../Ch-biochemistry/problems/SampleProblem12)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 138.
 
 (../Ch-naming/files/SectionIntro-Ions-ionic-charges)
-(../Ch-naming/files/Subsection-Ions-ionic-charges-Cations-and-anions)
-(../Ch-naming/files/Figure-Valences [22]
+(../Ch-naming/files/Subsection-Ions-ionic-charges-Cations-and-anions [21])
+(../Ch-naming/files/Figure-Valences
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <24> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
@@ -5758,7 +5760,7 @@ Overfull \hbox (1.90002pt too wide) in paragraph at lines 2--1
  []
 
 
-LaTeX Warning: Reference `fig:naming2' on page 23 undefined on input line 1.
+LaTeX Warning: Reference `fig:naming2' on page 22 undefined on input line 1.
 
 ) (../Ch-naming/problems/SampleProblem1 (../Ch-naming/problems/StudyCheck1)
 Underfull \hbox (badness 10000) in paragraph at lines 2--7
@@ -5771,7 +5773,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 146.
 
 (../Ch-naming/files/SectionIntro-Ionic-compounds)
-(../Ch-naming/files/Subsection-Ionic-compounds-Combining-ions [23])
+(../Ch-naming/files/Subsection-Ionic-compounds-Combining-ions [22])
 (../Ch-naming/problems/SampleProblem2
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
@@ -5788,34 +5790,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) (../Ch-naming/problems/SampleProblem3
+[23]) (../Ch-naming/problems/SampleProblem3
 Underfull \hbox (badness 10000) in alignment at lines 14--14
 [][][][] 
  []
 
-(../Ch-naming/problems/StudyCheck3) [24])
-(../Ch-naming/files/Subsection-Ionic-compounds-Complex-ionic-naming
-
-LaTeX Warning: Reference `fig:naming2' on page 25 undefined on input line 1.
-
-
-LaTeX Warning: Reference `fig:naming2' on page 25 undefined on input line 1.
-
-) (../Ch-naming/files/Subsection-Ionic-compounds-Name-complex-ionic-chemicals
-
-LaTeX Warning: Reference `fig:naming2' on page 25 undefined on input line 1.
-
-) (../Ch-naming/files/Subsection-Ionic-compounds-Properties-of-ionic-compounds)
-(../Ch-naming/files/Subsection-Ionic-compounds-The-ionic-bond)
-(../Ch-naming/problems/SampleProblem4
-Underfull \hbox (badness 10000) in alignment at lines 14--14
-[][][][] 
- []
-
-(../Ch-naming/problems/StudyCheck4) [25])
+(../Ch-naming/problems/StudyCheck3))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 161.
+(hyperref)                removing `\char' on input line 156.
 
 (../Ch-naming/files/SectionIntro-Naming-acids-bases)
 (../Ch-naming/files/Subsection-Naming-acids-bases-Bases-or-hydroxides
@@ -5823,27 +5806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) (../Ch-naming/files/Subsection-Naming-acids-bases-Acids
-
-LaTeX Warning: Reference `tab:{ChMIX-biomoleculesinsolution}0' on page 26 undef
-ined on input line 3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
-
- []
-
-[26]) (../Ch-naming/problems/SampleProblem6
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Overfull \hbox (15.74968pt too wide) in paragraph at lines 14--14
- []|\T1/ptm/b/n/10 Acid/Base| 
- []
-
-(../Ch-naming/problems/StudyCheck6)) (../Ch-naming/files/Table-Oxoacids
+) (../Ch-naming/files/Table-Oxoacids
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
@@ -5856,21 +5819,37 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 
-Overfull \hbox (143.9101pt too wide) in paragraph at lines 5--41
+Overfull \hbox (155.9101pt too wide) in paragraph at lines 5--41
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1748) has occurred while \output is active []
 
- [27])
+ [24])
+(../Ch-naming/files/Subsection-Naming-acids-bases-Acids
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+) (../Ch-naming/problems/SampleProblem6
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+
+Overfull \hbox (15.74968pt too wide) in paragraph at lines 14--14
+ []|\T1/ptm/b/n/10 Acid/Base| 
+ []
+
+(../Ch-naming/problems/StudyCheck6) [25])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 170.
+(hyperref)                removing `\char' on input line 166.
 
 (../Ch-naming/files/SectionIntro-Naming-complex-salts-common-chemicals)
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Combining-
-ions [28])
+ions)
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Oxo
 salts
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -5879,7 +5858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
 )
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Formulatin
-g-Oxosalts) (../Ch-naming/problems/SampleProblem8
+g-Oxosalts [26]) (../Ch-naming/problems/SampleProblem8
 Underfull \hbox (badness 10000) in alignment at lines 12--12
 [][][][] 
  []
@@ -5887,14 +5866,13 @@ Underfull \hbox (badness 10000) in alignment at lines 12--12
 (../Ch-naming/problems/StudyCheck8))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 180.
+(hyperref)                removing `\char' on input line 176.
 
-(../Ch-electrolytes/files/SectionIntro-Electrolytes-and-insoluble-compounds
-[29])
+
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Stron
 g-electrolytes)
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Nonel
-ectrolytes)
+ectrolytes [27])
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Ident
 ify-the-electrolyte-character-of-a-chemical)
 (../Ch-electrolytes/files/Table-Electrolytes
@@ -5902,39 +5880,36 @@ ify-the-electrolyte-character-of-a-chemical)
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
 
-[30]) (../Ch-electrolytes/problems/SampleProblem9
+) (../Ch-electrolytes/problems/SampleProblem9
 (../Ch-electrolytes/problems/StudyCheck9))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 235.
+(hyperref)                removing `\char' on input line 206.
 
 (../Ch-nuclear/files/SectionIntro-Radiation-protection)
 (../Ch-nuclear/files/SubSection-Radiation-protection-alpha-particles)
-(../Ch-nuclear/files/SubSection-Radiation-protection-beta-particles)
+(../Ch-nuclear/files/SubSection-Radiation-protection-beta-particles [28])
 (../Ch-nuclear/files/SubSection-Radiation-protection-gamma-particles)
 (../Ch-nuclear/files/Table-Radiation-protection
 
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
-
-Underfull \vbox (badness 8019) has occurred while \output is active []
-
- [31])
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 251.
+(hyperref)                removing `\char' on input line 222.
 
 
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
 s
 
-LaTeX Warning: Reference `tab:units2' on page 32 undefined on input line 1.
+LaTeX Warning: Reference `tab:units2' on page 29 undefined on input line 1.
 
 ) (../Ch-measurements/problems/SampleProblem4
 (../Ch-measurements/problems/StudyCheck4)))
 (../ChMIX-biomoleculesinsolution/ChMIX-biomoleculesinsolutionProblems.tex
-[32]
+[29]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5969,25 +5944,68 @@ LaTeX Warning: Reference `tab:units2' on page 32 undefined on input line 1.
 
 Package mdframed Info: mdframed works in twoside mode on input line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
- (../Ch-biochemistry/problems/problems/Problems-Biomolecules
+
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-Monosacchar
+ides-aldo-or-keto
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 7.
 )
-(../Ch-measurements/problems/problems/Problems-Density-and-mixing)
-(../Ch-electrolytes/problems/problems/Problems-Solutions-and-composition-Empiri
-cal-rules-of-polarity)
-(../Ch-electrolytes/problems/problems/Problems-Solutions-and-composition-Mixing
--and-polarity) (../Ch-thermochemistry/problems/problems/Problems-Energy-value)
-(../Ch-nuclear/problems/problems/Problems-Half-life-of-a-radioisotope-Quantifyi
-ng-half-live [33
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-Skeletal-st
+ructure-of--monosaccharides)
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-alpha-or-be
+ta-form-of-Cyclic-monosaccharides)
+(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-d-and-l-mon
+osaccharides [30
 
 ])
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-Add-remove-pr
-efixes)
+(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
+s-Glycosidic-bond)
+(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
+s-Polysaccharides-starch-and-cellulose
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
+
+)
+(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
+s-alpha-and-beta-Disaccharides)
+(../Ch-biochemistry/problems/problems/Problems-Lipids-Mono-and-polyunsaturated-
+fatty-acids)
+(../Ch-biochemistry/problems/problems/Problems-Lipids-Structure-of-fatty-acids
+[31])
+(../Ch-biochemistry/problems/problems/Problems-Lipids-Waxes-animal-fat-and-soap
+s) (../Ch-biochemistry/problems/problems/Problems-Proteins-Amino-acids)
+(../Ch-biochemistry/problems/problems/Problems-Proteins-Amino-acids-as-zwitteri
+ons)
+(../Ch-biochemistry/problems/problems/Problems-Proteins-Hydrophilic-and-hydroph
+obic-Amino-acids [32])
+(../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Nucleotide-a-nucle
+oside-connected-to-phosphate [33])
+(../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Sugars-in-nucleic-
+acids) (../Ch-naming/problems/GeneralProblems-Ions-Ionic-charges)
+(../Ch-naming/problems/GeneralProblems-Ionic-compounds [34])
+(../Ch-naming/problems/GeneralProblems-Acids-and-hydroxides)
+(../Ch-naming/problems/GeneralProblems-Naming-of-complex-salts-and-common-chemi
+cals [35]
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+[]\T1/ptm/m/n/10 (+20) (a) $[][][]$ [](b) $[][][][][][][][][]$ [](c) Cobalt(II)
+ ni-trate
+ []
+
+)
+(../Ch-electrolytes/problems/problems/Problems-Electrolytes-and-insoluble-compo
+unds-Identify-the-electrolyte-character-of-a-chemical
+Overfull \hbox (44.65742pt too wide) in alignment at lines 16--16
+[][][][] 
+ []
+
+)
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
-ed) [34]
+ed) [36] [37]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6023,16 +6041,11 @@ ed) [34]
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 47.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 39--49
+Overfull \hbox (15.0pt too wide) in paragraph at lines 77--87
 []$[]$ 
  []
 
-[35
+[38
 
 ])
 
@@ -6053,7 +6066,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5405.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5405.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B4454BFFA4172FDDBC61210657FC665;2234.
+(rerunfilecheck)             Checksum: C1B3733786FD1B6378F09DD01CC90100;2221.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -6071,13 +6084,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 85048 strings out of 493014
- 1916556 string characters out of 6133351
- 2796710 words of memory out of 5000000
- 86247 multiletter control sequences out of 15000+600000
- 314940 words of font info for 381 fonts, out of 8000000 for 9000
+ 85468 strings out of 493014
+ 1925558 string characters out of 6133351
+ 2875170 words of memory out of 5000000
+ 86440 multiletter control sequences out of 15000+600000
+ 301581 words of font info for 376 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,27n,119p,10369b,2196s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,27n,109p,10369b,2196s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texli
 ve/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-
@@ -6107,10 +6120,10 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (35 pages, 882298 bytes).
+Output written on main.pdf (38 pages, 915145 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
- 143 named destinations out of 1000 (max. 500000)
- 85482 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 825 PDF objects out of 1000 (max. 8388607)
+ 691 compressed objects within 7 object streams
+ 359 named destinations out of 1000 (max. 500000)
+ 83434 words of extra memory for PDF output out of 89155 (max. 10000000)
 
