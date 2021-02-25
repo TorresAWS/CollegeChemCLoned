@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 FEB 2021 08:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 FEB 2021 13:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5068,26 +5068,7 @@ line 17.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 )
-(../Ch-biochemistry/files/SectionGoal-Biomolecules)
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 22.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
-)
-(../Ch-acidbase/files/SectionGoal-Dissociation-of-acids-and-base-Conjugate-orga
-nic-acids-and-bases)
-LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 27.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
-) (../Ch-measurements/files/SectionGoal-Matter-and-density)
-(../Ch-electrolytes/files/SectionGoal-polarity)
-(../Ch-thermochemistry/files/SectionGoal-Energy-value)
-(../Ch-nuclear/files/SectionGoal-Half-life-of-a-radioisotope)
-(../Ch-measurements/files/SectionGoal-Using-Conversion-Factors)
-(../Ch-biochemistry/files/ChapterDiscussion
+(../Ch-biochemistry/files/SectionGoal-Simple-Carbohydrates
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 1.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5101,15 +5082,35 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 5.21004pt on input line 1.
 )
+(../Ch-biochemistry/files/SectionGoal-Disaccharides-and-polysaccharides)
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 23.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
+)
+(../Ch-naming/files/SectionGoal-Ionic-compounds)
+(../Ch-naming/files/SectionGoal-Naming-acids-bases)
+LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
+t line 30.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
+) (../Ch-electrolytes/files/SectionGoal-Electrolytes-and-insoluble-compounds)
+(../Ch-naming/files/SectionGoal-Naming-complex-salts-common-chemicals)
+(../Ch-biochemistry/files/SectionGoal-Nucleic-acids)
+(../Ch-biochemistry/files/SectionGoal-Proteins)
+(../Ch-nuclear/files/SectionGoal-Radiation-protection)
+(../Ch-measurements/files/SectionGoal-Using-Conversion-Factors)
 
 LaTeX Warning: Marginpar on page 1 moved.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 63.
+(hyperref)                removing `\char' on input line 66.
 
 LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 63.
+ut line 66.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
 File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
 .
@@ -5124,12 +5125,12 @@ Package microtype Info: Loading generic settings for font family
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-e
 lectrolytes/figure1.png>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 67.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 70.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 67.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 70.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -5367,32 +5368,32 @@ Overfull \hbox (36.47382pt too wide) in paragraph at lines 20--20
  []
 
 
-Overfull \hbox (29.94858pt too wide) in paragraph at lines 21--21
+Overfull \hbox (32.44858pt too wide) in paragraph at lines 21--21
  []|[]| 
  []
 
 
-Overfull \hbox (12.44858pt too wide) in paragraph at lines 22--23
- []|[]| 
+Overfull \hbox (17.44858pt too wide) in paragraph at lines 25--26
+ []|[] 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 19--25
+Overfull \hbox (12.0pt too wide) in paragraph at lines 19--30
  [] 
  []
 
 
-Overfull \hbox (12.44858pt too wide) in paragraph at lines 31--31
+Overfull \hbox (17.44858pt too wide) in paragraph at lines 36--36
  []|[]| 
  []
 
 
-Overfull \hbox (12.44858pt too wide) in paragraph at lines 32--33
+Overfull \hbox (17.44858pt too wide) in paragraph at lines 38--40
  []|[]| 
  []
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 29--35
+Overfull \hbox (12.0pt too wide) in paragraph at lines 34--42
  [] 
  []
 
@@ -5400,36 +5401,36 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 29--35
 Underfull \vbox (badness 3179) has occurred while \output is active []
 
  [6]
-Overfull \hbox (27.0281pt too wide) in paragraph at lines 40--40
+Overfull \hbox (27.0281pt too wide) in paragraph at lines 47--47
  []|[]| 
  []
 
 
-Overfull \hbox (27.0281pt too wide) in paragraph at lines 41--42
+Overfull \hbox (27.0281pt too wide) in paragraph at lines 48--49
  []|[]| 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 43.
+(Font)              <9> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <7> on input line 50.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 43.
+(Font)              scaled to size 9.37807pt on input line 50.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 43.
+(Font)              scaled to size 7.29405pt on input line 50.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 43.
+(Font)              scaled to size 9.37807pt on input line 50.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 43.
+(Font)              scaled to size 7.29405pt on input line 50.
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 38--44
+Overfull \hbox (12.0pt too wide) in paragraph at lines 45--51
  [] 
  []
 
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 81.
+(hyperref)                removing `\char' on input line 84.
 
 (../Ch-biochemistry/files/SectionIntro-Disaccharides-and-polysaccharides)
 (../Ch-biochemistry/files/SubSection--Disaccharides-and-polysaccharides-Disacch
@@ -5525,7 +5526,7 @@ Overfull \hbox (9.04613pt too wide) in paragraph at lines 6--7
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 93.
+(hyperref)                removing `\char' on input line 96.
 
 (../Ch-biochemistry/files/SectionIntro-Lipids)
 (../Ch-biochemistry/files/Figure-Fatty-acids-diagram
@@ -5603,7 +5604,7 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 17--25
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 109.
+(hyperref)                removing `\char' on input line 112.
 
 (../Ch-biochemistry/files/SectionIntro-Proteins)
 (../Ch-biochemistry/files/SubSection--Proteins-Amino-acids
@@ -5659,21 +5660,21 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 3--10
 (../Ch-biochemistry/problems/StudyCheck11) [17])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 123.
+(hyperref)                removing `\char' on input line 126.
 
 (../Ch-biochemistry/files/SectionIntro-Nucleic-acids)
 (../Ch-biochemistry/files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids
-Overfull \hbox (136.23738pt too wide) in paragraph at lines 9--9
+Overfull \hbox (306.59743pt too wide) in paragraph at lines 9--9
  []|[]| 
  []
 
 )
-Underfull \hbox (badness 1776) in paragraph at lines 1--126
+Underfull \hbox (badness 1776) in paragraph at lines 1--129
 []\T1/ptm/m/n/10 (+20) The struc-ture of nu-cleic acids is in-deed sugar.
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 1--126
+Underfull \hbox (badness 1189) in paragraph at lines 1--129
 \T1/ptm/m/n/10 (+20) Two dif-fer-ent sug-ars can be found in nu-cleic acids. De
 -oxyri-bonu-cleic acid
  []
@@ -5708,7 +5709,7 @@ Overfull \hbox (10.3647pt too wide) in paragraph at lines 32--32
 [20]) (../Ch-biochemistry/problems/SampleProblem12)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 138.
+(hyperref)                removing `\char' on input line 141.
 
 (../Ch-naming/files/SectionIntro-Ions-ionic-charges)
 (../Ch-naming/files/Subsection-Ions-ionic-charges-Cations-and-anions [21])
@@ -5770,7 +5771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--7
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 146.
+(hyperref)                removing `\char' on input line 149.
 
 (../Ch-naming/files/SectionIntro-Ionic-compounds)
 (../Ch-naming/files/Subsection-Ionic-compounds-Combining-ions [22])
@@ -5798,7 +5799,7 @@ Underfull \hbox (badness 10000) in alignment at lines 14--14
 (../Ch-naming/problems/StudyCheck3))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 156.
+(hyperref)                removing `\char' on input line 159.
 
 (../Ch-naming/files/SectionIntro-Naming-acids-bases)
 (../Ch-naming/files/Subsection-Naming-acids-bases-Bases-or-hydroxides
@@ -5845,7 +5846,7 @@ Overfull \hbox (15.74968pt too wide) in paragraph at lines 14--14
 (../Ch-naming/problems/StudyCheck6) [25])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 166.
+(hyperref)                removing `\char' on input line 169.
 
 (../Ch-naming/files/SectionIntro-Naming-complex-salts-common-chemicals)
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Combining-
@@ -5866,7 +5867,7 @@ Underfull \hbox (badness 10000) in alignment at lines 12--12
 (../Ch-naming/problems/StudyCheck8))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 176.
+(hyperref)                removing `\char' on input line 179.
 
 
 (../Ch-electrolytes/files/SubSection-Electrolytes-and-insoluble-compounds-Stron
@@ -5884,7 +5885,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 (../Ch-electrolytes/problems/StudyCheck9))
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 206.
+(hyperref)                removing `\char' on input line 209.
 
 (../Ch-nuclear/files/SectionIntro-Radiation-protection)
 (../Ch-nuclear/files/SubSection-Radiation-protection-alpha-particles)
@@ -5898,7 +5899,7 @@ Package hyperref Warning: Option `colorlinks' has already been used,
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 222.
+(hyperref)                removing `\char' on input line 225.
 
 
 (../Ch-measurements/files/SubSection-Using-Conversion-Factors-Switching-prefixe
@@ -5987,16 +5988,10 @@ obic-Amino-acids [32])
 oside-connected-to-phosphate [33])
 (../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Sugars-in-nucleic-
 acids) (../Ch-naming/problems/GeneralProblems-Ions-Ionic-charges)
-(../Ch-naming/problems/GeneralProblems-Ionic-compounds [34])
-(../Ch-naming/problems/GeneralProblems-Acids-and-hydroxides)
+(../Ch-naming/problems/GeneralProblems-Ionic-compounds)
+(../Ch-naming/problems/GeneralProblems-Acids-and-hydroxides [34])
 (../Ch-naming/problems/GeneralProblems-Naming-of-complex-salts-and-common-chemi
-cals [35]
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[]\T1/ptm/m/n/10 (+20) (a) $[][][]$ [](b) $[][][][][][][][][]$ [](c) Cobalt(II)
- ni-trate
- []
-
-)
+cals)
 (../Ch-electrolytes/problems/problems/Problems-Electrolytes-and-insoluble-compo
 unds-Identify-the-electrolyte-character-of-a-chemical
 Overfull \hbox (44.65742pt too wide) in alignment at lines 16--16
@@ -6005,7 +6000,7 @@ Overfull \hbox (44.65742pt too wide) in alignment at lines 16--16
 
 )
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
-ed) [36] [37]
+ed) [35]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6041,11 +6036,16 @@ ed) [36] [37]
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
+LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
+lable
+(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
+ line 85.
+
 Overfull \hbox (15.0pt too wide) in paragraph at lines 77--87
 []$[]$ 
  []
 
-[38
+[36
 
 ])
 
@@ -6084,19 +6084,19 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 85468 strings out of 493014
- 1925558 string characters out of 6133351
- 2875170 words of memory out of 5000000
- 86440 multiletter control sequences out of 15000+600000
- 301581 words of font info for 376 fonts, out of 8000000 for 9000
+ 85405 strings out of 493014
+ 1925379 string characters out of 6133351
+ 2872316 words of memory out of 5000000
+ 86438 multiletter control sequences out of 15000+600000
+ 310236 words of font info for 375 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,27n,109p,10369b,2196s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/usr/local/texli
 ve/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-
 dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-dist/fonts
-/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
-/lm/lm-mathex.enc} </Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfou
+/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/lm/lm-mathit.enc} </Users/daniel/Library/texlive/2016/texmf-var/fonts/pk/ljfou
 r/public/ifsym/ifwea10.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvip
 s/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2016/texmf-dist/fonts/en
 c/dvips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-dist/font
@@ -6120,10 +6120,10 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (38 pages, 915145 bytes).
+Output written on main.pdf (36 pages, 914739 bytes).
 PDF statistics:
- 825 PDF objects out of 1000 (max. 8388607)
- 691 compressed objects within 7 object streams
- 359 named destinations out of 1000 (max. 500000)
- 83434 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 745 PDF objects out of 1000 (max. 8388607)
+ 613 compressed objects within 7 object streams
+ 299 named destinations out of 1000 (max. 500000)
+ 84458 words of extra memory for PDF output out of 89155 (max. 10000000)
 
