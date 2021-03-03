@@ -1068,69 +1068,257 @@
 \newcommand{\hlmath}[1]{%
   \colorbox{black!20}{$\displaystyle#1$}}\usepackage{amsmath}
 
+\usepackage{fontawesome}
+\usepackage{carbohydrates}
+\definesubmol{x}{C(-[4]H)(-[0]OH)}
+\definesubmol{y}{C(-[0]H)(-[4]HO)}
+\definesubmol{k}{C(=[0]\textcolor{orange}{O})}
+\definesubmol{a}{C(=[1]\textcolor{orange}{O})(-[3]H)}
+\definesubmol{t}{C(-[2]H)(-[0]OH)(-[4]H)}
+\definesubmol{CH2}{CH_2}
+\definesubmol\nobond{[,0.2,,,draw=none]}
+\definesubmol{adenine}{-[:72,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*5(-*6(-N=-N=(-NH_2)-=)--N=-)}
+\definesubmol{adenine2}{-[:72,0.4,,,draw=none]\textcolor{blue}{N}*5(-*6(-N=-N=(-NH_2)-=)--N=-)}
+\definesubmol{guanine}{-[:72,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*5(-*6(-N=(-[:-45]NH_2)-N(-[:45]H)-(=O)-=)--N=-)}
+\definesubmol{guanine2}{-[:72,0.4,,,draw=none]\textcolor{blue}{N}*5(-*6(-N=(-[:-45]NH_2)-N(-[:45]H)-(=O)-=)--N=-)}
+
+\definesubmol{uracil}{-[:90,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*6(-(=O)-N(-[:45]H)-(=O)-=-)}
+\definesubmol{uracil2}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}*6(-(=O)-N(-[:45]H)-(=O)-=-)}
+
+\definesubmol{thymine}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*6(-(=O)-N(-[:45]H)-(=O)-(-[:145]CH_3)=-)}
+\definesubmol{thymine2}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}*6(-(=O)-N(-[:45]H)-(=O)-(-[:145]CH_3)=-)}
+
+\definesubmol{cytosine}{-[:90,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*6(-(=O)-N=(-NH_2)-=-)}
+\definesubmol{cytosine2}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}*6(-(=O)-N=(-NH_2)-=-)}
+
+\definesubmol{ribose}{HO-[:90,0.5,2]?-[:60,1.0](-[:90,1.1]\textcolor{orange}{OH})-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:180,0.9]H\textcolor{pink}{O}))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\definesubmol{deoxyribose}{-[:90,0.5,2,,,draw=none]?-[:60,1.0](-[:90,1.1]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:180,0.9]H\textcolor{pink}{O}))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\definesubmol{phosphate}{-[6,.6]O-[6,1.5]P(-[4,.8]HO)(=[6,0.8]O)-[,1.5]O}
+\newcommand*\derivesubmol[4]{%
+    \saveexpandmode\saveexploremode\expandarg\exploregroups
+    \csname @\ifcat\relax\noexpand#2first\else second\fi oftwo\endcsname
+        {\expandafter\StrSubstitute\@car#2\@nil}
+        {\expandafter\StrSubstitute\csname CF@@#2\endcsname}
+    {\@empty#3}{\@empty#4}[\temp@]%
+    \csname @\ifcat\relax\noexpand#1first\else second\fi oftwo\endcsname
+        {\expandafter\let\@car#1\@nil}
+        {\expandafter\let\csname CF@@#1\endcsname}\temp@
+    \restoreexpandmode\restoreexploremode
+}
+\definesubmol{rt1}{-[2]rt1}
+\definesubmol{rt2}{-[6,.6]rt2}
+\definesubmol{rt3}{-[6,.6]rt3}
+\definesubmol{ribose2}{%
+    H\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,line width=1pt,shorten <=-.5pt,shorten >=-.5pt]%
+              (!{rt2})%
+          -[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+\definesubmol{deoxyribose2}{%
+    H\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,line width=1pt,shorten <=-.5pt,shorten >=-.5pt]%
+              ()%
+          -[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+%\derivesubmol{deoxyribose2}{ribose2}{(!{rt2})}{   }
+\definesubmol{deoxyribosephosphate}{%
+    P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)-\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,,shorten <=-.5pt,shorten >=-.5pt]%
+          -[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+\definesubmol{ribosephosphate}{%
+    P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)-\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,,shorten <=-.5pt,shorten >=-.5pt]%
+          (-[:-90,0.8]OH)-[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+%%%%% DNA
+%%%% AMINO ACIDS
+%chemical symbols
+\newcommand{\glycine}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3} N^{+})([:-90]-H)([:90]-H)}}
+%\newcommand{\proline}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:-90]-H)*5([:135]-CH_2-CH_2-H_2C-H_{2} N^{+}-)}}
+\newcommand{\alanine}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:90]-CH_{3})([:-90]-H)}}
+\newcommand{\valin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3} N^{+})([:90]-CH([:120]-CH_{3})([:60]-CH_{3}))([:-90]-H)}}
+\newcommand{\leucin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH([:120]-CH_{3})([:60]-CH_{3})))}}
+\newcommand{\isoleucin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH ([:90]-CH_{2}([:90]-CH_3))
+    ([:180]-H_{3}C))}}
+\newcommand{\methionin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-S ([:90]-CH_{3}))))}}
+\newcommand{\phenylalanin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-*6(-=-=-=)))}}
+\newcommand{\tryptophan}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-([:60]*6(?=-NH-*6([:120]-=-=-)=?))))}}
+\newcommand{\serin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-OH))}}
+\newcommand{\threonin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH([:120]-OH)([:60]-CH_{3})))}}
+\newcommand{\cystein}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-SH)))}}
+\newcommand{\tyrosin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-*6(-=-([:90]-OH)=-=)))}}
+\newcommand{\asparagin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-C([:120]-NH_{2})([:60]=O)))}}
+\newcommand{\glutamin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-C([:120]-NH_{2})([:60]=O))))}}
+\newcommand{\asparaginacid}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-C([:120]-O^{-})([:60]=O)))}}
+\newcommand{\glutaminacid}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-C([:120]-O^{-})([:60]=O))))}}
+\newcommand{\lysin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-CH_{2}([:90]-CH_{2}([:90]-NH_{3}^{+})))))}}
+\newcommand{\arginin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-CH_{2}([:90]-NH([:90]-C([:90]-NH_{2})([:0]=NH_2^{+}))))))}}
+%\newcommand{\histidin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}N^{+})([:-90]-H)([:90]-CH_{2}([:90]-([:60]*5(-NH-=NH^{+}-=))))}}
+
+\newcommand{\proline}{\footnotesize
+\chemfig{
+  H-[2]
+  C
+  (-C(=[:45]O)(-[:-45]O|^{-}))
+ *5([:135]-C|H_2-\chemabove{C}{H\mathrlap{_2}}-H_2|C-[,,,2]H_{2}|\chemabove{N}{\quad\scriptstyle+}-)
+}
+}
+
+\newcommand{\histidin}{\footnotesize
+\chemfig{
+  H_{3}\chemabove{N}{\quad\scriptstyle+}-
+  C
+   ([:-90]-H)
+   ([:90]
+     -CH_{2}-
+     ([:90]*5(-NH-[,,1]=\chemabove{\chemabove{N}{H}}{\hskip1.5em\scriptstyle+}-=))
+   )
+  -C(=[:45]O)(-[:-45]O|^{-})
+}
+}
+
+
+
 \begin{document}
 \begin{exam}{s}
 \begin{verA}
 
 
+
  
-%\begin{problem*}\import{../Ch-Table/problems/}{StudyCheck9}\vspace{1cm}  
+  
+
+
+
+
+
+
+
+ 
+ 
+
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck1}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck1}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck2}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck2}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck3}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck3}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck4}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck6}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck5}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck7}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck6}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck8}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck7}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
-%\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck11}\vspace{1cm}  
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck8}\vspace{1cm}  
 %\begin{solution}[1.0in]\end{solution}
 %\end{problem*}
 
-\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck12}\vspace{1cm}  
+
+
+\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck9}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
- \begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck13}\vspace{1cm}  
+
+
+\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck10}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
-\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck14}\vspace{1cm}  
+
+\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck11}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
-\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck15}\vspace{1cm}  
+
+%\begin{problem*}\import{../Ch-biochemistry/problems/}{StudyCheck12}\vspace{1cm}  
+%\begin{solution}[1.0in]\end{solution}
+%\end{problem*}
+
+ \begin{problem*}\import{../Ch-naming/problems/}{StudyCheck1}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
-\begin{problem*}\import{../Ch-orgo/problems/}{StudyCheck16}\vspace{1cm}  
+ \begin{problem*}\import{../Ch-naming/problems/}{StudyCheck2}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
- \begin{problem*}\import{../Ch-electrolytes/problems/}{StudyCheck1}\vspace{1cm}  
+ \begin{problem*}\import{../Ch-naming/problems/}{StudyCheck3}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
- \begin{problem*}\import{../Ch-thermochemistry/problems/}{StudyCheck14}\vspace{1cm}  
+ \begin{problem*}\import{../Ch-naming/problems/}{StudyCheck6}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
 \end{problem*}
-  \begin{problem*}\import{../Ch-nuclear/problems/}{StudyCheck8}\vspace{1cm}  
+
+
+ \begin{problem*}\import{../Ch-naming/problems/}{StudyCheck8}\vspace{1cm}  
 \begin{solution}[1.0in]\end{solution}
- \end{problem*}
+\end{problem*}
+
+ 
+ \begin{problem*}\import{../Ch-electrolytes/problems/}{StudyCheck9}\vspace{1cm}  
+\begin{solution}[1.0in]\end{solution}
+\end{problem*}
  
  
-%   \begin{problem*}\import{../Ch-measurements/problems/}{StudyCheck1}\vspace{1cm}  
-%\begin{solution}[1.0in]\end{solution}
-% \end{problem*}
-%   \begin{problem*}\import{../Ch-measurements/problems/}{StudyCheck2}\vspace{1cm}  
-%\begin{solution}[1.0in]\end{solution}
-% \end{problem*}
+ \begin{problem*}\import{../Ch-measurements/problems/}{StudyCheck4}\vspace{1cm}  
+\begin{solution}[1.0in]\end{solution}
+\end{problem*}
+ 
+ 
  
 
 
