@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 FEB 2021 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 13:00
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4774,7 +4774,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5320.
@@ -4796,7 +4796,7 @@ LaTeX Font Info:    ... okay on input line 5320.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5320.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5320
 .
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 5320.
@@ -4811,12 +4811,11 @@ Package hyperref Info: Link coloring ON on input line 5320.
 LaTeX Info: Redefining \ref on input line 5320.
 LaTeX Info: Redefining \pageref on input line 5320.
 LaTeX Info: Redefining \nameref on input line 5320.
- (./main.out)
-(./main.out)
 \@outlinefile=\write14
 \openout14 = `main.out'.
 
- ABD: EverySelectfont initializing macros
+
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 5320.
 
 *geometry* driver: auto-detecting
@@ -5053,9 +5052,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(../ChMIX-biomoleculesinsolution/ChMIX-biomoleculesinsolution.tex
+(../ChMIX-statesofmatter/ChMIX-statesofmatter.tex
 Chapter 3.
-<../Ch-electrolytes/figure1.png, id=161, 515.9275pt x 722.7pt>
+<../Ch-electrolytes/figure1.png, id=109, 515.9275pt x 722.7pt>
 File: ../Ch-electrolytes/figure1.png Graphic file (type png)
 <use ../Ch-electrolytes/figure1.png>
 Package pdftex.def Info: ../Ch-electrolytes/figure1.png  used on input line 12.
@@ -5663,12 +5662,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 126.
 
 (../Ch-biochemistry/files/SectionIntro-Nucleic-acids)
-(../Ch-biochemistry/files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids
-Overfull \hbox (306.59743pt too wide) in paragraph at lines 9--9
- []|[]| 
- []
-
-)
+(../Ch-biochemistry/files/SubSection--Nucleic-acids-Sugars-in-nucleic-acids)
 Underfull \hbox (badness 1776) in paragraph at lines 1--129
 []\T1/ptm/m/n/10 (+20) The struc-ture of nu-cleic acids is in-deed sugar.
  []
@@ -5746,6 +5740,11 @@ t available
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 4.
 
+
+LaTeX Warning: Reference `Fig:{ChMIX-biomoleculesinsolution}1' on page 22 undef
+ined on input line 6.
+
+
 Overfull \hbox (14.73227pt too wide) in paragraph at lines 4--8
 [][]
  []
@@ -5759,6 +5758,10 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 4--8
 Overfull \hbox (1.90002pt too wide) in paragraph at lines 2--1
 []  [] 
  []
+
+
+LaTeX Warning: Reference `Fig:{ChMIX-biomoleculesinsolution}1' on page 22 undef
+ined on input line 1.
 
 
 LaTeX Warning: Reference `fig:naming2' on page 22 undefined on input line 1.
@@ -5820,7 +5823,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
 
-Overfull \hbox (155.9101pt too wide) in paragraph at lines 5--41
+LaTeX Warning: Reference `tab:{ChMIX-biomoleculesinsolution}1' on page 24 undef
+ined on input line 8.
+
+
+Overfull \hbox (153.6601pt too wide) in paragraph at lines 5--41
  [] 
  []
 
@@ -5829,6 +5836,11 @@ Underfull \vbox (badness 1748) has occurred while \output is active []
 
  [24])
 (../Ch-naming/files/Subsection-Naming-acids-bases-Acids
+
+LaTeX Warning: Reference `tab:{ChMIX-biomoleculesinsolution}1' on page 25 undef
+ined on input line 3.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -5853,6 +5865,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ions)
 (../Ch-naming/files/Subsection-Naming-complex-salts-common-chemicals-Naming-Oxo
 salts
+
+LaTeX Warning: Reference `tab:{ChMIX-biomoleculesinsolution}1' on page 26 undef
+ined on input line 2.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -5881,6 +5898,10 @@ ify-the-electrolyte-character-of-a-chemical)
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 20.
 
+
+LaTeX Warning: Reference `tab:{ChMIX-biomoleculesinsolution}2' on page 28 undef
+ined on input line 20.
+
 ) (../Ch-electrolytes/problems/SampleProblem9
 (../Ch-electrolytes/problems/StudyCheck9))
 
@@ -5896,6 +5917,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Option `colorlinks' has already been used,
 (hyperref)                setting the option has no effect on input line 7.
 
+
+LaTeX Warning: Reference `tab:{ChMIX-biomoleculesinsolution}3' on page 29 undef
+ined on input line 7.
+
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -5909,145 +5934,6 @@ LaTeX Warning: Reference `tab:units2' on page 29 undefined on input line 1.
 
 ) (../Ch-measurements/problems/SampleProblem4
 (../Ch-measurements/problems/StudyCheck4)))
-(../ChMIX-biomoleculesinsolution/ChMIX-biomoleculesinsolutionProblems.tex
-[29]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=481.87546pt
-* \textheight=702.78308pt
-* \oddsidemargin=-14.45378pt
-* \evensidemargin=-14.45378pt
-* \topmargin=-43.1381pt
-* \headheight=14.0pt
-* \headsep=28.0pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-Package mdframed Info: mdframed works in twoside mode on input line 12.
-Package mdframed Info: Not enough space on this page on input line 12.
-
-(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-Monosacchar
-ides-aldo-or-keto
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
-vailable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 7.
-)
-(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-Skeletal-st
-ructure-of--monosaccharides)
-(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-alpha-or-be
-ta-form-of-Cyclic-monosaccharides)
-(../Ch-biochemistry/problems/problems/Problems-Simple-Carbohydrates-d-and-l-mon
-osaccharides [30
-
-])
-(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
-s-Glycosidic-bond)
-(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
-s-Polysaccharides-starch-and-cellulose
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 6.
-
-)
-(../Ch-biochemistry/problems/problems/Problems-Disaccharides-and-polysaccharide
-s-alpha-and-beta-Disaccharides)
-(../Ch-biochemistry/problems/problems/Problems-Lipids-Mono-and-polyunsaturated-
-fatty-acids)
-(../Ch-biochemistry/problems/problems/Problems-Lipids-Structure-of-fatty-acids
-[31])
-(../Ch-biochemistry/problems/problems/Problems-Lipids-Waxes-animal-fat-and-soap
-s) (../Ch-biochemistry/problems/problems/Problems-Proteins-Amino-acids)
-(../Ch-biochemistry/problems/problems/Problems-Proteins-Amino-acids-as-zwitteri
-ons)
-(../Ch-biochemistry/problems/problems/Problems-Proteins-Hydrophilic-and-hydroph
-obic-Amino-acids [32])
-(../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Nucleotide-a-nucle
-oside-connected-to-phosphate [33])
-(../Ch-biochemistry/problems/problems/Problems-Nucleic-acids-Sugars-in-nucleic-
-acids) (../Ch-naming/problems/GeneralProblems-Ions-Ionic-charges)
-(../Ch-naming/problems/GeneralProblems-Ionic-compounds)
-(../Ch-naming/problems/GeneralProblems-Acids-and-hydroxides [34])
-(../Ch-naming/problems/GeneralProblems-Naming-of-complex-salts-and-common-chemi
-cals)
-(../Ch-electrolytes/problems/problems/Problems-Electrolytes-and-insoluble-compo
-unds-Identify-the-electrolyte-character-of-a-chemical
-Overfull \hbox (44.65742pt too wide) in alignment at lines 16--16
-[][][][] 
- []
-
-)
-(../Ch-measurements/problems/problems/Problems-Conversion-Factors-switch-prefix
-ed) [35]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(57.81621pt, 481.87546pt, 57.81621pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=481.87546pt
-* \textheight=702.78308pt
-* \oddsidemargin=-14.45378pt
-* \evensidemargin=-14.45378pt
-* \topmargin=-43.1381pt
-* \headheight=14.0pt
-* \headsep=28.0pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=140.5566pt
-* \marginparsep=23.33124pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
-lable
-(Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 85.
-
-Overfull \hbox (15.0pt too wide) in paragraph at lines 77--87
-[]$[]$ 
- []
-
-[36
-
-])
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -6059,15 +5945,22 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
+[29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5405.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 5405.
-(./main.aux)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5405.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5405.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C1B3733786FD1B6378F09DD01CC90100;2221.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  C1B3733786FD1B6378F09DD01CC90100;2221.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -6084,11 +5977,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 85405 strings out of 493014
- 1925379 string characters out of 6133351
- 2872316 words of memory out of 5000000
- 86438 multiletter control sequences out of 15000+600000
- 310236 words of font info for 375 fonts, out of 8000000 for 9000
+ 84642 strings out of 493014
+ 1904400 string characters out of 6133351
+ 2782684 words of memory out of 5000000
+ 85979 multiletter control sequences out of 15000+600000
+ 281177 words of font info for 364 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,27n,109p,10369b,2196s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
@@ -6120,10 +6013,10 @@ usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (36 pages, 914739 bytes).
+Output written on main.pdf (29 pages, 851907 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 613 compressed objects within 7 object streams
- 299 named destinations out of 1000 (max. 500000)
- 84458 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 81282 words of extra memory for PDF output out of 89155 (max. 10000000)
 
