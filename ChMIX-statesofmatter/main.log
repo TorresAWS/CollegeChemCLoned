@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 11:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5727,22 +5727,22 @@ Underfull \hbox (badness 10000) in alignment at lines 47--47
  []
 
 
-Overfull \hbox (1.66977pt too wide) in paragraph at lines 76--76
+Overfull \hbox (1.66977pt too wide) in paragraph at lines 70--70
  []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 76--76
+Underfull \hbox (badness 10000) in alignment at lines 70--70
 [][][][] 
  []
 
 
-Overfull \hbox (1.66977pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.66977pt too wide) in paragraph at lines 93--93
  []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 107--107
+Underfull \hbox (badness 10000) in alignment at lines 93--93
 [][][][] 
  []
 
@@ -5805,7 +5805,7 @@ lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 71.
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--71
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
 []\T1/ptm/m/n/10 (+20) (b) $\OT1/lmr/m/n/10 3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n
 /10 10[]$  [][]\T1/ptm/m/n/10 (+20) (a) $\OT1/lmr/m/n/10 5.3 \OMS/lmsy/m/n/10 ^
 ^B \OT1/lmr/m/n/10 10[]$ \T1/ptm/m/n/10 (+20) moles of $[][][][]$ [](b) 0.33 mo
@@ -5813,44 +5813,9 @@ les of $[][][]$  []$\OT1/lmr/m/n/10 3[] \OMS/lmsy/m/n/10 ^^B
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--71
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
 [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 1.8 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 
 10[][][].$  []$10[][] \OMS/lmsy/m/n/10 ^^B
- []
-
-
-Overfull \hbox (67.09108pt too wide) in paragraph at lines 71--71
- []|\T1/ptm/m/n/10 (-20) Acidic/Basic/Neutral?| 
- []
-
-
-Overfull \hbox (6.12642pt too wide) in paragraph at lines 71--71
- []|\T1/ptm/m/n/10 (-20) Acidic| 
- []
-
-
-Overfull \hbox (6.12642pt too wide) in paragraph at lines 71--71
- []|\T1/ptm/m/n/10 (-20) Acidic| 
- []
-
-
-Overfull \hbox (7.21419pt too wide) in paragraph at lines 71--71
- []|\T1/ptm/m/n/10 (-20) neutral| 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 71--71
-[][][] 
- []
-
-
-Overfull \hbox (1.66977pt too wide) in paragraph at lines 71--71
- []|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 71--71
-[][][][] 
  []
 
 
@@ -5894,11 +5859,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 81954 strings out of 493014
- 1861125 string characters out of 6133351
+ 81958 strings out of 493014
+ 1861150 string characters out of 6133351
  2610238 words of memory out of 5000000
  83104 multiletter control sequences out of 15000+600000
- 282339 words of font info for 351 fonts, out of 8000000 for 9000
+ 283621 words of font info for 355 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,32n,118p,10369b,2974s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
@@ -5933,7 +5898,7 @@ ino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (23 pages, 26724379 bytes).
+Output written on main.pdf (23 pages, 26725078 bytes).
 PDF statistics:
  646 PDF objects out of 1000 (max. 8388607)
  490 compressed objects within 5 object streams
