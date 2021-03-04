@@ -1,13 +1,22 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 06:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 18:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**ChMIX-statesofmatter.tex
+(./ChMIX-statesofmatter.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(./tufte-book.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2012/05/23 Federico Garcia
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks14
+\verbatim@line=\toks15
+\verbatim@in@stream=\read1
+)
+Preamble taken from file `main.tex'
+(./main.tex (./tufte-book.cls
 Document Class: tufte-book 2009/12/11 v3.5.0 Tufte-book class
 (./tufte-common.def
 File: tufte-common.def 2009/12/11 v3.5.0 Common code for the Tufte-LaTeX styles
@@ -18,8 +27,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks14
-\XKV@tempa@toks=\toks15
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count79
@@ -84,7 +93,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip47
 \ttl@plus=\dimen105
 \ttl@minus=\dimen106
-\ttl@toksa=\toks16
+\ttl@toksa=\toks18
 \titlewidth=\dimen107
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
@@ -135,15 +144,18 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen111
@@ -246,7 +258,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen120
 \Gm@layouthoffset=\dimen121
 \Gm@layoutvoffset=\dimen122
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks19
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
@@ -263,7 +275,7 @@ Package: paralist 2015/12/30 v2.5 Extended list environments
 \plpartopsep=\skip67
 \plitemsep=\skip68
 \plparsep=\skip69
-\pl@lab=\toks18
+\pl@lab=\toks20
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -288,7 +300,7 @@ LaTeX Info: Redefining \cite on input line 694.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-No file main.bbl.
+No file ChMIX-statesofmatter.bbl.
 \c@@tufte@num@bibkeys=\count107
 (/usr/local/texlive/2016/texmf-dist/tex/latex/sauerj/optparams.sty
 Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
@@ -519,8 +531,6 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
-
-(./main.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -530,7 +540,7 @@ Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/catchfile.sty
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
-\openout4 = `main.pre'.
+\openout4 = `ChMIX-statesofmatter.pre'.
 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dingbat/dingbat.sty
@@ -541,7 +551,7 @@ Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
 \WF@size=\dimen137
 \c@WF@wrappedlines=\count118
 \WF@box=\box57
-\WF@everypar=\toks19
+\WF@everypar=\toks21
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
@@ -570,7 +580,7 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen138
 \extrarowheight=\dimen139
-\NC@list=\toks20
+\NC@list=\toks22
 \extratabsurround=\skip86
 \backup@length=\skip87
 )
@@ -596,8 +606,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen148
 \belowtabulinesep=\dimen149
 \tabustrutrule=\dimen150
-\tabu@thebody=\toks21
-\tabu@footnotes=\toks22
+\tabu@thebody=\toks23
+\tabu@footnotes=\toks24
 \tabu@box=\box59
 \tabu@arstrutbox=\box60
 \tabu@hleads=\box61
@@ -735,7 +745,7 @@ Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
 (/usr/local/texlive/2016/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks23
+\pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen182
 \pgfutil@tempdimb=\dimen183
 
@@ -755,12 +765,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen184
 \pgf@y=\dimen185
@@ -771,14 +781,14 @@ ode.tex
 \pgf@xc=\dimen190
 \pgf@yc=\dimen191
 \w@pgf@writea=\write5
-\r@pgf@reada=\read1
+\r@pgf@reada=\read2
 \c@pgf@counta=\count155
 \c@pgf@countb=\count156
 \c@pgf@countc=\count157
 \c@pgf@countd=\count158
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -812,9 +822,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@dimen=\dimen192
 \pgfmath@count=\count161
 \pgfmath@box=\box80
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -961,8 +971,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen275
 \pgffor@skip=\dimen276
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1008,7 +1018,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
+\@emptytoks=\toks37
 \ex@=\dimen284
 ))
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
@@ -1210,27 +1220,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip17
 \c@parentequation=\count184
 \dspbrk@lvl=\count185
-\tag@help=\toks36
+\tag@help=\toks38
 \row@=\count186
 \column@=\count187
 \maxfields@=\count188
-\andhelp@=\toks37
+\andhelp@=\toks39
 \eqnshift@=\dimen324
 \alignsep@=\dimen325
 \tagshift@=\dimen326
 \tagwidth@=\dimen327
 \totwidth@=\dimen328
 \lineht@=\dimen329
-\@envbody=\toks38
+\@envbody=\toks40
 \multlinegap=\skip96
 \multlinetaggap=\skip97
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks40
+\AP@output=\toks42
 \AP@partial=\box92
 \AP@footins=\box93
 )
@@ -1327,11 +1337,11 @@ neric.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
 ftex.tex)) (/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks41
-\SOUL@lasttoken=\toks42
-\SOUL@cmds=\toks43
-\SOUL@buffer=\toks44
-\SOUL@token=\toks45
+\SOUL@word=\toks43
+\SOUL@lasttoken=\toks44
+\SOUL@cmds=\toks45
+\SOUL@buffer=\toks46
+\SOUL@token=\toks47
 \SOUL@spaceskip=\skip108
 \SOUL@ttwidth=\dimen334
 \SOUL@uldp=\dimen335
@@ -1368,7 +1378,7 @@ Package: paracol 2015/10/10 v1.32
 \pcol@prespan=\box95
 \pcol@rightpage=\box96
 \pcol@tempbox=\box97
-\pcol@everyvbox=\toks46
+\pcol@everyvbox=\toks48
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/chemfig/chemfig.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/chemfig/chemfig.tex
@@ -1408,8 +1418,8 @@ Package: cutwin 2010/09/29 v0.1 cutout windows
 \c@twrtside=\dimen352
 \c@twtopht=\dimen353
 \c@twvsilg=\dimen354
-\c@twtoka=\toks47
-\c@twtokb=\toks48
+\c@twtoka=\toks49
+\c@twtokb=\toks50
 \c@twrawtext=\box102
 \c@twholdwin=\box103
 \c@twwindow=\box104
@@ -1422,9 +1432,9 @@ Package: cutwin 2010/09/29 v0.1 cutout windows
 Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks49
-\t@pgfplots@tokb=\toks50
-\t@pgfplots@tokc=\toks51
+\t@pgfplots@toka=\toks51
+\t@pgfplots@tokb=\toks52
+\t@pgfplots@tokc=\toks53
 \pgfplots@tmpa=\dimen355
 \c@pgfplots@coordindex=\count323
 \c@pgfplots@scanlineindex=\count324
@@ -1460,7 +1470,7 @@ matrix.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
 \c@pgfplotstable@counta=\count327
-\t@pgfplotstable@a=\toks52
+\t@pgfplotstable@a=\toks54
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 deque.code.tex)
@@ -1567,7 +1577,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 53.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks53
+\MT@toks=\toks55
 \MT@count=\count337
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen378
@@ -1616,7 +1626,7 @@ Package: fancyvrb 2008/02/07
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
 \FV@CodeLineNo=\count344
-\FV@InFile=\read2
+\FV@InFile=\read3
 \FV@TabBox=\box110
 \c@FancyVerbLine=\count345
 \FV@StepNumber=\count346
@@ -1638,19 +1648,13 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write8
-\openout8 = `main.idx'.
+\openout8 = `ChMIX-statesofmatter.idx'.
 
 
-Writing index file main.idx
+Writing index file ChMIX-statesofmatter.idx
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2016/04/27 version 3.91 text color boxes
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks54
-\verbatim@line=\toks55
-\verbatim@in@stream=\read3
-)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
@@ -4769,55 +4773,52 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 . 
 . Defining command \setchemformula with sig. 'm' on line 3245.
 .................................................
-)
+)))
 
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux)
-\openout1 = `main.aux'.
+No file ChMIX-statesofmatter.aux.
+\openout1 = `ChMIX-statesofmatter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5320.
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5320.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 5320
-.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5320.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 5320.
-
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 6.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \AtBeginShipoutBox=\box294
-Package hyperref Info: Link coloring ON on input line 5320.
-LaTeX Info: Redefining \ref on input line 5320.
-LaTeX Info: Redefining \pageref on input line 5320.
-LaTeX Info: Redefining \nameref on input line 5320.
- (./main.out)
-(./main.out)
+Package hyperref Info: Link coloring ON on input line 6.
+LaTeX Info: Redefining \ref on input line 6.
+LaTeX Info: Redefining \pageref on input line 6.
+LaTeX Info: Redefining \nameref on input line 6.
 \@outlinefile=\write14
-\openout14 = `main.out'.
+\openout14 = `ChMIX-statesofmatter.out'.
 
- ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 5320.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -4853,7 +4854,7 @@ LaTeX Info: Redefining \selectfont on input line 5320.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 5320.
+LaTeX Info: Redefining \microtypecontext on input line 6.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -4900,7 +4901,7 @@ ABD: EveryShipout initializing macros
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 5320.
+. Activating mapping `default' on line 6.
 .................................................
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
@@ -4909,7 +4910,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 \c@mv@tabular=\count578
 \c@mv@boldtabular=\count579
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 5320.
+(scrlayer)             \begin{document} on input line 6.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: Incompatible package detected (regarding \@caption).
 (caption)             \@caption = \long macro:#1[#2]#3->\par \addcontentsline {
@@ -4948,7 +4949,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 5320.
+or `english'. on input line 6.
 
 *************************************************
 * chemmacros warning: "no-greek"
@@ -4967,42 +4968,45 @@ or `english'. on input line 5320.
 cfg
 File: exsheets_configurations.cfg 
 )
-\c__siunitx_mathsf_int=\count580
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5320
-.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+Chapter 3.
+<../Ch-solids/figure1.png, id=109, 963.6pt x 642.4pt>
+File: ../Ch-solids/figure1.png Graphic file (type png)
+<use ../Ch-solids/figure1.png>
+Package pdftex.def Info: ../Ch-solids/figure1.png  used on input line 12.
+(pdftex.def)             Requested size: 140.54915pt x 93.69943pt.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 12.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 5320
-.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 12.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 532
-0.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 12.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 532
-0.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 12.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 5320.
+(Font)              <10> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.6> on input line 5320.
+(Font)              <7.6> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5320.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 532
-0.
+(Font)              <6> on input line 12.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 12.
+
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -5012,418 +5016,26 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5320.
+(Font)              scaled to size 10.42007pt on input line 12.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5320.
+(Font)              scaled to size 7.91925pt on input line 12.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5320.
+(Font)              scaled to size 6.25204pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 5320.
+(Font)              scaled to size 10.42007pt on input line 12.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 5320.
+(Font)              scaled to size 7.91925pt on input line 12.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 5320.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 532
-0.
+(Font)              scaled to size 6.25204pt on input line 12.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmss' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count581
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 532
-0.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `lmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../ChMIX-statesofmatter/ChMIX-statesofmatter.tex
-Chapter 4.
-<../Ch-solids/figure1.png, id=141, 963.6pt x 642.4pt>
-File: ../Ch-solids/figure1.png Graphic file (type png)
-<use ../Ch-solids/figure1.png>
-Package pdftex.def Info: ../Ch-solids/figure1.png  used on input line 12.
-(pdftex.def)             Requested size: 140.54915pt x 93.69943pt.
 (../Ch-electrolytes/files/ChapterIntro)
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 62.
-
-LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
-ut line 62.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
-File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
-.
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `PTSansNarrow-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 62.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
-)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 64.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 64.
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mass-percent)
-(../Ch-electrolytes/problems/SampleProblem4
-(../Ch-electrolytes/problems/StudyCheck4
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
-))
-[1
-
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-s
-olids/figure1.png (PNG copy)>])
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Volume-percent-c
-oncentration)
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Massvolume-perce
-nt-concentration)
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Molarity-concent
-ration) (../Ch-electrolytes/problems/SampleProblem5
-(../Ch-electrolytes/problems/StudyCheck5))
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Concentration-un
-its-as-conversion-factors [2]) (../Ch-electrolytes/problems/SampleProblem6
-(../Ch-electrolytes/problems/StudyCheck6))
-(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Dilution)
-(../Ch-electrolytes/problems/SampleProblem7
-(../Ch-electrolytes/problems/StudyCheck7))
-(../Ch-mole/files/SectionIntro-The-mole [3])
-(../Ch-mole/files/SubSection-The-mole-From-moles-to-atoms
-Underfull \hbox (badness 2469) in paragraph at lines 2--3
-[]\T1/ptm/m/n/10 (+20) One mole of molecules con-tains $\OT1/lmr/m/n/10 6.022 \
-OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$
- []
-
-
-Overfull \hbox (21.85176pt too wide) detected at line 19
-\OT1/lmr/m/n/10 3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
-^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 4.98 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/
-n/10 10[][]
- []
-
-) (../Ch-mole/files/SubSection-The-mole-From-molecules-to-atoms [4])
-(../Ch-mole/problems/SampleProblem1
-Overfull \hbox (15.86595pt too wide) detected at line 17
-\OT1/lmr/m/n/10 5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
-^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 8.3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n
-/10 10[][]
- []
-
-(../Ch-mole/problems/StudyCheck1))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 91.
-
-(../Ch-mole/files/SectionIntro-Converting-moles-into-grams-and-into-atoms)
-(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-Molar-m
-ass-of-a-chemical) (../Ch-mole/problems/SampleProblem2
-(../Ch-mole/problems/StudyCheck2) [5])
-(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
-les-to-grams) (../Ch-mole/problems/SampleProblem3
-(../Ch-mole/problems/StudyCheck3))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 100.
-
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 100.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
-)
-(../Ch-nuclear/files/SectionIntro-Radiation-measurement-units-and-radiation-eff
-ects)
-(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Activity-units [6])
-(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Adsorbed-dose)
-(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Radiation-equivalent-in-humans,-rem)
-(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Exposure-to-radiation) (../Ch-nuclear/files/Table-Radiation-damage
-(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
-
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-)
-(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
-ts-Dangers-of-radiation
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 1.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [7])
-(../Ch-nuclear/problems/SampleProblem5 (../Ch-nuclear/problems/StudyCheck5))
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 121.
-
-(../Ch-acidbase/files/SectionIntro-The-PH-scale)
-(../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
-(../Ch-acidbase/problems/SampleProblem8
-
-LaTeX Warning: Reference `ChMIX-statesofmatter:equation2' on page 8 undefined o
-n input line 5.
-
-(../Ch-acidbase/problems/StudyCheck8)
-Underfull \vbox (badness 2856) has occurred while \output is active []
-
- [8])
-(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale)
-(../Ch-acidbase/files/Figure-PH-scale
-Missing character: There is no ( in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no ) in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-
-Package pgfplots Warning: You have an axis with empty range (in direction y). R
-eplacing it with a default range and clearing all plots. on input line 43.
-
- [warning /pgfplots/warning/empty range cleared axis]
-<../Ch-acidbase/figure6.png, id=210, 129.48375pt x 125.46875pt>
-File: ../Ch-acidbase/figure6.png Graphic file (type png)
-<use ../Ch-acidbase/figure6.png>
-Package pdftex.def Info: ../Ch-acidbase/figure6.png  used on input line 43.
-(pdftex.def)             Requested size: 50.75726pt x 49.1834pt.
-<../Ch-acidbase/figure3.png, id=212, 260.975pt x 194.7275pt>
-File: ../Ch-acidbase/figure3.png Graphic file (type png)
-<use ../Ch-acidbase/figure3.png>
-Package pdftex.def Info: ../Ch-acidbase/figure3.png  used on input line 43.
-(pdftex.def)             Requested size: 50.75652pt x 37.87216pt.
-<../Ch-acidbase/figure4.png, id=213, 285.065pt x 438.63875pt>
-File: ../Ch-acidbase/figure4.png Graphic file (type png)
-<use ../Ch-acidbase/figure4.png>
-Package pdftex.def Info: ../Ch-acidbase/figure4.png  used on input line 43.
-(pdftex.def)             Requested size: 25.37636pt x 39.04742pt.
-<../Ch-acidbase/figure5.png, id=214, 183.68625pt x 277.035pt>
-File: ../Ch-acidbase/figure5.png Graphic file (type png)
-<use ../Ch-acidbase/figure5.png>
-Package pdftex.def Info: ../Ch-acidbase/figure5.png  used on input line 43.
-(pdftex.def)             Requested size: 25.37675pt x 38.27313pt.
-<../Ch-acidbase/figure2.png, id=215, 250.9375pt x 250.9375pt>
-File: ../Ch-acidbase/figure2.png Graphic file (type png)
-<use ../Ch-acidbase/figure2.png>
-Package pdftex.def Info: ../Ch-acidbase/figure2.png  used on input line 43.
-(pdftex.def)             Requested size: 50.75713pt x 50.75713pt.
-) (../Ch-acidbase/problems/SampleProblem9
-
-LaTeX Warning: Reference `ChMIX-statesofmatter:equation2' on page 9 undefined o
-n input line 11.
-
-(../Ch-acidbase/problems/StudyCheck9
-Underfull \hbox (badness 10000) in paragraph at lines 16--6
-
- []
-
-) [9 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../C
-h-acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase
-/figure2.png (PNG copy)>])
-(../Ch-acidbase/files/SubSection-The-PH-scale-PK-of-an-acid-or-base)
-(../Ch-acidbase/files/SubSection-The-PH-scale-From-PH-to-proton-concentration
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 5.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 5.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 5.
-)
-(../Ch-acidbase/problems/SampleProblem10 (../Ch-acidbase/problems/StudyCheck10)
-[10]) (../Ch-acidbase/files/Figure-PH-POH-formulas)
-(../Ch-thermochemistry/files/SectionIntro-Energy-temperature)
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-Potential-Kinetic-En
-ergy-heat) [11]
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-Mechanical-energy-wo
-rk)
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-The-law-of-conservat
-ion-energy)
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-Energy-units--Energy
--units-) (../Ch-thermochemistry/problems/SampleProblem1
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-
- []
-
-(../Ch-thermochemistry/problems/StudyCheck1))
-(../Ch-thermochemistry/files/SubSection-Energy-temperature-Temperature---Temper
-ature [12]) (../Ch-thermochemistry/problems/SampleProblem2
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
- []
-
-
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-(../Ch-thermochemistry/problems/StudyCheck2))
-(../Ch-thermochemistry/files/SectionIntro-The-first-law-of-thermodynamics.-From
--energy--to-temperature)
-(../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
-nergy--to-temperature-Heat-capacity [13])
-(../Ch-thermochemistry/files/Table-Specific-heat
-
-Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 8.
-
-)
-(../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
-nergy--to-temperature-Heat) (../Ch-thermochemistry/problems/SampleProblem4
-Underfull \hbox (badness 10000) in paragraph at lines 2--4
-
- []
-
-
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
-
- []
-
-(../Ch-thermochemistry/problems/StudyCheck4) [14])
-(../Ch-thermochemistry/problems/SampleProblem6
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-
-Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-(../Ch-thermochemistry/problems/StudyCheck6) [15]))
-
-Package bibentry Warning: You have used \nobibliography* 
-(bibentry)                without a following \bibliography.
-(bibentry)                You may not be able to run BibTeX.
-
-
-Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-(movie15)                @@ Package `movie15' is obsolete and @@
-(movie15)                @@ superseded by `media9'.           @@
-(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
-
-[16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5405.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5405.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5405.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5405.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7F0A56790040B39F7347486BD43B6A8A;1700.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.88pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
- ) 
-Here is how much of TeX's memory you used:
- 80981 strings out of 493014
- 1836251 string characters out of 6133351
- 2584883 words of memory out of 5000000
- 82477 multiletter control sequences out of 15000+600000
- 212570 words of font info for 283 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 73i,32n,118p,10369b,2964s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
-cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
-ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
-vips/fontawesome/fontawesometwo.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
-nc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/f
-ontawesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/fontawesome/fontawesomethree.enc}{/usr/local/texlive/2016/texmf-dist/fonts/e
-nc/dvips/paratype/ptsans_t1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
-mmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
-/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.
-pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></u
-sr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (16 pages, 1625282 bytes).
-PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
- 68 named destinations out of 1000 (max. 500000)
- 66017 words of extra memory for PDF output out of 74296 (max. 10000000)
-
+Package hyperref Warning: Token not allowed in a PDF string (Unico
