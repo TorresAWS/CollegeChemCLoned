@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAR 2021 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 09:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -531,6 +531,8 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./ChMIX-statesofmatter.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
 \c@asy=\count117
@@ -4778,7 +4780,7 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-No file ChMIX-statesofmatter.aux.
+(./ChMIX-statesofmatter.aux)
 \openout1 = `ChMIX-statesofmatter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -4799,6 +4801,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 6.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -4813,6 +4816,8 @@ Package hyperref Info: Link coloring ON on input line 6.
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
 LaTeX Info: Redefining \nameref on input line 6.
+
+(./ChMIX-statesofmatter.out) (./ChMIX-statesofmatter.out)
 \@outlinefile=\write14
 \openout14 = `ChMIX-statesofmatter.out'.
 
@@ -4968,7 +4973,7 @@ or `english'. on input line 6.
 cfg
 File: exsheets_configurations.cfg 
 )
-Chapter 3.
+Chapter 4.
 <../Ch-solids/figure1.png, id=109, 963.6pt x 642.4pt>
 File: ../Ch-solids/figure1.png Graphic file (type png)
 <use ../Ch-solids/figure1.png>
@@ -5036,6 +5041,573 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 6.25204pt on input line 12.
 
-(../Ch-electrolytes/files/ChapterIntro)
+(../Ch-solids/files/ChapterIntro)
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 24.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unico
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/15 Font definitions for U/fontawesometwo.
+)
+(../Ch-acidbase/files/SectionGoal-The-PH-scale)
+LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
+t line 31.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
+File: ufontawesomethree.fd 2016/05/15 Font definitions for U/fontawesomethree.
+) (../Ch-electrolytes/files/SectionGoal-Solutions-and-composition)
+(../Ch-thermochemistry/files/SectionGoal-Energy-temperature)
+(../Ch-nuclear/files/SectionGoal-Radiation-measurement-units-and-radiation-effe
+cts)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 67.
+
+LaTeX Font Info:    Try loading font information for T1+PTSansNarrow-TLF on inp
+ut line 67.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/paratype/T1PTSansNarrow-TLF.fd
+File: T1PTSansNarrow-TLF.fd 2014/02/02 Font definitions for T1/PTSansNarrow-TLF
+.
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `PTSansNarrow-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 69.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 69.
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Mass-percent)
+(../Ch-electrolytes/problems/SampleProblem4
+(../Ch-electrolytes/problems/StudyCheck4
+LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
+line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
+))
+[1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../Ch-s
+olids/figure1.png (PNG copy)>])
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Volume-percent-c
+oncentration)
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Massvolume-perce
+nt-concentration)
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Molarity-concent
+ration) (../Ch-electrolytes/problems/SampleProblem5
+(../Ch-electrolytes/problems/StudyCheck5))
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Concentration-un
+its-as-conversion-factors [2]) (../Ch-electrolytes/problems/SampleProblem6
+(../Ch-electrolytes/problems/StudyCheck6))
+(../Ch-electrolytes/files/SubSection-Solutions-and-composition-Dilution)
+(../Ch-electrolytes/problems/SampleProblem7
+(../Ch-electrolytes/problems/StudyCheck7))
+(../Ch-mole/files/SectionIntro-The-mole) [3]
+(../Ch-mole/files/SubSection-The-mole-From-moles-to-atoms
+Underfull \hbox (badness 2469) in paragraph at lines 2--3
+[]\T1/ptm/m/n/10 (+20) One mole of molecules con-tains $\OT1/lmr/m/n/10 6.022 \
+OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[]$
+ []
+
+
+Overfull \hbox (21.85176pt too wide) detected at line 19
+\OT1/lmr/m/n/10 3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
+^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 4.98 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/
+n/10 10[][]
+ []
+
+) (../Ch-mole/files/SubSection-The-mole-From-molecules-to-atoms)
+(../Ch-mole/problems/SampleProblem1
+Overfull \hbox (15.86595pt too wide) detected at line 17
+\OT1/lmr/m/n/10 5 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n/10 10[][] \OMS/lmsy/m/n/10 
+^^B [] \OT1/zplm/m/n/10 = \OT1/lmr/m/n/10 8.3 \OMS/lmsy/m/n/10 ^^B \OT1/lmr/m/n
+/10 10[][]
+ []
+
+(../Ch-mole/problems/StudyCheck1) [4])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 96.
+
+(../Ch-mole/files/SectionIntro-Converting-moles-into-grams-and-into-atoms)
+(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-Molar-m
+ass-of-a-chemical) (../Ch-mole/problems/SampleProblem2
+(../Ch-mole/problems/StudyCheck2) [5])
+(../Ch-mole/files/SubSection-Converting-moles-into-grams-and-into-atoms-From-mo
+les-to-grams) (../Ch-mole/problems/SampleProblem3
+(../Ch-mole/problems/StudyCheck3))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 105.
+
+
+(../Ch-nuclear/files/SectionIntro-Radiation-measurement-units-and-radiation-eff
+ects)
+(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
+ts-Activity-units) [6]
+(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
+ts-Adsorbed-dose)
+(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
+ts-Radiation-equivalent-in-humans,-rem)
+(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
+ts-Exposure-to-radiation) (../Ch-nuclear/files/Table-Radiation-damage
+(/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+
+LaTeX Warning: Reference `tab:{ChMIX-statesofmatter}1' on page 7 undefined on i
+nput line 8.
+
+)
+(../Ch-nuclear/files/SubSection-Radiation-measurement-units-and-radiation-effec
+ts-Dangers-of-radiation
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 1.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+))
+(../Ch-nuclear/problems/SampleProblem5 (../Ch-nuclear/problems/StudyCheck5)
+[7])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 126.
+
+(../Ch-acidbase/files/SectionIntro-The-PH-scale)
+(../Ch-acidbase/files/SubSection-The-PH-scale-Protons-and-Hydroxyls)
+(../Ch-acidbase/problems/SampleProblem8
+
+LaTeX Warning: Reference `ChMIX-statesofmatter:equation2' on page 8 undefined o
+n input line 5.
+
+(../Ch-acidbase/problems/StudyCheck8) [8])
+(../Ch-acidbase/files/SubSection-The-PH-scale-The-PH-scale)
+(../Ch-acidbase/files/Figure-PH-scale
+Missing character: There is no ( in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+
+Package pgfplots Warning: You have an axis with empty range (in direction y). R
+eplacing it with a default range and clearing all plots. on input line 43.
+
+ [warning /pgfplots/warning/empty range cleared axis]
+<../Ch-acidbase/figure6.png, id=188, 129.48375pt x 125.46875pt>
+File: ../Ch-acidbase/figure6.png Graphic file (type png)
+<use ../Ch-acidbase/figure6.png>
+Package pdftex.def Info: ../Ch-acidbase/figure6.png  used on input line 43.
+(pdftex.def)             Requested size: 50.75726pt x 49.1834pt.
+<../Ch-acidbase/figure3.png, id=190, 260.975pt x 194.7275pt>
+File: ../Ch-acidbase/figure3.png Graphic file (type png)
+<use ../Ch-acidbase/figure3.png>
+Package pdftex.def Info: ../Ch-acidbase/figure3.png  used on input line 43.
+(pdftex.def)             Requested size: 50.75652pt x 37.87216pt.
+<../Ch-acidbase/figure4.png, id=191, 285.065pt x 438.63875pt>
+File: ../Ch-acidbase/figure4.png Graphic file (type png)
+<use ../Ch-acidbase/figure4.png>
+Package pdftex.def Info: ../Ch-acidbase/figure4.png  used on input line 43.
+(pdftex.def)             Requested size: 25.37636pt x 39.04742pt.
+<../Ch-acidbase/figure5.png, id=192, 183.68625pt x 277.035pt>
+File: ../Ch-acidbase/figure5.png Graphic file (type png)
+<use ../Ch-acidbase/figure5.png>
+Package pdftex.def Info: ../Ch-acidbase/figure5.png  used on input line 43.
+(pdftex.def)             Requested size: 25.37675pt x 38.27313pt.
+<../Ch-acidbase/figure2.png, id=193, 250.9375pt x 250.9375pt>
+File: ../Ch-acidbase/figure2.png Graphic file (type png)
+<use ../Ch-acidbase/figure2.png>
+Package pdftex.def Info: ../Ch-acidbase/figure2.png  used on input line 43.
+(pdftex.def)             Requested size: 50.75713pt x 50.75713pt.
+
+LaTeX Warning: Reference `Fig:{ChMIX-statesofmatter}1' on page 9 undefined on i
+nput line 43.
+
+) (../Ch-acidbase/problems/SampleProblem9
+
+LaTeX Warning: Reference `ChMIX-statesofmatter:equation3' on page 9 undefined o
+n input line 6.
+
+
+LaTeX Warning: Reference `ChMIX-statesofmatter:equation3' on page 9 undefined o
+n input line 11.
+
+
+LaTeX Warning: Reference `ChMIX-statesofmatter:equation2' on page 9 undefined o
+n input line 11.
+
+(../Ch-acidbase/problems/StudyCheck9
+Underfull \hbox (badness 10000) in paragraph at lines 16--6
+
+ []
+
+) [9 <../Ch-acidbase/figure6.png> <../Ch-acidbase/figure3.png (PNG copy)> <../C
+h-acidbase/figure4.png> <../Ch-acidbase/figure5.png (PNG copy)> <../Ch-acidbase
+/figure2.png (PNG copy)>])
+(../Ch-acidbase/files/SubSection-The-PH-scale-PK-of-an-acid-or-base)
+(../Ch-acidbase/files/SubSection-The-PH-scale-From-PH-to-proton-concentration
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+)
+(../Ch-acidbase/problems/SampleProblem10
+
+LaTeX Warning: Reference `ChMIX-statesofmatter:equation6' on page 10 undefined 
+on input line 5.
+
+(../Ch-acidbase/problems/StudyCheck10))
+(../Ch-acidbase/files/Figure-PH-POH-formulas [10])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 149.
+
+(../Ch-thermochemistry/files/SectionIntro-Energy-temperature)
+(../Ch-thermochemistry/files/SideFigure-Energy
+<../Ch-thermochemistry/figure1-9.png, id=214, 963.6pt x 642.4pt>
+File: ../Ch-thermochemistry/figure1-9.png Graphic file (type png)
+<use ../Ch-thermochemistry/figure1-9.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-9.png  used on input lin
+e 2.
+(pdftex.def)             Requested size: 113.80379pt x 75.86919pt.
+<../Ch-thermochemistry/figure1-2.png, id=215, 451.6875pt x 173.64874pt>
+File: ../Ch-thermochemistry/figure1-2.png Graphic file (type png)
+<use ../Ch-thermochemistry/figure1-2.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-2.png  used on input lin
+e 5.
+(pdftex.def)             Requested size: 113.81068pt x 43.75388pt.
+<../Ch-thermochemistry/figure1-1.png, id=216, 451.6875pt x 339.2675pt>
+File: ../Ch-thermochemistry/figure1-1.png Graphic file (type png)
+<use ../Ch-thermochemistry/figure1-1.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-1.png  used on input lin
+e 8.
+(pdftex.def)             Requested size: 113.63838pt x 85.35504pt.
+<../Ch-thermochemistry/figure1-10.png, id=217, 259.97125pt x 194.7275pt>
+File: ../Ch-thermochemistry/figure1-10.png Graphic file (type png)
+<use ../Ch-thermochemistry/figure1-10.png>
+Package pdftex.def Info: ../Ch-thermochemistry/figure1-10.png  used on input li
+ne 11.
+(pdftex.def)             Requested size: 113.9553pt x 85.35648pt.
+
+Overfull \hbox (8.55995pt too wide) in paragraph at lines 1--14
+ []
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--14
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--14
+[]
+ []
+
+
+Overfull \hbox (7.03993pt too wide) in paragraph at lines 1--14
+[] 
+ []
+
+)
+(../Ch-thermochemistry/files/SubSection-Energy-temperature-Potential-Kinetic-En
+ergy-heat)
+(../Ch-thermochemistry/files/SubSection-Energy-temperature-Mechanical-energy-wo
+rk)
+(../Ch-thermochemistry/files/SubSection-Energy-temperature-The-law-of-conservat
+ion-energy [11 <../Ch-thermochemistry/figure1-9.png (PNG copy)> <../Ch-thermoch
+emistry/figure1-2.png (PNG copy)> <../Ch-thermochemistry/figure1-1.png (PNG cop
+y)> <../Ch-thermochemistry/figure1-10.png (PNG copy)>])
+(../Ch-thermochemistry/files/SubSection-Energy-temperature-Energy-units--Energy
+-units-) (../Ch-thermochemistry/problems/SampleProblem1
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+(../Ch-thermochemistry/problems/StudyCheck1))
+(../Ch-thermochemistry/files/SubSection-Energy-temperature-Temperature---Temper
+ature) (../Ch-thermochemistry/problems/SampleProblem2
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+(../Ch-thermochemistry/problems/StudyCheck2) [12])
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 169.
+
+
+(../Ch-thermochemistry/files/SectionIntro-The-first-law-of-thermodynamics.-From
+-energy--to-temperature)
+(../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
+nergy--to-temperature-Heat-capacity [13])
+(../Ch-thermochemistry/files/Table-Specific-heat
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 8.
+
+
+LaTeX Warning: Reference `tab:{Ch-thermochemistry}2' on page 14 undefined on in
+put line 8.
+
+)
+(../Ch-thermochemistry/files/SubSection-The-first-law-of-thermodynamics.-From-e
+nergy--to-temperature-Heat) (../Ch-thermochemistry/problems/SampleProblem4
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+
+ []
+
+(../Ch-thermochemistry/problems/StudyCheck4) [14])
+(../Ch-thermochemistry/problems/SampleProblem6
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Overfull \hbox (3.80812pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+(../Ch-thermochemistry/problems/StudyCheck6)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+(../Ch-measurements/files/Figure-Matter
+<../Ch-measurements/figure1-14.png, id=264, 1026.83624pt x 684.5575pt>
+File: ../Ch-measurements/figure1-14.png Graphic file (type png)
+<use ../Ch-measurements/figure1-14.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-14.png  used on input line 
+39.
+(pdftex.def)             Requested size: 85.3449pt x 56.89659pt.
+<../Ch-measurements/figure1-12.png, id=265, 913.4125pt x 590.205pt>
+File: ../Ch-measurements/figure1-12.png Graphic file (type png)
+<use ../Ch-measurements/figure1-12.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-12.png  used on input line 
+39.
+(pdftex.def)             Requested size: 85.35345pt x 55.15146pt.
+<../Ch-measurements/figure1-11.png, id=266, 1027.84pt x 770.88pt>
+File: ../Ch-measurements/figure1-11.png Graphic file (type png)
+<use ../Ch-measurements/figure1-11.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-11.png  used on input line 
+39.
+(pdftex.def)             Requested size: 85.3499pt x 64.01242pt.
+<../Ch-measurements/figure1-13.png, id=267, 913.4125pt x 1254.6875pt>
+File: ../Ch-measurements/figure1-13.png Graphic file (type png)
+<use ../Ch-measurements/figure1-13.png>
+Package pdftex.def Info: ../Ch-measurements/figure1-13.png  used on input line 
+39.
+(pdftex.def)             Requested size: 51.77794pt x 71.12354pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-measurements}2' on page 16 undefined on input
+ line 41.
+
+
+Overfull \hbox (106.69618pt too wide) in paragraph at lines 6--43
+ [] 
+ []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 184.
+
+(../Ch-measurements/files/SectionIntro-Matter-and-density)
+(../Ch-measurements/files/SubSection-Matter-and-density-states-of-matter)
+[16 <../Ch-measurements/figure1-14.png (PNG copy)> <../Ch-measurements/figure1-
+12.png (PNG copy)> <../Ch-measurements/figure1-11.png (PNG copy)> <../Ch-measur
+ements/figure1-13.png (PNG copy)>]
+(../Ch-measurements/files/SubSection-Matter-and-density-Pure-Substances-and-mix
+tures) (../Ch-measurements/files/SubSection-Matter-and-density-Types-of-Mixture
+) (../Ch-measurements/problems/SampleProblem10
+(../Ch-measurements/problems/StudyCheck10
+Underfull \hbox (badness 10000) in paragraph at lines 12--1
+
+ []
+
+))
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 194.
+
+(../Ch-solids/files/Subsection-Phase-diagrams-Phase-transition-terminology
+[17]) (../Ch-solids/files/Subsection-Phase-diagrams-Change-of-state)
+(../Ch-solids/files/Subsection-Phase-diagrams-Temperature-curves)
+(../Ch-solids/files/Figure-Heating-curve
+<../Ch-solids/figure21.png, id=289, 693.59125pt x 325.215pt>
+File: ../Ch-solids/figure21.png Graphic file (type png)
+<use ../Ch-solids/figure21.png>
+Package pdftex.def Info: ../Ch-solids/figure21.png  used on input line 4.
+(pdftex.def)             Requested size: 369.8982pt x 173.43996pt.
+
+
+LaTeX Warning: Reference `Fig:{Ch-solids}3' on page 18 undefined on input line 
+5.
+
+
+Overfull \hbox (32.90471pt too wide) in paragraph at lines 6--6
+ [] 
+ []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\char' on input line 203.
+
+
+(../Ch-measurements/files/SubSection-Using-Conversion-Factors-Using-other-equal
+ities [18 <../Ch-solids/figure21.png>]
+
+LaTeX Warning: Reference `tab:units2' on page 19 undefined on input line 1.
+
+
+LaTeX Warning: Reference `tab:units3' on page 19 undefined on input line 1.
+
+) (../Ch-measurements/files/Table-Common-units
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 7.
+
+
+LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 19 undefined on input
+ line 7.
+
+) (../Ch-measurements/problems/SampleProblem7
+
+LaTeX Warning: Reference `tab:{Ch-measurements}3' on page 19 undefined on input
+ line 4.
+
+(../Ch-measurements/problems/StudyCheck7))
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+ (./ChMIX-statesofmatter.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+
+
+Package rerunfilecheck Warning: File `ChMIX-statesofmatter.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ChMIX-statesofmatter.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  103C4D8C02BF020D771B99555CA9E2F4;1974.
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.88pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 81244 strings out of 493014
+ 1844193 string characters out of 6133351
+ 2586269 words of memory out of 5000000
+ 82622 multiletter control sequences out of 15000+600000
+ 196375 words of font info for 294 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 80i,32n,117p,10431b,2760s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/lo
+cal/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
+e/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/d
+vips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesomeone.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/p
+aratype/ptsans_t1.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/fonta
+wesome/fontawesomethree.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/fontawesome/fontawesometwo.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/paratype/ptsans/PTN57F.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/mathpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/latxfont/line10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/l
+mmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/public/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
+/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/courier/ucrro8a.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/loca
+l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ChMIX-statesofmatter.pdf (19 pages, 6222964 bytes).
+PDF statistics:
+ 400 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 60878 words of extra memory for PDF output out of 61914 (max. 10000000)
+
