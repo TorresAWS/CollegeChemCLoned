@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 FEB 2021 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 MAR 2021 07:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -423,9 +423,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count108
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -447,14 +446,14 @@ File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count109
+\c@tracingmulticols=\count108
 \mult@box=\box30
 \multicol@leftmargin=\dimen124
-\c@unbalance=\count110
-\c@collectmore=\count111
-\doublecol@number=\count112
-\multicoltolerance=\count113
-\multicolpretolerance=\count114
+\c@unbalance=\count109
+\c@collectmore=\count110
+\doublecol@number=\count111
+\multicoltolerance=\count112
+\multicolpretolerance=\count113
 \full@width=\dimen125
 \page@free=\dimen126
 \premulticols=\dimen127
@@ -485,14 +484,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
-\c@columnbadness=\count115
-\c@finalcolumnbadness=\count116
+\c@columnbadness=\count114
+\c@finalcolumnbadness=\count115
 \last@try=\dimen130
 \multicolovershoot=\dimen131
 \multicolundershoot=\dimen132
 \mult@nat@firstbox=\box54
 \colbreak@box=\box55
-\mc@col@check@num=\count117
+\mc@col@check@num=\count116
 )))
 
 Package geometry Warning: Over-specification in `v'-direction.
@@ -520,9 +519,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/02/09 v1.30 Asymptote style file for LaTeX
+
+(./main.pre)
 \ASYbox=\box56
 \ASYdimen=\dimen135
-\c@asy=\count118
+\c@asy=\count117
 \AsyStream=\write3
 \AsyPreStream=\write4
 
@@ -538,14 +539,14 @@ Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
 (/usr/local/texlive/2016/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen136
 \WF@size=\dimen137
-\c@WF@wrappedlines=\count119
+\c@WF@wrappedlines=\count118
 \WF@box=\box57
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/dirtytalk/dirtytalk.sty
 Package: dirtytalk 2010/11/21 A package making "quoting" easier
-\c@dirtytalk@qdepth=\count120
+\c@dirtytalk@qdepth=\count119
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/savesym/savesym.sty
 Package: savesym 2013/09/02 v1.2 Saves and restores symbols (JG)
@@ -576,16 +577,16 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box58
-\sift@deathcycles=\count121
+\sift@deathcycles=\count120
 \@vwid@loff=\dimen140
 \@vwid@roff=\dimen141
 )
-\c@taburow=\count122
-\tabu@nbcols=\count123
-\tabu@cnt=\count124
-\tabu@Xcol=\count125
-\tabu@alloc=\count126
-\tabu@nested=\count127
+\c@taburow=\count121
+\tabu@nbcols=\count122
+\tabu@cnt=\count123
+\tabu@Xcol=\count124
+\tabu@alloc=\count125
+\tabu@nested=\count126
 \tabu@target=\dimen142
 \tabu@spreadtarget=\dimen143
 \tabu@naturalX=\dimen144
@@ -617,24 +618,24 @@ L3 Module: l3tl 2016/03/26 v6465 L3 Token lists
 L3 Module: l3str 2016/03/24 v6441 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/03/24 v6441 L3 Integers
-\c_max_int=\count128
-\l_tmpa_int=\count129
-\l_tmpb_int=\count130
-\g_tmpa_int=\count131
-\g_tmpb_int=\count132
+\c_max_int=\count127
+\l_tmpa_int=\count128
+\l_tmpb_int=\count129
+\g_tmpa_int=\count130
+\g_tmpb_int=\count131
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count133
+\g__prg_map_int=\count132
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2016/04/03 v6470 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2016/03/26 v6464 L3 Messages
 L3 Module: l3file 2016/03/25 v6458 L3 File and I/O operations
-\l_iow_line_count_int=\count134
-\l__iow_target_count_int=\count135
-\l__iow_current_line_int=\count136
-\l__iow_current_word_int=\count137
-\l__iow_current_indentation_int=\count138
+\l_iow_line_count_int=\count133
+\l__iow_target_count_int=\count134
+\l__iow_current_line_int=\count135
+\l__iow_current_word_int=\count136
+\l__iow_current_indentation_int=\count137
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen151
 \c_max_dim=\dimen152
@@ -655,18 +656,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count139
-\l_keys_choice_int=\count140
+\g__keyval_level_int=\count138
+\l_keys_choice_int=\count139
 L3 Module: l3fp 2016/03/26 v6465 L3 Floating points
-\c__fp_leading_shift_int=\count141
-\c__fp_middle_shift_int=\count142
-\c__fp_trailing_shift_int=\count143
-\c__fp_big_leading_shift_int=\count144
-\c__fp_big_middle_shift_int=\count145
-\c__fp_big_trailing_shift_int=\count146
-\c__fp_Bigg_leading_shift_int=\count147
-\c__fp_Bigg_middle_shift_int=\count148
-\c__fp_Bigg_trailing_shift_int=\count149
+\c__fp_leading_shift_int=\count140
+\c__fp_middle_shift_int=\count141
+\c__fp_trailing_shift_int=\count142
+\c__fp_big_leading_shift_int=\count143
+\c__fp_big_middle_shift_int=\count144
+\c__fp_big_trailing_shift_int=\count145
+\c__fp_Bigg_leading_shift_int=\count146
+\c__fp_Bigg_middle_shift_int=\count147
+\c__fp_Bigg_trailing_shift_int=\count148
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box63
 \l_tmpa_box=\box64
@@ -716,16 +717,16 @@ L3 Module: l3luatex 2016/03/26 v6465 L3 Experimental LuaTeX-specific functions
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2016/03/26 v6465 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count150
+\l__driver_color_stack_int=\count149
 \l__driver_tmp_box=\box78
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/05/18 v6512 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count151
-\l__xparse_m_args_int=\count152
-\l__xparse_mandatory_args_int=\count153
-\l__xparse_processor_int=\count154
-\l__xparse_v_nesting_int=\count155
+\l__xparse_current_arg_int=\count150
+\l__xparse_m_args_int=\count151
+\l__xparse_mandatory_args_int=\count152
+\l__xparse_processor_int=\count153
+\l__xparse_v_nesting_int=\count154
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2016/05/18 v6512 LaTeX2e option processing using LaTeX3 keys
@@ -771,10 +772,10 @@ ode.tex
 \pgf@yc=\dimen191
 \w@pgf@writea=\write5
 \r@pgf@reada=\read1
-\c@pgf@counta=\count156
-\c@pgf@countb=\count157
-\c@pgf@countc=\count158
-\c@pgf@countd=\count159
+\c@pgf@counta=\count155
+\c@pgf@countb=\count156
+\c@pgf@countc=\count157
+\c@pgf@countd=\count158
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
@@ -795,8 +796,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count160
-\pgfsyssoftpath@bigbuffer@items=\count161
+\pgfsyssoftpath@smallbuffer@items=\count159
+\pgfsyssoftpath@bigbuffer@items=\count160
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -809,7 +810,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen192
-\pgfmath@count=\count162
+\pgfmath@count=\count161
 \pgfmath@box=\box80
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
@@ -834,7 +835,7 @@ code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count163
+\c@pgfmathroundto@lastzeros=\count162
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -872,7 +873,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box81
 \pgf@hbox=\box82
 \pgf@layerbox@main=\box83
-\pgf@picture@serial@count=\count164
+\pgf@picture@serial@count=\count163
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -907,7 +908,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen272
-\pgf@sys@shading@range@num=\count165
+\pgf@sys@shading@range@num=\count164
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -970,7 +971,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count166
+\pgf@plot@mark@count=\count165
 \pgfplotmarksize=\dimen277
 )
 \tikz@lastx=\dimen278
@@ -983,19 +984,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box87
 \tikz@tempbox=\box88
 \tikz@tempbox@bg=\box89
-\tikztreelevel=\count167
-\tikznumberofchildren=\count168
-\tikznumberofcurrentchild=\count169
-\tikz@fig@count=\count170
+\tikztreelevel=\count166
+\tikznumberofchildren=\count167
+\tikznumberofcurrentchild=\count168
+\tikz@fig@count=\count169
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count171
-\pgfmatrixcurrentcolumn=\count172
-\pgf@matrix@numberofcolumns=\count173
+\pgfmatrixcurrentrow=\count170
+\pgfmatrixcurrentcolumn=\count171
+\pgf@matrix@numberofcolumns=\count172
 )
-\tikz@expandcount=\count174
+\tikz@expandcount=\count173
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1012,8 +1013,8 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 ))
 Package: chemgreek 2016/02/10 v1.0e interfaceforuprightgreeklettersforuseinchem
 istry (CN)
-\l__chemgreek_tmpa_int=\count175
-\g__chemgreek_tmpa_int=\count176
+\l__chemgreek_tmpa_int=\count174
+\g__chemgreek_tmpa_int=\count175
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1147,7 +1148,7 @@ Package: modiagram 2015/09/23 v0.2g easy creation of molecular orbital diagrams
 \l__MOdiagram_AO_px_shift_dim=\dimen318
 \l__MOdiagram_AO_py_shift_dim=\dimen319
 \l__MOdiagram_AO_pz_shift_dim=\dimen320
-\g__MOdiagram_AO_name_int=\count177
+\g__MOdiagram_AO_name_int=\count176
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1189,13 +1190,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count178
+\inf@bad=\count177
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count179
-\leftroot@=\count180
+\uproot@=\count178
+\leftroot@=\count179
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count181
-\DOTSCASE@=\count182
+\classnum@=\count180
+\DOTSCASE@=\count181
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
@@ -1204,15 +1205,15 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen323
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count183
-\c@MaxMatrixCols=\count184
+\macc@depth=\count182
+\c@MaxMatrixCols=\count183
 \dotsspace@=\muskip17
-\c@parentequation=\count185
-\dspbrk@lvl=\count186
+\c@parentequation=\count184
+\dspbrk@lvl=\count185
 \tag@help=\toks36
-\row@=\count187
-\column@=\count188
-\maxfields@=\count189
+\row@=\count186
+\column@=\count187
+\maxfields@=\count188
 \andhelp@=\toks37
 \eqnshift@=\dimen324
 \alignsep@=\dimen325
@@ -1242,16 +1243,16 @@ Package: l3regex 2016/05/14 v6492 L3 Experimental regular expressions
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.s
 ty
 Package: l3tl-build 2016/05/14 v6492 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count190
-\l__tl_build_index_int=\count191
+\l__tl_build_start_index_int=\count189
+\l__tl_build_index_int=\count190
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysi
 s.sty
 Package: l3tl-analysis 2016/03/24 v6443 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count192
-\l__tl_analysis_index_int=\count193
-\l__tl_analysis_nesting_int=\count194
-\l__tl_analysis_type_int=\count195
+\l__tl_analysis_normal_int=\count191
+\l__tl_analysis_index_int=\count192
+\l__tl_analysis_nesting_int=\count193
+\l__tl_analysis_type_int=\count194
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2016/05/14 v6492 L3 Experimental flags
@@ -1260,48 +1261,48 @@ Package: l3flag 2016/05/14 v6492 L3 Experimental flags
 t.sty
 Package: l3str-convert 2016/03/24 v6443 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count196
-\c__str_replacement_char_int=\count197
+\l__str_internal_int=\count195
+\c__str_replacement_char_int=\count196
 )
-\l__regex_internal_a_int=\count198
-\l__regex_internal_b_int=\count199
-\l__regex_internal_c_int=\count266
-\l__regex_balance_int=\count267
-\l__regex_group_level_int=\count268
-\l__regex_mode_int=\count269
-\l__regex_catcodes_int=\count270
-\l__regex_default_catcodes_int=\count271
-\c__regex_catcode_D_int=\count272
-\c__regex_catcode_S_int=\count273
-\c__regex_catcode_L_int=\count274
-\c__regex_catcode_O_int=\count275
-\c__regex_catcode_A_int=\count276
-\c__regex_all_catcodes_int=\count277
-\l__regex_show_lines_int=\count278
-\l__regex_min_state_int=\count279
-\l__regex_max_state_int=\count280
-\l__regex_left_state_int=\count281
-\l__regex_right_state_int=\count282
-\l__regex_capturing_group_int=\count283
-\l__regex_min_pos_int=\count284
-\l__regex_max_pos_int=\count285
-\l__regex_current_pos_int=\count286
-\l__regex_start_pos_int=\count287
-\l__regex_success_pos_int=\count288
-\l__regex_current_char_int=\count289
-\l__regex_current_catcode_int=\count290
-\l__regex_last_char_int=\count291
-\l__regex_case_changed_char_int=\count292
-\l__regex_current_state_int=\count293
-\l__regex_step_int=\count294
-\l__regex_min_active_int=\count295
-\l__regex_max_active_int=\count296
-\l__regex_replacement_csnames_int=\count297
-\l__regex_match_count_int=\count298
-\l__regex_submatch_int=\count299
-\l__regex_zeroth_submatch_int=\count300
+\l__regex_internal_a_int=\count197
+\l__regex_internal_b_int=\count198
+\l__regex_internal_c_int=\count199
+\l__regex_balance_int=\count266
+\l__regex_group_level_int=\count267
+\l__regex_mode_int=\count268
+\l__regex_catcodes_int=\count269
+\l__regex_default_catcodes_int=\count270
+\c__regex_catcode_D_int=\count271
+\c__regex_catcode_S_int=\count272
+\c__regex_catcode_L_int=\count273
+\c__regex_catcode_O_int=\count274
+\c__regex_catcode_A_int=\count275
+\c__regex_all_catcodes_int=\count276
+\l__regex_show_lines_int=\count277
+\l__regex_min_state_int=\count278
+\l__regex_max_state_int=\count279
+\l__regex_left_state_int=\count280
+\l__regex_right_state_int=\count281
+\l__regex_capturing_group_int=\count282
+\l__regex_min_pos_int=\count283
+\l__regex_max_pos_int=\count284
+\l__regex_current_pos_int=\count285
+\l__regex_start_pos_int=\count286
+\l__regex_success_pos_int=\count287
+\l__regex_current_char_int=\count288
+\l__regex_current_catcode_int=\count289
+\l__regex_last_char_int=\count290
+\l__regex_case_changed_char_int=\count291
+\l__regex_current_state_int=\count292
+\l__regex_step_int=\count293
+\l__regex_min_active_int=\count294
+\l__regex_max_active_int=\count295
+\l__regex_replacement_csnames_int=\count296
+\l__regex_match_count_int=\count297
+\l__regex_submatch_int=\count298
+\l__regex_zeroth_submatch_int=\count299
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count301
+\l__mhchem_ce_distanceFromLastComma_int=\count300
 \__mhchem_arrow_extPgfLength_skip=\skip98
 \mhchem@minispace@tmp=\skip99
 \mhchem@minibackspace@tmp=\skip100
@@ -1312,7 +1313,7 @@ ions
 \mhchem@smallbondwidth=\skip105
 \mhchem@bondtmp@minussidebearingleft=\skip106
 \mhchem@bondtmp@minussidebearingright=\skip107
-\l__mhchem_option_version_int=\count302
+\l__mhchem_option_version_int=\count301
 \mhchem@option@minusmathsidebearingleft=\dimen330
 \mhchem@option@minusmathsidebearingright=\dimen331
 \mhchem@option@minustextsidebearingleft=\dimen332
@@ -1338,25 +1339,25 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fonttable/fonttable.sty
 Package: fonttable 2011/02/13 v1.6b displays a font
-\f@tm=\count303
-\f@tn=\count304
-\f@tp=\count305
+\f@tm=\count302
+\f@tn=\count303
+\f@tp=\count304
 \f@tdim=\dimen337
 \ftablewidth=\dimen338
 \fntcolwidth=\dimen339
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/paracol/paracol.sty
 Package: paracol 2015/10/10 v1.32 
-\pcol@currcol=\count306
-\pcol@nextcol=\count307
-\pcol@ncol=\count308
-\pcol@ncolleft=\count309
-\pcol@page=\count310
-\pcol@basepage=\count311
-\pcol@toppage=\count312
-\pcol@footnotebase=\count313
-\pcol@nfootnotes=\count314
-\pcol@mcid=\count315
+\pcol@currcol=\count305
+\pcol@nextcol=\count306
+\pcol@ncol=\count307
+\pcol@ncolleft=\count308
+\pcol@page=\count309
+\pcol@basepage=\count310
+\pcol@toppage=\count311
+\pcol@footnotebase=\count312
+\pcol@nfootnotes=\count313
+\pcol@mcid=\count314
 \pcol@prevdepth=\dimen340
 \pcol@colht=\dimen341
 \pcol@textfloatsep=\dimen342
@@ -1379,17 +1380,17 @@ File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 \pgfarrowwidth=\dimen347
 \pgfarrowlinewidth=\dimen348
 )
-\CF@cnt@atomingroup=\count316
-\CF@cnt@groupnumber=\count317
-\CF@cnt@atomnumber=\count318
-\CF@cnt@cycle=\count319
+\CF@cnt@atomingroup=\count315
+\CF@cnt@groupnumber=\count316
+\CF@cnt@atomnumber=\count317
+\CF@cnt@cycle=\count318
 \CF@dim=\dimen349
 \CF@lewis@box=\box98
 \CF@box@boxa=\box99
 \CF@box@boxb=\box100
 \CF@stuff@box=\box101
 \CF@unused=\write6
-\CF@compound@cnt=\count320
+\CF@compound@cnt=\count319
 \CF@arrow@size=\dimen350
 )
 Package: chemfig 2015/12/01 v1.2d Draw molecule with an easy syntax
@@ -1400,9 +1401,9 @@ File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cutwin/cutwin.sty
 Package: cutwin 2010/09/29 v0.1 cutout windows
-\c@twwinlines=\count321
-\c@twtoplines=\count322
-\c@twcnt=\count323
+\c@twwinlines=\count320
+\c@twtoplines=\count321
+\c@twcnt=\count322
 \c@twlftside=\dimen351
 \c@twrtside=\dimen352
 \c@twtopht=\dimen353
@@ -1425,8 +1426,8 @@ Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
 \t@pgfplots@tokb=\toks50
 \t@pgfplots@tokc=\toks51
 \pgfplots@tmpa=\dimen355
-\c@pgfplots@coordindex=\count324
-\c@pgfplots@scanlineindex=\count325
+\c@pgfplots@coordindex=\count323
+\c@pgfplots@scanlineindex=\count324
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
 .code.tex))
@@ -1442,7 +1443,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 soldpgfsupp_pgflibraryfpu.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
 soldpgfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count326
+\c@pgfmathroundto@lastzeros=\count325
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
 .tex
@@ -1452,13 +1453,13 @@ liststructure.code.tex)
 liststructureext.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 array.code.tex
-\c@pgfplotsarray@tmp=\count327
+\c@pgfplotsarray@tmp=\count326
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
 matrix.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
 shared.code.tex
-\c@pgfplotstable@counta=\count328
+\c@pgfplotstable@counta=\count327
 \t@pgfplotstable@a=\toks52
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
@@ -1471,7 +1472,7 @@ ta.code.tex))
 .code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
 s.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count329
+\c@pgfplotslibrarysurf@no=\count328
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
 .surfshading.pgfsys-pdftex.def)))
@@ -1508,7 +1509,7 @@ s.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen358
 \pgfdecoratedinputsegmentremainingdistance=\dimen359
 \pgf@decorate@distancetomove=\dimen360
-\pgf@decorate@repeatstate=\count330
+\pgf@decorate@repeatstate=\count329
 \pgfdecorationsegmentamplitude=\dimen361
 \pgfdecorationsegmentlength=\dimen362
 )
@@ -1522,7 +1523,7 @@ brarydecorations.pathmorphing.code.tex))
 s/tikzlibrarydecorations.pathreplacing.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
 brarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count331
+\pgfplots@numplots=\count330
 \pgfplots@xmin@reg=\dimen363
 \pgfplots@xmax@reg=\dimen364
 \pgfplots@ymin@reg=\dimen365
@@ -1544,12 +1545,12 @@ Package: movie15 2012/05/16
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/ifdraft.sty
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
-\@MXV@page=\count332
-\@MXV@adict=\count333
-\@MXV@aadict=\count334
-\@MXV@includes=\count335
-\@MXV@players=\count336
-\@MXV@links=\count337
+\@MXV@page=\count331
+\@MXV@adict=\count332
+\@MXV@aadict=\count333
+\@MXV@includes=\count334
+\@MXV@players=\count335
+\@MXV@links=\count336
 \@MXV@width=\dimen369
 \@MXV@height=\dimen370
 \@MXV@depth=\dimen371
@@ -1567,11 +1568,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 53.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks53
-\MT@count=\count338
+\MT@count=\count337
 LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen378
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count339
+\MT@listname@count=\count338
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
@@ -1587,7 +1588,7 @@ File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count340
+\c@lips@count=\count339
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -1601,12 +1602,12 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen386
 \cmidrulekern=\dimen387
 \defaultaddspace=\dimen388
-\@cmidla=\count341
-\@cmidlb=\count342
+\@cmidla=\count340
+\@cmidlb=\count341
 \@aboverulesep=\dimen389
 \@belowrulesep=\dimen390
-\@thisruleclass=\count343
-\@lastruleclass=\count344
+\@thisruleclass=\count342
+\@lastruleclass=\count343
 \@thisrulewidth=\dimen391
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
@@ -1614,11 +1615,11 @@ Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
 <2008/02/07> (tvz)
-\FV@CodeLineNo=\count345
+\FV@CodeLineNo=\count344
 \FV@InFile=\read2
 \FV@TabBox=\box110
-\c@FancyVerbLine=\count346
-\FV@StepNumber=\count347
+\c@FancyVerbLine=\count345
+\FV@StepNumber=\count346
 \FV@OutFile=\write7
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/xspace.sty
@@ -1658,15 +1659,15 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count348
+\etb@tempcnta=\count347
 )
 \tcb@titlebox=\box111
 \tcb@upperbox=\box112
 \tcb@lowerbox=\box113
 \tcb@phantombox=\box114
-\c@tcbbreakpart=\count349
-\c@tcblayer=\count350
-\tcolorbox@number=\count351
+\c@tcbbreakpart=\count348
+\c@tcblayer=\count349
+\tcolorbox@number=\count350
 \tcb@temp=\box115
 \tcb@temp=\box116
 \tcb@temp=\box117
@@ -1676,9 +1677,9 @@ Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '3.91'
-\c@tcbrastercolumn=\count352
-\c@tcbrasterrow=\count353
-\c@tcbraster=\count354
+\c@tcbrastercolumn=\count351
+\c@tcbrasterrow=\count352
+\c@tcbraster=\count353
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '3.91'
 \tcb@waterbox=\box119
@@ -1700,7 +1701,7 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '3.91'
 \tcbfitdim=\dimen392
 \tcb@lowerfitdim=\dimen393
 \tcb@upperfitdim=\dimen394
-\tcb@cur@hbadness=\count355
+\tcb@cur@hbadness=\count354
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
 Library (tcolorbox): 'tcbxparse.code.tex' version '3.91'
 .................................................
@@ -1714,8 +1715,8 @@ Library (tcolorbox): 'tcbxparse.code.tex' version '3.91'
 . Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
 .................................................
 ))
-\c@tcb@cnt@example=\count356
-\c@tcb@cnt@problem=\count357
+\c@tcb@cnt@example=\count355
+\c@tcb@cnt@problem=\count356
  (/usr/local/texlive/2016/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitkv@toks@=\toks56
@@ -1723,20 +1724,20 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen395
 \enit@toks=\toks57
 \enit@inbox=\box123
-\enitdp@description=\count358
+\enitdp@description=\count357
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lettrine/lettrine.sty
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count359
-\c@DefaultDepth=\count360
+\c@DefaultLines=\count358
+\c@DefaultDepth=\count359
 \DefaultFindent=\dimen396
 \DefaultNindent=\dimen397
 \DefaultSlope=\dimen398
 \DiscardVskip=\dimen399
 \L@lbox=\box124
 \L@tbox=\box125
-\c@L@lines=\count361
-\c@L@depth=\count362
+\c@L@lines=\count360
+\c@L@depth=\count361
 \L@Pindent=\dimen400
 \L@Findent=\dimen401
 \L@Nindent=\dimen402
@@ -1799,14 +1800,14 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count363
+\c@abspage=\count362
 Package zref Info: New property: abspage on input line 62.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip115
-\c@mdf@globalstyle@cnt=\count364
+\c@mdf@globalstyle@cnt=\count363
 \mdf@skipabove@length=\skip116
 \mdf@skipbelow@length=\skip117
 \mdf@leftmargin@length=\skip118
@@ -1882,7 +1883,7 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@horizontalspaceofbox=\skip179
 \mdfsubtitleheight=\skip180
 \mdfsubsubtitleheight=\skip181
-\c@mdfcountframes=\count365
+\c@mdfcountframes=\count364
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -1898,32 +1899,32 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count366
-\c@mdf@env@i=\count367
-\c@mdf@env@ii=\count368
-\c@mdf@zref@counter=\count369
+\mdf@envdepth=\count365
+\c@mdf@env@i=\count366
+\c@mdf@env@ii=\count367
+\c@mdf@zref@counter=\count368
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count370
-\c@Blindtext=\count371
-\c@blind@countparstart=\count372
-\blind@countxx=\count373
-\blindtext@numBlindtext=\count374
-\blind@countyy=\count375
-\c@blindlist=\count376
-\c@blindlistlevel=\count377
-\c@blindlist@level=\count378
-\blind@listitem=\count379
-\c@blind@listcount=\count380
-\c@blind@levelcount=\count381
-\blind@mathformula=\count382
-\blind@Mathformula=\count383
-\c@blind@randomcount=\count384
-\c@blind@randommax=\count385
-\c@blind@pangramcount=\count386
-\c@blind@pangrammax=\count387
+\c@blindtext=\count369
+\c@Blindtext=\count370
+\c@blind@countparstart=\count371
+\blind@countxx=\count372
+\blindtext@numBlindtext=\count373
+\blind@countyy=\count374
+\c@blindlist=\count375
+\c@blindlistlevel=\count376
+\c@blindlist@level=\count377
+\blind@listitem=\count378
+\c@blind@listcount=\count379
+\c@blind@levelcount=\count380
+\blind@mathformula=\count381
+\blind@Mathformula=\count382
+\c@blind@randomcount=\count383
+\c@blind@randommax=\count384
+\c@blind@pangramcount=\count385
+\c@blind@pangrammax=\count386
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -2399,8 +2400,8 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforefigskip=\skip267
 \cftfigindent=\skip268
 \cftfignumwidth=\skip269
-\c@lofdepth=\count388
-\c@lotdepth=\count389
+\c@lofdepth=\count387
+\c@lotdepth=\count388
 \cftbeforelottitleskip=\skip270
 \cftafterlottitleskip=\skip271
 \cftbeforetabskip=\skip272
@@ -2544,7 +2545,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count390
+\g_MT_multlinerow_int=\count389
 \l_MT_multwidth_dim=\dimen417
 \origjot=\skip277
 \l_MT_shortvdotswithinadjustabove_dim=\dimen418
@@ -2556,13 +2557,13 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/mathtools/empheq.sty
 Package: empheq 2014/07/16 v2.14 Emphasizing equations
-\l_EQ_equationtype_int=\count391
-\l_EQ_alignmentmode_int=\count392
+\l_EQ_equationtype_int=\count390
+\l_EQ_alignmentmode_int=\count391
 \l_EQ_totalwidth_dim=\dimen424
 \l_EQ_displaywidth_dim=\dimen425
 \l_EQ_temp_linewidth_dim=\dimen426
 \EmphEqdelimitershortfall=\dimen427
-\EmphEqdelimiterfactor=\count393
+\EmphEqdelimiterfactor=\count392
 \g_EQ_toptag_height_dim=\dimen428
 \g_EQ_bottomtag_depth_dim=\dimen429
 \g_EQ_toprow_height_dim=\dimen430
@@ -2570,7 +2571,7 @@ Package: empheq 2014/07/16 v2.14 Emphasizing equations
 \g_EQ_widesttag_dim=\dimen432
 \EQ_mathdisplay_box=\box151
 \EQ_tag_box=\box152
-\g_EQ_temprow_int=\count394
+\g_EQ_temprow_int=\count393
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hf-tikz/hf-tikz.sty
 Package: hf-tikz 2014/07/25 v0.3a A simple way to highlight formulas and formul
@@ -2606,7 +2607,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@old@col=\dimen435
 \TX@target=\dimen436
 \TX@delta=\dimen437
-\TX@cols=\count395
+\TX@cols=\count394
 \TX@ftn=\toks63
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
@@ -2638,7 +2639,7 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \Verbatim@Outfile=\write11
 \Verbatim@Infile=\read4
 )
-\enitdp@where=\count396
+\enitdp@where=\count395
  (/usr/local/texlive/2016/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2013/04/19 v0.3a Automatic creation of smart diagrams fro
 m lists of items.
@@ -2646,8 +2647,8 @@ m lists of items.
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write12
-\integerpart=\count397
-\decimalpart=\count398
+\integerpart=\count396
+\decimalpart=\count397
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -2699,19 +2700,19 @@ File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.4)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count399
+\c@r@tfl@t=\count398
 \rotFPtop=\skip279
 \rotFPbot=\skip280
 \rot@float@box=\box163
 \rot@mess@toks=\toks68
 )
-\c@saveenumerate=\count400
-\c@figurenewcounter=\count401
-\c@tcb@cnt@summary=\count402
+\c@saveenumerate=\count399
+\c@figurenewcounter=\count400
+\c@tcb@cnt@summary=\count401
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count403
+\c@ifsymcnt=\count402
 )
 (/usr/local/texlive/texmf-local/tex/latex/carbohydrates/carbohydrates.sty
 Package: carbohydrates 2015/12/01 v0.1 carbohydrate molecules with chemfig (CN)
@@ -2751,7 +2752,7 @@ Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 197
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen439
-\c@nlinenum=\count404
+\c@nlinenum=\count403
 \TeXr@lab=\toks69
 )
 .................................................
@@ -2759,8 +2760,8 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 . 
 . Defining command \newstep with sig. 'o' on line 1342.
 .................................................
-\c@stepsi=\count405
-\enitdp@steps=\count406
+\c@stepsi=\count404
+\enitdp@steps=\count405
 \tempfile=\write13
 .................................................
 . LaTeX info: "xparse/redefine-command"
@@ -2786,14 +2787,14 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen446
 \caption@hangindent=\dimen447
 )
-\c@ContinuedFloat=\count407
+\c@ContinuedFloat=\count406
 Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count408
+\c@float@type=\count407
 \float@exts=\toks70
 \float@box=\box164
 \@float@everytoks=\toks71
@@ -2801,16 +2802,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/floatflt/floatflt.sty
 Package: floatflt 1997/07/16 v. 1.31
-\c@OptionTest=\count409
+\c@OptionTest=\count408
 \figbox=\box166
 \tabbox=\box167
 \pagebox=\box168
-\ffigcount=\count410
-\ftabcount=\count411
-\fftest=\count412
-\hangcount=\count413
-\nosuccesstryfig=\count414
-\nosuccesstrytab=\count415
+\ffigcount=\count409
+\ftabcount=\count410
+\fftest=\count411
+\hangcount=\count412
+\nosuccesstryfig=\count413
+\nosuccesstrytab=\count414
 \figgutter=\dimen448
 \tabgutter=\dimen449
 \htdone=\dimen450
@@ -2846,16 +2847,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip283
 \LTpre=\skip284
 \LTpost=\skip285
-\LTchunksize=\count416
+\LTchunksize=\count415
 \LTcapwidth=\dimen456
 \LT@head=\box171
 \LT@firsthead=\box172
 \LT@foot=\box173
 \LT@lastfoot=\box174
-\LT@cols=\count417
-\LT@rows=\count418
-\c@LT@tables=\count419
-\c@LT@chunks=\count420
+\LT@cols=\count416
+\LT@rows=\count417
+\c@LT@tables=\count418
+\c@LT@chunks=\count419
 \LT@p@ftn=\toks73
 )
 \tablebox=\box175
@@ -2890,34 +2891,34 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count421
+\c@checkoddpage=\count420
 LaTeX Info: Redefining \checkoddpage on input line 45.
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box177
 \l__siunitx_tmp_dim=\dimen465
-\l__siunitx_tmp_int=\count422
-\l__siunitx_number_mantissa_length_int=\count423
-\l__siunitx_number_uncert_length_int=\count424
-\l__siunitx_round_int=\count425
-\l__siunitx_process_decimal_int=\count426
-\l__siunitx_process_uncertainty_int=\count427
-\l__siunitx_process_fixed_int=\count428
-\l__siunitx_process_integer_min_int=\count429
-\l__siunitx_process_precision_int=\count430
-\l__siunitx_group_min_int=\count431
+\l__siunitx_tmp_int=\count421
+\l__siunitx_number_mantissa_length_int=\count422
+\l__siunitx_number_uncert_length_int=\count423
+\l__siunitx_round_int=\count424
+\l__siunitx_process_decimal_int=\count425
+\l__siunitx_process_uncertainty_int=\count426
+\l__siunitx_process_fixed_int=\count427
+\l__siunitx_process_integer_min_int=\count428
+\l__siunitx_process_precision_int=\count429
+\l__siunitx_group_min_int=\count430
 \l__siunitx_angle_marker_box=\box178
 \l__siunitx_angle_unit_box=\box179
 \l__siunitx_angle_marker_dim=\dimen466
 \l__siunitx_angle_unit_dim=\dimen467
-\l__siunitx_unit_int=\count432
-\l__siunitx_unit_denominator_int=\count433
-\l__siunitx_unit_numerator_int=\count434
-\l__siunitx_unit_prefix_int=\count435
-\l__siunitx_unit_prefix_base_int=\count436
-\l__siunitx_unit_prefix_gram_int=\count437
-\l__siunitx_number_product_int=\count438
+\l__siunitx_unit_int=\count431
+\l__siunitx_unit_denominator_int=\count432
+\l__siunitx_unit_numerator_int=\count433
+\l__siunitx_unit_prefix_int=\count434
+\l__siunitx_unit_prefix_base_int=\count435
+\l__siunitx_unit_prefix_gram_int=\count436
+\l__siunitx_number_product_int=\count437
 \c__siunitx_one_fill_skip=\skip286
 \l__siunitx_table_unit_align_skip=\skip287
 \l__siunitx_table_exponent_dim=\dimen468
@@ -3069,7 +3070,7 @@ fillbetween.code.tex
 s/tikzlibraryintersections.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryinterse
 ctions.code.tex
-\pgf@intersect@solutions=\count439
+\pgf@intersect@solutions=\count438
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrary
 decorations.softclip.code.tex
@@ -3081,16 +3082,16 @@ ts.decorations.softclip.code.tex))
 ts.colormaps.code.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count440
+\linenopenalty=\count439
 \output=\toks74
-\linenoprevgraf=\count441
+\linenoprevgraf=\count440
 \linenumbersep=\dimen477
 \linenumberwidth=\dimen478
-\c@linenumber=\count442
-\c@pagewiselinenumber=\count443
-\c@LN@truepage=\count444
-\c@internallinenumber=\count445
-\c@internallinenumbers=\count446
+\c@linenumber=\count441
+\c@pagewiselinenumber=\count442
+\c@LN@truepage=\count443
+\c@internallinenumber=\count444
+\c@internallinenumbers=\count445
 \quotelinenumbersep=\dimen479
 \bframerule=\dimen480
 \bframesep=\dimen481
@@ -3112,16 +3113,16 @@ Package: spath 2011/06/03 v1.0 Functions for manipulating PGF soft paths
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.te
 x
-\pgfoo@objectcount=\count447
-\pgfoothis@count=\count448
+\pgfoo@objectcount=\count446
+\pgfoothis@count=\count447
 \pgfoo@toks=\toks75
 )
 \spath@trx=\dimen482
 \spath@try=\dimen483
-\c@spath@length=\count449
-\c@spath@reallength=\count450
-\c@spath@components=\count451
-\c@spath@array=\count452
+\c@spath@length=\count448
+\c@spath@reallength=\count449
+\c@spath@components=\count450
+\c@spath@array=\count451
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/scalerel/scalerel.sty
 Package: scalerel 2015/02/18 v1.7 Routines for constrained scaling and stretchi
 ng of objects, relative to a reference object or in absolute terms
@@ -3165,9 +3166,9 @@ mistry documents (CN)
 \l__chemmacros_tmpa_dim=\dimen484
 \l__chemmacros_tmpb_dim=\dimen485
 \l__chemmacros_tmpc_dim=\dimen486
-\l__chemmacros_tmpa_int=\count453
-\l__chemmacros_tmpb_int=\count454
-\l__chemmacros_tmpc_int=\count455
+\l__chemmacros_tmpa_int=\count452
+\l__chemmacros_tmpb_int=\count453
+\l__chemmacros_tmpc_int=\count454
 \l__chemmacros_tmpa_box=\box190
 \l__chemmacros_tmpb_box=\box191
 \l__chemmacros_tmpc_box=\box192
@@ -3242,9 +3243,9 @@ Package: translations 2016/04/19 v1.3 internationalization of LaTeX2e packages
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cnltx/cnltx-base.sty
 Package: cnltx-base 2015/08/17 v0.13 LaTeX tools and documenting facilities (CN
 )
-\c@cnltx@tmpa=\count456
-\c@cnltx@tmpb=\count457
-\c@cnltx@tmpc=\count458
+\c@cnltx@tmpa=\count455
+\c@cnltx@tmpb=\count456
+\c@cnltx@tmpc=\count457
 \cnltx@tmpa@length=\skip299
 \cnltx@tmpb@length=\skip300
 \cnltx@tmpc@length=\skip301
@@ -3643,7 +3644,7 @@ y
 Package: xtemplate 2016/05/18 v6512 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen494
-\l__xtemplate_tmp_int=\count459
+\l__xtemplate_tmp_int=\count458
 \l__xtemplate_tmp_muskip=\muskip18
 \l__xtemplate_tmp_skip=\skip302
 )
@@ -3676,7 +3677,7 @@ Package: xfrac 2016/05/18 v6512 L3 Experimental split-level fractions
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\l__chemmacros_ox_number_int=\count460
+\l__chemmacros_ox_number_int=\count459
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -3708,8 +3709,8 @@ reactions' 2016/04/27 reaction environments
 . 
 . Defining command \AddRxnDesc with sig. 'm' on line 83.
 .................................................
-\c@chemmacros_save_reaction=\count461
-\c@reaction=\count462
+\c@chemmacros_save_reaction=\count460
+\c@reaction=\count461
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -3756,7 +3757,7 @@ s/tikzlibrarylindenmayersystems.code.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibrarylindenm
 ayersystems.code.tex
 \pgflsystemstep=\dimen503
-\c@pgf@lsystem@iteration=\count463
+\c@pgf@lsystem@iteration=\count462
 ))
 (/Users/daniel/Library/texmf/tex/latex/emerald/emerald.sty
 Package: emerald 2006/01/26 v1.0 LaTeX2e package which gives support for ECF (e
@@ -3787,8 +3788,8 @@ LaTeX Font Warning: Font shape `T1/ppl//' undefined
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/ttlkeys.def
 File: ttlkeys.def 2016/03/15
-\c@ttlp@side=\count464
-\ttlp@side=\count465
+\c@ttlp@side=\count463
+\ttlp@side=\count464
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <24> not available
@@ -3803,7 +3804,7 @@ File: tikzlibrarycalendar.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.3)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.
 tex
 File: pgfcalendar.code.tex 2007/07/23 v3.0.1a (rcs-revision 1.11)
-\pgfcalendarcurrentjulian=\count466
+\pgfcalendarcurrentjulian=\count465
 )))
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryer.code.tex
@@ -3815,7 +3816,7 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 (/usr/local/texlive/2016/texmf-dist/tex/latex/stackengine/stackengine.sty
 Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
 ways
-\c@@stackindex=\count467
+\c@@stackindex=\count466
 \@boxshift=\skip303
 \stack@tmplength=\skip304
 \temp@stkl=\skip305
@@ -3824,39 +3825,39 @@ ways
 \@anchorbox=\box197
 \stackedbox=\box198
 \@centerbox=\box199
-\c@ROWcellindex@=\count468
+\c@ROWcellindex@=\count467
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tasks/tasks.sty
 (/usr/local/texlive/2016/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count469
-\d@lta=\count470
+\@@multicnt=\count468
+\d@lta=\count469
 \@delta=\dimen510
 \@@delta=\dimen511
-\@gridcnt=\count471
-\@joinkind=\count472
+\@gridcnt=\count470
+\@joinkind=\count471
 \@dotgap=\dimen512
 \@ddotgap=\dimen513
-\@x@diff=\count473
-\@y@diff=\count474
+\@x@diff=\count472
+\@y@diff=\count473
 \x@diff=\dimen514
 \y@diff=\dimen515
 \@dotbox=\box256
-\num@segments=\count475
-\num@segmentsi=\count476
+\num@segments=\count474
+\num@segmentsi=\count475
 \@datafile=\read6
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/cntformats/cntformats.sty
 Package: cntformats 2014/07/20 v0.7 A different way to read counters. (CN)
 )
 Package: tasks 2016/05/04 v0.11a Horizontalcolumnedlists (CN)
-\l__tasks_depth_int=\count477
-\g__tasks_int=\count478
-\g__tasks_total_items_int=\count479
-\l__tasks_columns_int=\count480
-\l__tasks_rows_int=\count481
-\g__tasks_current_col_num_int=\count482
-\g__tasks_current_row_num_int=\count483
-\l__tasks_item_columns_int=\count484
+\l__tasks_depth_int=\count476
+\g__tasks_int=\count477
+\g__tasks_total_items_int=\count478
+\l__tasks_columns_int=\count479
+\l__tasks_rows_int=\count480
+\g__tasks_current_col_num_int=\count481
+\g__tasks_current_row_num_int=\count482
+\l__tasks_item_columns_int=\count483
 \l__tasks_item_indent_dim=\dimen516
 \l__tasks_item_default_indent_dim=\dimen517
 \l__tasks_item_width_dim=\dimen518
@@ -3871,9 +3872,9 @@ Package: tasks 2016/05/04 v0.11a Horizontalcolumnedlists (CN)
 \l__tasks_after_list_skip=\skip310
 \l__tasks_item_coffin=\box257
 \l__tasks_label_coffin=\box258
-\c@task=\count485
-\l__tasks_tmpa_int=\count486
-\l__tasks_tmpb_int=\count487
+\c@task=\count484
+\l__tasks_tmpa_int=\count485
+\l__tasks_tmpb_int=\count486
 \l__tasks_tmpa_coffin=\box259
 .................................................
 . xtemplate info: "declare-object-type"
@@ -3941,28 +3942,28 @@ Package: exercise 2014/10/20 v1.6 Exercise package (P.Pichaureau)
 \QuestionIndent=\skip328
 \subQuestionIndent=\skip329
 \subsubQuestionIndent=\skip330
-\c@Exercise=\count488
-\c@Answer=\count489
-\c@ExePart=\count490
-\c@Question=\count491
-\c@subQuestion=\count492
-\c@subsubQuestion=\count493
-\c@savedQuestion=\count494
-\c@savedsubQuestion=\count495
-\c@savedsubsubQuestion=\count496
-\@QuestionLevel=\count497
+\c@Exercise=\count487
+\c@Answer=\count488
+\c@ExePart=\count489
+\c@Question=\count490
+\c@subQuestion=\count491
+\c@subsubQuestion=\count492
+\c@savedQuestion=\count493
+\c@savedsubQuestion=\count494
+\c@savedsubsubQuestion=\count495
+\@QuestionLevel=\count496
 \@Exercisebox=\box260
 \all@Exercisebox=\box261
 \temp@Exercisebox=\box262
 \all@Answerbox=\box263
 \temp@Answerbox=\box264
-\ExerciseDifficulty=\count498
-\QuestionDifficulty=\count499
-\subQuestionDifficulty=\count500
-\subsubQuestionDifficulty=\count501
-\ExePartDifficulty=\count502
+\ExerciseDifficulty=\count497
+\QuestionDifficulty=\count498
+\subQuestionDifficulty=\count499
+\subsubQuestionDifficulty=\count500
+\ExePartDifficulty=\count501
 \@Answerbox=\box265
-\colonnesLevel=\count503
+\colonnesLevel=\count502
 \tempskipa=\skip331
 \tempskipb=\skip332
 \@savedmathindent=\skip333
@@ -3974,25 +3975,25 @@ l colors using the xcolor package
 (/usr/local/texlive/2016/texmf-dist/tex/latex/exsheets/exsheets.sty
 Package: exsheets 2016/02/01 v0.21b Yet another package for the creation of exe
 rcise sheets and exams.
-\l__exsheets_tmpa_int=\count504
-\l__exsheets_tmpb_int=\count505
-\l__exsheets_tmpc_int=\count506
-\l__exsheets_tmpd_int=\count507
-\l__exsheets_tmpe_int=\count508
+\l__exsheets_tmpa_int=\count503
+\l__exsheets_tmpb_int=\count504
+\l__exsheets_tmpc_int=\count505
+\l__exsheets_tmpd_int=\count506
+\l__exsheets_tmpe_int=\count507
 \l__exsheets_tmpa_dim=\dimen528
 \l__exsheets_tmpb_dim=\dimen529
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 Package: l3sort 2016/05/14 v6492 L3 Experimental sorting functions
-\l__sort_length_int=\count509
-\l__sort_block_int=\count510
-\l__sort_begin_int=\count511
-\l__sort_end_int=\count512
-\l__sort_A_int=\count513
-\l__sort_B_int=\count514
-\l__sort_C_int=\count515
+\l__sort_length_int=\count508
+\l__sort_block_int=\count509
+\l__sort_begin_int=\count510
+\l__sort_end_int=\count511
+\l__sort_A_int=\count512
+\l__sort_B_int=\count513
+\l__sort_C_int=\count514
 )
-\c@question=\count516
+\c@question=\count515
 \l__exsheets_questions_skip_below_dim=\dimen530
 \l__exsheets_solutions_skip_below_dim=\dimen531
 *************************************************
@@ -4045,7 +4046,7 @@ Package: l3sort 2016/05/14 v6492 L3 Experimental sorting functions
 . 
 . Defining command \totalpoints with sig. 's' on line 594.
 .................................................
-\l__exsheets_variations_int=\count517
+\l__exsheets_variations_int=\count516
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4101,8 +4102,8 @@ Package: l3sort 2016/05/14 v6492 L3 Experimental sorting functions
 . 
 . Defining command \PrintQuestionClassF with sig. 'mm' on line 978.
 .................................................
-\g__exsheets_questions_id_int=\count518
-\g__exsheets_questions_used_int=\count519
+\g__exsheets_questions_id_int=\count517
+\g__exsheets_questions_used_int=\count518
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4169,16 +4170,16 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 . 
 . Defining command \GetQuestionProperty with sig. 'mm' on line 1700.
 .................................................
-\g__exsheets_tmpa_int=\count520
-\l__exsheets_include_random_int=\count521
+\g__exsheets_tmpa_int=\count519
+\l__exsheets_include_random_int=\count520
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \includequestions with sig. 'om' on line 1841.
 .................................................
-\l__exsheets_questions_set_int=\count522
-\g__exsheets_select_random_int=\count523
-\g__exsheets_selection_number_int=\count524
+\l__exsheets_questions_set_int=\count521
+\g__exsheets_select_random_int=\count522
+\g__exsheets_selection_number_int=\count523
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4199,11 +4200,11 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 . 
 . Defining command \printsolutions with sig. 'O{all}' on line 2328.
 .................................................
-\l__exsheets_counter_ch_int=\count525
-\l__exsheets_current_ch_int=\count526
-\l__exsheets_counter_sec_int=\count527
-\l__exsheets_current_sec_int=\count528
-\l_exsheets_counter_qu_int=\count529
+\l__exsheets_counter_ch_int=\count524
+\l__exsheets_current_ch_int=\count525
+\l__exsheets_counter_sec_int=\count526
+\l__exsheets_current_sec_int=\count527
+\l_exsheets_counter_qu_int=\count528
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4221,7 +4222,7 @@ File: exsheets_headings.cfg  2016/02/01 v0.21b ExSheets headings instances
 \UL@skip=\skip334
 \UL@hook=\toks77
 \UL@height=\dimen534
-\UL@pe=\count530
+\UL@pe=\count529
 \UL@pixel=\dimen535
 \ULC@box=\box275
 Package: ulem 2012/05/18
@@ -4261,7 +4262,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count531
+\c@section@level=\count530
 )
 .................................................
 . LaTeX info: "xparse/define-environment"
@@ -4274,7 +4275,7 @@ Package: flushend 2015/04/14 v3.1 Balancing columns in twocolumn mode
 \flushend@@lastskip@a=\skip335
 \flushend@@lastskip@b=\skip336
 \flushend@@lastskip@c=\skip337
-\flushend@@penalty@a=\count532
+\flushend@@penalty@a=\count531
 \flushend@@lastkern@a=\dimen538
 \var@@temp@spread=\dimen539
 \var@@temp@a=\dimen540
@@ -4304,7 +4305,7 @@ File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
 Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
 ounters
 )
-\c@numA=\count533
+\c@numA=\count532
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
 Package: tkz-euclide 2011/06/01 1.16 c for plots 2d 
@@ -4324,10 +4325,10 @@ Package etex Warning: Extended allocation already in use.
 
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/numprint/numprint.sty
 Package: numprint 2012/08/20 v1.39 Print numbers (HH)
-\c@nprt@mantissa@digitsbefore=\count534
-\c@nprt@mantissa@digitsafter=\count535
-\c@nprt@exponent@digitsbefore=\count536
-\c@nprt@exponent@digitsafter=\count537
+\c@nprt@mantissa@digitsbefore=\count533
+\c@nprt@mantissa@digitsafter=\count534
+\c@nprt@exponent@digitsbefore=\count535
+\c@nprt@exponent@digitsafter=\count536
 \nprt@digitwidth=\skip338
 \nprt@sepwidth=\skip339
 \nprt@decimalwidth=\skip340
@@ -4335,12 +4336,12 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 \nprt@digittoks=\toks80
 \nprt@pretoks=\toks81
 \nprt@posttoks=\toks82
-\nprt@thisdigit=\count538
-\nprt@curpos=\count539
-\nprt@rndpos=\count540
-\c@nprt@digitsfirstblock=\count541
-\c@nprt@blockcnt=\count542
-\c@nprt@cntprint=\count543
+\nprt@thisdigit=\count537
+\nprt@curpos=\count538
+\nprt@rndpos=\count539
+\c@nprt@digitsfirstblock=\count540
+\c@nprt@blockcnt=\count541
+\c@nprt@cntprint=\count542
 
 No configuration file `numprint.cfg' found.)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp.sty
@@ -4349,19 +4350,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count544
+\actioncount=\count543
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count545
-\FP@xia=\count546
-\FP@xib=\count547
-\FP@xfa=\count548
-\FP@xfb=\count549
-\FP@rega=\count550
-\FP@regb=\count551
-\FP@regs=\count552
-\FP@times=\count553
+\FP@xs=\count544
+\FP@xia=\count545
+\FP@xib=\count546
+\FP@xfa=\count547
+\FP@xfb=\count548
+\FP@rega=\count549
+\FP@regb=\count550
+\FP@regs=\count551
+\FP@times=\count552
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -4380,7 +4381,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count554
+\FPseed=\count553
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -4413,7 +4414,7 @@ File: tkz-tool-arith.tex tkz-tool-arith 1.161 c
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-base/tkz-obj-points.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-base/tkz-obj-segments.tex)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-base/tkz-obj-marks.tex
-\tkz@cntmk=\count555
+\tkz@cntmk=\count554
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tkz-euclide/tkz-tools-intersectio
 ns.tex)
@@ -4485,25 +4486,25 @@ eX document
 )
 (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
 ts.groupplots.code.tex
-\pgfplots@group@current@plot=\count556
-\pgfplots@group@current@row=\count557
-\pgfplots@group@current@column=\count558
+\pgfplots@group@current@plot=\count555
+\pgfplots@group@current@row=\count556
+\pgfplots@group@current@column=\count557
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/endiagram/endiagram.sty
 Package: endiagram 2014/06/28 v0.1d Easy creation of potential energy curve dia
 grams
 \l__endiagram_tmpa_dim=\dimen553
 \g__Endiagram_tmpa_dim=\dimen554
-\l__endiagram_points_int=\count559
-\g__endiagram_curve_int=\count560
-\g__endiagram_points_max_int=\count561
-\l__endiagram_points_counter_int=\count562
+\l__endiagram_points_int=\count558
+\g__endiagram_curve_int=\count559
+\g__endiagram_points_max_int=\count560
+\l__endiagram_points_counter_int=\count561
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining command \ENcurve with sig. 'om' on line 318.
 .................................................
-\l__endiagram_niveau_counter_int=\count563
+\l__endiagram_niveau_counter_int=\count562
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4514,8 +4515,8 @@ grams
 . 
 . Defining command \ShowGain with sig. 'o' on line 569.
 .................................................
-\g__endiagram_ea_int=\count564
-\l__endiagram_ea_count_int=\count565
+\g__endiagram_ea_int=\count563
+\l__endiagram_ea_count_int=\count564
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -4557,9 +4558,9 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen555
 \l__chemformula_tmpb_dim=\dimen556
 \l__chemformula_tmpc_dim=\dimen557
-\l__chemformula_tmpa_int=\count566
-\l__chemformula_tmpb_int=\count567
-\l__chemformula_tmpc_int=\count568
+\l__chemformula_tmpa_int=\count565
+\l__chemformula_tmpb_int=\count566
+\l__chemformula_tmpc_int=\count567
 \l__chemformula_tmpa_box=\box288
 \l__chemformula_tmpb_box=\box289
 \l__chemformula_arrow_length_dim=\dimen558
@@ -4592,8 +4593,8 @@ Package: chemformula 2016/05/11 v4.15 typeset chemical compounds and reactions
 \l__chemformula_kroegervink_positive_space_dim=\dimen585
 \l__chemformula_stoich_space_skip=\skip342
 \l__chemformula_math_space_skip=\skip343
-\l__chemformula_count_tokens_int=\count569
-\g__chemformula_lewis_int=\count570
+\l__chemformula_count_tokens_int=\count568
+\g__chemformula_lewis_int=\count569
 \l__chemformula_arrow_arg_i_box=\box290
 \l__chemformula_arrow_arg_ii_box=\box291
 \l__chemformula_superscript_box=\box292
@@ -4864,16 +4865,16 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count571
+\scratchcounter=\count570
 \scratchdimen=\dimen586
 \scratchbox=\box295
-\nofMPsegments=\count572
-\nofMParguments=\count573
+\nofMPsegments=\count571
+\nofMParguments=\count572
 \everyMPshowfont=\toks83
-\MPscratchCnt=\count574
+\MPscratchCnt=\count573
 \MPscratchDim=\dimen587
-\MPnumerator=\count575
-\makeMPintoPDFobject=\count576
+\MPnumerator=\count574
+\makeMPintoPDFobject=\count575
 \everyMPtoPDFconversion=\toks84
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -4881,8 +4882,10 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -4900,8 +4903,8 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c@mv@tabular=\count577
-\c@mv@boldtabular=\count578
+\c@mv@tabular=\count576
+\c@mv@boldtabular=\count577
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
 (scrlayer)             \begin{document} on input line 5306.
 Package caption Info: Begin \AtBeginDocument code.
@@ -4961,7 +4964,7 @@ or `english'. on input line 5306.
 cfg
 File: exsheets_configurations.cfg 
 )
-\c__siunitx_mathsf_int=\count579
+\c__siunitx_mathsf_int=\count578
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 5306
 .
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -5035,7 +5038,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count580
+\c__siunitx_mathtt_int=\count579
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 530
 6.
 
@@ -5066,12 +5069,10 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `PTSansNarrow-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
 <../Ch-solids/figure1.png, id=109, 963.6pt x 642.4pt>
 File: ../Ch-solids/figure1.png Graphic file (type png)
-
 <use ../Ch-solids/figure1.png>
-Package pdftex.def Info: ../Ch-solids/figure1.png used on input line 17.
+Package pdftex.def Info: ../Ch-solids/figure1.png  used on input line 17.
 (pdftex.def)             Requested size: 113.80379pt x 75.86919pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 17.
@@ -5119,23 +5120,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 olids/figure1.png (PNG copy)>]
 <../Ch-solids/figure17.png, id=128, 883.3pt x 588.1975pt>
 File: ../Ch-solids/figure17.png Graphic file (type png)
-
 <use ../Ch-solids/figure17.png>
-Package pdftex.def Info: ../Ch-solids/figure17.png used on input line 59.
+Package pdftex.def Info: ../Ch-solids/figure17.png  used on input line 59.
 (pdftex.def)             Requested size: 113.8087pt x 75.78624pt.
-
 <../Ch-solids/figure18.png, id=129, 731.73375pt x 1027.84pt>
 File: ../Ch-solids/figure18.png Graphic file (type png)
-
 <use ../Ch-solids/figure18.png>
-Package pdftex.def Info: ../Ch-solids/figure18.png used on input line 62.
+Package pdftex.def Info: ../Ch-solids/figure18.png  used on input line 62.
 (pdftex.def)             Requested size: 81.01573pt x 113.79987pt.
-
 <../Ch-solids/figure19.png, id=130, 963.6pt x 637.38126pt>
 File: ../Ch-solids/figure19.png Graphic file (type png)
-
 <use ../Ch-solids/figure19.png>
-Package pdftex.def Info: ../Ch-solids/figure19.png used on input line 65.
+Package pdftex.def Info: ../Ch-solids/figure19.png  used on input line 65.
 (pdftex.def)             Requested size: 113.80379pt x 75.27646pt.
 
 Overfull \hbox (13.03993pt too wide) in paragraph at lines 61--68
@@ -5229,11 +5225,11 @@ line 285.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/15 Font definitions for U/fontawesomeone.
 )
-[4] [5] <../Ch-solids/figure20.png, id=181, 1042.31662pt x 781.73746pt>
+[4] [5]
+<../Ch-solids/figure20.png, id=181, 1042.31662pt x 781.73746pt>
 File: ../Ch-solids/figure20.png Graphic file (type png)
-
 <use ../Ch-solids/figure20.png>
-Package pdftex.def Info: ../Ch-solids/figure20.png used on input line 388.
+Package pdftex.def Info: ../Ch-solids/figure20.png  used on input line 388.
 (pdftex.def)             Requested size: 343.64746pt x 257.7356pt.
 
 
@@ -5247,348 +5243,309 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 393--393
 
 <../Ch-solids/water.png, id=182, 1196.47pt x 1027.84pt>
 File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 411.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 411.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 411.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 411.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 411.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 426.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
-(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-File: ../Ch-solids/water.png Graphic file (type png)
-
 <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 File: ../Ch-solids/water.png Graphic file (type png)
- <use ../Ch-solids/water.png>
-Package pdftex.def Info: ../Ch-solids/water.png used on input line 440.
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
 (pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
-
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 426.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
+File: ../Ch-solids/water.png Graphic file (type png)
+<use ../Ch-solids/water.png>
+Package pdftex.def Info: ../Ch-solids/water.png  used on input line 440.
+(pdftex.def)             Requested size: 21.32375pt x 18.31839pt.
 
 LaTeX Warning: Reference `Fig:{solids}4' on page 6 undefined on input line 462.
 
@@ -5665,9 +5622,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 1849--1851
 
 <../Ch-solids/figure16.png, id=237, 510.40688pt x 509.65407pt>
 File: ../Ch-solids/figure16.png Graphic file (type png)
-
 <use ../Ch-solids/figure16.png>
-Package pdftex.def Info: ../Ch-solids/figure16.png used on input line 1937.
+Package pdftex.def Info: ../Ch-solids/figure16.png  used on input line 1937.
 (pdftex.def)             Requested size: 343.67644pt x 343.16954pt.
 
 Overfull \hbox (11.99606pt too wide) in paragraph at lines 1852--1937
@@ -5686,37 +5642,28 @@ Overfull \hbox (4.43956pt too wide) in paragraph at lines 1942--1944
 [13 <../Ch-solids/figure16.png (PNG copy)>] [14]
 <../Ch-solids/figure7.png, id=250, 865.73438pt x 1292.57906pt>
 File: ../Ch-solids/figure7.png Graphic file (type png)
-
 <use ../Ch-solids/figure7.png>
-Package pdftex.def Info: ../Ch-solids/figure7.png used on input line 1970.
+Package pdftex.def Info: ../Ch-solids/figure7.png  used on input line 1970.
 (pdftex.def)             Requested size: 76.22185pt x 113.80254pt.
-
 <../Ch-solids/figure8.png, id=251, 883.3pt x 662.475pt>
 File: ../Ch-solids/figure8.png Graphic file (type png)
-
 <use ../Ch-solids/figure8.png>
-Package pdftex.def Info: ../Ch-solids/figure8.png used on input line 1973.
+Package pdftex.def Info: ../Ch-solids/figure8.png  used on input line 1973.
 (pdftex.def)             Requested size: 113.8087pt x 85.35652pt.
-
 <../Ch-solids/figure9.png, id=252, 658.46pt x 1027.84pt>
 File: ../Ch-solids/figure9.png Graphic file (type png)
-
 <use ../Ch-solids/figure9.png>
-Package pdftex.def Info: ../Ch-solids/figure9.png used on input line 1976.
+Package pdftex.def Info: ../Ch-solids/figure9.png  used on input line 1976.
 (pdftex.def)             Requested size: 72.90305pt x 113.79987pt.
-
 <../Ch-solids/figure10.png, id=253, 1026.83624pt x 713.66624pt>
 File: ../Ch-solids/figure10.png Graphic file (type png)
-
 <use ../Ch-solids/figure10.png>
-Package pdftex.def Info: ../Ch-solids/figure10.png used on input line 1979.
+Package pdftex.def Info: ../Ch-solids/figure10.png  used on input line 1979.
 (pdftex.def)             Requested size: 113.79842pt x 79.09157pt.
-
 <../Ch-solids/figure11.png, id=254, 764.8575pt x 607.51968pt>
 File: ../Ch-solids/figure11.png Graphic file (type png)
-
 <use ../Ch-solids/figure11.png>
-Package pdftex.def Info: ../Ch-solids/figure11.png used on input line 1982.
+Package pdftex.def Info: ../Ch-solids/figure11.png  used on input line 1982.
 (pdftex.def)             Requested size: 113.80168pt x 90.39168pt.
 
 Overfull \hbox (8.55995pt too wide) in paragraph at lines 1969--1987
@@ -5773,27 +5720,22 @@ Overfull \hbox (10.42639pt too wide) in paragraph at lines 2040--2052
 ../Ch-solids/figure11.png (PNG copy)>]
 <../Ch-solids/figure12.png, id=262, 1421.31pt x 3123.67pt>
 File: ../Ch-solids/figure12.png Graphic file (type png)
-
 <use ../Ch-solids/figure12.png>
-Package pdftex.def Info: ../Ch-solids/figure12.png used on input line 2056.
+Package pdftex.def Info: ../Ch-solids/figure12.png  used on input line 2056.
 (pdftex.def)             Requested size: 51.76785pt x 113.77231pt.
-
 <../Ch-solids/figure13.png, id=263, 1027.84pt x 770.88pt>
 File: ../Ch-solids/figure13.png Graphic file (type png)
-
 <use ../Ch-solids/figure13.png>
-Package pdftex.def Info: ../Ch-solids/figure13.png used on input line 2059.
+Package pdftex.def Info: ../Ch-solids/figure13.png  used on input line 2059.
 (pdftex.def)             Requested size: 113.79987pt x 85.3499pt.
-
 <../Ch-solids/figure14.png, id=264, 331.2375pt x 602.25pt>
 File: ../Ch-solids/figure14.png Graphic file (type png)
-
 <use ../Ch-solids/figure14.png>
-Package pdftex.def Info: ../Ch-solids/figure14.png used on input line 2062.
+Package pdftex.def Info: ../Ch-solids/figure14.png  used on input line 2062.
 (pdftex.def)             Requested size: 62.59209pt x 113.80379pt.
 File: ../Ch-solids/figure10.png Graphic file (type png)
- <use ../Ch-solids/figure10.png>
-Package pdftex.def Info: ../Ch-solids/figure10.png used on input line 2065.
+<use ../Ch-solids/figure10.png>
+Package pdftex.def Info: ../Ch-solids/figure10.png  used on input line 2065.
 (pdftex.def)             Requested size: 113.79842pt x 79.09157pt.
 
 Overfull \hbox (8.55995pt too wide) in paragraph at lines 2055--2068
@@ -5923,56 +5865,74 @@ LaTeX Warning: Reference `Fig:{solids}9' on page 19 undefined on input line 231
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-[20]
-Package pgfplots info on input line 2349: Using 'lua backend=false' for axis: y
+(./files/Subsection-Phase-diagrams-Phase-transition-terminology [20])
+Package pgfplots info on input line 2346: Using 'lua backend=false' for axis: y
 mode=log unsupported (yet).
-Package pgfplots info on input line 2360: fill between: found 'clip=true'. Prep
+Package pgfplots info on input line 2357: fill between: found 'clip=true'. Prep
 aring pgfplotsextra instruction with clip path for layer 'pre main'...
-Package pgfplots info on input line 2371: fill between: activating layered grap
+Package pgfplots info on input line 2368: fill between: activating layered grap
 hics
-Package pgfplots info on input line 2371: Setting layers 'axis background,axis 
+Package pgfplots info on input line 2368: Setting layers 'axis background,axis 
 grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
 s foreground'...
-Package pgfplots info on input line 2371: the combination of 'axis on top' and 
+Package pgfplots info on input line 2368: the combination of 'axis on top' and 
 'activate layers' implies 'set layers=axis on top'. Deactivate 'axis on top' if
  you want other layers.
-Package pgfplots info on input line 2371: Setting layers 'axis background,pre m
+Package pgfplots info on input line 2368: Setting layers 'axis background,pre m
 ain,main,axis grid,axis ticks,axis lines,axis tick labels,axis descriptions,axi
 s foreground'...
 
 
 LaTeX Warning: Reference `Fig:{solids}10' on page 21 undefined on input line 23
-73.
+70.
 
 
-Overfull \hbox (4.43956pt too wide) in paragraph at lines 2375--2375
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 2372--2372
  [] 
  []
 
 [21]
-Package pgfplots info on input line 2401: Using 'lua backend=false' for axis: y
+Package pgfplots info on input line 2398: Using 'lua backend=false' for axis: y
 mode=log unsupported (yet).
-Package pgfplots info on input line 2440: Using 'lua backend=false' for axis: y
+Package pgfplots info on input line 2437: Using 'lua backend=false' for axis: y
 mode=log unsupported (yet).
 
 
 LaTeX Warning: Reference `Fig:{solids}11' on page 22 undefined on input line 24
-66.
+63.
 
 
-Overfull \hbox (4.43956pt too wide) in paragraph at lines 2468--2468
+Overfull \hbox (4.43956pt too wide) in paragraph at lines 2465--2465
  [] 
  []
 
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 2485.
+(hyperref)                setting the option has no effect on input line 2482.
 
 
 LaTeX Warning: Reference `tab:{solids}7' on page 22 undefined on input line 248
-5.
+2.
 
-) (../Ch-solids/Ch-solidsProblems.tex [22]
+(./files/Subsection-Phase-diagrams-Change-of-state)
+(./files/Subsection-Phase-diagrams-Temperature-curves) [22]
+(./files/Figure-Heating-curve
+<../Ch-solids/figure21.png, id=311, 693.59125pt x 325.215pt>
+File: ../Ch-solids/figure21.png Graphic file (type png)
+<use ../Ch-solids/figure21.png>
+Package pdftex.def Info: ../Ch-solids/figure21.png  used on input line 4.
+(pdftex.def)             Requested size: 369.8982pt x 173.43996pt.
+
+
+LaTeX Warning: Reference `Fig:{solids}12' on page 23 undefined on input line 5.
+
+
+
+Overfull \hbox (32.90471pt too wide) in paragraph at lines 6--6
+ [] 
+ []
+
+)) (../Ch-solids/Ch-solidsProblems.tex [23 <../Ch-solids/figure21.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6013,7 +5973,7 @@ lable
 Package mdframed Info: Not enough space on this page on input line 12.
 
 
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 23 undefined on input line 1
+LaTeX Warning: Reference `mdf@pagelabel-1' on page 24 undefined on input line 1
 2.
 
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
@@ -6032,9 +5992,20 @@ Underfull \hbox (badness 8038) in paragraph at lines 77--77
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[23
+[24
 
-] [24] [25]
+] [25] (./problems/problems/Problems-Heating-curves
+<../Ch-solids/figure22.png, id=394, 377.41pt x 373.395pt>
+File: ../Ch-solids/figure22.png Graphic file (type png)
+<use ../Ch-solids/figure22.png>
+Package pdftex.def Info: ../Ch-solids/figure22.png  used on input line 11.
+(pdftex.def)             Requested size: 192.74721pt x 190.69672pt.
+<../Ch-solids/figure23.png, id=395, 389.455pt x 357.335pt>
+File: ../Ch-solids/figure23.png Graphic file (type png)
+<use ../Ch-solids/figure23.png>
+Package pdftex.def Info: ../Ch-solids/figure23.png  used on input line 32.
+(pdftex.def)             Requested size: 192.74219pt x 176.84592pt.
+) [26 <../Ch-solids/figure22.png> <../Ch-solids/figure23.png>]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -6067,19 +6038,20 @@ Missing character: There is no ; in font nullfont!
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <12> not avai
 lable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
- line 873.
+ line 871.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 865--875
+Overfull \hbox (15.0pt too wide) in paragraph at lines 863--873
 []$[]$ 
  []
 
-[26
+[27
 
 ])
 
@@ -6124,13 +6096,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5391.
  ) 
 Here is how much of TeX's memory you used:
- 82889 strings out of 493014
- 1860825 string characters out of 6133351
- 2841037 words of memory out of 5000000
- 84422 multiletter control sequences out of 15000+600000
+ 82893 strings out of 493014
+ 1861873 string characters out of 6133351
+ 2838235 words of memory out of 5000000
+ 84392 multiletter control sequences out of 15000+600000
  302703 words of font info for 382 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,22n,116p,10369b,2436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,22n,116p,10369b,2443s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/paratype/ptsans_t1.enc}{/
 usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texl
 ive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/t
@@ -6166,10 +6138,10 @@ ve/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (26 pages, 14289332 bytes).
+Output written on main.pdf (27 pages, 14401529 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 395 compressed objects within 4 object streams
- 145 named destinations out of 1000 (max. 500000)
- 83488 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 408 compressed objects within 5 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 83503 words of extra memory for PDF output out of 89155 (max. 10000000)
 

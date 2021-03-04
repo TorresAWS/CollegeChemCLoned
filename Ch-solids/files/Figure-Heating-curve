@@ -1,0 +1,6 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+\begin{tikzpicture}
+\node (a) at (0,0) {\includegraphics[width=13cm]{../Ch-solids/figure21}};
+ \node[text width=13cm, fontscale=.3, shift={(0em,-10em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Temperature curves when heat is added (left) and removed (right) };
+\end{tikzpicture}\end{center}
