@@ -1,0 +1,5 @@
+The formula that related the amount of radioisotope with $t_{1/2}$ is:
+\begin{equation} \boxed{    N(t)=N_o\cdot 0.5^{\big(\dfrac{t}{t_{1/2}}\big)}  } \label{formula4:1}\end{equation}
+where $N(t)$ is the amount of isotope at a given time $t$, $N_o$ is the initial amount of isotope, $t$ is the time and $t_{1/2}$  is the half-life. $N(t)$ is often referred as the activity of the radioisotope at a give time $t$. At the same time, while the radioisotope disappear, a new isotope--this time more stable than the radioisotope--starts forming. The amount of product formed $F(t)$ at a given time is:
+\begin{equation} \boxed{    F(t)=N_o\cdot \Big[1-0.5 ^{\big(\dfrac{t}{t_{1/2}}\big)} \Big] } \label{formula4:2}\end{equation}
+

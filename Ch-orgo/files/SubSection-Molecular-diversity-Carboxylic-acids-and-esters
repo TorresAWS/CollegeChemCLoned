@@ -1,0 +1,6 @@
+Carboxylic acids contain a carbonyl group (\ce{C=O}) connected to an hydrocarbon and also an alcohol group:
+\begin{center}\chemfig{R-C(=[:90]O)(-OH)}\hspace{0.5cm}\textcolor{blue}{Carboxylic acid}\end{center}
+Esters have the same \ce{C=O} group but this time bounded to a carbon (R) and an ether group (\ce{-O-R^{'}}). 
+\begin{center}\chemfig{R-C(=[:90]O)-O-R'}\hspace{0.5cm}\textcolor{blue}{Ester}\end{center}
+Examples of carboxylic acids and esters are:
+\begin{center}\chemname{\chemfig{CH_3-C(=[:90]O)(-OH)}}{Carboxylic acid}\hspace{1cm} or \hspace{1cm}\chemname{\chemfig{CH_3-C(=[:90]O)-O-CH_3}  }{Esters}\end{center}

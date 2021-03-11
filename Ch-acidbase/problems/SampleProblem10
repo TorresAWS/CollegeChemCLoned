@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The PH of a solution is 4.5. Calculate the proton concentration of that solution.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Equation \ref{\chapterlabel:equation6}, given PH and asking $\big[ \ce{H^+} \big]$.
+\begin{equation*}
+\big[\ce{H^+}\big]=\textrm{\Large 10}^{-PH}  =\textrm{\Large 10}^{-4.5} 
+ \end{equation*}
+and the results is $3.16\cdot 10^{-5}$M.
+\\
+\import{./}{StudyCheck10}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

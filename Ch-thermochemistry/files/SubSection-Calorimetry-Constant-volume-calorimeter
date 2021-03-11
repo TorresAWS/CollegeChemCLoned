@@ -1,0 +1,26 @@
+A constant-volume calorimeter--also know as a bomb calorimeter--is a more complex and costly calorimeter in which normally gas phase reactions occur. This type of calorimeters are rigid and even if gas is produced the volume of the container will not change--that is why is called a constant-volume calorimeter. Constant-volume calorimeters are used to calculate the energy value of food--and for example calculate the calories in a bag of chips. 
+The formula to cary calorimetric calculations with a constant-volume calorimeter has three terms: the first term represents the energy exchanged due to the reaction, the second term represents the energy exchanged by water in the calorimeter, and the last term represents the heat exchanged by the walls of the calorimeter. The formula used in a constant-volume calorimeter is the following: 
+\begin{equation*}\begin{split}
+ 0=n\cdot\Delta Q_{r}+\Delta Q_{water}+\Delta Q_{walls} 
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $n\cdot\Delta Q_{r}$   is the heat exchanged due to a chemical reaction
+\item $\Delta Q_{water}$    is the heat received or released by water 
+ \item $\Delta Q_{walls}$   is the heat absorbed by the walls
+\end{where}
+
+%    
+\begin{equation*}\begin{split}
+\boxed{  0=n\cdot\Delta Q_{r}+m\cdot c_{e}^{\ce{H2O}}\cdot  (T_{f}-T_{i})   +c^{cal}\cdot  (T_{f}-T_{i})   } \quad \textcolor{blue}{\text{Constant-volume}}
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $\Delta Q_{r}$   is the heat exchanged due to a chemical reaction in $J/mol$
+  \item $n$   is the number of moles reacted inside the calorimeter
+\item $m$ is the mass of water contained in the calorimeter 
+ \item $c_{e}^{\ce{H2O}}$  is the specific heat absorbed of water: $4.184 \text{J}/\text{g}^{\circ}\text{C}$
+  \item $c^{cal}$  is the heat capacity of the calorimeter also known as calorimeter factor
+\item $T_{f}-T_{i}=\Delta T$, is the temperature change from the initial to the final temperature
+\end{where}
+

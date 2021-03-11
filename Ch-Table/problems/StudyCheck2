@@ -1,0 +1,11 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the number of protons, neutrons and electrons of the following atoms:
+\begin{multicols}{3}
+\begin{enumerate}[label=(\alph*)]
+\item \ce{^{32}_{16}S} 
+\item \ce{^{34}_{16}S} 
+\item \ce{^{36}_{16}S} 
+\end{enumerate}\end{multicols}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) 16p, 16e and 16n; (b) 16p, 16e and 18n; (a) 16p, 16e and 20n. 
+ \end{flushright} }

@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the number of moles of water produced by 4 moles of oxygen. 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+
+Answer: 8 moles.
+ \end{flushright} }

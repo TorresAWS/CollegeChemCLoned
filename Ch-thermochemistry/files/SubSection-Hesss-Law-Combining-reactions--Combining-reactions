@@ -1,0 +1,20 @@
+Imagine they give you the following two reactions:
+\begin{center}
+\begin{tabular}{ r l r }
+\ce{C_{(s)} + O2_{(g)}  & -> \: CO2_{(g)}}&$\qquad \Delta H_1=-393KJ$ \\
+\ce{H2_{(g)} + 1/2 O2_{(g)} & -> \: H2O_{(l)}}&$\qquad \Delta H_2=-286KJ$ \\
+ \end{tabular}
+ \end{center}
+ and the ask the enthalpy change for the following reaction:
+\begin{center}\ce{ C_{(s)} + H2_{(g)} +3/2 O2_{(g)}  -> CO2_{(g)} + H2O_{(l)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_3$\end{center}
+If you look closely to the last reaction, you will see it results from adding the first two reactions, so that:
+\begin{center}
+\begin{tabular}{ r l r }
+\ce{C_{(s)} + O2_{(g)}  & -> \: CO2_{(g)}}&$\qquad \Delta H_1=-393KJ$ \\
+\ce{H2_{(g)} + 1/2 O2_{(g)} & -> \: H2O_{(l)}}&$\qquad \Delta H_2=-286KJ$ \\
+\multicolumn{3}{r}{} \rule{13cm}{0.4pt}\\
+Sum: \ce{C_{(s)} + H2_{(g)} +3/2 O2_{(g)}  &-> \: CO2_{(g)} + H2O_{(l)}} &$\qquad \Delta H_3$\\
+ \end{tabular}
+ \end{center}
+Therefore, $\Delta H_3=\Delta H_1+\Delta H_2=-679KJ$. When adding two chemical reactions the resulting enthalpy is the result of adding the enthalpy of both reactions.
+

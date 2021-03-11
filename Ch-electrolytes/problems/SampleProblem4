@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A NaCl solution is prepared by mixing 4g of \ce{NaCl} with 50g of \ce{H2O}. Calculate the percent (m/m) of the solution.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We need the grams of solute and the grams of solution. The grams of solute are given (4g of \ce{NaCl}), whereas the grams of solution result from adding the grams of solvent and solute: 54 g of solution. Using the formula for the percent (m/m), he have:
+\begin{equation*}
+ m/m=\frac{\text{4 g of solute}}{\text{54 g of solution}}\times 100=7.4\% 
+\end{equation*}
+This means that by mixing 4g of \ce{NaCl} with 50g of \ce{H2O} you prepare a $7.4\%$ (m/m) solution.
+\\
+ \import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

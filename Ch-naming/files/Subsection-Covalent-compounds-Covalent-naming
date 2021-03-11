@@ -1,0 +1,7 @@
+\item[\docfilehook{Covalent naming}{}] In order to name a covalent compound you need to (a) use the name of the first element in the compound, (b) use the first syllable of the second element, and (c) finish the name of the molecule in the suffix \emph{-ide}. More importantly, you need to use prefixes that indicate the number of atoms in the molecule. See Table \ref{fig:naming1} for a list of the different equivalencies between prefixes and number.  As an example, the formula \ce{CH4} is named as carbon tetrahydride. Similarly, a covalent chemical name can be translated into a formula (we call this to formulate a chemical with a given name), and the formula for carbon monoxide would be \ce{CO}. When the vowels \emph{a} and \emph{o} appear together, the first vowel is omitted as in carbon monoxide instead of carbon \sout{monooxide}. Another example would be \ce{N2O} named as dinitrogen oxide, and the name sulfur hexafluoride corresponds to the formula \ce{SF6}. The prefix mono is omitted in the first element of the name, and for example you will not name the chemical \ce{CO} as \sout{monocarbon} monoxide, you would just say carbon monoxide. A final example of a covalent compound:
+ \begin{namingbox} {}
+  \ce{N2O5}\hfill dinitrogen pentoxide 	\hfill   \ce{BCl3} \hfill Boron trichloride  \\
+%    \ce{Mn3(BO3)2}\hfill Manganese(II) borate 	\hfill   \ce{Mn(H2BO3)2}\hfill Manganese(II) dihydrogenborate ({\small hydrosalt}) 
+\end{namingbox}
+
+

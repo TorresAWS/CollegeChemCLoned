@@ -1,0 +1,8 @@
+We indicate redox numbers with roman number on top of the element. For example the redox number of manganese in this compound is $+7$: \ce{{\underline{Mn\textsuperscript{VII}}}O4^-}. The redox number can be a non integer number. There is five rules to identify the redox number of an element. 
+\begin{itemize} 
+ \item[\faCodeFork] \begin{bf}Rule 1 \end{bf} Single atoms or elements have zero redox number. Examples are \ce{Na} or \ce{H2}, both with redox zero. 
+  \item[\faCodeFork]  \begin{bf}Rule 2  \end{bf} Monoatomic ions have redox number equal to their charge. Examples are \ce{Na^+} or \ce{Cl^-} with redox $+1$ and $-1$, respectively. 
+ \item[\faCodeFork]  \begin{bf}Rule 3  \end{bf} The redox number of fluorine is $-1$ 
+  \item[\faCodeFork] \begin{bf}Rule 4  \end{bf}The redox number of hydrogen on its covalent (e.g. \ce{H2O}) compounds is $+1$. 
+   \item[\faCodeFork]  \begin{bf}Rule 5  \end{bf} The redox number of oxygen in normal oxides (e.g. \ce{MgO}) is normally $-2$, with the exception of peroxides (e.g. \ce{H2O2}) in which is $-1$.
+ \end{itemize}

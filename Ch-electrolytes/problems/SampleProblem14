@@ -1,0 +1,29 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Balance the following redox in acidic medium:
+\begin{center}\ce{ Cr2O7^{2-} + SO3^{2-}  -> Cr^{3+}  + SO4^{2-}}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We locate the same element in both sides of the reaction with different redox number. We found Chromium in the form of dichromate (\ce{Cr2O7^{2-}}) with redox number $\text{VI}$ and Chromium in the product side with redox $\text{III}$. Therefore Chromium is being reduced, as its redox number decreases. Differently, we found sulphur in the reactants side in the form of sulfite (\ce{SO3^{2-}}) with redox number of $\text{IV}$ and in the product side with redox number of $\text{VI}$. Therefore Sulphur is being oxidized. We will first set up the oxidation half-reaction knowing that we have different amounts of \ce{Cr} in both side and that we will have to add water molecules to balance \ce{O} and protons to balance  \ce{H}. As we have seven oxygens in \ce{Cr2O7^{2-}} we will have to add seven water molecules. Also, as we add seven water molecules we will have to add fourteen protons. We will need six electrons to compensate the charge:
+\begin{center}\ce{ Cr2O7^{2-} + 14 H^+ + 6 e^- ->  2Cr^{3+} + 7 H2O     \textcolor{red}{ (reduction) }   }\end{center}
+For the reduction half-reaction, we have a difference of one oxygen atoms and hence we will need one water molecule and two protons; we will need two electrons to compensate the charge:
+\begin{center}\ce{ SO3^{2-} + H2O   ->  SO4^{2-} + 2 H^+ + 2 e^-    \textcolor{red}{ (oxidation) }   }\end{center}
+In order to add both half-reactions as the reduction involves two electrons and the oxidation six, we will have to multiply the reduction half-reaction by three:
+ \begin{center}
+$1\cdot \big($ \ce{ Cr2O7^{2-} + 14 H^+ + 6 e^- ->  2 Cr^{3+} + 7 H2O  } $\big)$ \hspace*{0pt}\hfill  \textcolor{red}{ (reduction) }\\
+ $3\cdot \big($\ce{ SO3^{2-} + H2O   ->  SO4^{2-} + 2 H^+ + 2 e^- }$\big)$  \hspace*{0pt}\hfill  \textcolor{red}{ (oxidation) } \\
+\rule{10.5cm}{0.4pt}$+$\\
+{\raggedleft \ce{  Cr2O7^{2-} + 14 H^+ + 3 SO3^{2-} + 3 H2O + \Cancel{6 e^-}   -> } \hspace*{0pt}\hfill  \textcolor{green}{ (redox) } }  \\ 
+\hspace*{\fill}
+\ce{2 Cr^{3+} + 7 H2O  + 3 SO4^{2-} + 6 H^+ + \Cancel{6 e^-}    }
+ \end{center}
+After we cancel the electrons and eliminate protons and water molecules, the balanced reaction is:
+\vspace{0.5cm}
+ \begin{reaction*}
+    8 H^+\aq{} +  "\OX{r11,\ox*{+6,Cr2}}" O7^2-  \aq{}  + 3 "\OX{o11,\ox*{+4,S}}" O3^2- \aq{} 
+    ->
+  3 "\OX{o12,\ox*{+6,S}}" O4^2- \aq{} + 2 "\OX{r12,\ox*{+3,Cr^3+}}" \aq{} 
+  "\redox(o11,o12)[->]{\small Oxidation: $- 2\el$}"
+  "\redox(r11,r12)[->][-1]{\small Reduction: $+ 3\el$}"
+\end{reaction*}\hspace*{\fill}\ce{+ 7 H2O_{(l)}}
+\vspace{0.5cm}\\
+ \import{./}{StudyCheck14}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

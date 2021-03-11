@@ -1,0 +1,7 @@
+\begin{example} % EXAMPLE BOX
+Indicate the number of significant figures in the following numbers: 123, 4567, 1200, 340, 0.001, 0.023 and 0.0405.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+123 has three significant figures, whereas 4567 has four SF. 1200 has only 2SF as the last two zeros are not significant, and 340 has only 2SF as the last zero is not significant. $0.001$ has only one significant figure as the first 3 zeros are not significant and $0.023$ has only two SFs. Finally, $0.0405$ has threee SFs as the first two zeros are not significant but the zero between 4 and 5 is indeed significant.\\
+\import{./}{StudyCheck8}
+\end{example}% EXAMPLE BOX ALTERNATIVE

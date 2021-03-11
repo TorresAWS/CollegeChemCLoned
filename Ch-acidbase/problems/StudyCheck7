@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Write down the dissociation reaction using double arrows for the following chemicals: \ce{HI_{(g)}} and \ce{HClO2_{(l)}}.
+\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{HI_{(g)} <=>[H2O] H^+_{(aq)} +I^{-}_{(aq)}} and \ce{HClO2_{(l)} <=>[H2O] H^+_{(aq)} +ClO2^{-}_{(aq)}}.
+ \end{flushright} }
+

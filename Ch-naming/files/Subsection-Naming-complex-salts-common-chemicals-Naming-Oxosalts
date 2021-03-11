@@ -1,0 +1,6 @@
+\item[\docfilehook{Naming Oxosalts}{}] 
+The names of the oxosalts are constructed by combining the name of the first element--you need to specify its charge in the case of a transition metal element with different possible charges--followed by the name of the oxosalt from Table \ref{tab:{\chapterlabel}\thetablenewcounter}. For example, the name of \ce{MgSO4} is magnesium sulfate, as \ce{Mg^{2+}} is magnesium and \ce{SO4^{2-}} is sulfate. Another example is\ce{Fe2(CO3)3} called Iron(III) carbonate. A final example:
+ \begin{namingbox} {}
+  \ce{NO3^{-}}\hfill Nitrate 	\hfill   \ce{LiNO3} \hfill Litium nitrate ({\small oxosalt})\\
+%    \ce{Mn3(BO3)2}\hfill Manganese(II) borate 	\hfill   \ce{Mn(H2BO3)2}\hfill Manganese(II) dihydrogenborate ({\small hydrosalt}) 
+\end{namingbox}

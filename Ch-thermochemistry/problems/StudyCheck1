@@ -1,0 +1,12 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Convert the following energy units:
+\begin{multicols}{2}
+\begin{enumerate}[label=(\alph*)]
+\item 200 cal to Kcal
+\item 7000 J to cal
+\end{enumerate}
+\end{multicols}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: (a) 0.2Kcal; (b) 1673 cal.
+ \end{flushright} }
+

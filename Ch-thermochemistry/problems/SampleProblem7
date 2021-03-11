@@ -1,0 +1,35 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+We mix 5mL of \ce{NaOH} 0.5M with 5mL of \ce{HCl} 0.5M both at 25$^{\circ}$C in a constant-pressure calorimeter. The final temperature inside the calorimeter is 27$^{\circ}$C. Calculate the heat of reaction if the solution density is 1g/mL and the specific heat of the solution is 4.184$\text{J}/^{\circ}\text{C}$.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$n=5\times 10^{-3}L\cdot 0.5M$=2.5$\times 10^{-3}$moles\\
+$V=10mL$\\
+$d=1g/mL$\\
+$T_{f}=27^{\circ}C$\\
+$T_{i}=25^{\circ}C$\\
+$c_{e}^{\ce{H2O}}=\\4.184 \text{J}/\text{g}^{\circ}\text{C}$\\
+\tcbitem[swotbox = A]
+$\Delta Q_{r}$\\
+\end{tcbitemize}%%% DATA BOX
+We have all data needed to solve the calorimetry formula. We have the moles of the limiting reagent, the overall volume of the mixture, the density of the mixture, the temperature change and the specific heat of the solution. Plugging all values into the calorimetry formula we have:\\
+\begin{equation*}\begin{split}
+ 0=n\cdot\Delta Q_{r}+V\cdot d\cdot  c_{e}^{\ce{sol}}\cdot  (T_{f}-T_{i})      \\
+0=2.5\times 10^{-3}mol\cdot\Delta Q_{r}+10g\cdot 4.184 \text{J}/\text{g}^{\circ}\text{C}\cdot  (27^{\circ}C-25^{\circ}C)  \\
+ \end{split}\end{equation*}
+Solving for $\Delta Q_{r}$ we obtain $-33472J/mol$ that is the same as $-33.5KJ/mol$. As the value is negative, it means that the reaction produced energy and hence is exothermic.
+\\
+
+\import{./}{StudyCheck7}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

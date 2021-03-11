@@ -1,0 +1,302 @@
+%%%%%%%%%%%%%%%ENTHALPY TABLES%%%%%%%%%%%
+\newpage\begin{fullwidth}
+\vspace{-0cm}\hspace{-1cm}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+
+ \begin{minipage}[b]{1.3\linewidth}\resizebox{0.5\textwidth}{!}{
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\rowcolor{black!45}
+\toprule
+
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Standard enthalpy table at 1atm and 298K in KJ/mol.} \\
+
+
+
+
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ &   & Substance  & $\Delta H_f^{\circ}$ && Substance & $\Delta H_f^{\circ}$  \\
+\midrule
+\rowcolor{black!15}Aluminum &         &      &      & & &      &       \\
+\ce{Al_{(s)}} &	0 && \ce{AlCl3_{(s)}}	&-705.63&& \ce{Al2O3_{(s)}}&	-1675.5 \\
+\ce{Al(OH)3_{(s)}}&	-1277&& \ce{Al2(SO4)3_{(s)}}&	-3440&& \ce{NH3_{(aq)}} &	-80.8 \\
+\ce{NH3_{(g)}}&	-46.1&& \ce{NH4NO3_{(s)}}& -365.6 & &\ce{Al_{(g)}} &314  \\
+\rowcolor{black!15}Barium &         &      &      & & &      &       \\
+\ce{BaCl2_{(s)}}	&-858.6 && \ce{BaCO3_{(s)}}	&-1213&& \ce{Ba(OH)2_{(s)}}	&-944.7\\
+	\ce{BaO_{(s)}}	 &-548.1&& \ce{BaSO4_{(s)}}	&-1473.2&& \ce{BaSO4_{(s)}}	&-1473.2\\
+
+
+\rowcolor{black!15}Boron&         &      &      & & &      &       \\
+	 	 \ce{BCl3_{(s)}}&	-402.96& &
+&&&
+&\\
+
+\rowcolor{black!15}Bromine&         &      &      & & &      &       \\
+	 \ce{Br2_{(l)}}&	0& &
+	\ce{Br-_{(aq)}}&	-121& &
+	 \ce{Br_{(g)}}&	111.884\\
+	 \ce{Br2_{(g)}}	&30.91& &
+	 \ce{BrF3	_{(g)}}&-255.60& &
+	 \ce{HBr_{(g)}}&	-36.29\\
+	 %
+
+\rowcolor{black!15}Cadmium&         &      &      & & &      &       \\
+	 \ce{Cd_{(s)}}&	0& &
+	 \ce{CdO_{(s)}}&	-258& &
+	 \ce{Cd(OH)2_{(s)}}&	-561\\
+	 \ce{CdS_{(s)}}&	-162& &
+	 \ce{CdSO4_{(s)}}&	-935& &
+&\\
+
+
+\rowcolor{black!15}Calcium&         &      &      & & &      &       \\
+	 \ce{Ca_{(s)}}&	0& &
+	 \ce{Ca_{(g)}}&	178.2& &
+	 \ce{Ca^{2+}_{(g)}}&	1925.90\\
+	 \ce{CaC2_{(s)}}	&-59.8& &
+	 \ce{CaCO3_{(s)}}&	-1206.9& &
+	 \ce{CaCl2_{(s)}}	&-795.8\\
+	 \ce{CaCl2_{(aq)}}&	-877.3& &
+	 \ce{Ca3(PO4)2_{(s)}}&	-4132& &
+	 \ce{CaF2_{(s)}}&	-1219.6\\
+	 \ce{CaH2_{(s)}}&	-186.2& &
+	 \ce{Ca(OH)2_{(s)}}&	-986.09& &
+	 \ce{Ca(OH)2_{(aq)}}	&-1002.82\\
+	 \ce{CaO_{(s)}}&	-635.09& &
+	 \ce{CaSO4_{(s)}}&	-1434.52& &
+	 \ce{CaS_{(s)}}&	-482.4\\
+	 \ce{CaSiO3_{(s)}}&	-1630& &
+&&&
+&\\
+
+\rowcolor{black!15}Caesium&         &      &      & & &      &       \\
+	 \ce{Cs_{(s)}}&	0& &
+	 \ce{Cs_{(g)}}&	76.50& &
+ \ce{Cs_{(l)}}&	2.09\\
+	 \ce{Cs^+_{(g)}}&	457.964& &
+	 \ce{CsCl_{(s)}}&	-443.04& &
+&\\
+\rowcolor{black!15}Carbon&         &      &      & & &      &       \\
+	 \ce{C_{graphite}_{(s)}}&	0& &
+	 \ce{C_{diamond}_{(s)}}&	1.9& &
+ \ce{C_{(g)}}&	716.67\\
+	 \ce{CO2_{(g)}}&	-393.509& &
+	 \ce{CS2_{(l)}}	&89.41& &
+ \ce{CS2_{(g)}	}&116.7\\
+	 \ce{CO_{(g)}}&	-110.525& &
+	 \ce{COCl2_{(g)}}&	-218.8& &
+	 \ce{CO2_{(aq)}}	&-419.26\\
+ \ce{HCO3^-_{(aq)}}	&-689.93& &
+	 \ce{CO3^2-_{(aq)}}&	-675.23& &
+&\\
+
+\rowcolor{black!15}Chlorine&         &      &      & & &      &       \\
+	 \ce{Cl_{(g)}}&	121.7& &
+ \ce{Cl-_{(aq)}}&	-167.2& &
+	 \ce{Cl2_{(g)}}	&0\\
+
+\rowcolor{black!15}Chromium&         &      &      & & &      &       \\
+	 \ce{Cr_{(s)}}&	0& &
+&&&
+&\\
+
+\rowcolor{black!15}Copper&         &      &      & & &      &       \\
+	 \ce{Cu_{(s)}}&	0& &
+	 \ce{CuO_{(s)}}&	-155.2& &
+	 \ce{CuSO4_{(aq)}}&	-769.98\\
+
+\rowcolor{black!15}Fluorine&         &      &      & & &      &       \\
+	 \ce{F2_{(g)}}&	0& &
+&&&
+&\\
+
+\rowcolor{black!15}Hydrogen&         &      &      & & &      &       \\
+	 \ce{H_{(g)}}&	218& &
+	 \ce{H2_{(g)}}&	0& &
+ \ce{H2O_{(g)}}&	-241.818\\
+	 \ce{H2O_{(l)}}&	-285.8& &
+	 \ce{H^{+}_{(aq)}}&	0& &
+	 \ce{OH^-_{(aq)}}&	-230\\
+	 \ce{H2O2}&	-187.8& &
+	 \ce{H3PO4_{(l)}}&	-1288& &
+	 \ce{HCN_{(g)}}&	130.5\\
+	 \ce{HBr_{(l)}}&	-36.3& &
+	 \ce{HCl_{(g)}}&	-92.30& &
+	 \ce{HCl_{(aq)}}&	-167.2\\
+	 \ce{HF_{(g)}}&	-273.3& &
+	 \ce{HI_{(g)}}&	26.5& &
+&\\
+\rowcolor{black!15}Iodine&         &      &      & & &      &       \\
+	 \ce{I2_{(s)}}&	0& &
+	 \ce{I2_{(g)}}&	62.438& &
+	 \ce{I2_{(aq)}}&	23\\
+	 \ce{I^{-}_{(aq)}}&	-55& &
+&&&
+&\\
+\bottomrule
+\end{tabular}
+ 
+
+ }\end{minipage}
+\end{fullwidth}
+
+
+\vspace{-10cm}\hspace{2cm}
+\begin{fullwidth}
+ \begin{minipage}[b]{1.4\linewidth}\resizebox{0.5\textwidth}{!}{
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\toprule
+\multicolumn{8}{l}{(cont.) Standard enthalpy table at 1atm and 298K.}   \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ &   & Substance  & $\Delta H_f^{\circ}$ && Substance & $\Delta H_f^{\circ}$  \\
+\midrule
+\rowcolor{black!15}Iron&         &      &      & & &      &       \\
+	\ce{Fe_{(s)}}&	0& &
+	 \ce{Fe3C_{(s)}}&	5.4& &
+	 \ce{FeCO3_{(s)}}&	-750.6\\
+	 \ce{FeCl3_{(s)}}&	-399.4& &
+ \ce{FeO_{(s)}}&	-272& &
+	 \ce{Fe3O4_{(s)}}&	-1118.4\\
+	 \ce{Fe2O3_{(s)}}&	-824.2& &
+	 \ce{FeSO4_{(s)}}&	-929& &
+	 \ce{Fe2(SO4)3_{(s)}}&	-2583\\
+	 \ce{FeS_{(s)}}&	-102& &
+	 \ce{FeS2_{(s)}}&	-178& &
+&\\
+
+\rowcolor{black!15}Lead&         &      &      & & &      &       \\
+	 \ce{Pb_{(s)}}&	0& &
+ \ce{PbO2_{(s)}}&	-277& &
+	 \ce{PbS_{(s)}}&	-100\\
+	 \ce{PbSO4_{(s)}}&	-920& &
+	 \ce{Pb(NO3)2_{(s)}}&	-452& &
+	 \ce{PbO_{(s)}}&	-276.6\\
+	 %
+\rowcolor{black!15}Magnesium&         &      &      & & &      &       \\
+ \ce{Mg_{(s)}}&	0& &
+ \ce{Mg^{2+}_{(aq)}}&	-466.85& &
+	 \ce{MgCO3_{(s)}}&	-1095.7\\
+	 \ce{MgO_{(s)}	}&-601.6& &
+	 \ce{MgSO4_{(s)}}&	-1278.2& &
+\ce{MgCl2_{(s)}}&	-641.8\\
+
+\rowcolor{black!15}Manganese&         &      &      & & &      &       \\
+ \ce{Mn_{(s)}}	&0& &
+	 \ce{MnO	_{(s)}}&-384.9& &
+	 \ce{MnO2_{(s)}}	&-519.7\\
+	 \ce{Mn2O3_{(s)}}&	-971& &
+	 \ce{Mn3O4_{(s)}}&	-1387& &
+ \ce{MnO4-_{(aq)}}	&-543\\
+
+\rowcolor{black!15}Mercury&         &      &      & & &      &       \\
+	 \ce{HgO_{(s)}}&	-90.83& &
+	 \ce{HgS_{(s)}}&	-58.2& &
+&\\
+
+\rowcolor{black!15}Nitrogen&         &      &      & & &      &       \\
+	 \ce{N2_{(g)}}&	0& &
+ \ce{NH3_{(aq)}}	&-80.8& &
+ \ce{NH3_{(g)}}&	-45.90\\
+	 \ce{NH4Cl}&	-314.55& &
+	 \ce{NO2_{(g)}}&	33.2& &
+	 \ce{N2O_{(g)}}&	82.05\\
+	 \ce{NO_{(g)}}&	90.29& &
+	 \ce{N2O4_{(g)}}	&9.16& &
+	 \ce{N2O5_{(s)}}&	-43.1\\
+
+\rowcolor{black!15}Oxygen&         &      &      & & &      &       \\
+	 \ce{O_{(g)}}&	249& &
+	 \ce{O2_{(g)}}&	0& &
+ \ce{O3_{(g)}}	&143\\
+
+\rowcolor{black!15}Phosphorus&         &      &      & & &      &       \\
+	 \ce{P4_{(s)}}&	0& &
+	 \ce{P_{red}_{(s)}}	&-17.4& &
+	 \ce{P_{black}_{(s)}}&	-39.3\\
+	 \ce{PCl3_{(l)}}&	-319.7& &
+ \ce{PCl3_{(g)}	}&-278& &
+	 \ce{PCl5_{(s)}}&	-440\\
+	 \ce{PCl5_{(g)}}& 	-321& &
+	 \ce{P2O5_{(s)}}&	-1505.5& &
+&\\
+
+\rowcolor{black!15}Potassium&         &      &      & & &      &       \\
+	 \ce{KBr_{(s)}}&	-392.2& &
+	 \ce{K2CO3_{(s)}}&	-1150& &
+	 \ce{KClO3_{(s)}}&	-391.4\\
+	 \ce{KCl_{(s)}}	&-436.68& &
+	 \ce{KF_{(s)}}&	-562.6& &
+	 \ce{K2O_{(s)}}&	-363\\
+	 \ce{KClO4_{(s)}}&	-430.12& &
+&&&
+&\\
+
+
+\rowcolor{black!15}Silicon&         &      &      & & &      &       \\
+	 \ce{Si_{(g)}	}& 368.2& &
+	 \ce{SiC_{(s)}}	&-74.4 & &
+	 \ce{SiCl4_{(l)}}&	-640.1\\
+	 \ce{SiO2_{(s)}}&	-910.86& &
+&&&
+&\\
+\rowcolor{black!15}Silver&         &      &      & & &      &       \\
+ \ce{AgBr_{(s)}}&	-99.5& &
+	 \ce{AgCl_{(s)}	}&-127.01& &
+	 \ce{AgI_{(s)}}	&-62.4\\
+	 \ce{Ag2O_{(s)}}&	-31.1& &
+	 \ce{Ag2S_{(s)}}&	-31.8& &
+&\\
+
+
+
+
+\rowcolor{black!15}Sodium&         &      &      & & &      &       \\
+	 \ce{Na_{(s)}}&	0& &
+\ce{Na_{(g)}}&	+107.5& &
+	 \ce{NaHCO3_{(s)}}&	-950.8\\
+	 \ce{Na2CO3_{(s)}}&	-1130.77& &
+ \ce{NaCl_{(aq)}}&	-407.27& &
+	 \ce{NaCl_{(s)}}&	-411.12\\
+ 
+ \ce{NaF_{(s)}}&	-569.0& &
+	 \ce{NaOH_{(aq)}}&	-469.15& &
+	 \ce{NaOH_{(s)}}	&-425.93\\
+
+	 \ce{Na2O_{(s)}}	&-414.2& &
+		&& &
+	&\\
+
+
+
+
+
+\rowcolor{black!15}Sulfur&         &      &      & & &      &       \\
+	 \ce{S8_{monoclinic}_{(s)}}&	0.3& &
+	 \ce{S8_{rhombic}_{(s)}}&	0& &
+	 \ce{H2S_{(g)}}&	-20.63\\
+ \ce{SO2_{(g)}}&	-296.84& &
+ \ce{SO3_{(g)}}&	-395.7& &
+\ce{H2SO4_{(l)}}&	-814\\
+
+\rowcolor{black!15}Titanium&         &      &      & & &      &       \\
+
+	 \ce{Ti_{(s)}}&	0& &
+ \ce{Ti_{(g)}}&	468& &
+ \ce{TiCl4_{(g)}}&	-763.2  \\
+ \ce{TiCl4_{(l)}}&	-804.2& &
+	 \ce{TiO2_{(s)}}&	-944.7& &
+&	\\
+
+\rowcolor{black!15}Zinc&         &      &      & & &      &       \\
+	 \ce{Zn_{(g)}}&	130.7& &
+	 \ce{ZnCl2_{(s)}}&	-415.1& &
+	 \ce{ZnO_{(s)}}&	-348.0  \\
+
+\bottomrule
+\end{tabular}
+ }\end{minipage}
+\end{fullwidth}
+%%%%%%%%%%%%%%%ENTHALPY TABLES%%%%%%%%%%%

@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Draw the skeletal formula of decane.
+ %\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ \begin{flushright} \mytriangleright{dgreen}\small Answer: \chemfig{-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]-[:-45]-[:45]}\end{flushright}}
+

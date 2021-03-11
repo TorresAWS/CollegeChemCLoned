@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the PH of a 0.02M  \ce{HCOONa} (sodium formate) solution. $K_a=1.8 \times 10^{-4}$
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Formate is the conjugate base of an weak acid, therefore it will be moderately basic. We will use \ref{\chapterlabel:equation10} given that $K_b=5.5 \times 10^{-11}$ and $c_b$=0.02M:
+\[ \big[ \ce{OH^-} \big]^2 +5.5 \times 10^{-11}\cdot \big[ \ce{OH^-} \big] -5.5 \times 10^{-12}=0 \]
+Solving for $\big[ \ce{OH^-} \big]$ and using only the positive root, we have $\big[ \ce{OH^-} \big]$=$2.3\times 10^{-6}$M and POH=5.63. The final answer would be: PH=8.36.
+\\
+\import{./}{StudyCheck13}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,16 @@
+ 
+
+ 
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Determine the density (g/mL) of a 0.01 L sample of a salt solution that has a mass of 50 g.
+\end{question}
+\begin{solution}
+$5g\cdot ml^{-1}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+ 
+
+
+

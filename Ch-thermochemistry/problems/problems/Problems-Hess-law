@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Using the following reactions:\\
+\begin{tabularx}{\columnwidth}{>{}m{.65\linewidth} *{2}{Y} }
+\multicolumn{2}{l}{\hspace{\linewidth} }   \\
+\multicolumn{2}{l}{\ce{2OF2_{(g)}    -> O2_{(g)}  +  2F2_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_1=-49KJ$  }    \\
+\multicolumn{2}{l}{\ce{2ClF_{(g)}  +  O2_{(g)}    ->  Cl2O_{(g)}  +  OF2_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_2=225KJ$   }    \\
+\multicolumn{2}{l}{\ce{ClF3_{(g)}  +  O2_{(g)}    ->  1/2Cl2O_{(g)}  +  3/2OF2_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_3=324KJ$   }    \\
+\end{tabularx}\\
+Determine the enthalpy change for:
+\begin{center}\ce{ ClF_{(g)} + F2_{(g)} -> ClF3_{(g)}}\end{center}\end{question}
+\begin{solution}
+-187KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Using the following reactions:\\
+\begin{tabularx}{\columnwidth}{>{}m{.65\linewidth} *{2}{Y} }
+\multicolumn{2}{l}{\hspace{\linewidth} }   \\
+\multicolumn{2}{l}{\ce{N2_{(g)} + 3H2_{(g)} -> 2NH3_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_1=-92KJ$  }    \\
+\multicolumn{2}{l}{\ce{C(s) + 2H2_{(g)} -> CH4_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_2=-75KJ$   }    \\
+\multicolumn{2}{l}{\ce{H2_{(g)} + 2C(s) + N2_{(g)} -> 2HCN_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_3=270KJ$   }    \\
+\end{tabularx}\\
+Determine the enthalpy change for:
+\begin{center}\ce{ CH4_{(g)} + NH3_{(g)} -> HCN_{(g)} + 3H2_{(g)}}\end{center}\end{question}
+\begin{solution}
+256KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Using the following reactions:\\
+\begin{tabularx}{\columnwidth}{>{}m{.65\linewidth} *{2}{Y} }
+\multicolumn{2}{l}{\hspace{\linewidth} }   \\
+\multicolumn{2}{l}{\ce{3C(s) + 3H2_{(g)} + 1/2 O2_{(g)} -> C3H6O_{(l)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_1=-285KJ$  }    \\
+\multicolumn{2}{l}{\ce{C(s) + O2_{(g)} -> CO2_{(g)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_2=-394KJ$   }    \\
+\multicolumn{2}{l}{\ce{H2_{(g)} + 1/2 O2_{(g)} -> H2O_{(l)} } }   \\
+\multicolumn{2}{r}{ $\Delta H_3=-286KJ$   }    \\
+\end{tabularx}\\
+Determine the enthalpy change for:
+\begin{center}\ce{ C3H6O_{(l)} + 4O2_{(g)} -> 3CO2_{(g)} + 3H2O_{(l)}}\end{center}\end{question}
+
+\begin{solution}
+-1755KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Using the following reactions:\\
+\begin{tabularx}{\columnwidth}{>{}m{.65\linewidth} *{2}{Y} }
+\multicolumn{2}{l}{\hspace{\linewidth} }   \\
+\multicolumn{2}{l}{\ce{2C2H6 + 7O2 -> 4CO2 + 6H2O	 } }   \\
+\multicolumn{2}{r}{ $\Delta H_1=-3120KJ$  }    \\
+\multicolumn{2}{l}{\ce{2H2 + O2 -> 2H2O } }   \\
+\multicolumn{2}{r}{ $\Delta H_2=-479KJ$   }    \\
+\multicolumn{2}{l}{\ce{2CO + O2 -> 2CO2 } }   \\
+\multicolumn{2}{r}{ $\Delta H_3=-566KJ$   }    \\
+\end{tabularx}\\
+Determine the enthalpy change for:
+\begin{center}\ce{ C2H6 + O2 -> 3H2 + 2CO}\end{center}\end{question}
+
+\begin{solution}
+-276KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+

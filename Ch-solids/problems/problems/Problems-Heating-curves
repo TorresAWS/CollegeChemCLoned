@@ -1,0 +1,40 @@
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following temperature diagram of a substance. Indicate if at the following points the substance is a solid, liquid or gas, or if we have several phases in contact (gas+liquid, liquid+solid).
+    \begin{inparaenum}[(a)]
+\item Point A
+\item Point D
+\item Point G
+\end{inparaenum} 
+   \begin{center}\includegraphics[width=0.4\textwidth]{../Ch-solids/figure22}\end{center}
+
+    \end{question}
+\begin{solution}
+    \begin{inparaenum}[(a)]
+\item s
+\item l
+\item g
+\end{inparaenum} 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ 
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following temperature diagram of a substance. Indicate if at the following points the substance is a solid, liquid or gas, or if we have several phases in contact (gas+liquid, liquid+solid).
+    \begin{inparaenum}[(a)]
+\item Point A
+\item Point D
+\item Point G
+\end{inparaenum} 
+   \begin{center}\includegraphics[width=0.4\textwidth]{../Ch-solids/figure23}\end{center}
+
+    \end{question}
+\begin{solution}
+    \begin{inparaenum}[(a)]
+\item s
+\item l
+\item s
+\end{inparaenum} 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

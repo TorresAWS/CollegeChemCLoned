@@ -1,0 +1,25 @@
+Waxes and animal fat are the results of a reaction between fatty acids and alcohols. Waxes are ester of a fatty acid produced by mixing a fatty acid with  long chain alcohols. Waxes are found in animals and plants. Plants secrete waxes in order to control evaporation, reduce wettability and increase hydration.
+The most important commercial plant wax is carnauba wax, a hard wax obtained from Brazilian palm employed for example in car and furniture polish, floss coating, and surfboard wax. 
+Animal fat is also known as triacylglycerols as they result of the reaction between fatty acids and glycerol, an alcohol with three carbon atoms. Animals store energy in the form of fat. For example, during hibernation they survive by consuming fat.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.4\textwidth}}
+\chemfig{[2]([0]-OH)-[,1.7]([0]-OH)-[,1.7]([0]-OH)}&
+$+$&
+3\setpolymerdelim()\chemfig{HO-[:45,1](=[:90,.8]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{A}{B}&
+\schemestart\arrow{-U>[\footnotesize ][\footnotesize \ce{3H2O}][][.25]}[,1.]\schemestop&
+\setpolymerdelim()\chemfig{[2]([0]-O-[:45,1](=[:90,.8]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1])-[,1.7]([0]-O-[:45,1](=[:90,.8]O)-[@{C,0.5}:-45,1]-[:45]-[@{D,0.5}:-45,1])-[,1.7]([0]-O-[:45,1](=[:90,.8]O)-[@{E,0.5}:-45,1]-[:45]-[@{F,0.5}:-45,1])}
+\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{A}{B}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{C}{D}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{E}{F}
+\tabularnewline\addlinespace
+\textcolor{blue}{Glycerol} && \textcolor{blue}{Fatty acids} && \textcolor{blue}{triacylglycerol}\tabularnewline
+\end{tabular*}\end{center}
+Soap results from the treatment of fat with a strong base such as \ce{NaOH} or \ce{KOH}. Due to this basic treatment fats break down into glycerol and a salt of the fatty acid. Soaps are indeed salts of fatty acids. Depending on the nature of the base employed in the saponification and the nature of the oil one can produce solid or more more liquid soaps. 
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.2\textwidth}}
+\setpolymerdelim()\chemfig{[2]([0]-O-[:45,1](=[:90,.8]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1])-[,1.7]([0]-O-[:45,1](=[:90,.8]O)-[@{C,0.5}:-45,1]-[:45]-[@{D,0.5}:-45,1])-[,1.7]([0]-O-[:45,1](=[:90,.8]O)-[@{E,0.5}:-45,1]-[:45]-[@{F,0.5}:-45,1])}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{A}{B}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{C}{D}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{E}{F}&
+\schemestart\arrow{-U>[\footnotesize \ce{3NaOH}][\footnotesize ][][.25]}[,1.]\schemestop&
+\chemfig{[2]([0]-OH)-[,1.7]([0]-OH)-[,1.7]([0]-OH)}&
+$+$&
+3\setpolymerdelim()\chemfig{(Na-[:90,0.6,,,draw=none]\scriptstyle\oplus)-[:0,1,,,draw=none]O(-[:90,0.6,,,draw=none]\scriptstyle\ominus)-[:45,1](=[:90,.8]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(10pt,10pt){$\scriptstyle\!\!7$}{A}{B}
+\tabularnewline\addlinespace
+\textcolor{blue}{triacylglycerol} && \textcolor{blue}{glycerol} && \textcolor{blue}{Soap}\tabularnewline
+\end{tabular*}\end{center}

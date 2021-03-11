@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name the following hydrocarbon:
+\begin{center} \chemfig{CH_3-CH_2-C(-[:90]CH_2-CH_2-CH_2-CH_3)(-[:-90]CH_2-CH_2-CH_3)-CH_3} \end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: 4-ethyl-4-methyloctane. \end{flushright} }
+

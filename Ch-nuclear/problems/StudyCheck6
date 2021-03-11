@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the following reaction as fusion or fission:
+\begin{center}\ce{^3_2He + ^3_2He -> ^4_2He +2^1_1H   }\end{center} 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: fusion.
+ \end{flushright} }
+

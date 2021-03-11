@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Naturally occurring copper (Cu) consists of $69.17\%$ \ce{^{63}Cu} and $30.83\%$ \ce{^{65}Cu}. The mass of \ce{^{63}Cu} is 62.939598 amu, and the mass of \ce{^{65}Cu} is 64.927793 amu. What is the atomic mass of copper?\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The weighted average is the sum of the mass of each isotope times its fractional abundance. We have that the isotope \ce{^{63}Cu} has a mass of 62.939598 amu and an abundance of $69.17\%$, that is the same as $0.6917$. At the same time, the isotope  \ce{^{65}Cu} has a mass of 64.927793 amu and an abundance of $0.3083$. After adding both contributions, we have:
+\[ 62.939598\:amu\times\frac{69.17}{100}   +
+64.927793\:amu\times\frac{30.83 }{100} = 63.55\:amu\]
+\import{./}{StudyCheck3}
+
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

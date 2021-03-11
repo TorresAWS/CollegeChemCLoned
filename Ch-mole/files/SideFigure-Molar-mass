@@ -1,0 +1,19 @@
+   \begin{marginfigure}[-9cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure5}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}The molecular mass of cinnamic acid (\ce{C9H8O2}), used in the manufacture of flavors, is $148.16 \frac{g}{mol}$ };
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure6}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Car batteries contains sulfuric acid (\ce{H2SO4}), a corrosive chemical with a molar mass of $180.06 \frac{g}{mol}$};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure7}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Ammonia smelling salts (\ce{(NH4)2CO3}, MW=$96g/mol$) were historically employed to wake up injured athlete during a sport game.};
+\end{tikzpicture}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure16}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Acetic acid is an organic acid with molar mass $60g/mol$ };
+\end{tikzpicture}
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=6cm ]{../{\chapterlabel}/figure17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.weberscientific.com} ;
+%\node[text width=5cm] at ([yshift=0.6cm]a.north) {\mytriangle{red}Aspirin is an anti-inflammatory drug with molar mass of $180g/mol$ };
+%\end{tikzpicture}
+%\caption{Examples of measuring equipment}
+%\label{fig:molFig3}
+\end{marginfigure}

@@ -1,0 +1,47 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A Big Mac from McDonalds contains 28g of fat ($9kcal/g$), 46g of carbs ($4kcal/g$) and 25 g of protein ($4kcal/g$), where the caloric values are indicated in parenthesis. What is the total energy content of a Big Mac?\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} list of the given information and the unknown.
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$m_{fat}=28g$\\
+$\epsilon_{fat}=9\frac{kcal}{g}$\\
+$m_{carb}=46g$\\
+$\epsilon_{carb}=4\frac{kcal}{g}$\\
+$m_{prot}=25g$\\
+$\epsilon_{prot}=4\frac{kcal}{g}$\\
+\tcbitem[swotbox = A]
+Energy Content\\
+\end{tcbitemize}%%% DATA BOX
+\item \begin{bf}Step two:\end{bf} use the formula $E_{fat}=m_{fat}\cdot \epsilon_{fat}$ to calculate the energy coming from fat. And do the same for carbs and protein:\vspace{2cm}
+ %%%% COMMENTED EQUATION
+ \begin{equation*}
+    E_{fat}= \,\,\,\,\tikzmark{B}{$m_{fat}$}\,\,\,\,\,\,\cdot\,\,\, \,\,\, \tikzmark{C}{$\epsilon_{fat}$}
+\end{equation*}
+\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
+   \node[red] (Bdescr) [below =of B]{$28g$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
+   \node[purple] (Cdescr) [below right =of C]{9};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
+\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
+
+\item \begin{bf}Step three:\end{bf} Compute the energy coming from each ingredient and add all the values:
+\begin{align}
+  E_{fat}=m_{fat}\cdot\epsilon_{fat}= 28\cancel{g}\times 9 \dfrac{kcal}{\cancel{g}} =252 kcal                \tag*{energy from fat}
+    \\  E_{carb}=m_{carb}\cdot\epsilon_{carb}= 46\cancel{g}\times 4 \dfrac{kcal}{\cancel{g}} =184 kcal                \tag*{energy from carbs} 
+     \\  E_{prot}=m_{prot}\cdot\epsilon_{prot}= 25\cancel{g}\times 4 \dfrac{kcal}{\cancel{g}} =100 kcal                \tag*{energy from protein} 
+\end{align}
+The total energy content of a Big Mac is: $E_{fat}+E_{carb}+E_{prot}=532kcal$
+\end{enumerate}
+\import{./}{StudyCheck13}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

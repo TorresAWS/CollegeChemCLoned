@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+(a) A KCl solution is prepared by mixing 8g of \ce{NaCl} (MW=74$g/mol$) with 250mL of \ce{H2O}. Calculate the molarity; (b) A KCl solution is prepared by mixing 5g of \ce{KCl} with 200g of \ce{H2O}. Calculate the percent (m/m) of the solution.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 0.43M; 2.4 \%.
+ \end{flushright} }

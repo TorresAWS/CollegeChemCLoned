@@ -1,0 +1,18 @@
+   \begin{marginfigure}[2cm]\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+ 
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{ll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Energy value of food} \\
+\midrule
+ \rowcolor{gray!10} Food Type  &   Energy value ($\dfrac{kcal}{g}$)\\
+\midrule
+Carbohydrates & \multicolumn{1}{c}{4}          \\
+Fat & \multicolumn{1}{c}{9}       \\
+Protein & \multicolumn{1}{c}{4}  \\ 
+ \bottomrule
+\end{tabular} 
+   \end{marginfigure} 
+

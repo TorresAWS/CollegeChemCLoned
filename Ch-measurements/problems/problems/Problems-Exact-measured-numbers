@@ -1,0 +1,21 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate if the following statements represent measured or exact numbers:
+ \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\item The number of apples in a bag \iffalse (exact) \fi
+\item The weight of an apple  \iffalse (measured) \fi
+\item The number of cm in a inch  \iffalse (exact) \fi
+\item The number of students in a classroom  \iffalse (exact) \fi
+\item The height of a student  \iffalse (measured) \fi
+\end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item The number of apples in a bad   (exact)  
+\item The weight of an apples   (measured)  
+\item The number of cm in a inch   (exact)  
+\item The number of students in a classroom   (exact)  
+\item The height of a student    (measured)  
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

@@ -1,0 +1,19 @@
+   \begin{marginfigure}[2cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure16}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}A PH meter is used to measure the PH of solutions.  };
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[.6cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Color for different natural indicators depending on the pH. };
+ \end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[.6cm]
+\begin{tikzpicture}  \node (a) at (0,0) {\includegraphics[width=2.7cm, height=2.7cm]{../Ch-acidbase/figure19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Over breathing causes alkalosis and the PH of blood increases from 7.4. The \ce{CO2} level in the blood raises after breathing from a plastic bag. \ce{CO2} is an acid and decreases the PH of blood. };
+\end{tikzpicture}
+\end{marginfigure}
+
+
+ 
+ 

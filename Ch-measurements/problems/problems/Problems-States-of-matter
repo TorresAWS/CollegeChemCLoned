@@ -1,0 +1,51 @@
+ %%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following is a property of a solid?\begin{inparaenum}[(a)]
+\item It takes the shape of the container.
+\item It fills the volume of the container.
+\item The particles move at a rapid rate.
+\item The interactions between its particles are very weak.
+\item The particles have fixed positions and are very close together.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+The particles have fixed positions and are very close together.
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+ 
+ %%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following is a property of a liquid? 
+\begin{inparaenum}[(a)]
+\item It takes the shape of the container.
+\item it has no volume.
+\item The particles move at a rapid rate.
+\item The interactions between its particles are unesxistent.
+\item The particles have fixed positions and are very close together.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+It takes the shape of the container.
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+ %%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following is a property of a gas? 
+\begin{inparaenum}[(a)]
+\item It has no shape.
+\item It fills the volume of the container.
+\item The particles move slowly.
+\item The interactions between its particles are strong.
+\item The particles have fixed positions and are very close together.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+It fills the volume of the container. \hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+
+ 
+

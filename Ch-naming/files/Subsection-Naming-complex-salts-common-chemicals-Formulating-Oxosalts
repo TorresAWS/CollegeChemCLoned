@@ -1,0 +1,12 @@
+\item[\docfilehook{Formulating Oxosalts}{}] 
+In the case that you know the name of an oxosalt and you want to obtain its formula, you first need to arrange the positive ion in the left followed by the negative ion in the right, to then cross the ionic charges from the top of the ion to the bottom of the opposite ion.
+For example, calcium nitrate results from the combination of \ce{Ca^{2+}} calcium and \ce{NO3^{-}}, nitrate. By combining the two ions we obtain the final formula as \ce{Ca(NO3)2}:
+\vspace{.5cm}\begin{center}
+  \schemestart
+    \chemfig{@{b1}Ca^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{N@{b2}O_3^{-}}   \arrow \ce{Ca(NO3)2} 
+  \schemestop
+  \chemmove{
+    \draw[elmove=left] (b2) ..controls +(45:2cm) and +(-45:1cm) .. (b1) ;
+      \draw[elmove=left]   (b1) ..controls +(45:1cm) and +(-45:2cm) .. (b2) ;
+  }\end{center}\vspace{.5cm}
+

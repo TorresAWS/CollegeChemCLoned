@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The empirical formula of dinitrogen tetroxide, a red-brown liquid with an unpleasant chemical odor, is \ce{NO2} and the molecular weigh of the chemical is 92 amu. Calculate the molecular formula of dinitrogen tetroxide.\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{N2O4}.
+ \end{flushright} }

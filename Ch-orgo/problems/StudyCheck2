@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Write down the condensed and expanded formulas for heptane.
+
+ %\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+ \providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: \small
+ \setpolymerdelim()\chemfig{H-C(-[2]H)(-[6]H) -[@{A,0.5}:0,2]C(-[2]H)(-[6]H) -[@{B,0.5}:0,2]C(-[2]H)(-[6]H)-H }\makebraces(15pt,15pt){$\scriptstyle\!\!5$}{A}{B};
+  \setpolymerdelim()\chemfig{CH_3 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]CH_3 }\makebraces(5pt,5pt){$\scriptstyle\!\!5$}{A}{B}
+ \end{flushright} }

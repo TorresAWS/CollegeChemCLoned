@@ -1,0 +1,35 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{tikzpicture}
+ \begin{axis}[
+ scale only axis, width=0pt, height=0pt, hide axis,
+ tick label style={/pgf/number format/.cd, fixed},
+ colorbar,colormap/jet,
+ point meta min=6.8,
+ point meta max=8,
+  colorbar horizontal,
+  colorbar style={
+    width=0.8\textwidth,
+        },
+    ] (arrow)
+   { 
+  };
+ \end{axis}
+\node[font=\Large, anchor=south west ,rotate=90]  at (-0.5cm,-1.5cm) {Death}; 
+\node[font=\Large, anchor=south west ]  at (3.5cm,1cm) {Normal PH(7.34-7.45)}; 
+\draw[dashed] (4.8cm,1cm) -- (4.3,0.0);\draw[dashed] (4.8cm,1cm) -- (5.4,0.0);
+
+\node[font=\Large, anchor=south west,rotate=-90 ]  at (10.5cm,-0.5cm) {Death}; 
+
+
+\draw[dashed] (4.1,-1) -- (4.1,-2.5) ;
+   \node[font=\small, anchor=south west ]  at (3.5,-3.0)  {PH=7.34}; 
+      \node[font=\small, anchor=south west ]  at (0.5,-2.0)  {Acidosis}; 
+      \node[font=\small, anchor=south west ]  at (7.5,-2.0)  {Alkalosis}; 
+
+\draw[dashed] (5.6,-1) -- (5.6,-2.5);
+   \node[font=\small, anchor=south west ]  at (5.25,-3)  {PH=7.45}; 
+\node[text width=12cm, fontscale=.2,shift={(8em,-12em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} PH range that leads to acidosis and alkalosis };
+
+\end{tikzpicture} 
+}\end{minipage}

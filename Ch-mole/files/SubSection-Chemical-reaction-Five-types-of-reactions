@@ -1,0 +1,14 @@
+\item[\docfilehook{Five types of reactions}{}]
+Most of the chemical reactions can be classified according to five types: combination, decomposition, single replacement, double replacement and combustion. \\
+In a \emph{combinations reaction} two reactants combine to generate a product. An example of a combination is the reaction between Mg and oxygen to produce \ce{MgO}:
+\begin{center}\ce{2Mg(s) + O2(g) -> 2MgO(s) \textcolor{red}{ (combination)}}\end{center}
+In a \emph{decomposition reaction} a single reactant breaks down into several products. An example of a decomposition reaction is the thermal reaction of \ce{CaCO3} to produce calcium oxide (\ce{CaO}) and carbon dioxide
+\begin{center}\ce{CaCO3(s) -> CaO(s) + CO2(g) \textcolor{red}{ (decomposition)}}\end{center}
+In a single replacement reaction, an element replaces another element in a chemical. An example would be the reaction of Zn with \ce{HCl}, in which Zn replaces hydrogen:
+\begin{center}\ce{\textcolor{blue}{Zn}(s) + 2HCl(aq) -> \textcolor{blue}{Zn}Cl2(aq) + H2(g) \textcolor{red}{ (Single replacement)}}\end{center}
+In a double replacement reaction, the first element in the reacting compounds switch places. An example is the reaction between \ce{AgNO3} and \ce{NaCl}, in which Ag from \ce{AgNO3} replaces Na in \ce{NaCl}:
+\begin{center}\ce{\textcolor{blue}{Ag}NO3(aq) + \textcolor{green}{Na}Cl(aq) ->  \textcolor{green}{Na}NO3(aq) + \textcolor{blue}{Ag}Cl(s) \textcolor{red}{ (Double replacement)}}\end{center}
+Finally, in a combustion reaction, a carbon-based chemical reacts with oxygen to produce carbon dioxide and water. An example would be the combustion of methane (\ce{CH4}):
+\begin{center}\ce{CH4(g) + 2O2(g) -> 2H2O(g) + CO2(g) \textcolor{red}{ (Combustion)}}\end{center}
+
+

@@ -1,0 +1,13 @@
+Unit equalities are simple expressions that relate a unit with a unit with prefix. For example: one centimeter (cm) is $1\times10^{-2}$m. Hence we can write this as a unit equality:
+\begin{equation*}
+\boxed{   1cm=1\times10^{-2}m}\text{ unit equality}    
+\end{equation*}
+Let\textquotesingle s compare cm and m. The first, cm, is a unit with a prefix, whereas m is simple a unit of length without a prefix. In order know how many m are there in a cm we need to write down a conversion factor. Think about prefixes as synonymous of a number. In this way, centi stands for  $1\times10^{-2}$, so
+%\marginnote{\faBicycle\ Remember: \textcolor{blue}{ \textbf{equalities}}  are written in line whereas \textcolor{blue}{ \textbf{conversion factors}}  with a fraction.}
+\begin{equation*}
+\boxed{   \frac{1cm}{1\times10^{-2}m}\ \enspace \text{ or  } \enspace \frac{1\times10^{-2}m}{1cm} }  \  \text{ conversion factor}   
+\end{equation*}
+%\resizeableyellownote{2.5}{1}{Add Table \ref{table1:3} to your flashcard.}
+
+
+

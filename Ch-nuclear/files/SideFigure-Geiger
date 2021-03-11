@@ -1,0 +1,18 @@
+%%%%%%%%%%%%SIDE FIGURE
+   \begin{marginfigure}[0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}An old Geiger counter used to measure radiation };
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure5}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Nurses expose to radiation wear film badges to detect radiation exposure  };
+ \end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}New Geiger counters  };
+ \end{tikzpicture}
+\end{marginfigure}
+%%%%%%%%%%%%SIDE FIGURE
+%%%%%%%%%%%%SIDE FIGURE

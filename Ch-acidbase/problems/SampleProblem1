@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the following chemicals as acids or bases and give their names: \ce{HCl}, \ce{NH3}, \ce{KOH}, \ce{H3PO4} and \ce{CH3COOH}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The acids are: \ce{HCl}, \ce{H3PO4} and \ce{CH3COOH}. Their names are: hydrochloric acid, phosphoric acid and acetic acid, the later is a common name. Bases are: \ce{NH3} and \ce{KOH}. Their names are: ammonia (common name) and potassium hydroxide.
+\\
+\import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

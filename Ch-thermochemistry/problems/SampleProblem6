@@ -1,0 +1,50 @@
+In the previous example you needed to convert temperature into heat. In the next example, the heat is given and you need to calculate the final temperature of an object after it receives a certain amount of heat.
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A 50g piece of aluminum ($c_e=0.214\frac{cal}{g\cdot^{\circ}C}$) initially at 25$^{\circ}$C absorbs 100cal. Calculate the final temperature of the aluminum piece.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} list of the given variables.
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$c_e=0.214\frac{cal}{g\cdot^{\circ}C}$\\
+$m=50g$\\
+$T_{initial}=25^{\circ}C$\\
+$Q=100cal$
+\tcbitem[swotbox = A]
+$T_{final}$\\
+\end{tcbitemize}%%% DATA BOX
+\item \begin{bf}Step two:\end{bf} use the formula $Q=m\cdot c_e\cdot  (T_{final}-T_{initial})$ that converts temperature increase to heat absorbed:
+ %%%% COMMENTED EQUATION
+\vspace{10mm} \begin{equation*}
+     \tikzmark{A}{Q}\,\,= \, \tikzmark{B}{m}\,\,\,\cdot \,\,\, \tikzmark{C}{$c_e\cdot$}\,\,\,  (T_{final}-\,\,\,\,\,\,\,\,\,\tikzmark{D}{$T_{initial}$}\,\,\,\,\,\,\,\,\,)
+\end{equation*}
+\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
+    \node (Adescr) [below left=of A ]{$100 cal$};\draw[,->,thick] (Adescr) to [in=-90,out=90] (A);
+   \node[red] (Bdescr) [below =of B]{$50g$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
+   \node[purple] (Cdescr) [below right =of C]{$0.214\frac{cal}{g\cdot^{\circ}C}$};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
+   \node[blue,xshift=0.7cm] (Ddescr) [above right =of D]{$25^{\circ}C$};\draw[blue,->,thick] (Ddescr) to [in=45,out=-90] (D.north);
+\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
+\item \begin{bf}Step three:\end{bf} solve $100=50\cdot 0.214\cdot  (T_{final}-25)$ for $T_{final}$:
+\begin{align}
+  100=50\cdot 0.214\cdot  (T_{final}-25)                   \tag*{divide by 50 in both sides}
+    \\ \frac{100}{50}=0.214\cdot  (T_{final}-25)   \tag*{divide by 0.214 in both sides}    
+        \\ \frac{100}{50\cdot 0.214}= (T_{final}-25)   \tag*{}             
+                 \\ 9.34= (T_{final}-25)   \tag*{add 25 in both sides}             
+                 \\ 9.34+25= T_{final}   \tag*{}             
+                 \\ 34.34= T_{final}   \notag            
+\end{align}
+The final temperature of the aluminum piece is $34.34^{\circ}C$.
+\end{enumerate}
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

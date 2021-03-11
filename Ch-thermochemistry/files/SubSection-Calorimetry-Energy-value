@@ -1,0 +1,8 @@
+Do you ever eat pasta? Think about how does your body feel after you eat pasta? Normally, whenever you eat pasta in a few hours you need to eat again more food. Differently, whenever you eat meat, that is enough to keep you going for longer time. In a similar way, eating a salad for lunch brings you less energy than a pizza slice. This is because each type of food--each ingredient--contains different energy. We refer to this as the energy value of food $\epsilon$. In order to compute the energy ($E$) provided by a certain mass of food ($m$) we need to multiply the mass times the energy value ($\epsilon$):
+\begin{equation}
+E=m\cdot \epsilon
+\label{formula2:5}
+\end{equation}
+For example, the energy value of fat $\epsilon_{fat}$ is $9\dfrac{kcal}{g}$, what means that if you eat three grams of fat that will bring you a given amount of energy $E_{fat}$:
+\[E_{fat}=3\cancel{g}\times 9 \dfrac{kcal}{\cancel{g}}=18kcal\]
+Normally, when you eat a food plate, you ingest energy from the different type of ingredients of that plate: fat, carbs or protein.

@@ -1,0 +1,53 @@
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+One symptom of mild radiation sickness is:
+\begin{inparaenum}[(a)]
+\item a lowered white cell count.
+\item a lowered red blood cell count.
+\item a raised white cell count.
+\item a raised red blood cell count.
+\item a white cell count of zero.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+a lowered white cell count.
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+ 
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Alpha radiation is the most damaging because alpha particles
+\begin{inparaenum}[(a)]
+\item have the largest charge.
+\item have the greatest energy.
+\item have the greatest mass.
+\item consist of high energy electrons.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+have the greatest mass.
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+  
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Gamma radiation is the most penetrating because gamma particles
+\begin{inparaenum}[(a)]
+\item have the largest charge.
+\item have the greatest energy.
+\item have the greatest mass.
+\item consist of high energy electrons.
+\end{inparaenum}
+\end{question}
+\begin{solution}
+ have the greatest energy.
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+ 
+
+

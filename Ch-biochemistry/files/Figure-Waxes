@@ -1,0 +1,17 @@
+\begin{center}
+%\arrayrulecolor{orange}
+\setlength{\arrayrulewidth}{1pt}
+\begin{tabular}[]{ m{0.5\linewidth}  @{}l@{} }
+  \includegraphics[width=0.9\linewidth]{../{\chapterlabel}/figure2}
+  Carnauba wax is obtained from the leaves of the carnauba palm.
+  &
+  \begin{tabular}[c]{>{\centering\arraybackslash}m{0.4\linewidth}}
+         \textcolor{blue}{Carnauba wax}\\[0.5em]
+    \noalign{\vspace*{0.5em}}
+    \setpolymerdelim()\chemfig{CH_3 -[@{C,0.5}:0,1.5]CH_2 -[@{D,0.5}:0,1.5]-[:0,1]O-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!7$}{A}{B}\makebraces(12pt,12pt){$\scriptstyle\!\!29$}{C}{D}
+    \\[0.2em]
+    \noalign{\vspace*{0.5em}}
+  
+  \end{tabular}\\
+\end{tabular}
+\end{center}

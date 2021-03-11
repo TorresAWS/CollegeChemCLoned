@@ -1,0 +1,20 @@
+Weak acids (and base) are indeed weak electrolytes, which means if we prepare a solution of a given concentration $c_a$ they will dissociate giving a proton concentration ($\big[ \ce{H^+} \big]$) less than $c_a$. We define the percent dissociation $\alpha$ of an acid (or base) as:
+\begin{equation}
+\boxed{ \alpha=\frac{\text{amount dissociated}}{\text{initial amount}}\times 100=\frac{\big[ \ce{H^+} \big]}{c_a}\times 100 }\label{\chapterlabel:equation11}
+\end{equation}
+where:
+\begin{where}
+ \item $\big[ \ce{H^+} \big]$  is concentration of protons in equilibrium
+ \item $c_a$   is initial acid concentration
+\end{where}
+For example, a 0.2M HF solution has a proton concentration of 0.0076M. The percent dissociation of this acid at this concentration will be 3.8\%. The percent dissociation changes with the acid (or base) concentration and more concentrated acids have in general a larger proton concentration than diluted acids. However, the percent dissociation of more concentrated acids is smaller than the one of less concentrated acids. The diagram below displays this concept.
+\begin{center}
+\tikzstyle{sensor}=[draw, fill=blue!20, text width=5em, 
+    text centered, minimum height=2.5em]
+\begin{tikzpicture}
+    \node (naveq)  [sensor, text width=6em, fill=blue!10, minimum height=12em, rounded corners] {Diluted};
+    \node (push) [above right of=naveq, shift={(8em,3em)}] {\tikzfancyarrow[4cm]{acid concentration, $c_a$}};
+         \node (push) [above right of=naveq, shift={(8em,-2em)}] {\tikzfancyarrow[4cm]{proton concentration, $\big[ \ce{H^+} \big]$}};        
+         \node (push) [above right of=naveq, shift={(8em,-6em)}] {\tikzfancyarrow[4cm, shape border rotate=180]{percent dissociation, $\alpha$}};
+    \node (naveq2)  [sensor, text width=6em, fill=blue!30, minimum height=12em, rounded corners, shift={(20em,0)}] {Concentrated};
+\end{tikzpicture}\end{center}

@@ -1,0 +1,23 @@
+   \begin{marginfigure}[0cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure18}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\begin{scope}[shift={(-2cm,-1cm)}]
+\coordinate (spy point) at (6em,3em);
+\coordinate (magnifying glass) at (8.5em,17.5em);
+\node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=1.5em]  (c) at (magnifying glass) { \setpolymerdelim()\chemfig{NH_2 -[@{A,0.5}:0,2]CH_2 -[@{B,0.5}:0,2]NH_2 }\makebraces(5pt,5pt){$\scriptstyle\!\!5$}{A}{B} } ;\end{scope}
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Amines are responsible of the bad smell of decaying meat.};
+\end{tikzpicture}
+\end{marginfigure}
+
+   \begin{marginfigure}[1cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\begin{scope}[shift={(-2cm,-1cm)}]
+\coordinate (spy point) at (6em,3em);
+\coordinate (magnifying glass) at (8.5em,17.5em);
+\node [draw=none, shape=circle, inner sep=4.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={ }}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
+\node  [fill=white, thin, draw=black, shape=circle, inner sep=2.em]  (c) at (magnifying glass) {\chemfig{CH_3-C(=[:90]O)(-O-CH_3)}} ;\end{scope}
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Esters are found in soaps};
+\end{tikzpicture}
+\end{marginfigure}

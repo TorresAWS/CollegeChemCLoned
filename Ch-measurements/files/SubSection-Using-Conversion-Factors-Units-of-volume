@@ -1,0 +1,8 @@
+Units such as L or mL are units of volume. As volume is a three-dimensional property, those units somehow have to be related to the units of length. In fact one liter is the same as one $dm^3$ and one ml is the same as one $cm^3$. In the allied health field, the units \emph{mL} is also written as \emph{cc} as in cubic centiliters.
+\begin{equation*}
+\boxed{   1L=1dm^3 \enspace \text{and}  \enspace1mL=1cm^3}   
+\end{equation*}
+Let us work on an example in which we want to convert $30cm^3$ into L:
+ \begin{equation*}
+30\cancel{\text{cm}^3} \times \dfrac{1\cancel{mL} }{1\cancel{cm^3}}\times \dfrac{1\times 10^{-3}L }{1\cancel{mL}} =3\times 10^{-2}L
+\end{equation*}

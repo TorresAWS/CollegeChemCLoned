@@ -1,0 +1,63 @@
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate if the following chemical species represent an atom, and anion or a cation:
+\begin{inparaenum}[(a)]
+\item \ce{Fe^{2+}}
+\item \ce{Cl^-} 
+ \item \ce{Ag} 
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{Fe^{2+}} (cation)
+\item \ce{Cl^-} (anion)
+ \item \ce{Ag} (atom)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Identify the ionic state of the following elements. If needed, indicate the existence of multiple ionic states:
+\begin{inparaenum}[(a)]
+\item \ce{H} %\ce{H^+}
+\item \ce{O} % \ce{O^{2-}}
+\item \ce{N} %\ce{N^{3-}}
+\item \ce{F} %\ce{F^{-}}
+\item \ce{Mn} % (multiple)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H^+}
+\item  \ce{O^{2-}}
+ \item \ce{N^{3-}}
+  \item \ce{F^{-}}
+  \item \ce{Mn}  (multiple)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Identify the ionic state of the following elements. If needed, indicate the existence of multiple ionic states:
+\begin{inparaenum}[(a)]
+\item \ce{Li} %\ce{Li^+}
+\item \ce{V} % (multiple)
+\item \ce{Cl} % \ce{Cl^{-}}
+\item \ce{S} %\ce{S^{2-}}
+\item \ce{Cr} % (multiple)
+\item \ce{Sr} %\ce{Sr^{2+}}
+\item \ce{Ni} % (multiple)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{Li}  \ce{Li^+}
+\item \ce{V}   (multiple)
+\item \ce{Cl}   \ce{Cl^{-}}
+\item \ce{S}  \ce{S^{2-}}
+\item \ce{Cr}   (multiple)
+\item \ce{Sr}  \ce{Sr^{2+}}
+\item \ce{Ni}   (multiple)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+

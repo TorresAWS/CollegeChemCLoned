@@ -1,0 +1,24 @@
+\item[\docfilehook{Combining ions}{}] Ionic compounds are the result of combining two ions: a positive (cation) and a negative (anion) ions. Each ion has a charge, depending on its location on the table. When combining two atoms you first need to arrange the ions starting from positive and followed by negative. The charges of an ion would become the coefficient of the other ion. For example \ce{Mg^{2+}} and \ce{N^{3-}} are combined as \ce{Mg3N2}:
+
+\vspace{.5cm}
+
+\begin{center}
+  \schemestart
+    \chemfig{3@{e1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{2@{e2}N^{3-}}   \arrow \ce{Mg3N2}
+  \schemestop
+  \chemmove{
+    \draw[elmove=left] (e2) ..controls +(45:2cm) and +(-45:1cm) .. (e1) ;
+      \draw[elmove=left]   (e1) ..controls +(45:1cm) and +(-45:2cm) .. (e2) ;
+  }\end{center}\vspace{.5cm}
+Another example would be the combination of \ce{Na^{+}} and \ce{O^{2-}} that would be \ce{Na2O}. You need to simplify the indexes of the formula by diving by the smallest one, always using integer values. For example,  \ce{Mg^{2+}} and \ce{O^{2-}} give  \ce{Mg2O2} that should be written as \ce{MgO}
+\vspace{.5cm}\begin{center}
+  \schemestart
+    \chemfig{@{f1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{@{f2}O^{2-}}   \arrow \ce{Mg_{\cancel{2}}O_{\cancel{2}}} \arrow  \ce{MgO} 
+  \schemestop
+  \chemmove{
+    \draw[elmove=left] (f2) ..controls +(45:2cm) and +(-45:1cm) .. (f1) ;
+      \draw[elmove=left]   (f1) ..controls +(45:1cm) and +(-45:2cm) .. (f2) ;
+  }\end{center}\vspace{.5cm}
+
+Another example that involves simplifying the formula is the chemical resulting of combining \ce{Ca^{2+}} and \ce{C^{4-}}. After combining the charges we obtain \ce{Ca4C2} that needs to be simplified dividing by the smallest number leading to \ce{Ca2C}. 
+\vspace{.5cm}

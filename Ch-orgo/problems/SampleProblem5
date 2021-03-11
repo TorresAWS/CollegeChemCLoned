@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the molecular formula for cyclodecane and cyclopentane.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Using Equation \ref{formula12.2} we have that the molecular formula for cyclodecane ($n=10$) would be: \ce{C10H20}. Similarly, the molecular formula for cyclopentane ($n=5$) would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: \ce{C5H10}.\end{flushright}
+\import{./}{StudyCheck5}
+
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

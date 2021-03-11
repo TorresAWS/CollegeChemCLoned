@@ -1,0 +1,55 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.15 M-\ce{HCN}/0.35M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.57)
+\item 0.15 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.21)
+ \item 0.25 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.98)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.15 M-\ce{HCN}/0.35M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$   (PH=9.57)
+\item 0.15 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$   (PH=9.21)
+ \item 0.25 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$   (PH=9.98)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.25 M-\ce{NH3}/0.45M-\ce{NH4Cl}, $K_b=1.80 \times 10^{-5}$ % (PH=9)
+\item 0.15 M-\ce{HNO2}/0.05M-\ce{NaNO2}, $K_a=5.60 \times 10^{-4}$ % (PH=2.8)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.25 M-\ce{NH3}/0.45M-\ce{NH4Cl}, $K_b=1.80 \times 10^{-5}$  (PH=9)
+\item 0.15 M-\ce{HNO2}/0.05M-\ce{NaNO2}, $K_a=5.60 \times 10^{-4}$   (PH=2.8)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.02 M-\ce{C6H5NH2}/0.05M-\ce{C6H5NHCl}, $K_b=7.40 \times 10^{-10}$ % (PH=4.47)
+\item 0.4 M-\ce{HCNO}/0.5M-\ce{NaCNO}, $K_a=3.50 \times 10^{-4}$ % (PH=3.5)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.02 M-\ce{C6H5NH2}/0.05M-\ce{C6H5NHCl}, $K_b=7.40 \times 10^{-10}$   (PH=4.47)
+\item 0.4 M-\ce{HCNO}/0.5M-\ce{NaCNO}, $K_a=3.50 \times 10^{-4}$   (PH=3.5)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The PH of a  \ce{C6H5NH2}/\ce{C6H5NHCl} ($K_b=7.40 \times 10^{-10}$) buffer is 4.0. Calculate the ratio of [\ce{C6H5NH2}]/[\ce{C6H5NHCl}].
+\end{question}
+\begin{solution}
+0.13
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

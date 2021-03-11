@@ -1,0 +1,37 @@
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following carbohydrate as aldo or keto
+\begin{center}
+\chemfig[][scale=.65]{!a(-[6]!x-[6]!x-[6]!y-[6]!x-[6]H)}
+\end{center}
+\end{question}
+\begin{solution}
+Aldo
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+  %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following carbohydrate as aldo or keto
+\begin{center}
+\chemfig[][scale=.65]{!a(-[6]!y-[6]!y-[6]!x-[6]!x-[6]H)}
+\end{center}
+\end{question}
+\begin{solution}
+Aldo
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+ 
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following carbohydrate as aldo or keto
+\begin{center}\chemfig[][scale=.65]{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[0]H)(-[4, 1.2]OH)-!x-!y-!k-!t)}\end{center}
+\end{question}
+\begin{solution}
+keto
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

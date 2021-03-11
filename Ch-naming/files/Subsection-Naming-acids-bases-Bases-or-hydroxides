@@ -1,0 +1,5 @@
+\item[\docfilehook{Bases or hydroxides}{}] Bases (hydroxides) result from the combination of a metal and the hydroxide anion (\ce{OH^-}). Examples are \ce{NaOH} or \ce{Ca(OH)2}. The name of a base starts by the name of the cation finishing by the word \begin{it}hydroxide\end{it}. An example is \ce{NaOH} named as \begin{it}sodium hydroxide\end{it}, or \ce{Ca(OH)2}, named as \begin{it}calcium hydroxide\end{it}. The word  \begin{it}hydroxide\end{it} refers to the \ce{OH^-} ion, and hence Sodium hydroxide results from combining \ce{Na^+} and \ce{OH^-}, and Calcium hydroxide from combining \ce{Ca^{2+}} and \ce{OH^-}. More examples of hydroxides:
+ \begin{namingbox} {}
+  \ce{Mg(OH)2}\hfill Magnesium hydroxide\\
+\end{namingbox}
+

@@ -1,0 +1,35 @@
+\begin{fullwidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Half-life for various isotopes and chemicals} \\
+\midrule
+\multicolumn{1}{l}{Americium-241} &	432.2 years &\multicolumn{1}{l}{Lutetium-177}& 6.71 days &\multicolumn{1}{l}{Hydrogen-3} &12.35 years  \\
+\multicolumn{1}{l}{Barium-133} &10.74 years &\multicolumn{1}{l}{Molybdenum-99}& 66 hours&\multicolumn{1}{l}{Technetium-99}& 213,000 years\\
+\multicolumn{1}{l}{Bismuth-212} &60.55 minutes &\multicolumn{1}{l}{Nickel-63}& 96 years&\multicolumn{1}{l}{Indium-111} &2.83 days\\
+\multicolumn{1}{l}{Cadmium-109} &464 days &\multicolumn{1}{l}{Phosphorus-32}& 14.29 days&\multicolumn{1}{l}{Technetium-99m}& 6.02 hours\\
+\multicolumn{1}{l}{Calcium-45} &163 days &\multicolumn{1}{l}{Phosphorus-33}& 25.4 days&\multicolumn{1}{l}{Indium-113m} &1.658 hours\\
+\multicolumn{1}{l}{Carbon-14} &5730 years &\multicolumn{1}{l}{Plutonium-239}& 24,065 years&\multicolumn{1}{l}{Tin-113 115.1}& days\\
+\multicolumn{1}{l}{Cesium-137} &30 years &\multicolumn{1}{l}{Polonium-210}& 138.38 days&\multicolumn{1}{l}{Iodine-123} &13.2 hours \\
+\multicolumn{1}{l}{Chlorine-36} &301,000 years &\multicolumn{1}{l}{Radium-226}& 1600 years&\multicolumn{1}{l}{Tungsten-188}& 69.4 days\\
+\multicolumn{1}{l}{Chromium-51} &27.704 days &\multicolumn{1}{l}{Radon-222}& 3.8235 days&\multicolumn{1}{l}{Iodine-125} &60.14 days\\
+\multicolumn{1}{l}{Cobalt-57} &270.9 days &\multicolumn{1}{l}{Rhenium-188}& 16.98 hours&\multicolumn{1}{l}{Uranium-235}& 703,800,000 years\\
+\multicolumn{1}{l}{Cobalt-58} &70.8 days &\multicolumn{1}{l}{Rubidium-81}& 4.58 hours&\multicolumn{1}{l}{Iodine-129} &15,700,000 years\\
+\multicolumn{1}{l}{Cobalt-60} &5.271 years &\multicolumn{1}{l}{Selenium-75}& 119.8 days&\multicolumn{1}{l}{Uranium-238}& 4,468,000,000 years\\
+\multicolumn{1}{l}{Copper-62} &9.74 minutes &\multicolumn{1}{l}{Sodium-22}& 2.602 years&\multicolumn{1}{l}{Iodine-131} &8.04 days\\
+\multicolumn{1}{l}{Copper-64} &12.701 hours &\multicolumn{1}{l}{Sodium-24}& 15 hours&\multicolumn{1}{l}{Xenon-127}&   6.41 days\\
+\multicolumn{1}{l}{Copper-67} &61.86 hours &\multicolumn{1}{l}{Strontium-85}& 64.84 days&\multicolumn{1}{l}{Iron-55} &2.7 years\\
+\multicolumn{1}{l}{Gallium-67} &78.26 hours &\multicolumn{1}{l}{Strontium-89}& 50.5 days&\multicolumn{1}{l}{Xenon-133} &5.245 days\\
+\multicolumn{1}{l}{Gold-195} &183 days &\multicolumn{1}{l}{Sulfur-35}& 87.44 days&\multicolumn{1}{l}{Iron-59} &44.529 days \\
+      
+\multicolumn{1}{l}{	Ondansetron	} &  360 min		   &\multicolumn{1}{l}{	Capecitabine	} &  2400s		   &\multicolumn{1}{l}{	Carmustine	} &  0.25h		      \\      
+       
+\bottomrule
+\end{tabular}}\end{minipage}
+\end{fullwidth}
+
+

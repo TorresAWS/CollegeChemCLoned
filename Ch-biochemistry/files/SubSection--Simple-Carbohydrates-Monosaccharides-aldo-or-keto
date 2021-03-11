@@ -1,0 +1,8 @@
+The simples sugars are called monosaccharides and their name ends in \emph{ose} like in gluc\emph{ose}. These sugars are made of C, O and H and contain a few functional groups that you should be familiar with. They contain alcohol groups and either and aldehyde (\chemfig{R-C(=[:90]O)-H} ) or a ketone (\chemfig{R-C(=[:90]O)-R'}) group in the carbon number one. Depending on the number of carbons, monosaccharides can be classifies in triose, tetrose, pentose, or hexose. Here a few examples:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}\glucose[color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]&
+\carbohydrate[pentose, color={anomerO}{orange}, color={O-C4}{red}, color={H-C4}{red}]{rlr}&
+\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[0]H)(-[4,1.2]\textcolor{red}{HO})-!k-!t)}
+\tabularnewline\addlinespace
+\textcolor{blue}{An alcohexose} & \textcolor{blue}{An aldopentose} & \textcolor{blue}{A ketotetrose}\tabularnewline
+\end{tabular*}\end{center}

@@ -1,0 +1,7 @@
+\item[\docfilehook{Mass percent composition of a compound}{}] 
+Look at these two molecules: \ce{C2H2} and \ce{C2H6}. They contain different amounts of hydrogen. We quantify the amount of an element in a compound by means of the mass $\%$ composition. The mass $\%$ of an element in a compound is the mass of the element with respect to the molecular weight of the molecule in percent form. Mind that you have to take into account the molecular indexes in the compound as  \ce{C2H2} is made of 2H and \ce{C2H6} is made of 6H. For example, given that the molar mass of \ce{C2H2} is 26 amu, the mass $\%$ of hydrogen in \ce{C2H2} would be:
+\[\%_{H}\text{ in }\ce{C2H2}= \frac{2\cdot AW(H) }{MW(\ce{C2H2})}\times 100=\frac{2\cdot 1}{26}\times 100=7.7\%\]
+Similarly, the mass $\%$ of C would be:
+\[\%_{C}\text{ in }\ce{C2H2}= \frac{2\cdot AW(C) }{MW(\ce{C2H2})}\times 100=\frac{2\cdot 12}{26}\times 100=92.3\%\]
+By adding the mass $\%$ of all elements in a molecule we should obtain 100.
+\[\%_{H}\text{ in }\ce{C2H2}+ \%_{C}\text{ in }\ce{C2H2}=100\]

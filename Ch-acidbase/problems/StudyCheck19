@@ -1,0 +1,14 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A 1mL sample of 2M \ce{NH3} ($1.80 \times 10^{-5}$) is titrated with with 2 mL of a \ce{NaOH} 1M solution. \begin{inparaenum}[(a)] 
+\item indicate whether you are before, after or at the endpoint
+\item indicate whether the titrate is an acid or a base, and a weak or a strong electrolyte
+\item indicate the formula that would need to be used from Table \ref{tab:{\chapterlabel}2} to calculate the PH 
+\item calculate the PH 
+\end{inparaenum}
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+
+
+ Answer: at the EP, weak base;$\big[ \ce{H^+} \big]^2 +K_a\cdot \big[ \ce{H^+} \big] -K_a\cdot c_f=0$; 4.71
+ \end{flushright} }
+

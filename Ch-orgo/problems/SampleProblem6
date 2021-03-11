@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name the following hydrocarbon:
+\begin{center} \chemfig{CH_3-CH_2-CH_2-CH(-[:90,1]I)(-[:-90,1]I)}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The carbon chain has four carbons and hence the ending of the name would be: butane. Also there are two iodines (iodo substituents) attached to the carbon chain. As there are two of the same iodo atoms, we need to use the prefix \emph{di}. The full name would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: Dioiodobutane. \end{flushright}
+\import{./}{StudyCheck6}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,49 @@
+
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the number of SFs.
+\begin{multicols}{2}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item 0.0032 m %(2SF)
+\item 5100 m	%(2SF)
+\item 0.510 m	%(3SF)
+\item 0.0051 m	%(2SF)
+\item 500 m	%(1SF)
+\item 45.030	%(6SF)
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.0032 m  (2SF)
+\item 5100 m	 (2SF)
+\item 0.510 m	 (3SF)
+\item 0.0051 m	 (2SF)
+\item 500 m	 (1SF)
+\item 45.030	 (6SF)
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Which of the following numbers contains the designated CORRECT number of significant figures? 
+\begin{multicols}{2}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item 0.05600	 (5 SF)
+\item 0.0304 (3 SF)
+\item 456 000	 (3 SF)
+\item 1.304		(2 SF)
+\item 3.12050		(4 SF)
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+456 000	 (3 SF)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%
+
+

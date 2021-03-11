@@ -1,0 +1,5 @@
+Arrhenius claimed that acids are acidic because when dissolved in water they produce \emph{protons}: \ce{H^+}, also called hydronium ion written as \ce{H3O^+}. Differently, bases are basic because when you solve them in water they produce \emph{hydroxyls}: \ce{OH^-}. The reaction below described the process of dissociation of hydrogen chloride to produce chloride and a proton:
+\begin{center}\ce{HCl_{(g)}  <=> Cl^-_{(aq)} + H^+_{(aq)}}\hfill (an acid)\end{center}
+Based on this dissociation reaction we can say hydrogen chloride also know as hydrochloric acid is an Arrhenius acid, as it produces protons. Look now the dissociation of sodium hydroxide:
+\begin{center}\ce{NaOH_{(s)}   <=> Na^+_{(aq)} + OH^-_{(aq)}}\hfill (a base)\end{center}
+This chemical is an Arrhenius base as it produces hydroxyls. Based on the structure of the acid is easy to tell that HCl is an Arrhenius acid as it contains hydrogen on its structure and hence it can release it giving protons. However, this model does not explain neither why chemicals unsolved in water can also be acidic nor why chemicals such as \ce{NH3} without OH on its structure can be basic.

@@ -1,0 +1,14 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions:
+\begin{inparaenum}[(a)]
+\item The proton concentration of a solution is $3\times 10^{-3}$M. Calculate the hydroxyl concentration in the same solution %$3.3\times 10^{-12}$M
+\item The hydroxyl concentration of a solution is $8\times 10^{-6}$M. Calculate the proton concentration in the same solution.%$1.25\times 10^{-9}$M
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  $3.3\times 10^{-12}$M
+\item  $1.25\times 10^{-9}$M
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

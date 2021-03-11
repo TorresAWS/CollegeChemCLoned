@@ -1,0 +1,6 @@
+ \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the following chemicals indicate whether you will have in the solution only ions, ions and some molecules, or  molecules: (a) \ce{H2SO4}, \ce{HNO3} and \ce{CH3OH}. 
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) ions, (b) ions (c) molecules.
+ \end{flushright} }

@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following monosaccharide as $d-$ or $l-$:
+\begin{center}\carbohydrate[hexose, color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]{rlrr}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As the second OH group starting from the bottom point to the right, it will be $d-$, in particular it would be a: $d-$aldohexose.
+\\
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

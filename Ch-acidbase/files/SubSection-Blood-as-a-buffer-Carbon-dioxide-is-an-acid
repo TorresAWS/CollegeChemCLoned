@@ -1,0 +1,5 @@
+Carbon dioxide is an acid gas. When it dissolved reversibly in water it produces carbonic acid:
+\begin{center}\ce{ CO2_{(g)} + H2O_{(l)}    <=> H2CO3_{(aq)} } \end{center}
+At the same time \ce{H2CO3} partially dissociates in water as a weak acid producing bicarbonate--also known as hydrogen carbonate:
+\begin{center}\ce{ H2CO3_{(aq)}  + H2O_{(l)} <=> HCO3^{-}_{(aq)} + H3O^{+}_{(aq)}} \end{center}
+As a result, the dissolution of carbon dioxide in the blood produced a buffer containing carbonic acid and bicarbonate--the conjugate base of carbonic acid. This buffer system keeps the PH of blood constant to a value of 7.4 that is slightly above the neutral value of 7.

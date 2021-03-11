@@ -1,0 +1,12 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Second is a unit of time. Complete each of the following equalities and conversion factors involving seconds:
+\begin{multicols}{3}
+\begin{enumerate}[label=(\alph*)]
+\item 1cs=$\hlmath{\hspace{35pt }}$s
+\item $\dfrac{\hlmath{\hspace{35pt }}s}{1Ts}$
+\item $\dfrac{\hlmath{\hspace{35pt }}s}{1Ms}$
+\end{enumerate}
+\end{multicols}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) 1cs=$1\times10^{-2}s$; (b) $\dfrac{ 1\times10^{12} s}{1Ts}$; (c) $\dfrac{ 1\times10^{6} s}{1Ms}$; \end{flushright} }

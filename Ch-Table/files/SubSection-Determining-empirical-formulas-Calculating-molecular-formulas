@@ -1,0 +1,21 @@
+\item[\docfilehook{Calculating molecular formulas }{}] By means of a experiment, we want to calculate the empirical formula of a chemical given that the chemical contains 2.8 g of nitrogen and 6.4 g of oxygen. In order to calculate the EF we will set up a table like the one presented below. 
+\begin{center}\fontfamily{ppl}\selectfont
+\begin{tabular}{lll}
+\toprule
+\multicolumn{3}{c}{Empirical Formula Calculation} \\
+\midrule
+ &  N  &O \\
+\midrule
+  Grams &  2.8g  &6.4g \\
+\midrule
+  AW &  14  &16 \\
+\midrule
+  Grams/AW &  0.2  &0.4 \\
+\midrule
+  $\div$ by smallest &  1  &2 \\
+  \midrule
+  Formula & \multicolumn{2}{c}{\ce{N1O2}=\ce{NO2}}     \\
+\bottomrule
+\end{tabular}\end{center}
+
+In each column we will add each of the elements that form the molecule. In the first row we will include the grams of each element (sometimes this information is given in terms of mass $\%$), in the second we will divide the grams of each element by its atomic weight (AW(N)=14amu,AW(O)=16amu). Among all numbers of the second row (in this example 0.2 and 0.4), we will select the smallest number (0.2). Once we have the smallest, we will divide all numbers by the smallest and that will give us round numbers (1 and 2); these will be the numbers in an empirical formula: \ce{NO2}.

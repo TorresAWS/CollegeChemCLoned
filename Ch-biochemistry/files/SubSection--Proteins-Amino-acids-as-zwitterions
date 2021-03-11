@@ -1,0 +1,16 @@
+Amino acids are acid and basic, that means they have two different $PK_a$. For example the two different $PK_a$ values for Glycine is 2.34 and 9.60. This means that in solution amino acids will exist in a protonated form in which the acid group looses its proton \ce{H^+} becoming negatively charged and the amino group has an extra proton and becomes positive. This positive and negative state of an amino acid is called zwitterion.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.2\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.2\textwidth}}
+\setatomsep{2.5em}\chemfig{
+C(-[:0]C(-[:0]@{C}OH^{})(=[:270]O))
+(-[:270]H)(-[:180]H_2N^{}(-[:270,1,,,draw=none]@{A}))
+(-[:90]@{R}H)
+}&
+\setatomsep{2.5em}\chemfig{
+C(-[:0]C(-[:0]@{C}O^{-})(=[:270]O))
+(-[:270]H)(-[:180]H_3N^{+}(-[:270,1,,,draw=none]@{A}))
+(-[:90]@{R}H)
+}
+\tabularnewline\addlinespace
+\textcolor{blue}{Neutral Glycine (Gly)}  &\textcolor{blue}{Glycine as zwitterion} \tabularnewline
+\end{tabular*}\end{center}

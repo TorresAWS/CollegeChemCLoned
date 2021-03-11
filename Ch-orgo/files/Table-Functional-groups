@@ -1,0 +1,20 @@
+\begin{fullwidth}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}4} Names of several functional groups  } \\
+\midrule
+Functional group & Name && Functional group & Name && Functional group & Name  \\
+\midrule
+ \chemfig{C(-[3]R_1)(-[-3]R_2)(=C(-[1]R_3)(-[-1]R_4))}&    Alkene      &&\chemfig{R-C(=[:90]O)-R'}      &    Ketone&&\chemfig{R-OH} &     Alcohol  \\[1mm] 
+	\chemfig{R-C~C-R'} &     Alkyne	&& \chemfig{R-C(=[:90]O)-H}     &    Aldehyde && \chemfig{R-SH}&     Thiol  \\[1mm]
+\chemfig{R-C(=[:90]O)-OH}    &    Carboxylic acid && \chemfig{R-N(-[:90]R')(-R'')}      &    Amine  &&\chemfig{R-O-R'} &    Ether  \\[1mm]
+ \chemfig{R-C(=[:90]O)-O-R'}    &    Ester		&&\chemfig{R-C(=[:90]O)(-N(-R')((-[:90]R'')))}      &    Amide&& \chemfig{(*6(=-=-(-[2]R)=-))}    & Phenyl \\[1mm] 
+\bottomrule
+\end{tabular} } \end{minipage}
+ 
+\end{fullwidth}
+

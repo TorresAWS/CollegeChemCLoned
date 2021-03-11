@@ -1,0 +1,40 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+How many calories are absorbed by a 45.2g piece of aluminum ($c_e=0.214\frac{cal}{g^{\circ}C}$) if its temperature rises from 25$^{\circ}$C to 50$^{\circ}$C. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} list of the given variables.
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$c_e=0.214\frac{cal}{g^{\circ}C}$\\
+$m=45.2g$\\
+$T_{initial}=25^{\circ}C$\\
+$T_{final}=50^{\circ}C$\\
+\tcbitem[swotbox = A]
+$Q$
+\end{tcbitemize}%%% DATA BOX
+\item \begin{bf}Step two:\end{bf} use the formula $Q=m\cdot c_e\cdot  (T_{final}-T_{initial})$ to temperature increase to heat absorbed:
+ %%%% COMMENTED EQUATION
+\vspace{10mm} \begin{equation*}
+     Q\,\,= \, \tikzmark{A}{m}\,\,\,\cdot \,\,\, \tikzmark{B}{$c_e\cdot$}\,\,\,  (\,\,\,\,\,\,\,\,\,\tikzmark{C}{$T_{final}$}\,\,\,\,\,\,\,\,\,-\,\,\,\,\,\,\,\,\,\tikzmark{D}{$T_{initial}$}\,\,\,\,\,\,\,\,\,)
+\end{equation*}
+\begin{tikzpicture}[overlay, remember picture,node distance =1.5cm]
+    \node (Adescr) [below left=of A ]{$45.2g$};\draw[,->,thick] (Adescr) to [in=-90,out=90] (A);
+   \node[red] (Bdescr) [below =of B]{$0.214\frac{cal}{g\cdot^{\circ}C}$}; \draw[red,->,thick] (Bdescr) to [in=-90,out=90] (B);
+   \node[purple] (Cdescr) [below right =of C]{$50^{\circ}C$};\draw[purple,->,thick] (Cdescr) to [in=-90,out=90] (C.south);
+   \node[blue,xshift=1cm] (Ddescr) [above right =of D]{$25^{\circ}C$};\draw[blue,->,thick] (Ddescr) to [in=45,out=-90] (D.north);
+\end{tikzpicture}\vspace{12mm} %%%% COMMENTED EQUATION
+\item \begin{bf}Step three:\end{bf} solve $Q=45.2\cdot 0.214\cdot  (50-25)=241.82cal$.
+\end{enumerate}
+
+\import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+You mix 3 moles of hydrogen with 0.5 moles of nitrogen. Identify the limiting and excess reagents and indicate the moles of leftover remaining. 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{N2} is the limiting reagent and \ce{H2} the excess. 0.5 moles of hydrogen will remain.
+ \end{flushright} }

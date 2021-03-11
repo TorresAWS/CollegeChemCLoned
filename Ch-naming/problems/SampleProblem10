@@ -1,0 +1,17 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or formulate the following hydrates:\\
+\begin{center}\begin{tabularx}{0.95\textwidth}{>{\centering}m{.4\textwidth} *{2}{Y} }
+  \toprule
+\heading{Formula} & \multicolumn{2}{c}{\textbf{Name}}   \\
+    \midrule
+     & 	\multicolumn{2}{c}{ Nickel(II) permanganate dihydrate  }    \\
+       & 	\multicolumn{2}{c}{  Sodium nitrate monohydrate   }    \\
+       \ce{Na2CO3 . 10H2O}   & 	\multicolumn{2}{c}{    }    \\
+       \ce{MgSO4 . 7H2O}   & 	\multicolumn{2}{c}{   }    \\
+      \bottomrule
+\end{tabularx}\end{center}\vspace{0.5cm}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The formula for Nickel(II) permanganate  is \ce{Ni(MnO4)2}, therefore the formula for Nickel(II) permanganate dihydrate is \ce{Ni(MnO4)2 . 2H2O}. The formula for Sodium nitrate is  \ce{NaNO3}, therefore \ce{NaNO3 . H2O} is Sodium nitrate monohydrate. The name for \ce{Na2CO3 . 10H2O} is sodium carbonate decahydrate and \ce{MgSO4 . 7H2O} is magnesium sulfate heptahydrate.
+ \\
+\import{./}{StudyCheck10}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
