@@ -1,7 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Write down the following dissociation or acid-base reaction involving one proton: \ce{HCl_{(g)}   +  NH3_{(g)}     ->  }\\
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: \ce{ HCl_{(g)}   +  NH3_{(g)}     -> NH4Cl_{(s)}   + H2O_{(l)}}
- \end{flushright} }
-

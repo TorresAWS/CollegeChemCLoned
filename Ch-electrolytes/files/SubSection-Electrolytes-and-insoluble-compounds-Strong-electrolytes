@@ -1,6 +1,0 @@
- Strong electrolytes completely dissociate in water. Hence, in a solution of a strong electrolyte you will only have ions and never molecules. Strong electrolytes are typically ionic compounds such as \ce{MgCl2} or \ce{NaCl} (table salt). We represent the dissociation of a strong electrolyte with a single arrow, meaning that the reaction proceeds to completion and for the example below, in the solution we will only have ions (\ce{Mg^{2+}_{(aq)} + 2Cl^{-}_{(aq)}}) and not molecules (\ce{MgCl2_{(s)}}):
-\begin{center}\ce{MgCl2_{(s)}  ->[H2O] Mg^{2+}_{(aq)} + 2Cl^{-}_{(aq)} }.\end{center}
-\item[\docfilehook{Weak electrolytes}{Weak electrolytes}] Weak electrolytes partially dissociate in water, and this is indicated by means of a chemical reaction with a double arrow. Hence in a solution of a weak electrolyte you will have ions as well as molecules at the same time. Examples of weak electrolytes are hydrofluoric acid, water, ammonia or acetic acid. The dissociation of hydrochloric acid (\ce{HF}) proceeds as:
-\begin{center}\ce{HF_{(l)}  <=>[H2O] H^{+}_{(aq)} + F^{-}_{(aq)} }\end{center}
-Acetic acid (\ce{CH3COOH}) is an important weak electrolyte and its dissociation proceeds somehow in a peculiar way:
-\begin{center}\ce{CH3COOH_{(l)}  <=>[H2O] CH3COO^{-}_{(aq)} + H^{+}_{(aq)} }\end{center}

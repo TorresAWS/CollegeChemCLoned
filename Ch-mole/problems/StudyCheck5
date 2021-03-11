@@ -1,5 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Balance the following reaction: \ce{Fe2O3(s) + C(s) -> Fe(s) + CO(g)}
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: \ce{Fe2O3(s) + 3C(s) -> 2Fe(s) + 3CO(g)}.
- \end{flushright} }

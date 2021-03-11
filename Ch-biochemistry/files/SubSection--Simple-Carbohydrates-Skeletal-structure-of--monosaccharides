@@ -1,8 +1,0 @@
-Often times, the structure of carbohydrates are represented in skeletal form, ignoring the C and H atoms and showing only oxygen and OH groups. Here an example:
-\begin{center}
-\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}
-\glucose[model={fischer=skeleton },color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]&
-\glucose[model={fischer=full},color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]
-\tabularnewline\addlinespace
- \textcolor{blue}{Linear Glucose (Skeletal form)} & \textcolor{blue}{Linear Glucose (Full form)}\tabularnewline
-\end{tabular*}\end{center}

@@ -1,5 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Name of give the name of the following oxosalts: \ce{CaSO4} and Aluminum sulfate.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: Calcium sulfate and \ce{Al2(SO4)3}.
- \end{flushright} }

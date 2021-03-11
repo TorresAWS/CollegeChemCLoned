@@ -1,5 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the MW of table salt (\ce{NaCl}) and the grams in 20 moles of this salt. 
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: $58.4g/mol$; 1168g.
- \end{flushright} }

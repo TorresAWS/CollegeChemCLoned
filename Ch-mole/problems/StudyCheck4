@@ -1,5 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Methane is a chemical used as a fuel. Calculate how many grams of methane \ce{CH4} contains $5\times 10^{25}$ H atoms. 
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: 332.1g.
- \end{flushright} }

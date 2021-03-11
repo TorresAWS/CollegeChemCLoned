@@ -1,6 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Calculate: (a) The atomic weight of Mg; (b) the molecular mass of sulfuric acid, \ce{H2SO4} \\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-(a) According to the periodic table the atomic weight (AW) of Mg is $24.31g/mol$. (b) The molar mass of \ce{H2SO4} is the result of adding the atomic masses of 2H (AW=$1g/mol$) atoms, 1 S (AW=$32g/mol$) and 4O (AW=$16g/mol$)  atoms, that gives $98.08g/mol$.\\
- \import{./}{StudyCheck2}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,7 +1,0 @@
-
-\item[\docfilehook{Reactant to a different reactant}{}] 
-Sometimes we will have to calculate how much reactant will be needed to react with another reactant. In those cases we will use the conversion factor that relates both reactants. If we have 5 moles of Mg and we want to know how much oxygen do we need to react with Mg, we will proceed as:
-\begin{equation*}
-5\cancel{\text{ moles of Mg}} \times \dfrac{\text{1 mole of }\ce{O2}}{2\cancel{\text{ moles of Mg}}}=2.5\text{ moles of }\ce{O2}.
-\end{equation*}
-This result means that 2.5 moles of \ce{O2} will react with 5 moles of Mg.

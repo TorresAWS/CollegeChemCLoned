@@ -1,7 +1,0 @@
-Normally monosaccharides exist in liquid solution. In these conditions its structure is not a linear structure such the one presented before. Instead they exist in a cyclic form called Haworth structure. The goal of this section is just to introduce you to this cyclic form.  Here an example:
-\begin{center}
-\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}\setatomsep{2.5em}\glucose[model=haworth,ring, color={anomerH}{orange}, color={anomerO}{orange}, color={ringO}{red}]&
-\glucose[model={fischer=skeleton },color={anomerO}{orange}, color={O-C5}{red}, color={H-C5}{red}]&
-\tabularnewline\addlinespace
-\textcolor{blue}{Haworth Glucose} & \textcolor{blue}{Linear Glucose (Skeletal form)} \tabularnewline
-\end{tabular*}\end{center}

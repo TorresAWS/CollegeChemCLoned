@@ -1,7 +1,0 @@
-
-\item[\docfilehook{Reactants to products}{}] 
-We will calculate how much MgO will be produced from 5 moles of Mg by converting Mg into MgO by means of the conversion factor between both chemicals. As we want to transform the Mg into MgO we will use the conversion factor with Mg on the bottom of the fraction. This way the units will cancel out to give moles of MgO:
- \begin{equation*}
-5\cancel{\text{ moles of Mg}} \times \dfrac{\text{2 moles of MgO}}{2\cancel{\text{ moles of Mg}}}=5\text{ moles of MgO}.
-\end{equation*}
-This result means that 5 moles of Mg will produce 5 moles of MgO.

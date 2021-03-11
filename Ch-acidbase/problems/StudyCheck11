@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Calculate the PH of: (a) a 0.001M \ce{H2SO4} solution (b) a 0.001M \ce{NaOH} solution.
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: 2.7; 11
- \end{flushright} }
-

@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Break down the following chemicals into ions, if possible: \ce{H2O_{(l)}}, \ce{NH3_{(l)}}, \ce{AgNO3_{(aq)}}.
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
- Answer: \ce{H2O_{(l)}}, \ce{NH3_{(l)}}, \ce{Ag^+_{(aq)}}, \ce{NO3^-_{(aq)}}.
- \end{flushright} }

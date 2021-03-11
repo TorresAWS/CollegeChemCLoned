@@ -1,7 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Calculate: (a) The atomic weight of O; (b) the molecular mass of molecular oxygen, \ce{O2} \\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-(a) According to the periodic table the atomic weight (AW) of O is $15.999$ amu. (b) The molar mass of \ce{O2} is the result of adding the atomic masses of 2O atoms, that is $31.998$ amu, close to 32 amu.\\
-\import{./}{StudyCheck4}
-
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,3 +1,0 @@
-\item[\docfilehook{Mass calculations}{}] 
-In the previous sections, given the moles of reactants, we learned how to use chemical reactions to predict the amount of product formed. In this section we will learn how to do the same, but instead of starting with the number of moles, this time, we will work our way starting with a quantity given in grams. We will based the following examples in the reaction of Mg and \ce{O2}:
-\begin{center}\ce{2Mg(s) + O2(g) -> 2MgO(s)}\end{center}

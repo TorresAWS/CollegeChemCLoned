@@ -1,7 +1,0 @@
-Monosaccharides are classified as $d-$ and $l-$ depending on the position of the second OH group starring from the bottom of the molecule. If that specific OH points to the right we call it $d-$ monosaccharides, whereas $l-$ have the second OH group starring from the bottom pointing left. Here some examples:
-\begin{center}
-\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[0]H)(-[4]\textcolor{red}{HO})-!x-!y-!a)}&
-\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[4]H)(-[0]\textcolor{red}{OH})-!y-!x-!a)}
-\tabularnewline\addlinespace
-\textcolor{blue}{$l-$ monosaccharide} & \textcolor{blue}{$d-$ monosaccharide} \tabularnewline
-\end{tabular*}\end{center}

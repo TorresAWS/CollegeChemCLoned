@@ -1,8 +1,0 @@
-\item[\docfilehook{Molar mass review}{}] 
-Remember that the molar mass (also known as molecular weight, MW. Atomic weight for the atoms, AW) of a chemical is a property used to convert grams into moles. For example the molar mass of \ce{H2O} is $18g/mol$. If we need to convert 12 grams of water into mols we should do:
- \begin{equation*}
-12  \cancel{\text{g of \ce{H2O}}} \times 
-\dfrac{\text{moles of \ce{H2O} }} { 18\cancel{\text{ g of \ce{H2O}}} } 
-=\text{0.66 moles of \ce{H2O}}
-\end{equation*}
-In order to use the stoichiometric coefficients from a chemical reaction, the starting quantity must be the moles of a reactant of products. This is because these coefficients are expressed in moles and hence in order to operate with them you can only use moles. 

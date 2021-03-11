@@ -1,9 +1,0 @@
-\item[\docfilehook{From moles to grams}{}] 
-The molar mass is used to convert moles to grams or grams to mol. For example, the molar mass of water is $18 g/mol$. This means:
-\begin{equation*}
-\boxed{   1 \text{mole of \ce{H2O}}=18 \text{g of \ce{H2O}}   } 
-\end{equation*}
-that is the same as
-\begin{equation*}
-\boxed{   \frac{\text{1 mole of \ce{H2O} }}{ \text{18 grams of } \ce{H2O}}\ \text{ or  } \frac{ \text{18 grams of }\ce{H2O} }{\text{1 mole of \ce{H2O}}}\     }
-\end{equation*}

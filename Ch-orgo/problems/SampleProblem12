@@ -1,8 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Classify the following molecules as alcohol or ether.
-\begin{center}\chemfig{CH_3-CH_2-CH_2-OH} \hspace{0.5cm}\chemfig{CH_3-O-CH_2-CH_3}  \end{center}
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The OH groups is an alcohol, and we find this group in the left molecule. Differently, the right molecule is an ether as it contains the \chemfig{R-O-R'} group. \\
-\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) alcohol; (right) ether. \end{flushright}
-\import{./}{StudyCheck12}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

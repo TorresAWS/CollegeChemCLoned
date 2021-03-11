@@ -1,8 +1,0 @@
-The affinity between two chemicals is related to a concept called polarity. Molecules contain electrons and depending on the electron distribution within the molecules, molecules can be polar or non-polar.
-Molecules with an even electron distribution are non-polar as they have no permanent dipole moment. An example of this is \ce{H2} molecule. Differently,  \ce{HF} is a polar molecule, as \ce{F} concentrates more the electron density of the molecule than \ce{H}. The polar nature of substances--with a permanent dipole moment--is related to miscibility and molecules with similar polar character will mingle and mix together creating a single visible phase. As an example, water (\ce{H2O}, polar) and methanol (\ce{CH3OH}, polar) will mix together. Differently, water (polar) and oil (non-polar) are immiscible due to its different polar nature and they will not mix. Even if the rules or polarity are based of the nature and structure of the molecule, one can use very simple empirical rules to classify molecules as polar or non-polar. These rules work in general well for the case of diatomic and very large molecules:
-\begin{itemize}
-   \item  Diatomic molecules made of the same element (e.g. \ce{H2}) are non-polar.
-      \item  Diatomic molecules made of different elements (e.g. \ce{HI}) are polar.
-   \item Poliatomic molecules (with more than four atoms) made of C and H (e.g. \ce{CH4}) are in general non-polar.
-   \item Poliatomic molecules (with more than four atoms) containing C, H and a different atom (e.g. \ce{CH3F}) are in general polar.
- \end{itemize}

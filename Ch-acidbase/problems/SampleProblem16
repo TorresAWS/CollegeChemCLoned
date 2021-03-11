@@ -1,9 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Calculate the PH of 20mL of a 0.1M \ce{NH4Cl}/0.2M \ce{NH3} ($K_b=1.80 \times 10^{-5}$) after adding 1mL of HCl 0.3M. \\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-In this example, we are adding an acid to a basic buffer. We have that $PK_a=9.25$, $V_a=V_b=20mL$, $c_a=0.1M$ and $c_b=0.2M$. As we are adding an acid we have $(V_b\cdot c_b)^{added}=0 $ and $(V_a\cdot c_a)^{added} =1\cdot 0.3=0.3$mM. Using Equation \ref{\chapterlabel:equation16}:
-\[PH=9.25 + \text{log} \Big(\frac{20\cdot 0.2 - (1\cdot 0.3)^{added} }{20\cdot 0.1 + (1\cdot 0.3)^{added} }\Big)=9.46 \]
- We have that the original PH of the buffer is 9.56. After adding an acid, the PH remains close to the original buffer PH.
-\\
-\import{./}{StudyCheck16}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

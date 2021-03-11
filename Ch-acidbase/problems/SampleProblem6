@@ -1,9 +1,0 @@
-\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
-Indicate the strongest acid from:\\
-\ce{ HF_{(aq)}    <=>[H2O] H^{+}_{(aq)} + F^-_{(aq)}} \hfill $K_a=7.2\cdot 10^{-4}$\\
-\ce{ HNO2_{(aq)}    <=>[H2O] H^{+}_{(aq)} + NO2^-_{(aq)}} \hfill $K_a=4.5\cdot 10^{-4}$\\
-\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
-The acid dissociation constant tells how strong is the acid, hence the larger $K_a$ the stronger the acid. Comparing both values: $K_a$(\ce{HF})$=7.2\cdot 10^{-4}$ and $K_a$(\ce{HNO2})$=4.5\cdot 10^{-4}$, \ce{HF} is the stronger of both.
-\\
-\import{./}{StudyCheck6}
-\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

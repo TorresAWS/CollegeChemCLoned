@@ -1,6 +1,0 @@
-\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
-Use polarity arguments to indicate if the following substances will mix: (a) \ce{H2O_{(l)}} and \ce{CH3Cl_{(l)}}; (b) \ce{CH3Cl_{(l)}} and \ce{CCl4_{(l)}}
-
-\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
-Answer: (a) will mix; (b) will not mix.
- \end{flushright} }
