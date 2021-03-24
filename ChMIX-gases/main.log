@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 MAR 2021 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 MAR 2021 12:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -5578,19 +5578,13 @@ nits) (../Ch-measurements/problems/SampleProblem5
 Package mdframed Info: mdframed works in twoside mode on input line 12.
 Package mdframed Info: Not enough space on this page on input line 12.
 
-
-LaTeX Warning: Reference `mdf@pagelabel-1' on page 17 undefined on input line 1
-2.
-
 (../Ch-Gas/problems/GeneralProblems-Gases-And-Its-Properties
 LaTeX Font Info:    Font shape `T1/PTSansNarrow-TLF/bx/n' in size <10.95> not a
 vailable
 (Font)              Font shape `T1/PTSansNarrow-TLF/b/n' tried instead on input
  line 12.
 )
-(../Ch-Gas/problems/GeneralProblems-Ideal-Gas-Law [17
-
-]
+(../Ch-Gas/problems/GeneralProblems-Ideal-Gas-Law
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -5616,24 +5610,26 @@ in y). (see also unbounded coords=jump).
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (
 in y). (see also unbounded coords=jump). 
 ) (../Ch-Gas/problems/GeneralProblems-Change-of-Gas-Properties)
-(../Ch-Gas/problems/GeneralProblems-Mixture-of-Gases-and-gas-stoichiometry
-[18]
+(../Ch-Gas/problems/GeneralProblems-Mixture-of-Gases [17
+
+]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 112.
+(Font)              <9> on input line 87.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 112.
+(Font)              <7> on input line 87.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 112.
+(Font)              scaled to size 9.37807pt on input line 87.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 112.
+(Font)              scaled to size 7.29405pt on input line 87.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 112.
+(Font)              scaled to size 9.37807pt on input line 87.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 112.
-) (../Ch-naming/problems/GeneralProblems-Covalent-compounds)
+(Font)              scaled to size 7.29405pt on input line 87.
+)
+(../Ch-naming/problems/GeneralProblems-Covalent-compounds)
 (../Ch-mole/problems/GeneralProblems-Chemical-Reactions)
 (../Ch-measurements/problems/problems/Problems-Conversion-Factors-Square-and-cu
-bic-units [19]) [20]
+bic-units [18]) [19]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -5674,7 +5670,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 59--69
 []$[]$ 
  []
 
-[21
+[20
 
 ])
 
@@ -5694,15 +5690,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 5405.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5405.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5405.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: FEE552DA5116EFF81954401CC3484C7B;1742.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7A515A71C3C90A6E7AFF997A229F139D;1693
-(rerunfilecheck)             After:  FEE552DA5116EFF81954401CC3484C7B;1742.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.88pt have occurred.
@@ -5713,16 +5703,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5405.
  ) 
 Here is how much of TeX's memory you used:
- 82271 strings out of 493014
- 1861075 string characters out of 6133351
- 2641081 words of memory out of 5000000
- 83579 multiletter control sequences out of 15000+600000
+ 82172 strings out of 493014
+ 1859083 string characters out of 6133351
+ 2637910 words of memory out of 5000000
+ 83497 multiletter control sequences out of 15000+600000
  362598 words of font info for 416 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,22n,118p,10369b,2888s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5755,10 +5742,10 @@ ourier/ucrro8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on main.pdf (21 pages, 3393593 bytes).
+Output written on main.pdf (20 pages, 3383831 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 419 compressed objects within 5 object streams
- 156 named destinations out of 1000 (max. 500000)
- 97371 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 504 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 97295 words of extra memory for PDF output out of 106986 (max. 10000000)
 
