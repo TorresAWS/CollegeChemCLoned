@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2021 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 APR 2021 16:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3938,10 +3938,10 @@ Package rerunfilecheck Info: File `HW.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1321.
  ) 
 Here is how much of TeX's memory you used:
- 61479 strings out of 493014
- 1410361 string characters out of 6133351
+ 61481 strings out of 493014
+ 1410390 string characters out of 6133351
  1767226 words of memory out of 5000000
- 63934 multiletter control sequences out of 15000+600000
+ 63936 multiletter control sequences out of 15000+600000
  54468 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,17n,92p,10366b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3954,7 +3954,7 @@ al/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/201
 -dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/urw/zapfding/uzdr.pfb>
-Output written on HW.pdf (3 pages, 84536 bytes).
+Output written on HW.pdf (3 pages, 84714 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
