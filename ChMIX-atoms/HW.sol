@@ -18,6 +18,41 @@
 {1in}{     }
 \ReturnTo{qex.3}{\mbox{$\square $}}\endeqEXt\par{{}}%
 
+\ReturnTo{qex.4}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.4}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.5}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.5}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.6}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.6}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.7}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.7}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.8}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.8}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.9}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.9}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+\ReturnTo{qex.10}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
+{1in}{     }
+\ReturnTo{qex.10}{\mbox{$\square $}}\endeqEXt\par{{}}%
+
 \eqgrii\end{eqequestions}
 
 \btwnExamSkip
