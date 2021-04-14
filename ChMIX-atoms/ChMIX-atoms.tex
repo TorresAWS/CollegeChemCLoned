@@ -1,48 +1,54 @@
 \documentclass[main.tex]{subfiles}
 \pagenumbering{arabic}
 \newcommand\chapterlabel{ChMIX-biomoleculesinsolution}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
-\setcounter{chapter}{4}
+\setcounter{chapter}{5}
 
 \begin{document}
 
 
 
-\chapter[Gases  ]{Gases }
-
-%\begin{marginfigure}\includegraphics{../Ch-Gas/figure1} \end{marginfigure}\import{../Ch-gas/files/}{ChapterIntro}
+\chapter[atoms  ]{The atom }
+\renewcommand\chapterlabel{Ch-Table}
+ \begin{marginfigure}\includegraphics{../\chapterlabel/figure1} \end{marginfigure}\import{../\chapterlabel/files/}{ChapterIntro}
 
 \begin{marginfigure}%LEARNING GOALS BOX
 \begin{mytcbox}{GOALS}
-%%
-%\begin{center}\textcolor{blue}{\faEnvira Chemistry and molecules }\end{center}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%  \import{../Ch-Gas/files/}{ChapterGoal-Ideal-gas-law}
-%\end{enumerate}
-%
-%\begin{center}\textcolor{blue}{\faFlask Acids and bases }\end{center}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%\import{../Ch-acidbase/files/}{SectionGoal-Blood-as-a-buffer-The-dangerous-change-in-blood-PH}
-%\end{enumerate}
-%
-%\begin{center}\textcolor{blue}{\faTint  Electrolytes and solutions }\end{center}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%\import{../Ch-Gas/files/}{ChapterGoal-Mixtures-of-gases}
-%\end{enumerate}
-%
-%\begin{center}\textcolor{blue}{\faFire Reactions and energy} \end{center}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-% \import{../Ch-mole/files/}{SectionGoal-Chemical-reaction-Balancing-chemical-reactions}
-%\end{enumerate}
-%
-%\begin{center}\textcolor{blue}{\faFlash The chemistry of cancer} \end{center}
-%\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%\import{../Ch-nuclear/files/}{SectionGoal-Radioactive-gases:-radon}
-%	\end{enumerate}
-%	
+\renewcommand\chapterlabel{Ch-Table}
+\begin{center}\textcolor{blue}{\faEnvira Chemistry and molecules }\end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+  \import{../\chapterlabel/files/}{SectionGoal-The-periodic-table}
+  \import{../\chapterlabel/files/}{SectionGoal-The-atom}
+\end{enumerate}
+
+\renewcommand\chapterlabel{Ch-acidbase}
+\begin{center}\textcolor{blue}{\faFlask Acids and bases }\end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{../\chapterlabel/files/}{SectionGoal-Titrations}
+\end{enumerate}
+
+\renewcommand\chapterlabel{Ch-radiation}
+\begin{center}\textcolor{blue}{\faTint  Electrolytes and solutions }\end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{../\chapterlabel/files/}{SectionGoal-Electronic-configuration-Full-electron-Configuration}
+\import{../\chapterlabel/files/}{SectionGoal-Periodic-Trends}
+\end{enumerate}
+
+\renewcommand\chapterlabel{Ch-mole}
+\begin{center}\textcolor{blue}{\faFire Reactions and energy} \end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+ \import{../\chapterlabel/files/}{SectionGoal-Stoichiometry-and-mass-calculations-Mole-Mole-ratio}
+\end{enumerate}
+
+\renewcommand\chapterlabel{Ch-nuclear}
+\begin{center}\textcolor{blue}{\faFlash The chemistry of cancer} \end{center}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{../Ch-nuclear/../\chapterlabel/files/}{SectionGoal-Unknown-isotopes-in-nuclear-reactions}
+\end{enumerate}
+	
 %\begin{center}\textcolor{blue}{\faFlash Let's calculate} \end{center}
 %\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
-%\import{../Ch-measurements/files/}{SectionGoal-Using-Conversion-Factors-Square-or-cubic-units}
-%\import{../Ch-measurements/files/}{SectionGoal-Using-Conversion-Factors-Units-of-volume}
+%\import{../Ch-measurements/../\chapterlabel/files/}{SectionGoal-Using-Conversion-Factors-Square-or-cubic-units}
+%\import{../Ch-measurements/../\chapterlabel/files/}{SectionGoal-Using-Conversion-Factors-Units-of-volume}
 %\end{enumerate}
 %			 				 
 
@@ -54,7 +60,7 @@
 %\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
 %  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
 %\faGears\ 
-% \import{../Ch-electrolytes/files/}{ChapterDiscussion}
+% \import{../Ch-electrolytes/../\chapterlabel/files/}{ChapterDiscussion}
 % \end{tcolorbox}
 \end{marginfigure}%LEARNING GOALS BOX
 
@@ -63,129 +69,115 @@
 
 
 
-\renewcommand\chapterlabel{Ch-Gas}
-
-
-
-\section{\faEnvira Gases and its properties} \import{../\chapterlabel/files/}{SectionIntro-Gases-and-its-properties}
-\sloppy \begin{description}
-\item[\docfilehook{Gases in the periodic table}{}]  \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Gases-in-the-periodic-table}
-\item[\docfilehook{Characteristics of gases}{}]  \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Characteristics-of-gases}
- \item[\docfilehook{Volume, V}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Volume,-V}
- \item[\docfilehook{Temperature, T}{}]\import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Temperature,-T}
- \import{../\chapterlabel/files/}{Figure-Gas-Table}
- \item[\docfilehook{Amount of gas, n}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Amount-of-gas,-n}
- \import{../\chapterlabel/files/}{SideFigure-Gases}
-\item[\docfilehook{Pressure, P}{}] \import{../\chapterlabel/files/}{SubSection-Gases-and-its-properties-Pressure,-P}
+\renewcommand\chapterlabel{Ch-Table}
+\section{\faEnvira The periodic table}\import{../\chapterlabel/files/}{SectionIntro-The-periodic-table}
+\sloppy\begin{description}
+\import{../\chapterlabel/files/}{SubSection-The-periodic-table-Elements-and-Symbols}
+\import{../\chapterlabel/problems/}{SampleProblem9}
+\import{../\chapterlabel/files/}{SubSection-The-periodic-table-Periods-and-groups}
+\import{../\chapterlabel/files/}{SubSection-The-periodic-table-Properties-in-the-periodic-table}
+\import{../\chapterlabel/files/}{SubSection-The-periodic-table-Metals-Nonmetals-and-Metalloids}
 \import{../\chapterlabel/problems/}{SampleProblem1}
- \import{../\chapterlabel/files/}{Figure-Pressure}
-\end{description}
-
-
-
-
- \section{\faEnvira Ideal gas law}\import{../\chapterlabel/files/}{SectionIntro-Ideal-gas-law}
-\sloppy \begin{description}
- \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles}
+\import{../\chapterlabel/files/}{SubSection-The-periodic-table-Classification-of-elements-in-terms-of-groups}
+\import{../\chapterlabel/files/}{SubSection-The-periodic-table-How-to-classify-Hydrogen}
+ \hspace{0cm}\import{../\chapterlabel/files/}{Figure-The-periodic-table}
+ \end{description}
+ 
+\section{\faEnvira The atom}
+\import{../\chapterlabel/files/}{SectionIntro-The-atom}
+\sloppy\begin{description}
+\import{../\chapterlabel/files/}{SubSection-The-atom-Atomic-Structure}
+\import{../\chapterlabel/files/}{SubSection-The-atom-Atomic-and-mass-number}
 \import{../\chapterlabel/problems/}{SampleProblem2}
- \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density}
+\import{../\chapterlabel/files/}{SubSection-The-atom-Isotopes}
+\import{../\chapterlabel/files/}{SubSection-The-atom-Average-atomic-mass}
 \import{../\chapterlabel/problems/}{SampleProblem3}
- \import{../\chapterlabel/files/}{SubSection-Ideal-gas-law-STP-conditions}
-\import{../\chapterlabel/problems/}{SampleProblem4}
+ \import{../\chapterlabel/files/}{Table-Isotopes}
 \end{description}
 
 
- \section{\faEnvira Change of gas properties}\import{../\chapterlabel/files/}{SectionIntro-Change-of-gas-properties}
+
+
+
+
+\renewcommand\chapterlabel{Ch-radiation}
+\section{\faTint Electronic configuration of an atom}\import{../\chapterlabel/files/}{SectionIntro-Electronic-configuration-of-an-atom}
+\sloppy\begin{description}
+\item[\docfilehook{Electron energy levels and sublevels}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Electron-energy-levels-and-sublevels}
+  \import{../\chapterlabel/problems/}{SampleProblem8}
+\item[\docfilehook{The Pauli exclusion principle}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-The-Pauli-exclusion-principle}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} 
+\item[\docfilehook{Orbital Filling: the aufbau principle}{}]\import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Orbital-Filling-the-aufbau-principle}
+\import{../\chapterlabel/files/}{SideFigure-Orbital-filling-diagram}
+ \item[\docfilehook{Full electron Configuration}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Full-electron-Configuration}
+  \import{../\chapterlabel/problems/}{SampleProblem9}
+\item[\docfilehook{Abbreviated Electron Configuration and orbital diagrams}{}] 
+\import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Abbreviated-Electron-Configuration-and-orbital-diagrams}
+  \import{../\chapterlabel/problems/}{SampleProblem10}
+  \item[\docfilehook{Hund's rule}{}] \import{../\chapterlabel/files/}{SubSection-Electronic-configuration-Hund's-rule}
+\import{../\chapterlabel/problems/}{SampleProblem12}
+\end{description}
+
+\newpage
+\section{\faTint  Periodic Trends}\import{../\chapterlabel/files/}{SectionIntro-Periodic-Trends}
+\sloppy\begin{description}
+\item[\docfilehook{Effective charge}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Effective-charge}
+   \import{../\chapterlabel/files/}{Figure-Atomic-radius}
+\import{../\chapterlabel/files/}{Figure-Atomic-radius-plot}
+\item[\docfilehook{Atomic radii}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Atomic-radius}
+\begin{fullwidth}\import{../\chapterlabel/files/}{Table-Ionization-energies}\end{fullwidth}\newpage
+%\import{../\chapterlabel/files/}{Figure-Ionization-energy-plot}
+\item[\docfilehook{Ionization Energy}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Ionization-Energy}
+\item[\docfilehook{Electron affinity}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Electron-affinity}
+\hspace{-6cm}  \import{../\chapterlabel/files/}{Figure-Periodic-propeties}
+\item[\docfilehook{Electronegativity, EN}{}] \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Electronegativity,-EN}
+\item[\docfilehook{Metallic character }{Metallic character }]\import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Metallic-character-}
+  \import{../\chapterlabel/problems/}{SampleProblem11}
+\item[\docfilehook{Ionic radius}{}]  \import{../\chapterlabel/files/}{SubSection-Periodic-Trends-Ionic-radius}
+\end{description}
+
+\renewcommand\chapterlabel{Ch-acidbase}
+\section{\faFlask Titrations}\import{../\chapterlabel/files/}{SectionIntro-Titrations}
 \sloppy \begin{description}
-\item[\docfilehook{Solving problems with an initial and final state}{}]  \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Solving-problems-with-an-initial-and-final-state}
-\import{../\chapterlabel/problems/}{SampleProblem5}
-\item[\docfilehook{Pressure-Volume change}{}] \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Pressure-Volume-change}
- \item[\docfilehook{Volume-Moles change}{}] \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Volume-Moles-change}
-\item[\docfilehook{Relating the different variables of a gas}{}]  \import{../\chapterlabel/files/}{SubSection-Change-of-gas-properties-Relating-the-different-variables-of-a-gas}
+\item[\docfilehook{ Neutralization Reactions}{}] \import{../\chapterlabel/files/}{SubSection-Titrations-Neutralization-Reactions}
+\item[\docfilehook{ Endpoint formula}{}] \import{../\chapterlabel/files/}{SubSection-Titrations-Endpoint-formula}
+  \import{../\chapterlabel/problems/}{SampleProblem17}
 \end{description}
 
-
-
-%  \section{\faEnvira Kinetic molecular theory of gases }\import{../\chapterlabel/files/}{SectionIntro-the-kinetic-molecular-theory-of-gases}
-% \sloppy 
-%\begin{description}
-% \item[\docfilehook{Kinetic theory of gases}{}] \import{../\chapterlabel/files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Kinetic-theory-of-gases}
-%\import{../\chapterlabel/problems/}{SampleProblem11}
-%\end{description}
- 
-
-
-
- 
- \section{\faTint Mixtures of gases  }\import{../\chapterlabel/files/}{SectionIntro-Mixtures-of-gases-and-gas-stoichiometry}
-\sloppy 
-\begin{description}
- \item[\docfilehook{Partial and total pressure}{}] 
-\import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and-total-pressure}
-\import{../\chapterlabel/problems/}{SampleProblem7}
- \import{../\chapterlabel/files/}{Figure-Partial-Pressure}
-\item[\docfilehook{Partial pressure of a gas in a mixture}{ }]  \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pressure-of-a-gas-in-a-mixture}
-\item[\docfilehook{Mole fraction}{}]  \import{../\chapterlabel/files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fraction}
-\import{../\chapterlabel/problems/}{SampleProblem8}
-\end{description}
-
-
-
-
-
- 
-
-
-
-\renewcommand\chapterlabel{Ch-naming}
-\section{\faEnvira Covalent compounds}
-\import{../\chapterlabel/files/}{SectionIntro-Covalent-compounds}
-\sloppy \begin{description}
-\import{../\chapterlabel/files/}{Subsection-Covalent-compounds-Covalent-naming}
- \import{../\chapterlabel/files/}{Table-Covalent-prefixes}	
-\import{../\chapterlabel/problems/}{SampleProblem5}
-\import{../\chapterlabel/files/}{Subsection-Covalent-compounds-Properties-of-covalent-compounds}
-\import{../\chapterlabel/files/}{Subsection-Covalent-compounds-The-covalent-bond}
-\end{description}
 
 
 
 \renewcommand\chapterlabel{Ch-nuclear}
-\section{\faFlash Radioactive gases: radon}
-\import{../\chapterlabel/files/}{SectionIntro-Radioactive-gases:-radon}
+\section{\faFlash Unknown isotopes in nuclear reactions}
+\import{../\chapterlabel/files/}{SectionIntro-Unknown-isotopes-in-nuclear-reactions}
+  \import{../\chapterlabel/problems/}{SampleProblem3}
 
-\renewcommand\chapterlabel{Ch-acidbase}
 
-\section{\color{blue!30!black}{\faFlask Blood as a buffer}}\import{../\chapterlabel/files/}{SectionIntro-Blood-as-a-buffer}
-\sloppy
-\begin{description}
-\item[\docfilehook{ Carbon dioxide is an acid}{}] \import{../\chapterlabel/files/}{SubSection-Blood-as-a-buffer-Carbon-dioxide-is-an-acid}
-\item[\docfilehook{ The dangerous change in blood PH}{}] 
-\import{../\chapterlabel/files/}{SubSection-Blood-as-a-buffer-The-dangerous-change-in-blood-PH}
-  \import{../\chapterlabel/files/}{Figure-Alkalosis-and-PH}
-\item[\docfilehook{ Alkalosis and carbon dioxide}{}] 
-\import{../\chapterlabel/files/}{SubSection-Blood-as-a-buffer-Alkalosis-and-carbon-dioxide}
-   \import{../\chapterlabel/problems/}{SampleProblem20}
- \end{description}
+
 
 \renewcommand\chapterlabel{Ch-mole}
-\section{\faFire Chemical reactions}
-\import{../\chapterlabel/files/}{SectionIntro-Chemical-reaction}
-\sloppy\begin{description}
-\import{../\chapterlabel/files/}{SubSection-Chemical-reaction-Simple-chemical-reactions}
-\import{../\chapterlabel/files/}{SubSection-Chemical-reaction-Reading-a-chemical-reaction}
-\import{../\chapterlabel/files/}{SubSection-Chemical-reaction-Balanced-chemical-reactions}
-\import{../\chapterlabel/problems/}{SampleProblem5}
-\end{description}
-
-\renewcommand\chapterlabel{Ch-measurements}
-\section{\faGears Square units and units of volume}
-\sloppy\begin{description}
-\item[\docfilehook{Square or cubic units}{}]\import{../\chapterlabel/files/}{SubSection-Using-Conversion-Factors-Square-or-cubic-units}
-\import{../\chapterlabel/problems/}{SampleProblem5}
-\item[\docfilehook{Units of volume}{}]\import{../\chapterlabel/files/}{SubSection-Using-Conversion-Factors-Units-of-volume}
+\section{\faFire Stoichiometry }
+\import{../\chapterlabel/files/}{SectionIntro-Stoichiometry-and-mass-calculations}
+\sloppy \begin{description}
+\import{../\chapterlabel/files/}{SubSection-Stoichiometry-and-mass-calculations-Mole-Mole-ratio}
+\import{../\chapterlabel/files/}{SubSection-Stoichiometry-and-mass-calculations-Reactants-to-products}
+\import{../\chapterlabel/files/}{SubSection-Stoichiometry-and-mass-calculations-Reactant-to-a-different-reactant}
 \import{../\chapterlabel/problems/}{SampleProblem6}
 \end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
