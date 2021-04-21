@@ -1,0 +1,74 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}\newpage
+%\setdoublesep{0.35700 em}  % 'Bond Spacing'
+%\setatomsep{1.78500 em}    % 'Fixed Length'
+%\setbondoffset{0.18265 em} % 'Margin Width'
+%\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+%\setbondstyle{line width = \bondwidth}
+\newgeometry{left=0.8in,right=0.8in, top=2.5cm,bottom=2.5cm}
+\fancyhfoffset[E,O]{0pt}
+\setlength{\columnsep}{30pt}
+\begin{conclusion}
+\end{conclusion}
+%\setstretch{0.3}
+\begin{multicols*}{2}\setcounter{numA}{1}  %\newcounter{numA}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newcommand\chapterlabel{Ch-Gas}
+{\raggedright\textsc{\textbf{Gases and its properties}}\par}
+ \import{../\chapterlabel/problems/}{GeneralProblems-Gases-And-Its-Properties}
+ {\raggedright\textsc{\textbf{Ideal gas law}}\par}
+ \import{../\chapterlabel/problems/}{GeneralProblems-Ideal-Gas-Law}
+ {\raggedright\textsc{\textbf{Change of gas properties}}\par}
+  \import{../\chapterlabel/problems/}{GeneralProblems-Change-of-Gas-Properties}
+   {\raggedright\textsc{\textbf{Mixtures of gases}}\par}
+ \import{../\chapterlabel/problems/}{GeneralProblems-Mixture-of-Gases}
+ 
+ 
+ {\raggedright\textsc{\textbf{Covalent compounds}}\par}
+  \renewcommand\chapterlabel{Ch-naming}
+ \import{../\chapterlabel/problems/}{GeneralProblems-Covalent-compounds}
+
+
+ 
+ 
+{\raggedright\textsc{\textbf{Chemical reactions}}\par}\renewcommand\chapterlabel{Ch-mole}
+\import{../\chapterlabel/problems/}{GeneralProblems-Chemical-Reactions}
+{\raggedright\textsc{\textbf{Square units and units of volume}}\par}\renewcommand\chapterlabel{Ch-measurements}
+\import{../\chapterlabel/problems/problems/}{Problems-Conversion-Factors-Square-and-cubic-units}
+
+ 
+ 
+
+\end{multicols*}
+\newpage
+\begin{answersenvironment}
+\begin{minipage}[c]{1\textwidth}
+\begin{localsize}{10}
+{\Large \bf Answers}
+\SetupExSheets{
+  headings = inline-nr , % numbered and inline
+  counter-format = qu) , % numbers 1) 2) ... 
+}
+% \printsolutions 
+    \printsolutions[byID={1,3,5,7,9,11,13,15, 17,19,21,23,25, 27,29 }]  
+\end{localsize}
+\end{minipage}\end{answersenvironment}
+
+\end{document}
+
+
+
+
+
