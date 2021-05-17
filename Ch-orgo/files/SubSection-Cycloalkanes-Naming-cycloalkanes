@@ -1,0 +1,2 @@
+The naming of alkanes and cycloalkanes is very similar. You just need to add the cyclo prefix to the name. For example, the alkane with five carbons is called pentane, whereas the corresponding cycloalkane is called cyclopentane:
+\begin{center}\chemfig{CH_2*5(-CH_2-CH_2-CH_2-CH_2-[,,2])}\hspace{1cm} or \hspace{1cm}\chemfig{*5(------)}  \hspace{0.5cm}\textcolor{blue}{Cyclopentane}\end{center}

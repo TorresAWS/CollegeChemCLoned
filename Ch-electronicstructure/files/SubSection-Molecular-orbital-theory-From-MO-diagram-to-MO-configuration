@@ -1,0 +1,3 @@
+Obtaining a MO diagram is not obvious, and these diagrams can only be obtained after very complicated quantum mechanics simulations. However, after the MO diagram is given, one can obtain the MO configuration. From this configuration we can calculate two main properties: the bond order--related to the length of the molecule--and the magnetic character of the molecule. Let us use the case of \ce{N2}:
+In this diagram, the lower MO's are the most stables and should be filled first. The higher MO are less stable and they are listed in the right side of the MO configuration. For example, the MO configuration of \ce{N2} would be:
+\begin{center}\ce{N2}=$\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{2}_{2p}$\end{center}

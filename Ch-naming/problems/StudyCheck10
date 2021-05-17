@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name or formulate the following hydrates: \ce{LiNO3 . H2O}, \ce{Na3PO4 . 3H2O} and sodium sulfate tetrahydrate.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: lithium nitrate monohydrate;  sodium phosphate trihydrate and  \ce{Na2SO4 . 4H2O}.
+ \end{flushright} }

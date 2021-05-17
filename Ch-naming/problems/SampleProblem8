@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name of give the name of the following oxosalts: \\
+\begin{tabularx}{0.75\textwidth}{>{\centering}m{.185\linewidth}  *{3}{Y} }
+  \toprule
+\heading{Formula} & \multicolumn{3}{c}{\textbf{Name}}   \\
+    \midrule
+   \ce{K2SO4 } & 	\multicolumn{3}{c}{     }    \\
+    \ce{Na2CO3 } & 	\multicolumn{3}{c}{     }    \\
+         & 	\multicolumn{3}{c}{  Magnesium carbonate   }    \\
+         & 	\multicolumn{3}{c}{  Sodium phosphate   }    \\
+      \bottomrule
+\end{tabularx}\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\ce{K2SO4} is named potassium sulfate, as \ce{K^+} is potassium and \ce{SO4^{2-}} stands for sulfate. \ce{Na2CO3 }  is sodium carbonate. Magnesium carbonate is \ce{MgCO3} and sodium phosphate  is \ce{Na3PO4 }.\\
+\import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

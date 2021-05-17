@@ -1,0 +1,17 @@
+\item[\docfilehook{Simple ionic naming (type I ionic)}{}] Type I ionic compounds result from the combination of a metal with given valence (Li, Ca, Mg, etc.) and a non metal. In order to name an ionic compound (type I ionic) you need to (a) use the name of the first element in the compound, (b) use the first syllable of the second element, and (c) finish the name of the molecule in the suffix \emph{-ide}. As an example, the formula \ce{NaCl} is named as sodium chloride and  \ce{MgCl_2} is named magnesium chloride. Another example would be:
+ \begin{namingbox} {}
+  \ce{CaCl2}\hfill calcium chloride 	\hfill   \ce{LiO2} \hfill lithium oxide  \\
+\end{namingbox}
+In order to formulate an ionic compound based on a name, we need to combine both ions by exchanging the valences (the ionic charges). For example,\ce{MgCl_2} results of the combination of \ce{Mg^{2+}} and \ce{Cl^{-}} so that the number 2 in \ce{MgCl_2} near the Cl atom is coming from the \ce{Mg^{2+}}. In other words:
+\vspace{.5cm}\begin{center}
+  \schemestart
+    \chemfig{@{d1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{2@{d2}Cl^{-}}   \arrow \ce{MgCl2}
+  \schemestop
+  \chemmove{
+    \draw[elmove=left] (d2) ..controls +(45:2cm) and +(-45:1cm) .. (d1) ;
+      \draw[elmove=left]   (d1) ..controls +(45:1cm) and +(-45:2cm) .. (d2) ;
+  }\end{center}\vspace{.5cm}
+
+
+
+The sign of the charges only indicate which element goes first in the formula: the positive element (cation) first following by the negative element (anion). For example the result of combining \ce{Na^{+}} and \ce{Cl^{-}} is \ce{NaCl} and not \ce{ClNa} as Na has positive ionic charge and has to appear first in the formula.

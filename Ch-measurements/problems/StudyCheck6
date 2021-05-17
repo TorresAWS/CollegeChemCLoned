@@ -1,0 +1,5 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Convert 40L to $cm^3$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $40\cancel{L} \times \dfrac{1\cancel{mL}}{1\times10^{-3}\cancel{L}} \times \dfrac{1cm^3}{1\cancel{mL}}=4\times 10^4cm^3$. \end{flushright} }

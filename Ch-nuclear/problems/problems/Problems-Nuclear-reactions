@@ -1,0 +1,28 @@
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following nuclear reactions as: 
+\begin{inparaenum}[(a)]
+\item $\alpha$ decay
+\item $\beta$ decay
+\item $\gamma$ decay
+\item positron emission
+\end{inparaenum}
+\begin{enumerate}[label=(\alph*)]
+\item \ce{^238_92U -> ^234_90Th + ^4_2He} 
+\item \ce{^42_19K -> ^42_20Ca + ^0_{-1}e}
+\item \ce{^15_8O -> ^15_7N + ^0_{+1}e}
+\item \ce{^228_88Ra -> ^228_89Ac + ^0_{-1}e}
+\item \ce{^13_6C + ^1_1H -> ^14_7N + ^0_0\gamma}
+\end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item $\alpha$ decay
+\item  $\beta$ decay
+\item positron emission
+\item $\beta$ decay
+\item $\gamma$ decay
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

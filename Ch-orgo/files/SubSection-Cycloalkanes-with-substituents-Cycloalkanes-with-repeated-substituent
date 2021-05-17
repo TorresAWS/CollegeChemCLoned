@@ -1,0 +1,5 @@
+Let us take a look at the following cycloalkane, which has two repeated fluorine substituents:
+\begin{center}\chemfig{*6(---(-F)-(-F)---)} \end{center}
+After numbering the chain:
+\begin{center}\chemname{\chemfig{*6((!\E)-(!\D)-(!\C)-(!\B)(-F)-(!\A)(-F)-(!\F)--)} }{}\end{center}
+The name would be: 1,2-difluorocyclohexane.

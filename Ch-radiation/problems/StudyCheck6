@@ -1,0 +1,16 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Indicate if the following combination of quantum numbers is allowed:
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{4}{Y} }
+  \toprule
+\heading{$n$} & \heading{$\ell$}  &  \heading{$m_{\ell}$} & \heading{$m_s$} & \heading{Allowed?}   \\
+    \midrule
+ 4		&3&		3	&	$+^1/_2$    \\
+  4		&3	&	3	&	$0$   \\
+2		&1	&	-1	&	$+^1/_2$\\    
+    \bottomrule
+\end{tabularx}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: yes, no, yes. 
+ \end{flushright} }

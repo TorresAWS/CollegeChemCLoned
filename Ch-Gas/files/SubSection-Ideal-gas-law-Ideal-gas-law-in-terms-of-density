@@ -1,0 +1,14 @@
+\item[\docfilehook{Ideal gas law in terms of density}{}] 
+The ideal gas law in terms of density is:%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}\begin{split}
+\boxed{  P\cdot MW=DRT} \quad \textcolor{blue}{\text{Ideal Gas Law in terms of D}}
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $P$   is the pressure of the gas in atm
+\item $MW$ is the molecular weight (or atomic weight, AW) of the gas in g/mol 
+ \item $D$   is the density in $g\cdot L^{-1}$
+\item $T$   is the temperature of the gas in K
+\item $R$   is the constant of the gas $0.082\frac{\text{atm}\cdot \text{L}}{\text{mol}\cdot \text{K}}$
+\end{where}
+We use this formula when we are questioned about the molar mass or density of the gas.

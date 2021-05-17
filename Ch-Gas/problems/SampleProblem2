@@ -1,0 +1,36 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Helium gas is used to inflate blimps, scientific balloons and party balloons. What is the volume in litters of a 0.2 moles Helium balloon at 300K and 2 atm.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$T=300K$\\
+$P=2atm$\\
+$n=0.2mol$\\
+$R=0.082\frac{\text{atm}\cdot \text{L}}{\text{mol}\cdot \text{K}}$\\
+\tcbitem[swotbox = A]
+$V$\\
+\\
+\\
+\\
+\end{tcbitemize}%%% DATA BOX
+Using now the ideal gases formula: $PV=nRT$, we have
+\begin{equation*}
+2 \cancel{\text{atm}}\cdot V=0.2\cancel{\text{mol}}\cdot 0.082\frac{\cancel{\text{atm}}\cdot \text{L}}{\text{mol}\cdot \cancel{\text{K}}}\cdot 300\cancel{K}
+\end{equation*}
+All units but L cancel out. Solving for V we have 2.46 L.
+\\
+\import{./}{StudyCheck2}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name the following hydrocarbon:
+\begin{center}\chemname{\chemfig{*4(-(-F)-(-I)-(-Br)-)} }{}\end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-bromo-3-fluoro-2-bromocyclopropane. \end{flushright} }
+

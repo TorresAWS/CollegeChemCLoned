@@ -1,0 +1,21 @@
+The photoelectric effect was a mysterious phenomena discovered early in the twentieth century. Scientist found that if you expose a metal to light, under certain conditions, it emits electrons--it produced electricity. They found that the intensity--the brightness--of the radiation was not a key component of this phenomena, and not by increasing the intensity you were able to produce electrons. 
+They key was the frequency of the radiation. For frequencies above a specific threshold radiation was produce. If the frequency was above that threshold--called threshold radiation, $\nu_c$--then the larger the intensity of the radiation the more electrons were produced. On that time, the current theory of light, associating intensity of light with energy, was unable to explain this phenomena. Albert Einstein used Plank's theory of the blackbody radiation to solve this mystery.
+He assumed that light is made of a steam of particles called photons, each with a given energy, $h\nu$. The electrons of a metal are held by attractive forces. A property called work function $W$--or biding energy--tells how strongly the electrons of a metal are held together. 
+In Table \ref{tab:{\chapterlabel}\thetablenewcounter} you can find numerous workfunctions. Metals such as Fe have high workfunctions in comparison to metals such as Ca, that means it takes more energy to remove an electron from the metal.
+Therefore, if the energy of the radiation was enough to overcome this forces, the electron emission will happen. In other words, if $h\nu$ is larger than $W$ the electron emission will happen and the electrons emitted will have a kinetic energy (KE) equal to:
+\begin{equation*}
+\boxed{  KE=4.13\times 10^{-15}\nu -W  } \quad \textcolor{blue}{\text{Photoelectric effect}}
+\end{equation*}
+where:
+\begin{where}
+ \item $KE$   is the kinetic energy of the emitted electrons in eV
+  \item $4.13\times 10^{-15}$ is called Plank's constant in eV$\cdot\text{ }$s, $h$
+ \item $\nu$  is frequency in hertz (Hz)
+ \item is the workfunction of the metal in eV
+\end{where}
+What is the threshold frequency, $\nu_c$? When the energy of the radiation is the same as the work-function of the metal, then electrons are ejected. This way, the threshold frequency is just the work-function of the metal converted in units of frequency:
+\begin{equation*}
+\boxed{ \nu_c =\frac{W}{4.13\times 10^{-15}}  } \quad \textcolor{blue}{\text{threshold frequency}}
+\end{equation*}
+$4.13\times 10^{-15}$ is called Plank's constant in eV$\cdot\text{ }$s, $h$, $\nu_c$  is the threshold frequency in hertz (Hz) and $W$ is the workfunction of the metal in eV.
+Einsteins theory of the photoelectric effect shocked the scientific community. Before this theory, light was considered a wave. Based on Einstein's theory, wave poses properties of both a particle and a wave, and depending on the experiment one experience light as a wave or as a particle.

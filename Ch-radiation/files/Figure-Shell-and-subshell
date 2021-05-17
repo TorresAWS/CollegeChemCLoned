@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{fullwidth}
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \begin{center}
+%\resizebox{1.0\textwidth}{!}{
+\tiny\begin{tikzpicture}[square/.style={thin, draw,regular polygon,regular polygon sides=4, fill=gray!50,minimum width=1pt, minimum height = 1pt,font=\small, anchor=center, text width=2em,align=center},outer sep=0,inner sep=0]
+\tikzset{
+     block/.style={rectangle, draw, text width=4em,
+                   text centered, rounded corners, minimum height=3em},
+     arrow/.style={-{Stealth[]}}
+     }
+\begin{scope}[shift={(0,-0 em)}]
+      \node [fill=none,thin, block, text width=8em,minimum height = 20em, minimum width = 28em]  (a) at (0 em,5 em) {} node [below =of a, black,yshift= 7em] {Fourth Shell ($n$=4)};
+      \node [fill=none,thin, block, text width=8em,minimum height = 20em, minimum width = 20em]  (b) at (-25.5 em,5 em) {} node [below =of b, black,yshift= 7em] {Third Shell ($n$=3)};
+      \node [fill=none,thin, block, text width=8em,minimum height = 20em, minimum width = 12em]  (c) at (-43.5 em,5 em) {} node [below =of c, black,yshift= 7em] {Second Shell ($n$=2)};
+       \node [fill=none,thin, block, text width=8em,minimum height = 20em, minimum width = 3em]  (d) at (-57 em,5 em) {} node [below =of d, black,yshift= 7em] {First Shell ($n$=1)};
+
+ \end{scope} 
+ 
+ 
+\begin{scope}[shift={(0,-0 em)}]
+   \node at (-63em,0em) {$\ell=0$} ;\draw [dashed]  (-61em,0em) -- (15em,0em) node[xshift=1.6em] {$\ell=0$} ;
+   \node at (-63em,4em) {$\ell=1$} ;\draw [dashed]  (-61em,4em) -- (15em,4em) node[xshift=1.6em] {$\ell=1$} ;
+   \node at (-63em,8em) {$\ell=2$} ;\draw [dashed]  (-61em,8em) -- (15em,8em) node[xshift=1.6em] {$\ell=2$} ;
+   \node at (-63em,12em) {$\ell=3$} ;\draw [dashed]  (-61em,12em) -- (15em,12em) node[xshift=1.6em] {$\ell=3$} ;
+ \end{scope} 
+ 
+
+\begin{scope}[shift={(4.5,-0 em)}]
+      \node [thin, block, fill=red,text width=8em,minimum height = 2em]  (Y11) at (0 em,0 em) { $s$ subshell};
+      \node [thin, block, fill=green,text width=8em,minimum height = 2em] (Y21) at (0 em,4 em) { $p$ subshell };
+       \node [thin, block, fill=yellow,text width=8em,minimum height = 2em] (Y21) at (0 em,8 em) { $d$ subshell  };
+       \node [thin, block, fill=orange,text width=8em,minimum height = 2em] (Y21) at (0 em,12 em) { $f$ subshell  };
+ \end{scope} 
+\begin{scope}[shift={(0,-0 em)}]
+      \node [square, fill=red]  (Y11) at (0 em,0 em) { 0};
+       \node [square, fill=green]  (Y21) at (0 em,4 em) { 0 };
+       \node [square, fill=green]  (Y21) at (4 em,4 em) { +1  };
+       \node [square, fill=green]  (Y21) at (-4 em,4 em) { -1  };
+       \node [square, fill=yellow]  (Y21) at (0 em,8 em) { 0 };
+       \node [square, fill=yellow]  (Y21) at (4 em,8 em) { +1  };
+       \node [square, fill=yellow]  (Y21) at (8 em,8 em) { +2  };
+       \node [square, fill=yellow]  (Y21) at (-4 em,8 em) { -1  };
+       \node [square, fill=yellow]  (Y21) at (-8 em,8 em) { -2  };
+       \node [square, fill=orange]  (Y21) at (0 em,12 em) { 0 };
+       \node [square, fill=orange]  (Y21) at (4 em,12 em) { +1  };
+       \node [square, fill=orange]  (Y21) at (8 em,12 em) { +2  };
+       \node [square, fill=orange]  (Y21) at (12 em,12 em) { +3  };
+       \node [square, fill=orange]  (Y21) at (-4 em,12 em) { -1  };
+       \node [square, fill=orange]  (Y21) at (-8 em,12 em) { -2  };
+       \node [square, fill=orange]  (Y21) at (-12 em,12 em) { -3  };
+\end{scope} 
+
+\begin{scope}[shift={(-4.5,0 em)}]
+      \node [square, fill=red]  (Y11) at (0 em,0 em) { 0};
+       \node [square, fill=green]  (Y21) at (0 em,4 em) { 0 };
+       \node [square, fill=green]  (Y21) at (4 em,4 em) { +1  };
+       \node [square, fill=green]  (Y21) at (-4 em,4 em) { -1  };
+       \node [square, fill=yellow]  (Y21) at (0 em,8 em) { 0 };
+       \node [square, fill=yellow]  (Y21) at (4 em,8 em) { +1  };
+       \node [square, fill=yellow]  (Y21) at (8 em,8 em) { +2  };
+       \node [square, fill=yellow]  (Y21) at (-4 em,8 em) { -1  };
+       \node [square, fill=yellow]  (Y21) at (-8 em,8 em) { -2  };
+\end{scope} 
+\begin{scope}[shift={(-7.6,0 em)}]
+      \node [square, fill=red]  (Y11) at (0 em,0 em) { 0};
+       \node [square, fill=green]  (Y21) at (0 em,4 em) { 0 };
+       \node [square, fill=green]  (Y21) at (4 em,4 em) { +1  };
+       \node [square, fill=green]  (Y21) at (-4 em,4 em) { -1  };
+\end{scope} 
+\begin{scope}[shift={(-10,0 em)}]
+      \node [square, fill=red]  (Y11) at (0 em,0 em) { 0};
+\end{scope} 
+
+\node[font=\normalsize, xshift=-0em, yshift=-0em, text width=15cm, fontscale=3.0] at (-21em,-9em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The shell and subshell distribution for different principal and angular quantum numbers. Orbitals with the same value of $n$ belong to the same shell and orbitals with the same $n$ and $\ell$ values belong to the same subshell.  };
+ \end{tikzpicture}
+ %}
+   \end{center}
+\end{fullwidth}
+
+   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

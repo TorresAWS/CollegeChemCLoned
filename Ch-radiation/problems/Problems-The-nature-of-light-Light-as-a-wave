@@ -1,0 +1,32 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the following properties:
+\begin{inparaenum}[(a)]
+\item  The energy in joules of a radiation with frequency $2.0\times10^{18}$ Hz?
+\item  The frequency of a radiation with energy $5.6\times10^{-20}$ J?
+ \item   The energy in joules of a radiation with wavelength $653$ nm?
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  $1.32\times10^{-15}$J
+\item  $8.5\times10^{13}$Hz
+\item   $3.03\times10^{-19}$J
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\vspace{-0.5cm}
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the following properties:
+\begin{inparaenum}[(a)]
+\item  The wavelength of a radiation with  energy $5.34\times10^{-16}$J?
+\item   The wavelength of a radiation with  frequency of $3.4\times10^{14}$ Hz?  
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   $0.37$ nm
+\item   $882$ nm    
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{fullwidth}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{0.9\textwidth}{!}{
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{tikzpicture}
+\pgfdeclarefunctionalshading{spherea}{\pgfpoint{-25bp}{-25bp}}{\pgfpoint{25bp}{25bp}}{}{%% calculate unit coordinates
+25 div exch
+25 div exch
+%% copy stack
+2 copy 
+%% compute -z^2 of the current position 
+dup mul exch
+dup mul add
+1.0 sub
+%% and the -z^2 of the light source 
+0.3 dup mul
+-0.5 dup mul add
+1.0 sub
+%% now their sqrt product
+mul abs sqrt
+%% and the sum product of the rest
+exch 0.3 mul add
+exch -0.5 mul add
+%% max(dotprod,0)
+dup abs add 2.0 div 
+%% matte-ify
+0.6 mul 0.4 add
+%% currently there is just one number in the stack.
+%% we need three corresponding to the RGB values
+dup
+0.4
+}
+
+\newcommand\Xspace{5}
+\newcommand\RadiusA{1}
+\newcommand\RadiusB{.3}
+\pgfmathsetmacro\RadiusC{\RadiusA-1*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusD{\RadiusA-2*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusE{\RadiusA-3*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusF{\RadiusA-4*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusG{\RadiusA-5*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusH{\RadiusA-6*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\XspaceB{2*\Xspace }
+\pgfmathsetmacro\XspaceC{3*\Xspace }
+\pgfmathsetmacro\XspaceD{4*\Xspace }
+\pgfmathsetmacro\XspaceE{5*\Xspace }
+\pgfmathsetmacro\XspaceF{6*\Xspace }
+\pgfmathsetmacro\XspaceG{7*\Xspace }
+\node[circle,shading=ball,minimum width=\RadiusA cm] (ball1) at (0,0) {} node[yshift=-6ex] at (ball1) {167} node[yshift=6ex, text=brown] at (ball1) {\small Li};
+\node[circle,shading=ball,minimum width=\RadiusC cm] (ball1) at (\Xspace em,0) {} node[yshift=-6ex] at (ball1) {112} node[yshift=6ex, text=brown] at (ball1) {\small Be};
+\node[circle,shading=spherea,minimum width=\RadiusD cm] (ball1) at (\XspaceB em,0) {} node[yshift=-6ex] at (ball1) {87} node[yshift=6ex, text=brown] at (ball1) {\small B};
+\node[circle,shading=spherea,minimum width=\RadiusE cm] (ball1) at (\XspaceC em,0) {} node[yshift=-6ex] at (ball1) {67} node[yshift=6ex, text=brown] at (ball1) {\small C};
+\node[circle,shading=spherea,minimum width=\RadiusF cm] (ball1) at (\XspaceD em,0) {} node[yshift=-6ex] at (ball1) {56} node[yshift=6ex, text=brown] at (ball1) {\small N};
+\node[circle,shading=spherea,minimum width=\RadiusG cm] (ball1) at (\XspaceE em,0) {} node[yshift=-6ex] at (ball1) {48} node[yshift=6ex, text=brown] at (ball1) {\small O};
+\node[circle,shading=spherea,minimum width=\RadiusH cm] (ball1) at (\XspaceF em,0) {} node[yshift=-6ex] at (ball1) {42} node[yshift=6ex, text=brown] at (ball1) {\small F};
+\node[circle,shading=spherea,minimum width=\RadiusB cm] (ball1) at (\XspaceG em,0) {} node[yshift=-6ex] at (ball1) {38} node[yshift=6ex, text=brown] at (ball1) {\small Ne};
+
+\begin{scope}[shift={(0,-7 em)}]
+\pgfmathsetmacro\RadiusA{\RadiusA + 0.2}
+\pgfmathsetmacro\RadiusB{\RadiusB +0.2 }
+\pgfmathsetmacro\RadiusC{\RadiusA-1*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusD{\RadiusA-2*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusE{\RadiusA-3*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusF{\RadiusA-4*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusG{\RadiusA-5*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusH{\RadiusA-6*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\XspaceB{2*\Xspace }
+\pgfmathsetmacro\XspaceC{3*\Xspace }
+\pgfmathsetmacro\XspaceD{4*\Xspace }
+\pgfmathsetmacro\XspaceE{5*\Xspace }
+\pgfmathsetmacro\XspaceF{6*\Xspace }
+\pgfmathsetmacro\XspaceG{7*\Xspace }
+ \node[circle,shading=ball,minimum width=\RadiusA cm] (ball1) at (0,0) {} node[yshift=-6ex] at (ball1) {190} node[yshift=6ex, text=brown] at (ball1) {\small Na};
+\node[circle,shading=ball,minimum width=\RadiusC cm] (ball1) at (\Xspace em,0) {} node[yshift=-6ex] at (ball1) {145} node[yshift=6ex, text=brown] at (ball1) {\small Mg};
+\node[circle,shading=spherea,minimum width=\RadiusD cm] (ball1) at (\XspaceB em,0) {} node[yshift=-6ex] at (ball1) {118} node[yshift=6ex, text=brown] at (ball1) {\small Al};
+\node[circle,shading=spherea,minimum width=\RadiusE cm] (ball1) at (\XspaceC em,0) {} node[yshift=-6ex] at (ball1) {111} node[yshift=6ex, text=brown] at (ball1) {\small Si};
+\node[circle,shading=spherea,minimum width=\RadiusF cm] (ball1) at (\XspaceD em,0) {} node[yshift=-6ex] at (ball1) {98} node[yshift=6ex, text=brown] at (ball1) {\small P};
+\node[circle,shading=spherea,minimum width=\RadiusG cm] (ball1) at (\XspaceE em,0) {} node[yshift=-6ex] at (ball1) {90*} node[yshift=6ex, text=brown] at (ball1) {\small S};
+\node[circle,shading=spherea,minimum width=\RadiusH cm] (ball1) at (\XspaceF em,0) {} node[yshift=-6ex] at (ball1) {79} node[yshift=6ex, text=brown] at (ball1) {\small Cl};
+\node[circle,shading=spherea,minimum width=\RadiusB cm] (ball1) at (\XspaceG em,0) {} node[yshift=-6ex] at (ball1) {71} node[yshift=6ex, text=brown] at (ball1) {\small Ar};
+\end{scope} 
+ 
+
+
+\begin{scope}[shift={(0,-14 em)}]
+\pgfmathsetmacro\RadiusA{\RadiusA + 0.4}
+\pgfmathsetmacro\RadiusB{\RadiusB +0.4 }
+\pgfmathsetmacro\RadiusC{\RadiusA-1*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusD{\RadiusA-2*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusE{\RadiusA-3*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusF{\RadiusA-4*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusG{\RadiusA-5*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusH{\RadiusA-6*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\XspaceB{2*\Xspace }
+\pgfmathsetmacro\XspaceC{3*\Xspace }
+\pgfmathsetmacro\XspaceD{4*\Xspace }
+\pgfmathsetmacro\XspaceE{5*\Xspace }
+\pgfmathsetmacro\XspaceF{6*\Xspace }
+\pgfmathsetmacro\XspaceG{7*\Xspace }
+ \node[circle,shading=ball,minimum width=\RadiusA cm] (ball1) at (0,0) {} node[yshift=-6ex] at (ball1) {243	} node[yshift=6ex, text=brown] at (ball1) {\small   K };
+\node[circle,shading=ball,minimum width=\RadiusC cm] (ball1) at (\Xspace em,0) {} node[yshift=-6ex] at (ball1) {194	} node[yshift=6ex, text=brown] at (ball1) {\small  Ca};
+\node[circle,shading=spherea,minimum width=\RadiusD cm] (ball1) at (\XspaceB em,0) {} node[yshift=-6ex] at (ball1) {136	} node[yshift=6ex, text=brown] at (ball1) {\small  Ga};
+\node[circle,shading=spherea,minimum width=\RadiusE cm] (ball1) at (\XspaceC em,0) {} node[yshift=-6ex] at (ball1) {125	} node[yshift=6ex, text=brown] at (ball1) {\small  Ge};
+\node[circle,shading=spherea,minimum width=\RadiusF cm] (ball1) at (\XspaceD em,0) {} node[yshift=-6ex] at (ball1) {114	} node[yshift=6ex, text=brown] at (ball1) {\small  As};
+\node[circle,shading=spherea,minimum width=\RadiusG cm] (ball1) at (\XspaceE em,0) {} node[yshift=-6ex] at (ball1) {103	} node[yshift=6ex, text=brown] at (ball1) {\small Se};
+\node[circle,shading=spherea,minimum width=\RadiusH cm] (ball1) at (\XspaceF em,0) {} node[yshift=-6ex] at (ball1) {94	} node[yshift=6ex, text=brown] at (ball1) {\small  Br};
+\node[circle,shading=spherea,minimum width=\RadiusB cm] (ball1) at (\XspaceG em,0) {} node[yshift=-6ex] at (ball1) {88	} node[yshift=6ex, text=brown] at (ball1) {\small  Kr};
+\end{scope} 
+
+
+
+\begin{scope}[shift={(0,-21 em)}]
+\pgfmathsetmacro\RadiusA{\RadiusA + 0.6}
+\pgfmathsetmacro\RadiusB{\RadiusB +0.6 }
+\pgfmathsetmacro\RadiusC{\RadiusA-1*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusD{\RadiusA-2*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusE{\RadiusA-3*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusF{\RadiusA-4*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusG{\RadiusA-5*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\RadiusH{\RadiusA-6*(\RadiusA-\RadiusB)/6 }
+\pgfmathsetmacro\XspaceB{2*\Xspace }
+\pgfmathsetmacro\XspaceC{3*\Xspace }
+\pgfmathsetmacro\XspaceD{4*\Xspace }
+\pgfmathsetmacro\XspaceE{5*\Xspace }
+\pgfmathsetmacro\XspaceF{6*\Xspace }
+\pgfmathsetmacro\XspaceG{7*\Xspace }
+ \node[circle,shading=ball,minimum width=\RadiusA cm] (ball1) at (0,0) {} node[yshift=-6ex] at (ball1) {	265} node[yshift=6ex, text=brown] at (ball1) {\small  Rb};
+\node[circle,shading=ball,minimum width=\RadiusC cm] (ball1) at (\Xspace em,0) {} node[yshift=-6ex] at (ball1) {219	} node[yshift=6ex, text=brown] at (ball1) {\small Sr};
+\node[circle,shading=spherea,minimum width=\RadiusD cm] (ball1) at (\XspaceB em,0) {} node[yshift=-6ex] at (ball1) {156	} node[yshift=6ex, text=brown] at (ball1) {\small  In };
+\node[circle,shading=spherea,minimum width=\RadiusE cm] (ball1) at (\XspaceC em,0) {} node[yshift=-6ex] at (ball1) {145	} node[yshift=6ex, text=brown] at (ball1) {\small Sn};
+\node[circle,shading=spherea,minimum width=\RadiusF cm] (ball1) at (\XspaceD em,0) {} node[yshift=-6ex] at (ball1) {133	} node[yshift=6ex, text=brown] at (ball1) {\small  Sb};
+\node[circle,shading=spherea,minimum width=\RadiusG cm] (ball1) at (\XspaceE em,0) {} node[yshift=-6ex] at (ball1) {	123} node[yshift=6ex, text=brown] at (ball1) {\small  Te};
+\node[circle,shading=spherea,minimum width=\RadiusH cm] (ball1) at (\XspaceF em,0) {} node[yshift=-6ex] at (ball1) {115	} node[yshift=6ex, text=brown] at (ball1) {\small  I};
+\node[circle,shading=spherea,minimum width=\RadiusB cm] (ball1) at (\XspaceG em,0) {} node[yshift=-6ex] at (ball1) {108	} node[yshift=6ex, text=brown] at (ball1) {\small  Xe};
+\end{scope} 
+ 		 		 
+ 		 		 
+  		 		 
+ 	\begin{scope}[shift={(0,7 em)}]	 		 	
+ 	\node[xshift=0ex, text=blue] at (0,0) {G1A	}  node[xshift=0ex, text=blue] at (\Xspace em,0) {G2A	}  	 	node[xshift=0ex, text=blue] at (\XspaceB em,0) {G3A	} node[xshift=0ex, text=blue] at (\XspaceC em,0) {G4A	}   node[xshift=0ex, text=blue] at (\XspaceD em,0) {G5A	} node[xshift=0ex, text=blue] at (\XspaceE em,0) {G6A	}	node[xshift=0ex, text=blue] at (\XspaceF em,0) {G7A	} node[xshift=0ex, text=blue] at (\XspaceG em,0) {G8A	};	 			 
+ 	\end{scope}
+	
+	\def\myshift#1{\scriptsize\raisebox{1ex}}
+	\draw [shift={(0em,-36em)},->, thick, -latex,postaction={decorate,decoration={reverse path,raise=0em,text along path,text align=center,text={|\myshift|Atomic radius increases}}}]    (30 em ,10 em) to  (0,10em )  ;
+ 		 	\draw [thick, -latex,postaction={decorate,decoration={reverse path,raise=0em,text along path,text align=center,text={|\myshift|Atomic radius increases}}}] (-5em,0em ) to   (-5 em ,-20 em);
+
+ 		  \node[text width=15cm, fontscale=.8, shift={(0em,-17em)}] at (10em,-12em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Change of atomic radius (calculated values given in pm) across the periodic table. The value with $^*$ was estimated   };
+
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}\end{minipage}
+\end{fullwidth}

@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the alkene and alkyne groups in the molecule:
+\begin{center}\chemfig{H_3C-C~C-C(-[-1]H)(-[1]C(-[3]H)(=C(-[-1]CH_3)(-[1]CH_2-C~C-CH_3)))}\end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: (center) alkene; (right, left) alkyne \end{flushright} }
+

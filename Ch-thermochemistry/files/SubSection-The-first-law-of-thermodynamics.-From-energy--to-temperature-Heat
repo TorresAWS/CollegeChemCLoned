@@ -1,0 +1,18 @@
+When a materials receives heat, that heat normally becomes temperature as the temperature of the material increases. For example, if you warm milk in a microwaves, the milk\textquotesingle s temperature increases from room temperature (25$^{\circ}$C) to a higher temperature. How to estimate the temperature increase given the heat received? Or how to estimate the heat needed to increase the temperature of an object? We can use the following formula:
+%\resizeableyellownote{2.5}{1}{Add Equation \ref{formula2:3} to your flashcard.}
+\begin{equation}
+\boxed{    Q=m\cdot c_e\cdot  (T_{f}-T_{i})   } 
+\label{formula2:3}
+\end{equation}
+where:
+\begin{where}
+ \item $Q$ is the amount of heat received, either in cal or J.
+ \item $m$ is the mass of material in grams
+\item $c_e$ is the specific heat of the material (in $\text{cal}/\text{g}^{\circ}\text{C}$ or $\text{J}/\text{g}^{\circ}\text{C}$)
+\item $T_{f}-T_{i}=\Delta T$, is the temperature change from the initial to the final temperature
+\end{where}
+A system can receive or give away heat and this is indicated by the sign of $Q$. The sign convention for heat is:
+\begin{solutionbox}
+\[ Q > 0 \; \text{the system receives heat}\qquad and \qquad Q < 0 \; \text{the system gives away heat}\]
+\end{solutionbox}
+

@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The chemical formula for caffeine is \ce{C8H10N4O2}. Calculate the number of C, H, N and O atoms in 3.5 moles of caffeine.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: $3.4\times 10^{25}$ moles of C, $4.2\times 10^{25}$ moles of H, $1.7\times 10^{25}$ moles of N and $8.4\times 10^{24}$ moles of O.
+ \end{flushright} }

@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the De Broglie wavelength of a tennis ball with mass 0.1Kg and velocity 100m/s.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use De Broglie's relationship that associated a wavelength ($\lambda$) to a particle, in which the mass is 100g, the velocity 10m/s: 
+\[\lambda=\frac{6.6\times 10^{-34}Js}{ 0.1Kg\cdot 100m/s}=6.6\times 10^{-35}m
+\]
+Regarding the units: remember J is $Kgm^2/s^2$ and therefore Js is the same as $Kgm^2/s$.\\
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

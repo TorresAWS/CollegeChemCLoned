@@ -1,0 +1,6 @@
+Aromatic groups are based on bezene, a carcigenic cyclohexane-like molecule with a series of alternates double bonds, which is often represented as a circle for simplicity:
+\begin{center}\chemname{\chemfig{*6((-H)-(-H)=(-H)-(-H)=(-H)-(-H)=)}}{Benzene}\hspace{1cm}
+\chemname{\chemfig{**6(------)}}{Benzene}\end{center}
+Examples of molecules containing aromatic groups are:
+\begin{center}\chemfig{**6(-(-CH_3)-----)}\hspace{1cm} or \hspace{1cm}\chemfig{**6(---(-H_2C-[-1]CH_3)---)} and \hspace{1cm} \chemfig{*6((-H)-(-H)=(-H)-(-H)=(-H)-(-F)=)}  \end{center}
+

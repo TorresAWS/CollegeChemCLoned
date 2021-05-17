@@ -1,0 +1,47 @@
+
+
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the enthalpy of reaction for:
+\begin{center}\ce{ 2OF2_{(g)}    -> O2_{(g)}  +  2F2_{(g)}}\end{center}
+given:
+\begin{center}
+$\Delta H^{\circ}_f(\ce{OF2_{(g)}})=24.5KJ$
+\end{center}
+\end{question}
+\begin{solution}
+-49KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the enthalpy of reaction for:
+\begin{center}\ce{ 2ClF_{(g)}  +  O2_{(g)}    ->  Cl2O_{(g)}  +  OF2_{(g)} }\end{center}
+given:
+\begin{center}
+$\Delta H^{\circ}_f(\ce{ClF_{(g)}})=-56KJ$\\
+$\Delta H^{\circ}_f(\ce{Cl2O_{(g)}})=88KJ$\\
+$\Delta H^{\circ}_f(\ce{OF2_{(g)}})=25KJ$
+\end{center}
+\end{question}
+\begin{solution}
+225KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the enthalpy of reaction for:
+\begin{center}\ce{ ClF3_{(g)}  +  O2_{(g)}    ->  Cl2O_{(g)}  +  3/2OF2_{(g)} }\end{center}
+given:
+\begin{center}
+$\Delta H^{\circ}_f(\ce{ClF3_{(g)}})=-156KJ$\\
+$\Delta H^{\circ}_f(\ce{Cl2O_{(g)}})=88KJ$\\
+$\Delta H^{\circ}_f(\ce{OF2_{(g)}})=25KJ$
+\end{center}\end{question}
+\begin{solution}
+281KJ
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+

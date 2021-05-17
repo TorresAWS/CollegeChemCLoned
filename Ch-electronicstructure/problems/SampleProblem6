@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Construct the electron-dot structure of \ce{O2}.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} we first arrange the atoms in the molecule as \ce{O}\hspace{.05in}\ce{O}\hspace{.05in}.
+\item \begin{bf}Step two:\end{bf} now we count the total number of valence electrons, including all atoms: 2xO(6) that gives a total of twelve electrons.
+ \item \begin{bf}Step three:\end{bf} let us count the pairs of electrons; we have twelve electrons and that is six pairs.
+\item \begin{bf}Step four:\end{bf} now we distribute the pairs, fist connecting the atoms \chemfig{O-O} (we have five extra pairs to distribute at this point).
+\item \begin{bf}Step five:\end{bf} we place the remaining pairs on top of the oxygen atoms \hspace{.05in}\chemfig{\lewis{246,O}-\lewis{17,O}}
+\item \begin{bf}Step six:\end{bf} now we calculate the charge on each atom \hspace{.05in}\chemfig{\lewis{246,O}\scriptstyle\ominus - \scriptstyle\oplus\lewis{17,O}}
+\item \begin{bf}Step seven:\end{bf} in order to eliminate the charges we move lone pairs into the bond \hspace{.05in}\chemfig{\lewis{35,O}=\lewis{17,O}}\hspace{.05in} Now the charges are zero and this is more important than imposing the octet rule.
+\end{enumerate}
+ \import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

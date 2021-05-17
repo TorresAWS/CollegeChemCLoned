@@ -1,0 +1,7 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Indicate: (a) the color of a radiation with $\lambda=650nm$; (b) the type of a radiation with  $\lambda=10^{5}$ nm; (c) the type of a radiation with  $\nu=10^{16}$ Hz.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We can answer the first questions by inspecting the figure above we can see that $\lambda=650nm$ corresponds to red radiation. To answer the second question we will also use the figure above, where we can see that $\lambda=10^{5}$ nm belongs to the infrared. Finally, in order to answer the last question we need to convert frequency into wavelength, as the figure above only indicates wavelength. $\nu=10^{16}$ Hz corresponds to $\lambda=30$ nm. Hence, this frequency corresponds to the UV.
+\\
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

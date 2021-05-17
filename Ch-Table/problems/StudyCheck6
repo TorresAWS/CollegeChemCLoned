@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Given the following molecular formulas, obtain the corresponding empirical formula: \ce{P4O10}, \ce{N2O4} and \ce{C6H18O3}.\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{P2O5}, \ce{NO2} and \ce{C2H6O}.
+ \end{flushright} }

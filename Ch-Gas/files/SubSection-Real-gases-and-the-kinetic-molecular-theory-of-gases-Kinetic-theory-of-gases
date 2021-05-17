@@ -1,0 +1,28 @@
+%\begin{marginfigure}[0cm]%%%%%%%MARGIN FIGURE
+%\includegraphics{../{\chapterlabel}/figure3}
+%\caption{The particles of a gas move fast.}
+%\end{marginfigure}%%%%%%%MARGIN FIGURE
+The kinetic theory of gases is a model that explain the properties of gases. This theory envisions a gas in the form of a set of moving particles. Some of the ideas behind this model are: 
+\begin{itemize}
+\item  The particles of a gas are in constant motion and move very fast.
+\item On its movement, gas particles collide with each other changing paths, and collide with the walls of its container exerting pressure.
+\item  Gas particles are far apart from each other, barely interacting.
+\item The average kinetic energy of the particles of a gas (this is the energy of the particles due to movement) is proportional to the temperature of the gas.
+\end{itemize}
+By means of the kinetic theory we can rationalize the different properties of a gas. As the particles of a gas are in constant motion and apart from each other they fill and occupy the same volume of its container. The temperature of a gas is related to its kinetic energy, that is, the average speed of the gas particles. Also, as the gas particles collide with the container's wall, they exert pressure. The kinetic theory of gases explain for example how room fresheners work. As you spray the room, the molecules of the perfume in a gas state move fast and occupy the room.
+The kinetic molecular theory of the gases gives a molecular-based description of the temperature of a gas--among other properties. The ideal gas law is an experimental law; this means is a law that comes from measuring and carrying experiments. However, this law does not provide any reasons behind the behavior of gases, ideal or real. The kinetic molecular theory provides a molecular description of temperature. In particular one of the outcomes of this theory is that the average velocity of a gas particle depends on the square root of the temperature of the gas. More precisely, the way this theory describe velocity is in the form of a \emph{root mean square velocity} $v_{RMS}$, that is, as an average of the velocity of each particle. The formula that connects the the root mean square velocity with temperature is:
+
+\begin{equation*}\begin{split}
+\boxed{  v_{RMS}=\sqrt{   \frac{3000RT}{MW} }   } \quad \textcolor{blue}{\text{root mean square velocity formula}}
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $MW$   is the molecular weight of the gas in g/mol
+\item $T$   is the temperature of the gas in K
+\item $R$   is the constant of the gas in energy units 8.314 $J\cdot K^{-1}\cdot \text{mol}^{-1} $
+\item $v_{RMS}$ is the root mean square velocity in $m/s$
+\end{where}
+It is important to notice that the root mean square velocity depends on temperature--the more temperature the more velocity-- and is inverssely proportional to the molecular weight of the gas--the heavier the mass the lower velocity.
+
+
+

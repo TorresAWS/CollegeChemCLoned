@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate: (a) the wavelength of radiation with energy of $5.6\times 10^{-19}J$; (b) the frequency of a radiation with frequency of $4.8\times 10^{-18}J$; (c) the wavelength of a radiation with frequency of $2\times 10^{15}Hz$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) $353nm$; (b) $7.2\times 10^{10}Hz$; (c) $4.1\times 10^{6}nm$
+ \end{flushright} }

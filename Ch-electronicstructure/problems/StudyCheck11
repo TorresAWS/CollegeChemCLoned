@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Given the following MO configurations, predict the magnetic character: (a) $\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{2}_{2p}$ and (b) $\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{2}_{2p}\pi^{*2}_{2p}$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: both diamagnetic.
+ \end{flushright} }

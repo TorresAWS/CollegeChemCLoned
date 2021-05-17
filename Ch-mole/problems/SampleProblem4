@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Convert 10 grams of ammonia (\ce{NH3}, MW=$17g/mol$) into H atoms.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will have to do this conversion in three different steps. First we will go from grams to moles, then from moles to molecules to finally transform molecules into atoms:
+ \begin{equation*}\begin{split}
+10  \cancel{\text{g of \ce{NH3}}} \times 
+\dfrac{\text{1 mole of \ce{NH3}} } { \cancel{\text{17 g of \ce{NH3}}} } \times
+\dfrac{6.022\times 10^{23}\text{ \ce{NH3} molecules} }{\cancel{\text{1 mole of \ce{NH3}}}} \times \\
+\dfrac{\text{3 H atoms} } { \cancel{\text{1 \ce{NH3} molecule}} } =1.8\times 10^{24}\text{H atoms}
+\end{split}\end{equation*}\\
+ \import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

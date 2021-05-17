@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+What is the pressure in atmospheres of a 1 L balloon containing 3 moles of Helium at 40C$^{\circ}$.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: 77.00 atm.  \end{flushright} }
+

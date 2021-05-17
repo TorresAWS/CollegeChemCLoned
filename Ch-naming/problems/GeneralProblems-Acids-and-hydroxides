@@ -1,0 +1,126 @@
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name or formulate the following acids or bases:
+\begin{inparaenum}[(a)]
+\item \ce{HCl}			%(hydrochloric acid)
+\item Hydrofluoric Acid	%(\ce{HF})
+\item \ce{Mg(OH)2}		%(magnesium hydroxide)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{HCl}			(hydrochloric acid)
+\item Hydrofluoric Acid	(\ce{HF})
+\item \ce{Mg(OH)2}		(magnesium hydroxide)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name or formulate the following acids or bases:
+\begin{inparaenum}[(a)]
+\item Sulfuric Acid		%(\ce{H2SO4})
+\item \ce{H2CO3}		%(carbonic acid)
+\item Lithium hydroxide		%(\ce{LiOH})
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item Sulfuric Acid		(\ce{H2SO4})
+\item \ce{H2CO3}		(carbonic acid)
+\item Lithium hydroxide	(\ce{LiOH})
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following chemicals identify acids and bases:
+\begin{inparaenum}[(a)]
+\item \ce{KOH}			%(base)
+\item \ce{LiOH}			%(base)
+\item \ce{CH3OH}			%(acid, organic)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{KOH}			(base)
+\item \ce{LiOH}			(base)
+\item \ce{CH3OH}		(acid, organic)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following chemicals identify acids and bases:
+\begin{inparaenum}[(a)]
+\item \ce{H2SO3}			%(acid, inorganic)
+\item \ce{NH3}			%(base)
+\item \ce{Ca(OH)2}			%(base)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H2SO3}		(acid, inorganic)
+\item \ce{NH3}			(base)
+\item \ce{Ca(OH)2}		(base)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following chemicals identify hydracids and oxoacids:
+\begin{inparaenum}[(a)]
+\item \ce{HF}		%(hydracid)
+\item \ce{H2SO3}	%(oxacid)
+\item \ce{H2S}		%(hydracid)
+%\item \ce{HClO4}	%(oxacid)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{HF}		(hydracid)
+\item \ce{H2SO3}	(oxacid)
+\item \ce{H2S}		(hydracid)
+%\item \ce{HClO4}	(oxacid)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+From the following chemicals identify hydracids and oxoacids:
+\begin{inparaenum}[(a)]
+\item \ce{H3BO3}	%(oxacid)
+\item \ce{HCl}		%(hydracid)
+\item \ce{HI}		%(hydracid)
+%\item \ce{HClO4}	%(oxacid)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H3BO3}	(oxacid)
+\item \ce{HCl}		(hydracid)
+\item \ce{HI}		(hydracid)
+%\item \ce{HClO4}	(oxacid)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Memorize the following oxoacids:
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=.5cm]
+\item \ce{H2SO4} Sulfuric acid
+\item \ce{H2CO3} Carbonic acid
+\item \ce{HMnO4} Permanganic acid
+\item \ce{HNO3} Nitric acid
+\item \ce{H3PO4} Carbonic acid
+\item \ce{H2Cr2O7} Dicromic acid
+\end{enumerate}
+\end{question}
+\begin{solution}
+No answer.\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+

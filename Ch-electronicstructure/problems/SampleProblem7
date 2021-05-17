@@ -1,0 +1,6 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the geometry of the following molecules: \ce{BF3} and \ce{SO2}.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We need first the electron-dot structure of both molecules. For \ce{BF3} \hspace{.05in}\chemfig{B(-[:0]\lewis{026,F})(-[:90]\lewis{024,F})(-[:180]\lewis{246,F})}.\hspace{.05in} The code of this molecule is \ce{AB3} and hence its geometry would be trigonal planar. The correct way to draw the molecule respecting its geometry would be:\hspace{.05in}\chemfig{B(-[:0]\lewis{026,F})(-[:120]\lewis{024,F})(-[:240]\lewis{046,F})}\hspace{.05in}. The electron-dot structure for sulfur dioxide--remember this is covalent molecule--is \hspace{.05in}\chemfig{\lewis{2,S}(=[:0]\lewis{06,O})(=[:180]\lewis{46,O})}\hspace{.05in} and its class is \ce{AB2E}. Hence the molecular geometry is linear.\\
+ \import{./}{StudyCheck7}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,39 @@
+DNA and RNA are composed of numerous units called nucleotides. Nucleotides are the result of a nucleoside reacting with phosphoric acid by means of carbon number 5'. The bond in a nucleotide is called phosphoester bond:
+\begin{center}
+\schemestart
+\chemfig{R-P(-OH)(=[:90,1]O)}
+\+{,,-0pt}\arrow(--[yshift=-0.5pt]){0}[,0]
+\chemfig{HO-R' } \vspace{-1cm}
+\arrow{-U>[\footnotesize ]%
+            [\footnotesize \ce{H2O}]%
+            []%
+            [.25]}[,1.]
+\chemfig{R-P(=[:90,1]O)-O-R' } 
+\hspace{1cm}\textcolor{blue}{Phosphoester bond}
+\schemestop
+\end{center}
+For example, let us consider the nucleoside formed by the reaction of the Deoxyribose sugar and adenide. This nucleoside is called adenosine. After the reaction with phosphoric acid nucleotide is formed called adenosine-5'-monophosphate.
+\begin{center}\begin{tikzpicture}
+\node (a) at (-1,0) {\setatomsep{2.5em}\chemfig[][scale=.75]{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
+\node (a.south east ) [xshift=-1.5cm,yshift=-2.2cm]{\small \textcolor{blue}{Phosphoric acid}};
+\node (b) (a.north ) [xshift=0.3cm,yshift=0cm] {\Large +};
+\node (c) (a.north east) [xshift=3cm,yshift=0.5cm] {\setatomsep{2.5em}\chemfig[][scale=.75]{!{deoxyadenosine} } };
+\node (c.north west ) [xshift=1.5cm,yshift=-2.2cm]{\small \textcolor{blue}{Nucleoside}};
+\node (d) (c.east) [xshift=4.0cm,yshift=-1cm, rotate=00]  { \schemestart\arrow{-U>[\footnotesize ][\footnotesize \ce{H2O}][][.25]}[,1.2]\schemestop};
+\node (e) (right of = d) [xshift=7.cm,yshift=-0cm] {\setatomsep{2.5em}\chemfig[][scale=.75]{!{deoxyadenosinephosphate}}};
+\node (e.south east ) [xshift=6cm,yshift=-2.2cm]{\small \textcolor{blue}{Nucleotide (Phosphate+Nucleosite)}};
+\end{tikzpicture}\end{center}
+Here some other examples of DNA nucleotides. Mind they are all based in Deoxyribose, the sugar that forms only DNA:
+\begin{center}\begin{tikzpicture}
+\node (a) at (0,0)  {\setatomsep{2.5em}\chemfig[][scale=.75]{!{deoxyguaninephosphate} } };
+\node (a.south east ) [xshift=0cm,yshift=-2.5cm]{\small \textcolor{blue}{  Deoxyguosine-5'-monophosphate   }};
+\node (b) at (7,0)  {\setatomsep{2.5em}\chemfig[][scale=.75]{!{deoxyuridinephosphate} } };
+\node (b.south east ) [xshift=6cm,yshift=-2.5cm]{\small \textcolor{blue}{  Deoxyuridine-5'-monophosphate   }};
+\end{tikzpicture}\end{center}
+Here some other examples of RNA nucleotides. Mind they are all based in ribose, the sugar that forms only RNA:
+\begin{center}\begin{tikzpicture}
+\node (a) at (0,0)  {\setatomsep{2.5em}\chemfig[][scale=.75]{!{thyminephosphate} } };
+\node (a.south east ) [xshift=0cm,yshift=-2.5cm]{\small \textcolor{blue}{  thymidine-5'-monophosphate   }};
+\node (b) at (7,0)  {\setatomsep{2.5em}\chemfig[][scale=.75]{!{cytosinephosphate} } };
+\node (b.south east ) [xshift=6cm,yshift=-2.5cm]{\small \textcolor{blue}{ cytidine-5'-monophosphate   }};
+\end{tikzpicture}\end{center}

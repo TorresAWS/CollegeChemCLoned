@@ -1,0 +1,20 @@
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate whether solutions of the following chemicals will have ions (I), ions and molecules (I+M), or just molecules (M): 
+\begin{center}\begin{tabularx}{0.9\columnwidth}{>{ \arraybackslash}p{5em}>{ \arraybackslash}p{5em}>{ \arraybackslash}p{5em}>{ \arraybackslash}p{5em}  }
+  \toprule
+\heading{Chemical} & \heading{I}  &  \heading{I+M}  &  \heading{M}     \\
+    \midrule
+ \ce{NaCl} 		&    	&	 &	       \\
+  \ce{HCl}			&   	 	&	  &	       \\
+ \ce{CaCl2} 		&  	 	&	   &	       \\
+ \ce{H2O}			&  	   	&	 	  &     \\
+   \ce{NO2} 		&  	  	&	 	&       \\
+    \bottomrule
+\end{tabularx}\end{center}
+\end{question}\begin{solution}
+ \ce{NaCl}(I);  \ce{HCl}	(I); \ce{CaCl2} (I); \ce{H2O}	(M+I);\ce{CO2} (M)	
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

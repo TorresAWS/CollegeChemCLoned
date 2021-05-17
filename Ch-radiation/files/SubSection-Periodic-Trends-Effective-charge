@@ -1,0 +1,5 @@
+The nuclear charge (Z) of an atom if the number of protons in the nucleus. In atoms with more than one electron, each electron is exposed to a nuclear effective charge ($\text{Z}_{eff}$) as the electrons partially compensate the nuclear charge creating an effective nuclear charge. This way, the effective nuclear charge is the actual magnitude of positive charged experienced by an electron. In many-electron atoms, an electron is partially shielded from the positive charge of the nucleus. Among the different types of electrons in an atoms (valence and core), core electrons are more effective at shielding, and as such $\text{Z}_{eff}$ increases from left to right across the periodic table. As the number of core electrons remains the same and the atomic number increases from left to right across the table, $\text{Z}_{eff}$ follows this trend too. The effective nuclear charge is given by
+\begin{equation*}
+\text{Z}_{eff}=\text{Z} - \sigma
+\end{equation*}
+where $\sigma$ is the shielding constant.

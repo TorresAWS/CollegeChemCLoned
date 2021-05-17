@@ -1,0 +1,10 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Obtain the orbital diagram for Li given the electron configuration: $[He] 2s^1$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \begin{MOdiagram}[style=round,AO-width
+=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+% \atom[]{left} { 2s = {0;up}  }
+% \atom[]{right}{ 2p = {0;up} }
+ \AO(3cm){s}{0;up}
+ \end{MOdiagram}
+ \end{flushright} }

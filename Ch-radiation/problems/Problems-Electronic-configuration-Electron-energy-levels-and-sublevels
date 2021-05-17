@@ -1,0 +1,20 @@
+%%%%%%%PROBLEM
+\vspace{-0.0cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the number of orbitals that can have the following designations:
+ \begin{inparaenum}[(a)]
+\item    2s   %1 orbital
+\item    3p 	%3 orbitals
+\item 0p	%0 orbital	
+\item $n=4$	%16 orbitals
+\end{inparaenum}
+ \end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   1 orbital
+\item   3 orbitals
+\item  0 orbital	
+\item  16 orbitals    
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

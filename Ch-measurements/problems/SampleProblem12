@@ -1,0 +1,8 @@
+\begin{example} % EXAMPLE BOX
+After adding a 30g object into a cylinder filled of water, the level of water rises from 60mL to 90mL. Calculate the density of the object. \\
+%\begin{center} \includegraphics[width=0.4\linewidth]{../{\chapterlabel}/figure1-10}   \end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Density is mass over volume. The mass of the object is 30g and its volume is (90-60)mL that is 30mL. Hence: $d=30g/30mL=1g/mL$.
+\\
+\import{./}{StudyCheck12}
+\end{example}% EXAMPLE BOX ALTERNATIVE

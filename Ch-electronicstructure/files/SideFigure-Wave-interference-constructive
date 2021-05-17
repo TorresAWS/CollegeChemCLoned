@@ -1,0 +1,38 @@
+\begin{marginfigure}%%%%%%%MARGIN FIGURE
+\pgfplotsset{
+  axis lines=middle,
+  axis line style={->},
+  xmin=0,
+  xmax=4.2*pi,
+  xticklabels=empty,
+  xtick=\empty,
+  ymin=-1,
+  ymax=1,
+  yticklabels=empty,
+  ytick=\empty,
+  samples=200,
+  domain=0:4*pi,
+  every axis plot post/.append style={very thick},
+  clip=false
+             }% end of common axis set
+    \begin{tikzpicture}[scale=0.5]
+\begin{axis}% 1. plot
+[yscale=0.5]
+\addplot[red] {(sin(deg(x)))};
+\node at (2*pi,-1.05) {\huge$+$};
+\end{axis}
+\begin{axis}% 2. plot
+[ yshift=-3cm, yscale=0.5]
+\addplot[blue] {(sin(deg(x)))};
+\node at (2*pi,-1.05) {\huge$=$};
+\end{axis}
+    \end{tikzpicture}
+   
+    \begin{tikzpicture}[scale=0.5]
+\begin{axis}% 3. plot
+\addplot[purple] {(sin(deg(x)))};
+\end{axis}
+    \end{tikzpicture}
+    \hfill %%%% %%%% %%%% second image
+ %  \caption{Constructive combination of two waves. The combination results in a higher intensity wave.}
+	\end{marginfigure}%%%%%%%MARGIN FIGURE

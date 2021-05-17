@@ -1,0 +1,51 @@
+\begin{fullwidth}
+
+ \begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Acid-base indicators showing ample representations of their colors} \\
+\midrule
+Name & PH Range   &   Color acid form & &    Color basic form   \\
+\midrule
+ Thymol Blue&	1.2-2.8&	 		red		&\begin{tikzpicture}\fill [left color=		red,right color=yellow ] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		yellow\\
+Pentamethoxy red	&1.2-2.3&	 	red-violet	&\begin{tikzpicture}\fill [left color=		red,right color=white] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		colorless\\
+% 2,4-Dinitrophenol&	2.4-4.0&	 	colorless	&\begin{tikzpicture}\fill [left color=		white,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	yellow\\
+Methyl yellow	&2.9-4.0&	 		red		&\begin{tikzpicture}\fill [left color=		red,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		yellow\\
+Methyl orange	&3.1-4.4&	 		red		&\begin{tikzpicture}\fill [left color=		red,right color=orange] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		orange\\
+Bromophenol blue&	3.0-4.6&	 	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue-violet\\
+Tetrabromophenol blue&	3.0-4.6& 	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue\\
+Alizarin sodium sulfonate&	3.7-5.2&	 yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=violet] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	violet\\
+$\alpha$-Naphthyl red&	3.7-5.0&	red		&\begin{tikzpicture}\fill [left color=		red,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		yellow\\
+p-Ethoxychrysoidine&	3.5-5.5&	 	red		&\begin{tikzpicture}\fill [left color=		red,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		yellow\\
+Bromocresol green&	4.0-5.6&	 	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue\\
+Methyl red&	4.4-6.2&	 		red		&\begin{tikzpicture}\fill [left color=		red,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		yellow\\
+Bromocresol purple&	5.2-6.8&	 	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=purple] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	purple\\
+%Chlorophenol red&	5.4-6.8&	 	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	red\\
+Bromophenol blue&	6.2-7.6&	 	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue\\
+%p-Nitrophenol	&5.0-7.0	& 		colorless	&\begin{tikzpicture}\fill [left color=		white,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	yellow\\
+Azolitmin&	5.0-8.0&	 			red		&\begin{tikzpicture}\fill [left color=		red,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		blue\\
+Phenol red&	6.4-8.0&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	red\\
+Neutral red&	6.8-8.0&	 		red		&\begin{tikzpicture}\fill [left color=		red,right color=yellow] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		yellow\\
+Rosolic acid&	6.8-8.0&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	red\\
+Cresol red&	7.2-8.8&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	red\\
+$\alpha$-Naphtholphthalein&	7.3-8.7&	rose		&\begin{tikzpicture}\fill [left color=		red,right color=green] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&		green\\
+Tropeolin &	7.6-8.9	& 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	rose-red\\
+Thymol blue&	8.0-9.6&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue\\
+Phenolphthalein&	8.0-10.0	&  		colorless	&\begin{tikzpicture}\fill [left color=		white,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	red\\
+$\alpha$-Naphtholbenzein&	9.0-11.0&	yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue\\
+Thymolphthalein&	9.4-10.6 &			colorless	&\begin{tikzpicture}\fill [left color=		white,right color=blue] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	blue\\
+Nile blue&	10.1-11.1&	 			blue		&\begin{tikzpicture}\fill [left color=		blue,right color=red] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	red\\
+%Salicyl yellow&	10.0-12.0&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=orange] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	orange-brown\\
+Diazo violet&	10.1-12.0&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=violet] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	violet\\
+Tropeolin &	11.0-13.0&	 		yellow	&\begin{tikzpicture}\fill [left color=		yellow,right color=orange] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	orange-brown\\
+Nitramine&	11.0-13.0&	 			colorless	&\begin{tikzpicture}\fill [left color=		white,right color=orange] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	orange-brown\\
+Trinitrobenzoic acid&	12.0-13.4&	 	colorless	&\begin{tikzpicture}\fill [left color=		white,right color=orange] (0,0) rectangle (5cm,3mm);\end{tikzpicture}&	orange-red\\
+  \bottomrule
+\end{tabular}
+}\end{minipage} 
+ \end{fullwidth}
+

@@ -1,0 +1,67 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+ \begin{center}\begin{tikzpicture}[ scale=0.5, level/.style={very thick} ]
+    \tikzset{rotdis/.style={->,decorate, draw=red,line width=0.4mm}}
+                      \draw[level,blue] ( 6cm, 11.1cm) -- ( 15cm, 11.1cm)node[above,xshift=0.4cm, yshift=0.1cm]{n=$\infty$};
+                    %   \draw[level,blue, dotted] ( 8cm, 8.8cm) -- ( 8cm, 9.8cm) ;
+                         \draw[level,blue] ( 6cm, 10.9cm) -- ( 15cm, 10.9cm)node[above,xshift=0.4cm, yshift=-0.1cm]{n=7};
+
+              \draw[level,blue] ( 6cm, 10.5cm) -- ( 15cm, 10.5cm)node[above,xshift=0.4cm, yshift=-0.2cm]{n=6};
+
+              \draw[level,blue] ( 6cm, 10cm) -- ( 15cm, 10cm)node[above,xshift=0.4cm, yshift=-0.2cm]{n=5};
+
+              \draw[level,blue] ( 6cm, 9cm) -- ( 15cm, 9cm)node[above,xshift=0.4cm, yshift=-0.2cm]{n=4};
+          \draw[level,blue] ( 6cm, 8cm) -- ( 15cm, 8cm)node[above,xshift=0.4cm, yshift=-0.2cm]{n=3};
+      \draw[level,blue] ( 6cm, 6cm) -- ( 15cm, 6cm)node[above,xshift=0.4cm, yshift=-0.2cm]{n=2};
+    \draw[level,blue] ( 6cm, 0cm) -- ( 15cm, 0cm)node[above,xshift=0.4cm, yshift=-0.2cm]{n=1};
+    \draw[rotdis]   (5cm,0cm) -- (5cm,11cm) node[right,midway, rotate=90, yshift=0.5cm]{Energy};
+     \pgfmathsetmacro{\vara}{6.5}
+        \draw[<-, black]   (\vara cm,0cm) -- (\vara cm,6cm)  ;     
+        \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,0cm) -- (\vara cm,8cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   ( \vara cm,0cm) -- (\vara cm,9cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,0cm) -- (\vara cm,10cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,0cm) -- (\vara cm,10.5cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,0cm) -- (\vara cm,10.9cm)  ;
+
+     \pgfmathsetmacro{\vara}{8.5}
+        \draw[<-, red]   (\vara cm,6cm) -- (\vara cm,8cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, orange]   ( \vara cm,6cm) -- (\vara cm,9cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, blue]   (\vara cm,6cm) -- (\vara cm,10cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, green]   (\vara cm,6cm) -- (\vara cm,10.5cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,6cm) -- (\vara cm,10.9cm)  ;
+        
+    \pgfmathsetmacro{\vara}{10.5}
+        \draw[<-, black]   ( \vara cm,8cm) -- (\vara cm,9cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,8cm) -- (\vara cm,10cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,8cm) -- (\vara cm,10.5cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,8cm) -- (\vara cm,10.9cm)  ;
+        
+            \pgfmathsetmacro{\vara}{12.5}
+
+        \draw[<-, black]   (\vara cm,9cm) -- (\vara cm,10cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,9cm) -- (\vara cm,10.5cm)  ;
+                \pgfmathsetmacro{\vara}{\vara + 0.2}
+        \draw[<-, black]   (\vara cm,9cm) -- (\vara cm,10.9cm)  ;
+        \node[shift={(10em,-1em)}] (0,0) {\tiny Lyman Series};
+                \node[shift={(13em,8em)}]  (0,0) {\tiny Balmer  Series};
+                 \node[shift={(15em,11em)}] (0,0) {\tiny Paschen   Series};
+                 \node[shift={(19em,12em)}]  (0,0) {\tiny Brackett   Series};
+\node[text width=4cm, fontscale=0.1,shift={(20em,5em)}] at (25em,10em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy levels of Hydrogen and the different emission series. Each series--called Lyman, Balmer, Paschen and Brackett--terminates at a different value of $n$.  };
+
+  \end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

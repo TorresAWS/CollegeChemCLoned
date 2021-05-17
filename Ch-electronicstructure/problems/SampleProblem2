@@ -1,0 +1,6 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the electron-dot structure for the following atoms: \ce{N}, \ce{C} and \ce{Cl^-}.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+N has five valence electrons, whereas C has four. Hence the electron-dot for both will be: \hspace{.05in}\lewis{0.2:4.6.,N}\hspace{.05in} and  \hspace{.05in}\lewis{0.2.4.6.,C}\hspace{.05in}. \ce{Cl^-} has eight valence electrons, that is seven plus one, and hence its electron-dot structure will be \hspace{.05in}\lewis{0:2:4:6:,Cl}\hspace{.05in}\ce{^{-}}. \\
+ \import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

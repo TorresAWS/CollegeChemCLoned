@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Lithium is made up of two isotopes, Li-7 (7.016003 amu) and Li-6 (6.015121 amu). Calculate the percent abundance of each isotope knowing that copper's atomic weight is 6.94 amu.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 7.59\% and 92.41\%. 
+ \end{flushright} }

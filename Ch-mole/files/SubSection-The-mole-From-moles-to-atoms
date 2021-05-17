@@ -1,0 +1,19 @@
+
+One mole of molecules contains  $6.022\times 10^{23}$ molecules. This is because the term mole refers to Avogadro's number. Hence we can use the follow unit equivalency:
+\begin{equation*}
+\boxed{   1 \text{mol of \ce{H2O}}=6.02\times 10^{23} \text{molecules of }\ce{H2O}   }
+\end{equation*}
+or a conversion factor to transform moles into molecules or molecules into moles as well:
+\begin{equation*}
+\boxed{   \frac{1 \text{mol of \ce{H2O}}}{6.02\times 10^{23}\text{molecules of \ce{H2O}}}\ \text{ or  } \frac{6.02\times 10^{23} \text{molecules of \ce{H2O}}}{1 \text{mol of \ce{H2O}}}\     }
+\end{equation*}
+For example: how many molecules are there in 3 mol of \ce{H2O}? In order to calculate the number of molecules of \ce{H2O} in 3 moles of \ce{H2O}, (moles $\rightarrow$ molecules) you need to set up a conversion factor, starting by the give information (3 moles) and using the mol-to-molecule conversion factor with mol on the bottom:
+\begin{equation*}
+3   \cancel{\text{moles of }\ce{H2O}} \times 
+\dfrac{6.02\times 10^{23} \text{ molecules of \ce{H2O}}   } {  1\cancel{\text{mol of }\ce{H2O}}} =1.80\times 10^{24}\text{molecules of \ce{H2O} }
+\end{equation*}
+In you need to convert molecules to moles (molecules $\rightarrow$ moles), you just need to follow the same procedure, using the conversion factor between mol-to-molecule with molecule in the bottom. For example $3\times 10^{20}$ \ce{H2O} molecules equals to $4.98\times 10^{-4}\text{moles of \ce{H2O}}$ as
+\begin{equation*}
+3\times 10^{20}   \cancel{\text{molecules of }\ce{H2O}} \times 
+\dfrac{ 1 \text{moles of }\ce{H2O}   } {  6.02\times 10^{23} \cancel{\text{molecules of }\ce{H2O}}} =4.98\times 10^{-4}\text{moles of \ce{H2O}}
+\end{equation*}

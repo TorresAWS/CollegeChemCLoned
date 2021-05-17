@@ -1,0 +1,12 @@
+Light also travels in space. As it moves, it oscillates in space. Think about dropping a stone into a lake. As you drop the pebble, the energy from the pebble propagates in the surface in water. The energy of light also propagates in space and the \emph{wavelength} of a radiation is the distance between two consecutive peaks. As such, wavelength, represented by the letter $\lambda$ and with units of $nm$ is also related to energy by means of the formula:
+%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}
+\boxed{  E=\frac{1.98\times 10^{-16}}{\lambda}  } \quad \textcolor{blue}{\text{wavelength formula}}
+\end{equation*}
+where:
+\begin{where}
+ \item $E$   is the energy in joules
+ \item $\lambda$  is wavelength in $nm$
+  \item $1.98\times 10^{-16}=h\cdot c\cdot 10^{9}$  was adjusted to be able to use $\lambda$ in nm
+\end{where}
+Mind that wavelength is inversely related to energy. That means, the larger wavelength the smaller energy. Also mind that wavelength refers to the movement of light in space and frequency refers to the movement in time. 

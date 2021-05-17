@@ -1,0 +1,13 @@
+\begin{marginfigure}[-0cm]%%%%%%%MARGIN FIGURE
+\begin{tikzpicture}
+\setOrbitalDrawing{{very thin,  shading=ball, draw=none}}
+\satom[name=C, color=white, opacity=0.5]{red/90/90/0/1,red/180/180/0/1 ,red/25/25/0/0.8,red/270/270/0/1 }
+\draw[thick, fill=gray, opacity=.2] (0,1.5) -- (1.2,0.4) -- (0,-1.3) -- (0,1.5) -- (-1.6,-0.1) -- (0,-1.3);
+\draw[ dashed, thin, opacity=.2] (1.1,0.4) -- (-1.7,-0.1) ;
+\fill (-1.8,-0.4) circle (0pt);  \orbital[pos = {(-1.6,-0.1)}, opacity=0.5]{s} \node [above,yshift=-2cm] {H};
+\fill (0,-1.7) circle (0pt) ; \orbital[pos = {(0,-1.7)}, opacity=0.5]{s} \node [above,yshift=-0.3cm, xshift=-1.6cm] {H};
+\fill (1.3,0.4) circle (0pt) ; \orbital[pos = {(1.3,0.4)}, opacity=0.5]{s} \node [above,yshift=0.1cm, xshift=1.3cm] {H};
+\fill (0,1.6) circle (0pt) ; \orbital[pos = {(0,1.6)}, opacity=0.5]{s} \node [above,yshift=1.4cm, xshift=0.1cm] {H};
+\end{tikzpicture}
+%            \caption{The molecule \ce{CH4} with class \ce{AB4} has hybridization $sp^3$. Four atomic orbitals are combined.}
+	\end{marginfigure}%%%%%%%MARGIN FIGURE

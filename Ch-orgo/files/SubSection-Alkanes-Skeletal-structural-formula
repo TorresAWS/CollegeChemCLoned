@@ -1,0 +1,13 @@
+Let us analyze the structure of butane again. This molecule has four carbons in the form of a C-C chain such as C-C-C-C. 
+\begin{center}\chemfig{H_3C-[:45]!{CH2}-[:-45]CH_2-[:45]CH_3} \hspace{0.5cm}\textcolor{blue}{Butane, \ce{C4H10}}\end{center}
+However, in reality, C-C chains with more than two carbons are not linear, and their structure resembles more a zig-zag rather than a line. So instead of representing butane as a line it should be represented as:
+\begin{center}\chemfig{-[:45]-[:-45]-[:45]-[:-45] } \hspace{0.5cm}\textcolor{blue}{Butane, \ce{C4H10}}\end{center}
+This type of structural representation is called \emph{skeletal structural formula} as you only represent the C-C skeleton of the molecule. 
+Another example would be:
+\begin{center}\begin{tikzpicture}[help lines/.style={thin,draw=black!50}]
+\node at (0,0) {\chemfig{H_3C-[:45]!{CH2}-[:-45]CH_2-[:45]CH_2-[:-45]CH_2-[:45]CH_3} };
+\node at (0,-1) {\textcolor{blue}{condensed formula of hexane}};
+\node at (6,0) {\chemfig{-[:45]-[:-45]-[:45]-[:-45]}};
+\node at (6,-1) {\textcolor{blue}{skeletal formula of hexane}};
+\end{tikzpicture}\end{center}
+The ending of a skeletal formula represents a \ce{CH3} and the points in between represents \ce{CH2}. 

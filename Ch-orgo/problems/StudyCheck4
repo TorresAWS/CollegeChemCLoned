@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Write down the condensed structure and name the following cycloalkane:
+\begin{center}\chemfig{*3(---)} \end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: cyclopropane, \chemfig{CH_2*3(-CH_2-CH_2-[,,2])} \end{flushright} }
+

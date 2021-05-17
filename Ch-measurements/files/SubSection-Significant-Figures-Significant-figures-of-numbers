@@ -1,0 +1,16 @@
+In general all numbers different than zero are significant and for example the number 123 has three significant figures. Similarly, the number 45 has two significant figures. Zeros are also significant except when:\\
+ \faCodeFork\ \begin{bf}Exception 1\end{bf}  \begin{it}A zero is not significant when placed at the beginning of a decimal number. \end{it} \\
+ For example, the number 0.123 has three significant figures, as the first zero is not significant. Similarly, the number 0.002340 has four significant figures as the first three zeros are not significant but the last zero it is. Mind the rule affects only the zeros at the beginning. A final example:
+ \begin{equation*}
+   0.032 \enspace \text{(2SF)}  
+\end{equation*}
+ \faCodeFork\ \begin{bf}Exception 2\end{bf} \begin{it}A zero is not significant when used as a placeholder in a number without a decimal point. \end{it} \\
+ For example, the number 1000 has only one significant figure, and the number 3400 has two. Let us consider more examples. The number 120 has two significant figures, as according to the second rule the last zero is not significant. Differently, the number 1203 has four significant figures, as the zero in between two numbers is not affected by neither the first nor the second rule. A final example,
+  \begin{equation*}
+   3200 \enspace \text{(2SF)}  
+\end{equation*}
+\faCodeFork\ \begin{bf}Exception 3\end{bf} \begin{it}A zero in a number expressed on scientific notation is significant \end{it} \\
+ For example the zero  in $3.0\times 10^{-2}$ is significant, and the number has 2SFs. A final example:
+  \begin{equation*}
+   3.2020\times 10^{2} \enspace \text{(5SF)}  
+\end{equation*}

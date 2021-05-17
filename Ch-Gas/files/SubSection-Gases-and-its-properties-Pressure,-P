@@ -1,0 +1,14 @@
+ In general pressure is defined as force divided by surface. In the international system the unit of force is the Newton (N) and the unit of area (A) is the $\text{m}^2$. One newton is $1 \text{kg}\cdot \text{m}/\text{s}^2$.
+\begin{equation*}
+\boxed{   P=\frac{F}{A}
+}   
+\end{equation*}
+
+The particles of a gas are constantly moving. On its movement, they frequently hit the walls of its container, like the raindrops hitting the ceiling when it rains. When they hit the walls they exert a pressure, and pressure is defined as the force acting on certain area. The larger pressure the stronger the collisions with the walls and the higher the frequency of collision--the stronger the force applied on the walls. Imagine you are driving a motorcycle. While you drive you can feel the collision of the air's particle with your face. The faster you go the higher pressure. 
+The value of air's pressure is measured with a barometer and depends on your location on the earth--in particular your altitude--as well as the weather. If you are at the sea level the atmospheric pressure is one unit of pressure (one atm), due to the air that you have on top of you. If you climb a mountain, the pressure decreases, as there is less air on top of you. The higher you are with respect to the sea level, the lower the air pressure. The weather also affects pressure, and in hot days the pressure of air is higher, whereas on a cold day pressure is lower. \\
+Units of pressure are: bars, atmospheres (atm), torr, pascals (Pa) or millimeters of mercury (mmHg). In order to covert pressure units, you can use the following conversion factors:%\resizeableyellownote{2.5}{1}{Add these conversions into your flashcard.}
+\begin{equation*}
+\boxed{   \frac{1 \text{ atm} }{1.01325\text{ bar} }}\quad    \boxed{ \frac{1 \text{ atm} }{760\text{ mmHg} }}\quad  \boxed{ \frac{1\text{ torr}}{1\text{ mmHg}}}\quad  \boxed{ \frac{1\text{ atm}}{101325\text{ Pa}}}   
+\end{equation*}
+one millimeters of mercury (mmHg) is the same as 1 torr. As a note, the name torr knowledges the person who invented the barometer: Torricelli, an Italian physicist.
+

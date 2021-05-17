@@ -1,0 +1,28 @@
+Organic acids are also called carboxylic acids. Organic bases tend to be amines. A conjugate organic acid-base pair are organic molecules or ions related by the loss of one \ce{H^+}. For example, acetic acid, the acid present in vinegar, is an organic acid that will react with water (the solvent) to produce a conjugate base called acetate. Acetates are used in some printing processes. For example, vinyl acetate is employed in the production of plastics, cellulose acetate is used in making photographic films and textiles. Acids produce protons (\ce{H^+}) and therefore its conjugate bases are negatively charged. The corresponding dissociation equilibrium is shown below:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}}
+\chemfig{H_2O}&
+$+$&
+\setpolymerdelim()\chemfig{HO-[:45,1](=[:90,.8]O)-[ :-45,1]} &
+\schemestart\arrow{-U>}[,1.]\schemestop&
+\chemfig{H_3O^{+}}&
+$+$&
+\setpolymerdelim()\chemfig{^{-}O-[:45,1](=[:90,.8]O)-[ :-45,1]}
+\tabularnewline\addlinespace
+\textcolor{blue}{Base} && \textcolor{red}{Acid} && \textcolor{blue}{Conjugate Acid} &&\textcolor{red}{Conjugate Base}\tabularnewline
+\end{tabular*}\end{center}
+Amines are basic and they will react with water to produce a conjugate acid. Bases receive protons (\ce{H^+}) from the solvent, hence the conjugate acid of a base is positively charged. An example is presented below.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.15\textwidth}}
+\chemfig{H_2O}&
+$+$&
+ \chemfig{CH_3-NH_2 } &
+\schemestart\arrow{-U>}[,1.]\schemestop&
+\chemfig{HO^{-}}&
+$+$&
+ \chemfig{CH_3-NH_3^{+} } 
+\tabularnewline\addlinespace
+ \textcolor{blue}{Acid} && \textcolor{red}{Base} && \textcolor{blue}{Conjugate Base} &&\textcolor{red}{Conjugate Acid}\tabularnewline
+\end{tabular*}\end{center}
+Again, to review, we have that organic acids produce protons and generate negatively charged conjugate bases. At the same time, organic bases consume protons and generate a conjugate acid that is positively charged.
+In order to identify a conjugate acid-base pair we just need to look for the pair of molecules that resemble to each other. 

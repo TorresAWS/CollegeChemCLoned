@@ -1,0 +1,6 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Indicate the atomic charges on each of the atoms of \chemfig{\lewis{2,C}( (-[:0]H)(-[:180]H)(-[:270]H))} \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The carbon atoms brings four electrons and in the molecule it is surrounded by eight electrons, five of which belongs to it. Hence the charge of C is $-1$; this means that carbon has one extra electron. Each hydrogen brings one electron and in the molecule each hydrogen has one electron (they share two electrons with C, one for C and one for H). \\
+ \import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

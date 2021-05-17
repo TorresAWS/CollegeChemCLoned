@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Do the following calculation with the correct number of figures: $(24.56+2.433)\times0.013$
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 0.35 \end{flushright} }
+

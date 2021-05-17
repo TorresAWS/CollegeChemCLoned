@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A mixture of gases with a total pressure of 2 atm contains 3 moles of Ar, 3 moles of He and 1 moles of Ne. Calculate the partial pressure of each component on the mixture. 
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We calculate first the mole fraction for each component of the mixture. As the total number of moles if 7 moles and there are 3 moles of Ar, its mole fraction is 0.43. Similarly, the mole fraction for He is 0.43 and for Ne is 0.14. To calculate the partial pressure of each gas you just need to multiply its mole fraction by the total pressure (2 atm). Hence: $p_{Ar}$=0.86atm, $p_{He}$=0.86atm and $p_{Ne}$=0.28atm
+\\
+\import{./}{StudyCheck8}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

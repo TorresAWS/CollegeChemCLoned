@@ -1,0 +1,6 @@
+Density refers to the mass of a substance with respect to its volume. This is an unique property for each substance. For example, the density for copper is 8.92 $g\cdot ml^{-1}$ and for gold is 19.3 $g\cdot ml^{-1}$. By measuring density only you would be able to differentiate copper than gold. The larger density the more compact is an object and that means the more mass per volume it has. The formula for density is
+%\resizeableyellownote{2.5}{1}{Add  Formula \ref{formula1:1} to your flashcard.}
+\begin{equation}
+\boxed{   \text{Density}=\frac{\text{Mass of substance}}{\text{Volume of substance}}   }
+\label{formula1:1}
+\end{equation}

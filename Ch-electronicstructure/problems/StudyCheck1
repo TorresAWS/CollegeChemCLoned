@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Indicate the number of valence electrons for the following atoms: Cl and B.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: Cl (7\ce{e^-}), B (3\ce{e^-}).
+ \end{flushright} }

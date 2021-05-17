@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following molecules as an aldehyde or ketone
+\begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45])} \hspace{0.5cm}\chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]H))-----)}  \end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The left molecule is a ketone as the carbonyl group (\ce{C=O}) is connected to a \ce{CH3} and a  \ce{CH2}. Differently, the right molecule is an aldehyde as the carbonyl group is connected to a cycloalkane but also to a hydrogen. 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) ketone; (right) aldehyde. \end{flushright}
+\import{./}{StudyCheck13}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

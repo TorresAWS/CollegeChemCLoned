@@ -1,0 +1,8 @@
+
+\begin{example} %%%%%%% EXAMPLE BOX with explanation
+Obtain the electronic configuration of C.\\
+\textlcsc{ \textcolor{dgreen}{\Large Solution} }\\
+The atomic number of C is Z=6 and that means C has 6 electrons. The orbital order from Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} is: $1s$,$2s$, $2p$, $3s$, etc. Each $s$ orbital can fit two electrons, whereas the occupancy of  the $p$ orbitals is six electrons. Hence the electronic configuration of C is: $1s^2 2s^2 2p^2$. The $s$ orbitals are all filled, whereas the $p$ orbital is only occupied with two electrons.
+\\
+\import{./}{StudyCheck9}
+\end{example}%%%%%%% EXAMPLE BOX with explanation

@@ -1,0 +1,7 @@
+The naming of alkanes results from the combination of a prefix and a suffix. On one hand, the suffix is always \emph{ane}. On the other hand, the prefix depends on the number of carbons in the molecule. Table \ref{tab:{\chapterlabel}\thetablenewcounter} shows a list of the different prefixes. For example, the alkane with a single carbon is called methane (\ce{CH4}). Other examples of alkanes are ethane that contains two carbons (\ce{C2H6}) or propane with three carbons (\ce{C3H8}). The molecular formula for an alkane with $n$ carbon atoms is:
+\begin{equation}
+ \text{C}_n\text{H}_{2n+2}
+ \label{formula12.1}
+ \end{equation}
+Hence, we have that the molecular formula for methane ($n=1$) is $ CH_{4}$ and the molecular formula for octane ($n=8$) is $ C_8H_{18}$. \emph{Molecular formulas} represent only the molecular compositions, showing only the elements in the molecule.
+

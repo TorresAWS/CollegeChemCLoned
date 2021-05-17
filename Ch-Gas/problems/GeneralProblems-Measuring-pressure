@@ -1,0 +1,209 @@
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+An open-tube manometer is used to measure the pressure of a given gas. When there is no gas in the container, the mercury levels are equal in both sides of the u-tube.
+%%%%%%%%%%MANOMETER
+\begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\tikzset{edge/.style = {->,> = latex'}}
+\def\r{1.1}% Mid-tube radius
+\def\t{.2} % Tube thickness
+\def\h{5}  % Straight height (total height is \r + \t/2 + \h)
+\def\lh{2} % Left height
+\def\rh{4} % Right height
+
+\begin{scope}[xshift = 0cm]
+\path [pattern=north west lines, pattern color=green]
+  (-\r+\t/2, \lh) -- ++(0, -\lh) arc (180:360:\r-\t/2) |-
+  ( \r+\t/2, \rh) -- ++(0, -\rh) arc (360:180:\r+\t/2) |- cycle;
+\draw (-\r-\t/2, \lh-0.02) -- ++(\t,0)	 (\r-\t/2, \rh) -- ++(\t,0); 
+\draw [black, thick] 
+  (-\r-\t/2, \h) -- ++        (0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+  (-\r+\t/2, \h) -- ++    (0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [white, thick, fill=red!10] 
+(-\r-\t/2+.1, \h     -1) -- ++ (-\r-2*\t/2, \h-0.1*\h-0.14cm) arc (0:350:1.0) -- ++ (\r+2*\t/2, \h-0.1*\h-0.16cm) |- cycle ;
+
+ \draw[red!10,  fill=red!10]  (-\r-\t/2, 2.5*\lh) -- ++(\t-0.02,0) -- ++(0, -1.5*\lh) -- ++(-\t+0.04,0)  |- cycle ;
+  \draw[black, thick]  (-\r-\t/2, 2.5*\lh-0.01) -- ++(\t,0)  ;
+ % \draw[black, thick]  (\r-\t/2, \rh+1.0) -- ++(\t,0)  ;  % Open close
+\node [shift={(1.2,5.2)}, font=\small,scale=0.7] {760mmHg};% Open close
+
+\node [shift={(-3.5,4.1)}] {Gas};
+
+\draw[<->] (-0,2) -- (-0,4) ;
+\draw[dash pattern=on \pgflinewidth off 2pt] (-0,2) -- (-.9,2)   (-0,4) -- (.9,4);
+
+\node [shift={(0.5,3.1)}] {\small 200mm};
+\draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
+\end{scope}
+
+%\def\lh{2} % Left height
+%\def\rh{1} % Right height
+%\begin{scope}[xshift = 6cm]
+%\path [pattern=north west lines, pattern color=green]
+%  (-\r+\t/2, \lh) -- ++(0, -\lh) arc (180:360:\r-\t/2) |-
+%  ( \r+\t/2, \rh) -- ++(0, -\rh) arc (360:180:\r+\t/2) |- cycle;
+%\draw (-\r-\t/2, \lh-0.02) -- ++(\t,0)	 (\r-\t/2, \rh) -- ++(\t,0); 
+%%\draw [black, thick] 
+%%  (-\r-\t/2, \h) -- ++(0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+%%  (-\r+\t/2, \h) -- ++(0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+%\draw [black, thick] 
+%  (-\r-\t/2, \h) -- ++        (0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+%  (-\r+\t/2, \h) -- ++    (0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+%\draw [white, thick, fill=red!10] 
+%(-\r-\t/2+.1, \h     -1) -- ++ (-\r-2*\t/2, \h-0.1*\h-0.14cm) arc (0:350:1.0) -- ++ (\r+2*\t/2, \h-0.1*\h-0.16cm) |- cycle ;
+%
+% \draw[red!10,  fill=red!10]  (-\r-\t/2, 2.5*\lh) -- ++(\t-0.02,0) -- ++(0, -1.5*\lh) -- ++(-\t+0.04,0)  |- cycle ;
+%  \draw[black, thick]  (-\r-\t/2, 2.5*\lh-0.01) -- ++(\t,0)  ;
+% % \draw[black, thick]  (\r-\t/2, \rh+1.0) -- ++(\t,0)  ;  % Open close
+%\node [shift={(1.2,5.2)}, font=\small,scale=0.5] {760mmHg};% Open close
+%
+%\node [shift={(-3.5,4.1)}] {Gas};
+%
+%\draw[<->] (-0,2) -- (-0,1) ;
+%\draw[dash pattern=on \pgflinewidth off 2pt] (-0,2) -- (-.9,2)   (-0,1) -- (.9,1);
+%
+%\node [shift={(0.5,1.5)}] {\small   300mm};
+%%\node [shift={(0.2,-1.8)}] {\small $\text{P}^{open}=\Delta \text{h}\text{dg}+\text{P}_{atm}$};
+%\draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
+%\end{scope}
+
+
+\end{tikzpicture}\end{center}
+%%%%%%%%%%MANOMETER
+
+\begin{inparaenum}[(a)]	
+\item  Would the gas pressure be lower or higher than the atmospheric pressure?
+\item  Calculate the gas pressure in MPa.
+\item  Calculate the gas pressure in Torr.
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  higher 
+\item  0.127MPa
+\item  960mmHg
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+An open-tube manometer is used to measure the pressure of a given gas. When there is no gas in the container, the mercury levels are equal in both sides of the u-tube.
+%%%%%%%%%%MANOMETER
+\begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\tikzset{edge/.style = {->,> = latex'}}
+\def\r{1.1}% Mid-tube radius
+\def\t{.2} % Tube thickness
+\def\h{5}  % Straight height (total height is \r + \t/2 + \h)
+\def\lh{2} % Left height
+\def\rh{4} % Right height
+
+%\begin{scope}[xshift = 0cm]
+%\path [pattern=north west lines, pattern color=green]
+%  (-\r+\t/2, \lh) -- ++(0, -\lh) arc (180:360:\r-\t/2) |-
+%  ( \r+\t/2, \rh) -- ++(0, -\rh) arc (360:180:\r+\t/2) |- cycle;
+%\draw (-\r-\t/2, \lh-0.02) -- ++(\t,0)	 (\r-\t/2, \rh) -- ++(\t,0); 
+%\draw [black, thick] 
+%  (-\r-\t/2, \h) -- ++        (0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+%  (-\r+\t/2, \h) -- ++    (0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+%\draw [white, thick, fill=red!10] 
+%(-\r-\t/2+.1, \h     -1) -- ++ (-\r-2*\t/2, \h-0.1*\h-0.14cm) arc (0:350:1.0) -- ++ (\r+2*\t/2, \h-0.1*\h-0.16cm) |- cycle ;
+%
+% \draw[red!10,  fill=red!10]  (-\r-\t/2, 2.5*\lh) -- ++(\t-0.02,0) -- ++(0, -1.5*\lh) -- ++(-\t+0.04,0)  |- cycle ;
+%  \draw[black, thick]  (-\r-\t/2, 2.5*\lh-0.01) -- ++(\t,0)  ;
+% % \draw[black, thick]  (\r-\t/2, \rh+1.0) -- ++(\t,0)  ;  % Open close
+%\node [shift={(1.2,5.2)}, font=\small,scale=0.7] {760mmHg};% Open close
+%
+%\node [shift={(-3.5,4.1)}] {Gas};
+%
+%\draw[<->] (-0,2) -- (-0,4) ;
+%\draw[dash pattern=on \pgflinewidth off 2pt] (-0,2) -- (-.9,2)   (-0,4) -- (.9,4);
+%
+%\node [shift={(0.5,3.1)}] {\small 200mm};
+%\draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
+%\end{scope}
+
+\def\lh{2} % Left height
+\def\rh{1} % Right height
+\begin{scope}[xshift = 6cm]
+\path [pattern=north west lines, pattern color=green]
+  (-\r+\t/2, \lh) -- ++(0, -\lh) arc (180:360:\r-\t/2) |-
+  ( \r+\t/2, \rh) -- ++(0, -\rh) arc (360:180:\r+\t/2) |- cycle;
+\draw (-\r-\t/2, \lh-0.02) -- ++(\t,0)	 (\r-\t/2, \rh) -- ++(\t,0); 
+%\draw [black, thick] 
+%  (-\r-\t/2, \h) -- ++(0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+%  (-\r+\t/2, \h) -- ++(0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [black, thick] 
+  (-\r-\t/2, \h) -- ++        (0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+  (-\r+\t/2, \h) -- ++    (0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [white, thick, fill=red!10] 
+(-\r-\t/2+.1, \h     -1) -- ++ (-\r-2*\t/2, \h-0.1*\h-0.14cm) arc (0:350:1.0) -- ++ (\r+2*\t/2, \h-0.1*\h-0.16cm) |- cycle ;
+
+ \draw[red!10,  fill=red!10]  (-\r-\t/2, 2.5*\lh) -- ++(\t-0.02,0) -- ++(0, -1.5*\lh) -- ++(-\t+0.04,0)  |- cycle ;
+  \draw[black, thick]  (-\r-\t/2, 2.5*\lh-0.01) -- ++(\t,0)  ;
+ % \draw[black, thick]  (\r-\t/2, \rh+1.0) -- ++(\t,0)  ;  % Open close
+\node [shift={(1.2,5.2)}, font=\small,scale=0.5] {760mmHg};% Open close
+
+\node [shift={(-3.5,4.1)}] {Gas};
+
+\draw[<->] (-0,2) -- (-0,1) ;
+\draw[dash pattern=on \pgflinewidth off 2pt] (-0,2) -- (-.9,2)   (-0,1) -- (.9,1);
+
+\node [shift={(0.5,1.5)}] {\small   300mm};
+%\node [shift={(0.2,-1.8)}] {\small $\text{P}^{open}=\Delta \text{h}\text{dg}+\text{P}_{atm}$};
+\draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
+\end{scope}
+
+
+\end{tikzpicture}\end{center}
+%%%%%%%%%%MANOMETER
+
+\begin{inparaenum}[(a)]	
+\item  Would the gas pressure be lower or higher than the atmospheric pressure?
+\item  Calculate the gas pressure in MPa.
+\item  Calculate the gas pressure in Torr.
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  lower
+\item  0.14MPa
+\item  460mmHg
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A barometer is a device used to measure the atmospheric pressure. It is made of a glass tube filled with a liquid, inverted on a dish of the same liquid. When inverting the tube, liquid will remain on the tube. The filled height of the column is proportional to the pressure. The liquid used is normally mercury with density 13593 kg/$\text{m}^3$.
+\begin{center}\begin{tikzpicture}[thick,scale=0.5, every node/.style={transform shape}]
+\begin{scope}[scale=.75, transform shape]
+\foreach \y/\c [count=\i from 1]
+in {2/blue}
+%in {2/blue,5/cyan,4/green,3/yellow,2/orange,1/red}
+\path (\i*60-15:1 and 1) pic {cylinder={\y}{\c}};
+%\draw (0,0) --++(2,0) --++(0,2) {[rounded corners=15pt] --++(-1,1)--++(-1,-1)}  -- cycle;
+  \end{scope} 
+      \begin{scope} [shift={(.55,0.5)}, rotate=180,scale=.75, transform shape]
+%  \shade[left color=red,right color=red!40](-1,-2)--(-1,-5) arc (180:360:1)  -- (1,-2) arc (0:180:1 and 0.3);
+\draw (0,0) ellipse (1.07 and .3);
+%\draw[blue!90!black!70] (0,-2) ellipse (1 and .3);   %% put this before
+\draw (-1.07,0)--(-1.07,-5) arc (180:360:1.07) --(1.07,-5) -- (1.07,0);    %% put this line here
+      \end{scope} 
+\end{tikzpicture}\end{center}
+\begin{inparaenum}[(a)]	
+\item  Given that the height of the column is 750mm, calculate the atmospheric pressure in MPa.
+\item  Calculate the atmospheric pressure in atm if you use a barometer containing a liquid of density 1000 kg/$\text{m}^3$ and the liquid height is 9cm.
+\item  What are the benefits of building a barometer with a lighter liquid than mercury?
+\item  What are the drawbacks of building a barometer with a lighter liquid than mercury?
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item   0.09MPa
+\item   $8.7\times 10^{-3}$atm
+\item  it would be more sensitive to pressure changes
+\item   it would have to be taller than a barometer based on mercury
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

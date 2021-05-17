@@ -1,0 +1,49 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A 3L gas sample has a pressure of 5 atm. If the pressure increases to 10 atm at fixed temperature and number of moles, calculate the final volume of the gas. 
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+From the problem we have the following data:
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$V_1=3L$\\
+$P_1=5atm$\\
+$P_2=10atm$\\
+\tcbitem[swotbox = A]
+$V_2$\\
+\\
+\\
+\end{tcbitemize}%%% DATA BOX
+We need to apply the ideal gas formula to the initial state and final state and divide both formulas. The number of moles and the temperature are constant and will cancel out from both equations:
+\begin{equation}
+  \left.
+  \raisebox{0pt}[30pt]{\smash{$\begin{array}{r@{}l@{\,}l}
+   &  P_1V_1=nRT \\
+   \\ 
+    & P_2V_2=nRT \\
+  \end{array}$}}
+  \right\} \quad \frac{P_1V_1}{P_2V_2}=\frac{nRT}{nRT} 
+\end{equation}
+Plugging the values:
+\begin{equation}
+\frac{P_1V_1}{P_2V_2}=\frac{nRT}{nRT} 
+\end{equation}
+and solving:
+\begin{equation}
+\frac{3\cdot 5}{10\cdot V_2}=1
+\end{equation}
+the final volume will be 1.5 L.
+\\
+\import{./}{StudyCheck5}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

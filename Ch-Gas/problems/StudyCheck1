@@ -1,0 +1,4 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+An oxygen sample has a pressure of 730 mmHg. Convert this value to atmospheres.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: 0.96 atm. \end{flushright} }
+

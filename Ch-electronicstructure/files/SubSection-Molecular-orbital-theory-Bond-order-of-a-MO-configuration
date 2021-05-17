@@ -1,0 +1,10 @@
+Lets go back to the MO configuration for \ce{N2}. In this configuration we have some of the electrons occupying bonding MO and other occupying antibondoing MO's. The bond order is just the number of bonding electrons--the number of electrons occupying bonding MO's--minus the number of antibonding electrons--the number of electrons occupying antibonding MO's--divided by two. The formula is:
+\begin{equation*}
+\boxed{  BO=\frac{(n-n^*)}{2}  } \quad \textcolor{blue}{\text{Bond Order}}
+\end{equation*}
+where:
+\begin{where}
+ \item $n$   is the number of electrons occupying bonding MO's
+  \item $n^*$ is the number of electrons occupying antibonding MO's
+\end{where}
+The bond order is related to the stability of the molecule and to the length of its chemical bond. The larger the bond order the most stable is the molecule as more electrons occupy bonding orbitals. The larger the bond order the smaller the chemical bond, and the atoms are more loose.

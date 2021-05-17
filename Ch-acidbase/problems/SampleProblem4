@@ -1,0 +1,31 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the acid, the base, the conjugate acid and the conjugate base in the reaction involving organic molecules:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.04\textwidth}>{\centering}m{0.04\textwidth}>{\centering}m{0.25\textwidth}}
+\chemfig{H_2O}&
+$+$&
+\setpolymerdelim()\chemfig{CH_3-N(-CH_2CH_3)(-[:90]CH_3)} &
+\schemestart\arrow{-U>}[,1.]\schemestop&
+\chemfig{HO^{-}}&
+$+$&
+\setpolymerdelim()\chemfig{CH_3-NH^{+}(-CH_2CH_3)(-[:90]CH_3)} 
+\tabularnewline\addlinespace
+% \textcolor{blue}{Acid} && \textcolor{red}{Base} && \textcolor{blue}{Conjugate Base} &&\textcolor{red}{Conjugate Acid}\tabularnewline
+\end{tabular*}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that acids produce protons and bases receive those protons. In the reaction above, the second reactants received a proton from water and hence, it acts as a base. Hence water will be the acid and the amine, the second reactants, will be the base. The conjugate base would be \chemfig{HO^{-}} and the conjugate acid the product on the right. These results make sense as amines are organic basis.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.1\textwidth}>{\centering}m{0.05\textwidth}>{\centering}m{0.2\textwidth}>{\centering}m{0.1\textwidth}>{\centering}m{0.04\textwidth}>{\centering}m{0.04\textwidth}>{\centering}m{0.25\textwidth}}
+\chemfig{H_2O}&
+$+$&
+\setpolymerdelim()\chemfig{CH_3-N(-CH_3)(-[:90]CH_3)} &
+\schemestart\arrow{-U>}[,1.]\schemestop&
+\chemfig{HO^{-}}&
+$+$&
+\setpolymerdelim()\chemfig{CH_3-NH^{+}(-CH_3)(-[:90]CH_3)} 
+\tabularnewline\addlinespace
+  \textcolor{blue}{Acid} && \textcolor{red}{Base} && \textcolor{blue}{Conjugate Base} &&\textcolor{red}{Conjugate Acid}\tabularnewline
+\end{tabular*}\end{center}
+\import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX\end{description}

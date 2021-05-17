@@ -1,0 +1,23 @@
+\begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{12}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Ionization energy in the periodic table in kJ/mol } \\
+\midrule
+ \rowcolor{gray!10} Element & Z & $\text{EI}_1$ & $\text{EI}_2$ & $\text{EI}_3$ &  $\text{EI}_4$ & $\text{EI}_5$ &  $\text{EI}_6$& $\text{EI}_7$ &  $\text{EI}_8$&  $\text{EI}_9$&  $\text{EI}_10$\\
+\midrule
+ Li  	& 3&	520.2	&\cellcolor{blue!25}7298.1&	\cellcolor{blue!25}11815.0&	\cellcolor{blue!25}&	\cellcolor{blue!25}&	\cellcolor{blue!25}&\cellcolor{blue!25}	&	\cellcolor{blue!25}&	\cellcolor{blue!25}&	\cellcolor{blue!25} \\
+ Be  	&4&	 899.5&	1757.1&	\cellcolor{blue!25}14848.7&	\cellcolor{blue!25}21006.6&\cellcolor{blue!25}	&\cellcolor{blue!25}	&\cellcolor{blue!25}	&\multicolumn{1}{c}{\cellcolor{blue!25}$^*$}	&\cellcolor{blue!25}	&	\cellcolor{blue!25}\\ 
+ B  	& 5&	800.6	&2427.1&	3659.7&	\cellcolor{blue!25}25025.8&	\cellcolor{blue!25}32826.7&	\cellcolor{blue!25}&\cellcolor{blue!25}	&\cellcolor{blue!25}	&	\cellcolor{blue!25}&\cellcolor{blue!25}	\\ 
+ C  &	 6	&1086.5&	2352.6&	4620.5&	6222.7&	\cellcolor{blue!25}37831&	\cellcolor{blue!25}47277.0&\cellcolor{blue!25}	&\cellcolor{blue!25}	&\cellcolor{blue!25}	&\cellcolor{blue!25}	 \\
+ N  	&7&	1402.3&	2856	&	4578.1&	7475.0&	9444.9	&\cellcolor{blue!25}53266.6	&\cellcolor{blue!25}64360&\cellcolor{blue!25}	&\cellcolor{blue!25}&	\cellcolor{blue!25}	 \\	 
+ O  	&8&	1313.9&	3388.3&	5300.5&	7469.2&	10989.5	&13326.5	&\cellcolor{blue!25}71330&	\cellcolor{blue!25}84078.0&\cellcolor{blue!25}	&	\cellcolor{blue!25} 	\\	
+ F  	&9	&1681.0&	3374.2&	6050.4&	8407.7&	11022.7	&15164.1&	17868&	\cellcolor{blue!25}92038.1&	\cellcolor{blue!25}106434.3&	\cellcolor{blue!25}		\\ 
+ Ne  &10&	2080.7&	3952.3&	6122	&	9371	&	12177	&15238	&19999.0	&23069.5	&\cellcolor{blue!25}115379.5&	\cellcolor{blue!25}131432\\
+ \bottomrule
+ \multicolumn{12}{l}{ \small $^*$ Shaded cells represent the removal of core electrons } \\
+
+\end{tabular}\end{center} 
+

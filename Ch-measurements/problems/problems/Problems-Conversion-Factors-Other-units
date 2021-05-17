@@ -1,0 +1,42 @@
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=23]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Set up the conversion factor to convert 500cm into inches:
+\[50\cancel{cm} \times \dfrac{\hlmath{\hspace{35pt}} }{\hlmath{\hspace{35pt}}}=\hlmath{\hspace{35pt}}in\]
+\end{question}
+\begin{solution}
+$19.68in$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following conversion factors:
+\begin{center}$20\cancel{cm} \times \dfrac{\hlmath{\hspace{35pt}}}{\hlmath{\hspace{35pt}}}=7.87in$\end{center}
+%\begin{multicols}{2}
+%  \noindent
+%  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+%\item $\dfrac{1 in}{0\cancel{cm}}$
+%\item $\dfrac{1 in}{1\cancel{cm}}$
+%\item $\dfrac{2.54 in}{2.54\cancel{cm}}$
+%\item $\dfrac{2.54 in}{1\cancel{cm}}$
+%\item $\dfrac{1 in}{2.54\cancel{cm}}$
+%\end{enumerate}
+%\end{multicols}    
+\end{question}
+\begin{solution}
+$\dfrac{1 in}{2.54\cancel{cm}}$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+

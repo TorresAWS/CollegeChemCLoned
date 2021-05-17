@@ -1,0 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=15.5cm, height=15.5cm]{../Ch-acidbase/titration}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} chemskills.com} ;
+  
+
+\node[text width=14cm, fontscale=1,shift={(2em,-18em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} An acid base titration using phenolphthalein as indicator. From left to right, before, at and after the end point. };
+
+\end{tikzpicture}
+}\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

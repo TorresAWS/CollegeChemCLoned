@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Indicate: (a) the color of a radiation with $\nu=7.5\times 10^{14}$ Hz; (b) the type of a radiation with  $\nu=10^{8}$ Hz.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) violet; (b) Microwaves.
+ \end{flushright} }

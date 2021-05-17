@@ -1,0 +1,212 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-radiation}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+
+\newsavebox\Axis
+\newsavebox\Axisb
+
+
+
+\begin{document}
+\linenumbers
+
+
+  
+  
+
+\import{files/}{ChapterName}
+
+
+
+   
+         \begin{marginfigure}
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\end{tikzpicture}
+\end{marginfigure}
+
+
+\import{files/}{ChapterIntro}
+ 
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{files/}{SectionGoal-The-nature-of-light}
+\import{files/}{SectionGoal-The-atomic-line-spectra-Energy-levels-of-hydrogen}
+\import{files/}{SectionGoal-The-atomic-line-spectra-Transition-energies}
+\import{files/}{SectionGoal-Electronic-configuration-Full-electron-Configuration}
+\import{files/}{SectionGoal-Periodic-Trends}
+
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+\import{files/}{ChapterDiscussion}
+\end{tcolorbox} 
+ \end{marginfigure}%LEARNING GOALS BOX
+
+ 
+ \import{files/}{Quote-Schrodinger}
+
+
+
+
+
+
+
+
+ 
+ 
+
+\section{The nature of light}\import{files/}{SectionIntro-The-nature-of-light}
+\sloppy
+\begin{description}
+\item[\docfilehook{Light as a wave}{}]\import{files/}{SubSection-The-nature-of-light-Light-as-a-wave}
+\import{files/}{Figure-Properties-of-waves}
+\item[\docfilehook{Frequency and energy}{}] \import{files/}{SubSection-The-nature-of-light-Frequency-and-energy}
+\item[\docfilehook{The speed of light}{}] \import{files/}{SubSection-The-nature-of-light-The-speed-of-light}
+\item[\docfilehook{Wavelength and energy}{}] \import{files/}{SubSection-The-nature-of-light-Wavelength-and-energy}
+  \import{problems/}{SampleProblem1}
+\item[\docfilehook{The electromagnetic spectrum of light}{}]\import{files/}{SubSection-The-nature-of-light-The-electromagnetic-spectrum-of-light}
+  \vspace{-1cm}\import{files/}{Figure-Electromagnetic-field}
+\item[\docfilehook{The double-slit experiment: light diffraction}{}] \import{files/}{SubSection-The-nature-of-light-The-double-slit-experiment-light-diffraction}
+ \import{files/}{Figure-Double-slit}
+ \vspace{1cm}\hspace{-5cm}\import{files/}{Figure-waves-and-life}
+\import{files/}{Table-Types-and-Color-or-radiation}
+\item[\docfilehook{Types and color of radiation}{}] \import{files/}{SubSection-The-nature-of-light-Types-and-color-of-radiation}
+\import{files/}{Figure-Electromagnetic-spectra}
+  \import{problems/}{SampleProblem2}
+\item[\docfilehook{Electron-Volt a new unit of energy}{}]\import{files/}{SubSection-The-nature-of-light-Electron-Volt-a-new-unit-of-energy}
+\import{files/}{Figure-Photoelectric-effect}
+\import{files/}{Table-Workfunctions}
+\item[\docfilehook{The photoelectric effect}{ }]\import{files/}{SubSection-The-nature-of-light-The-photoelectric-effect}
+  \import{problems/}{SampleProblem3}
+\end{description}
+\section{The atomic line spectra}
+\import{files/}{SectionIntro-The-atomic-line-spectra}
+\sloppy
+\begin{description}
+\item[\docfilehook{Spectrum of atoms}{ }]\import{files/}{SubSection-The-atomic-line-spectra-Spectrum-of-atoms}
+\import{files/}{Figure-Atomic-spectrum}
+\item[\docfilehook{Atomic line spectrum of hydrogen}{}]\import{files/}{SubSection-The-atomic-line-spectra-The-atomic-line-spectraAtomic-line-spectrum-of-hydrogen}
+\item[\docfilehook{The Bohr model}{}]\import{files/}{SubSection-The-atomic-line-spectra-The-Bohr-model}
+
+  \import{files/}{Figure-Spectrum-of-hydrogen}
+\item[\docfilehook{Energy levels of hydrogen}{Energy levels of hydrogen}]\import{files/}{SubSection-The-atomic-line-spectra-Energy-levels-of-hydrogen}
+\vspace{-0.5cm}\import{files/}{Figure-Energy-levels-of-hydrogen}
+\import{files/}{Table-Hydrogen-series}
+
+\item[\docfilehook{Transition energies}{}]\import{files/}{SubSection-The-atomic-line-spectra-Transition-energies}
+\import{files/}{Figure-Energy-transitions}
+ \item[\docfilehook{Bohn's formula for energy transitions}{ }]\import{files/}{SubSection-The-atomic-line-spectra-Bohn's-formula-for-energy-transitions}
+  \import{problems/}{SampleProblem4}
+\newpage\vspace{5cm}\import{files/}{Figure-Debroglie}
+ \item[\docfilehook{The wave properties of matter}{ }]\import{files/}{SubSection-The-atomic-line-spectra-The-wave-properties-of-matter}
+  \import{problems/}{SampleProblem5}
+ \item[\docfilehook{Electron diffraction}{ }]\import{files/}{SubSection-The-atomic-line-spectra-Electron-diffraction}
+ \import{files/}{Figure-Diffraction-patterns}
+ \item[\docfilehook{The uncertainty principle}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-The-uncertainty-principle}
+  \import{problems/}{SampleProblem7}
+\end{description}
+\newpage
+\section{Quantum mechanics and electronic structure}\import{files/}{SectionIntro-Quantum-mechanics-and-electronic-structure}
+\sloppy
+\begin{description}
+\item[\docfilehook{Quantized energy and continuum energy}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Quantized-energy-and-continuum-energy}
+ \item[\docfilehook{The Schr\"{o}dinger equation}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-The-Schrordinger}
+\item[\docfilehook{The wave function: orbitals}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-The-wave-function:-orbitals}
+\item[\docfilehook{Orbitals are described by three quantum numbers}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Orbitals-are-described-by-three-quantum-numbers}
+ \import{files/}{SideFigure-spd-orbital-table}
+\import{files/}{SideFigure-Quantum-numbers-table}
+ \item[\docfilehook{Principal quantum number, $n$}{}]\import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Principal-quantum-number-n}
+ \item[\docfilehook{Angular quantum number, $\ell$}{}]\import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Angular-quantum-number-l}
+
+ \item[\docfilehook{Magnetic quantum number, $m_{\ell}$}{}]\import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Magnetic-quantum-number-ml}
+ \item[\docfilehook{A fourth quantum number: the spin $m_s$}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-A-fourth-quantum-number:-the-spin-ms}
+  \import{problems/}{SampleProblem6}
+ 
+ \item[\docfilehook{Shells and subshells (or levels and sublevels)}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Shells-and-subshells-(or-levels-and-sublevels)}
+\item[\docfilehook{Orbital labels: $s$, $p$, $d$ and $f$}{ }] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Orbital-labels}
+\newpage\vspace{5cm}\import{files/}{Figure-Shell-and-subshell}
+
+\item[\docfilehook{Different orbitals plots}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Different-orbitals-plots}
+\item[\docfilehook{$s$ orbitals}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-s-orbitals} 
+\item[\docfilehook{$p$ orbitals}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-p-orbitals}
+ \import{files/}{Figure-Orbitals-sp}
+\import{files/}{Figure-Radial-distribution}
+
+\item[\docfilehook{$d$ and $f$ orbitals}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-d-and-f-orbitals}
+\import{files/}{Figure-Orbitals-d}
+
+
+
+
+ 
+
+\item[\docfilehook{Energies of orbitals}{}] \import{files/}{SubSection-Quantum-mechanics-and-electronic-structure-Energies-of-orbitals}
+\import{files/}{Figure-Energy-levels-and-orbitals}
+
+\end{description}
+
+\section{Electronic configuration of an atom}\import{files/}{SectionIntro-Electronic-configuration-of-an-atom}
+\sloppy
+\begin{description}
+\item[\docfilehook{Electron energy levels and sublevels}{}] \import{files/}{SubSection-Electronic-configuration-Electron-energy-levels-and-sublevels}
+  \import{problems/}{SampleProblem8}
+\item[\docfilehook{The Pauli exclusion principle}{}] \import{files/}{SubSection-Electronic-configuration-The-Pauli-exclusion-principle}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} 
+
+\item[\docfilehook{Orbital Filling: the aufbau principle}{}]\import{files/}{SubSection-Electronic-configuration-Orbital-Filling-the-aufbau-principle}
+
+\import{files/}{SideFigure-Orbital-filling-diagram}
+ \item[\docfilehook{Full electron Configuration}{}] \import{files/}{SubSection-Electronic-configuration-Full-electron-Configuration}
+  \import{problems/}{SampleProblem9}
+
+\item[\docfilehook{Abbreviated Electron Configuration and orbital diagrams}{}] 
+\import{files/}{SubSection-Electronic-configuration-Abbreviated-Electron-Configuration-and-orbital-diagrams}
+  \import{problems/}{SampleProblem10}
+  \item[\docfilehook{Hund's rule}{}] \import{files/}{SubSection-Electronic-configuration-Hund's-rule}
+\import{problems/}{SampleProblem12}
+\end{description}
+\newpage
+\section{Periodic Trends}\import{files/}{SectionIntro-Periodic-Trends}
+\sloppy
+\begin{description}
+\item[\docfilehook{Effective charge}{}] \import{files/}{SubSection-Periodic-Trends-Effective-charge}
+   \import{files/}{Figure-Atomic-radius}
+\import{files/}{Figure-Atomic-radius-plot}
+
+\item[\docfilehook{Atomic radii}{}] \import{files/}{SubSection-Periodic-Trends-Atomic-radius}
+
+\import{files/}{Table-Ionization-energies}\newpage
+\import{files/}{Figure-Ionization-energy-plot}
+\item[\docfilehook{Ionization Energy}{}] \import{files/}{SubSection-Periodic-Trends-Ionization-Energy}
+  \import{files/}{Figure-Periodic-propeties}
+
+\item[\docfilehook{Electron affinity}{}] \import{files/}{SubSection-Periodic-Trends-Electron-affinity}
+
+ 
+\item[\docfilehook{Electronegativity, EN}{}] \import{files/}{SubSection-Periodic-Trends-Electronegativity,-EN}
+\item[\docfilehook{Metallic character }{Metallic character }]\import{files/}{SubSection-Periodic-Trends-Metallic-character-}
+  \import{problems/}{SampleProblem11}
+\item[\docfilehook{Ionic radius}{}]  \import{files/}{SubSection-Periodic-Trends-Ionic-radius}
+\import{files/}{Figure-Photoelectron}
+\item[\docfilehook{Photoelectron spectroscopy of atoms}{}] \import{files/}{SubSection-Periodic-Trends-Photoelectron-spectroscopy-of-atoms}
+\import{files/}{Figure-PES-spectra}
+\end{description}
+
+
+\newpage
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+

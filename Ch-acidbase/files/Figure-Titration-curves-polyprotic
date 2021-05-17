@@ -1,0 +1,22 @@
+  \begin{center}
+ 
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ % \begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+
+\begin{tikzpicture} 
+\begin{scope}[transform canvas={shift={(-2,-7)}	},scale=1., every node/.append style={transform shape}]
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (8,0) node [rotate=0, shift={(-8em,-1em)}]{Volume, (mL)} ;
+ \draw [->, black, shift={(0,0)}]  (0,0) -- (0,8) node [rotate=90, shift={(-7em,2em)}]{PH} ;
+\draw [cyan, thick, shift={(-8em,2em)}] plot [smooth, tension=0.25] coordinates { (3,-0.2) (5,0) (5.1,3) (6,3.2) (6.7,3.4) (7,5.2) (9,5.4)};
+\draw [black,dashed, shift={(0,0)}]   (-0.1,2) -- (2.25,2) node [rotate=0, shift={(5em,-0em)}]{\small First equivalency point}   -- (2.25,0);
+\draw [black,dashed, shift={(0,0)}]   (-0.1,5) -- node [rotate=0, shift={(0em,-1em)}]{\small Second equivalency point} (4.0,5)  -- (4.0,0);
+ \end{scope}
+
+ \begin{scope}[transform canvas={shift={(2em,-7em)}	},scale=1.0, every node/.append style={transform shape}]
+ \node[text width=12cm, fontscale=.3,shift={(-5em,-10em)}] at (5em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} PH curve for a diprotic acid showing two equivalency points };
+\end{scope}
+\end{tikzpicture}
+%  }\end{minipage}
+ 
+
+ \end{center}  

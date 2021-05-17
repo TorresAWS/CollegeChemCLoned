@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the De Broglie wavelength of an electron at a velocity of 100m/s given that an electron mass is $9\times 10^{-31}$kg.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $7.3\times 10^{-6}$m. 
+ \end{flushright} }

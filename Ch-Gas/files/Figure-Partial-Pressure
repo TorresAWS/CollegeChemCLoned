@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
+\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\begin{scope}
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](0,0) circle [radius=.2cm];
+      \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](1,1) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](-.2,2) circle [radius=.2cm];
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](0,3.5) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](-1,1.2) circle [radius=.2cm];
+\flask{0,0}{100}{};
+\node[text width=1cm] at (.5,-1)  {\large $p_{A}$};
+    
+\end{scope}
+\begin{scope}[shift={(4,0)}]
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](-1,0.3) circle [radius=.2cm];
+      \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](0.9,1.5) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](.6,0.5) circle [radius=.2cm];
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](0.3,3.) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](-.8,1.) circle [radius=.2cm];
+               \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](-0.1,2.0) circle [radius=.2cm];
+\flask{0,0}{300}{};
+\node[text width=1cm] at (.5,-1)  {\large $p_{B}$};
+
+\end{scope}
+\begin{scope}[shift={(8,0)}]
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](-1,0.3) circle [radius=.2cm];
+      \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](0.9,1.5) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](.6,0.5) circle [radius=.2cm];
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](0.3,3.) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](-.8,1.) circle [radius=.2cm];
+               \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= red, bottom color=white](-0.1,2.0) circle [radius=.2cm];
+               
+               
+\filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](0,0) circle [radius=.2cm];
+      \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](1,1) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](-.9,2) circle [radius=.2cm];
+   \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](0,3.5) circle [radius=.2cm];
+         \filldraw [draw=none,drop shadow={top color=black, bottom color=white, shadow xshift=.3em,  shadow yshift=-.0em,rounded corners }, rounded corners, top color= blue, bottom color=white](-0,1.2) circle [radius=.2cm];
+\flask{0,0}{400}{};
+\node[text width=2cm] at (.5,-1)  {\large $p_{A}+p_{B}$};
+\end{scope}
+	  \node[text width=12cm, fontscale=.2,shift={(12em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A visual representation of Dalton's law of partial pressure: after adding two different gases with different partial pressured, the final pressure is the result of adding both partial pressures. };
+
+\end{tikzpicture}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%
+

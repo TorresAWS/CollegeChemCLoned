@@ -1,0 +1,6 @@
+\begin{example} %%%%%%% EXAMPLE BOX with explanation
+How many electrons can you fit in the energy level n=3.\\
+\textlcsc{ \textcolor{dgreen}{\Large Solution} }\\
+We will use the formula $2n^2 $ that gives the number of electrons that fit in a energy level $n$. As $n=3$, we can fit 18 electrons in this level. Remember, the larger the energy level the more electrons we can fit. \\
+\import{./}{StudyCheck8}
+\end{example}%%%%%%% EXAMPLE BOX with explanation

@@ -1,0 +1,14 @@
+When we take into account the fact that the particles of a gas interact with each other the formula of the ideal gases do not work anymore. Instead, we can use the Van der Waals equation for real gases that functions in a very similar way.
+\begin{equation*}\begin{split}
+\boxed{  P=\frac{nRT}{V-nb}-\frac{n^2a}{V^2}} \quad \textcolor{blue}{\text{Van der Waals equation}}
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $P$   is the pressure of the gas in atm
+\item $V$    is the volume of the gas in L 
+ \item $n$   is the number of moles of the gas
+\item $T$   is the temperature of the gas in K
+\item $R$   is the constant of the gas $0.082\frac{\text{atm}\cdot \text{L}}{\text{mol}\cdot \text{K}}$
+\item $a$ and $b$   are the Van der Waals constants in units of $\text{atm}\cdot \text{L}^2\cdot \text{mol}^{-2}$ and $\text{L}\cdot \text{mol}$
+\end{where}
+

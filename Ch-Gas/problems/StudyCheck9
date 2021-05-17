@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Oxygen is collected over water in the decomposition of potassium chlorate:
+\begin{center}\ce{2KClO3_{(s)} -> 2KCl_{(s)} + 3O2_{(g)}}\end{center}
+Given that 10mL of gas are collected at 35$^{\circ}$C at a pressure of 0.5atm, and that the vapor pressure of water at that temperature is 0.0555 atm, calculate the number of moles of \ce{KClO3} decomposed.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $1.2\times 10^{-4}$ moles of \ce{KClO3}. \end{flushright} }

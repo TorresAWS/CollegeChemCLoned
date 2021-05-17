@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The proton concentration in an acid solution is $7.0\cdot 10^{-5}$M. Calculate $\big[ \ce{OH^-}\big]$.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Equation \ref{\chapterlabel:equation2}. The value given is $\big[ \ce{H^+}\big]=7.0\cdot 10^{-5}$M and the problem ask $\big[ \ce{OH^-}\big]$. Solving for $\big[ \ce{OH^-}\big]$ we have:
+\begin{equation*}
+ 7.0\cdot 10^{-5} \cdot \big[ \ce{OH^-} \big]=1.0\cdot 10^{-14}
+ \end{equation*}
+ Hence $\big[ \ce{OH^-}\big] =1.4\cdot 10^{-10}$M.
+\\
+\import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

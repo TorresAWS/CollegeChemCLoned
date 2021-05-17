@@ -1,0 +1,10 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=6cm, height=6cm]{../{\chapterlabel}/figure8}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} Pst-Labo} ;
+\draw[thin] (2.,0.7) -- ++(1,1) node [right,fill=white,font=\small,scale=0.7] {\textcolor{red}{\ce{O2_{(g)}}} +\ce{H2O_{(g)}}};
+\draw[thin] (2.,0.1) -- ++(1,-1) node [right,fill=white,font=\small,scale=0.7] {\ce{H2O_{(l)}}};
+\draw [->,red] node[font=\small,scale=0.7, xshift=-4.5cm, yshift=.8cm] {\ce{2KClO3_{(s)}}}   (-2.5,0.5) to [out=0,in=360] (-2.5,1.2) node[font=\small,scale=0.7, xshift=-1.5cm, yshift=.0cm] {\ce{2KCl_{(s)} + 3O2_{(g)}}} ; 
+	  \node[text width=11cm, fontscale=.2,shift={(6em,-15em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Apparatus for measuring the amount of gas produced by a reaction over water. };
+\end{tikzpicture}
+\end{minipage}
+

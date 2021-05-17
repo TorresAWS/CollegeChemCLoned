@@ -1,0 +1,23 @@
+All light travel at the same speed in the vacuum and this speed is called the speed of light, $c$. The numerical value of the speed of light is 299 792 458 m / s which is close to $3\times 10^8$ m/s. When light travels in a medium, like water of glass, its velocity can be lower than the speed of light as the medium slows down the propagation of light. At the same time, the speed of light is used to related two properties of light: the frequency and its wavelength:
+\begin{equation*}
+\boxed{  c=\nu\cdot \lambda  } \quad \textcolor{blue}{\text{the speed of light}}
+\end{equation*}
+where:
+\begin{where}
+ \item $c$   is the speed of light in the vacuum, $3\times 10^8$ m/s
+ \item $\lambda$  is wavelength in $m$
+  \item $\nu$  is the frequency in Hz.
+\end{where}
+If we want $\lambda$ to be in nm we can use the following formula:
+%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}
+\boxed{  \nu=\frac{3\times 10^{17}}{\lambda}  } 
+\end{equation*}
+where:
+\begin{where}
+ \item $\nu$   is frequency in Hz
+ \item $\lambda$  is wavelength in $nm$
+  \item $3\times 10^{17}=c\cdot 10^{9}$   was adjusted to be able to use $\lambda$ in nm
+\end{where}
+Mind that all radiation always travels at the speed of light. At the same time, this speed is the maximum speed allowed for any object, based on the principles of relativity.
+

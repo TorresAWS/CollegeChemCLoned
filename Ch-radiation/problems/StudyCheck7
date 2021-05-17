@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The uncertainty on the position of a particle with a mass of $1.7 \times 10^{-27}$kg is $\pm 10^{-11}$m. Calculate the uncertainty on the velocity of the particle.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $\geq 3\times 10^{3}$m/s. 
+ \end{flushright} }

@@ -1,0 +1,63 @@
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Compute the following power of ten calculations:
+ \begin{multicols}{2}
+ \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]	
+\item $(10^2)^2$ \iffalse $=10^4$ \fi
+\item $(10^2)^3$ \iffalse $=10^6$ \fi
+\item $(10^{-6})^2$ \iffalse $=10^{-12}$ \fi
+\item $(10^{-2})^2$ \iffalse $=10^{-4}$ \fi
+\end{enumerate}
+\end{multicols}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item $(10^2)^2$   $=10^4$  
+\item $(10^2)^3$   $=10^6$  
+\item $(10^{-6})^2$   $=10^{-12}$ 
+\item $(10^{-2})^2$  $=10^{-4}$  
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Set up the conversion factor to convert $400cm^2$ into $m^2$:
+\[400\cancel{cm^2} \times \dfrac{\hlmath{\hspace{35pt}} }{\hlmath{\hspace{35pt}}}=\hlmath{\hspace{35pt}}m^2\]
+\end{question}
+\begin{solution}
+$0.04m^2$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%
+%
+
+
+%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Fill the gap in the following unit equalities or conversion factors:
+\begin{multicols}{2}  
+\noindent\RaggedRight
+ $1\text{cm}^2=\hlmath{\hspace{35pt }}\text{m}^2$
+ $1\text{dm}^3=\hlmath{\hspace{35pt }}\text{m}^3$
+ $1\text{cm}^3=\hlmath{\hspace{35pt }}\text{m}^3$
+ $1\text{dm}^2=\hlmath{\hspace{35pt }}\text{m}^2$
+ \end{multicols}
+\end{question}
+\begin{solution}
+$1\text{cm}^2=  1\times 10^{-4}    \text{m}^2$
+ $1\text{dm}^3=  1\times 10^{-3}     \text{m}^3$
+ $1\text{cm}^3=   1\times 10^{-6}   \text{m}^3$
+ $1\text{dm}^2=  1\times 10^{-2} \text{dm}^2$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+

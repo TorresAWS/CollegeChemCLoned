@@ -1,0 +1,7 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given the following MO configurations, predict the magnetic character: (a) $\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{1}_{2p}$ and (b) $\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{2}_{2p}\pi^{*3}_{2p}$. \\ 
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The first example has an unpaired $\sigma$ electron and hence it is paramagnetic. The second base also has a single unpaired electron, this time in the $\pi^{*}_{2p}$ orbital. Mind $\pi$ orbitals have capacity of four and hence can place two separate pairs of electrons.  
+\\
+ \import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

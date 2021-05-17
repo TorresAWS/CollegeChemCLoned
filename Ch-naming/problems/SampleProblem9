@@ -1,0 +1,17 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or formulate the following hydrosalts:\\
+\begin{center}\begin{tabularx}{0.95\textwidth}{>{\centering}m{.4\textwidth} *{2}{Y} }
+  \toprule
+\heading{Formula} & \multicolumn{2}{c}{\textbf{Name}}   \\
+    \midrule
+     & 	\multicolumn{2}{c}{ Magnesium hydrogensulfate    }    \\
+       & 	\multicolumn{2}{c}{  Sodium hydrogen carbonate   }    \\
+       \ce{LiHCO3}   & 	\multicolumn{2}{c}{    }    \\
+       \ce{MgH2PO4}   & 	\multicolumn{2}{c}{   }    \\
+      \bottomrule
+\end{tabularx}\end{center}\vspace{0.5cm}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The formula of Magnesium hydrogensulfate   is \ce{Mg(HSO4)2} as the formula for monohydrogen sulfate is  \ce{HSO4^-} and the valence of magnesium is \ce{Mg^{2+}}. The formula for Sodium monohydrogen carbonate is \ce{NaHCO3} as it results from combining \ce{Na^+} and \ce{HCO3^-}. Mind monohydrogen carbonate results from adding a hydrogen ion \ce{H^+} to a carbonate \ce{CO3^{2-}} ion. The name for   \ce{LiHCO3}  is lithium monohydrogen carbonate, whereas the name for \ce{MgH2PO4}  is magnesium dihydrogenphosphate.
+ \\
+\import{./}{StudyCheck9}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,5 @@
+Let us consider the following example. The condensed formula for propane is
+\begin{center} \chemfig{CH_3-CH_2-CH_3} \hspace{0.5cm}\textcolor{blue}{Propane}\end{center}
+Now, this would be propane with a substituent:
+\begin{center} \chemfig{CH_2(-[:90,1]Br)-CH_2-CH_3} \hspace{0.5cm}\textcolor{blue}{Bromopropane}\end{center}
+As you can see a bromine atom substitutes one of the hydrogen atoms of the second first of the molecule (starting from the left). The name simply results of the combination of the substituent group and the alkane name.

@@ -1,0 +1,5 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}\begin{tikzpicture}[xscale=1,yscale=0.8, every node/.style={scale=1}]
+            \node (a) at (0,0) {\includegraphics[width=8cm]{../{\chapterlabel}/figure1-21}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+ \node[text width=12cm, fontscale=0.1, shift={ (5em,-7em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Atomic spectrum of two atoms showing the lines corresponding to the visible.   };
+\end{tikzpicture}\end{center}

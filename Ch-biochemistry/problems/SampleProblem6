@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Geddic acid is a saturated fatty acid with 34 carbons found in animal fat. Write down its skeletal formula.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Saturated fatty acids have a polar acid head and a hydrocarbon chain with no double bonds. The polar head has one carbon and hence the tail should have 33 carbons:
+\begin{center}
+\setpolymerdelim()
+\chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!16$}{A}{B}
+\end{center}
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,59 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\hspace{-6cm}\begin{minipage}[b]{1.\linewidth}
+\begin{center}
+   \begin{tikzpicture}[scale=0.6]
+   \node at (4,5) {\mytriangle{red} Parallelepiped $V=abc $}; 
+   \draw[thick,black] (6,0,0) -- (0,0,0) -- (0,3,0) -- (6,3,0);
+   \draw[thick,black]  (6,0,0) -- (6,0,-4) -- (6,3,-4) -- (6,3,0) -- cycle;
+   \draw[thick,black](0,3,0) -- (0,3,-4) -- (6,3,-4);
+   \draw[style=dashed, color=black] (6,0,-4) -- (0,0,-4)-- (0,3,-4);
+   \draw[style=dashed, color=black] (0,0,0) -- (0,0,-4); 
+   \draw[<->](-0.3,0,0)--(-0.3,3,0);
+   \draw node[left] at (-0.3,1.5,0) {a}; 
+   \draw[<->](0,-0.3,0)--(6,-0.3,0);
+   \draw node[below] at (3,-0.3,0) {b}; 
+   \draw[<->](6.3,0,0)--(6.3,0,-4);
+   \draw node[below right] at (6.3,0,-2) {c}; 
+
+\begin{scope}[xshift = 15cm, yshift = 3.5cm]
+      \node at (4,1.5) {\mytriangle{red}  Cylinder $V=\pi r^2h $}; 
+   \draw[thick,black](3,0,-2) ellipse (1.25 and 0.35);
+   \draw[thick,black]  (1.75,-3,-2) arc (180:360:1.25 and 0.35);
+   \draw [dashed]  (4.25,-3,-2) arc (0:180:1.25 and 0.35);
+   \draw[style=dashed, color=black](3,-3,-2) -- (4.25,-3,-2);
+   \draw[style=dashed, color=black](3,0,-2) -- (4.25,0,-2);          
+   \draw node[above left] at (3.7,-0.1,-2) {r}; 
+   \draw node[left] at (3,-2,-2) {h}; 
+   \draw[thick,black]  (1.75,0,-2) --(1.75,-3,-2);
+   \draw[thick,black]  (4.25,0,-2) --(4.25,-3,-2);
+   \draw[thick,black] (3,-2.8,-2 ) --(3.2,-2.8,-2 ) --(3.2,-3,-2 );   
+   \draw[thick,black, dashed] (3,0,-2)--(3,-3,-2 );
+\end{scope}
+\begin{scope}[xshift = 9cm, yshift=-1cm]
+     \node at (4,6) {\mytriangle{red}  Cube $V=a^3 $}; 
+   \draw[thick,black] (4,0,0) -- (0,0,0) -- (0,4,0) -- (4,4,0);
+   \draw[thick,black]  (4,0,0) -- (4,0,-4) -- (4,4,-4) -- (4,4,0) -- cycle;
+   \draw[thick,black](0,4,0) -- (0,4,-4) -- (4,4,-4);
+   \draw[style=dashed, color=black] (4,0,-4) -- (0,0,-4)-- (0,4,-4);
+   \draw[style=dashed, color=black] (0,0,0) -- (0,0,-4); 
+   \draw[<->](0,-0.3,0)--(4,-0.3,0);
+   \draw node[below] at (2,-0.3,0) {a}; 
+\end{scope}
+
+\begin{scope}[xshift = 25cm, yshift = 3.0cm]
+     \node at (1,2) {\mytriangle{red}  Sphere $V=\frac{4}{3}\pi r^3 $}; 
+     \shade[ball color = gray!40, opacity = 0.4] (0,0) circle (1.5cm);
+   \draw[thick,black](0,0) circle (1.5cm);
+   \draw[thick,black](-1.5,0) arc (180:360:1.5 and 0.6);
+   \draw[dashed] (1.5,0) arc (0:180:1.5 and 0.6);
+   \fill[fill=black] (0,0) circle (1pt);
+   \draw[dashed] (0,0 ) -- node[above]{$r$} (1.5,0);
+\end{scope}
+
+ \node[text width=12cm, fontscale=.3,shift={(15em,-5em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Volume of some objects };
+
+      \end{tikzpicture}
+\end{center}\end{minipage}
+
+

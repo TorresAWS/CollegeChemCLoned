@@ -1,0 +1,21 @@
+\begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Standard states for different elements. For all $\Delta H_f^{\circ}=0$KJ/mol} \\
+\midrule
+ \rowcolor{gray!10} Element &     Standard state &	Element &      Standard state\\
+\midrule
+  Hydrogen 		& 	\ce{H2_{(g)}}	 	  	  &	Oxygen 		& 	\ce{O2_{(g)}}	  	\\
+  Nitrogen 		& 	\ce{N2_{(g)}}	 	  	  &	Chlorine 		& 	\ce{Cl2_{(g)}}	  	\\
+    Iron 		& 	\ce{Fe_{(s)}}	 	  	  &	Aluminium 		& 	\ce{Al_{(s)}}	  	\\
+   Carbon 		& 	\ce{C_{graphite}_{(s)}}	 	  	  &	Phosphorus 		& 	\ce{P4_{(s)}}	  	\\
+    Fluorine		& 	\ce{ F2_{(g)}}	 	  	  &	 Bromine		& 	\ce{ Br_{(l )}}	  	\\
+    	Mercury	& 	\ce{ Hg_{(l)}}	 	  	  &	Sulfur 		& 	\ce{ S8_{(s)}}	  	\\
+    	Iodine	& 	\ce{ I2_{(s)}}	 	  	  &Silicon	 		& 	\ce{ Si_{(s)}}	  	\\
+ %   		& 	\ce{ _{ }_{( )}}	 	  	  &	 		& 	\ce{ _{( )}}	  	\\
+ \bottomrule
+\end{tabular}\end{center}

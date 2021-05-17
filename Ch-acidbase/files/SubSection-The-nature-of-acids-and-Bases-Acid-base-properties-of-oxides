@@ -1,0 +1,19 @@
+Metallic oxides can be acidic, basic, or amphoteric. On one hand, acidic oxides react with water (or a base) forming its conjugate base. They tend to be covalent oxides, resulting from the combination of a nonmetal and oxygen. Example of acidic oxides \ce{CO2}, \ce{NO2} or \ce{SO2}. For example, \ce{CO2} can react with water forming carbonic acid:
+\begin{center}\ce{CO2_{(g)} + H2O_{(l)} -> H2CO3_{(aq)}}\end{center}
+At the same time
+\begin{center}\ce{SO2_{(g)} + 2NaOH_{(aq)} -> Na2SO3_{(aq)}  + H2O_{(l)}}\end{center}
+On the other hand, basic oxides react with water of acids to form a conjugate acid. They tend to be ionic compounds with metals from the first and second group. Examples are \ce{MgO},\ce{K2O} or \ce{CaO}. We have that calcium oxide reacts with water forming calcium hydroxyde:
+\begin{center}\ce{CaO_{(s)} + H2O_{(l)} -> Ca(OH)2_{(aq)}  }\end{center}
+Calcium hydroxide is also known as slaked lime. This hydroxide is used for example in the scrubbing of stack gases from the exhaust of power plants and factories. When this compound reacts with sulfur trioxide the following set of reactions happen:
+\begin{center}\ce{SO2_{(g)} + H2O_{(l)} <=> H2SO3_{(aq)}}\\
+\ce{Ca(OH)2_{(g)} + H2SO3_{(aq)} <=> CaSO3_{(s)} + 2H2O_{(l)}}
+   \end{center}
+Group I hydroxides such as \ce{NaOH}, \ce{LiOH}  or \ce{KOH} are strong bases. Sodium and potassium hydroxides are common reagents, whereas lithium, rubidium, and cesium hydroxide are expensive and less used. Group II hydroxides such as \ce{Ca(OH)2} or \ce{Ba(OH)2} are also strong bases. However, these hydroxides tend to be insoluble, which can be convenient for some applications. For example, antacids are suspensions of metal hydroxides. The insoluble character helps protect the mouth and esophagus during their ingestion. Calcium hydroxide is called slaked lime and it is extensively used in water treatment plants to soften water--removing calcium and magnesium ions--and in the industry to scrub stack gases from exhaust pipes removing sulfur dioxide (and acidic gas).
+Calcium oxide--called lime--is also used in combination with soda ash (\ce{Na2CO3}) in the softening go water involving the removal of calcium and magnesium ions in solutions. These ions hinder the action of detergents.
+Finally, amphoteric oxides can act as a basic or acidic oxide. We call this \emph{amphoterism} and these oxides are \emph{amphoteric}. They tend to be oxides containing elements on the line between metals and nonmetals (Be, Al, Ga, Ge, As, In, Sn, Sb, Pb, and Bi). Examples of amphoteric oxides are: \ce{Al2O3}  or  \ce{BeO}.
+Covalent oxides tend to be acidic. An example is sulfur trioxide that reactants with water to produce sulfuric acid--a reaction involved in the acid rain:
+\begin{center}\ce{SO3_{(g)} + H2O_{(l)} <=> H2SO4_{(aq)}} 
+   \end{center}
+Carbon dioxide produced carbonic acid in the presence of water:
+\begin{center}\ce{CO2_{(g)} + H2O_{(l)} <=> H2CO3_{(aq)}} 
+   \end{center}

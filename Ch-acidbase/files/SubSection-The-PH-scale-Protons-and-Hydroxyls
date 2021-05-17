@@ -1,0 +1,6 @@
+Acids and bases exist on solution with water. That means that as they produce protons or hydroxyls water receives these ions as it ionizes as well. Hence, the concentration of protons and hydroxyls in solution are not independent. Indeed, the ion-product of water relates the concentration of protons ($\big[ \ce{H^+}\big]$) and the concentration of hydroxyls ($\big[ \ce{OH^-}\big]$):
+ \begin{equation*}
+ \big[ \ce{H^+} \big] \cdot \big[ \ce{OH^-} \big]=1.0\times 10^{-14}
+ \end{equation*}
+% \resizeableyellownote{2.5}{1}{Add  Formula \textcolor{blue}{\ref{formula1}} to your flashcard.}
+Water is neutral, which means that the concentration of protons ($\big[ \ce{H^+}\big]$) and the concentration of hydroxyls ($\big[ \ce{OH^-}\big]$) and both equal to $1.0\cdot 10^{-7}$M. When we dissolve an acid or a base into water, $\big[ \ce{OH^-}\big]$ and $\big[ \ce{H^+}\big]$ change drastically. When dissolving an acid, $\big[ \ce{H^+}\big]$ increases as acids produce protons, while $\big[ \ce{OH^-}\big]$ decreases. Differently, when dissolving a base,  $\big[ \ce{OH^-}\big]$ increases, as bases produce hydroxyls, while $\big[ \ce{H^+}\big]$ decreases.

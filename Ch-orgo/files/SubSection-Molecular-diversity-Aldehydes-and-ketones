@@ -1,0 +1,7 @@
+Ketones and aldehydes both contain a \ce{C=O} group. Still these are two different groups and ketones have a \ce{C=O} group bounded to two different carbon atoms
+\begin{center}\chemfig{R-C(=[:90]O)(-H)}\hspace{0.5cm}\textcolor{blue}{Aldehyde}\end{center}
+whereas aldehydes have the same \ce{C=O} group but this time bounded to a carbon and a hydrogen. 
+\begin{center}\chemfig{R-C(=[:90]O)-R'}\hspace{0.5cm}\textcolor{blue}{Ketone}\end{center}
+Examples of aldehydes and ketones are:
+\begin{center}\chemname{\chemfig{CH_3CH_2-C(=[:90]O)(-H)}}{Aldehyde}\hspace{1cm} or \hspace{1cm}\chemname{\chemfig{CH_3-C(=[:90]O)-CH_3}  }{Ether}\end{center}
+Ketones are good solvents and acetone is commonly found in nail polish removes for example. Aldehydes have strong smells and for example, vanillin is an aldehyde responsible for the vanilla smell and cinnamaldehyde is responsible for the cinnamon odor.

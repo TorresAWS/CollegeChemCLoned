@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A 4 atm gas sample has a temperature of 300K. If we decrease its temperature to 200K at fixed volume and number of moles, calculate the final pressure of the gas.\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 2.66 atm. \end{flushright} }
+

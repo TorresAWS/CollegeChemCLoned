@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+When titrating an acid with a strong base using Methyl orange ($K_a=3.9\times 10^{-4}$), indicate the PH at which the concentration of the acid form of the indicator is four times the one of the base base.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 2.8.
+ \end{flushright} }
+

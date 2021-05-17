@@ -1,0 +1,157 @@
+
+
+ \newcommand\chapterlabel{Ch-acidbase}
+
+
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck1}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck2}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck3}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck4}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck5}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+%
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck6}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck7}\vspace{1cm}
+%%Show work: \begin{solution}[1.0in]\end{solution}
+%% \vspace{5cm}
+%%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%%\end{problem*}
+%
+%   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck8}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+%    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck9}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+%
+%   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck10}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+
+%%% SECOND PARD
+
+   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck11}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck12}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck13}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck14}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck15}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck16}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+%    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck17}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck18}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck19}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+%    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck20}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+%      \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck21}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate: (a) the energy of a radiation with wavelength of 300nm; (b) the energy of a radiation with frequency of $10^{19}$ Hz; (c) the frequency of a radiation with wavelength of 300nm.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) To answer the first question we will use the wavelength formula, as wavelength is given ($\lambda=300nm$) and we need to calculate the energy ($E$), in Joules:
+\begin{equation*}
+E=\frac{1.98\times 10^{-16}}{\lambda}=\frac{1.98\times 10^{-16}}{300}=6.6\times 10^{-19}J
+\end{equation*}
+(b) To answer the second question we will use the frequency formula, as frequency is given ($\nu=10^{19}Hz$) and we need to calculate the energy ($E$), in Joules:
+\begin{equation*}
+E=6.6\times 10^{-34}\nu=6.6\times 10^{-34}\cdot 10^{19}=6.6\times 10^{-15}J
+\end{equation*}
+(c) To answer the last question we will use the formula that related frequency with wavelength--through the speed of light--as frequency is asked and wavelength is given ($\lambda=300nm$); mind the units of frequency are herts:
+\begin{equation*}
+\nu=\frac{3\times 10^{17}}{\lambda}=  \frac{3\times 10^{17}}{300}=1\times 10^{15}Hz
+\end{equation*}
+\import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

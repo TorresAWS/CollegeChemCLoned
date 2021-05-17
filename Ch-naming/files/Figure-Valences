@@ -1,0 +1,8 @@
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \hspace{0cm}
+ \begin{minipage}[b]{1.0\linewidth}
+\EmptyTable
+ \begin{tikzpicture} 
+ \node[text width=12cm, fontscale=.2,shift={(-8em,-16em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionic charges (valences) for different elements };
+\end{tikzpicture}
+\end{minipage}

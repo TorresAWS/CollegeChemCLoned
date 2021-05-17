@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Give the symbol or name the following elements: C, Oxygen, N, Phosphorus, Au, Iron, Na and Iodine.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+ The name of the element with symbol C is carbon, whereas the chemical symbol of oxygen is O.  Similarly, N stands for nitrogen, whereas the chemical symbol of Phosphorus is P. 
+The chemical symbol of Au is Gold. The chemical symbol of Iron is Fe and the chemical symbol of Iodine is I.  \\
+\import{./}{StudyCheck9}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

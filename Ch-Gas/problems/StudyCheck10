@@ -1,0 +1,4 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the pressure of 0.9 moles of ammonia gas at 900K occupying a volume of 0.1L, using: (a) the ideal gas formula and (b) the Van der Waals formula $a=$ 4.17$\text{atm}\cdot \text{L}^2/\text{mol}^{2}$ and $b=$ 0.0371$\text{L}/\text{mol}$.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: 664 atm;659 atm. \end{flushright} }

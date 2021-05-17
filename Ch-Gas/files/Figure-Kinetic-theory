@@ -1,0 +1,89 @@
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}
+\begin{fullwidth}
+\begin{minipage}[b]{1.7\linewidth}
+
+\begin{tikzpicture}[thick,scale=0.8, every node/.style={transform shape}]
+\begin{scope}[xshift = -8cm]
+\pgfkeys{/pgfplots/linelabel/.style args={#1:#2:#3}{name path global=labelpath,execute at end plot={
+\path [name path global = labelpositionline]
+(rel axis cs:#1,0) --
+(rel axis cs:#1,1);
+\draw [help lines,text=black,inner sep=0pt,name intersections={of=labelpath and labelpositionline}] (intersection-1) -- +(#2) node [label={#3}] {};},
+}}
+\pgfplotsset{ compat  = 1.13,samples = 100,}
+\def\kB{1.3806488e-23}% boltzmann constant
+\def\temperature{100}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{28*\amu}
+\def\mB{\mass*\Beta}
+\begin{axis}[
+  axis lines = left,
+  domain     = 0:1500,
+  xlabel     = Molecular velocity (m/s),
+  ylabel     = Number of molecules,
+%  xtick      = \empty,
+%xmax = 1500,
+  ytick      = \empty,
+  clip       = false,
+]
+  \addplot[black, linelabel=0.2:{.6cm,.6cm}: {[black]right:\ce{N2} at $100$K}]		 {sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+  \def\temperature{500}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{28*\amu}
+\def\mB{\mass*\Beta}
+   \addplot[red, linelabel=0.4:{.6cm,.6cm}: {[red]right:\ce{N2} at $500$K}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+  \def\temperature{900}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{28*\amu}
+\def\mB{\mass*\Beta}
+  \addplot[blue, linelabel=0.6:{.6cm,.6cm}: {[blue]right:\ce{N2} at $900$K}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+\end{axis}
+\end{scope}
+\begin{scope}[xshift = 3cm]
+\pgfkeys{/pgfplots/linelabel/.style args={#1:#2:#3}{name path global=labelpath,execute at end plot={
+\path [name path global = labelpositionline]
+(rel axis cs:#1,0) --
+(rel axis cs:#1,1);
+\draw [help lines,text=black,inner sep=0pt,name intersections={of=labelpath and labelpositionline}] (intersection-1) -- +(#2) node [label={#3}] {};},
+}}
+\pgfplotsset{ compat  = 1.13,samples = 100,}
+\def\kB{1.3806488e-23}% boltzmann constant
+\def\temperature{300}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{28*\amu}
+\def\mB{\mass*\Beta}
+\begin{axis}[
+  axis lines = left,
+  domain     = 0:1500,
+  xlabel     = Molecular velocity (m/s),
+  ylabel     = Number of molecules,
+%  xtick      = \empty,
+%xmax = 1500,
+  ytick      = \empty,
+  clip       = false,
+]
+  \addplot[black, linelabel=0.3:{.6cm,.6cm}: {[black]right:\ce{N2} (MW=28amu) at $300$K}]		 {sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+  \def\temperature{300}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{70*\amu}
+\def\mB{\mass*\Beta}
+   \addplot[red, linelabel=0.2:{.6cm,.6cm}: {[red]right:\ce{Cl2} (MW=71amu) at $300$K}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+  \def\temperature{300}% room temperature
+\def\Beta{1/(\kB*\temperature)}
+\def\amu{1.660538921e-27}% atomar mass unit in kg
+\def\mass{253*\amu}
+\def\mB{\mass*\Beta}
+  \addplot[blue, linelabel=0.1:{.6cm,.6cm}: {[blue]right:\ce{I2} (MW=254amu) at $300$K}]{sqrt(2/pi)*(\mB)^(3/2)*x^2*exp(-.5*\mB*x^2)};
+\end{axis}
+\end{scope} 
+	  \node[text width=12cm, fontscale=.2,shift={(-2em,-9em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Effect of temperature and mass on the distribution of molecular speeds };
+
+\end{tikzpicture}
+\end{minipage}
+
+\end{fullwidth}

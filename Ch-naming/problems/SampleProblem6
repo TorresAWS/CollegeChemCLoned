@@ -1,0 +1,18 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or give the formula for the following acids and bases. Indicate whether the compound is an acid or a base. \\
+\begin{center}\begin{tabularx}{0.75\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{4}{Y} }
+  \toprule
+\heading{Formula} & \textbf{Acid/Base}& \multicolumn{2}{c}{\textbf{Name}}   \\
+    \midrule
+  \ce{HCN} & &	\multicolumn{2}{c}{     }    \\
+   \ce{KOH}   & & 	\multicolumn{2}{c}{     } &   \\
+         & &	\multicolumn{2}{l}{  Carbonic acid   } &   \\
+        & &	\multicolumn{2}{l}{  Lithium hydroxide   }  &  \\
+      \bottomrule
+\end{tabularx}\end{center}\vspace{.5cm}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+ \ce{HCN} is an acid named hydrocyanic acid. \ce{KOH}  is a base called potassium hydroxide. The formula for Carbonic acid is \ce{H2CO3}, and Lithium hydroxide is a base with formula \ce{LiOH}. \\
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

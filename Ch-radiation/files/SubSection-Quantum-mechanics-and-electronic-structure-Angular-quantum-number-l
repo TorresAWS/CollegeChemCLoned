@@ -1,0 +1,2 @@
+The second quantum number $\ell$ is called \emph{angular quantum number} and it describes the shape of the orbital. The values of $\ell$ are dictated by the value of $n$. In particular, $\ell$ goes from $0$ until $n-1$. For example if $n=3$, therefore $l$ can be: $0, 1 \text{or }2$. As such, $n$ and $\ell$ can never be the same value, that is the reason why $\Psi_{1,1, 0}$ does not represent a good orbital.
+

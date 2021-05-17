@@ -1,0 +1,26 @@
+
+\begin{marginfigure}[-0cm]%%%%%%%MARGIN FIGURE
+\resizebox{1.0\textwidth}{!}{
+%\begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Workfunctions } \\
+\multicolumn{3}{r}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small and threshold frequencies } \\
+\midrule
+ \rowcolor{gray!10} \multicolumn{1}{c}{Element} & \multicolumn{1}{c}{W (eV)} &\multicolumn{1}{c}{$\nu_c$, Hz}     \\
+\midrule
+    \multicolumn{1}{c}{Ag}	&	 \multicolumn{1}{c}{4.64} 	&			\multicolumn{1}{c}{$1.1\times 10^{15}$}	  \\
+     \multicolumn{1}{c}{Ba}	& \multicolumn{1}{c}{2.52 }	&		\multicolumn{1}{c}{$6.1\times 10^{14}$}			  \\
+        \multicolumn{1}{c}{Fe}	& \multicolumn{1}{c}{4.67} 	&		\multicolumn{1}{c}{$1.1\times 10^{15}$}			  \\
+\multicolumn{1}{c}{Al	}&	 \multicolumn{1}{c}{4.20	}		&\multicolumn{1}{c}{$1.0\times 10^{15}$}\\
+\multicolumn{1}{c}{Ca}	& \multicolumn{1}{c}{2.87}	&\multicolumn{1}{c}{$6.9\times 10^{14}$}\\
+\multicolumn{1}{c}{Mn}			& \multicolumn{1}{c}{4.1	}	&\multicolumn{1}{c}{$9.9\times 10^{14}$}\\
+ \bottomrule
+
+\end{tabular}
+%\end{center} 
+}
+\end{marginfigure}%%%%%%%MARGIN FIGURE

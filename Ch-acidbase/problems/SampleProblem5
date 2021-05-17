@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the following dissociation or acid-base reaction involving one proton: \ce{ H2CO3_{(aq)}  + H2O_{(aq)}   ->  }\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As this is a dissociation reaction and carbonic acid is an acid, we will need the help of water. We will have that carbonic acid will lose one proton and water will gain that proton.
+\begin{center}\ce{ H2CO3_{(aq)}  + H2O_{(aq)}    -> HCO3^-_{(aq)} +  H3O^+_{(aq)}  }\end{center}
+As carbonic acid loses a proton to become hydrogencarbonate, its charge become negative. Similarly, as water gains a proton to become the hydronium ion, its charge becomes positive so that overall the charge of the reaction is balanced.
+\\
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

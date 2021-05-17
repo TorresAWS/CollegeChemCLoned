@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Entonox is a medicinal mixture of dinitrogen oxide (\ce{N2O}) and oxygen (\ce{O2}). The pressure \ce{N2O} in a entonox container is 2 atm and the oxygen pressure is 1520 mmHg as well. Calculate the total pressure in atm in a Entonox container.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 4 atm.  \end{flushright} }

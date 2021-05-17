@@ -1,0 +1,1394 @@
+\documentclass[a4paper,8pt]{book}
+\usepackage{lmodern}
+\usepackage[all]{background}
+\usepackage{xcolor}
+\usepackage[version=4]{mhchem}
+\newcounter{mycounter}
+\usepackage[online,forpaper,useforms,nosolutions, allowrandomize, showgrayletters]{eqexam}% Specify some identification info.
+%\usepackage[online,forpaper,useforms, allowrandomize, showgrayletters, solutionsonly]{eqexam}% Specify some identification info.
+\usepackage{hyperref}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{lipsum}
+\mdfdefinestyle{MyFrame}{%
+    linecolor=red,
+    outerlinewidth=2pt,
+    roundcorner=20pt,
+    innertopmargin=\baselineskip,
+    innerbottommargin=\baselineskip,
+    innerrightmargin=20pt,
+    innerleftmargin=20pt,
+    backgroundcolor=gray!10!white}
+    %\title[T1]{Test 3} \author{D. Torres}
+%\subject{US History} \date{Spring \the\year}
+\instructionsColor{red}
+\newcommand\x{38}
+\randomi=\x
+\useRandomSeed{\randomi}
+\forVersion{A}
+\numVersions{4}
+\longTitleText
+{A}
+{B}
+{C}
+{D}
+\endlongTitleText
+\shortTitleText
+{T\nExam A}
+{T\nExam B}
+{T\nExam C}
+{T\nExam D}
+\endshortTitleText
+
+\SetBgContents{{\fontsize{4}{12} \selectfont  \Exam - \x }}% Set contents
+\SetBgPosition{-0.5cm,-12.0cm}% Select location
+\SetBgOpacity{1.0}% Select opacity
+\SetBgAngle{90.0}% Select rotation of logo
+\SetBgScale{2.0}% Select scale factor of logo
+
+\usepackage{tikz}
+\usetikzlibrary{intersections}
+\usepackage{tabularx}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage{xstring}
+\usetikzlibrary{shapes,calc}
+\usetikzlibrary{shadows}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning,arrows.meta}
+\usetikzlibrary{matrix}
+\usetikzlibrary{decorations.shapes}
+\tikzset{dot/.style = {
+    shape  = circle,
+    draw   = black,
+    fill = black,
+    minimum size = 0.1cm
+}}
+\usepackage{xcolor}
+\newcolumntype{Y}{>{\raggedleft\arraybackslash}X}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\newcolumntype{b}{X}
+\newcolumntype{s}{>{\hsize=.5\hsize}X}
+\newcommand{\heading}[1]{\multicolumn{1}{c}{#1}}
+% Some colors I like. The first six are modified versions of colors from
+% the Gnome Project "Tango" palette.
+\definecolor{plum}{rgb}{0.36078, 0.20784, 0.4}
+\definecolor{chameleon}{rgb}{0.30588, 0.60392, 0.023529}
+\definecolor{cornflower}{rgb}{0.12549, 0.29020, 0.52941}
+\definecolor{scarlet}{rgb}{0.8, 0, 0}
+\definecolor{brick}{rgb}{0.64314, 0, 0}
+\definecolor{sunrise}{rgb}{0.80784, 0.36078, 0}
+\definecolor{lightblue}{rgb}{0.15,0.35,0.75}
+\definecolor{carolina}{RGB}{153, 186, 221}
+% A custom arrowhead for use on x, y, z axes
+\tikzstyle{axisarrow} = [-{Latex[inset=0pt,length=5pt]}]
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+
+
+
+\newcommand\FccUnitCell{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= black] (A) circle (0.25cm);
+\shadedraw [ball color= black] (C) circle (0.25cm);
+\shadedraw [ball color= black] (F) circle (0.25cm);
+\shadedraw [ball color= black] (H) circle (0.25cm);
+\shadedraw [ball color= black] (B) circle (0.25cm);
+\shadedraw [ball color= black] (D) circle (0.25cm);
+\shadedraw [ball color= black] (E) circle (0.25cm);
+\shadedraw [ball color= black] (G) circle (0.25cm);
+%draw the center of each face
+\shadedraw [ball color= black] (I) circle (0.25cm);
+\shadedraw [ball color= black] (J) circle (0.25cm);
+\shadedraw [ball color= black] (K) circle (0.25cm);
+\shadedraw [ball color= black] (L) circle (0.25cm);
+\shadedraw [ball color= black] (M) circle (0.25cm);
+\shadedraw [ball color= black] (N) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\end{tikzpicture}\end{center}}
+
+
+\newcommand\waterphadesiagram{\begin{center}
+\begin{tikzpicture}[scale=0.8]
+	% Draw the grid.
+	\draw [cornflower!20,step=0.25,thin] (-3,-3) grid (3,3);
+	\draw [cornflower!40,step=1.0,thin] (-3,-3) grid (3,3);
+	% Draw Axes
+	\draw[axisarrow] (-2.75,-3) -- (-2.75,3);
+		\draw[dotted, thick] (-0.6,-3) -- (-0.6,0) -- (-2.75,0);
+			\draw[scarlet] (-1.6,0.5)  edge[out=350,in=180,axisarrow] (-0.6,0);
+	\node[inner sep=0pt] at (-1.6,0.6) {{\scriptsize (0$^{\circ}$C, 1 atm)}};
+
+		\draw[dotted, thick] (2.6,-3) -- (2.6,2.2) -- (-2.75,2.2);
+			\draw[scarlet] (2,2.5)  edge[out=275,in=180,axisarrow] (2.6,2.2);
+	\node[inner sep=0pt] at (2,2.6) {{\scriptsize (374$^{\circ}$C, 218 atm)}};
+
+
+	\node[inner sep=0pt] at (-2.5,2.8) {$P$};
+	\draw[axisarrow] (-3,-2.75) -- (3,-2.75);
+	\node[inner sep=0pt] at (2.8,-2.5) {$T$};
+	% Draw phase boundaries
+	\draw[thick, cornflower] (-2.75,-2.75) edge[out=20,in=240] (-0.5,-1);
+	\draw[thick, cornflower] (-0.5,-1) -- (-1,2.8);
+	\draw[thick, cornflower] (-0.5,-1) edge[out=20,in=250] (2.6,2.2);
+	% Label Cold Toast phase
+	\node[inner sep=0pt] at (-1.75,1) {\begin{tabular}{c} (s) \end{tabular}};
+	% Label Toast phase
+	\node[inner sep=0pt] at (0.5,1) {(l)};
+	% Label Airplane Wine phase
+	\node[inner sep=0pt] at (1,-2) {\begin{tabular}{c} (g) \end{tabular}};
+	% Point to and label the Toast Point
+	\draw[scarlet] (1,-1) edge[out=190,in=350,axisarrow] (-0.5,-1);
+	\node[inner sep=0pt] at (1.8,-0.8) {{\scriptsize (0.01$^{\circ}$C, 0.006 atm)}};
+\end{tikzpicture}\end{center}}	
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\newcommand\FccAlloyA{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= gray!20] (A) circle (0.25cm);
+\shadedraw [ball color= black] (C) circle (0.25cm);
+\shadedraw [ball color= black] (F) circle (0.25cm);
+\shadedraw [ball color= black] (H) circle (0.25cm);
+\shadedraw [ball color= black] (B) circle (0.25cm);
+\shadedraw [ball color= black] (D) circle (0.25cm);
+\shadedraw [ball color= black] (E) circle (0.25cm);
+\shadedraw [ball color= black] (G) circle (0.25cm);
+%draw the center of each face
+\shadedraw [ball color= black] (I) circle (0.25cm);
+\shadedraw [ball color= black] (J) circle (0.25cm);
+\shadedraw [ball color= black] (K) circle (0.25cm);
+\shadedraw [ball color= black] (L) circle (0.25cm);
+\shadedraw [ball color= black] (M) circle (0.25cm);
+\shadedraw [ball color= black] (N) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= black, yshift=2cm] (7,4,5) circle (0.25cm) node [right, xshift=1cm] {\ce{A}};
+\shadedraw [ball color= gray!20, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{B}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+\newcommand\FccAlloyB{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= gray!20] (A) circle (0.25cm);
+\shadedraw [ball color= gray!20] (C) circle (0.25cm);
+\shadedraw [ball color= gray!20] (F) circle (0.25cm);
+\shadedraw [ball color= gray!20] (H) circle (0.25cm);
+\shadedraw [ball color= black] (B) circle (0.25cm);
+\shadedraw [ball color= black] (D) circle (0.25cm);
+\shadedraw [ball color= black] (E) circle (0.25cm);
+\shadedraw [ball color= black] (G) circle (0.25cm);
+%draw the center of each face
+\shadedraw [ball color= black] (I) circle (0.25cm);
+\shadedraw [ball color= black] (J) circle (0.25cm);
+\shadedraw [ball color= black] (K) circle (0.25cm);
+\shadedraw [ball color= black] (L) circle (0.25cm);
+\shadedraw [ball color= black] (M) circle (0.25cm);
+\shadedraw [ball color= black] (N) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= black, yshift=2cm] (7,4,5) circle (0.25cm) node [right, xshift=1cm] {\ce{A}};
+\shadedraw [ball color= gray!20, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{B}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+\newcommand\FccAlloyC{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= gray!20] (A) circle (0.25cm);
+\shadedraw [ball color= gray!20] (C) circle (0.25cm);
+\shadedraw [ball color= gray!20] (F) circle (0.25cm);
+\shadedraw [ball color= gray!20] (H) circle (0.25cm);
+\shadedraw [ball color= gray!20] (B) circle (0.25cm);
+\shadedraw [ball color= gray!20] (D) circle (0.25cm);
+\shadedraw [ball color= gray!20] (E) circle (0.25cm);
+\shadedraw [ball color= gray!20] (G) circle (0.25cm);
+%draw the center of each face
+\shadedraw [ball color= black] (I) circle (0.25cm);
+\shadedraw [ball color= black] (J) circle (0.25cm);
+\shadedraw [ball color= black] (K) circle (0.25cm);
+\shadedraw [ball color= black] (L) circle (0.25cm);
+\shadedraw [ball color= black] (M) circle (0.25cm);
+\shadedraw [ball color= black] (N) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= black, yshift=2cm] (7,4,5) circle (0.25cm) node [right, xshift=1cm] {\ce{A}};
+\shadedraw [ball color= gray!20, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{B}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+\newcommand\multiphasediagram{\begin{center}\begin{tikzpicture}[scale = 0.8]
+	\draw[axisarrow] (-2.75,-3) -- (-2.75,3);
+	\node[inner sep=0pt] at (-2.5,2.8) {$P$};
+	\draw[axisarrow] (-3,-2.75) -- (4,-2.75);
+	\node[inner sep=0pt] at (3.8,-2.5) {$T$};
+	% Draw phase boundaries
+	\draw[thick, cornflower] (-2.75,-2.75) edge[out=20,in=240] (-0.5,-1);
+	\draw[thick, cornflower] (-0.5,-1) -- (0.5,2);
+	\draw[thick, cornflower] (-0.5,-1) edge[out=20,in=300] (0.5,2) ;
+	\draw[thick, cornflower] (0.5,2) edge[out=60,in=210] (1.,2.5);
+	\draw[thick, cornflower] (0.539,0) edge[out=20,in=240] (4,1);
+\fill [cornflower] (0.539,0) circle [radius=2pt];
+\fill [cornflower] (-0.5,-1) circle [radius=2pt];
+\fill [cornflower] (0.5,2) circle [radius=2pt];
+\fill [cornflower] (4,1) circle [radius=2pt];
+
+		% Label Cold Toast phase
+	\node[inner sep=0pt] at (-1.75,1) {\begin{tabular}{c} (s$_2$) \end{tabular}};
+	% Label Toast phase
+	\node[inner sep=0pt] at (0.5,1) {(s$_1$)};
+		\node[inner sep=0pt] at (2,1) {(l)};
+
+	% Label Airplane Wine phase
+	\node[inner sep=0pt] at (1,-2) {\begin{tabular}{c} (g) \end{tabular}};
+	% Point to and label the Toast Point
+%	\draw[scarlet] (1,-1) edge[out=190,in=350,axisarrow] (-0.5,-1);
+%	\node[inner sep=0pt] at (1.8,-0.8) {{\scriptsize (0.01$^{\circ}$C, 0.006 atm)}};
+\end{tikzpicture}\end{center}}
+\usepackage{endiagram}
+
+
+
+\newcommand\FccAlloyD{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= gray!20] (A) circle (0.25cm);
+\shadedraw [ball color= gray!20] (C) circle (0.25cm);
+\shadedraw [ball color= gray!20] (F) circle (0.25cm);
+\shadedraw [ball color= gray!20] (H) circle (0.25cm);
+\shadedraw [ball color= gray!20] (B) circle (0.25cm);
+\shadedraw [ball color= gray!20] (D) circle (0.25cm);
+\shadedraw [ball color= gray!20] (E) circle (0.25cm);
+\shadedraw [ball color= gray!20] (G) circle (0.25cm);
+%draw the center of each face
+\shadedraw [ball color= gray!20] (I) circle (0.25cm);
+\shadedraw [ball color= gray!20] (J) circle (0.25cm);
+\shadedraw [ball color= black] (K) circle (0.25cm);
+\shadedraw [ball color= black] (L) circle (0.25cm);
+\shadedraw [ball color= black] (M) circle (0.25cm);
+\shadedraw [ball color= black] (N) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= black, yshift=2cm] (7,4,5) circle (0.25cm) node [right, xshift=1cm] {\ce{A}};
+\shadedraw [ball color= gray!20, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{B}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+
+
+\newcommand\SCUnitCell{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= black] (A) circle (0.25cm);
+\shadedraw [ball color= black] (C) circle (0.25cm);
+\shadedraw [ball color= black] (F) circle (0.25cm);
+\shadedraw [ball color= black] (H) circle (0.25cm);
+\shadedraw [ball color= black] (B) circle (0.25cm);
+\shadedraw [ball color= black] (D) circle (0.25cm);
+\shadedraw [ball color= black] (E) circle (0.25cm);
+\shadedraw [ball color= black] (G) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\end{tikzpicture}\end{center}}
+
+
+
+\newcommand\CaF{\begin{center}\begin{tikzpicture}[scale = 0.8]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%draw cube
+\draw [thick,black] (A) -- (B);
+\draw [thick,black] (B) -- (C);
+\draw [thick,black] (C) -- (D);
+\draw [thick,black] (D) -- (A);
+\draw [thick,black] (E) -- (F);
+\draw [thick,black] (F) -- (G);
+\draw [thick,black] (G) -- (H);
+\draw [thick,black] (H) -- (E);
+\draw [thick,black] (A) -- (E);
+\draw [thick,black] (B) -- (F);
+\draw [thick,black] (C) -- (G);
+\draw [thick,black] (D) -- (H);
+\coordinate (A1) at (0,4,2);
+\coordinate (A2) at (4,4,2);
+\coordinate (A3) at (4,0,2);
+\coordinate (A4) at (0,0,2);
+\coordinate (A5) at (2,4,0);
+\coordinate (A6) at  (2,4,4);
+\coordinate (A7) at (2,0,4);
+\coordinate (A8) at (2,0,0);
+\coordinate (A9) at (0,2,4);
+\coordinate (A10) at (4,2,4);
+\coordinate (A11) at (4,2,0);
+\coordinate (A12) at (0,2,0);
+\coordinate (A13) at (2,2,2);
+\shadedraw [ball color= gray] (A) circle (0.15cm);
+\shadedraw [ball color= gray] (B) circle (0.15cm);
+\shadedraw [ball color= gray] (C) circle (0.15cm);
+\shadedraw [ball color= gray] (D) circle (0.15cm);
+\shadedraw [ball color= gray] (E) circle (0.15cm);
+\shadedraw [ball color= gray] (F) circle (0.15cm);
+\shadedraw [ball color= gray] (H) circle (0.15cm);
+\shadedraw [ball color= gray] (I) circle (0.15cm);
+\shadedraw [ball color= gray] (2,2,0) circle (0.15cm);
+\shadedraw [ball color= gray] (2,0,2) circle (0.15cm);
+\shadedraw [ball color= gray] (0,2,2) circle (0.15cm);
+\shadedraw [ball color= gray] (2,4,2) circle (0.15cm);
+\shadedraw [ball color= gray] (4,2,2) circle (0.15cm);
+\draw [dashed] (4,4,4) -- (3,3,3) -- (2,4,2) ;
+\draw [dashed] (2,2,4) -- (3,3,3) -- (4,2,2) ;
+\draw [dashed] (2,4,2) -- (3,3,1) -- (4,4,0) ;
+\draw [dashed] (2,2,0) -- (3,3,1) -- (2,2,2) ;
+
+\draw [dashed] (2,0,2) -- (3,1,3) -- (4,0,4) ;
+\draw [dashed] (2,2,4) -- (3,1,3) -- (4,2,2) ;
+\draw [dashed] (2,2,0) -- (3,1,1) -- (4,2,2) ;
+\draw [dashed] (2,0,2) -- (3,1,1) -- (4,0,0) ;
+
+\draw [dashed] (0,4,0) -- (1,3,1) -- (2,4,2) ;
+\draw [dashed] (0,2,2) -- (1,3,1) -- (2,2,0) ;
+\draw [dashed] (0,4,4) -- (1,3,3) -- (2,4,2) ;
+\draw [dashed] (0,2,2) -- (1,3,3) -- (2,2,4) ;
+
+\draw [dashed] (0,0,0) -- (1,1,1) -- (2,0,2) ;
+\draw [dashed] (0,2,2) -- (1,1,1) -- (2,2,0) ;
+\draw [dashed] (0,4,0) -- (1,1,3) -- (2,0,2) ;
+\draw [dashed] (0,2,2) -- (1,1,3) -- (2,2,4) ;
+\shadedraw [ball color= green] (3,1,1) circle (0.25cm);
+\shadedraw [ball color= green] (3,1,3) circle (0.25cm);
+\shadedraw [ball color= green] (1,1,1) circle (0.25cm);
+\shadedraw [ball color= green] (1,1,3) circle (0.25cm);
+\shadedraw [ball color= green] (3,3,1) circle (0.25cm);
+\shadedraw [ball color= green] (3,3,3) circle (0.25cm);
+\shadedraw [ball color= green] (1,3,1) circle (0.25cm);
+\shadedraw [ball color= green] (1,3,3) circle (0.25cm);
+\shadedraw [ball color= gray] (G) circle (0.15cm);
+\shadedraw [ball color= gray] (2,2,4) circle (0.15cm);
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= gray, yshift=2cm] (7,4,5) circle (0.15cm) node [right, xshift=1cm] {\ce{Ca}};
+\shadedraw [ball color= green, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{F}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+
+\newcommand\BccUnitCell{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%place non-atom cube corners
+\shadedraw [ball color= black] (A) circle (0.25cm);
+\shadedraw [ball color= black] (C) circle (0.25cm);
+\shadedraw [ball color= black] (F) circle (0.25cm);
+\shadedraw [ball color= black] (H) circle (0.25cm);
+\shadedraw [ball color= black] (B) circle (0.25cm);
+\shadedraw [ball color= black] (D) circle (0.25cm);
+\shadedraw [ball color= black] (E) circle (0.25cm);
+\shadedraw [ball color= black] (G) circle (0.25cm);
+\shadedraw [ball color= black] (2,2,2) circle (0.25cm);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+\end{tikzpicture}\end{center}}
+
+
+\newcommand\XeF{\begin{center}\begin{tikzpicture}[scale = 0.4]
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,6,0);
+\coordinate (C) at (0,6,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,6,0);
+\coordinate (G) at (4,6,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%draw cube
+\draw [thick,black] (A) -- (B);
+\draw [thick,black] (B) -- (C);
+\draw [thick,black] (C) -- (D);
+\draw [thick,black] (D) -- (A);
+\draw [thick,black] (E) -- (F);
+\draw [thick,black] (F) -- (G);
+\draw [thick,black] (G) -- (H);
+\draw [thick,black] (H) -- (E);
+\draw [thick,black] (A) -- (E);
+\draw [thick,black] (B) -- (F);
+\draw [thick,black] (C) -- (G);
+\draw [thick,black] (D) -- (H);
+%\draw [dashed] (0,4,0) -- (1,3,1) -- (2,4,2);
+%\draw [dashed] (2,2,0) -- (1,3,1) --(0,2,2) ;
+%\draw [dashed] (0,0,4) -- (1,1,3) -- (2,0,2)  ;
+%\draw [dashed] (2,0,2) -- (3,1,1)  -- (4,0,0)  ;
+%\draw [dashed] (2,2,0) -- (3,1,1) -- (4,2,2)  ;
+
+\coordinate (A1) at (0,4,2);
+\coordinate (A2) at (4,4,2);
+\coordinate (A3) at (4,0,2);
+\coordinate (A4) at (0,0,2);
+\coordinate (A5) at (2,4,0);
+\coordinate (A6) at  (2,4,4);
+\coordinate (A7) at (2,0,4);
+\coordinate (A8) at (2,0,0);
+\coordinate (A9) at (0,2,4);
+\coordinate (A10) at (4,2,4);
+\coordinate (A11) at (4,2,0);
+\coordinate (A12) at (0,2,0);
+\coordinate (A13) at (2,2,2);
+
+\draw [dashed] (4,3,0) -- (2,3,2) -- (0,3,4);
+\draw [dashed] (0,3,0) -- (2,3,2) -- (4,3,4);
+
+\shadedraw [ball color= blue] (A) circle (0.45cm);
+\shadedraw [ball color= blue] (B) circle (0.45cm);
+\shadedraw [ball color= blue] (C) circle (0.45cm);
+\shadedraw [ball color= blue] (D) circle (0.45cm);
+\shadedraw [ball color= blue] (E) circle (0.45cm);
+\shadedraw [ball color= blue] (F) circle (0.45cm);
+\shadedraw [ball color= blue] (H) circle (0.45cm);
+\shadedraw [ball color= blue] (4,6,4) circle (0.45cm);
+\shadedraw [ball color= orange] (2,3,2) circle (0.40cm);
+\shadedraw [ball color= orange] (4,1.5,0) circle (0.40cm);
+\shadedraw [ball color= orange] (4,4.5,0) circle (0.40cm);
+\shadedraw [ball color= orange] (0,1.5,4) circle (0.40cm);
+\shadedraw [ball color= orange] (0,4.5,4) circle (0.40cm);
+\shadedraw [ball color= orange] (4,1.5,4) circle (0.40cm);
+\shadedraw [ball color= orange] (4,4.5,4) circle (0.40cm);
+\shadedraw [ball color= orange] (0,1.5,0) circle (0.40cm);
+\shadedraw [ball color= orange] (0,4.5,0) circle (0.40cm);
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= orange, yshift=2cm] (7,4,5) circle (0.4cm) node [right, xshift=1cm] {\ce{F}};
+\shadedraw [ball color= blue, yshift=2cm] (7,5,5) circle (0.45cm) node [right, xshift=1cm] {\ce{Xe}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+\newcommand\CaTiO{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%draw cube
+\draw [dashed] (A) -- (B);
+\draw [dashed] (B) -- (C);
+\draw [dashed] (C) -- (D);
+\draw [dashed] (D) -- (A);
+\draw [dashed] (E) -- (F);
+\draw [dashed] (F) -- (G);
+\draw [dashed] (G) -- (H);
+\draw [dashed] (H) -- (E);
+\draw [dashed] (A) -- (E);
+\draw [dashed] (B) -- (F);
+\draw [dashed] (C) -- (G);
+\draw [dashed] (D) -- (H);
+%\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+%\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+%\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+\draw [dashed] (I)  -- (J) ;
+\draw [dashed] (K)  -- (L) ;
+\draw [dashed] (M)  -- (N) ;
+%Holes 
+\coordinate (A1) at (0,4,2);
+\coordinate (A2) at (4,4,2);
+\coordinate (A3) at (4,0,2);
+\coordinate (A4) at (0,0,2);
+\coordinate (A5) at (2,4,0);
+\coordinate (A6) at  (2,4,4);
+\coordinate (A7) at (2,0,4);
+\coordinate (A8) at (2,0,0);
+\coordinate (A9) at (0,2,4);
+\coordinate (A10) at (4,2,4);
+\coordinate (A11) at (4,2,0);
+\coordinate (A12) at (0,2,0);
+\coordinate (A13) at (2,2,2);
+\draw [dashed] (2,4,2) -- (2,2,0);
+\draw [dashed] (2,4,2) -- (0,2,2);
+\draw [dashed] (2,4,2) -- (4,2,2);
+\draw [dashed] (2,4,2) -- (2,2,4);
+\draw [dashed] (2,0,2) -- (2,2,0);
+\draw [dashed] (2,0,2) -- (0,2,2);
+\draw [dashed] (2,0,2) -- (4,2,2);
+\draw [dashed] (2,0,2) -- (2,2,4);
+\draw [dashed] (2,2,0) -- (0,2,2) -- (2,2,4) -- (4,2,2) -- cycle;
+\shadedraw [ball color= blue] (A) circle (0.25cm);
+\shadedraw [ball color= blue] (B) circle (0.25cm);
+\shadedraw [ball color= blue] (C) circle (0.25cm);
+\shadedraw [ball color= blue] (D) circle (0.25cm);
+\shadedraw [ball color= blue] (E) circle (0.25cm);
+\shadedraw [ball color= blue] (F) circle (0.25cm);
+\shadedraw [ball color= blue] (H) circle (0.25cm);
+\shadedraw [ball color= blue] (I) circle (0.25cm);
+\shadedraw [ball color= red] (2,2,0) circle (0.55cm);
+\shadedraw [ball color= red] (2,2,4) circle (0.55cm);
+\shadedraw [ball color= red] (2,0,2) circle (0.55cm);
+\shadedraw [ball color= red] (0,2,2) circle (0.55cm);
+\shadedraw [ball color= red] (2,4,2) circle (0.55cm);
+\shadedraw [ball color= red] (4,2,2) circle (0.55cm);
+\shadedraw [ball color= orange] (2,2,2) circle (0.25cm);
+\shadedraw [ball color= blue] (G) circle (0.25cm);
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= orange, yshift=2cm] (7,4,5) circle (0.25cm) node [right, xshift=1cm] {\ce{Ti^{2+}}};
+\shadedraw [ball color= blue, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{Ca^{2+}}};
+\shadedraw [ball color= red, yshift=3.25cm] (7,5,5) circle (0.55cm) node [right, xshift=1cm] {\ce{O^{2-}}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+
+
+
+\newcommand\ZnS{\begin{center}\begin{tikzpicture}[scale = 0.4]
+%points on cube
+\coordinate (A) at (0,0,0);
+\coordinate (B) at (0,0,4);
+\coordinate (D) at (0,4,0);
+\coordinate (C) at (0,4,4);
+\coordinate (E) at (4,0,0);
+\coordinate (F) at (4,0,4);
+\coordinate (H) at (4,4,0);
+\coordinate (G) at (4,4,4);
+%center of faces
+\coordinate (I) at (0,2,2); %center of face ABCD
+\coordinate (J) at (4,2,2); %center of face EFGH
+\coordinate (K) at (2,4,2); %center of face DCGH
+\coordinate (L) at (2,0,2); %center of face ABFE
+\coordinate (M) at (2,2,4); %center of face CBGF
+\coordinate (N) at (2,2,0); %center of face DAEH
+%connectors
+\coordinate (O) at (1,1,3);
+\coordinate (P) at (1,3,1);
+\coordinate (Q) at (3,1,1);
+\coordinate (R) at (3,3,3);
+%draw cube
+\draw [thick,black] (A) -- (B);
+\draw [thick,black] (B) -- (C);
+\draw [thick,black] (C) -- (D);
+\draw [thick,black] (D) -- (A);
+\draw [thick,black] (E) -- (F);
+\draw [thick,black] (F) -- (G);
+\draw [thick,black] (G) -- (H);
+\draw [thick,black] (H) -- (E);
+\draw [thick,black] (A) -- (E);
+\draw [thick,black] (B) -- (F);
+\draw [thick,black] (C) -- (G);
+\draw [thick,black] (D) -- (H);
+\draw [dashed] (0,4,0) -- (1,3,1) -- (2,4,2);
+\draw [dashed] (2,2,0) -- (1,3,1) --(0,2,2) ;
+\draw [dashed] (0,0,4) -- (1,1,3) -- (2,0,2)  ;
+\draw [dashed] (2,0,2) -- (3,1,1)  -- (4,0,0)  ;
+\draw [dashed] (2,2,0) -- (3,1,1) -- (4,2,2)  ;
+
+
+%\draw [dashed] (0,4,2) -- (4,4,2) -- (4,0,2)-- (0,0,2) -- cycle;
+%\draw [dashed] (2,4,0) -- (2,4,4) -- (2,0,4)-- (2,0,0) -- cycle;
+%\draw [dashed] (0,2,4)  -- (4,2,4) -- (4,2,0)  -- (0,2,0) -- cycle;
+%\draw [dashed] (I)  -- (J) ;
+%\draw [dashed] (K)  -- (L) ;
+%\draw [dashed] (M)  -- (N) ;
+%Holes 
+\coordinate (A1) at (0,4,2);
+\coordinate (A2) at (4,4,2);
+\coordinate (A3) at (4,0,2);
+\coordinate (A4) at (0,0,2);
+\coordinate (A5) at (2,4,0);
+\coordinate (A6) at  (2,4,4);
+\coordinate (A7) at (2,0,4);
+\coordinate (A8) at (2,0,0);
+\coordinate (A9) at (0,2,4);
+\coordinate (A10) at (4,2,4);
+\coordinate (A11) at (4,2,0);
+\coordinate (A12) at (0,2,0);
+\coordinate (A13) at (2,2,2);
+%\draw [dashed] (2,4,2) -- (2,2,0);
+%\draw [dashed] (2,4,2) -- (0,2,2);
+%\draw [dashed] (2,4,2) -- (4,2,2);
+%\draw [dashed] (2,4,2) -- (2,2,4);
+%\draw [dashed] (2,0,2) -- (2,2,0);
+%\draw [dashed] (2,0,2) -- (0,2,2);
+%\draw [dashed] (2,0,2) -- (4,2,2);
+%\draw [dashed] (2,0,2) -- (2,2,4);
+%\draw [dashed] (2,2,0) -- (0,2,2) -- (2,2,4) -- (4,2,2) -- cycle;
+\shadedraw [ball color= orange] (A) circle (0.45cm);
+\shadedraw [ball color= orange] (B) circle (0.45cm);
+\shadedraw [ball color= orange] (C) circle (0.45cm);
+\shadedraw [ball color= orange] (D) circle (0.45cm);
+\shadedraw [ball color= orange] (E) circle (0.45cm);
+\shadedraw [ball color= orange] (F) circle (0.45cm);
+\shadedraw [ball color= orange] (H) circle (0.45cm);
+\shadedraw [ball color= orange] (I) circle (0.45cm);
+\shadedraw [ball color= orange] (2,2,0) circle (0.45cm);
+\shadedraw [ball color= orange] (2,0,2) circle (0.45cm);
+\shadedraw [ball color= orange] (0,2,2) circle (0.45cm);
+\shadedraw [ball color= orange] (2,4,2) circle (0.45cm);
+\shadedraw [ball color= orange] (4,2,2) circle (0.45cm);
+\shadedraw [ball color= orange] (G) circle (0.45cm);
+\draw [dashed] (0,2,2) -- (1,1,3) -- (2,2,4)  ;
+\draw [dashed] (4,4,4) -- (3,3,3) -- (2,4,2) ;
+\draw [dashed] (2,2,4) -- (3,3,3) -- (4,2,2) ;
+\shadedraw [ball color= gray] (3,1,1) circle (0.25cm);
+\shadedraw [ball color= gray] (1,1,3) circle (0.25cm);
+\shadedraw [ball color= gray] (3,3,3) circle (0.25cm);
+\shadedraw [ball color= gray] (1,3,1) circle (0.25cm);
+
+\shadedraw [ball color= orange] (2,2,4) circle (0.45cm);
+
+\begin{scope}[xshift=1cm, yshift=-3cm]
+\shadedraw [ball color= orange, yshift=2cm] (7,4,5) circle (0.45cm) node [right, xshift=1cm] {\ce{Zn}};
+\shadedraw [ball color= gray, yshift=2cm] (7,5,5) circle (0.25cm) node [right, xshift=1cm] {\ce{S}};
+\end{scope}
+\end{tikzpicture}\end{center}}
+
+\newcommand{\pol}[1]{\rlap{${}^{^{\color{red} \delta #1}}$}}
+
+
+\usepackage{tcolorbox}% no need in this mwe
+\usepackage[font=small]{caption}% no need in this mwe
+\usepackage{float}% no need in this mwe
+\usepackage{floatflt}% no need in this mwe
+
+\usepackage{tikz} 
+%\usepackage{tikzorbital}
+\usetikzlibrary{fadings,patterns,backgrounds,fit,arrows}
+\pgfdeclarelayer{backbackground}
+\pgfsetlayers{backbackground,background,main}
+
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{mathpazo}
+\usepackage{textcomp}
+\usepackage{nicefrac} % For comparison
+\usepackage{xfrac}    % Works better with others fonts
+
+
+%%% ORBITAL DIAGRAMS
+\usepackage{tcolorbox}% no need in this mwe
+\usepackage[font=small]{caption}% no need in this mwe
+\usepackage{float}% no need in this mwe
+\usepackage{floatflt}% no need in this mwe
+\usepackage{tikz}
+\usepackage{savesym}
+
+\usepackage{tikzorbital}
+%\savesymbol{orbital}
+
+\usetikzlibrary{fadings,patterns,backgrounds,fit,arrows}
+\pgfdeclarelayer{backbackground}
+\pgfsetlayers{backbackground,background,main}
+\usepackage{amssymb} % for harpoons
+\newcommand{\electron}[2]{{%
+        \newcommand*\up{\fbox{$\mathord\upharpoonleft\phantom{\downharpoonright}$}}%
+        \newcommand*\dwn{\fbox{$\mathord\downharpoonleft\phantom{\upharpoonright}$}}%
+        \newcommand*\updwn{\fbox{$\upharpoonleft\downharpoonright$}}%
+        \newcommand*\emp{\fbox{$\phantom{\downharpoonright}\phantom{\downharpoonright}$}}%
+        \setlength\tabcolsep{0pt}% remove extra horizontal space from tabular
+        \begin{tabular}{c}#2\\[2pt]#1\end{tabular}}}%
+%%% ORBITAL DIAGRAMS
+
+\usepackage{modiagram}
+
+\usepackage{chemmacros}
+\chemsetup{modules=all}
+\usetikzlibrary{chains,matrix}
+
+\newcommand{\moup}{$\uparrow$}
+\newcommand{\modown}{$\downarrow$}
+\newcommand{\moupdown}{$\uparrow\,\downarrow$}
+
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.markings}
+
+\tikzstyle directed=[postaction={decorate,decoration={markings, % arrows on the field lines
+  mark=at position .1 with {\arrowreversed[scale=1.5]{stealth}},
+  mark=at position .9 with {\arrowreversed[scale=1.5]{stealth}}}}]
+\tikzstyle tangent=[postaction={decorate,decoration={markings, % Tangent to the field line
+  mark=at position .7 with {\draw[ultra thick,stealth-,green!60!black,solid](-12pt,0)--(12pt,0)node[above]{$\vec{B}$};}}}]
+\tikzstyle fLines=[thick,dashed,directed ]
+
+
+\usepackage{mathpazo}
+\usetikzlibrary{decorations.markings,arrows.meta,bending}
+\tikzset{% 
+    attach arrow/.style={
+    decoration={
+        markings,
+         mark=at position 0 with {\pgfextra{%
+         \pgfmathsetmacro{\tmpArrowTime}{\pgfkeysvalueof{/tikz/arc arrow/length}/(\pgfdecoratedpathlength)}%
+         \xdef\tmpArrowTime{\tmpArrowTime}}},
+        mark=at position {#1-3*\tmpArrowTime} with {\coordinate(@1);},
+        mark=at position {#1-2*\tmpArrowTime} with {\coordinate(@2);},
+        mark=at position {#1-1*\tmpArrowTime} with {\coordinate(@3);},
+        mark=at position {#1+\tmpArrowTime/2} with {\coordinate(@4);
+        \draw[-{Stealth[length=\pgfkeysvalueof{/tikz/arc arrow/length},bend]}] plot[smooth]
+         coordinates {(@1) (@2) (@3) (@4)};},
+        },
+     postaction=decorate,
+     },
+     attach arrow/.default=0.5,
+     arc arrow/.cd,length/.initial=2mm,
+}
+
+%BRACKET FOR CHEMFIG
+\newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}}
+
+\def\makebraces(#1,#2)#3#4#5{%
+  \edef\delimhalfdim{\the\dimexpr(#1+#2)/2}%
+  \edef\delimvshift{\the\dimexpr(#1-#2)/2}%
+  \chemmove{
+    \node[at=(#4),yshift=(\delimvshift)]
+      {$
+       \left\delimleft
+         \vrule height\delimhalfdim depth\delimhalfdim width0pt
+       \right.
+      $};
+    \node[at=(#5),yshift=(\delimvshift)]
+      {$
+        \left.
+          \vrule height\delimhalfdim depth\delimhalfdim width0pt
+        \right\delimright_{\rlap{#3}}
+      $};
+  }%
+}
+
+\usepackage{import}\usepackage{xcolor}\usepackage{fontawesome}
+\newcommand\textlcsc[1]{\textsc{\MakeLowercase{#1}}}   %FORCE CAPS
+\usepackage{etoolbox} 
+\definecolor{dgreen}{rgb}{0.,0.6,0.}\usepackage{enumitem}\usepackage{paralist}
+
+\newcommand{\nextproblemsA}{\begin{solution}[1.0in]\end{solution}\\}
+
+\newcommand{\hlmath}[1]{%
+  \colorbox{black!20}{$\displaystyle#1$}}\usepackage{amsmath}
+
+\usepackage{fontawesome}
+\usepackage{carbohydrates}
+\definesubmol{x}{C(-[4]H)(-[0]OH)}
+\definesubmol{y}{C(-[0]H)(-[4]HO)}
+\definesubmol{k}{C(=[0]\textcolor{orange}{O})}
+\definesubmol{a}{C(=[1]\textcolor{orange}{O})(-[3]H)}
+\definesubmol{t}{C(-[2]H)(-[0]OH)(-[4]H)}
+\definesubmol{CH2}{CH_2}
+\definesubmol\nobond{[,0.2,,,draw=none]}
+\definesubmol{adenine}{-[:72,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*5(-*6(-N=-N=(-NH_2)-=)--N=-)}
+\definesubmol{adenine2}{-[:72,0.4,,,draw=none]\textcolor{blue}{N}*5(-*6(-N=-N=(-NH_2)-=)--N=-)}
+\definesubmol{guanine}{-[:72,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*5(-*6(-N=(-[:-45]NH_2)-N(-[:45]H)-(=O)-=)--N=-)}
+\definesubmol{guanine2}{-[:72,0.4,,,draw=none]\textcolor{blue}{N}*5(-*6(-N=(-[:-45]NH_2)-N(-[:45]H)-(=O)-=)--N=-)}
+
+\definesubmol{uracil}{-[:90,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*6(-(=O)-N(-[:45]H)-(=O)-=-)}
+\definesubmol{uracil2}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}*6(-(=O)-N(-[:45]H)-(=O)-=-)}
+
+\definesubmol{thymine}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*6(-(=O)-N(-[:45]H)-(=O)-(-[:145]CH_3)=-)}
+\definesubmol{thymine2}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}*6(-(=O)-N(-[:45]H)-(=O)-(-[:145]CH_3)=-)}
+
+\definesubmol{cytosine}{-[:90,,,,draw=none]\textcolor{blue}{N}(-[:-90]H)*6(-(=O)-N=(-NH_2)-=-)}
+\definesubmol{cytosine2}{-[:90,0.4,,,draw=none]\textcolor{blue}{N}*6(-(=O)-N=(-NH_2)-=-)}
+
+\definesubmol{ribose}{HO-[:90,0.5,2]?-[:60,1.0](-[:90,1.1]\textcolor{orange}{OH})-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:180,0.9]H\textcolor{pink}{O}))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\definesubmol{deoxyribose}{-[:90,0.5,2,,,draw=none]?-[:60,1.0](-[:90,1.1]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:180,0.9]H\textcolor{pink}{O}))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\definesubmol{phosphate}{-[6,.6]O-[6,1.5]P(-[4,.8]HO)(=[6,0.8]O)-[,1.5]O}
+\newcommand*\derivesubmol[4]{%
+    \saveexpandmode\saveexploremode\expandarg\exploregroups
+    \csname @\ifcat\relax\noexpand#2first\else second\fi oftwo\endcsname
+        {\expandafter\StrSubstitute\@car#2\@nil}
+        {\expandafter\StrSubstitute\csname CF@@#2\endcsname}
+    {\@empty#3}{\@empty#4}[\temp@]%
+    \csname @\ifcat\relax\noexpand#1first\else second\fi oftwo\endcsname
+        {\expandafter\let\@car#1\@nil}
+        {\expandafter\let\csname CF@@#1\endcsname}\temp@
+    \restoreexpandmode\restoreexploremode
+}
+\definesubmol{rt1}{-[2]rt1}
+\definesubmol{rt2}{-[6,.6]rt2}
+\definesubmol{rt3}{-[6,.6]rt3}
+\definesubmol{ribose2}{%
+    H\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,line width=1pt,shorten <=-.5pt,shorten >=-.5pt]%
+              (!{rt2})%
+          -[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+\definesubmol{deoxyribose2}{%
+    H\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,line width=1pt,shorten <=-.5pt,shorten >=-.5pt]%
+              ()%
+          -[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+%\derivesubmol{deoxyribose2}{ribose2}{(!{rt2})}{   }
+\definesubmol{deoxyribosephosphate}{%
+    P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)-\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,,shorten <=-.5pt,shorten >=-.5pt]%
+          -[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+\definesubmol{ribosephosphate}{%
+    P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)-\textcolor{pink}{O}-[:0,0.8]-[:-90,0.8]%
+        (%
+            -[:25,1.176]\textcolor{red}{O}%
+            -[:-25,1.176]%
+        )%
+    -[:-45,0.8]%
+        (%
+          (-[:-90,0.8]OH)-[0,,,,,shorten <=-.5pt,shorten >=-.5pt]%
+          (-[:-90,0.8]OH)-[:45,0.8]%
+              (!{rt1})%
+         )%
+}
+%%%%% DNA
+%%%% AMINO ACIDS
+%chemical symbols
+\newcommand{\glycine}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3} N^{+})([:-90]-H)([:90]-H)}}
+%\newcommand{\proline}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:-90]-H)*5([:135]-CH_2-CH_2-H_2C-H_{2} N^{+}-)}}
+\newcommand{\alanine}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:90]-CH_{3})([:-90]-H)}}
+\newcommand{\valin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3} N^{+})([:90]-CH([:120]-CH_{3})([:60]-CH_{3}))([:-90]-H)}}
+\newcommand{\leucin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH([:120]-CH_{3})([:60]-CH_{3})))}}
+\newcommand{\isoleucin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH ([:90]-CH_{2}([:90]-CH_3))
+    ([:180]-H_{3}C))}}
+\newcommand{\methionin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-S ([:90]-CH_{3}))))}}
+\newcommand{\phenylalanin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-*6(-=-=-=)))}}
+\newcommand{\tryptophan}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-([:60]*6(?=-NH-*6([:120]-=-=-)=?))))}}
+\newcommand{\serin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-OH))}}
+\newcommand{\threonin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH([:120]-OH)([:60]-CH_{3})))}}
+\newcommand{\cystein}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-SH)))}}
+\newcommand{\tyrosin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-*6(-=-([:90]-OH)=-=)))}}
+\newcommand{\asparagin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-C([:120]-NH_{2})([:60]=O)))}}
+\newcommand{\glutamin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-C([:120]-NH_{2})([:60]=O))))}}
+\newcommand{\asparaginacid}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-C([:120]-O^{-})([:60]=O)))}}
+\newcommand{\glutaminacid}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-C([:120]-O^{-})([:60]=O))))}}
+\newcommand{\lysin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-CH_{2}([:90]-CH_{2}([:90]-NH_{3}^{+})))))}}
+\newcommand{\arginin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}
+    N^{+})([:-90]-H)([:90]-CH_{2}([:90]-CH_{2}([:90]-CH_{2}([:90]-NH([:90]-C([:90]-NH_{2})([:0]=NH_2^{+}))))))}}
+%\newcommand{\histidin}{\footnotesize\chemfig{C([:0]-C(=[:30]O)(-[:-30]O^{-}))([:180]-H_{3}N^{+})([:-90]-H)([:90]-CH_{2}([:90]-([:60]*5(-NH-=NH^{+}-=))))}}
+
+\newcommand{\proline}{\footnotesize
+\chemfig{
+  H-[2]
+  C
+  (-C(=[:45]O)(-[:-45]O|^{-}))
+ *5([:135]-C|H_2-\chemabove{C}{H\mathrlap{_2}}-H_2|C-[,,,2]H_{2}|\chemabove{N}{\quad\scriptstyle+}-)
+}
+}
+
+\newcommand{\histidin}{\footnotesize
+\chemfig{
+  H_{3}\chemabove{N}{\quad\scriptstyle+}-
+  C
+   ([:-90]-H)
+   ([:90]
+     -CH_{2}-
+     ([:90]*5(-NH-[,,1]=\chemabove{\chemabove{N}{H}}{\hskip1.5em\scriptstyle+}-=))
+   )
+  -C(=[:45]O)(-[:-45]O|^{-})
+}
+}
+\newcommand{\mytriangleright}[1]{\tikz{\filldraw[draw=#1,fill=#1] (0,0) --(0em,0.6em) -- (0.4em,0.3em);}}
+
+
+
+\begin{document}
+\begin{exam}{s}
+\begin{verA}
+
+
+ \newcommand\chapterlabel{Ch-acidbase}
+ 
+ 
+% 
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck1}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck2}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck3}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck4}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck5}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+% 
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck6}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck7}\vspace{1cm}  
+%%Show work: \begin{solution}[1.0in]\end{solution}
+%% \vspace{5cm}
+%%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%%\end{problem*}
+%
+%   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck8}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+%    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck9}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+% 
+%   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck10}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+
+%%% SECOND PARD
+
+   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck11}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck12}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck13}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck14}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck15}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck16}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+%    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck17}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck18}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck19}\vspace{1cm}  
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+%    \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck20}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+%
+%      \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck21}\vspace{1cm}  
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+
+ 
+  
+ 
+
+
+\end{verA}
+\end{exam}
+\end{document}

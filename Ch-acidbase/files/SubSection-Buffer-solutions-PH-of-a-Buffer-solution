@@ -1,0 +1,12 @@
+A buffer solution consist of a solution containing both a weak electrolyte and its conjugate counterpart in the same or different concentration. For example, the PH of a 0.01M \ce{CH3COOH}/0.1M \ce{NaCH3COO} ($K_a=1.75 \times 10^{-5}$) acidic buffer can be computed using the following formula:
+\begin{equation}
+\boxed{ PH=PK_a + \text{log} \Big(\frac{c_b}{c_a}\Big) }\label{\chapterlabel:equation16}
+\end{equation}
+where:
+\begin{where}
+ \item $PK_a$  is the PK of the acid in the buffer
+ \item $c_a$  is the acid concentration in the buffer
+ \item $c_b$  is the base concentration in the buffer
+\end{where}
+This formula is called the Henderson-Hasselbalch equation. Using the date above, we have that: $PH=4.76 + \text{log}\big( \frac{0.1 }{0.01 }\big)=5.75$. The following example will further demonstrate how to calculate the PH of buffer solutions.
+

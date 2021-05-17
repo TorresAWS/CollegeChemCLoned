@@ -1,0 +1,20 @@
+\begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllcll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Types and color of radiation } \\
+\midrule
+\rowcolor{gray!45} Type of radiation  &  $\nu$ (Hz)  &\multicolumn{1}{l}{} &Color of radiation & $\lambda$ (nm)     \\
+ \midrule
+Gamma  &   \small >$3\times 10^{19}$     				&\multicolumn{1}{l}{} &Violet &   \small 380-450						  \\
+X-rays  &   \small $3\times 10^{19}-3\times 10^{16}$      & \multicolumn{1}{l}{} &	Blue	&   \small 450-485 		   \\
+UV  &   \small $3\times 10^{16}-8\times 10^{14}$        	&\multicolumn{1}{l}{}  &Cyan		&   \small 485-500 	 \\
+IR  &   \small $4\times 10^{14}-4\times 10^{11}$        		&\multicolumn{1}{l}{}  &Green	&    \small 500-565		 \\
+MicroW &   \small $3\times 10^{11}-3\times 10^{8}$       	&\multicolumn{1}{l}{}  &Yellow	&    \small 565-590  		   \\
+RadioW  &   \small $3\times 10^{8}-3\times 10^{3}$    	&\multicolumn{1}{l}{}  &	Orange	&   \small 590-625	  \\               
+      						&				  	&\multicolumn{1}{l}{}  &	Red	&   \small 625-740	  \\  
+ \bottomrule
+
+\end{tabular}\end{center} 

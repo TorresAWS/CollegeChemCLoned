@@ -1,0 +1,12 @@
+
+%%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Vanilla extract is a solution vanillin in ethanol. A vanilla solution is made by mixing 15 mL of pure vanillin and 50mL of ethanol.
+\end{question}
+\begin{solution}
+23\%
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+
+
+

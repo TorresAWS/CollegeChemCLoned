@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the pressure of 0.2 moles of water vapor at 500K occupying a volume of 0.1L, using: (a) the ideal gas formula and (b) the Van der Waals formula $a=$ 5.46$\text{atm}\cdot \text{L}^2/\text{mol}^{2}$ and $b=$ 0.0305$\text{L}/\text{mol}$.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use the ideal gas formula first, given the number of moles ($n$=0.2 mol), temperature ($T$=500K), pressure ($p$=6 atm) and the volume ($V$=0.1L).
+\begin{equation*}
+P=\frac{nRT}{V}=\frac{0.2\times 0.083\times 500}{0.1}=82atm   
+\end{equation*}
+Now, using the Van der Waals formula:
+\begin{equation*}\begin{split}
+P=\frac{nRT}{V-nb}-\frac{n^2a}{V^2}= \frac{0.2\times 0.083\times 500}{0.1-0.2\times 0.0305}-\frac{0.2^2\times 5.46}{0.1^2}=65atm 
+\end{split}\end{equation*}
+Both values are very different and this is consistent with the fact that water vapor does not behave as an ideal gas.
+\\
+\import{./}{StudyCheck10}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

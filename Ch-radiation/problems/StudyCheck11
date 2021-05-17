@@ -1,0 +1,9 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Compare the following property for the given couple of elements:
+\begin{inparaenum}[(a)]
+\item Atomic radius of F and I.
+\item Electronegativity of Cs and Na.
+\end{inparaenum} 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) radius I > F; (b) Electronegativity Na > Cs.
+ \end{flushright} }

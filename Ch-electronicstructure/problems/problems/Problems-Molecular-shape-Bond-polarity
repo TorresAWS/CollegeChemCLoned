@@ -1,0 +1,33 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the polarity or non-polarity for the following molecules:
+\begin{inparaenum}[(a)]
+\item \ce{H2O}	%(Polar)
+\item  \ce{HCl}	%(Polar)
+\item  \ce{H2}	%(non Polar)
+\end{inparaenum}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+\item \ce{H2O}	%(Polar)
+\item  \ce{HCl}	%(Polar)
+\item  \ce{H2}	%(non Polar)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the polarity or non-polarity for the following molecules:
+\begin{inparaenum}[(a)]
+\item  \ce{NH3}	%(Polar)
+\item  \ce{CO2}	%(non Polar)
+\end{inparaenum}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+\item  \ce{NH3}	%(Polar)
+\item  \ce{CO2}	%(non Polar)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%

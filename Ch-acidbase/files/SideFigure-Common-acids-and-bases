@@ -1,0 +1,18 @@
+   \begin{marginfigure}[.6cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure13}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Hydrofluoric acid is a weak acid used to dissolve glass.   };
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[.6cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure7}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Citrus such as lemons or oranges are acidic. };
+ \end{tikzpicture}
+\end{marginfigure}
+
+   \begin{marginfigure}[.6cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Pickles contain vinegar that is a solution of acetic acid in water.  };
+\end{tikzpicture}
+\end{marginfigure}
+
+

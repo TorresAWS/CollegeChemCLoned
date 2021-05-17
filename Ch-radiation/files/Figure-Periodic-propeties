@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \vspace{1cm}\hspace{0cm}\begin{minipage}[b]{1.5\linewidth}
+
+ \begin{center}
+\begin{tikzpicture}[font=\sffamily, scale=0.2, transform shape, rotate=0, baseline={(0,0cm)}]
+\begin{scope}[xshift =-80em, yshift =0em, scale=1]
+\RadiusTable
+\node[text width=5cm, fontscale=0.1] at (5em,-55em) {\scalebox{4.0}{\mytriangleup{red}{\small Atomic radii trend in pm}}};
+ \end{scope} 
+
+\begin{scope}[xshift =0em, yshift =0em, scale=1]
+\IETable
+\node[text width=5cm, fontscale=0.1] at (5em,-55em) {\scalebox{4.0}{\mytriangleup{red}{\small Ionization energy trend in kJ/mol}}};
+ \end{scope} 
+
+\begin{scope}[xshift =80em, yshift =0em, scale=1]
+\EATable
+\node[text width=5cm, fontscale=0.1] at (15em,-55em) {\scalebox{4.0}{\mytriangleup{red}{\small Electron affinity trend in kJ/mol}}};
+ \end{scope} 
+ 
+ \begin{scope}[xshift =80em, yshift =-80em, scale=1]
+\ENTable
+\node[text width=5cm, fontscale=0.1] at (15em,-55em) {\scalebox{4.0}{\mytriangleup{red}{\small Electronegativity values from Pauli's scale}}};
+ \end{scope} 
+ 
+ 
+  \begin{scope}[xshift =-80em, yshift =-80em, scale=1]
+\MCTable
+\node[text width=5cm, fontscale=0.1] at (15em,-55em) {\scalebox{4.0}{\mytriangleup{red}{\small Metallic character}}};
+ \end{scope} 
+
+\end{tikzpicture}\end{center}\end{minipage}
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{tikzpicture}[font=\sffamily, scale=1, transform shape, rotate=0, baseline={(0,0cm)}]
+
+    \node[text width=12cm, fontscale=1, shift={(00em,-0em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Periodic properties across the periodic table  };
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

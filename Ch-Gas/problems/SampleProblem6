@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Hydrogen gas reacts with oxygen gas to produce water vapor according to the following equation:
+\begin{center}\ce{  2H2(g)  + $\underset{\text{\large 2L}}{\ce{O2(g)   }}$  -> $\underset{\text{\large x mol}}{\ce{2H2O(g)}}$  } \end{center}
+Calculate the number of moles of water produced from 2L of oxygen at STP conditions.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will solve the problem in a single line, first relating the liters of oxygen and litters of water produced and finally converting litters of water into moles of water using the molar volume. Remember when there are gases in the reaction, the stoichiometric coefficients can be interpreted in terms of liters:
+\begin{equation*}
+x=2L\cancel{\text{ L of }\ce{O2}} \times \dfrac{\cancel{\text{2 L of }\ce{H2O}}}{2\cancel{\text{ L of \ce{O2}}}} \times   \dfrac{\text{1 mol of }\ce{H2O}}{22.4 \cancel{\text{L of \ce{H2O}}}}      =0.178\text{ mol of }\ce{H2O}.
+\end{equation*}
+We have that two liters of oxygen produce four liters of water. At the same time, 22.4L of water--or any other gas--is 1 moles of that gas. So four L of water are 0.17moles of water.
+\\
+\import{./}{StudyCheck6}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

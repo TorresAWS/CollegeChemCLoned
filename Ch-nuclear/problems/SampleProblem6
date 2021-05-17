@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the following reactions as fusion or fission:
+\begin{center}\ce{^1_1H + ^1_1H -> ^2_1H +^0_1e   }\\\ce{^1_0n + ^235_92U -> ^137_52Te + ^97_40Zr + 2^1_0n  }
+\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The first nuclear reaction combines two hydrogen isotopes and hence it will be a fusion reaction. The second reaction results of the fragmentation--fission--of uranium and it will be fission.\\
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

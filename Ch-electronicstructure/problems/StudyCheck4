@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Construct the electron-dot structure of \ce{NH3} indicating the number of bonds and lone pairs.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \chemfig{\lewis{2,N}( (-[:0]H)(-[:180]H)(-[:270]H))}; three bonds and one lone pair.
+ \end{flushright} }

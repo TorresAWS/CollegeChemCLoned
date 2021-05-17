@@ -1,0 +1,5 @@
+\item[\docfilehook{Reading a chemical reaction}{}]
+Chemicals reactions can be read in words. In order to read a chemical reaction you need to connect the reactants with the word \say{react} and then use the words \say{to produce} and after that you need to read the products. The numbers in front of the reactants and products represent the number of moles, and you need to include those numbers in the reading. For example, the following reaction
+\begin{center}\ce{2Mg(s) + O2(g) -> 2MgO(s)}\end{center}
+should be read as: \say{two moles of Mg react with one mole of \ce{O2} to produce two moles of \ce{MgO}}. 
+

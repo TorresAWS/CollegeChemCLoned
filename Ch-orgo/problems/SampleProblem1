@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the molecular formula for decane and pentane.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Using Equation \ref{formula12.1} we have that the molecular formula for decane ($n=10$) would be: \ce{C10H22}. Similarly, the molecular formula for pentane ($n=5$) would be: \ce{C5H12}.
+\begin{flushright}  \mytriangleright{dgreen}\small Answer: (decane) \ce{C10H22}; (pentane) \ce{C5H12} \end{flushright}
+
+\import{./}{StudyCheck1}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

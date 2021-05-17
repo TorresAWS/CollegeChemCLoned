@@ -1,0 +1,24 @@
+Alkanes are complex molecules and often time they contain more than one hydrocarbon chain. Therefore, one can envision several ways to number the chain. However, the rule is to first locate the longest chain. Let us use the following hydrocarbon. How many chains can you find, and which is the longest chain?
+\begin{center} \chemfig{CH_3-CH_2-CH(-[:90]CH_2-CH_2-CH_2-CH_3)-CH_3} \end{center}
+The answer should be three chains. Let me highlight the three different possibilities and the number of atoms in each chain:
+\begin{center}
+ \chemfig{@{A}CH_3-CH_2-CH(-[:90]CH_2-CH_2-CH_2-CH_3)-CH_3@{B}}\chemmove{
+   \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-10pt]A.south west) rectangle ([xshift=0pt,yshift=10pt]B.north east) ;
+}\hspace{0.5cm}\textcolor{blue}{4 Carbons} \end{center}\vspace{0.5cm}
+\begin{center} \chemfig{@{A}CH_3-CH_2-C@{B}H(-[:90]C@{C}H_2-CH_2-CH_2-CH_3@{D})-CH_3}\chemmove{
+   \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-10pt]A.south west) rectangle ([xshift=3.5pt,yshift=8pt]B.north east) ;
+      \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=-8pt,yshift=8pt]B.north west) rectangle ([xshift=-1pt,yshift=6pt]C.north east) ;
+            \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=11pt,yshift=-8pt]C.south west) rectangle ([xshift=0pt,yshift=13.0pt]D.north east) ;
+}\hspace{0.5cm}\textcolor{blue}{7 Carbons} \end{center}\vspace{0.5cm}
+\begin{center} \chemfig{CH_3-CH_2-C@{B}H(-[:90]C@{C}H_2-CH_2-CH_2-CH_3@{D})-CH_3@{E}} \chemmove{
+      \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=-10pt,yshift=2.6pt]B.north west) rectangle ([xshift=-1pt,yshift=6pt]C.north east) ;
+            \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=11pt,yshift=-8pt]C.south west) rectangle ([xshift=0pt,yshift=13.0pt]D.north east) ;
+               \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=-10pt,yshift=-10pt]B.south west) rectangle ([xshift=3.5pt,yshift=9.5pt]E.north east) ;
+}\hspace{0.5cm}\textcolor{blue}{6 Carbons} \end{center}
+As the longest chain has seven carbons, the name of the molecule would be heptane. Still, you need to add the substituents to the name. Hence, after you locate the longest chain you need to number the chain so that the substituents are located the closest to the carbon number one the possible:
+\begin{center}\vspace{1cm}\chemfig{@{A}C\chembelow[1ex]{}{\tiny \textcolor{red}{1}}H_3-C\chembelow[1ex]{}{\tiny \textcolor{red}{2}}H_2-C\chembelow[1ex]{}{\tiny \textcolor{red}{3}}@{B}H(-[:90]C\chemabove[2ex]{}{\tiny \textcolor{red}{4}}@{C}H_2-C\chemabove[2ex]{}{\tiny \textcolor{red}{5}}H_2-C\chemabove[2ex]{}{\tiny \textcolor{red}{6}}H_2-C\chemabove[2ex]{}{\tiny \textcolor{red}{7}}H_3@{D})-CH_3}\chemmove{
+   \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-12pt]A.south west) rectangle ([xshift=3.5pt,yshift=8pt]B.north east) ;
+      \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=-8pt,yshift=8pt]B.north west) rectangle ([xshift=-1pt,yshift=8pt]C.north east) ;
+            \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=11pt,yshift=-8pt]C.south west) rectangle ([xshift=0pt,yshift=15.0pt]D.north east) ;
+}\end{center}
+As there is a methyl in carbon number three the final name of the molecule would be: 3-methylheptane.

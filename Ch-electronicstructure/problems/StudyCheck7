@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify and draw the geometry of methane (\ce{CH4}).
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: Tetrahedral \hspace{.05in}\chemfig{C(-[:90]H)(-[:341]H)(-[:225]H)(-[:200]H)}\hspace{.05in}
+ \end{flushright} }

@@ -1,0 +1,4 @@
+Acid organic molecules, in general, contain one or more carboxylic acid groups. An example would be vinegar or citric acid, the acid found in citrus.
+\begin{center}\chemname{\chemfig{HO-[:45](=[:90]O)-[:-45]-[:45](-[:-65,1.3]OH)(-[:90](=[:135]O)(-[:45]OH))-[:-45]-[:45](=[:90]O)-[:-45]OH} }{\textcolor{blue}{Citric acid}}\hspace{0.5cm} \chemname{\chemfig{-[:45](=[:90]O)-[:-45]OH }}{\textcolor{blue}{Acetic Acid}} \end{center}
+Bases contain one or more amine groups. Examples of bases are NADH, a coenzyme found in all living cells, or caffeine, a base found in coffee.
+ \begin{center}\chemname{\chemfig{*6(-N(-R)-=(-(=[2]O)-[::-60]NH_2)--=)}}{\textcolor{blue}{NADH}}\hspace{0.5cm} \chemname{\chemfig{*6((=O)-N(-CH_3)-*5(-N=-N(-CH_3)-=)--(=O)-N(-H_3C)-)}}{\textcolor{blue}{Caffeine}}\end {center}

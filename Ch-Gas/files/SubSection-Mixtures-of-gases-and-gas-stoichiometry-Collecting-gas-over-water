@@ -1,0 +1,9 @@
+Numerous reaction produce gases. As an example, potassium chlorate decomposes to produce oxygen gas:
+\begin{center}\ce{2KClO3_{(s)} -> 2KCl_{(s)} + 3O2_{(g)}}\end{center}
+The volume of gas produced by a chemical reaction is collected often times over water. Gas bubbles go through water being collected in an apparatus similar to the one represented in Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter}. 
+
+As the gas is collected over water, with the gas produced by the reaction, we will also find water molecules that will exhibit a certain partial pressure. In another words, we will collect a mixture of two gases, the gas produced by the reaction and water. The partial pressure of the gas produced will be:
+\begin{equation*}
+\boxed{  P_{gas}=P_{total}- P_{\ce{H2O}}  }  
+ \end{equation*}
+The partial pressure of water, also called the vapor pressure of water, depends on temperature and its values can be found in Table \ref{tab:{\chapterlabel}\thetablenewcounter}. For example, at 25$^{\circ}$C, the vapor pressure of water in the atmosphere is 0.0313 atm and at 100$^{\circ}$C is equal to 1atm. When liquids boil, they vapor pressure is equal to the atmospheric pressure, that is the reason behind the vapor pressure of water being 1 atm at 100$^{\circ}$C, the boiling point of water.

@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following haworth monosaccharide as $\alpha$ or $\beta$ :
+\begin{center}\setatomsep{2.5em}\chemfig{HO-[:-90,0.5,2]?-[:60,1.0](-[:90,0.7]\textcolor{orange}{OH})(-[:-90,0.7]-[:-30,0.5]OH)-[:160,1.2]\textcolor{red}{O}-[:-160,1.2](-[:90,0.7](-[:130,0.5]OH))-[:-60, 1.0]?(-[:-90,0.5]OH)}
+\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small $\beta$
+ \end{flushright} }

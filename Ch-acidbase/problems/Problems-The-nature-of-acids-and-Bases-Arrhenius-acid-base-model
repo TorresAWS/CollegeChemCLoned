@@ -1,0 +1,19 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following species as Arrhenius acids, or bases:
+\begin{inparaenum}[(a)]
+\item \ce{H2SO4} % (acid)
+\item \ce{NaOH} % (base)
+\item \ce{HNO3} % (acid)
+\item \ce{HCl} % (acid)
+\item \ce{Ca(OH)2} % (base)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H2SO4}   (acid)
+\item \ce{NaOH}   (base)
+\item \ce{HNO3}   (acid)
+\item \ce{HCl}   (acid)
+\item \ce{Ca(OH)2}   (base)
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

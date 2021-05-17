@@ -1,0 +1,33 @@
+ If temperature and the number of moles of a gas are kept constant the product of pressure and volume will remain constant too. This is the case of the balloon-pressing example. We call this Boyle's Law:
+\begin{equation*}
+\boxed{ \frac{P} {V}=c \quad or \quad   P_1\cdot V_1=P_2\cdot V_2} \quad \textcolor{blue}{\text{Boyle's law}}
+\end{equation*}
+where:
+\begin{where}
+ \item $P_1, V_1$   are the initial pressure and volume
+ \item $P_2, V_2$   are the final pressure and volume
+  \item $c$   is a constant
+\end{where}
+%\begin{marginfigure}[0cm]%%%%%%%MARGIN FIGURE
+%\includegraphics[width=\linewidth,scale=0.5]{../{\chapterlabel}/figure6}
+%\caption{Warming an aerosol container will increase the pressure of gas inside}
+%\end{marginfigure}%%%%%%%MARGIN FIGURE
+\item[\docfilehook{Volume-Temperature change}{}] 
+Imagine you cool down a balloon at fixed pressure (under the atmosphere). What would happen to the balloon's volume? Based on Charle's law, its volume will decrease:
+\begin{equation*}
+\boxed{\frac{V} {T}=c \quad or \quad   \frac{V_1} {T_1}=\frac{V_2} {T_2}} \quad \textcolor{blue}{\text{Charle's law}}
+\end{equation*}
+where:
+\begin{where}
+ \item $V_1, T_1$   are the initial volume and temperature
+ \item $V_2, T_2$   are the final volume and temperature
+   \item $c$   is a constant
+\end{where}
+
+
+%\begin{marginfigure}[0cm]%%%%%%%MARGIN FIGURE
+%\includegraphics {../{\chapterlabel}/figure7}
+%\caption{An hot air balloon will rise up as air's density decreases with temperature}
+%\end{marginfigure}%%%%%%%MARGIN FIGURE
+
+

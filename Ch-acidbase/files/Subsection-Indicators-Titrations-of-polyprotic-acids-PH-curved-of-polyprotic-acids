@@ -1,0 +1,6 @@
+The principles that control the shape of PH curves of monoprotic acids also apply to polyprotic acids. PH curves of strong acids have well-defined plateaus, whereas PH curves of weak acids or bases have shorter PH transition and inclined plateaus. For polyprotic acids, these principles are applied to each end point in the PH curve. For example, sulfuric acid (\ce{H2SO4}) can give away two protons. The first proton dissociation equilibrium is characterized by a very large $K_a$, whereas the second dissociation corresponds to a weak acid dissociation:
+\begin{center}\ce{H2SO4_{(aq)}  <=>[H2O] H^+_{(aq)}  +HSO4^{-}_{(aq)} } \hspace{1cm} $K_{a_1}\text{ is very large}$\end{center}
+\begin{center}\ce{HSO4^-_{(aq)}  <=>[H2O] H^+_{(aq)}  +SO4^{2-}_{(aq)} } \hspace{1cm} $K_{a_2}=1.2\times 10^{-2}$\end{center}
+The PH curve of this acid should reflect these facts and the first transition is well-defined, whereas the second one is shorter. 
+For weak electrolytes, the plateaus represent buffer areas where the acid and conjugate base exist. At the half-point the PH is the same as the $pK$ of each dissociation.
+

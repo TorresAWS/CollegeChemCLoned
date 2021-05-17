@@ -1,0 +1,3 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the root mean square velocity of the molecules of water at 25C$^{\circ}$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small \flushright Answer: 625m/s. \end{flushright} }

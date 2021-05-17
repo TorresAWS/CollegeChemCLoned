@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{fullwidth}
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+  \begin{minipage}[b]{1.5\linewidth}
+\begin{tikzpicture}
+   \begin{scope}[shift={(2em,0)}]
+ \begin{axis}[axis equal,
+    xmin=-3,xmax=3,
+    ymin=-3,ymax=3,
+    axis lines=none]
+ \addplot[samples=400,domain=0:2*pi,thick] ({(2+.3*cos(deg(3*x)))*cos(deg(x))},{(2+.3*cos(deg(3*x)))*sin(deg(x))});
+ \addplot[samples=40,domain=0:2*pi,dashed] ({2*cos(deg(x))},{2*sin(deg(x))});
+ \node at (axis cs:0,0){$n=3$};
+ \end{axis}
+   \end{scope}
+ \begin{scope}[shift={(15em,0)}]
+  \begin{axis}[axis equal,
+    xmin=-3,xmax=3,
+    ymin=-3,ymax=3,
+    axis lines=none]
+ \addplot[samples=400,domain=0:2*pi,thick] ({(2+.3*cos(deg(5*x)))*cos(deg(x))},{(2+.3*cos(deg(5*x)))*sin(deg(x))});
+ \addplot[samples=40,domain=0:2*pi,dashed] ({2*cos(deg(x))},{2*sin(deg(x))});
+ \node at (axis cs:0,0){$n=5$};
+ \end{axis}
+  \end{scope}
+   \begin{scope}[shift={(29em,0)}]
+  \begin{axis}[axis equal,
+    xmin=-3,xmax=3,
+    ymin=-3,ymax=3,
+    axis lines=none]
+ \addplot[samples=400,domain=0:2*pi,thick] ({(2+.3*cos(deg(3.5*x)))*cos(deg(x))},{(2+.3*cos(deg(3.5*x)))*sin(deg(x))});
+ \addplot[samples=40,domain=0:2*pi,dashed] ({2*cos(deg(x))},{2*sin(deg(x))});
+ \node at (axis cs:0,0){$n=3.5$ \tiny Forbidden };
+ \end{axis}
+  \end{scope}
+  \node[text width=4cm, fontscale=0.1, shift={(5em,5em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} In the circular Bohr's orbits, electron could only have wavelengths that are a multiple of the orbit length, of the wave would cancel (forbidden orbits). };
+\end{tikzpicture}
+ \end{minipage}
+\end{fullwidth}
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

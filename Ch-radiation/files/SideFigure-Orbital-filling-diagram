@@ -1,0 +1,73 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{marginfigure}
+   \resizebox{1.2\textwidth}{!}{
+{\tiny\begin{tikzpicture}[
+    square/.style={draw,regular polygon,regular polygon sides=4,minimum size=25pt,fill=gray!50},
+    outer sep=0,inner sep=0]
+{\def\y{0}
+ \foreach \x in {0,...,6}
+		\pgfmathtruncatemacro{\y}{\y + 7*\x}
+		\pgfmathtruncatemacro{\z}{7-\x}
+                 \node [square, fill=red]  (Y1\x) at (0 em,\y em) {\large {\z}s };
+                }
+{\def\y{0}
+ \foreach \x in {0,...,5}
+		\pgfmathtruncatemacro{\y}{\y + 7*\x}
+		\pgfmathtruncatemacro{\z}{7-\x}
+                 \node [square, fill=green]  (Y2\x) at (7 em,\y em) {\large {\z}p };
+                }
+{\def\y{7}
+ \foreach \x in {0,...,3}
+		\pgfmathtruncatemacro{\y}{\y + 7*\x}
+		\pgfmathtruncatemacro{\z}{6-\x}
+                 \node [square, fill=yellow]  (Y3\x) at (14 em,\y em) {\large {\z}d };
+                }
+
+{\def\y{14}
+ \foreach \x in {0,...,1}
+		\pgfmathtruncatemacro{\y}{\y + 7*\x}
+		\pgfmathtruncatemacro{\z}{5-\x}
+                 \node [square, fill=orange]  (Y4\x) at (21 em,\y em) {\large {\z}f };
+                }
+                       {  \foreach \x in {0,...,4}
+                 \pgfmathtruncatemacro{\y}{(\x + 1) } 
+               \draw[blue] ({Y1\x}.north east) -- ({Y2\y}.south west);
+                }
+                       {  \foreach \x in {0,...,3}
+                 \pgfmathtruncatemacro{\y}{(\x + 1) } 
+               \draw[blue] ({Y2\x}.north east) -- ({Y3\x}.south west);
+                }
+                                       {  \foreach \x in {0,...,1}
+                 \pgfmathtruncatemacro{\y}{(\x + 1) } 
+               \draw[blue] ({Y3\x}.north east) -- ({Y4\x}.south west);
+                }
+\node[yshift=-10em] (0em,-40em) {\large 2$e^{-}$}   node[xshift=8em,yshift=-10em] {\large 6$e^{-}$}  node[xshift=15em,yshift=-10em] {\large 10$e^{-}$} node[xshift=23em,yshift=-10em] {\large 14$e^{-}$};
+\draw [decorate,decoration={brace,mirror,amplitude=10pt},yshift=-5em]  (0,-10em) -- (20em,-10em) node [midway,yshift=-0.25in] {\large Orbital occupancies};
+                 {  \foreach \x in {0,...,6}
+               \draw[blue, ->] ({Y1\x}.south west) -- ([shift={(-5em,-5em)}] {Y1\x}.south west);
+                }
+                               \draw[blue, ->] ({Y20}.south west) -- ([shift={(-5em,-5em)}] {Y20}.south west);
+                           \draw[blue ] ({Y15}.north east) -- ([shift={(5em,5em)}] {Y15}.north east);
+                        \draw[blue ] ({Y16}.north east) -- ([shift={(2em,2em)}] {Y16}.north east);
+                     \draw[blue ] ({Y25}.north east) -- ([shift={(5em,5em)}] {Y25}.north east);
+                        \draw[blue ] ({Y24}.north east) -- ([shift={(5em,5em)}] {Y24}.north east);
+                  \draw[blue ] ({Y32}.north east) -- ([shift={(5em,5em)}] {Y32}.north east);
+                        \draw[blue ] ({Y33}.north east) -- ([shift={(5em,5em)}] {Y33}.north east);
+                        
+                                          \draw[blue ] ({Y40}.north east) -- ([shift={(5em,5em)}] {Y40}.north east);
+                        \draw[blue ] ({Y41}.north east) -- ([shift={(5em,5em)}] {Y41}.north east);
+                        \begin{pgfonlayer}{background}
+                                                       \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y16}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y15}.north east);
+                                                       \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y15}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y25}.north east);
+                                                       \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y14}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y24}.north east);
+                                                       \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y13}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y33}.north east);
+                                                                                                              \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y12}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y32}.north east);
+                                                       \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y11}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y41}.north east);
+                                                       \draw [dashed, red,->] ([shift={(-5em,-5em)}] {Y10}.south west) to[bend left=90*-1] ([shift={(5em,5em)}] {Y40}.north east);
+\end{pgfonlayer}
+\node[font=\normalsize, xshift=-0em, yshift=-0em, text width=8cm, fontscale=5.0] at (10em,-25em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Table indicating the orbital filling order. };
+ \end{tikzpicture}}
+  }
+%In order to use this table you need to start by filling the orbital $1s$, after that you follow the arrow until next level and start from the beginning of next arrow. For example, after $3d$ you need to fill $6s$. Also the orbital occupancies are given below. $s$ orbitals can fit a maximum of two electrons, whereas $p$ orbitals cant fit a maximum of six electrons, as there are three $p$ orbitals ($p_x$, $p_y$, and $p_z$).
+\end{marginfigure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

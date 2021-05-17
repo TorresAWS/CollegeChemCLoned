@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Hydrogen reacts with oxygen to produce water according to the following reaction
+\begin{center}\ce{2H2(g) + O2(g) -> 2H2O(g)}\end{center}
+Calculate the number of moles of water produced by 4 moles of oxygen. 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+
+Answer: 8 moles.
+ \end{flushright} }

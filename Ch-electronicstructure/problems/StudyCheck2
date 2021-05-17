@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Write down the electron-dot structure for \ce{N^{3-}}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: \hspace{.05in}\lewis{0:2:4:6:,N}\hspace{.05in}\ce{^{3-}}.
+ \end{flushright} }

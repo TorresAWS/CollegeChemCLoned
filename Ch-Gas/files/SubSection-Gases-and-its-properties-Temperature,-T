@@ -1,0 +1,10 @@
+The temperature (T) of a gas is related to the speed (the average velocity) of its particles. The higher the temperature the higher the particles' speed. Although there are different units of temperature such as Kelvin (K) or celsius (C$^{\circ}$), in this chapter many formulas require the use of Kelvin temperature ($T_K$), that related to celsius ($T_C$) by the formula
+\begin{equation*}
+\boxed{   T_K=T_C+273}   
+\end{equation*}
+
+%\begin{marginfigure}[0cm]%%%%%%%MARGIN FIGURE
+%\includegraphics{../{\chapterlabel}/figure4}
+%\caption{Gas pressure is due to the collisions of the gas particles with the walls of its container.}
+%\end{marginfigure}%%%%%%%MARGIN FIGURE
+

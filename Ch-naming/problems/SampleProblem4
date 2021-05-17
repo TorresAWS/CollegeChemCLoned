@@ -1,0 +1,19 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or give the formula for the following ionic compounds: \\
+\begin{tabularx}{0.75\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{3}{Y} }
+  \toprule
+\heading{Formula} & \multicolumn{3}{c}{\textbf{Name}}   \\
+    \midrule
+  \ce{MnO} & 	\multicolumn{3}{c}{     }    \\
+   \ce{Fe3N2}    & 	\multicolumn{3}{c}{     }    \\
+         & 	\multicolumn{3}{c}{  Cobalt(II) carbide   }    \\
+        & 	\multicolumn{3}{c}{  Iron(II) oxide   }    \\
+      \bottomrule
+\end{tabularx}\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+All the chemicals on this example contain a metal that can have several charges, and hence, we need to specify the ionic charge on the name. \ce{MnO} results from  \ce{Mn^x} and  \ce{O^{2-}}. After combining the ions, the formula would be  \ce{Mn2Ox}, a formula that needs to be compared to  \ce{MnO}. The formulas do not look similar, so lets make them more similar by dividing by two so that \ce{MnO$\frac{x}{2}$} resembles \ce{MnO}. By comparing x has to be 2 and hence the name is Manganese(II) oxide. The name for \ce{Fe3N2}  would be Iron(II) nitride. The valence of Iron comes from combining  \ce{Fe^x} and  \ce{N^{3-}} that gives \ce{Fe3Nx}. By comparison with \ce{Fe3N2}  x has to be two and the name is Iron(II) nitride. the formula for Cobalt(II) carbide would be  \ce{Co2C} as Cobalt(II) is \ce{Co^{2+}} and carbide is \ce{C^{4-}}. After combining the ions one obtains   \ce{Co4C2} that gives \ce{Co2C}. Finally, the formula for Iron(II) oxide is \ce{FeO} as Iron(II) is \ce{Fe^{2+}} and oxide is \ce{O^{2-}} that gives \ce{Fe2O2} and simplifying one obtains \ce{FeO}.\\
+\import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

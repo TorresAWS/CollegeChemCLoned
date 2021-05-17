@@ -1,0 +1,18 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or give the formula for the following ionic compounds: \\
+\begin{tabularx}{0.75\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{3}{Y} }
+  \toprule
+\heading{Formula} & \multicolumn{3}{c}{\textbf{Name}}   \\
+    \midrule
+  \ce{MgO} & 	\multicolumn{3}{c}{     }    \\
+   \ce{Mg3N2}    & 	\multicolumn{3}{c}{     }    \\
+         & 	\multicolumn{3}{c}{  Lithium nitride   }    \\
+        & 	\multicolumn{3}{c}{  Magnesium carbide   }    \\
+      \bottomrule
+\end{tabularx}\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The name for  \ce{MgO}  is magnesium oxide. \ce{Mg3N2} is called magnesium nitride. The formula for Lithium nitride is \ce{Li3N} and the formula for Magnesium carbide is \ce{Mg2C}, result of simplifying \ce{Mg4C2} dividing by two, the smallest number.\\
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

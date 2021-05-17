@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The hydroxyl concentration in a basic solution is $2.3\cdot 10^{-6}$M. Calculate the concentration of protons.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $\big[ \ce{H^+}\big]=4.3\cdot 10^{-9}$M.
+ \end{flushright} }
+

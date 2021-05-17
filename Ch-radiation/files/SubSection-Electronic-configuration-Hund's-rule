@@ -1,0 +1,90 @@
+Let us build up the electron configuration of a series of atoms. Starting with hydrogen, with one electron, we have that only the 1$s$ orbitals will be filled:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;up}
+ \AO(4cm){s}{0; }
+  \AO(5.5cm){p}{0; ,  ,  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large H $1s^1 2s 2p $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+
+For the case of helium, with two electrons, we have that based on Pauli\textquotesingle s principle both electron have different quantum numbers and in order to differentiate this we will represent the pair of electron with arrows in opposite direction. We say both electrons are paired:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0; }
+  \AO(5.5cm){p}{0; ,  ,  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large He $1s^2 2s 2p $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+Now, for the case of Lithium and Beryllium we have a similar situation. Lithium has a single unpaired electron and Beryllium has a set of paired electrons in the 2$s$ orbital:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;up }
+  \AO(5.5cm){p}{0; ,  ,  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large Li $1s^2 2s^1 2p $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+ \begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;pair }
+  \AO(5.5cm){p}{0; ,  ,  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large Be $1s^2 2s^2 2p $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+The next element, Boron, has one electron in a $p$ orbitals. Ass all $p$ orbitals are degenerate--they have the same energy--we can place that single electron in any of the $p$ orbitals. Normally, we use the one on the left:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;pair }
+  \AO(5.5cm){p}{0; up,  ,  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large B $1s^2 2s^2 2p^2 $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+For the case of Carbon, as we need to place two electrons in the $p$ orbitals, Hund's rule states that we need to place the electron maximizing the number of unpaired electrons. In another words, the second electron goes into a separate $p$ orbital, just like below:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;pair }
+  \AO(5.5cm){p}{0; up,up  ,  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large C $1s^2 2s^2 2p^2 $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+Similarly, for the case of Nitrogen we have:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;pair }
+  \AO(5.5cm){p}{0; up,up  ,up  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large N $1s^2 2s^2 2p^3 $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+Now, for the case of oxygen, as we cannot place that extra electron in a separate $p$ orbital we have to start pairing electrons:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;pair }
+  \AO(5.5cm){p}{0; pair,up  ,up  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large O $1s^2 2s^2 2p^4 $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}
+Finally, for the case of Neon we have the whole second shell filled with electrons:
+\begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+ \AO(4cm){s}{0;pair }
+  \AO(5.5cm){p}{0; pair,pair  ,pair  }
+\node[right,xshift=4mm] at (-0.7,0) {\Large Ne $1s^2 2s^2 2p^6 $};
+\node[below  =  of AO1, yshift=3em]  {\Large 1s};
+\node[below  =  of AO2, yshift=3em]  {\Large 2s};
+\node[below  =  of AO2, yshift=3em, xshift=7em]  {\Large 2p};
+ \end{MOdiagram}\end{center}

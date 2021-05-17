@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+What is the empirical formula of a compound if a sample contains 10.28 g of C, 1.71 H and 12.71 g of oxygen?\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{CH2O}.
+ \end{flushright} }

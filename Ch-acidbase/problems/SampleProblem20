@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Explain why \ce{CO2} decreases the PH of blood.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\ce{CO2} is an acid and when dissolved in water it generates protons, \ce{H+}. Increasing the amount of protons decreases PH as PH is a measure the concentration of protons in solution.
+\\
+\import{./}{StudyCheck20}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

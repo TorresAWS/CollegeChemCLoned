@@ -1,0 +1,28 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Indicate if the following combination of quantum numbers is allowed:
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{4}{Y} }
+  \toprule
+\heading{$n$} & \heading{$\ell$}  &  \heading{$m_{\ell}$} & \heading{$m_s$} & \heading{Allowed?}   \\
+    \midrule
+  1	&	1	&	0	&	$+^1/_2$    \\
+   2	&	0&		0	&	$+^1/_2$   \\
+3		&3	&	-1	&	$-^1/_2$\\    
+    \bottomrule
+\end{tabularx}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The four quantum numbers are not independent. The quantum number $n$ is related to the quantum number $l$ and the number $l$ is related to $m_{\ell}$. The only quantum number that is independent is the spin, $m_s$ which can be $+^1/_2$ or $-^1/_2$. The first combination is not possible, as if $n=1$, $\ell$ can only be $n-1$, that is zero. The second combination is correct, as if $n=2$, the number $\ell$ can be: 0 or 1. At the same time if $\ell=0$, then $m_{\ell}$ can also be zero. And finally, the spin value of $+^1/_2$ is allowed. The last combination is not allowed, as $n$ and $\ell$ cannot be the same number.
+\begin{tabularx}{\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{4}{Y} }
+  \toprule
+\heading{$n$} & \heading{$\ell$}  &  \heading{$m_{\ell}$} & \heading{$m_s$} & \heading{Allowed?}   \\
+    \midrule
+  1	&	1	&	0	&	$+^1/_2$ & No   \\
+   2	&	0&		0	&	$+^1/_2$ & Yes   \\
+3		&3	&	-1	&	$-^1/_2$&No\\    
+    \bottomrule
+\end{tabularx}\vspace{0.5cm}
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,115 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+In an atom, the nucleus contains 
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item an equal number of protons and electrons.
+\item all the protons and neutrons.
+\item all the protons and electrons.
+\item only neutrons.
+\item only protons.
+\end{enumerate}
+\end{question}
+\begin{solution}
+(b)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The atomic number of an atom is equal to the number of  
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item nuclei
+\item neutrons
+\item neutrons plus protons.
+\item electrons plus protons.
+\item electrons
+\end{enumerate}
+\end{question}
+\begin{solution}
+(e)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The mass number of an atom is equal to the number of  
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item nuclei
+\item neutrons
+\item neutrons plus protons.
+\item electrons plus protons.
+\item electrons
+\end{enumerate}
+\end{question}
+\begin{solution}
+(c)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The mass number of an atom is equal to the number of  
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item electrons
+\item neutrons
+\item neutrons plus protons.
+\item  protons
+\end{enumerate}
+\end{question}
+\begin{solution}
+(c)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider a neutral atom with 30 protons and 34 neutrons. The atomic number of the element is
+\begin{multicols}{1}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item 30
+\item 32
+\item 34
+\item  64
+\item 94
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+(a)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider a neutral atom with 30 protons and 34 neutrons. The mass number of the element is
+\begin{multicols}{1}
+  \noindent
+  \begin{enumerate} [topsep=0pt, partopsep=1pt, label=(\alph*), leftmargin=1cm]
+\item 30
+\item 32
+\item 34
+\item  64
+\item 94
+\end{enumerate}
+\end{multicols}    
+\end{question}
+\begin{solution}
+(d)
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

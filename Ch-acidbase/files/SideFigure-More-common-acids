@@ -1,0 +1,28 @@
+   \begin{marginfigure}[.6cm]
+\begin{tikzpicture}  \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure9}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Bath bombs are made of acidic and basic ingredients that combine in water to make a fizzy bath time experience. };
+\end{tikzpicture}
+\end{marginfigure}
+
+
+   \begin{marginfigure}[.6cm]
+\begin{tikzpicture}  \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure8}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Ashes are basic. };
+\end{tikzpicture}
+\end{marginfigure}
+
+
+   \begin{marginfigure}[.6cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-acidbase/figure11}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Limestone reactant with hydrochloric acid to give carbon dioxide bubbles. };
+ \end{tikzpicture}
+\end{marginfigure}
+
+%   \begin{marginfigure}[.6cm]
+%\begin{tikzpicture}  \node (a) at (0,0) {\includegraphics[width=2.7cm, height=2.7cm]{../Ch-acidbase/figure12}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+%\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}Sulfuric acid (\ce{H2SO4}) is a very strong acid. };
+%\end{tikzpicture}
+%\end{marginfigure}
+
+
+ 

@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the work (in $\text{L}\cdot \text{atm}$) involved in the compresion of a gas from 10L to 5L at constant external pressure of 5atm. Convert the value in joules using 1J=$101.3\text{L}\cdot \text{atm}$.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: 25$\text{L}\cdot \text{atm}$, 0.24J.
+ \end{flushright} }
+

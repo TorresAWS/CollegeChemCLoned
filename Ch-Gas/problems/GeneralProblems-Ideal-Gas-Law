@@ -1,0 +1,162 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A gas contained in a 3L tank has a pressure of 5 atm at a temperature of 400 K.  Calculate the number of moles in the tank.
+\end{question}
+\begin{solution}
+5 moles
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Dinitrogen oxide, used in dentistry, is an anesthetic also called laughing gas. What is the pressure in atm of 0.35 moles of \ce{N2O} at 22$^{\circ}$C in a 5L container?
+\end{question}
+\begin{solution}
+1.7atm
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A 4 moles sample of gas at 400K has a pressure of 10 atm. Calculate the volume of the sample.
+\end{question}
+\begin{solution}
+1915 L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A 3 grams sample of Ar at 40$^\circ$C is placed in a 3L container. Calculate the pressure inside the container.
+\end{question}
+\begin{solution}
+0.64 atm
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Eighteen grams of a gas in a 11L container at 400K exert a pressure of 3 atm. Calculate the molar mass of the gas.
+\end{question}
+\begin{solution}
+18 $g/mol$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the molar mass of a gas if a 3.16 g sample at 0.75 atm and 45$^{\circ}$C occupies a volume of 2L.
+\end{question}
+\begin{solution}
+21 $g/mol$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Answer the following questions:
+\begin{inparaenum}[(a)]	
+\item  Calculate the volume of a 4 moles of Ar at STP conditions.
+\item   Calculate the volume of a 4 moles of Ne at STP conditions.
+\item Calculate the moles of gas in 3L  of Ar at STP conditions.
+\item Calculate the volume of 64 g of O2 gas at STP (273K, 1atm)
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  89.6L
+\item  89.6L
+\item 0.13mol
+\item 44.7L
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate what plot (or plots) bellow best represent the following gas laws:
+\begin{inparaenum}[(a)]	
+\item  Boyle's law
+\item   Charle's law
+\item Avogadro's law
+\end{inparaenum} 
+
+\begin{center}\begin{tikzpicture}[thick,scale=1.0, every node/.style={transform shape}]
+ %%%%%%
+ \begin{scope} [shift={(0.0,0.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm/3,title={\huge (a)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $P$},	xlabel = {\huge $V$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{1/x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(3.0,0.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm/3,title={\huge (b)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $P$},	xlabel = {\huge $T$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{1/x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(5.5,0.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm/3,title={\huge (c)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $P$},	xlabel = {\huge $n$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{1/x};
+\end{axis}
+\end{scope}
+ %%%%%%
+   %%%%%%
+ \begin{scope} [shift={(0.0,-3.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm,title={\huge (d)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $V$},	xlabel = {\huge $P$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(3.0,-3.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm,title={\huge (e)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $V$},	xlabel = {\huge $n$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{x};
+\end{axis}
+\end{scope}
+ %%%%%%
+  %%%%%%
+ \begin{scope} [shift={(5.5,-3.0)}, scale=0.45, transform shape]
+\begin{axis}[xtick=\empty,ytick=\empty,ultra thick,y=1.5cm,title={\huge (f)},
+    x=1.5cm,axis lines = left,yticklabels={,,},xticklabels={,,},
+ylabel = {\huge $V$},	xlabel = {\huge $T$}
+]
+\addplot [ domain=0:3, samples=30, color=red]
+{x};
+\end{axis}
+\end{scope}
+ %%%%%%
+\end{tikzpicture}\end{center}
+
+
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  (a)
+\item  (f)
+\item (e)
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

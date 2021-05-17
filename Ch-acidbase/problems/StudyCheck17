@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A 15mL sample of an unknown acid is neutralized with 45 mL of a \ce{NaOH} 1M solution. Calculate the molarity of the unknown acid.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $3$M
+ \end{flushright} }
+

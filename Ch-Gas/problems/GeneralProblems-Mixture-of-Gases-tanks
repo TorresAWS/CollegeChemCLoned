@@ -1,0 +1,88 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider the set up below with three different gases in three different closed containers at 300K. Assuming that the connecting tubes have zero volume, once the flasks are connected, calculate:
+\begin{inparaenum}[(a)]	
+\item  The partial pressure of each gas in the mixture
+\item  The total gas pressure
+\end{inparaenum} 
+
+\begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (0,1)-- ++ (4.5,0)   -- ++ (0,-1) -- ++ (-0.25,0) -- ++ (0,0.8)-- ++ (-1.9,0) -- ++ (0,-0.8) -- ++ (-0.25,0)-- ++ (0,0.8)-- ++ (-1.8,0)  -- ++ (0,-0.8) |- cycle ;
+\draw [green, very thick,  fill=yellow!10, xshift=0.05cm,yshift=3.3cm]  (0,0)-- ++(0,-1) arc (100:450:0.8)   -- ++(0,1)  |- cycle ;
+\draw [green, very thick,  fill=yellow!10, xshift=2.15cm,yshift=3.3cm]  (0,0)-- ++(0,-1) arc (100:450:0.8)   -- ++(0,1)  |- cycle ;
+\draw [green, very thick,  fill=yellow!10, xshift=4.29cm,yshift=3.3cm]  (0,0)-- ++(0,-1) arc (100:450:1.3)   -- ++(0,1)  |- cycle ;
+\begin{scope}[rotate=90,transform canvas={scale=.1},overlay,shift={(32cm,-2.3cm)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\end{scope}
+\begin{scope}[rotate=90,transform canvas={scale=.1},overlay,shift={(32cm,-23.3cm)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\end{scope}
+\begin{scope}[rotate=90,transform canvas={scale=.1},overlay,shift={(32cm,-44.4cm)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\end{scope}
+\node [shift={(0,1.4)}, font=\small,scale=1] { \ce{N2} };
+\node [shift={(2.2,1.4)}, font=\small,scale=1] { \ce{Ar} };
+\node [shift={(4.2,1.4)}, font=\small,scale=1] { \ce{O2} };
+
+\node [shift={(0,-0.5)}, font=\small,scale=1] {n=0.4moles};
+\node [shift={(0,-1.2)}, font=\small,scale=1] {V=1L}; 
+\node [shift={(2.5,-0.5)}, font=\small,scale=1] {n=0.3moles};
+\node [shift={(2.5,-1.2)}, font=\small,scale=1] {V=1L}; 
+\node [shift={(4.5,-.5)}, font=\small,scale=1] {n=0.6moles};
+\node [shift={(4.5,-1.2)}, font=\small,scale=1] {V=3L};
+\end{tikzpicture}\end{center}
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  $p_{\ce{N2}}$=1.97atm, $p_{\ce{Ar}}$=1.48atm,$p_{\ce{O2}}$=2.95atm
+\item  6.40 atm
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider the set up presented below, where the connecting tubes have negligible volume. Calculate the partial pressure of each gas after the connection between the flasks is open.
+\begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\draw [green, very thick,  fill=red!10] (0,0) -- ++ (-1,0) arc (0:350:1.0) -- ++ (1,0)   |- cycle ;
+\draw [green, very thick,  fill=yellow!10, yshift=.83cm]  (0,-1)-- ++(1,0) arc (190:540:1.0)  -- ++(-1,0)|- cycle ;
+\begin{scope}[transform canvas={scale=.1},overlay,shift={(-1,-1.8)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\node [shift={(-19,-10)}, font=\small,scale=6] {P=0.3atm};
+\node [shift={(-19,-14)}, font=\small,scale=6] {V=1L}; 
+\node [shift={(19,-10)}, font=\small,scale=6] {P=0.6atm};
+\node [shift={(19,-14)}, font=\small,scale=6] {V=1L}; 
+\node [shift={(-18,1)}, font=\small,scale=6] {\ce{Ne}}; 
+\node [shift={(18,1)}, font=\small,scale=6] {\ce{Ar}}; 
+\end{scope}
+\end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}\begin{inparaenum}[(a)]	
+\item  $p_{\ce{Ne}}$=0.15atm, $p_{\ce{Ar}}$=0.3atm
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+

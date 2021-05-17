@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Oxygen is collected over water in the decomposition of potassium chlorate:
+\begin{center}\ce{2KClO3_{(s)} -> 2KCl_{(s)} + 3O2_{(g)}}\end{center}
+Given that 20mL of gas are collected at 30$^{\circ}$C at a pressure of 0.9atm, and that the vapor pressure of water at that temperature is 0.0419 atm, calculate the number of moles of oxygen collected.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the number of moles of oxygen collected we need the partial pressure of oxygen, the temperature and the volume. We have that as the total pressure is 0.9atm and the partial pressure of water is 0.0419 atm, then the partial pressure of oxygen should be $0.9-0.0419$ atm, that is 0.481 atm. As we have the temperature (303K) and the volume (0.02L), we can calculate the number of moles of oxygen:
+\[n_{\ce{O2}}=\frac{P_{\ce{O2}}V}{RT}=\frac{0.481\cdot 0.02}{0.082\cdot 303}=3.8\times 10^{-4}\text{moles of }\ce{O2}\]
+\\
+\import{./}{StudyCheck9}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

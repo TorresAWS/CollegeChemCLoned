@@ -1,0 +1,17 @@
+  
+  \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Hydrogen reacts with nitrogen to produce ammonia (\ce{NH3}) according to the following reaction
+\begin{center}\ce{ 3H2_{(g)} + N2_{(g)} -> 2NH3_{(g)} } \hspace*{0pt}\hfill $\Delta H=-92KJ$.\end{center}
+
+Calculate: (a) the enthalpy of reaction; (b) indicate whether the reaction is endo or exothermic; (c) calculate the heat exchanged when produced 5 moles of ammonia.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) the heat of reaction is -92KJ, and (b) the reaction is exothermic as the heat appears as a product. This means the reaction produces heat.
+(c) We will use the conversion factor that relates ammonia with heat and will set up the moles of ammonia on the bottom of the conversion factor so that the units will cancel and energy will remain
+\begin{equation*}
+5\cancel{\text{ moles of }\ce{NH3}} \times \dfrac{\text{-92KJ}}{2\cancel{\text{ moles of }\ce{NH3}}}=-230KJ,
+\end{equation*}
+that is: 5 moles of ammonia produce -230KJ. The fact that this value is negative means that heat will be released.
+\\
+
+\import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

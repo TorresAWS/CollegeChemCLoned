@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\
+\ce{^222_86Rn} has a half-life of 3.8 days. How many milligrams of a 25mg sample will remain after 15 days.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 1.6mg.
+ \end{flushright} }
+

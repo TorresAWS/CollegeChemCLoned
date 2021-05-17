@@ -1,0 +1,5 @@
+ Sometimes, it is convenient to use another energy unit, called electron-volt, that makes these values have more reasonable values.%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}
+\boxed{    1 eV=1.60218\times 10^{-19} J   } \qquad\text{or}\qquad  \boxed{\frac{1 eV}{1.60218\times 10^{-19} J }}  
+\end{equation*}
+For example, the energy in eV of the first level is $E_1=-13.6eV$, whereas the energy of the third level is $E_3=-1.5J$.

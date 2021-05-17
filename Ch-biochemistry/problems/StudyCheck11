@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following AA as acidic, basic or neutral, and hydrophilic or hydrophobic:
+\begin{center}
+\cystein
+\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small neutral, polar 
+ \end{flushright} }

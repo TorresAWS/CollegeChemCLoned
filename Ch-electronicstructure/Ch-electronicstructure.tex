@@ -1,0 +1,122 @@
+\newcommand\chapterlabel{Ch-electronicstructure}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+\documentclass[main.tex]{subfiles}
+\setdoublesep{0.35700 em}  % 'Bond Spacing'
+\setatomsep{1.78500 em}    % 'Fixed Length'
+\setbondoffset{0.18265 em} % 'Margin Width'
+\newcommand{\bondwidth}{0.06642 em} % 'Line Width'
+\setbondstyle{line width = \bondwidth}
+ 
+
+\begin{document}
+
+\linenumbers
+
+
+\import{files/}{ChapterName}
+
+
+
+   
+\begin{marginfigure}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\end{tikzpicture}
+\label{fig:marginfig}
+\end{marginfigure}
+   
+   
+\import{files/}{ChapterIntro}
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\import{files/}{SectionGoal-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molecule}
+\import{files/}{SectionGoal-Electron-dot-structures-of-atoms-Electron-dot-structure-of-general-molecules}
+\import{files/}{SectionGoal-Hybrid-orbitals-From-ABE--code-to-hybridization}
+\import{files/}{SectionGoal-Molecular-orbital-theory-Paramagnetism-and-diamagnetism}
+\import{files/}{SectionGoal-Molecular-shape-ABE-Molecular-code}
+\import{files/}{SectionGoal-Polarity-of-molecules-Polarity-of-larger-molecules}
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+\import{files/}{Discussion } \end{tcolorbox}
+
+
+\end{marginfigure}%LEARNING GOALS BOX
+
+\section{Electron-dot structures of atoms}\import{files/}{SectionIntro-Electron-dot-structures-of-atoms}
+\sloppy\begin{description}
+\item[\docfilehook{Valence electrons}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-Valence-electrons}
+\import{problems/}{SampleProblem1}
+\item[\docfilehook{The octet rule}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-The-octet-rule}
+\item[\docfilehook{Electron-dot structure of an atom}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-an-atom}
+\import{problems/}{SampleProblem2}
+\item[\docfilehook{Electron-dot structure of diatomic molecules}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-diatomic-molecules}
+\import{problems/}{SampleProblem3}
+\item[\docfilehook{Electron-dot structure of general molecules}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-Electron-dot-structure-of-general-molecules}
+\import{problems/}{SampleProblem4}
+\item[\docfilehook{Atomic charges in a molecule}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-Atomic-charges-in-a-molecule}
+\import{problems/}{SampleProblem5}
+\item[\docfilehook{Multiple bonds}{}] \import{files/}{SubSection-Electron-dot-structures-of-atoms-Multiple-bonds} 
+\import{problems/}{SampleProblem6}
+\end{description}
+\section{Molecular shape}\import{files/}{SectionIntro-Molecular-shape}
+\sloppy\begin{description}
+\item[\docfilehook{ABE Molecular code}{}] \import{files/}{SubSection-Molecular-shape-ABE-Molecular-code}
+\import{files/}{Table-Molecular-geometries}
+\import{problems/}{SampleProblem7}
+\end{description}
+\section{Polarity of molecules}\import{files/}{SectionIntro-Polarity-of-molecules}
+\sloppy \begin{description}
+\item[\docfilehook{Bond polarity}{}] \import{files/}{SubSection-Polarity-of-molecules-Bond-polarity}
+\item[\docfilehook{Polarity of diatomic molecules}{}] \import{files/}{SubSection-Polarity-of-molecules-Polarity-of-diatomic-molecules}
+\import{files/}{SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity}
+\item[\docfilehook{Polarity of larger molecules}{}] \import{files/}{SubSection-Polarity-of-molecules-Polarity-of-larger-molecules}
+\import{problems/}{SampleProblem8}
+\item[\docfilehook{Polarity and mixing}{}] \import{files/}{SubSection-Polarity-of-molecules-Polarity-and-mixing}
+\item[\docfilehook{Molecules with the same polarity}{}] \import{files/}{SubSection-Polarity-of-molecules-Molecules-with-the-same-polarity}
+\item[\docfilehook{Molecules with different polarity}{}] \import{files/}{SubSection-Polarity-of-molecules-Molecules-with-different-polarity}
+\end{description}
+\import{files/}{Table-ABE-Code-hybridization}
+\section{Hybrid orbitals}\import{files/}{SectionIntro-Molecular-orbital-theory}
+\import{files/}{SideFigure-CH4-hybrid}	
+\sloppy \begin{description}
+\item[\docfilehook{From ABE  code to hybridization}{ }] \import{files/}{SubSection-Hybrid-orbitals-From-ABE--code-to-hybridization}
+\import{problems/}{SampleProblem9}
+\end{description}
+\section{Molecular orbital theory}
+\import{files/}{SectionIntro-Molecular-shape} 
+\import{files/}{SideFigure-Wave-interference-constructive}	
+\sloppy\begin{description}
+\item[\docfilehook{Bonding and antibonding orbitals}{}] \import{files/}{SubSection-Molecular-orbital-theory-Bonding-and-antibonding-orbitals}
+\import{files/}{Figure-Sigma-orbitals}  
+\vspace{1cm}\import{files/}{SideFigure-Wave-interference-destructive} \vspace{3cm}
+\item[\docfilehook{Sigma and pi orbitals}{}] 
+\import{files/}{SubSection-Molecular-orbital-theory-Sigma-and-pi-orbitals}
+\vspace{-1cm}\import{files/}{Figure-Pi-orbitals}
+\item[\docfilehook{The case of molecular hydrogen}{}] \import{files/}{SubSection-Molecular-orbital-theory-The-case-of-molecular-hydrogen}
+\import{files/}{Figure-H2-molecular-orbitals}
+\item[\docfilehook{The case of molecular helium}{}] \import{files/}{SubSection-Molecular-orbital-theory-The-case-of-molecular-helium}
+\import{files/}{Figure-He-orbital-diagrams}
+\item[\docfilehook{From MO diagram to MO configuration}{}] \import{files/}{SubSection-Molecular-orbital-theory-From-MO-diagram-to-MO-configuration}
+\import{files/}{Figure-N2-orbital-diagram}
+\item[\docfilehook{Bond order of a MO configuration}{}] \import{files/}{SubSection-Molecular-orbital-theory-Bond-order-of-a-MO-configuration}
+\import{problems/}{SampleProblem10}
+\item[\docfilehook{Paramagnetism and diamagnetism}{}] \import{files/}{SubSection-Molecular-orbital-theory-Paramagnetism-and-diamagnetism}
+\import{problems/}{SampleProblem11}
+\end{description}
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
