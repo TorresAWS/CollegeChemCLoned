@@ -1,0 +1,6 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Construct the electron-dot structure of \ce{CO2}.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \hspace{.05in}\chemfig{\lewis{35,O}=\lewis{,C}=\lewis{17,O}}
+ \end{flushright} }

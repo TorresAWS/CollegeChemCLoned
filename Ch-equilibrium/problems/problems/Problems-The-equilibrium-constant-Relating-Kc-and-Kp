@@ -1,0 +1,28 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Complete the table and calculate $K_c$ and $K_p$ at 300K:
+\begin{center}\begin{tabular}[t]{  c c  c       }
+\toprule
+Reaction	&	$K_c$  	&		$K_p$ \\
+\midrule
+\ce{2NH3_{(g)}  <=> N2_{(g)}	+ 3H2_{(g)}} &	17	&	 	\\
+\ce{2SO3_{(g)}  <=> 2SO2_{(g)} + O2_{(g)}} &	0.243	&	 	\\
+\ce{SO2Cl2_{(g)} <=> SO2_{(g)} + Cl2_{(g)}} &		&0.05	 	\\
+\ce{Cl2_{(g)}	+ Br2_{(g)}  <=>	 2BrCl2_{(g)} } &		&0.196	 	\\
+\bottomrule
+\end{tabular}\end{center}
+ \end{question}
+\begin{solution}
+\begin{center}\begin{tabular}[t]{  c c  c       }
+\toprule
+Reaction	&	$K_c$  	&		$K_p$ \\
+\midrule
+\ce{2NH3_{(g)}  <=> N2_{(g)}	+ 3H2_{(g)}} &	17	&10288	 	\\
+\ce{2SO3_{(g)}  <=> 2SO2_{(g)} + O2_{(g)}} &	0.243	&5.977	 	\\
+\ce{SO2Cl2_{(g)} <=> SO2_{(g)} + Cl2_{(g)}} &	$2\times 10^{-3}$	&0.05	 	\\
+\ce{Cl2_{(g)}	+ Br2_{(g)}  <=>	 2BrCl2_{(g)} } &0.196		&0.196	 	\\
+\bottomrule
+\end{tabular}\end{center}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+

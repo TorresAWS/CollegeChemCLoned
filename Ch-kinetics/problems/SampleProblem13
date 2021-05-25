@@ -1,0 +1,22 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The rate constant at 325K for the decomposition reaction \ce{C4H8 -> 2C2H4}? is $6.1\times10^{-8}\text{ s}^{-1}$, and the frequency factor is $3.9\times10^{-5}\text{ s}^{-1}$.    
+Calculate:
+\begin{inparaenum}[(a)]	
+\item the activation energy
+\item	 the rate constant at 200K
+\end{inparaenum} \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use the Arrhenius equation on its exponential form:
+\[k=A\myexp{\left(-\frac{E_a}{RT}\right)}\]
+As we know the frequency factor ($A=3.9\times10^{-5}\text{ s}^{-1}$) and the rate constant at a given temperature ($k=6.1\times10^{-8}\text{ s}^{-1}$ at 325K), we can solve for the activation energy:
+\[6.1\times10^{-8} =3.9\times10^{-5}\myexp{	\left(-\frac{E_a}{8.314\cdot 325}	\right)	}\]
+We have that 
+\[1.56\times10^{-3} = \myexp{\left(-\frac{E_a}{8.314\cdot 325}\right)}\]
+Using logarithms to solve for $E_a$:
+\[Ln(1.56\times10^{-3}) =  -\frac{E_a}{8.314\cdot 325}\]
+And solving for $E_a$:
+\[Ln(1.56\times10^{-3}) =  -\frac{E_a}{8.314\cdot 325}\]
+we have that $E_a$=17463.5J/mol in another words17kJ/mol.
+\\
+\import{./}{StudyCheck13} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

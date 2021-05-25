@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Smelling salts (\ce{(NH4)2CO3}) are chemical used to arouse consciousness. These are used by pro athletes to get into the zone before a game.  How many moles of salt do you have in 100 grams of these salts? \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We first need to calculate the molar mass of \ce{(NH4)2CO3}, a chemical with 2N, 8H, 1C and 3O atoms. The molar mass hence would be: $2\times 5+8\times 1+1\times 12 + 3\times 16=96g/mol$. In order to calculate the moles given the gram, you need to use the molar mass a conversion factor:
+ \begin{equation*}
+100  \cancel{\text{g of \ce{(NH4)2CO3}}} \times 
+\dfrac{\text{moles of }\ce{(NH4)2CO3} } { \cancel{96\text{ g of \ce{(NH4)2CO3}}} } 
+=\text{1.04 moles of }\ce{(NH4)2CO3}
+\end{equation*}\\
+ \import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

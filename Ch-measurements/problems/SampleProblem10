@@ -1,0 +1,13 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify as  element, compound, homogeneous mixture, heterogeneous mixture:
+\begin{inparaenum}[(a)]
+\item An iron nail
+\item Milk
+\item Sugar
+\item miso soup 
+\end{inparaenum}\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) An iron nail is an element as it is only made of iron, a single material; (b) Milk is a homogeneous mixture as it is made of water, fat, protein even though you only see a single substance; (c) Sugar is a compound made of carbon and other constituents; (d) miso soup is a mixture of water, fat and other chemicals and therefore is a mixture. As you can differentiate its constituents we call this heterogeneous mixture.\\
+\import{./}{StudyCheck10}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

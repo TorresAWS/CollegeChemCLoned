@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the following rate law as differential or integral and switch into the other form for an initial concentration of 0.3M.
+\begin{center}\[r=5\times 10^{-2}\]\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   $[\ce{A}] =-5\times 10^{-2}\cdot t + 0.3$
+ \end{flushright} }
+

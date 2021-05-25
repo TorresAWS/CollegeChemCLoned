@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+We prepare a solution by adding 5g of solute--a non-electrolyte--into 50mL of water. The solution experience a boiling point elevation of 5.3$^{\circ}$C. Given the boiling elevation constant of water, 1.86$^{\circ}$C/m, calculate the molar mass of the solute. Mind the density of water is 1g/mL.
+
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: 35.09g/mol
+ \end{flushright} }

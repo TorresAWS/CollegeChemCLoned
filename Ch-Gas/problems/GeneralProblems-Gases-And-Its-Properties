@@ -1,0 +1,40 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Convert the following properties:
+\begin{inparaenum}[(a)]	
+\item  A pressure value of 2 atm into mmHg
+%\item  A pressure value of 900 mmHg into torr
+\item  A pressure value of 3000 Pa into atm
+\item  A temperature value of 25$^{\circ}$C into K
+%\item  A temperature value of 400K into $^{\circ}$C
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  1520 mmHg
+%\item  $7\times 10^{5}$ torr
+\item $2.96\times 10^{-2}$ atm
+\item 298K
+%\item 121$^{\circ}$C
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Convert the following properties:
+\begin{inparaenum}[(a)]	
+\item  A pressure value of 900 mmHg into torr
+\item  A temperature value of 400K into $^{\circ}$C
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  $7\times 10^{5}$ torr
+\item 121$^{\circ}$C
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+ 
+
+ 

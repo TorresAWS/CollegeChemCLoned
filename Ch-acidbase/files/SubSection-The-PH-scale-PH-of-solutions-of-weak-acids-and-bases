@@ -1,0 +1,34 @@
+Imagine we prepare a weak acid solution and we want to estimate the PH of the resulting solution. The solution PH will depend on the molarity of the resulting solution. However, as weak acids and bases do not dissociate completely, the procedure and the formulas involved in the PH calculations differ from those of strong electrolytes, explained previously. In particular, for weak electrolytes, the calculation involves a quadratic equation. These equations can be solved either with the help of a graphic calculator or by means of a \faInternetExplorer \href{https://www.mathsisfun.com/quadratic-equation-solver.html}{\emph{ quadratic equation solver link}} that can be found in the internet. The resolution of quadratic formulas will lead to two different roots, a positive and a negative root. Only the positive root would make chemical sense. As such, you can directly toss the negative root.
+
+The quadratic formula involved in the PH calculation for a weak acid is shown below:
+\begin{equation}
+\boxed{ \big[ \ce{H^+} \big]^2 +K_a\cdot \big[ \ce{H^+} \big] -K_a\cdot c_a=0}\;\;\;    \text{            with  }\big[ \ce{H^+} \big]=x  \label{\chapterlabel:equation9}
+\end{equation}
+where:
+\begin{where}
+ \item $\big[ \ce{H^+} \big]=x$  is concentration of protons in equilibrium
+ \item $K_a$   is acidity constant of the acid
+ \item $c_a$   is the molarity of the acid solution
+\end{where}
+For example, the PH of a 0.1M HF solution, given that HF is a weak acid with $K_a=6.3 \times 10^{-4}$, will be given by:
+\[ \big[ \ce{H^+} \big]^2 +6.3 \times 10^{-4}\cdot \big[ \ce{H^+} \big] -6.3 \times 10^{-5}=0 
+\]
+Solving the quadratic equation, we obtain two roots: $\big[ \ce{H^+} \big]= 0.0076$ and $\big[ \ce{H^+} \big]= -0.0082 $. Only the positive root will be valid and hence we have:
+\[ \big[ \ce{H^+} \big]= 0.0076\]
+The PH of the solution will be 2.11.  There is an equivalent formula involved in the calculation of the PH of a weak base: 
+\begin{equation}
+\boxed{ \big[ \ce{OH^-} \big]^2 +K_b\cdot \big[ \ce{OH^-} \big] -K_b\cdot c_b=0}\;\;\; \text{            with  }\big[ \ce{OH^-} \big]=x \label{\chapterlabel:equation10}
+\end{equation}
+where:
+\begin{where}
+ \item $\big[ \ce{OH^-} \big]=x$  is concentration of hydroxyls in equilibrium
+  \item $K_b$   is basicity constant of the base
+ \item $c_b$   is the molarity of the base solution
+\end{where}
+Mind that in order to calculate the PH or POH you will need to employ Equations \ref{\chapterlabel:equation3} and \ref{\chapterlabel:equation4}. For example, the PH of a 0.1M \ce{NH3} solution, given that ammonia is a weak base with $K_b=1.8 \times 10^{-5}$, will be given by:
+\[ \big[ \ce{OH^-} \big]^2 +1.8 \times 10^{-5}\cdot \big[ \ce{OH^-} \big] -1.8 \times 10^{-6}=0 
+\]
+Solving the quadratic equation, we obtain two roots: 
+$ \big[ \ce{OH^-} \big]= -0.0013$ and $\big[ \ce{OH^-} \big]= 0.0013 $. Only the positive root will have chemical meaning and hence we have:
+\[ \big[ \ce{OH^-} \big]= 0.0013\]
+The POH of the solution will be 2.88 and the PH will be 11.11. The following example will further demonstrate the use of these formulas.

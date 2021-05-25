@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Methane (\ce{CH4}) reacts with oxygen (\ce{O2}) to produce carbon dioxide (\ce{CO2}) and water (\ce{H2O}) according to the following reaction
+\begin{center}\ce{CH4(g) + O2(g) -> CO2(g) + H2O(g)}\end{center}
+(a) What happens to the number of collision between \ce{CH4} and \ce{O2} when you add extra oxygen?; (b) How would increasing temperature impacts the rate of the reaction?\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) The more reactants the mode collisions between their molecules. (b) Increasing temperature would increase the rate of the combustion reaction, as increasing temperature increases collisions. 
+\\
+\import{./}{StudyCheck11} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

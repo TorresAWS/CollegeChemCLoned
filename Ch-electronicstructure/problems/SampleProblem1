@@ -1,0 +1,7 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Indicate the number of valence electrons for the following atoms: N, O, C and S.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Nitrogen is in group VA and hence it has five valence electrons (5\ce{e^-}). Oxygen belongs to the group VIA and C belong to IVA, hence they have 
+\\
+ \import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

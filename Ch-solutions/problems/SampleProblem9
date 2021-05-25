@@ -1,0 +1,21 @@
+ \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A solution of 0.07M HF--a weak electrolyte--has a osmotic pressure of 2atm at 298K. Calculate:
+\begin{inparaenum}[(a)]	
+\item The nominal solute concentration.
+\item The effective ion concentration.
+\item  The percent dissociation of the acid.
+\end{inparaenum}\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) The nominal solute concentration is 0.07M.
+(b) The osmotic pressure depends on molarity and temperature. We know the temperature, R is 0.082atmL/Kmol, and the vale of the osmotic pressure. With this information we can calculate the effective concentration of particles in solution:
+\[i\cdot M=\frac{\pi}{RT}=\frac{2}{0.082\cdot 298}=0.08M\]
+This value accounts for the overall concentration of solute particles in the form of molecules and ions.
+(c)  The osmotic pressure is related to the effective molarity and given that we know the nominal solute concentration, we can calculate the degree of dissociation of the acid:
+\[c^{\text{effective}}=c^{\text{Nominal}}\cdot (1+ (i-1)\frac{\alpha}{100})\]
+Plugging the given values we have:
+\[0.08=0.07\cdot (1+ (2-1)\frac{\alpha}{100}) \]
+We can solve for $\alpha$:
+\[ \alpha=100\cdot (0.08/0.07-1)=14.28\% \]
+This results indicated that 14\% of the electrolyte dissociates  forming \ce{H^+ + F-}, whereas 86\% stays in the form of \ce{HF}.\\
+\import{./}{StudyCheck9}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

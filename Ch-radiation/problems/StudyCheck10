@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Obtain the abbreviated electronic configuration of Cobalt (Co, Z=27).
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $ [Ar] 3d^7 4s^2$. 
+ \end{flushright} }

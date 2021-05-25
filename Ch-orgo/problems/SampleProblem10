@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name the following hydrocarbon:
+\begin{center}\chemname{\chemfig{*5(--(-F)--(-Br)-)} }{}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The molecule is a cyclopentane with two substituents: fluoro and bromo. I will start numbering in bromo and continue until bromo. This way I will have small numbers and follow the abc rule:
+\begin{center}\chemname{\chemfig{*5(--(!\C)(-F)-(!\B)-(!\A)(-Br)-)} }{}\end{center}
+And the name of the molecule would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-bromo-3-fluorocyclopentane. \end{flushright}
+\import{./}{StudyCheck10}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

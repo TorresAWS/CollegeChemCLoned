@@ -1,0 +1,51 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The following plots results from processing kinetic data by means of the integral method. They are all perfect lines with $r^2$=0.99. Indicate the order of the reaction.
+\begin{center}\begin{tikzpicture}
+  \begin{axis}[
+            axis lines=middle,
+             enlargelimits=0.1,y=0.5cm/3,
+    x=0.4cm,
+%            xmin=0,
+%            xmax=1.0,
+%            ymin=0.01,
+%            ymax=0.1,
+            xtick=\empty,
+            ytick=\empty,xtick distance=0.05,
+            xlabel=$\text{t, s}$,
+            ylabel=$\frac{1}{\text{[A]}}\text{M}^{-1}$,
+            x label style={at={(axis description cs:0.9,0.45)},anchor=north},
+    y label style={at={(axis description cs:0.5,.9)},rotate=90,anchor=south},
+%             domain=\pgfkeysvalueof{/pgfplots/xmin}:(\pgfkeysvalueof{/pgfplots/xmax},
+        ]
+            \addplot [thick,draw=blue!75!black]{2*x+1)};
+                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{2*x+1};
+	        \end{axis}
+	        
+\end{tikzpicture}\hspace{0.5cm}\vspace{-0.6cm}
+\begin{tikzpicture}
+  \begin{axis}[
+            axis lines=middle,
+             enlargelimits=0.1,y=0.35cm/3,
+    x=0.4cm,
+%            xmin=0,
+%            xmax=1.0,
+%            ymin=0.01,
+%            ymax=0.1,
+            xtick=\empty,
+            ytick=\empty,xtick distance=0.05,
+            xlabel=$\text{Ln([A])}$ ,
+            ylabel=$\text{t, s}$,
+            x label style={at={(axis description cs:0.9,0.45)},anchor=north},
+    y label style={at={(axis description cs:0.5,.9)},rotate=90,anchor=south},
+%             domain=\pgfkeysvalueof{/pgfplots/xmin}:(\pgfkeysvalueof{/pgfplots/xmax},
+        ]
+            \addplot [thick,draw=blue!75!black]{-3*x+1)};
+                         \addplot [blue!75!black, mark=*,  draw=none , samples=5 ]{-3*x+1};
+	        \end{axis}
+	        
+\end{tikzpicture}
+\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   Left (order 2), right (order 1)
+ \end{flushright} }
+

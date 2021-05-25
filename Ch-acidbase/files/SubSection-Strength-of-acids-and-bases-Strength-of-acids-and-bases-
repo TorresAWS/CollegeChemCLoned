@@ -1,0 +1,14 @@
+How do we quantify the strength of an acid or base? Weak acids dissociate partially in water. And hence, the dissociation process is in equilibrium. This means we will have at the same time in the same container the molecular form of the acid and its ionic-conjugate form. For this reason, we can employ equilibrium constant $K_a$--in this chapter they are called acidity constant equivalent to $K_c$--to characterize the degree of dissociation. The larger $K_a$ the stronger the acid and hence the more protons will the acid produced in solution. 
+Let's consider the case of \ce{HF}. We have that the expression of the acidity constant will be:
+\begin{center}\ce{HF_{(aq)}  <=>[H2O] H^+_{(aq)}  +F^{-}_{(aq)} } \hspace{1cm} $K_a=\frac{\big[ \ce{H^+} \big] \cdot \big[ \ce{F^-} \big]} {\big[ \ce{HF} \big] }$\end{center}
+If we compare the acidity constant of two different acids, for example, hydrofluoric acid and hypochlorous acid 
+\begin{center}\ce{HF_{(aq)}  <=>[H2O] H^+_{(aq)}  +F^{-}_{(aq)} } \hspace{1cm} $K_a=6.30\times 10^{-4}$\end{center}
+\begin{center}\ce{HClO_{(l)}  <=>[H2O] H^+_{(aq)}  +ClO^{-}_{(aq)} } \hspace{1cm} $K_a=4.00\times 10^{-8}$\end{center}
+we can conclude that \ce{HF} is stronger than \ce{HClO} as its acidity constant is larger.
+In a very similar way, bases also have what we call base dissociation constants: $K_b$. The bigger this value the stronger the base and the more hydroxyls will be produced. For the case of ammonia:
+\begin{center}\ce{NH3_{(aq)} + H2O_{(l)} <=>NH4^+_{(aq)}  +OH^{-}_{(aq)} } \hspace{1cm} $K_b=\frac{\big[ \ce{NH4^+} \big] \cdot \big[ \ce{OH^-} \big]} {\big[ \ce{NH3} \big] }$\end{center}
+remember liquid water can not be part of an equilibrium constant. 
+If we compare the basicity constant of two different bases, for example, ammonia and hydrazine 
+\begin{center}\ce{NH3_{(aq)} + H2O_{(l)} <=>NH4^+_{(aq)}  +OH^{-}_{(aq)} }\hspace{1cm} $K_b=1.80\times 10^{-5}$\end{center}
+\begin{center}\ce{N2H4_{(aq)} + H2O_{(l)} <=>N2H5^+_{(aq)}  +OH^{-}_{(aq)} } \hspace{1cm} $K_b=1.30\times 10^{-6}$\end{center}
+we can conclude that \ce{NH3} is stronger than \ce{N2H4} as its basicity constant is larger.

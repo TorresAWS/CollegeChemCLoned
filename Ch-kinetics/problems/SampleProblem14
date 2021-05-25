@@ -1,0 +1,56 @@
+The following example shows how to use rate constant and temperature data in order to graphically compute the Arrhenius parameters.
+
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Using the following data, calculate the Arrhenius parameters (the activation energy and the frequency factor) for the following gas-phase reaction:
+\begin{center}\ce{HS + O3 -> HSO + O2}\end{center}
+\begin{center}\begin{tabular}[t]{   c  c   }
+\toprule
+  $T$ ( K)	&$k$, ($s^{-1}$) \\
+\midrule
+100&	$5.8\times 10^{-13}$\\
+200&	$2.3\times 10^{-12}$\\
+300&	$3.7\times 10^{-12}$\\
+400&$4.7\times 10^{-12}$\\
+\bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As they provide with rate constant and temperature data, we will use the linearized form of Arrhenius equation in order to calculate the activation energy and the frequency factor. We will first process the data and compute the natural logarithm of the rate constant and the inverse of temperature.
+\begin{center}\begin{tabular}[t]{   c cc c   }
+\toprule
+  $T$ ( K)	&$\frac{1}{T}$ ( K$^{-1}$)	&$k$, ($s^{-1}$)&$Ln(k)$  \\
+\midrule
+100&		$1.0\times 10^{-2}$				&	$5.8\times 10^{-13}$&-28.17\\
+200&		$5.0\times 10^{-3}$	&	$2.3\times 10^{-12}$&-26.80\\
+300&		$3.3\times 10^{-3}$	&	$3.7\times 10^{-12}$&-26.32\\
+400&		$2.5\times 10^{-3}$	&	$4.7\times 10^{-12}$&-26.08\\
+\bottomrule
+\end{tabular}\end{center}
+Now we are ready to graph the Arrhenius plot with $\frac{1}{T}$ in the horizontal (x) axis and $Ln(k)$ in the vertical (y) axis.
+
+
+ \pgfplotstableread{   
+ oneoverT		Lnk 
+ 	0.01		  -28.17
+ 	0.005	 -26.80
+ 	0.0033	 -26.32
+ 	0.0025	 -26.08
+}\tableLabel
+\MakeRegression{oneoverT}{Lnk}{reg1}{\SlA}{\IntA}{\RsqA}
+\hspace{-0.3cm}\begin{center}\begin{tikzpicture}
+\begin{groupplot}[height=5cm,width=6.4cm,
+  group style={
+    group size=1 by 1 ,
+  }
+]
+\nextgroupplot[title={$Ln(k)$ vs. $\frac{1}{T}$}, legend style={at={(1.05,1.4)} }]
+\addplot +[mark=none, color=red, fill=red] table [x=oneoverT, y=reg1] {\tableLabel};
+\addplot +[only marks, color=red, fill=red] table [x=oneoverT, y=Lnk]  {\tableLabel};   
+\addlegendentry{\LegendEntryB{\SlA}{\IntA}{\RsqA}}
+\end{groupplot}
+
+\end{tikzpicture}\end{center}
+From the slope of the graph we will calculate $-\frac{E_a}{R}$ and from the intersect we will calculate $Ln(A)$. We have that $\frac{E_a}{R}=227.57$ and $Ln(A)=-25.4$. We have that the Arrhenius parameters are: $E_a=1892J/mol$ and $A=9.3\times 10^{-12}$ s$^{-1}$.\\
+\import{./}{StudyCheck14} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

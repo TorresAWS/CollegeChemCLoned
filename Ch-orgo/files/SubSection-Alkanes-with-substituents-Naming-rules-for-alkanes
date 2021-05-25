@@ -1,0 +1,6 @@
+Overall, the rules to name alkanes are:
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} The number of carbon atoms in the chain will give the ending name of the molecule (e.g. four carbons would be butane).
+\item \begin{bf}Step two:\end{bf} Number the main chain starting at the end closest to the substituents so that the numbers for the substituents are small.
+ \item \begin{bf}Step three:\end{bf} Name the substituents with their position and order them alphabetically (di, tri etc. do not count in the alphabetic order).
+\end{enumerate}

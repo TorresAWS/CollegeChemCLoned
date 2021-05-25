@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}  
+%\resizebox{1.0\textwidth}{!}{
+\tiny\begin{tikzpicture}[square/.style={thin, draw,regular polygon,regular polygon sides=4, fill=gray!50,minimum width=1pt, minimum height = 1pt,font=\small, anchor=center, text width=2em,align=center},outer sep=0,inner sep=0]
+\begin{scope}[shift={(-15em,-0 em)}]
+   \draw [dashed]  (-5em,0em) -- (65em,0em) node[xshift=1.6em] {} ;
+   \draw [dashed]  (-5em,-4em) -- (65em,-4em) node[xshift=1.6em] {} ;
+   \draw [dashed]  (-5em,-9em) -- (65em,-9em) node[xshift=1.6em] {} ;
+   \draw [dashed]  (-5em,-16em) -- (65em,-16em) node[xshift=1.6em] {} ;
+
+      \node [square, fill=red]  (Y11) at (0 em,0 em) {4s};
+       \node [square, fill=green]  (Y21) at (4 em,0 em) { 4p };
+       \node [square, fill=green]  (Y21) at (8 em,0 em) { 4p };
+       \node [square, fill=green]  (Y21) at (12 em,0 em) { 4p };
+       \node [square, fill=yellow]  (Y21) at (17 em,0 em) { 4d };
+       \node [square, fill=yellow]  (Y21) at (21 em,0 em) { 4d };
+       \node [square, fill=yellow]  (Y21) at (25 em,0 em) { 4d };
+       \node [square, fill=yellow]  (Y21) at (29 em,0 em) { 4d };
+       \node [square, fill=yellow]  (Y21) at (33 em,0 em) { 4d };
+       \node [square, fill=yellow]  (Y21) at (39 em,0 em) { 4f };
+       \node [square, fill=yellow]  (Y21) at (43 em,0 em) { 4f };
+       \node [square, fill=yellow]  (Y21) at (47 em,0 em) { 4f };
+       \node [square, fill=yellow]  (Y21) at (51 em,0 em) { 4f };
+       \node [square, fill=yellow]  (Y21) at (55 em,0 em) { 4f };
+       \node [square, fill=yellow]  (Y21) at (59 em,0 em) { 4f };
+       \node [square, fill=yellow]  (Y21) at (63 em,0 em) { 4f };
+
+    \node [square, fill=red]  (Y11) at (0 em,-4 em) {3s};
+       \node [square, fill=green]  (Y21) at (4 em,-4 em) { 3p };
+       \node [square, fill=green]  (Y21) at (8 em,-4 em) { 3p };
+       \node [square, fill=green]  (Y21) at (12 em,-4 em) { 3p };
+       \node [square, fill=yellow]  (Y21) at (17 em,-4 em) { 3d };
+       \node [square, fill=yellow]  (Y21) at (21 em,-4 em) { 3d };
+       \node [square, fill=yellow]  (Y21) at (25 em,-4 em) { 3d };
+       \node [square, fill=yellow]  (Y21) at (29 em,-4 em) { 3d };
+       \node [square, fill=yellow]  (Y21) at (33 em,-4 em) { 3d };
+
+   \node [square, fill=red]  (Y11) at (0 em,-9 em) {2s};
+       \node [square, fill=green]  (Y21) at (4 em,-9 em) { 2p };
+       \node [square, fill=green]  (Y21) at (8 em,-9 em) { 2p };
+       \node [square, fill=green]  (Y21) at (12 em,-9 em) { 2p };
+ 
+  \node [square, fill=red]  (Y11) at (0 em,-16 em) {1s};
+  
+        \draw [->]  (-6em,-20em) -- (-6em,10em) node [xshift=1.6em, rotate=90, xshift=-10em, yshift=4em] {\large Energy} ;
+        \end{scope} 
+
+        \begin{scope}[shift={(5em,-2 em)}]
+
+\node[font=\normalsize, xshift=6em, yshift=-0em, text width=12cm, fontscale=3.0] at (-0em,-25em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Energy of the different hydrogen orbitals. $s$ orbitals have the lowest energy and hence are the most stable. Orbitals in the same shell (2$p$, 2$s$) have the same energy. The larger the principal quantum number the more positive the energy, the less stable the orbital. };
+
+\end{scope} 
+
+
+ \end{tikzpicture}
+ %}
+ 
+}\end{minipage}
+   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

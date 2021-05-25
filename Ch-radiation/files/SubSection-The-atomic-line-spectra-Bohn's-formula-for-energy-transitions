@@ -1,0 +1,13 @@
+Bohr's formula gives you the values of the energy levels. If we subtract the energy values for two energy levels, we obtain the energy for a transition. 
+The energy for an electron transition between two energy levels, from $n_1$ to $n_2$ is given by:
+%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}
+\boxed{  \Delta E_{n_1\rightarrow n_2}=-2.178\times 10^{-18} \Bigg( \frac{1}{n_2^2}-\frac{1}{n_1^2}\Bigg)  } \quad \textcolor{blue}{\text{Energy transition formula}}
+\end{equation*}
+where:
+\begin{where}
+ \item $\Delta E_{{n_2}\rightarrow n{_1}}$   is the energy in joules for the transition, the line in the spectra
+ \item $n_2$  is the number of the final level
+  \item $n_1$  is the number of the initial level
+    \item $-2.178\times 10^{-18}J=R_H$  is called the Rydberg ($-13.59eV=R_H$)
+\end{where}

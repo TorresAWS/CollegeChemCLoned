@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Identify the unknown isotope in the following nuclear reaction:\\
+\centerline{ \ce{^241_95Am -> ^A_ZX + ^4_{2}He}}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{^237_93Np}
+ \end{flushright} }
+

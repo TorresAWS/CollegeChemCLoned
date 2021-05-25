@@ -1,0 +1,16 @@
+\begin{marginfigure}[-0cm]%%%%%%%% MARGIN FIGURE
+ 
+\begin{tikzpicture}\node  (0,0 ) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/figure8}};
+   \node[text width=5cm, shift={(-0cm,-4cm)}] at (-0cm,-0cm) {\mytriangle{red}Henry Louis Le Ch\^{a}telier was a french chemist who devised a principle used by chemists to predict the effect a changing condition has on a system in chemical equilibrium. };
+\end{tikzpicture}
+ 
+\end{marginfigure}%%%%%%% MARGIN FIGURE
+
+
+
+
+
+
+   
+
+

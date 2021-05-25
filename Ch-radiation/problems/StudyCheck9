@@ -1,0 +1,4 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\Obtain the electronic configuration of Ni.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^8$. 
+ \end{flushright} }

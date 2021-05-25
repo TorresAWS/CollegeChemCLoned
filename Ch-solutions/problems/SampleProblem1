@@ -1,0 +1,27 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A solution is prepared by mixing 1g of NaCl (MW=59g/mol) in 100g of water to give a final volume of 120mL. Calculate: 
+\begin{inparaenum}[(a)]	
+\item The percent by mass of solute
+\item	 The mole fraction of solute 
+\item  The molarity of the solution
+\item  The molality of the solution
+\item  The density of the solution
+\end{inparaenum}\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In this example it is convenient to recall all the parameters we have in terms of solute, solvent and solution. 
+Regarding the solute, we have the mass of solute ($m_{\text{solute}}=1g$), and the moles of solute ($n_{\text{solute}}=1g\times \frac{\text{1 mol of NaCl}}{\text{59g of NaCl}}=0.017 \text{moles}$). Regarding the solvent, we have the mass of solvent ($m_{\text{solvent}}=100$g=0.1kg), the moles of water ($n_{\text{solvent}}=100g\times \frac{\text{1 mol of }\ce{H2O}}{\text{18g of }\ce{H2O}}=5.6 \text{moles}$), and the volume of solvent ($v_{\text{solvent}}=100$mL). Mind that in the case of water, very normally, its mass in grams equals to its volume in mL. In terms of solution, we can compute the mass of solution ($m_{\text{solution}}=1+100=101$g), the moles of solution ($n_{\text{solution}}=0.017+5.6=5.617\text{moles}$), and the volume of solution ($v_{\text{solution}}=120$mL=0.12L). Now, we are ready to compute all concentration units of the solution. The percent by mass of solute is the ration between the mass of solute and the mass of solution times 100:
+\[\%_m=\frac{\text{mass of solute}}{\text{mass of solute + mass of solvent}}\times 100
+=\frac{1\text{g of solute}}{101\text{g of solution}}\times 100=0.99\%\]
+The mole fraction is the ration between the moles of solute and moles of solution:
+\[\chi=\frac{\text{moles of solute}}{\text{moles of solute + moles of solvent}}
+=\frac{0.017\text{moles of solute}}{5.617\text{moles of solution}}=3.02\times 10^{-3}	\]
+The molarity of the solution is the ration between the moles of solute and the liters of solution:
+\[\text{M}=\frac{\text{moles of solute}}{\text{liters of solution}}=\frac{5.617\text{moles of solution}}{0.12\text{L of solution}}=46.8\text{M}\]
+The molality is the ration between the moles of solute and the kg of solvent:
+\[	\text{m}=\frac{\text{moles of solute}}{\text{kg of solvent}} =\frac{0.017\text{moles of solute}}{0.1\text{kg of solvent}}=0.17\text{m}
+	\]
+Finally, density of the solution is the ration of the grams of solution and the volume of solution:
+\[\text{d}=\frac{\text{grams of solution}}{\text{mL of solution}} = \frac{101\text{g of solution}}{120\text{mL of solution}}=0.84\text{g/mL}
+	\]
+\import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

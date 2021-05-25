@@ -1,0 +1,5 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Construct the electron-dot structure of \ce{HF}.\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: \chemfig{ H-[:0]\lewis{026,F}}\hspace{.05in}.
+ \end{flushright} }

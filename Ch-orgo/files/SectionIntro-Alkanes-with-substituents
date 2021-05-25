@@ -1,0 +1,4 @@
+Oftentimes alkanes have other groups of atoms called substituents attached to the hydrocarbon chain. This section covers the naming of alkanes with substituents. Here is an example of an alkane and an alkane with a substituent:
+\begin{center}\chemname{\chemfig{CH_2(-[:90,1]H)-CH_2-CH_3}}{Propane}\hspace{1cm}
+\chemname{\chemfig{CH_2(-[:90,1]NO_2)-CH_2-CH_3}}{Nitropropane}\end{center}
+In the substituted molecule, a nitro group has replaced a hydrogen atom.

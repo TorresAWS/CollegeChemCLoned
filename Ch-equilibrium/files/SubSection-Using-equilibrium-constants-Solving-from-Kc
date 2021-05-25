@@ -1,0 +1,10 @@
+Let's analyze the reaction of hydrogen (\ce{H2}) and iodine (\ce{I2}) to produce hydrogen iodide (\ce{HI}):
+\begin{center}\ce{H2(g) + I2(g) <=> 2HI(g)}\end{center}
+The equilibrium constant at 300K is $3\cdot 10^{-1}$. Analyzing a reaction mixture we find that the concentration of \ce{H2} is 1M and the concentration of \ce{I2} is 2M. We want to calculate how much \ce{HI} do we have in the mixture. As the concentrations of reactants and products are linked together through $K_c$ we can certainly solve for $\big[ \ce{HI} \big]$. The expression for $K_c$ is:
+\begin{equation*}  K_{c}=\frac{\big[ \ce{HI} \big]^2 } {\big[ \ce{H2} \big] \cdot \big[ \ce{I2} \big]}\end{equation*} 
+and we know that $\big[ \ce{H2} \big]=1M$ and $\big[ \ce{I2} \big]=2M$. Plugging the values in the expression of $K_c$, and given the numerical value of $K_c$ we have:
+\begin{equation*} 3\cdot 10^{-1}=\frac{\big[ \ce{HI} \big]^2 } {1 \cdot 2^2}\end{equation*} 
+Solving for $\big[ \ce{HI} \big]$ we have 
+\begin{equation*} \big[ \ce{HI} \big]^2=1.2     \end{equation*} 
+To solve for $\big[ \ce{HI} \big]$ we have to use an square root:
+\begin{equation*} \big[ \ce{HI} \big]=\sqrt[2]{1.2}=1.09M     \end{equation*} 

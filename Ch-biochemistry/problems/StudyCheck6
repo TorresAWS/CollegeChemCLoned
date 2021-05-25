@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Lignoceric acid is a saturated fatty acid with 24 carbons found in wood tar and peanut oil contain. Write down its skeletal formula.
+\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Ans: \small \setpolymerdelim()\chemfig{HO-[:45](=[:90]O)-[@{A,0.5}:-45,1]-[:45]-[@{B,0.5}:-45,1]}\makebraces(12pt,12pt){$\scriptstyle\!\!11$}{A}{B}
+ \end{flushright} }

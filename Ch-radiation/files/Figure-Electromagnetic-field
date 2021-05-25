@@ -1,0 +1,26 @@
+%%%%%%%%%%%FIGURE %%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\begin{center}
+  \begin{tikzpicture} [every node/.style={scale=0.9}]
+          \begin{scope}[xshift =0em, yshift =5em]% Axes
+    \draw (-1,0,0) node[above] {$x$} -- (5,0,0);
+    \draw (0,0,0) -- (0,2,0) node[above] {$y$};
+    \draw (0,0,0) -- (0,0,2) node[left] {$z$};
+    % Propagation
+    \draw[->,ultra thick] (5,0,0) -- node[above] {$c$} (6,0,0);
+    % Waves
+    \draw[thick] plot[domain=0:4.5,samples=200] (\x,{cos(deg(pi*\x))},0);
+    \draw[gray,thick] plot[domain=0:4.5,samples=200] (\x,0,{cos(deg(pi*\x))});
+    % Arrows
+    \foreach \x in {0.1,0.3,...,4.4} {
+      \draw[->,help lines] (\x,0,0) -- (\x,{cos(deg(pi*\x))},0);
+      \draw[->,help lines] (\x,0,0) -- (\x,0,{cos(deg(pi*\x))});
+    }
+    % Labels
+    \node[above right] at (0,1,0) {$\bm{E}$};
+    \node[below] at (0,0,1) {$\bm{B}$};
+      \end{scope} 
+            \begin{scope}[xshift =-2em, yshift =10em]
+\node[text width=5cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The electric ($E$) and magnetic ($B$) field components of an electromagnetic wave. Both fields are perpendicular.   };
+   \end{scope} 
+  \end{tikzpicture}\end{center} 
+ %%%%%%%%%%%FIGURE %%%%%%%%%%%

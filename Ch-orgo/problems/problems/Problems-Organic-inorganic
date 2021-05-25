@@ -1,0 +1,34 @@
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following chemicals in two different categories. Give a rationale for your classification. For the group with more chemicals, further classify those chemicals in two categories.
+\begin{inparaenum}[(a)]
+\item \ce{KCl} % (ionic, inorganic)
+\item \ce{C2H2} %(covalent, organic)
+\item \ce{C4H10} %(covalent, organic)
+\item \ce{FeO_{(s)}} %(ionic, inorganic)
+\item \ce{C6H12} %(covalent, organic)
+\item \ce{PH3} %(covalent, inorganic)
+\item \ce{H2O} %(covalent, inorganic)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{KCl}   (ionic, inorganic)
+\item \ce{C2H2}  (covalent, organic)
+\item \ce{C4H10}  (covalent, organic)
+\item \ce{FeO_{(s)}}  (ionic, inorganic)
+\item \ce{C6H12}  (covalent, organic)
+\item \ce{PH3}  (covalent, inorganic)
+\item \ce{H2O}  (covalent, inorganic)
+\end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Working in groups, select an everyday-life object (e.g  a spoon) and guess whether the materials that made this object are mostly organic or inorganic (e.g mostly inorganic). Without revealing your answer, present the material you selected to another team member and ask him or her to give you his or her point or view regarding whether the materials that made this object are mostly organic or inorganic. 
+\end{question}
+\begin{solution}
+Not given
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

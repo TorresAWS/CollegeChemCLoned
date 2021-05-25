@@ -1,0 +1,7 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following molecules as an carboxylic acid or ester:
+\begin{center}\chemfig{-[:45]-[:-45]-[:45](=[:90]O)(-[:-45]OH)} \hspace{0.5cm}\chemfig{-[:45]-[:-45](=[:-90]O)-[:45]O-[:-45]}  \end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The molecule in the left is a carboxylic acid as the carbonyl group (\ce{C=O}) is connected to an alcohol \ce{-OH}. Differently, the molecule in the right is a ester as the carbonyl group is connected to a \ce{-O-CH3} group.
+\import{./}{StudyCheck14}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

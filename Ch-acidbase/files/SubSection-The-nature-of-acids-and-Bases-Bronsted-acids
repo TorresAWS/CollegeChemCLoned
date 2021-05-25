@@ -1,0 +1,7 @@
+In 1923 two different chemists Thomas Lowry and Johannes Br\"{o}nsted proposed what is now know as the Br\"{o}nsted-Lowry model of acids and bases. The Br\"{o}nsted-Lowry model is a more advanced acid-base model. This model claims acids are chemicals that give away protons (\ce{H^+}) whereas bases receive protons. This way, Br\"{o}nsted-Lowry extends the Arrhenius model to other solvents different than water, as the solvent is not part of the definition. Based on this model, we can understand how \ce{HCO3^-_{(aq)}} can act as an acid giving away protons to water and as a base receiving protons from water. When acting as an acid:
+\begin{center}\ce{HCO3^-_{(aq)} + H2O_{(l)}   <=> CO3^{2-}_{(aq)} + H3O^+_{(aq)}}\end{center}
+When acting as a base:
+\begin{center}\ce{HCO3^-_{(aq)} + H2O_{(l)}   <=> H2CO3_{(aq)} + OH^-_{(aq)}}\end{center}
+As you can see, an acid-base reaction is essentially a proton transfer reaction, in which a proton \ce{H^+} transfers from an acid into a base.
+Compounds that can act as acid or bases are referred to as \emph{amphiprotic} as they can act as a proton donor or acceptor. Other examples are: \ce{H2O}, \ce{HS^-} or \ce{HSO4^-}.
+Still, the Br\"{o}nsted-Lowry model does not explain why chemicals such as ammonia are a base and carbon dioxide an acid. In particular, the model does not justify what structural particularity makes ammonia behave as a base and carbon dioxide (with no hydrogen on its structure) as an acid.

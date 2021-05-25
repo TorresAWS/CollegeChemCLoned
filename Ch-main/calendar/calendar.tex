@@ -1,0 +1,44 @@
+\documentclass[main.tex]{subfiles}
+
+
+\pagestyle{empty}
+
+\begin{document}
+\pagestyle{style3}
+\newgeometry{left=0.8in,right=2.8in, top=3.5cm,bottom=2cm}
+
+\begin{fullwidth}
+
+\begin{tikzpicture}
+[every calendar/.style={week list}]
+%\node[star,draw,minimum size=.4cm,star point ratio=1.0,thick] at (calendar-\the\year-08-29){};
+\sffamily
+\matrix[%
+row 1/.style={black,node distance=.3ex},%
+row 3/.style={black,node distance=.3ex},
+row 5/.style={black,node distance=.3ex},
+column sep=1ex,%
+draw=black,thick,rounded corners=30pt,%
+postaction={decorate,decoration={markings,mark=at position 0.51 with
+{\node[fill=white,text=black,font={\bfseries\Large}] (year) {\the\year};}}}
+% year on frame: decorations.markings library
+]{%
+% first row: week day and month
+\calrow{January} & \calrow{February} & \calrow{March} & \calrow{April} \\
+\calperiod{01} & \calperiod{02} & \calperiod{03} &\calperiod{04}  \\[0.4cm]
+\calrow{May} &\calrow{June} & \calrow{July} & \calrow{August} \\
+ \calperiod{05} & \calperiod{06} & \calperiod{07} & \calperiod{08} \\[0.4cm]
+ \calrow{September} &\calrow{October} & \calrow{November} & \calrow{December} \\
+ \calperiod{09} &\calperiod{10} & \calperiod{11} & \calperiod{12} \\[0.4cm]
+  & & &\\
+};
+\node [draw,diamond,fill=blue!50,yshift=-7cm, xshift=-8cm, opacity=1](a11) {}; \node[right=of a11, xshift=-0.5cm](a12){Assigments due};
+\node [draw,star,fill=yellow,right=of a12, opacity=1](a11) {}; \node[right=of a12, xshift=0.5cm](a13){Lab session};
+\node [draw,cloud,fill=red,right=of a13, opacity=1](a14) {}; \node[right=of a13, xshift=0.5cm](a14){Lab session and Test};
+\node [draw,cloud,fill=green,right=of a14, opacity=1](a15) {}; \node[right=of a14, xshift=0.5cm](a16){Final Cumulative Test};
+\end{tikzpicture}
+\end{fullwidth}
+\restoregeometry
+\pagenumbering{arabic}
+
+\end{document}

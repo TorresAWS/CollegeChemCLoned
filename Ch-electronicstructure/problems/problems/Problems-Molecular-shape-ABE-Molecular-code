@@ -1,0 +1,32 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Identify the molecular shape of the molecules:
+\begin{inparaenum}[(a)]
+\ce{NH3} %Trigonal pyramidal
+\ce{CH4} %Tetrahedral
+\end{inparaenum}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+\ce{NH3}  (Trigonal pyramidal)
+\ce{CH4}  (Tetrahedral)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Identify the molecular shape of the molecules:
+\begin{inparaenum}[(a)]
+\item \ce{H2}	%Linear
+\item  \ce{BeCl2}	%Linear
+  \ce{BF3} %Trigonal planar
+\end{inparaenum}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+\item \ce{H2}	 (Linear)
+\item  \ce{BeCl2}	(Linear)
+  \ce{BF3}  (Trigonal planar)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%

@@ -1,0 +1,4 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\At a given energy level you can fit 162 electrons. Identify the energy level.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $n=9$. 
+ \end{flushright} }

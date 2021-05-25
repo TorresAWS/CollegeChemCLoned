@@ -1,0 +1,5 @@
+\item[\docfilehook{STP conditions}{}] 
+STP conditions refer to standard temperature (273K) and pressure (1 atm) conditions. Working at STP conditions means pressure will be fixed at 1 atm and temperature at 273K.%\resizeableyellownote{2.5}{1}{Add this relation into your flashcard.}
+\begin{equation*}
+\boxed{  \text{1 atm and 273K}  } \quad \textcolor{blue}{\text{STP Conditions}}
+\end{equation*}

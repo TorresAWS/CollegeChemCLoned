@@ -1,0 +1,14 @@
+\item[\docfilehook{Balancing chemical reactions}{}]
+In order to balance a reaction, we need to introduce the stoichiometric coefficients that make the number of atoms of reactants and products the same. In order to balance the number of oxygens, we will multiply \ce{CO} by two, and that will give us two oxygens and two carbons as well. If we do this, now the carbon atoms of reactants and products will not be the same. We can solve this by multiplying \ce{C(s)} by two. The following table summarizes the changes we made:
+\begin{tabularx}{\linewidth}{XXX}
+\toprule
+\multicolumn{3}{c}{\ce{2C(s) + O2(g) -> 2CO(g)} } \tabularnewline
+\toprule
+\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \textcolor{cyan}{Products} & \tabularnewline
+\toprule
+ 2C &  2C  &\checkmark \tabularnewline
+    \ce{O2}=2O &  2O &\checkmark  \tabularnewline
+\bottomrule
+\end{tabularx}
+The reaction is now balanced after introducing  two stoichiometric coefficients and the number of C and O atoms in the reactant molecules and products is the same.
+

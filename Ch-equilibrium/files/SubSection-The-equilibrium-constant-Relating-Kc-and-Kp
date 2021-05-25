@@ -1,0 +1,16 @@
+The values of $K_{c}$ and $K_{p}$ are related by the following formula:
+\begin{equation}
+\boxed{  K_p=K_c (RT)^{\Delta n}}
+\label{\chapterlabel:equation3}
+\end{equation}
+where:
+\begin{where}
+ \item $K_p$   is the equilibrium constant in terms of pressure
+ \item $K_c$   is the equilibrium constant in terms of concentration
+ \item $R$  is the constant of the gases in pressure units (0.082 atmL/molK)
+  \item $T$  is the absolute temperature (in Kelvins)
+    \item $\Delta n$  is the change of stoichiometry of the reaction
+\end{where}
+Let us analyze the role of $\Delta n$ for the reaction:
+\begin{center}\ce{C3H8 + 5O2 <=> 4H2O + 3CO2}\end{center}  
+$\Delta n$ represents the number of molecules of products with respect to the number of molecules of reactants: 7-6=1. For this reaction, we have that $K_p=K_c (RT)$. However, the power on the relationship will depend on the stoichiometry of the reaction. At the same time, the relationship between both constant depends on the temperature.

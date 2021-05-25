@@ -1,0 +1,34 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Convert 25 $^{\circ}$C to $^{\circ}$F.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} list of the given variables.
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$T_c=25^{\circ}C$\\
+\tcbitem[swotbox = A]
+$T_F$
+\end{tcbitemize}%%% DATA BOX
+\break\item \begin{bf}Step two:\end{bf} use the formula $T_F = 1.8T_C  + 32$ to convert from $^{\circ}$C to $^{\circ}$F.
+ %%%% COMMENTED EQUATION
+\begin{equation*}
+    T_F = 1.8\,\,\,\,\tikzmark{I}{$T_c$} \,\,\,+ 32
+\end{equation*}
+\begin{tikzpicture}[overlay, remember picture,node distance =1.0cm]
+    \node (Idescr) [below left=of I ]{$25^{\circ}$};\draw[,->,thick] (Idescr) to [in=-90,out=90] (I);
+\end{tikzpicture}\vspace{5mm} %%%% COMMENTED EQUATION
+\item \begin{bf}Step three:\end{bf} solve for $T_F=1.8\times 25+32=77^{\circ}F$.
+\end{enumerate}
+
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

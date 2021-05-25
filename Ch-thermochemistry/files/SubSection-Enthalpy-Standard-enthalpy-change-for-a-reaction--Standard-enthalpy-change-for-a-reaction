@@ -1,0 +1,29 @@
+In order to calculate the standard enthalpy for a reaction you need to use the following formula:
+%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}\begin{split}
+\boxed{  \Delta H^{\circ}_R=\Delta H^{\circ}_{products}-\Delta H^{\circ}_{reactants}  } \quad \textcolor{blue}{\text{Enthalpy change}}
+\end{split}\end{equation*}
+where:
+\begin{where}
+ \item $\Delta H^{\circ}_R$   is the standard enthalpy change of the reaction
+  \item $\Delta H^{\circ}_{products}$   is the standard enthalpy  of all products
+\item $\Delta H^{\circ}_{reactants} $ is the standard enthalpy  of all reactants
+ \end{where}
+ 
+Now, imagine we need to calculate the change of standard enthalpy for the following reaction:
+%\begin{center}\ce{N2_{(g)} + O2_{(g)} -> 2NO_{(g)}}\end{center}
+%In the case of the reaction above, we need to locate three enthalpies from the table: $\Delta H_f^{\circ}(\ce{N2_{(g)}})$, $\Delta H_f^{\circ}(\ce{O2_{(g)}})$, $\Delta H_f^{\circ}(\ce{NO_{(g)}})$. If we look in the tables, you will find the values: $\Delta H_f^{\circ}(\ce{N2_{(g)}})=0$KJ/mol and $\Delta H_f^{\circ}(\ce{O2_{(g)}})=0$KJ/mol. This makes sense, as these are the natural states of nitrogen and oxygen. Differently, $\Delta H_f^{\circ}(\ce{NO(g)})=90.29$KJ/mol. Now, in order to compute $\Delta H^{\circ}_R$ we need to take into account that the reaction involves two \ce{NO} molecules. Let us set up the formula:
+%\begin{equation*}\begin{split}
+%  \Delta H^{\circ}_R= \Delta H^{\circ}_{products}-\Delta H^{\circ}_{reactants}= \Big(2\cdot \Delta H_f^{\circ}(\ce{NO_{(g)}})    \Big)-\Big(\Delta H_f^{\circ}(\ce{N2_{(g)}})+ \Delta H_f^{\circ}(\ce{O2_{(g)}}) \Big)      \\
+%  =     \Big(2\cdot90.29  \Big)-\Big( 0+0 \Big)= 181KJ
+%\end{split}\end{equation*}
+%This reaction is endothermic, that means it consumes energy.
+%Let's work on another example and calculate $\Delta H^{\circ}_R$ for the reaction:
+\begin{center}\ce{2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}}\end{center}
+We need to locate three enthalpies from the table: $\Delta H_f^{\circ}(\ce{NO_{(g)}})$, $\Delta H_f^{\circ}(\ce{O2_{(g)}})$, $\Delta H_f^{\circ}(\ce{NO2_{(g)}})$. If you locate these values in the table you will see $\Delta H_f^{\circ}(\ce{O2_{(g)}})=0$KJ/mol, whereas $\Delta H_f^{\circ}(\ce{NO_{(g)}})=90.29$KJ/mol and $\Delta H_f^{\circ}(\ce{NO2_{(g)}})=33.2$KJ/mol. Using the formula for $\Delta H^{\circ}_R$ we have:
+\\$ \Delta H^{\circ}_R= \Delta H^{\circ}_{products}-\Delta H^{\circ}_{reactants}=$
+\begin{equation*}\begin{split}
+  = \Big[2\cdot \Delta H_f^{\circ}(\ce{NO2_{(g)}})    \Big]-\Big[2\cdot \Delta H_f^{\circ}(\ce{NO_{(g)}})+ \Delta H_f^{\circ}(\ce{O2_{(g)}}) \Big] =\\
+  =     \Big[2\cdot 33.2  \Big]-\Big[ 2\cdot 90.29+0 \Big]= -114KJ
+\end{split}\end{equation*}
+This reaction is exothermic and releases heat.

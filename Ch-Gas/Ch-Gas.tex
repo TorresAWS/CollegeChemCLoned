@@ -1,0 +1,127 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-Gas}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+
+\begin{document}
+\linenumbers
+
+ \import{files/}{ChapterName}
+
+\begin{marginfigure}
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../{\chapterlabel}/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PngImg} ;
+\end{tikzpicture}
+\end{marginfigure}
+
+
+ \import{files/}{ChapterIntro}
+
+
+
+
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+ \import{files/}{ChapterGoals}
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+ \import{files/}{ChapterDiscussion}
+\end{tcolorbox}
+\end{marginfigure}%LEARNING GOALS BOX
+
+
+
+
+
+
+
+
+
+\section{Gases and its properties} \import{files/}{SectionIntro-Gases-and-its-properties}
+\sloppy \begin{description}
+\item[\docfilehook{Gases in the periodic table}{}]  \import{files/}{SubSection-Gases-and-its-properties-Gases-in-the-periodic-table}
+\item[\docfilehook{Characteristics of gases}{}]  \import{files/}{SubSection-Gases-and-its-properties-Characteristics-of-gases}
+ \item[\docfilehook{Volume, V}{}] \import{files/}{SubSection-Gases-and-its-properties-Volume,-V}
+ \item[\docfilehook{Temperature, T}{}]\import{files/}{SubSection-Gases-and-its-properties-Temperature,-T}
+ \import{files/}{Figure-Gas-Table}
+ \item[\docfilehook{Amount of gas, n}{}] \import{files/}{SubSection-Gases-and-its-properties-Amount-of-gas,-n}
+ \import{files/}{SideFigure-Gases}
+\item[\docfilehook{Pressure, P}{}] \import{files/}{SubSection-Gases-and-its-properties-Pressure,-P}
+\import{problems/}{SampleProblem1}
+ \import{files/}{Figure-Pressure}
+\item[\docfilehook{Measuring pressure}{}]  \import{files/}{SubSection-Gases-and-its-properties-Measuring-pressure}
+\end{description}
+
+
+
+ \import{files/}{Figure-Manometer}
+ \section{Ideal gas law}\import{files/}{SectionIntro-Ideal-gas-law}
+\sloppy \begin{description}
+ \import{files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-moles}
+\import{problems/}{SampleProblem2}
+ \import{files/}{SubSection-Ideal-gas-law-Ideal-gas-law-in-terms-of-density}
+\import{problems/}{SampleProblem3}
+ \import{files/}{SubSection-Ideal-gas-law-STP-conditions}
+\import{problems/}{SampleProblem4}
+\end{description}
+
+
+ \section{Change of gas properties}\import{files/}{SectionIntro-Change-of-gas-properties}
+\sloppy \begin{description}
+\item[\docfilehook{Solving problems with an initial and final state}{}]  \import{files/}{SubSection-Change-of-gas-properties-Solving-problems-with-an-initial-and-final-state}
+\import{problems/}{SampleProblem5}
+\item[\docfilehook{Pressure-Volume change}{}] \import{files/}{SubSection-Change-of-gas-properties-Pressure-Volume-change}
+ \item[\docfilehook{Volume-Moles change}{}] \import{files/}{SubSection-Change-of-gas-properties-Volume-Moles-change}
+\item[\docfilehook{Relating the different variables of a gas}{}]  \import{files/}{SubSection-Change-of-gas-properties-Relating-the-different-variables-of-a-gas}
+\end{description}
+
+
+
+
+
+
+
+
+
+
+ 
+ \section{Mixtures of gases and gas stoichiometry}\import{files/}{SectionIntro-Mixtures-of-gases-and-gas-stoichiometry}
+\sloppy 
+\begin{description}
+ \item[\docfilehook{Molar volume}{}] \import{files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Molar-volume}
+\item[\docfilehook{Stoichiometry and gases}{}]  \import{files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Stoichiometry-and-gases}
+\import{problems/}{SampleProblem6}
+ \item[\docfilehook{Partial and total pressure}{}] 
+\import{files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-and-total-pressure}
+\import{problems/}{SampleProblem7}
+ \import{files/}{Figure-Partial-Pressure}
+\item[\docfilehook{Partial pressure of a gas in a mixture}{ }]  \import{files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Partial-pressure-of-a-gas-in-a-mixture}
+\item[\docfilehook{Mole fraction}{}]  \import{files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Mole-fraction}
+\import{problems/}{SampleProblem8}
+ \import{files/}{Figure-Gas-Collection-in-water}
+\import{files/}{Table-Water-pressure}
+\item[\docfilehook{Collecting gas over water: use of partial pressures}{}]  \import{files/}{SubSection-Mixtures-of-gases-and-gas-stoichiometry-Collecting-gas-over-water}
+\import{problems/}{SampleProblem9}
+\end{description}
+
+
+ \section{Real gases and the kinetic molecular theory of gases }
+\import{files/}{SectionIntro-Real-gases-and-the-kinetic-molecular-theory-of-gases-}
+\sloppy 
+\begin{description}
+ \item[\docfilehook{Van der Waals equation for real gases}{}] \import{files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Van-der-Waals-equation-for-real-gases}
+\import{files/}{Table-Real-Gas}		
+\item[\docfilehook{The meaning of the Van der Waals constants}{}]  \import{files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-The-meaning-of-the-Van-der-Waals}
+\import{problems/}{SampleProblem10}
+\import{files/}{SectionIntro-the-kinetic-molecular-theory-of-gases}
+ \item[\docfilehook{Kinetic theory of gases}{}] 
+\import{files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Kinetic-theory-of-gases}
+\import{problems/}{SampleProblem11}
+ \import{files/}{Figure-Kinetic-theory}
+ \item[\docfilehook{Distribution of velocities}{}] \import{files/}{SubSection-Real-gases-and-the-kinetic-molecular-theory-of-gases-Distribution-of-velocities}
+\end{description}
+
+\clearpage\thispagestyle{empty}\mbox{}\clearpage
+\end{document}

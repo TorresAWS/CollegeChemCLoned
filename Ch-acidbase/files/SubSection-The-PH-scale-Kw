@@ -1,0 +1,8 @@
+Water is a weak electrolyte. The dissociation equilibrium of water is listed below:
+\begin{center}\ce{$\textcolor{red}{\underset{\text{Acid}}{\ce{H2O_{(l)}}}}$ + $\textcolor{blue}{\underset{\text{Base}}{\ce{H2O_{(l)}}}}$  <=> $\textcolor{red}{\underset{\text{Conjugate Base}}{\ce{OH^-_{(aq)}}}}$ + $\textcolor{blue}{\underset{\text{Conjugate Acid}}{\ce{H3O^+_{(aq)}}}}$}\hfill $K_w$\end{center}
+This chemical equilibrium representing the dissociation of water is called the autoprotolysis of water. We have that water, as well as many other chemicals, can acts as a base or an acid giving and receiving protons. We call these type of chemicals \emph{amphiprotic}. Other example of amphiprotic chemicals are: \ce{HCO3^-} or \ce{HSO4^-}. The dissociation constant of water is called the ion-product of water $K_w$:
+\begin{center}\ce{H2O_{(l)} <=>H^+_{(aq)}  +OH^{-}_{(aq)} } \hspace{1cm} $\big[ \ce{H^+} \big] \cdot \big[ \ce{OH^-} \big]=1.0\cdot 10^{-14}$\end{center}
+$K_w$ is constant that only depends on the temperature of water being $1.0\cdot 10^{-14}$ at 25$^\circ$C. The ion-product of water stablished a relationship between protons and hydroxyls in solution:
+\begin{equation}
+\boxed{ \big[ \ce{H^+} \big] \cdot \big[ \ce{OH^-} \big]=1.0\cdot 10^{-14}    }\label{\chapterlabel:equation2}
+\end{equation}

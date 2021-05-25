@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Write down the forward and reverse reactions for the reaction: \begin{center}\ce{CO(g) + O2(g) <=> CO2(g) }\end{center}
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: \ce{CO(g) + O2(g) -> CO2(g)} and \ce{CO(g) + O2(g) <- CO2(g)}
+ \end{flushright} }

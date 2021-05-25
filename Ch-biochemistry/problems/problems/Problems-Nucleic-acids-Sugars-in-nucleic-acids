@@ -1,0 +1,21 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate whether the following nucleic acid is part of DNA or RNA.
+\begin{center}
+\setatomsep{2.5em}\chemfig[][scale=.65]{!{cytosinephosphate} }
+\end{center}
+\end{question}\begin{solution}
+RNA
+  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate whether the following nucleic acid is part of DNA or RNA.
+\begin{center}
+\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyuridinephosphate} }
+\end{center}
+\end{question}\begin{solution}
+DNA
+  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

@@ -1,0 +1,22 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the reaction below, the rate of disappearance of A is -0.1M/s. Calculate:
+\begin{inparaenum}[(a)]	
+\item The rate of disappearance of B.
+\item	 The rate of appearance of C.
+\item  The rate of appearance of D.
+\item  The rate of reaction.
+\end{inparaenum} 
+\begin{center}\ce{2A + 3B -> 4C + 5D}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the rate of disappearance of B, we will use the following relationship, in which the rate of disappearance of A and B have a negative sign and carries the respective stoichiometric coefficient
+\[-\frac{1}{2}r_A=-\frac{1}{3}r_B\]
+We know $r_A$ and hence we can solve for $r_B$:
+\[-\frac{1}{2}(-0.1)=-\frac{1}{3}r_B\]
+We have that $r_B$ is -0.15M/s. We will now use a similar relationship to calculate $r_C$:
+\[-\frac{1}{2}(-0.1)=+\frac{1}{4}r_C\]
+We have that $r_C$ is +0.2M/s. Finally, we will calculate $r_D$ and $r$:
+\[-\frac{1}{2}(-0.1)=+\frac{1}{5}r_D \text{ and } -\frac{1}{2}(-0.1)=r\]
+We have that $r_D$ is +0.25M/s and $r$ is 0.05M/s. Mind the rate of disappearance of reactants are negative, whereas the rate of appearance of products and the overall rate of reaction are positive numbers.
+\import{./}{StudyCheck1}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

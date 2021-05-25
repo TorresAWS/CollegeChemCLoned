@@ -1,0 +1,5 @@
+In chemical reactions, both the forward and the reverse reaction happen synchronously, so that when products form they also generate reactants. However, both the reverse and forwards reactions have different speeds. In the beginning, the forward reaction proceeds at a faster pace than the reverse so that the reaction advances. Once products form, the reverse reaction will start speeding. A reaction reaches \emph{chemical equilibrium} when both the forward and reverse reactions proceed at the same speed. 
+Chemical reactions normally are written down with a double arrow that indicates equilibrium:
+\begin{center}reactants $\ce{<=>}$ products\end{center}
+For example, the chemical process that forms ammonia from nitrogen and hydrogen can proceed using the forward and reverse reaction
+\begin{center}\ce{3H2 + N2 <=>[$\textcolor{red}{\text{Forward Reaction}}$][$\textcolor{blue}{\text{Reverse Reaction}}$] 2NH3}\end{center}

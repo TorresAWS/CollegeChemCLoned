@@ -1,0 +1,19 @@
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{center}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Values of specific heat for different materials} \\
+\midrule
+ \rowcolor{gray!10} Material  &     Specific heat ($\text{J}/\text{g}^{\circ}\text{C}$) &Material &     Specific heat ($\text{J}/\text{g}^{\circ}\text{C}$)\\
+\midrule
+   	\ce{H2O_{(l)}} & 4.184	 	  	  	&\ce{Fe_{(s)}}& 0.444	  	\\
+	ethyl alcohol$_{(l)}$& 2.460				&\ce{Au_{(s)}}& 0.129\\
+	vegetable oil$_{(l)}$& 1.790				&\ce{Cu_{(s)}}& 0.385\\
+	 \ce{NH3_{(l)}} & 4.700				&\ce{H2O_{(s)}}& 2.010\\
+	  Dry Air$_{(g)}$& 1.0035				&\ce{CO2_{(g)}} & 0.839\\
+ \bottomrule
+\end{tabular}\end{center}
+

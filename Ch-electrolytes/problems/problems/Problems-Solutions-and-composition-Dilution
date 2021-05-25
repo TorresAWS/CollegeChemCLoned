@@ -1,0 +1,23 @@
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the final volume when 50mL of a 2M NaCl solution is diluted to a 1M.
+\end{question}\begin{solution}
+100 mL
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the concentration of a solution prepared when 100mL a 4\% HCl solution is diluted to a final volume of 500mL.
+\end{question}\begin{solution}
+0.8 \%
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Describe how to prepare 50mL of a 0.5M \ce{H2SO4} solution, starting with a 1M stock \ce{H2SO4} solution.
+\end{question}\begin{solution}
+25mL
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

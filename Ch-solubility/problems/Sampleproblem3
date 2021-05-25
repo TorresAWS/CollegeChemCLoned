@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+How many grams of AgCl will dissolve in 5mL of a AgCl saturated solution, given that $s$=$1.33\times 10^{-5}$M?
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As we have the molar solubility, we will convert this value into g/mol:
+\[1.33\times 10^{-5}\frac{mol}{L}\times \frac{143g}{mol}=1.90\times 10^{-3}\frac{g}{L}	 \]
+In order to calculate the number of grams of solute in 5mL, we can do:
+\[1.90\times 10^{-3}\frac{g}{L}\times 0.005L=9.51\times 10^{-5} g	 \]
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

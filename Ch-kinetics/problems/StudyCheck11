@@ -1,0 +1,9 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+How would the following changes affect the rate of this reaction:
+\begin{center}\ce{2H2(g) + O2(g) ->  2H2O(g)}\end{center}
+ (a) Removing oxygen; (b) Decreasing temperature
+\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+  {\small Answer:   (a) slow down; (b) slow down.}
+ \end{flushright} }
+

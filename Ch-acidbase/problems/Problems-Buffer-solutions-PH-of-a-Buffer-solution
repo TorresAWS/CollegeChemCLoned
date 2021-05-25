@@ -1,0 +1,152 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.15 M-\ce{HCN}/0.35M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.57)
+\item 0.15 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.21)
+ \item 0.25 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$ % (PH=9.98)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.15 M-\ce{HCN}/0.35M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$   (PH=9.57)
+\item 0.15 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$   (PH=9.21)
+ \item 0.25 M-\ce{HCN}/0.15M-\ce{NaCN}, $K_a=6.20 \times 10^{-10}$   (PH=9.98)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.25 M-\ce{NH3}/0.45M-\ce{NH4Cl}, $K_b=1.80 \times 10^{-5}$ % (PH=9)
+\item 0.15 M-\ce{HNO2}/0.05M-\ce{NaNO2}, $K_a=5.60 \times 10^{-4}$ % (PH=2.8)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.25 M-\ce{NH3}/0.45M-\ce{NH4Cl}, $K_b=1.80 \times 10^{-5}$  (PH=9)
+\item 0.15 M-\ce{HNO2}/0.05M-\ce{NaNO2}, $K_a=5.60 \times 10^{-4}$   (PH=2.8)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffers:
+\begin{enumerate}[label=(\alph*)]
+\item 0.02 M-\ce{C6H5NH2}/0.05M-\ce{C6H5NHCl}, $K_b=7.40 \times 10^{-10}$ % (PH=4.47)
+\item 0.4 M-\ce{HCNO}/0.5M-\ce{NaCNO}, $K_a=3.50 \times 10^{-4}$ % (PH=3.5)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item 0.02 M-\ce{C6H5NH2}/0.05M-\ce{C6H5NHCl}, $K_b=7.40 \times 10^{-10}$   (PH=4.47)
+\item 0.4 M-\ce{HCNO}/0.5M-\ce{NaCNO}, $K_a=3.50 \times 10^{-4}$   (PH=3.5)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The PH of a  \ce{C6H5NH2}/\ce{C6H5NHCl} ($K_b=7.40 \times 10^{-10}$) buffer is 4.0. Calculate the ratio of [\ce{C6H5NH2}]/[\ce{C6H5NHCl}].
+\end{question}
+\begin{solution}
+0.13
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following solutions:
+\begin{enumerate}[label=(\alph*)]
+\item 0.2M-\ce{CH3COOH} solution ($K_a=1.8 \times 10^{-5}$)
+\item 0.2M-\ce{CH3COOH} and 0.1M-\ce{NaCH3COO} solution ($K_a=1.8 \times 10^{-5}$)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item PH=2.72
+\item PH=4.44
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following solutions:
+\begin{enumerate}[label=(\alph*)]
+\item 0.4M-\ce{NH3} solution ($K_b=1.8 \times 10^{-5}$)
+\item 0.4M-\ce{NH3} and 0.3M-\ce{NH4Cl} solution ($K_b=1.8 \times 10^{-5}$)
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item PH=11.42
+\item PH=9.38
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the PH of the following buffer solutions:
+\begin{enumerate}[label=(\alph*)]
+\item 0.02 M-\ce{NH3}/0.02M-\ce{NH4Cl} solution ($K_b=1.8 \times 10^{-5}$)
+\item 0.2 M-\ce{NH3}/0.2M-\ce{NH4Cl} solution ($K_b=1.8 \times 10^{-5}$)
+\item Which of the buffers is more effective?
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item PH=9.25
+\item PH=9.25
+\item 0.2 M-\ce{NH3}/0.2M-\ce{NH4Cl}
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the ration of carbonic acid and bicarbonate in a \ce{H2CO3}/\ce{NaHCO3} buffer solution with PH=5 ($K_{a_1}=4.5 \times 10^{-7}$).
+\end{question}
+\begin{solution}
+ \ce{NaHCO3}/\ce{H2CO3}=0.045
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the ration of ammonia and ammonium chloride in a \ce{NH3}/\ce{NH4Cl} buffer solution with PH=9 ($K_b=1.8 \times 10^{-5}$).
+\end{question}
+\begin{solution}
+ \ce{NH3}/\ce{NH4Cl}=0.55
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

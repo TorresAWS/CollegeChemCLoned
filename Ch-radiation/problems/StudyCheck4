@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the following transition energies:
+(a) $\Delta E_{9\rightarrow 3}$ in J and (b) $\Delta E_{5\rightarrow 4}$  in eV.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: (a) $-2.15\times 10^{-19}J$; (b) -0.30eV.
+ \end{flushright} }

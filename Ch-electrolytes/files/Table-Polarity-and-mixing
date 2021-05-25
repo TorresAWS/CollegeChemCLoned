@@ -1,0 +1,19 @@
+ 
+   \begin{marginfigure}[0cm]
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Polarity and mixing } \\
+\midrule
+\rowcolor{gray!45}Solvent     & Solute     & Mixing?  \\
+%\midrule
+\hline
+Polar &   Polar & Yes          \\
+Polar &   Nonpolar & No         \\
+Nonpolar &   polar & No         \\
+Nonpolar &   Nonpolar & Yes \\
+\bottomrule
+\end{tabular} 
+   \end{marginfigure} 

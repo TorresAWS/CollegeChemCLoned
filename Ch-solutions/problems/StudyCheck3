@@ -1,0 +1,5 @@
+ \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+We prepare a solution by weighting 1g of solute and adding liquid until 100mL of solution in order to prepare a 2M solution. Calculate the molar mass of the solute.
+
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: 5g/mol
+ \end{flushright} }

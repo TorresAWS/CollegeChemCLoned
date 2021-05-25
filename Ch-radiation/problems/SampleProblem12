@@ -1,0 +1,17 @@
+\begin{example} %%%%%%% EXAMPLE BOX with explanation
+Obtain the orbital diagram for oxygen given the electron configuration: $[He] 2s^2 2p^4$\\
+\textlcsc{ \textcolor{dgreen}{\Large Solution} }\\
+The orbital diagram should include an s orbital and  a p orbital. The $s$ orbital contains a single box, whereas the p orbital contain three different boxes. The $s$ orbital is fully occupied with two electrons, whereas the $p$ orbital contain four electrons. The first three $p$ electron will occupy separate boxes while the fourth electron will occupy the first box with opposite spin.
+\begin{MOdiagram}[style=round,AO-width
+=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+% \atom[]{left} { 2s = {0;up}  }
+% \atom[]{right}{ 2p = {0;up} }
+ \AO(3cm){s}{0;pair}
+  \AO(4.5cm){p}{0;pair, up, up}
+\node[right,xshift=4mm] at (-0.7,0) {\Large O $[He] 2s^2 2p^4$};
+\node[below left=2mm and -6mm of AO1]  {\Large 2s};
+\node[below left=2mm and -30mm of AO1]  {\Large 2p};
+ \end{MOdiagram}
+\\
+\import{./}{StudyCheck12}
+\end{example}%%%%%%% EXAMPLE BOX with explanation

@@ -1,0 +1,16 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Use the data below to calculate the rate law of the following reaction: \ce{A + B -> C}
+\begin{center}\begin{tabular}[t]{  c c  c c  c  }
+\toprule
+Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
+\midrule
+1&	0.5	&0.2	&$2\times 10^{-4}$\\
+2&	0.6&	0.2&	2$\times 10^{-4}$\\
+3&	0.5&	0.3&	$4.5\times 10^{-4}$\\
+4&	0.6&	0.3&	$4.5\times 10^{-4}$\\
+\bottomrule
+\end{tabular}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:  $r=5\times 10^{3}[B]^2$
+ \end{flushright} }
+

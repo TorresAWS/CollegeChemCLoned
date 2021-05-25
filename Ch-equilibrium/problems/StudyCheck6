@@ -1,0 +1,15 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+We prepare mixtures of four chemicals in an experiment. These chemicals are interconnected by the following equilibrium:
+\begin{center}\ce{CO_{(g)} + H2O_{(g)}	<=> CO2_{(g)}	+ H2_{(g)}}\hfill $K_c =0.48$\end{center}
+Indicate if the mixture is in equilibrium. If it is not, indicate whether the reaction will evolve towards the left or the right to reach equilibrium.\begin{center}\begin{tabular}[t]{   cc     }
+\toprule
+Experiment&			1		 		 \\
+\midrule
+$[\ce{CO2}]$&			0.0015	 	 \\
+$[\ce{H2}]$&			0.0076	 	 \\
+$[\ce{CO}]$&			0.0094	 	 \\
+$[\ce{H2O}]$&			0.0025	 	 \\
+\bottomrule
+\end{tabular}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: to the right 
+ \end{flushright} }

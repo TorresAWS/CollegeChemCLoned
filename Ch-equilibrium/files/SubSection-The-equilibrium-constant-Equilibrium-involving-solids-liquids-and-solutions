@@ -1,0 +1,9 @@
+Let us analyze an example of a reaction involving solids or liquids:
+\begin{center}\ce{CaCO3 * H2O_{(s)} <=> CaO_{(s)} + CO2_{(g)} + H2O_{(l)}}\end{center}
+Solids and liquids have no concentration and hence they should not included in the expression of $K_c$. For the example above:
+\begin{equation*}
+  K_{c}=\big[ \ce{CO2} \big]
+\end{equation*}
+Differently for reaction involving aqueous solutions, for example:
+\\\ce{HCl_{(Aq)} <=> H^+_{(Aq)} + Cl^-_{(Aq)}}\hfill $K_{c}=\frac{[\ce{H^+}]\cdot [\ce{Cl^-}]}{[\ce{HCl}]}$\\
+Overall, remember that in the expression of $K_c$ you can only include gases (g) or aqueous solutions (aq) as you can ignore solids and liquids without a well-defined concentration.

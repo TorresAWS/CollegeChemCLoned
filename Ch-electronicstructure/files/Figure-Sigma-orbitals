@@ -1,0 +1,34 @@
+
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\begin{center}
+   
+\begin{tikzpicture} [transform canvas={rotate=-0, shift={(-5em,0em)}}]
+\begin{scope}[->,xshift=-1.9cm]
+      \draw(0,0,0)coordinate(O)--+(.5,0,0)node[above]{\tiny\(x\)};
+      \draw(O)--+(0,.5,0)node[above]{\tiny\(y\)};
+      \draw(O)--+(0,0,.5)node[left]{\tiny\(z\)};
+    \end{scope}
+\begin{scope}[xshift=0cm]
+\node[scale=0.5] at (0.0,0.0) {\usebox\mononut} ;\node at (0,-1.0) {$1s$};\node at (1.0,0.0) {\huge$+$};
+;\node[scale=0.5] at (2.0,0.0) {\usebox\mononut} ;
+\fill[blue!20] (0,0) circle (0.1) (2.0,0.0) circle (0.1);\node at (0.0,0.0) {\tiny\ce{H}};\node at (2.0,0.0) {\tiny\ce{H}};\node at (2,-1.0) {$1s$};
+ \draw[->,black, solid] (3.0,0.0) -- (3.5,0.0)   ;
+\node[scale=0.5, line width = 2pt] at (4.5,0.0) {\usebox\peanut};
+\fill[blue!20] (4.3,0.0) circle (0.1) (4.6,0.0) circle (0.1);\fill[blue!20] (4.3,0.04) rectangle (4.7,-0.04);\node at (4.3,0.0) {\tiny\ce{H}};\node at (4.6,0.0) {\tiny\ce{H}};\node at (4.4,-1.0) {$\sigma_{1s}$};
+\end{scope}
+\begin{scope}[->,xshift=-1.9cm, yshift=-2cm]
+      \draw(0,0,0)coordinate(O)--+(.5,0,0)node[above]{\tiny\(x\)};
+      \draw(O)--+(0,.5,0)node[above]{\tiny\(y\)};
+      \draw(O)--+(0,0,.5)node[left]{\tiny\(z\)};
+    \end{scope}
+\begin{scope}
+\node[scale=0.5] at (0.0,-2) {\usebox\mononut} ;\node at (1.0,-2) {\huge$-$};\node at (0.5,-3.0) {$1s$};
+;\node[scale=0.5] at (2.0,-2) {\usebox\mononut} ;\node at (2,-3.0) {$1s$};
+\fill[blue!20] (0,-2) circle (0.1) (2.0,-2.0) circle (0.1);\node at (0.0,-2.0) {\tiny\ce{H}};\node at (2.0,-2.0) {\tiny\ce{H}};
+ \draw[->,black, solid] (2.7,-2) -- (3.2,-2)   ;
+\node[scale=0.5] at (4,-2) {\usebox\mononut }; \node[scale=0.5] at (5,-2) {\usebox\mononutdashed};
+\fill[blue!20] (4.1,-2.0) circle (0.1) (4.9,-2.0) circle (0.1);\fill[blue!20] (4.1,-1.96) rectangle (5.0,-2.04);\node at (4.1,-2.0) {\tiny\ce{H}};\node at (4.9,-2.0) {\tiny\ce{H}};\node at (4.5,-3.0) {$\sigma^*_{1s}$};
+\end{scope}
+  \node[text width=10cm, fontscale=.3,shift={(5em,-11em)}] at (-0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Bonding and antibonding $\sigma$ orbitals resulting of combining two $1s$ atomic orbitals of Hydrogen. };\end{tikzpicture} 
+  \end{center}
+

@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the following reaction
+\begin{center}\ce{	SO2Cl2_{(g)} <=> SO2_{(g)} + Cl2 _{(g)}		}\end{center}
+The value of $K_p$ at 300K is 0.05. Calculate the value of $K_c$ at the same temperature.\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: $	2\times 10^{-3}$ 
+ \end{flushright} }

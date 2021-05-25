@@ -1,0 +1,82 @@
+%%%%%%%%%%%FIGURE %%%%%%%%%%%
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}\begin{center}
+  \begin{tikzpicture} [every node/.style={scale=0.9}, every node/.append style={transform shape}]
+                    \begin{scope}[xshift =-40em, yshift =0em]
+          \foreach \x in {-0.5,-0.25,0} {
+            \draw (\x,-1) -- (\x,1);
+        }
+        \foreach \x in {-0.375,-0.125,-0.125} {
+            \draw[dashed] (\x,-1) -- (\x,1);
+        }
+        \draw[fill=black!10] (0.5,-2,-1) -- (0.5,-2,1) -- (0.5,2,1) -- (0.5,2,-1) -- (0.5,-2,-1);
+        \fill (0.5,0,0) circle (0.05);
+        \foreach \r in {0.25,0.5,...,1.75} {
+            \draw (0.5,0) ++(-60:\r) arc (-60:60:\r);
+        }
+        \foreach \r in {0.125,0.375,...,1.875} {
+            \draw[dashed] (0.5,0) ++(-60:\r) arc (-60:60:\r);
+        }
+        \draw[fill=black!10] (2,-2,-1) -- (2,-2,1) -- (2,2,1) -- (2,2,-1) -- (2,-2,-1);
+        \fill (2,0.5) circle (0.05) (2,-0.5) circle (0.05);
+        \foreach \r in {0.25,0.5,...,2} {
+            \draw (2,0.5) ++(-60:\r) arc (-60:60:\r);
+            \draw (2,-0.5) ++(-60:\r) arc (-60:60:\r);
+        }
+        \foreach \r in {0.125,0.375,...,2.125} {
+            \draw[dashed] (2,0.5) ++(-60:\r) arc (-60:60:\r);
+            \draw[dashed] (2,-0.5) ++(-60:\r) arc (-60:60:\r);
+        }
+        \draw (2,0.5,0.625) -- (2,0.5,0.5);
+        \draw (2,-0.5,0.625) -- (2,-0.5,0.5);
+        \draw (2,0.5,0.5) -- (2,-0.5,0.5);
+        \draw[densely dotted] (2,0.5,0.5) -- (2,0.5,0);
+        \draw[densely dotted] (2,-0.5,0.5) -- (2,-0.5,0);
+        \draw[fill=black!10] (4,-2,-1) -- (4,-2,1) -- (4,2,1) -- (4,2,-1) -- (4,-2,-1);
+        %       LABELLING
+        \begin{scope}[canvas is yz plane at x=2,rotate=-90]
+            \node[above] at (0,0.5) {S${}_1$};
+            \node[below] at (0,-0.5) {S${}_2$};
+            \node[left] at (-0.5,0) {d};
+        \end{scope}
+        \begin{scope}[canvas is yz plane at x=0.5,rotate=-90]
+            \node[below left=-0.1cm] at (0,0) {S${}_0$};
+        \end{scope}
+        \begin{scope}[xshift=4cm,yshift=2cm,rotate=-90,canvas is xy plane at z=0]
+            \fill[white] (0,0) rectangle (4,1);
+            \begin{axis}[
+                width=5.575cm,
+                xmin=-0.62,
+                xmax=0.62,
+                ymin=0,
+                ticks=none
+            ]
+                \addplot [samples=500,black,smooth
+                ]
+                    {(cos(deg(5*pi*sin(deg(x)))))^(2)*((sin(deg(4*pi*sin(deg(x)))))/(4*pi*sin(deg(x))))^(2)};
+                \draw[thin, densely dashed,blue] (axis cs:0.1593,0.1327) -- (axis cs:0.1593,0);
+                \draw[thin, densely dashed,blue] (axis cs:-0.1593,0.1327) -- (axis cs:-0.1593,0);
+                \draw[thin, densely dashed,blue] (axis cs:0.3941,0.03938) -- (axis cs:0.3941,0);
+                \draw[thin, densely dashed,blue] (axis cs:-0.3941,0.03938) -- (axis cs:-0.3941,0);
+            \end{axis}
+        \end{scope}
+        \draw[thin,densely dashed,blue] (2,0) -- (6.9,0);
+        \begin{scope}
+            \clip (2,-2) rectangle (4,2);
+            \draw[thin,densely dashed,blue] (2,0) --    +(15:4);
+            \draw[thin,densely dashed,blue] (2,0) --    +(-15:4);
+            \draw[thin,densely dashed,blue] (2,0) --    +(32:4);
+            \draw[thin,densely dashed,blue] (2,0) --    +(-32:4);
+            \draw[thin,densely dashed,red] (2,0) --     +(8:4);
+            \draw[thin,densely dashed,red] (2,0) --     +(-8:4);
+            \draw[thin,densely dashed,red] (2,0) --     +(24:4);    
+            \draw[thin,densely dashed,red] (2,0) --     +(-24:4);               
+        \end{scope}
+                    \begin{scope}[xshift =30em, yshift =0em]
+                \node [rotate=90 ] (a) at (0,0) {\includegraphics[width=5cm]{../{\chapterlabel}/figure1-9}} node[rotate=90, font=\tiny] at ([yshift=-10em,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+  \end{scope}
+              \end{scope}
+            \begin{scope}[xshift =-15em, yshift =-5em]
+\node[text width=14cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The double-slit experiment demonstrating the wave nature of light. Using one slit leads to a single bright spot. Using two slits leads to a set of patterns of light and darkness resulting from the interference of light. Red lines represent destructive interference whereas blue lines represent constructive interferences.   };
+   \end{scope} 
+  \end{tikzpicture}\end{center} 
+ %%%%%%%%%%%FIGURE %%%%%%%%%%%

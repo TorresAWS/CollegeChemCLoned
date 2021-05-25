@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Ammonia is produced by reacting molecular nitrogen and molecular hydrogen following the reaction:
+\begin{center}\ce{3H2_{(g)} + N2_{(g)} -> 2NH3_{(g)} } \end{center}
+What is the percent yield of ammonia if 4 moles of hydrogen gives 2 moles of ammonia.  \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will first compute the theoretical yield, that is the moles of ammonia produced from 4 moles of hydrogen:
+\begin{equation*}
+4\cancel{\text{ moles of }\ce{H2}} \times \dfrac{\text{2 moles of }\ce{NH3}}{3\cancel{\text{ moles of }\ce{H2}}}=2.66\text{ moles of }\ce{NH3}.
+\end{equation*}
+Hence the theoretical yield is 2.66 moles of \ce{NH3}, and the actual yield given in the problem is 2 moles of \ce{NH3}. The actual yield is smaller than the theoretical yield. That is reasonable as the moles of ammonia produced in the real experiment should always be smaller than the amount of ammonia produced in theory. To calculate the percent yield we use the formula:
+\begin{equation*}
+ \text{Percent Yield}=\dfrac{\text{actual yield}}{\text{theoretical yield}}\times 100=\frac{2}{2.66}\times 100=75.18\%
+\end{equation*}
+\\
+ \import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

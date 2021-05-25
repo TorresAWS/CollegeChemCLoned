@@ -1,0 +1,40 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Phosphorus reacts with oxygen gas to produce tetraphosphorus decaoxide according to the following equation:
+\begin{center}\ce{  P4(s)  + $\underset{\text{\large 2L}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x mol}}{\ce{P4O10(g)}}$  } \end{center}
+Calculate the number of moles of phosphorus that react with 2L of oxygen at STP conditions.
+\end{question}
+\begin{solution}
+0.017 mol
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following reaction, calculate the unknown $x$ at STP conditions:
+\begin{center}\ce{  C3H8(g)    + $\underset{\text{\large 5L}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
+\end{question}
+\begin{solution}
+3L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following reaction, calculate the unknown $x$ at STP conditions:
+\begin{center}\ce{  $\underset{\text{\large 3L}}{5\ce{C3H8(g)    }}$     + $\underset{\text{}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
+\end{question}
+\begin{solution}
+1.8L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following reaction, calculate the unknown $x$ at STP conditions:
+\begin{center}\ce{  $\underset{\text{\large 6moles}}{5\ce{C3H8(g)    }}$     + $\underset{\text{}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
+\end{question}
+\begin{solution}
+80.64L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+ 
+
+ 
+

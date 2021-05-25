@@ -1,0 +1,26 @@
+Let us compare the electronic configuration of Ni and Ar. We have:
+\begin{center}
+Ni $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^8$\\
+Ar  $1s^2 2s^2 2p^6 3s^2 3p^6 $
+ \end{center}
+We called these configuration the \emph{full electronic configuration}. If you look carefully, you will see that both configurations resemble and in particular the configuration of Ni is the same as the configuration of Ar with two extra orbitals added. We say Ni has the core of Ar and 10 electrons on its valence. 
+We can represent this fact by indicating Ar with brackets:
+\begin{center}
+Ni $1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^8$\hspace{1cm} \small (full electron configuration)\\
+Ni $[Ar]4s^2 3d^8$\hspace{1cm} \small (abbreviated electron configuration)
+ \end{center}
+ The orbital diagrams are boxed diagrams indicating the valence electrons such as:
+ \begin{center}\begin{MOdiagram}[style=round,AO-width=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \AO(3cm){s}{0;pair}
+  \AO(4.5cm){p}{0; pair,pair  ,pair  }
+   \AO(7.5cm){s}{0;up}
+   \AO(8.5cm){s}{0;up}
+
+\node[right,xshift=4mm] at (-0.7,0) {\Large Ni [Ar] $4s^2 3d^8 $};
+\node[below  =  of AO1, yshift=3em]  {\Large 4s};
+\node[below  =  of AO1, yshift=3em, xshift=9em]  {\Large 3d};
+ \end{MOdiagram}\end{center}
+We call this last configuration as the \emph{abbreviated electronic configuration}. You can figure out faster the abbreviated electronic configuration by looking for the noble gas on the table on the row above the element, and the period (row on the table) of the element. Ni is located in the period number four and the noble gas above this period is Ar. At the same time Ar has 18 electrons. That will give you the core $[Ar]$ with 18 electrons, and the remaining 10 electrons (Ni has 28 electrons) starting by the orbital $4s$, according to the period four. The electrons in the noble gas core are called \emph{core electrons}, whereas the rest of the electrons are known as \emph{valence electrons}. For the case of Ni, it has 18 core electrons in the Ar core and 10 electrons in the valence.
+Let us work another example: Cd. It has 48 electrons, and is located in group 5. The novel gas on the group above is Kr with 36 electrons. The core will be Kr--the novel gas on the period above--and we start right away filling $5s$ electrons--Cd belong to period five. In the valence electrons, we will place 12 electrons. Hence, the abbreviated configuration will be: $[Kr]5s^{2}4d^{10}$. 
+
+

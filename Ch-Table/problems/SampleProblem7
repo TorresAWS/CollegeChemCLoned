@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given that the empirical formula of dichloromethane is \ce{ClCH2} and the molecular weigh of the chemical is 98amu, calculate the molecular formula of dichloromethane.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Given the empirical formula of dichloromethane one can think of many different molecular formulas, for example: \ce{Cl3C3H6} or \ce{Cl2C2H4}. From these, and many other, there is only on real molecular formula. How do we calculate the real molecular formula? By comparing the MW of the molecular and empirical formula we can figure out the number of time we need to multiply the MF to obtain the EF. We know the MW is 98amu. Using the EF we can also calculate a MW: $35+12+2\cdot 1=49$ amu. If we compare both number using the formula:
+\[ n =\frac{ MW_{MF}}{MW_{EF}}\]
+we have: $n=98/49$ and  solving we have $n=2$. Therefore the MF is: \ce{Cl2C2H4}.
+\\
+\import{./}{StudyCheck7}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

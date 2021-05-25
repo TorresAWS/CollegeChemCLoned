@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The value of $K_{c}$ for the following reaction at 300K is $4\times 10^{31}$. Indicate whether the equilibrium mixture will contain mostly reactants, mostly products or both.
+\begin{center}\ce{Cl2_{(g)} + H2_{(g)} <=> 2HCl_{(g)}}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As $K_{c}$ is larger than one, an equilibrium mixture of \ce{Cl2},  \ce{H2} and  \ce{HCl} will contain mainly products, that is will be mainly made of \ce{HCl}.
+\\
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

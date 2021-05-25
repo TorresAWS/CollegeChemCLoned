@@ -1,0 +1,5 @@
+Equilibrium constant are ratios of equilibrium concentration or pressure of products over reactants measured after the system has reacted for an infinite time.
+Concentration ratio $Q_c$ are ratios of concentration of products over reactants away from the equilibrium. In another words, they represent the reaction away from the equilibrium.
+\begin{equation}
+\boxed{  Q_{c}=\frac{\big[\text{Products}\big]_{noneq}}{\big[\text{Reactants}\big]_{noneq}}=\frac{\big[ C \big]_{noneq}^c \cdot \big[ D \big]_{noneq}^d} {\big[ A \big]_{noneq}^a \cdot \big[ B \big]_{noneq}^b} } \quad \textcolor{blue}{\text{concentration ratio}}\label{\chapterlabel:equation4}
+\end{equation}

@@ -1,0 +1,22 @@
+\begin{marginfigure}[-0cm]%%%%%%%MARGIN FIGURE
+\resizebox{1.2\textwidth}{!}{
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Emission spectrum of H } \\
+\midrule
+ \rowcolor{gray!10} Series & $n_f$ &$n_i$ & Region   \\
+\midrule
+    Lyman 	&	1  	&	2, 3, 4, $\cdots$	&UV	  \\
+    Balmer 	&	2  	&	3, 4, 5, $\cdots$ 	&Visible and UV  \\
+    Paschen 	&	3  	&	 4, 5, 6, $\cdots$ 	&IR  \\
+    Brackett	&	4  	&	  5, 6, 7, $\cdots$ 	&IR  \\
+
+ \bottomrule
+
+\end{tabular} 
+}
+\end{marginfigure}

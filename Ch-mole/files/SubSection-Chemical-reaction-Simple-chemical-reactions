@@ -1,0 +1,4 @@
+\item[\docfilehook{Simple chemical reactions}{}] 
+Magnesium is a metal that react with oxygen to produce magnesium oxide. Magnesium is solid \ce{Mg_{(s)}} whereas oxygen is gas and contains two oxygen atoms per molecule \ce{O2_{(g)}}. Magnesium oxide, the result of the reaction, is solid \ce{MgO_{(s)}}. The reaction between magnesium and oxygen to produce magnesium oxide
+\begin{center}\ce{2Mg_{(s)} + 1O2_{(g)} -> 2MgO_{(s)}}\end{center}
+\ce{Mg} and \ce{O2} combine together--that is why we use a plus sign-- to produce \ce{MgO}--we use an arrow to indicate that a chemical is being produced. Also the symbols \begin{it}(s)\end{it} or \begin{it}(g)\end{it} indicates solid or gas state. The reactants are located before the arrow and the products after the arrow. The numbers in front of the reactants and products (2,1 and 2) are called stoichiometric coefficients, and we will talk more about them in the following sections.

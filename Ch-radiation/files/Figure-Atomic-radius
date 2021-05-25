@@ -1,0 +1,184 @@
+
+\begin{fullwidth}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+\vspace{0cm}\hspace{-0cm}\begin{minipage}[b]{1.0\linewidth}
+\begin{center}\resizebox{1.0\textwidth}{!}{\begin{tikzpicture}[rotate=0]
+ \begin{scope}[xshift =0em, yshift =0em, scale=1]
+ \pgfmathsetmacro\RadA{1.1}
+  \pgfmathsetmacro\RadB{1.6}
+  \pgfmathsetmacro\RadDif{3*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (0,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=3em] 
+    {\small \ce{Li}/\ce{Li^{+}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (0,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 167/90  };
+    
+     \pgfmathsetmacro\SpaceA{5*4}
+    \pgfmathsetmacro\RadA{1.4}
+  \pgfmathsetmacro\RadB{0.9}
+  \pgfmathsetmacro\RadDif{1*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=4em] 
+   {\small \ce{N}/\ce{N^{-3}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 56/132  };
+
+     \pgfmathsetmacro\SpaceA{5*5}
+    \pgfmathsetmacro\RadA{1.4}
+  \pgfmathsetmacro\RadB{0.9}
+  \pgfmathsetmacro\RadDif{1*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=4em] 
+   {\small \ce{O}/\ce{O^{-2}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 48/126  };
+
+     \pgfmathsetmacro\SpaceA{5*6}
+    \pgfmathsetmacro\RadA{1.4}
+  \pgfmathsetmacro\RadB{0.9}
+  \pgfmathsetmacro\RadDif{1*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=4em] 
+   {\small \ce{F}/\ce{F^{-}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 42/119  };
+ \end{scope} 
+%
+
+
+  \begin{scope}[xshift =0em, yshift =-9em, scale=1]
+     \pgfmathsetmacro\SpaceA{5*0}
+ \pgfmathsetmacro\RadA{1.1*1.2}
+  \pgfmathsetmacro\RadB{1.6*1.2}
+  \pgfmathsetmacro\RadDif{2.8*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=4em] 
+   {\small \ce{Na}/\ce{Na^{+}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 190/116  };
+
+
+
+     \pgfmathsetmacro\SpaceA{5*1}
+ \pgfmathsetmacro\RadA{1.1*1.0}
+  \pgfmathsetmacro\RadB{1.6*1.0}
+  \pgfmathsetmacro\RadDif{2.8*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=3.5em] 
+   {\small \ce{Mg}/\ce{Mg^{2+}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1.5em] 
+    {\small 145/86  };
+
+     \pgfmathsetmacro\SpaceA{5*2}
+ \pgfmathsetmacro\RadA{1.1*0.9}
+  \pgfmathsetmacro\RadB{1.6*0.9}
+  \pgfmathsetmacro\RadDif{3.0*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=3.5em] 
+   {\small \ce{Al}/\ce{Al^{3+}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1.7em] 
+    {\small 118/67  };
+
+
+
+\pgfmathsetmacro\SpaceA{5*4}
+    \pgfmathsetmacro\RadA{1.4*1.4}
+  \pgfmathsetmacro\RadB{0.9*1.4}
+  \pgfmathsetmacro\RadDif{2*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,1em ) arc(90:-90:\RadA em) node [black,above,yshift=5em] 
+   {\small \ce{P}/\ce{P^{3-}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-2em] 
+    {\small 98/58  };
+    
+    
+\pgfmathsetmacro\SpaceA{5*5}
+    \pgfmathsetmacro\RadA{1.4*1.3}
+  \pgfmathsetmacro\RadB{0.9*1.3}
+  \pgfmathsetmacro\RadDif{2*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,1em) arc(90:-90:\RadA em) node [black,above,yshift=5em] 
+   {\small \ce{S}/\ce{S^{2-}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-2em] 
+    {\small 90/51  };
+
+
+\pgfmathsetmacro\SpaceA{5*6}
+    \pgfmathsetmacro\RadA{1.4*1.2}
+  \pgfmathsetmacro\RadB{0.9*1.2}
+  \pgfmathsetmacro\RadDif{2*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,1em) arc(90:-90:\RadA em) node [black,above,yshift=5em] 
+   {\small \ce{Cl}/\ce{Cl^{-}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-2em] 
+    {\small 79/26  };
+    
+    
+
+ \end{scope} 
+%
+ \begin{scope}[xshift =0em, yshift =-18em, scale=1]
+     \pgfmathsetmacro\SpaceA{5*0}
+ \pgfmathsetmacro\RadA{1.1*1.4}
+  \pgfmathsetmacro\RadB{1.6*1.4}
+  \pgfmathsetmacro\RadDif{2.5*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=4.5em] 
+   {\small \ce{K}/\ce{K^{+}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 243/152  };
+    
+         \pgfmathsetmacro\SpaceA{5*1}
+ \pgfmathsetmacro\RadA{1.1*1.3}
+  \pgfmathsetmacro\RadB{1.6*1.3}
+  \pgfmathsetmacro\RadDif{2.5*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=4.5em] 
+  {\small \ce{Ca}/\ce{Ca^{2+}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 194/114  };
+
+
+\pgfmathsetmacro\SpaceA{5*6}
+    \pgfmathsetmacro\RadA{1.4*1.3}
+  \pgfmathsetmacro\RadB{0.9*1.3}
+  \pgfmathsetmacro\RadDif{2*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,1em) arc(90:-90:\RadA em) node [black,above,yshift=4em] 
+  {\small \ce{Br}/\ce{Br^{-}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-2em] 
+    {\small 94/182  };
+%
+
+\end{scope} 
+%
+  \begin{scope}[xshift =0em, yshift =-29em, scale=1]
+ 
+    \pgfmathsetmacro\SpaceA{5*0}
+ \pgfmathsetmacro\RadA{1.1*1.5}
+  \pgfmathsetmacro\RadB{1.6*1.5}
+  \pgfmathsetmacro\RadDif{2.5*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=5em] 
+   {\small \ce{Rb}/\ce{Rb^{+}}}; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 265/166  };
+    
+         \pgfmathsetmacro\SpaceA{5*1}
+ \pgfmathsetmacro\RadA{1.1*1.4}
+  \pgfmathsetmacro\RadB{1.6*1.4}
+  \pgfmathsetmacro\RadDif{2.5*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,-0.0) arc(90:-90:\RadA em) node [black,above,yshift=5em] 
+  {\small \ce{Sr}/\ce{Sr^{2+}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-1em] 
+    {\small 219/132  };
+    \pgfmathsetmacro\SpaceA{5*6}
+    \pgfmathsetmacro\RadA{1.4*1.4}
+  \pgfmathsetmacro\RadB{0.9*1.4}
+  \pgfmathsetmacro\RadDif{2*abs(\RadA - \RadB )}
+    \draw[violet, fill=violet!10,shading=ball] (\SpaceA em,1em) arc(90:-90:\RadA em) node [black,above,yshift=5em] 
+  {\small \ce{I}/\ce{I^{-}}} ; 
+    \draw [shiny ball, ball color=red, yshift=-1em]  (\SpaceA em,\RadDif em) arc(90:270:\RadB em)  node [below,yshift=-2em] 
+    {\small 115/206  };
+ 
+  \end{scope} 
+  
+
+    \begin{scope}[on background layer,xshift =0em, yshift =-15em, scale=1]
+ \draw[opacity=.3,draw=none, fill=red!10] (-3em,0em) -- (12em,0) -- (17em,10em) -- (33em,10em)-- (33em,18em)-- (17em,18em) --   (12em,10em)  --(-3em,10em)  ;%-- (-10em,0em)  --  cycle; 
+  \node[text width=14cm, fontscale=1, shift={(2em,-21em)}] at (0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionic and atomic radius across the periodic table   };
+
+  \end{scope}
+  
+  \end{tikzpicture}}\end{center}\end{minipage}
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{fullwidth}
+

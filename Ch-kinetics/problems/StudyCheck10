@@ -1,0 +1,20 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Using the following data, calculate the order and rate constant and write down the rate law.
+\begin{center}\begin{tabular}[t]{   c|  c cccc  }
+\toprule
+%  $t$ ( s)	&$[A]$, (M) \\
+%\midrule
+%1&	0.44\\
+%2&	0.38\\
+%3&	0.32\\
+%4&	0.26\\
+%5&	0.20\\
+  $t$ ( s)	&  0	&6	&12	&18	&24	 \\
+  \midrule
+  $[A]$, (M)&1.0000	&0.5000	&0.2500	&0.1250	 &0.0625	\\
+\bottomrule
+\end{tabular}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:  $r=0.115\text{[A]}$
+ \end{flushright} }
+

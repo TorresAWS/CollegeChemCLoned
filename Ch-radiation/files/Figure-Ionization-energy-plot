@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\savebox\Axis{
+\begin{MOdiagram}[style=round,AO-width
+=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \begin{scope}[xshift =0em, yshift =0em, scale=1]
+ \draw[->] (7em,-2em) --(7em,5em) node[above,midway, rotate=90] {Energy};
+ \AO(3cm){s}{0;pair}
+ % \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5;pair, up, up}
+ \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5; ,  ,  }
+%\node[right,xshift=4mm] at (-0.7,0) {\Large O $[He] 2s^2 2p^4$};
+\node[below left=2mm and -6mm of AO1]  {\small $n$s};
+\node[below left=2mm and -30mm of AO1, blue, yshift=0.5cm]  {\small $n$p};
+\draw  (9em,0) -- (12em,3em) node [text=red, yshift=0.5em,xshift=0.5em] {\small Hard to remove (high IE)};
+\node[right,xshift=4mm, rotate=0,text=green] at (11em,-2em) {\small Group 2A};
+\end{scope}
+
+ \begin{scope}[xshift =15em, yshift =0em, scale=1]
+ %\draw[->] (7em,-2em) --(7em,5em) node[above,midway, rotate=90] {Energy};
+ \AO(3cm){s}{0;pair}
+ % \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5;pair, up, up}
+ \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5; up,  ,  }
+%\node[right,xshift=4mm] at (-0.7,0) {\Large O $[He] 2s^2 2p^4$};
+\node[below left=2mm and -6mm of AO3]  {\small $n$s};
+\node[below left=2mm and -30mm of AO3, blue, yshift=0.5cm]  {\small $n$p};
+\draw  (12.6em,2em) -- (11em,3.2em) node [text=red, yshift=0.5em,xshift=0.5em] {\small Easy to remove (low IE)};
+\node[right,xshift=4mm, rotate=0,text=green] at (11em,-2em) {\small Group 3A};
+\end{scope}
+ \end{MOdiagram}}
+
+  \savebox\Axisb{
+\begin{MOdiagram}[style=round,AO-width
+=15pt, distance=1.5cm,lines={none},names-style={anchor=left, draw=blue}]
+ \begin{scope}[xshift =0em, yshift =0em, scale=1]
+ \draw[->] (7em,-2em) --(7em,5em) node[above,midway, rotate=90] {Energy};
+ \AO(3cm){s}{0;pair}
+ % \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5;pair, up, up}
+ \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5; up,up  ,up  }
+%\node[right,xshift=4mm] at (-0.7,0) {\Large O $[He] 2s^2 2p^4$};
+\node[below left=2mm and -6mm of AO1]  {\small $n$s};
+\node[below left=2mm and -30mm of AO1, blue, yshift=0.5cm]  {\small $n$p};
+\draw  (12.7em,2.0em) -- (12em,3em) node [text=red, yshift=0.5em,xshift=0.5em] {\small Hard to remove (high IE)};
+\node[right,xshift=4mm, rotate=0,text=green] at (11em,-2em) {\small Group 5A};
+\end{scope}
+
+ \begin{scope}[xshift =15em, yshift =0em, scale=1]
+ %\draw[->] (7em,-2em) --(7em,5em) node[above,midway, rotate=90] {Energy};
+ \AO(3cm){s}{0;pair}
+ % \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5;pair, up, up}
+ \AO(4.5cm){p}[color[x]=blue,color[y]=blue,color[z]=blue]{.5; pair,up  ,up  }
+%\node[right,xshift=4mm] at (-0.7,0) {\Large O $[He] 2s^2 2p^4$};
+\node[below left=2mm and -6mm of AO3]  {\small $n$s};
+\node[below left=2mm and -30mm of AO3, blue, yshift=0.5cm]  {\small $n$p};
+\draw  (12.6em,2em) -- (11em,3.2em) node [text=red, yshift=0.5em,xshift=0.5em] {\small Easy to remove (low IE)};
+\node[right,xshift=4mm, rotate=0,text=green] at (11em,-2em) {\small Group 6A};
+\end{scope}
+ \end{MOdiagram}}
+  
+  
+
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \vspace{0cm}\hspace{-5cm}\begin{minipage}[b]{1.5\linewidth}
+\begin{center}\begin{tikzpicture}
+\pgfmathsetmacro\NoneLabel{ }
+\begin{axis}[xmin=-3,ymin=0,enlarge y limits={upper,value=0.2}, xlabel={Atomic number, Z}, ylabel={First ionization energy, kJ/mol}]
+\addplot[draw=red!70,
+    thick,
+    mark=*,
+    mark options={fill=white},
+    visualization depends on=\thisrow{alignment} \as \alignment,
+    nodes near coords, % Place nodes near each coordinate
+    point meta=explicit symbolic, 
+    % The meta data used in the nodes is not explicitly provided and not numeric
+    every node near coord/.style={anchor=\alignment} % Align each coordinate at the anchor 40 degrees clockwise from the right edge
+    ] table [% Provide data as a table
+     meta index=2 % the meta data is found in the third column
+     ] {
+x       y       label       alignment
+1 1312.0 H -4
+2 2372.3 He -4
+3 520.2 Li -4
+4 899.5  \NoneLabel \NoneLabel
+5 800.6  \NoneLabel \NoneLabel
+6 1086.5  \NoneLabel \NoneLabel
+7 1402.3  \NoneLabel \NoneLabel
+8 1313.9  \NoneLabel \NoneLabel
+9 1681.0  \NoneLabel \NoneLabel
+10 2080.7 Ne -4
+11 495.8 Na -4
+12 737.7  \NoneLabel \NoneLabel
+13 577.5 \NoneLabel  \NoneLabel
+14 786.5 \NoneLabel  \NoneLabel
+15 1011.8 \NoneLabel  \NoneLabel
+16 999.6  \NoneLabel \NoneLabel
+17 1251.2 \NoneLabel  \NoneLabel
+18 1520.6 Ar -4
+19 418.8 K -4
+20 589.8  \NoneLabel \NoneLabel
+31 578.8 \NoneLabel  \NoneLabel
+32 762 \NoneLabel  \NoneLabel
+33 947.0  \NoneLabel \NoneLabel
+34 941.0  \NoneLabel \NoneLabel
+35 1139.9 \NoneLabel  \NoneLabel
+36 1350.8 Kr -4
+37 403.0 Rb -4
+38 549.5 \NoneLabel  \NoneLabel
+49 558.3 \NoneLabel  \NoneLabel
+50 708.6 \NoneLabel  \NoneLabel
+51 834 \NoneLabel  \NoneLabel
+52 869.3 \NoneLabel  \NoneLabel
+53 1008.4 \NoneLabel  \NoneLabel
+54 1170.4 Xe -4
+};
+\end{axis}
+  \node[draw,minimum size=0.4cm,purple] (s) at (3.6em,4.7em){};
+   \node[draw,shape=rectangle, minimum width=3cm, minimum height=2cm,rounded corners](s') at (20em,20em){\usebox\Axis};
+   \draw[dashed, thin] (s.north west) -- (s'.north west)
+ (s.south east) -- (s'.south east);
+   \node[draw,minimum size=0.4cm,purple] (b) at (8.8em,5.1em){};
+   \node[draw,shape=rectangle, minimum width=3cm, minimum height=2cm,rounded corners](b') at (20em,-8em){\usebox\Axisb};
+   \draw[dashed, thin] (b.south west) -- (b'.north west)
+ (b.south east) -- (b'.north east);
+   \node[text width=14cm, fontscale=1, shift={(20em,-13em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Ionization energy graphed with respect to the atomic number   };
+ \end{tikzpicture} \end{center} \end{minipage}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

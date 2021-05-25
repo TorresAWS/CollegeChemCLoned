@@ -1,0 +1,18 @@
+\begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Prefixes used to name covalent compounds } \\
+\midrule
+ \rowcolor{gray!10} Prefix & number & Prefix & number \\
+\midrule
+Mono &    1    & Hexa&    6        \\
+Di &     2      &      Hepta &  7  \\  
+Tri &     3       &    Octa &  8  \\
+Tetra &     4   &      Nona&  9   \\  
+Penta &    5   &       Deca &  10 \\    
+\bottomrule
+\end{tabular}\end{center}

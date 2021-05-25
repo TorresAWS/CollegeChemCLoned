@@ -1,0 +1,14 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For a solution of 5 g of \ce{NaCl} (MW=58g/mol) in 100 g of acetic acid, \ce{CH3COOH}:
+\begin{inparaenum}[(a)]	
+\item Calculate its molality %0.86m  
+\item	 Given that the boiling point of acetic acid is 118$^{\circ}$C, and that $k_b$ = 3.08 $^{\circ}$C/m, calculate the boiling point and the boiling point elevation of the solution.  
+\item	 Given that the freezing point of acetic acid is 17$^{\circ}$C, and that $k_f$ = 3.59 $^{\circ}$C/m, calculate the freezing point and the freezing point depression of the solution.   
+\end{inparaenum}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: 
+\begin{inparaenum}[(a)]	
+\item  50m  
+\item	  123.3$^{\circ}$C ; 5.29$^{\circ}$C
+\item	  10.82$^{\circ}$C ; -6.17$^{\circ}$C
+\end{inparaenum}
+ \end{flushright} }

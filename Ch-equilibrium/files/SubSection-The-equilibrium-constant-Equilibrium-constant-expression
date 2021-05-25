@@ -1,0 +1,23 @@
+Let's consider a general equilibrium reaction in which $A$ and $B$ react to form $C$ and $D$
+\begin{center}\ce{$\underbrace{\textcolor{red}{\ce{aA + bB}}}_{\textrm{Reactants}}$ <=> $\underbrace{\textcolor{blue}{\ce{cC + dD}}}_{\textrm{Products}}$}
+\end{center}
+The stoichiometric coefficients of the reaction are: $a$, $b$, $c$ and $d$. The expression for the equilibrium constant depends only on the concentration of the reactants and products. In order to refer to concentration we will user square brackets. For example $\big[ A \big]$ means the concentration of $A$. Hence, the expression of the equilibrium constant will be:
+\begin{equation}
+\boxed{  K_{c}=\frac{\big[\text{Products}\big]}{\big[\text{Reactants}\big]}=\frac{\big[ C \big]^c \cdot \big[ D \big]^d} {\big[ A \big]^a \cdot \big[ B \big]^b} } \quad \textcolor{blue}{\text{Equilibrium constant}}\label{\chapterlabel:equation1}
+\end{equation}
+%\resizeableyellownote{2.5}{1}{Add  Formula \textcolor{blue}{\ref{formula1:1}} to your flashcard.}
+Let us break down the expression of $K_c$. On top of the fraction we have the equilibrium concentration of the products to the power of its coefficients. For example $\big[ C \big]^c$ means the equilibrium concentration of $C$ to the power of the coefficient $c$. On the bottom of the fraction we have  the concentration of the reactants to the power of its coefficients. All concentrations in $K_{c}$ are timed.
+ \begin{center}\begin{tikzpicture}[> = stealth']
+  \node[font=\Large] (alta) {$\big[ C \big]^c \cdot \big[ D \big]^d$}; 
+  \node[font=\Large, below = 3mm of alta] (baja) {$\big[ A \big]^a \cdot \big[ B \big]^b$};
+\node [font=\Large] at ([shift={(3mm:-6mm)}]alta.south west) {$K_{c}=$};
+  \draw[thick, <-] (alta) --++(40:1cm) node[right, text width=5cm, align=left]{\small{product concentration }};
+  \draw[thick, <-] (baja.east) --++(-60:1cm) node[right, text width=5cm, align=left]{\small{reactant coefficient }};
+  \draw[thick] ([yshift=-1.5mm]alta.south west) --  ([yshift=-1.5mm]alta.south east);
+ \end{tikzpicture}\end{center}
+Let's focus on the reaction below:
+\begin{center}\ce{CH4_{(g)} + 2O2_{(g)} <=> CO2_{(g)} + 2H2O_{(g)}}\end{center}
+The expression of the equilibrium constant would be:
+\begin{equation*}
+  K_{c}=\frac{\big[ \ce{CO2} \big] \cdot \big[ \ce{H2O} \big]^2} {\big[ \ce{CH4} \big] \cdot \big[ \ce{O2} \big]^2} 
+\end{equation*}

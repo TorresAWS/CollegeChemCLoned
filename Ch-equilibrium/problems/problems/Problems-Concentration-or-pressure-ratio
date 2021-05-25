@@ -1,0 +1,36 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The reaction of carbon monoxode with hydrogen to produce methanol has a equilibrium constant in terms of concentration that at a certain temperature is larger than one
+\begin{center}\ce{CO(g) + 2H2(g) <=> CH3OH(g)} \hfill  $K_{c}=14.5$\end{center}
+Calculate:
+\begin{inparaenum}[(a)]
+\item the equilibrium concentration of hydrogen (\ce{H2}) given that the equilibrium concentration of methanol (\ce{CH3OH}) and hydrogen (\ce{H2}) for the reaction is 2M, respectively. %0.034 M
+\item the equilibrium concentration of hydrogen (\ce{H2}) given that the equilibrium concentration of methanol (\ce{CH3OH}) and carbon dioxide (\ce{CO}) for the reaction are 3M and 1M, respectively.  %0.46M
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  0.034 M
+\item  0.46M
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider the following reaction:
+\begin{center}\ce{2SO2(g) + O2(g) <=> 2SO3(g)}\end{center}
+\begin{inparaenum}[(a)]
+\item Write down the expression of $K$.
+\item Calculate the numerical value of $K$ for the reaction if the concentrations at equilibrium at 1000K are 2M for \ce{SO3}, 0.3M for \ce{O2} and 1M for \ce{SO2}.
+\item indicate whether an equilibrium mixture will contain mostly products, mostly reactants or maybe both.
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item $\frac{  \big[\ce{SO3} \big]^2  } { \big[\ce{SO2} \big]^2 \cdot \big[\ce{O2} \big]\  } $
+\item 3.4
+\item mostly products
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

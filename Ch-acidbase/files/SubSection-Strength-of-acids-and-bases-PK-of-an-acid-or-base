@@ -1,0 +1,15 @@
+As acidity and basicity constants tend to be very small numbers there is a convenient form to deal with these values. By using logarithms one can transform a very tinny value into a larger digit. Specifically, if we use the negative value of a logarithm then we can convert a negative power of ten into a larger positive value. For example,
+\begin{center}
+\[-log(1\times 10^{-5})=5\] 
+\end{center}
+Using this mathematical trick, we define the $pK_a$ and $pK_b$:
+ \begin{equation}
+\boxed{PK_a=-log \big( K_a \big) }  \text{   and   } \boxed{PK_b=-log \big( K_b \big) }  \label{\chapterlabel:equation13a}
+\end{equation}
+For example, as the acidity constant of acetic acid is $1.75 \times 10^{-5}$ its $PK_a$ would be 4.74. Similarly, the basicity constant of aniline is $7.40 \times 10^{-10}$ its $PK_b$ would be 9.13. 
+We also use the following expression to convert $pK_a$ and $pK_b$ into $K_a$ and $K_b$  
+ \begin{equation}
+\boxed{K_a=\textrm{\Large 10}^{-PK_a} } \text{   and   }\boxed{K_b=\textrm{\Large 10}^{-PK_b} }
+\label{\chapterlabel:equation14a}
+\end{equation}
+For example, as the $PK_a$ of nitrous acid is 3.37, the acidity constant of this acid is $4.26 \times 10^{-4}$.

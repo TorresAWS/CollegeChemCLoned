@@ -1,0 +1,15 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the name of the following nuclear symbols:
+\begin{inparaenum}[(a)]
+\item \ce{^4_2He}	% ($\alpha$ particle)
+\item \ce{^0_-1e}	% ($\beta$ particle)
+\end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{^4_2He}	  ($\alpha$ particle)
+\item \ce{^0_-1e}	  ($\beta$ particle)
+ \end{inparaenum}\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

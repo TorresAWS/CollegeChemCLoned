@@ -1,0 +1,5 @@
+Let us take a look at the following cycloalkane:
+\definesubmol\Me[H_3C]{CH_3}
+\begin{center}\chemfig{*6(----(-!\Me)---)} \end{center}
+this is a cyclohexane connected to a methyl substituent. As there is only one substituent, there is no need to number the carbon chain. Hence the name would be simply methylcyclohexane.
+

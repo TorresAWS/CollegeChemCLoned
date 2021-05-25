@@ -1,0 +1,37 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+True or false:\begin{inparaenum}[(a)]
+\item  At equilibrium, the rate of the reverser reaction is twice the rate of the forward reaction %(False)
+\item  At equilibrium, the concentration of products do not change	%(False)
+\item  At equilibrium, the concentration of reactants do not change	%(False)
+\item  At equilibrium, the concentration of reactants and products do not change %(True)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item  At equilibrium, the rate of the reverser reaction is twice the rate of the forward reaction  (False)
+\item  At equilibrium, the concentration of products do not change	 (False)
+\item  At equilibrium, the concentration of reactants do not change	 (False)
+\item  At equilibrium, the concentration of reactants and products do not change  (True)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+True or false:\begin{inparaenum}[(a)]
+ \item  At equilibrium, the rate of the reverse reaction do not change %(True)
+\item  At equilibrium, the rate of the forward reaction do not change %(True)
+\item  At equilibrium, the rate of the reverse reaction equals the rate of the forward reaction  %(True)
+\item  At equilibrium, the concentration of reactants and products are not constant  %(False)  
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  At equilibrium, the rate of the reverse reaction do not change  (True)
+\item  At equilibrium, the rate of the forward reaction do not change  (True)
+\item  At equilibrium, the rate of the reverse reaction equals the rate of the forward reaction   (True)
+\item  At equilibrium, the concentration of reactants and products are not constant  (False)
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+

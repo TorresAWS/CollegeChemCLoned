@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the dissolution of \ce{CO2} in water, Henry's constant is $3.4\times 10^{-2}$ M/atm. Calculate:
+\begin{inparaenum}[(a)]	
+\item the \ce{CO2} pressure needed to achieve a gas concentration of 0.04M.
+\item  If we open a carbonated can until it goes flat and given that the partial pressure of \ce{CO2} in the air is $4\times 10^{-4}$  atm at 25$^{\circ}$C, calculate the final gas concentration in the drink.
+\end{inparaenum}\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) We will apply Henry's law given that we know solubility and Henry's constant:
+  \[	 s=k\cdot P \quad \quad  0.04=3.4\times 10^{-2}\cdot P \]
+  Solving for the pressure we have: 1.17atm.
+(b)  We will also apply Henry's law, this time knowing the partial pressure of \ce{CO2} and again Henry's constant:
+  \[	 s=k\cdot P \quad \quad  s=3.4\times 10^{-2}\cdot 4\times 10^{-4} \]
+The solubility is $1.36\times 10^{-5}$M.\\
+\import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

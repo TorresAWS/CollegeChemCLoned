@@ -1,0 +1,5 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Convert 100m to km.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:$100\cancel{m} \times \dfrac{km}{1\times10^{3}\cancel{m}}=0.1km$. \end{flushright} }

@@ -1,0 +1,13 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For a 0.11m glucose (MW=180g/mol) solution with density 0.51g/mL, calculate:
+\begin{inparaenum}[(a)]	
+\item The percent by mass of solute  
+\item	 The mole fraction of solute  
+\item  The molarity of the solution	 
+\end{inparaenum}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: \begin{inparaenum}[(a)]	
+\item  1.76\%
+\item	  $1.78\times 10^{-3}$
+\item   0.05M
+\end{inparaenum}
+ \end{flushright} }

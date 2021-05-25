@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Predict if a precipitate will form in any of the following mixtures: (a) $\big[ \ce{Cu^{+}} \big]$=$10^{-6}$M and $\big[ \ce{I^{-}} \big]$=$10^{-7}$M given that $K_{sp}(\ce{CuI})=1.27\times10^{-12}$M (b) $\big[ \ce{Cd^{2+}} \big]$=0.5M and $\big[ \ce{F^{-}} \big]$=0.5M given that $K_{sp}(\ce{CdF2})=6.44\times10^{-3}$M\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will calculate $Q_c$ for each of the mixtures and we will compare the value with $K_{sp}$. $Q_c$ values larger than $K_{sp}$ will produce a precipitate, whereas $Q_c$ values smaller than $K_{sp}$ will not produce a precipitate. For the first mixture, we have that:
+\[ Q_{c}(\ce{CuI})= \big[ \ce{Cu^{+}} \big]_{noneq}\cdot \big[ \ce{I^{-}} \big]_{noneq}=(10^{-6})\cdot (10^{-7})=10^{-13} < K_{sp}(\ce{CuI})\]
+Therefore in the first mixture no precipitate will form. For the second mixture:
+\[ Q_{c}(\ce{CdF2})= \big[ \ce{Cd^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=(0.5)\cdot (0.5)^2=3.1\times 10^{-2} >K_{sp}(\ce{CdF2})\]
+Therefore in the second mixture a precipitate will form. \\
+\import{./}{StudyCheck6}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

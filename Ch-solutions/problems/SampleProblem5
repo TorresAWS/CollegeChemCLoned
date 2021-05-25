@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A solution that is 0.02M in HF has a effective ion concentration of 0.015M. Calculate the percent dissociation of the electrolyte.
+\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The percent dissociation, $\alpha$, is the ration between the effective ion concentration (the amount of ions in solution) and the nominal concentration (the amount of solute added to the solution). We have that the nominal concentration is 0.02M and the effective concentration is 0.015M. As usual for weak electrolytes, the effective concentration is lower than the nominal one as some molecules did not dissociate. We can calculate the percent dissociation:
+\[\alpha=\frac{c^{\text{effective}}}{c^{\text{Nominal}}} \times 100=\frac{0.015}{0.02}\times 100=75\%\]
+The results indicate that only the 75\% of the solute dissociate in solution.\\
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

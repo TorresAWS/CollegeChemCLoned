@@ -1,0 +1,47 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A sample of a gas at 400K and 12 atm is cooled in the same container to 200K. Calculate the new pressure.
+\end{question}
+\begin{solution}
+6 atm
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+In a storage area where the temperature has reached 300K, the pressure of oxygen gas in a 15 L steel cylinder is 1 atm. Calculate the volume if the pressure is reduced to 0.5 atm.
+\end{question}
+\begin{solution}
+30L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A \ce{H2} sample has a volume of 5 L and a pressure of 1 atm. What is the new pressure if the volume is decreased to 2L with no change in temperature and the amount of gas. 
+\end{question}
+\begin{solution}
+2.5L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A sample of Ne in a closed, expandable container, has a volume of 3L at 40$^\circ$C. Calculate the new volume if the container is cooled to 25$^\circ$C.
+\end{question}
+\begin{solution}
+2.8 L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+If the pressure of a gas increases, at fixed temperature and moles, its volume....
+\end{question}
+\begin{solution}
+decreases
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+If the temperature of a gas increases, at fixed volume and moles, its pressure....
+\end{question}
+\begin{solution}
+increases
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

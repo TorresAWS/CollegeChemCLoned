@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given that the vapor pressure of water at 25$^{\circ}$C  is 0.03 atm, calculate the vapor pressure and the vapor pressure lowering of a 20\% of mass NaCl (MW=59g/mol) solution at that temperature.
+\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the vapor pressure of a solution or the vapor-pressure lowering of a solution we need to calculate the mole fraction of the solute. We can calculate $\chi$ by means of the solution of the solute mass percent:
+\[\chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} }=\frac{18\cdot  20  }{100\cdot 59 + (18-59)\cdot 20 }=0.07\]
+Now, with the mole fraction of the solute and given that the vapor pressure of the solvent is 0.03atm, we can compute first the vapor pressure of the solution
+\[ P_{vap}^{\text{solution}}=(1-  \chi ) \cdot P_{vap}^{\text{solvent}}=(1-0.07)\cdot 0.03=0.028atm\]
+and then the vapor-pressure lowering
+\[\Delta P_{vap}=-2.1\times 10^{-3} atm\]
+\import{./}{StudyCheck7}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

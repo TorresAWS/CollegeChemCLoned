@@ -1,0 +1,18 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name of give the name of the following covalent chemicals: \\
+\begin{tabularx}{0.75\textwidth}{
+    >{\centering}m{.185\linewidth} 
+    *{3}{Y} }
+  \toprule
+\heading{Formula} & \multicolumn{3}{c}{\textbf{Name}}   \\
+    \midrule
+   \ce{NO } & 	\multicolumn{3}{c}{     }    \\
+    \ce{CS2 } & 	\multicolumn{3}{c}{     }    \\
+         & 	\multicolumn{3}{c}{  Sulfur Dioxide   }    \\
+         & 	\multicolumn{3}{c}{  Nitrogen Trichloride   }    \\
+      \bottomrule
+\end{tabularx}\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+All chemicals in this example are covalent as they result of the combination of nonmetals. In order to name them, we need to use prefixes and finish the sufix with -ide. The first chemical is called nitrogen oxide. \ce{CS2 } is called carbon disulfide. The formula for sulfur dioxide and nitrogen trichoride are respectively  \ce{SO2 } and  \ce{NCl3}.\\
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

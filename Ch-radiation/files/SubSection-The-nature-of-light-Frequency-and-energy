@@ -1,0 +1,13 @@
+Light travels in time. That is the reason you can hear a whistle from afar. The \emph{frequency} of a radiation--the frequency of a specific type of light--characterizes how this radiation oscillates in time. The unit of frequency is the hertz and frequency is represented by the symbol $\nu$. At the same time, frequency is connected to the energy of radiation. High frequency radiation are very energetic. Think for example of gamma rays; these type of radiation produced in nuclear plant has very high frequency and hence is very energetic. The formula that related frequency with energy is:%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}
+\boxed{  E=h\nu  } \quad \textcolor{blue}{\text{Frequency formula}}
+\end{equation*}
+where:
+\begin{where}
+ \item $E$   is the energy in joules
+  \item $h=6.6\times 10^{-34}$ is called Plank's constant 
+ \item $\nu$  is frequency in hertz (Hz=$s^{-1}$)
+\end{where}
+As you can see in the previous formula, the frequency is directly proportional to frequency.
+This equation has a historical character and was stablished by Max Plank in 1900.
+When a solid is warmed up to temperatures beyond 800K--this is called a black body--it emits radiation of different color. The radiation emitted changes as the body is heated, and the light emitted goes from red to white. In the later part of the nineteenth century, experiments found that the amount of energy produced by a black body depends on the wavelength of the emitted radiation. However, none of the current theories (thermodynamics and classical physics) were able to explain that phenomena. Plank came with a solution for the dilemma. Classical physics assumes that radiant energy is a continuos and radiation can be emitted and absorbed at any amount. In order to explain the blackbody radiation, Plank suggested that there is a minimum package of energy so that radiation could only be exchanges in discrete packages. The smallest amount of energy that can be emitted in the form of electromagnetic radiation was called \emph{quamtum} and equals to $h\nu$, with $h$ being Plank's constant. Based on his theory, the energy emitted by light can only be whole-number multiples of $h\nu$. This hypothesis was the key to solve the blackbody radiation dilemma and change physics forever, marking the beginning of a new quantum theory.

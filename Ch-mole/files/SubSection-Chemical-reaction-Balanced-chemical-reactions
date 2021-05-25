@@ -1,0 +1,29 @@
+
+\item[\docfilehook{Balanced chemical reactions}{}]
+Chemical reactions contain molecules, which are made of atoms. Some chemical reactions are balanced, and others need to be balanced. In order to identify a balanced reaction, you should use the stoichiometric coefficients and the indexes in the molecular formulas to break down the reactants and products into atoms. In a balanced chemical reaction, the atoms of reactants should be the same as the atoms of the products. Consider the following reaction, \\
+\begin{center}\ce{2Mg(s) + O2(g) -> 2MgO(s)}.\end{center}
+The table below shows all reactants and products in the form of atoms. 
+\begin{tabularx}{\linewidth}{XXX}
+\toprule
+\multicolumn{3}{c}{\ce{2Mg(s) + O2(g) -> 2MgO(s)} } \tabularnewline
+\toprule
+\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \textcolor{cyan}{Products} & \tabularnewline
+\toprule
+  2Mg &  2Mg  &\checkmark \tabularnewline
+    \ce{O2}=2O &  2O &\checkmark \tabularnewline
+\bottomrule
+\end{tabularx}
+The number of Mg atoms in the reactants and products is the same, and equals to two. On the other hand, the number of O atoms in the reactants and products is the same, being equal to two. For this reason, we say this reaction is \emph{balanced}.\\
+Now consider the following reaction:
+\begin{center}\ce{C(s) + O2(g) -> CO(g)},\end{center}
+The number of C atoms in the reactants and products is the same, and equals to one. In contrast, the number of O atoms in the reactants and products is not the same, and for this reason, we say this reaction is \emph{not balanced}.
+\begin{tabularx}{\linewidth}{XXX}
+\toprule
+\multicolumn{3}{c}{\ce{C(s) + O2(g) -> CO(g)} } \tabularnewline
+\toprule
+\multicolumn{1}{l}{   \textcolor{cyan}{Reactants} }& \textcolor{cyan}{Products} & \tabularnewline
+\toprule
+ 1C &  1C  &\checkmark \tabularnewline
+  \ce{O2}=2O &  O & \xmark \tabularnewline
+\bottomrule
+\end{tabularx}

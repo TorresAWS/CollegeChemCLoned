@@ -1,0 +1,6 @@
+\begin{example} % EXAMPLE BOX
+In the figure, we mixed three liquids of density: A (0.5 g/mL), B(2 g/mL) and C(1 g/mL). Identify each liquid.
+\begin{center} \includegraphics[width=0.14\linewidth]{../{\chapterlabel}/figure1-8}   \end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The heavier the liquid, that is the larger density, the lower the liquid will arrange in the mixture. From top to bottom we have A, C and B.\\
+\end{example}% EXAMPLE BOX ALTERNATIVE

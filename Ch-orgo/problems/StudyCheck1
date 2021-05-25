@@ -1,0 +1,5 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name the alkane with formula \ce{C7H16} and give the formula for nonane.
+%\begin{flushright} \mytriangleright{dgreen}\small Answer: heptane, \ce{C9H20}.\end{flushright}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: heptane, \ce{C9H20}.\end{flushright} }

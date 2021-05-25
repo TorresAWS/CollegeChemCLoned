@@ -1,0 +1,6 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name or formulate the following common chemicals: milk of magnesia and dry ice. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The formula for milk of magnesia is \ce{Mg(OH)2} (magnesium hydroxide), whereas dry ice is the common name for \ce{CO2}, carbon dioxide.\\
+\import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

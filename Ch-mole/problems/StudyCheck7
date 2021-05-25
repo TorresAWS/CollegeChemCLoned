@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the reaction of hydrogen and nitrogen to produce ammonia (\ce{NH3}):
+\begin{center}\ce{3H2(g) + N2(g) -> 2NH3(g) } \end{center}
+Calculate the number of grams of nitrogen needed to react with 3 grams of hydrogen to produce ammonia.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+Answer: 14 grams.
+ \end{flushright} }

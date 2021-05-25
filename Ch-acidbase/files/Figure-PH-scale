@@ -1,0 +1,100 @@
+\makeatletter
+\def\customrevertcolormap#1{%
+    \pgfplotsarraycopy{pgfpl@cm@#1}\to{custom@COPY}%
+    \c@pgf@counta=0
+    \c@pgf@countb=\pgfplotsarraysizeof{custom@COPY}\relax
+    \c@pgf@countd=\c@pgf@countb
+    \advance\c@pgf@countd by-1 %
+    \pgfutil@loop
+    \ifnum\c@pgf@counta<\c@pgf@countb
+        \pgfplotsarrayselect{\c@pgf@counta}\of{custom@COPY}\to\pgfplots@loc@TMPa
+        \pgfplotsarrayletentry\c@pgf@countd\of{pgfpl@cm@#1}=\pgfplots@loc@TMPa
+        \advance\c@pgf@counta by1 %
+        \advance\c@pgf@countd by-1 %
+    \pgfutil@repeat
+%\pgfplots@colormap@showdebuginfofor{#1}%
+}%
+
+\makeatother
+
+
+
+
+\begin{fullwidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{minipage}[b]{1\linewidth}\resizebox{1.0\textwidth}{!}{
+
+
+\begin{tikzpicture}
+
+\begin{scope}[ shift={(0,-0em)}	 ]
+
+%\begin{scope}[transform canvas={shift={(00em,0)}	},scale=0.8, every node/.append style={transform shape}]
+ 
+\begin{axis}[
+ scale only axis, width=0pt, height=0pt, hide axis,  
+ tick label style={/pgf/number format/.cd, fixed},
+ colorbar,colormap/jet,
+  point meta min=0,
+  point meta max=14,
+  colorbar horizontal,
+  colorbar style={
+    width=0.8\textwidth,
+    xtick={0,..., 14},
+    },
+    ] (arrow)
+   { 
+  };
+ \end{axis}
+\node[font=\Large, anchor=south west, color=black ]  at (-2cm,-.9cm) {\Large POH}; 
+\node[font=\Large, anchor=south west, color=white ]  at (0cm,-.8cm) {Basic}; 
+\node[font=\Large, anchor=south west, color=white ]  at (6.5cm,-.8cm) {neutral}; 
+\node[font=\Large, anchor=south west, color=white ]  at (12.5cm,-.8cm) {Acidic}; 
+\end{scope}
+
+\begin{scope}[ shift={(0,-4em)}	 ]
+%\begin{scope}[transform canvas={shift={(0,-6em)}	},scale=.8, every node/.append style={transform shape}]
+\pgfplotsset{    colormap/jet,}
+\customrevertcolormap{jet} 
+\begin{axis}[
+ scale only axis, width=0pt, height=0pt, hide axis,
+ tick label style={/pgf/number format/.cd, fixed},
+ colorbar,
+ point meta min=0,
+ point meta max=14,
+  colorbar horizontal,
+  colorbar style={
+    width=0.8\textwidth,
+    xtick={0,..., 14},
+    },
+    ] (arrow)
+   { 
+  };
+ \end{axis}
+\node[font=\Large, anchor=south west, color=black ]  at (-2cm,-.9cm) {\Large PH}; 
+
+\node[font=\Large, anchor=south west, color=white ]  at (0cm,-.8cm) {Acidic}; 
+\node[font=\Large, anchor=south west, color=white ]  at (6.5cm,-.8cm) {neutral}; 
+\node[font=\Large, anchor=south west, color=white ]  at (12.5cm,-.8cm) {Basic}; 
+
+
+\draw[->,dashed] (2.1,-1.2) -- (2.1,-2.5)-- (1.5,-2.5);
+   \node[anchor=south west,inner sep=0] (image1) at (-.5cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure6}};\node[font=\small, anchor=south west ]  at ([shift={(0.5cm,-0.5cm)}]image1.south west)  {lemon}; 
+\draw[->,dashed] (5.25,-1.2) -- (5.25,-2);
+   \node[anchor=south west,inner sep=0] (image2) at (4cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure3}};\node[font=\small, anchor=south west ]  at ([shift={(0.5cm,-0.5cm)}]image2.south west)  {Coffee}; 
+\draw[->,dashed] (7.3,-1.2) -- (7.3,-3);
+   \node[anchor=south west,inner sep=0] (image2) at (7.0cm,-3cm) {\includegraphics[width=0.05\columnwidth]{../Ch-acidbase/figure4}};\node[font=\small, anchor=south west ]  at ([shift={(-0.0cm,-0.5cm)}]image2.south west)  {water};
+    
+    \draw[->,dashed] (9.3,-1.2) -- (9.3,-3);
+   \node[anchor=south west,inner sep=0] (image2) at (9.0cm,-3cm) {\includegraphics[width=0.05\columnwidth]{../Ch-acidbase/figure5}};\node[font=\small, anchor=south west ]  at ([shift={(-0.0cm,-0.5cm)}]image2.south west)  {egg-whites};
+\draw[->,dashed] (12.5,-1.2) -- (12.5,-2.5) -- (12.9,-2.5);
+   \node[anchor=south west,inner sep=0] (image2) at (13.0cm,-3cm) {\includegraphics[width=0.1\columnwidth]{../Ch-acidbase/figure2}};\node[font=\small, anchor=south west ]  at ([shift={(0.3cm,-0.4cm)}]image2.south west)  {chlorox};
+
+\end{scope}
+\node[text width=12cm, fontscale=.2,shift={(15em,-20em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The PH scale };
+
+
+\end{tikzpicture}
+
+ }\end{minipage}
+\end{fullwidth}

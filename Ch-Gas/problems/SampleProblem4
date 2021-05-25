@@ -1,0 +1,36 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the volume in litters of 5 moles of nitrogen at STP conditions.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+From the problem we have the following data:
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$n=5 moles$\\
+$P=1atm$\\
+$T=273K$\\
+\tcbitem[swotbox = A]
+$V$\\
+\\
+\\
+\end{tcbitemize}%%% DATA BOX
+We need to apply the ideal gas formula with the set of given variables:
+\begin{equation*}
+1 \cancel{\text{atm}}\cdot V=5\cancel{\text{mol}}\cdot 0.082\frac{\cancel{\text{atm}}\cdot \text{L}}{\text{mol}\cdot \cancel{\text{K}}}\cdot 273\cancel{K}
+\end{equation*}
+and solving for V we have a final volume of 112L.
+\\
+\import{./}{StudyCheck4}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

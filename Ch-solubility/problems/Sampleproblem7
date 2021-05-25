@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Predict if a \ce{Cu3(AsO4)2} precipitate will form after mixing 10mL of a $10^{-9}$M \ce{Na3AsO4} with 10mL of a $10^{-10}$M \ce{CuCl2}, given that $K_{sp}$(\ce{Cu3(AsO4)2})=$8\times10^{-36}$.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will first calculate the concentration of \ce{Cu^{2+}} resulting from mixing 10mL of a $10^{-10}$M \ce{CuCl2} with 10mL of another solution:
+\begin{equation*}\big[ \ce{Cu^{2+}} \big]=\frac{10^{-10}M\cdot 10mL}{20mL}=5\times 10^{-11}M\end{equation*}
+and then calculate the concentration of \ce{AsO4^{3-}} resulting from mixing 10mL of a $10^{-9}$M \ce{Na3AsO4} with 10mL of another solution:
+\begin{equation*}\big[ \ce{AsO4^{3-}} \big]=\frac{10^{-9}M\cdot 10mL}{20mL}=5\times 10^{-10}M\end{equation*}
+We can now calculate the ion product and compare it with the solubility product:
+\begin{equation*}\begin{split}Q_{c}=\big[ \ce{Cu^{2+}} \big]^3_{noneq}\cdot \big[ \ce{AsO4^{3-}} \big]^2_{noneq}=(5\times 10^{-11})^3\cdot(5\times 10^{-10})^2=\\=3.3\times 10^{-50}< K_{sp}=8\times10^{-36} \text{ hence } (\ce{v})	\end{split}\end{equation*}
+The insoluble salt will precipitate.
+\import{./}{StudyCheck7}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

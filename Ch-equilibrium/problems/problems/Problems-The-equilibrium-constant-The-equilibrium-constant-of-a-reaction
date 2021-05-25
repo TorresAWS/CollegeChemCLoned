@@ -1,0 +1,64 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the reactions below and given the value of the equilibrium constant indicate whether the equilibrium mixture will have:
+\begin{inparaenum}[(a)]	
+\item More reactants than products
+\item More  products than reactants
+\item Same amount of  products and reactants
+ \end{inparaenum}
+ \begin{enumerate}[label=(\alph*)]	
+\item   \ce{CO2_{(g)} + H2O_{(g)} <=>  CH4_{(g)} + O2_{(g)}  }\hfill $K_{c}=0.001$ %More reactants
+\item \ce{N2_{(g)} + O2_{(g)} <=> 2NO_{(g)}}\hfill$K_{c}=2\cdot 10^{25}$	%More products
+\item \ce{2NO_{(g)} + O2_{(g)} <=> 2NO2_{(g)}}\hfill $K_{c}=6.4\cdot 10^{9}$	%More products
+
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item    More reactants
+\item  More products
+\item  More products
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the reactions below and given the value of the equilibrium constant indicate whether the equilibrium mixture will have:
+\begin{inparaenum}[(a)]	
+\item More reactants than products
+\item More  products than reactants
+\item Same amount of  products and reactants
+ \end{inparaenum}
+ \begin{enumerate}[label=(\alph*)]	
+\item \ce{N2_{(g)} + 3H2_{(g)} <=> 2NH3_{(g)}}\hfill$K_{c}=1$	%same amount
+\item	\ce{2NO_{(g)} + Cl2_{(g)} <=> 2NOCl_{(g)}}\hfill $K_{c}=6.5\cdot 10^{4}$ % More products
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  same amount
+\item	  More products
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate which of the following diagrams represent better the system at equilibrium:
+ \begin{center}\includegraphics[width=0.4\textwidth]{../Ch-equilibrium/figure10}\end{center}
+ \begin{enumerate}[label=(\alph*)]	
+\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=10$  % Left
+\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=0.1$  % Right
+\item	\begin{tikzpicture} \shade [ball color=red] (0:0.5) circle (0.2cm) node [shift={(2em,0)}] { \ce{<=> } } ; \shade [ball color=blue] (0:2.0) circle (0.2cm);\end{tikzpicture} \hfill $K_{c}=1$  % Center
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  Left
+\item   Right
+\item   Center
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+

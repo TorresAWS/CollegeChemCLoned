@@ -1,0 +1,3 @@
+The polarity of larger molecules would depend on the molecular geometry. Let us analyze the case of \ce{CO2}. Each of the C-O bonds on the molecule are polar bonds. However, \ce{CO2} is a linear molecule  \hspace{.07in}\chemfig{\lewis{35,O}=\lewis{,C}=\lewis{17,O}}\hspace{.07in} and the polarity of each C-O bonds compensate so that at the end the molecule is polar. For the \ce{H2O} case, again, the H-O bond is polar. However, the molecule is bent and looks just like\hspace{.05in}\chemfig{ H-[:45]\lewis{26,O}-[:315]H}\hspace{.05in}. Both H-O bonds do not compensate as they point in different direction and the directions do not cancel out what makes the water molecule to be a polar molecule.
+
+

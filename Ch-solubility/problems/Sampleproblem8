@@ -1,0 +1,19 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A mixture is prepared by adding 100mL of 0.01M-\ce{CaNO3} with 50mL of 0.02M-\ce{NaF}. Calculate the number of moles of \ce{CaF2} that precipitate--\ce{CaF2} is insoluble--and the concentration of the leftover ion in solution.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Given that \ce{CaF2} precipitates, we will have the following ions in the solution:
+\begin{center}\ce{Ca^{2+}_{(aq)} + 2NO3^{-}_{(aq)} + Na^{+}_{(aq)} + F^{-}_{(aq)}	-> CaF2_{(s)} v +  2NO3^{-}_{(aq)} + Na^{+}_{(aq)}		}			\end{center}
+The spectators will be \ce{NO3^{-}} and \ce{Na^{+}}, whereas \ce{Ca^{2+}} and \ce{F^{-}} are involved in the precipitation reaction. We will first calculate the number of moles the ions involved in the precipitation
+\[n^{\ce{Ca^{2+}}}= 100\text{mL}\cdot 0.01\text{M} =1\text{mmol} \text{ and }n^{\ce{F^{-}}}=50\text{mL}\cdot 0.02\text{M} =1\text{mmol}	\]
+to then identify the limiting reagent, calculating the number of moles needed to react with $1\text{mmol}$ of \ce{Ca^{2+}}
+\[n^{\ce{F^{-}}}_{needed}= 1\text{mmol of \ce{Ca^{2+}}}\times\frac{2\text{mol of \ce{F^-}}}{1\text{mol of \ce{Ca^{2+}}}}=2\text{mmol of \ce{F^{-}}}	\]
+As we will need 2-mmol of \ce{F^{-}} but we only have 1-mmol, \ce{F^{-}} will limit the precipitation whereas \ce{Ca^{2+}} will be in excess. We will based our calculations on \ce{F^{-}} to predict the moles of precipitate formed
+\[n^{\ce{CaF2}}= 1\text{mmol of \ce{F^{-}}}\times\frac{1\text{mol of \ce{CaF2}}}{2\text{mol of \ce{F^-}}}=0.5\text{mmol of \ce{CaF2}}	\]
+and the leftover moles of \ce{Ca^{2+}}, given that the we have 1mmol of  \ce{Ca^{2+}} and we need
+\[n^{\ce{Ca^{2+}}}_{needed}= 1\text{mmol of \ce{F^{-}}}\times\frac{1\text{mol of \ce{Ca^{2+}}}}{2\text{mol of \ce{F^{-}}}}=0.5\text{mmol of \ce{Ca^{2+}}}	\]
+the leftovers will be 0.5mmol. Finally, we can calculate the concentration of leftover ions by doing
+\[\big[\ce{Ca^{2+}} \big]=\frac{n^{\ce{Ag^+}}_{left}}{V}=\frac{0.5\text{mmol}}{(50+100)\text{mL}}=3.3\times 10^{-3}\text{M} \]
+\import{./}{StudyCheck8}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,38 @@
+\begin{center}
+\begin{tikzpicture}[
+  a/.style={on chain,join,draw,rounded corners,minimum size=1.5em,inner sep=1pt},
+  r/.style={a,text=red},
+  % Style for molecular orbital matrices
+  mo/.style={inner sep=-\pgflinewidth,label distance=0.3em,label position=below},
+  % Adjustments for left atom
+  left atom/.style={execute at begin cell={\begin{scope}},
+    execute at end cell={\coordinate[a];\end{scope}},mo,xshift=-1.5cm,matrix anchor=base east},
+  % Adjustments for right atom
+  right atom/.style={execute at begin cell={\begin{scope}\coordinate[a];},
+    execute at end cell={\end{scope}},mo,xshift=1.5cm,matrix anchor=base west},
+  % Adjustments for molecular orbitals
+  molecule/.style={execute at begin cell={\begin{scope}\coordinate[a,inner sep=2cm];},
+    execute at end cell={\coordinate[a];\end{scope}},mo,anchor=base},
+  % Morbusg's scope-chain magic
+  every scope/.style={start chain,node distance=1mm},
+  ]
+  \matrix[molecule,yshift=-3cm] (as) { % Antibonding Sigma
+    \node[a,label=$\sigma_{1s}^*$]{}; \\};
+  \matrix[molecule,yshift=-5cm] (bs) { % Bonding Sigma
+    \node[a,label=$\sigma_{1s}$]{\moupdown}; \\};
+  \matrix [left atom,yshift=-4.0cm] (la){ % Left Atom
+     \node[a,label={H 1s}]{\moup};\\} ;
+\matrix [right atom,yshift=-4.0cm] (ra) { % Right Atom
+   \node[a,label={H 1s}]{\moup}; \\} ;
+\draw [densely dashed] (la.base east) -- (bs.base west)
+  (bs.base east) -- (ra.base west) -- (as.base east)
+  (as.base west) -- (la.base east) 
+  ;
+  \node at (-2,-7){\ce{H}} ; \node at (-0,-7){\ce{H2}}   ;\node at (2,-7){\ce{H}}   ;
+  \draw[->,blue, solid] ( -4cm, -8cm) -- ( -4cm, -4cm) node[right,rotate=90]{Energy}  ;
+   \draw[->,blue, solid]   ( -4cm, -8cm)  --( 4cm, -8cm)  ;
+\node[scale=0.5] at (0.0,-6.2) {\usebox\peanut};
+\node[scale=0.5] at (-0.5,-1.8) {\usebox\mononutdashed};
+\node[scale=0.5] at (0.5,-1.8) {\usebox\mononut};
+\end{tikzpicture}\end{center}
+

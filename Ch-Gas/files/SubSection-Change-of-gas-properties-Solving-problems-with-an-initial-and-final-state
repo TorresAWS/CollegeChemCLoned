@@ -1,0 +1,20 @@
+In order to solve problems in which two of the gas variables are kept fixed and the other two are fixed, one needs to apply the ideal gas law at the initial and final state to then divide both formulas. Imagine the situation in which you have a 1L hot air balloon with 1 moles of a gas and you add gas to a total of 5 moles. You want to calculate the final volume after you inflate the volume, knowing the temperature and pressure are kept constant. The initial state corresponds to 1L and 1 moles of gas and the  final estate corresponds to an unknown volume and 5 moles. Using the ideal gas formula twice you have:
+\begin{equation}
+  \left.
+  \raisebox{0pt}[30pt]{\smash{$\begin{array}{r@{}l@{\,}l}
+   &  PV_1=n_1RT \\
+   \\ 
+    & PV_2=n_2RT \\
+  \end{array}$}}
+  \right\} \quad \frac{PV_1}{PV_2}=\frac{n_1RT}{n_2RT} 
+\end{equation}
+as some of the variables of the cancel out:
+
+\begin{equation}
+\frac{\cancel{P}V_1}{\cancel{P}V_2}=\frac{n_1\cancel{RT}}{n_2\cancel{RT}} 
+\end{equation}
+and you end up with Avogadros' law. If you plug the numbers into the formula:
+\begin{equation}
+\frac{1L}{V_2}=\frac{1 \text{ mol}}{5 \text{ mol}} 
+\end{equation}
+and you get a final volume of 5L.

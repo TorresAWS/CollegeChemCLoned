@@ -1,0 +1,101 @@
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name the following compound:
+\begin{center}\chemfig{CH_3-CH(-[:90]CH_3)-CH_2-CH_2-CH_3}\end{center}
+\end{question}\begin{solution}
+2-methylpentane
+\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ 
+ 
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name the following compound:
+\begin{center}
+\chemfig{CH_3-C(-[:90]CH_3)(-[:-90]CH_3)-CH_2-CH_2-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+ 2,2-dimethylhexane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ 
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Name the following compound:
+\begin{center}
+\chemfig{CH_3-CH_2-C(-[:90]CH_3)(-[:-90]CH_3)-CH_2-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+3,3-dimethylhexane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-CH(-[:90]CH_3)-CH(-[:90]CH_3)-CH_2-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+2,3-dimethylhexane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-CH(-[:90]C_2H_6)-CH_2-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+2-ethylpentane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-CH(-[:90]Br)-CH(-[:90]NO_2)-CH_2-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+2-bromo-3-nitrohexane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-CH_2-CH(-[:90]CH_2-CH_2-CH_3)-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+3-ethylhexane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-CH(-[:-90]CH_2-CH_3)-CH_2-CH_3}
+\end{center}
+\end{question}\begin{solution}
+3-methylpentane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+ %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Give the name for the following compound:
+\begin{center}
+\chemfig{CH_3-C(-[:90]CH_3)(-[:-90]CH_2-CH_3)-CH_3}
+\end{center}
+\end{question}\begin{solution}
+2,3-dimethylbutane
+ \end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+

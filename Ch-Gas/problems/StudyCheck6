@@ -1,0 +1,8 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Hydrogen gas reacts with nitrogen (MW=28 g/mol) gas to produce ammonia at STP conditions according to the following equation:
+\begin{center}\ce{  3H2(g)  + $\underset{\text{\large 2L}}{\ce{N2(g)   }}$  -> $\underset{\text{\large x g}}{\ce{2NH3(g)}}$  } \end{center}
+Calculate the number of grams of ammonia produced from 0.5L of nitrogen.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 5g. \end{flushright} }
+

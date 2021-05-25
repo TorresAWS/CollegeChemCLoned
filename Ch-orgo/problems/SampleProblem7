@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name the following hydrocarbon:
+\begin{center} \chemfig{CH_3-C(-[:90,1]F)(-[:-90,1]I)-Br}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The carbon chain has two carbons and hence the ending of the name would be: ethane. Also there are three different substituents: iodine (iodo substituents), bromine (bromo substituents) and fluorine (fluoro substituents). We need to order them according to the \emph{abc}, hence the order would be: bromo, then fluoro and finally iodo. The full name of the alkane would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: Bromo-Fluoro-Iodoethane. \end{flushright}
+\import{./}{StudyCheck7}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

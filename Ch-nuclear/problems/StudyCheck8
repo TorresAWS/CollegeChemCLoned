@@ -1,0 +1,14 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+On one hand, Methadone is a synthetic Opioid agonist used for opioid maintenance therapy in opioid dependence and for chronic pain management with a half-life of 900 seconds. On the other hand, Fluoxetine, sold under the brand names Prozac, is an antidepressant with a half-life of 4 days. Which medication will remain longer in the body and how many time is the half-life of the largest remaining drug in comparison with the other?
+\\
+ 
+ 
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:  Fluoxetine, 384
+ \end{flushright} }
+
+
+
+

@@ -1,0 +1,7 @@
+Look for example at the measurement 2 cm. Centi (c) is the prefix and means $1\times10^{-2}$ and meter (m) is the unit which refers to length. Another example, 7 kg means kilogram. Kilo (k) is the prefix and means $1\times10^{3}$, whereas gram (g) is the unit that refers to mass. The prefix refers to the first letter whereas the unit refers to the last letter. \\
+Would you prefer to be paid a kilodollar, a dollar or a centidollar? A unit with a prefix can be bigger or smaller than the plain unit--this is the unit without prefix--, depending on the prefix. The following prefixes make the unit smaller: deci, centi, milli, micro, nano, pico and femto. For example a fs (femtosecond) is smaller than a s (second). Differently, the following prefixes make the unit larger: Tera, Giga, Mega. For example a Tb (terabyte) is larger than a b (byte). byte is a unit used in computer science.
+%\marginnote{\faBicycle\ Remember: the \textcolor{blue}{ \textbf{pre}}fix always comes first as the \textcolor{blue}{ \textbf{c}} in \textcolor{blue}{ \textbf{c}}m}
+%\begin{figure*}[h] % FUL FIGURE
+%\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=\linewidth,scale=0.5]{./../{\chapterlabel}/figure1-4}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;\end{tikzpicture}
+%\caption{The different scales of the matter}
+%\end{figure*}

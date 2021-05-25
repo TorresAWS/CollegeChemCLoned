@@ -1,0 +1,25 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Assess whether the reaction below:
+\begin{center}\ce{ 2NO_{(g)} + Cl2_{(g)} -> 3NOCl_{(g)}}{ \hfill $r^{Exp}=k^{Exp} [\ce{NO}]^2[\ce{Cl2}] $} \end{center}
+is correctly represented by the following mechanism:
+\begin{center}
+(1)\hfill\ce{ NO_{(g)} + Cl2_{(g)} <=>[$k_1$][$k_{-1}$]      NOCl2_{(g)}  }{   \hfill(equil.)} \\
+(2)\hfill\ce{NOCl2_{(g)} + NO_{(g)} ->[$k_2$] 2NOCl_{(g)} }{  \hfill(\small slow)} 
+\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will verify two criteria: that the combination of the mechanistic steps gives the overall reaction and that the rate law is correctly described by the mechanism, using the rate determining step approximation--this means that the slow step determines the experimental rate law. We will first write down the rate laws for each individual step and we will combine both steps:
+\begin{center}
+(1)\hfill\ce{ NO_{(g)} + Cl2_{(g)} <=>[$k_1$][$k_{-1}$]      NOCl2_{(g)}  }{   \hfill(equil.)\\\hfill $0=k_1[\ce{NO}][\ce{Cl2}]-k_{-1}[\ce{NOCl2}][\ce{Cl2}]$} \\
+(2)\hfill\ce{NOCl2_{(g)} + NO_{(g)} ->[$k_2$] 2NOCl_{(g)} }{  \hfill(\small slow)\\\hfill $r_2=k_2[\ce{NOCl2}][\ce{NO}]$} 
+\\$\mathclap{\rule{8cm}{0.4pt}}$\\
+(1)+(2)\hfill\ce{ 	 NO_{(g)} + Cl2_{(g)}	 + $\cancel{\ce{NOCl2_{(g)}}}$ + NO_{(g)} -> $\cancel{\ce{NOCl2_{(g)}}}$ +2NOCl_{(g)}	}\\{ \hfill $r^{Exp}=k^{Exp} [\ce{NO}]^2[\ce{Cl2}] $} 
+\end{center}
+We have that the first criteria is met as the overall reaction is obtained by combining both steps. Now we will use the rate liming approach in order to reproduce the experimental rate law:
+\[r^{Exp}\sim r^{slow}=k_2[\ce{NOCl2}][\ce{NO}]\]
+and we will use the equilibrated step in order to calculate $[\ce{NOCl2}]$:
+\[0=k_1[\ce{NO}][\ce{Cl2}]-k_{-1}[\ce{NOCl2}][\ce{Cl2}] \Longrightarrow [\ce{NOCl2}]=\frac{k_1}{k_{-1}}[\ce{NO}][\ce{Cl2}]\]
+Now we are able to compute $r^{slow}$:
+\[r^{slow}=	\frac{k_2\cdot k_1}{k_{-1}}[\ce{NO}]^2[\ce{Cl2}] 	\]
+We have that the rate limiting step gives the experimental rate law. Hence this is an appropriated mechanism with $k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}$.\\
+\import{./}{StudyCheck15} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

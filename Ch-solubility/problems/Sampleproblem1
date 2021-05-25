@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the solubility equilibrium for: Lead(II) iodate, and \ce{FeCO3}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The first insoluble compound, Lead(II) iodate, with formula \ce{Pb(IO3)2}, contains cation lead(II) \ce{Pb^{2+}} and anion \ce{IO3^{2-}} (iodate). The solubility equilibrium will be given by: 
+\begin{center}\ce{Pb(IO3)2_{(s)}  <=> Pb^{2+}_{(aq)} + 2IO3^{-}_{(aq)}}	 \end{center}
+The solubility equilibrium for the second insoluble compound iron(II) carbonate will be:
+\begin{center}\ce{FeCO3_{(s)}  <=> Fe^{2+}_{(aq)} + CO3^{2-}_{(aq)}}	 \end{center}
+\import{./}{StudyCheck1}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

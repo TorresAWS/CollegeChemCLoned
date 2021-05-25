@@ -1,0 +1,49 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The following two sets of data report the change in boiling point of a solution. Assess the date to calculate the boiling elevation constant, and if possible, calculate colligative constant and the boiling point of the pure solvent. 
+\begin{center}\begin{tabular}[t]{  c c c c   }
+\toprule
+\multicolumn{2}{c}{Set A}&\multicolumn{2}{c}{Set B}\\
+\toprule
+  T($^{\circ}$C)	&m&T($^{\circ}$C)	&m\\
+\midrule
+ 17.02	&1&	817.21	&1\\
+ 15.21	&2&	14.42	&2\\
+  11.10	&3&	11.63	&3\\
+ 7.65	&4&	8.84	&4\\
+ 6.05	&5&	6.05		&5\\
+\bottomrule
+\end{tabular}\end{center}
+%\pgfplotstableread{    
+% y1 			x1	 y2 		x2
+% 17.02		1 	17.21		 1 
+%  15.21		2 	14.42	 	2
+% 11.10		3 	11.63	 	3 
+% 7.65			4 	8.84	 		4
+%  6.05		5 	6.05	 		5 	 
+%}\tableLabel
+%\MakeRegression{x1}{y1}{reg1}{\SlA}{\IntA}{\RsqA}
+%\MakeRegression{x2}{y2}{reg2}{\SlB}{\IntB}{\RsqB}
+%\begin{tikzpicture}
+%\begin{groupplot}[height=5cm,width=6.4cm,
+%  group style={
+%    group size=2 by 1,
+%  }
+%]
+%\nextgroupplot[title=SetA, legend style={at={(0.9,1.4)} }]
+%\addplot +[mark=none] table [x=x1, y=reg1] {\tableLabel};
+%\addplot +[only marks] table [x=x1, y=y1]  {\tableLabel};   
+%\addlegendentry{\LegendEntry{\SlA}{\IntA}{\RsqA}}
+%%\addlegendentry{Set A}
+%\nextgroupplot[title=SetB, legend style={at={(0.99,1.4)} }]
+%\addplot +[mark=none] table [x=x2, y=reg2] {\tableLabel};
+%\addplot +[only marks] table [x=x2, y=y2]  {\tableLabel};   
+%\addlegendentry{\LegendEntry{\SlB}{\IntB}{\RsqB}}
+%%\addlegendentry{Set B}
+%\end{groupplot}
+%\node[anchor=north]  at (5,0) {molality, m};
+%\node[anchor=north, rotate=90]  at (-1,2) {T, $^{\circ}$C};
+%
+%\end{tikzpicture}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: Data set B, $k_f=2.79^{\circ}$C, $T^{solvent}_f=20^{\circ}$C
+ \end{flushright} }
+

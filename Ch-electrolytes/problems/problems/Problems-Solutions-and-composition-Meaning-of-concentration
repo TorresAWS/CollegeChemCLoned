@@ -1,0 +1,14 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Order the following solution from more to less concentrated:
+\begin{inparaenum}[(a)]
+\item A vanillin solution ($1.3\times 10^{-1}$M)
+\item An adrenaline solution ($1.1\times 10^{3}$M)
+\item Vinegar, an acetic acid solution ($1.2\times 10^{0}$M)
+\item 
+\end{inparaenum}
+\end{question}
+\begin{solution}
+adrenaline$\geq$vinegar$\geq$vanillin
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

@@ -1,0 +1,22 @@
+The formation reaction starts with natural-state elements (e.g. \ce{H2}, \ce{N2}, etc.) to form a chemical. For example, the formation reaction of NO is given by:
+\begin{center}\ce{N2_{(g)} + O2_{(g)} -> 2NO_{(g)}}\end{center}
+On the products side we have the chemical formed (NO) whereas on the reactant side we have the elements that make NO on its natural state (\ce{H2} and \ce{N2})
+The enthalpy associated with this reaction is called standard enthalpy of formation $\Delta H_f^{\circ}(\ce{NO_{(g)}})$. This value is often listed on the right of the reaction:\\
+\ce{ N2_{(g)} + O2_{(g)} -> 2NO_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_f=181KJ$
+ \item[\docfilehook{ $\Delta H^{\circ}_R$ and $\Delta H^{\circ}_f$ }{$\Delta H^{\circ}_R$ and $\Delta H^{\circ}_f$ }]
+Consider the following two reactions:
+\begin{center}\ce{ N2_{(g)} + O2_{(g)} -> 2NO_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_f=181KJ$\end{center}
+\begin{center}\ce{ Fe2O3_{(s)} +  3CO_{(g)} -> 2Fe_{(s)} + 3CO2_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_R=-25KJ$\end{center}
+The first example represents a formation reaction and thus the enthalpy is labeled as $\Delta H^{\circ}_f$. In contrast, the second reaction is not a formation reaction. This is because the reactants are not elements on its natural state: \ce{CO_{(g)}} and \ce{Fe2O3_{(s)}} has enthalpies different than zero. For this reason, the second enthalpy is labeled as $\Delta H^{\circ}_R$, and is called standard enthalpy of reaction.
+%\item[\docfilehook{How to indicate $\Delta H^{\circ}_R$ in a reaction }{How to indicate $\Delta H^{\circ}_R$ in a reaction}]
+%Normally in chemical reaction the value of $\Delta H^{\circ}_R$ can be written in two different ways. You can see the enthalpy added in the reaction as a reactant or product or you can find the enthalpy written on the right side of the reaction. For example, in the first example above--the endothermic reaction--you can write:
+%\ce{ N2_{(g)} + O2_{(g)} -> 2NO_{(g)} + 181KJ} 
+%or you can find:
+%\ce{ N2_{(g)} + O2_{(g)} -> 2NO_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_R=181KJ$.
+%For the second example above, the exothermic reaction, you can indicate the enthalpy like:
+%\ce{ 2NO_{(g)} + O2_{(g)} + 114KJ -> 2NO2_{(g)}} 
+%or you can find:
+%\begin{center}\ce{ N2_{(g)} + O2_{(g)} -> 2NO_{(g)} } \hspace*{0pt}\hfill $\Delta H^{\circ}_R=-114KJ$.\end{center}
+%Note that in exothermic reaction, the enthalpy value is indicated as a product as the reaction produces heat, whereas in endothermic reaction it is indicated as a reactant, as these reactions consume heat.
+%
+

@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Construct the electron-dot structure of \ce{HCl}.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item \begin{bf}Step one:\end{bf} we first arrange the atoms in the molecule as \ce{H}\hspace{.05in}\ce{Cl}. 
+\item \begin{bf}Step two:\end{bf} now we count the number of valence electrons: H(1) and Cl(7) that gives a total of eight electrons.
+ \item \begin{bf}Step three:\end{bf} let us count the pairs of electrons; we have eight electrons and that is four pairs.
+\item \begin{bf}Step four:\end{bf} now we distribute the pair on each atoms knowing that each atom has to have four pairs with the exception of hydrogen that can only be surrounded by one pair.
+\lewis{0:,H}\hspace{.05in}\lewis{0:2:6:,Cl}\hspace{.05in}, using lines instead of pairs (this is not necessary but makes the electron-dot structure look better) we obtain\\
+ \chemfig{ H-[:0]\lewis{026,Cl}}\hspace{.05in}.
+\end{enumerate}
+ \import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

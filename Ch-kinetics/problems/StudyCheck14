@@ -1,0 +1,17 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Using the following data, calculate the Arrhenius parameters (the activation energy and the frequency factor) for the following gas-phase reaction:
+\begin{center}\ce{HS + Cl2 -> ClSH + Cl}\end{center}
+\begin{center}\begin{tabular}[t]{   c  c   }
+\toprule
+  $T$ ( K)	&$k$, ($s^{-1}$) \\
+\midrule
+100&	$1.1\times 10^{-15}$\\
+200&	$1.4\times 10^{-13}$\\
+300&	$6.9\times 10^{-13}$\\
+400&$1.5\times 10^{-12}$\\
+\bottomrule
+\end{tabular}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:  $E_a=5737J/mol$, $A=1.7\times 10^{-11}$ s$^{-1}$.
+ \end{flushright} }
+

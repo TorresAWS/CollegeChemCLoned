@@ -1,0 +1,65 @@
+ Let us consider the following equilibrium that produces heat--remember we describe these types of reactions as exothermic:
+ \begin{equation*} \ce{CO(g) + 3H2(g) <=> CH4(g) + H2O(g) + \text{Heat}} \end{equation*}
+Again, this reaction is in equilibrium so we can use the same seesaw analogy. 
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<=>}};
+  \begin{scope}[rotate around={0:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO(g) + 3H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) + Heat}};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}
+If we increase the temperature of the system, the equilibrium will be affected. To go back to an equilibrium state the reaction will decrease the temperature of the container. As the reaction produces heat, a way to decrease the system temperature is to generate reactants ($\ce{<-}$). Again, using the scale that means:
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<-}};
+  \begin{scope}[rotate around={-5:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO(g) + 3H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) + Heat}};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}
+Differently now if we decrease the temperature, the reaction will increase the temperature by going back to its equilibrium state going from reactants $\ce{->}$ to products. This is because heat is produced as a product
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<-}};
+  \begin{scope}[rotate around={5:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO(g) + 3H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) + Heat}};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}

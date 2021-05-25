@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following molecules as polar or nonpolar: \ce{H2}, \ce{HCl}, \ce{CH3CH3}, and \ce{CH3CH2Cl}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+\ce{H2} is a non-polar molecule, being a diatomic molecule containing two atoms of the same element. Differently \ce{HCl} is polar. \ce{CH3CH3} is a non-polar poliatomic molecule made of C and H atoms, whereas \ce{CH3CH2Cl} is polar.
+\\
+ \import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,7 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given the following MO configurations: (a) $\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{1}_{2p}$ and (b) $\sigma^{2}_{2s}\sigma^{*2}_{2s}\pi^{4}_{2p}\sigma^{2}_{2p}\pi^{*3}_{2p}$. Calculate the bond order and compare the length of the chemical bond of both molecules.\\ 
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The bond order is the number of bonding electrons minus the number of antibonding electrons divided by two. For the first example, we have seven bonding electrons and tow antibonding. Hence the bond order will be 2.5. For the second example, we have eight bonding electrons and five antibonding. Hence the bond order will be 1.5. The larger the BO the smaller the bond, hence the second molecule has a smaller bond.
+\\
+ \import{./}{StudyCheck10}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

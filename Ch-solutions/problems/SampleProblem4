@@ -1,0 +1,30 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Break down the following chemicals into ions, if possible:\\
+\begin{center}\fontfamily{ppl}\selectfont
+\begin{tabular}{ll}
+\rowcolor{black!45}
+\toprule
+Chemical &  Particles in solution  \\
+\midrule
+\ce{K2CrO4_{(aq)}} &\hspace{3cm}  \\
+\ce{Ba(NO3)2_{(aq)}} & \hspace{3cm}   \\
+\ce{BaCrO4_{(s)}} &\hspace{1cm}    \\
+ \ce{KNO3_{(aq)} } &\hspace{1cm}    \\
+\bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We can only break down into ions ionic compounds and oxosalts that are not solid. From the list of chemicals in the example, we will not be able to break down \ce{BaCrO4_{(s)}} into ions as it is a solid. From the other chemicals, \ce{K2CrO4_{(aq)}} is named potassium chromate and contains 2\ce{K^+_{(aq)}} and \ce{CrO4^{2-}_{(aq)}} ions. Barium nitrate--\ce{Ba(NO3)2_{(aq)}}--will produce \ce{Ba^{2+}_{(aq)}} and 2\ce{NO3^{-}_{(aq)}}. Finally, potassium nitrate-- \ce{KNO3_{(aq)} }--will produce \ce{K^{+}_{(aq)}} and \ce{NO3^{-}_{(aq)}}. In the table:
+\begin{center}\fontfamily{ppl}\selectfont
+\begin{tabular}{ll}
+\rowcolor{black!45}
+\toprule
+Chemical &  Particles in solution  \\
+\midrule
+\ce{K2CrO4_{(aq)}} & 2\ce{K^+_{(aq)}} + \ce{CrO4^{2-}_{(aq)}}  \\
+\ce{Ba(NO3)2_{(aq)}} &\ce{Ba^{2+}_{(aq)}} + 2\ce{NO3^{-}_{(aq)}}\\
+\ce{BaCrO4_{(s)}} &\ce{BaCrO4_{(s)}}    \\
+ \ce{KNO3_{(aq)} } &\ce{K^{+}_{(aq)}} + \ce{NO3^{-}_{(aq)}}   \\
+\bottomrule
+\end{tabular}\end{center}
+\import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

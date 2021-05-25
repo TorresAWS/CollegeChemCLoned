@@ -1,0 +1,63 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Draw the electron-dot structure of:
+\begin{inparaenum}[(a)]
+\item  \ce{BH3}
+\item  \ce{CH4}
+\end{inparaenum}
+\begin{center}\begin{tikzpicture}
+\draw[step=.5cm,gray,very thin] (-4,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}\begin{inparaenum}[(a)]
+\item  \chemfig{B( (-[:0]H)(-[:180]H)(-[:270]H))} 
+\item  \chemfig{C( (-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H))} 
+\end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Draw the electron-dot structure of:
+\begin{inparaenum}[(a)]
+\item \ce{NH4^{+}}
+\item \ce{H3O^{+}}
+\end{inparaenum}
+\begin{center}\begin{tikzpicture}
+\draw[step=.5cm,gray,very thin] (-4,-2) grid (2,2);
+\end{tikzpicture}\end{center}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+ \item  \chemleft[\chemfig{N( (-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H))}\chemright]\chemmove{\node[] at (0pt,35pt) {\footnotesize $+$};} 
+ \item  \chemleft[\chemfig{N( (-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H))}\chemright]\chemmove{\node[] at (0pt,35pt) {\footnotesize $+$};} 
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The electron-dot structure of HI is:
+\vspace{0.3cm}\begin{multicols*}{2}
+\begin{enumerate}[label=(\alph*)]
+\item \chemfig{ \lewis{46,H}-[:0]\lewis{026,I}}\hspace{.05in}
+\item \chemfig{ \lewis{46,H}-[:0]\lewis{26,I}}\hspace{.05in}
+\item \chemfig{ \lewis{46,H}-[:0]\lewis{6,I}}\hspace{.05in} 
+\item \chemfig{ \lewis{26,H}-[:0]\lewis{26,I}}\hspace{.05in}
+\item \chemfig{ H-[:0]\lewis{026,I}}\hspace{.05in}
+\end{enumerate}\end{multicols*}
+\end{question}
+\begin{solution}
+\chemfig{ H-[:0]\lewis{026,I}}\hspace{.05in}
+\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%

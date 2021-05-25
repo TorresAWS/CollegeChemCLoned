@@ -1,0 +1,22 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For a solution of 5 g of \ce{I2} (MW=254g/mol) in 100 g of benzene, \ce{C6H6}:
+\begin{inparaenum}[(a)]	
+\item Calculate its molality %50m  
+\item	 Given that benzene boiling point is 80$^{\circ}$C, and that $k_b$ = 2.53 $^{\circ}$C/m, calculate the boiling point and the boiling point elevation of the solution.  
+\item	 Given that benzene freezing point is 5$^{\circ}$C, and that $k_f$ = 5.10 $^{\circ}$C/m, calculate the freezing point and the freezing point depression of the solution.   
+\end{inparaenum}
+\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the molality of the solution, we need the moles of solute ($5g\times \frac{1mol}{254g}=0.019$moles)  and the kilograms of solvent (100g=0.1kg). We have that molality is
+\[m=\frac{\text{moles of solute}}{\text{kg of solvent}}=\frac{0.019}{0.1}=0.19m\]
+With the molality, we can calculate the freezing and boiling point of the solution. Mind that the pure solvent freezes at 5$^{\circ}$C and boils at 80$^{\circ}$C. The solution will freeze at a lower temperature and will boil at a higher temperature--that is, it will experience a freezing depression and boiling elevation. We will calculate first the freezing point (and freezing point depression):
+\[T_f^{\text{solution}}=T_f^{\text{solvent}}-k_f\cdot i\cdot m =5-5.10\cdot 1\cdot 0.19=4.031 ^{\circ} C\]
+In other words the freezing depression will be
+\[\Delta T_f =-k_f\cdot i\cdot m=-5.10\cdot 1\cdot 0.19=-0.969^{\circ}C\]
+We will now calculate the boiling point elevation:
+\[T_b^{\text{solution}}=T_b^{\text{solvent}}+k_b\cdot i\cdot m=80+2.53\cdot 1\cdot 0.19=80.48^{\circ}C\]
+ In other words the boiling elevation will be
+\[\Delta T_b =k_b\cdot i\cdot m=2.53\cdot 1\cdot 0.19=0.4807^{\circ}C \]
+\\
+\import{./}{StudyCheck6}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

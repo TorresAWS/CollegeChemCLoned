@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Write down the expression of $K_c$ for the following reaction:\\
+ \ce{Pb^{2+}_{(Aq)} + 2I^{-}_{(Aq)} <=> PbI2(s)}.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: $\frac{1} {\big[ \ce{Pb^{2+}} \big] \cdot \big[ \ce{I^-} \big]^2 }$ 
+ \end{flushright} }

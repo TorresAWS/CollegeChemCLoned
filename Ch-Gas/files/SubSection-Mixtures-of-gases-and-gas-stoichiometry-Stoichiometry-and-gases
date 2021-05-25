@@ -1,0 +1,9 @@
+If you encounter chemical reactions with gases, the molar volume relation allows you to carry stoichiometric calculations. Why is this important? Imagine you have this reaction:
+\begin{center}\ce{ $\underset{\text{\large 3L}}{\ce{2H2(g)}}$ + O2(g)  -> $\underset{\text{\large xL}}{\ce{2H2O(g)}}$  } \end{center}
+Gases are measured by means of their pressure and is more convenient to speak about liters of hydrogen than moles of hydrogen or grams of hydrogen, as hydrogen is a gas. This way, if we start by mixing 3L of \ce{H2} we would like to know how much water is being produced. In order to calculate this, we will use the stoichiometric coefficients. In previous chapters we saw that these numbers represent moles and the units of these numbers is mol. If the reaction deals with gases you want to interpret the stoichiometric coefficients in terms of liters. This way:
+\begin{equation*}
+x=3\cancel{\text{ L of }\ce{H2}} \times \dfrac{\text{2 L of }\ce{H2O}}{2\cancel{\text{ L of \ce{H2}}}}=3\text{ L of }\ce{H2O}.
+\end{equation*}
+Overall, if we mix three litters of hydrogen we obtain 3L of water.
+In case we know the litters of any of the reactants and we need to calculate the moles of product, then we have to add an extra step to transform litters into moles.
+

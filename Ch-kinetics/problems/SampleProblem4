@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the following rate law as differential or integral and switch into the other form.
+\begin{center}\[\frac{1}{[\ce{C2H6}]}=4\times 10^{-4}\cdot t +\frac{1}{0.03}\]\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As the equation contains time this would be a integrated rate law. We can use Table \ref{tab:{\chapterlabel}1} to identify the order and compute the differential law. This is a first order reaction with rate constant $4\times 10^{-4}$ 1/s, therefore:
+\[r=  4\times 10^{-4} [\ce{C2H6}] \]
+\import{./}{StudyCheck4} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,3 @@
+In the same way as when you have a single bromo substituent attached to propane, you can also have two \chemfig{Br-[:0,1]}. In this case, you need to use the prefix \emph{di} to indicate there are two identical bromos. For example, the name of the following molecule would be:
+\begin{center} \chemfig{CH(-[:90,1]Br)(-[:-90,1]Br)-CH_2-CH_3} \hspace{0.5cm}\textcolor{blue}{Dibromopropane}\end{center}
+Similarly, you should use the prefix \emph{tri} and \emph{tetra} for three equal substituents.

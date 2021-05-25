@@ -1,0 +1,77 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Predict whether \ce{CdF2} will precipitate in the following mixtures given that $K_{sp}=6.44\times 10^{-3}$:
+\begin{inparaenum}[(a)]
+\item A mixture containing $\big[ \ce{Cd^{2+}} \big]=1\times 10^{-1}$M and $\big[ \ce{F^{-}} \big]=1\times 10^{-1}$M % (No precipitation)
+\item A mixture containing $\big[ \ce{Cd^{2+}} \big]=1\times 10^{-1}$M and $\big[ \ce{F^{-}} \big]=1\times 10^{-2}$M % (precipitation)
+\item A mixture containing $\big[ \ce{Cd^{2+}} \big]=1\times 10^{-2}$M and $\big[ \ce{F^{-}} \big]=1\times 10^{-2}$M % (precipitation)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  No precipitation 
+\item  precipitation 
+\item  precipitation 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Predict whether \ce{CuCl} will precipitate in the following mixtures given that $K_{sp}=1.7\times 10^{-7}$:
+\begin{inparaenum}[(a)]
+\item A mixture containing $\big[ \ce{Cu^{+}} \big]=1\times 10^{-3}$M and $\big[ \ce{Cl^{-}} \big]=1\times 10^{-3}$M % (No precipitation)
+\item A mixture containing $\big[ \ce{Cu^{+}} \big]=1\times 10^{-4}$M and $\big[ \ce{Cl^{-}} \big]=1\times 10^{-4}$M % (precipitation)
+\item A mixture containing $\big[ \ce{Cu^{+}} \big]=1\times 10^{-4}$M and $\big[ \ce{Cl^{-}} \big]=1\times 10^{-3}$M % (no precipitation)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  No precipitation 
+\item  precipitation 
+\item  no precipitation 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate whether a precipitation will form when mixing the following solutions given that $K_{sp}$ for \ce{Ni(IO3)2} is $4.7\times 10^{-5}$:
+\begin{inparaenum}[(a)]
+\item 10mL of a 0.1M-\ce{NiCl} solution and 10mL of a 0.1M-\ce{NaIO3} solution  % (No precipitation)
+\item 10mL of a 0.1M-\ce{NiCl} solution and 20mL of a 0.1M-\ce{NaIO3} solution  % (No precipitation)
+\item 10mL of a 0.01M-\ce{NiCl} solution and 20mL of a 0.01M-\ce{NaIO3} solution  % (precipitation)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+ No precipitation
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+ %%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate whether a precipitation will form when mixing the following solutions given that $K_{sp}$ for \ce{FeF2} is $2.4\times 10^{-6}$:
+\begin{inparaenum}[(a)]
+\item 1mL of a 0.1M-\ce{Fe(NO3)2} solution and 1mL of a 0.1M-\ce{NaF} solution  % (No precipitation)
+\item 1mL of a 0.01M-\ce{Fe(NO3)2} solution and 1mL of a 0.1M-\ce{NaF} solution  % (No precipitation)
+\item 1mL of a 0.01M-\ce{Fe(NO3)2} solution and 1mL of a 0.01M-\ce{NaF} solution  % ( precipitation)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  No precipitation 
+\item  No precipitation 
+\item  precipitation 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+

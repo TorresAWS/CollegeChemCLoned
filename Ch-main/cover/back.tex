@@ -1,0 +1,35 @@
+\documentclass[main.tex]{subfiles}
+\thispagestyle{empty}
+
+\begin{titlepage}
+
+\clearpage\thispagestyle{empty}\mbox{}\clearpage
+
+
+
+
+
+\definecolor{blueXIIdark}{cmyk}{1,.8,.30,.05}
+\definecolor{blueXIIlight}{cmyk}{.0,.30,1,.00}
+\vspace{20cm}
+\noindent\hspace{-2.6cm}
+\vspace{2cm}
+\begin{tikzpicture}[scale=0.9, overlay, yshift=-10cm]
+   \pic[scale=0.6,xshift=2cm,yshift=0cm]{apple};
+    \draw [blueXIIlight, rotate=90,xshift=-3 cm,yshift=-3cm]
+    [l-system={Fractal plant, axiom=X, order=6, step=2pt, angle=25}]
+    lindenmayer system; 
+    \fill[blueXIIlight,xshift=-3 cm,yshift=-3cm] (0,0) rectangle (17,0.2);
+\end{tikzpicture} 
+
+\vspace{10cm}
+{\fontsize{50}{60}\selectfont \color{blueXIIdark} College Chemistry}\\
+%\Huge\color{blueXIIdark}\noindent College Chemistry I\\
+\huge\color{blueXIIlight}\noindent \hspace{1cm} A Comprehensive Set of Imperfect Notes
+\vfill
+\large\color{black}
+This set of lectures intend to cover the first semester of a College Chemistry class. The intention here is to present the content in a simple and clear way, while including numerous worked examples and many problems with solution. In particular, this current version of the manuscript contains more than 90 solved problems and more than 200 problems with solution. It also contains numerous diagrams and graphs specifically developed to clarify the content as well as a periodic table.
+The organization of the notes is based on 10 chapters and five parts, each made of two chapters. This organization is intended to help the reader digest the large content typically covered in a General Chemistry class. Every part ends with a review quiz that assesses content. 
+Finally, this set of notes are made to complement and not replace any existing textbook.
+\thispagestyle{empty}
+\end{titlepage}

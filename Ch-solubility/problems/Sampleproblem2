@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the expression of $K_{sp}$ in terms of the ion concentration for the following compounds: \ce{Ag2SO4}, \ce{Mg(OH)2}, and \ce{MgCO3}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The solubility equilibrium for first compound, silver sulfate, is
+\begin{center}\ce{Ag2SO4_{(s)}  <=> 2Ag^+_{(aq)} + SO4^{2-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^+} \big]^2\cdot \big[ \ce{SO4^{2-}} \big]$\end{center}
+The solubility product depends on the square concentration of silver ions. For magnesium hydroxide:
+\begin{center}\ce{Mg(OH)2_{(s)}  <=> Mg^{2+}_{(aq)} + 2OH^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Mg^{2+}} \big]\cdot \big[ \ce{OH^{-}} \big]^2$\end{center}
+Finally, for magnesium carbonate:
+\begin{center}\ce{MgCO3_{(s)}  <=> Mg^{2+}_{(aq)} + CO3^{2-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Mg^{2+}} \big]\cdot \big[ \ce{CO3^{2-}} \big]$\end{center}
+\import{./}{StudyCheck2}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

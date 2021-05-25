@@ -1,0 +1,17 @@
+%%%%%%%PROBLEM
+\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the element with the electron configuration
+\begin{inparaenum}[(a)]
+\item   $1s^2 2s^2 2p^6 3s^2 3p^5$ 	  %(Cl)
+\item   $1s^2 2s^2 2p^6 3s^2 3p^4$	  %(S)
+\item $[Kr]5s^2 4d^8$  %(Pd)
+\end{inparaenum}
+ \end{question}
+\begin{solution}
+ \begin{inparaenum}[(a)]
+\item   $1s^2 2s^2 2p^6 3s^2 3p^5$ 	   (Cl)
+\item   $1s^2 2s^2 2p^6 3s^2 3p^4$	   (S)
+\item $[Kr]5s^2 4d^8$   (Pd)
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

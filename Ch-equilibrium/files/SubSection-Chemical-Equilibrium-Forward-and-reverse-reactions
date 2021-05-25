@@ -1,0 +1,4 @@
+In chemical reactions reactants form products. We call this the \emph{forward reaction}:
+\begin{center}reactants $\ce{->}$ products \end{center}
+However, once the products form they can also generate reactants through the \emph{reverse reaction}: 
+\begin{center}reactants $\ce{<-}$ products\end{center}

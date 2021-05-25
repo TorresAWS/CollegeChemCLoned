@@ -1,0 +1,202 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{electrochem}
+\setcounter{figurenewcounter}{0}
+
+
+\begin{document}
+\linenumbers
+%\setcounter{chapter}{5}
+  
+\chapter[Electrochemistry]{Electrochemistry}
+%\label{ch:atoms}
+
+
+      \begin{marginfigure}
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../Ch-electrochem/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PxFuel} ;
+\end{tikzpicture}
+\end{marginfigure}
+
+
+\lettrine[lines=4]{\color{black!45}B}{atteries} are portable power devices necessary in our every day life. They power cellphones and nowadays ever cars. Batteries apply the principles of chemistry to produce electricity. Galvanic cells are textbook batteries, not intended to generate any electricity as they function reversibly. This chapter covers the principles behind the structure and functioning of batter. You will learn about the electrodes that made this cells, how the combination of different electrodes impact the battery voltage and the concentration of the electrolytes in the electrode affect as well the power given by a galvanic cell.  
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item Identify anodes/cathodes
+\item Calculate cell potentials
+\item Interpret the line notation
+\item Calculate cell potentials of concentration cells
+\item Relate cell potential with $\Delta \text{G}^{\circ}$
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+\docenvdef{Discussion:} What is the difference between a battery and a galvanic cell? \end{tcolorbox}
+\end{marginfigure}%LEARNING GOALS BOX
+
+\section{Galvanic cells}
+Galvanic cells also known as voltaic cell or pile are electrochemical cells that generates electricity from spontaneous redox reactions happening inside the cell. It generally consists of two different metals immersed in electrolytes, or of individual half-cells with different metals and their ions in solution connected by a salt bridge or separated by a porous membrane. Galvanic cells are different than real-life batteries as batteries normally contain more than a single cell and the work out of the equilibrium as they produce electricity. Galvanic cells are textbook batteries working reversibly without producing any electricity.
+\sloppy
+\begin{description}
+\item[\docfilehook{Parts of a galvanic cell}{ }] Galvanic cells contain an anode and a cathode--two electrodes--connected by means of a salt bridge. The anode is the source of electrons, whereas the cathode receive those electrons. The salt bridge completes the electrical circuit allowing the charge consumed in the cathode--in the form of  positive ions--to be compensated by the charges generated in the anode--in the form of positive ions. Electrodes contain two different redox states of the same element in contact with each other. An example of an electrode would be a piece of metallic copper in contact with a solution of \ce{Cu^{2+}} ions. However, electrodes not always are made of metals and for example the hydrogen electrode contains hydrogen gas in contact with an acidic solution containing \ce{H^+}.
+\item[\docfilehook{The electrodes: anode and cathode}{ }]
+Every galvanic cell is composed of two electrodes. The oxidation occurs on the anode which is normally indicated with the $-$ sign. At the same time, electrons are being produced in the anode as an oxidation reaction involved the generation of electrons.
+The reduction occurs on the cathode, indicated with the $+$ sign, which involves the consumption of electrons.
+The name of the electrodes results from the ions involved in the galvanic cell. The chemical reactions happening in a cell produce cations and anions which migrate inside the cell. In particular the another attract the anions and the cathode attracts the cations. Mind that in a galvanic cell inly electrons flow through the circuit, by means of the wire connecting both electrodes. The ions involved migrate inside each of the electrodes but do not leave each separate electrode as the salt bridge. In the anode electrons (and and excess of cations) are generates. This excess of ionic charge is compensated in the salt bridge and an excess of anions are accumulated in the side of the salt bridge close to the anode. A similar but opposite situation happens in the another. As electrons are being consumed an excess of anions are being produces. This excess is compensated with an excess of cations in the side of the salt bridge near the cathode. As you can see, each electrodes produce ionic and electronic charges. The electronic charges flow from one electrode to the other, whereas the ionic charges are compensated in the salt bridge. 
+\item[\docfilehook{What is a salt bridge?}{ }]
+The role of the salt bridge is to compensate the excess of ions generated in each electrode. They are made of saturated \ce{KCl} or \ce{NH4NO3} solutions as both ions in the pair of chemicals have similar mobility. These chemicals should also be non reactive with the chemicals involved in the galvanic cell. A porous membrane can also be used to connect both electrodes. However, in the case of a membrane, an extra contribution to the galvanic cell potential--the liquid junction voltage--should be included. When a galvanic cell functions, each side of the salt bridge becomes charged, with negative ions being accumulated near the anode and positive charges near the cathode.
+\item[\docfilehook{A galvanic cell example}{ }]
+Below we display a representation of the classical Daniell cell which is made of an anode containing metallic zinc in contact with a solution of \ce{Zn^{2+}} ions and a cathode made of copper in contact with a solution of \ce{Cu^{2+}}. The anode involves the oxidation of Zn to produce \ce{Zn^{2+}} and the cathode involves the reduction of \ce{Cu^{2+}} to produce metallic copper. The salt bridge connects both electrodes  and a wire connected to a voltmeter connected the anode and the cathode facilitating the charge transfer. The voltmeter is a device capable of measuring voltage by means of the application of a counter-voltate that ensure that no electricity flows through the system and hence the systems remains in equilibrium.
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{center}
+\begin{tikzpicture}
+\batterya{\small \ce{Cu^{2+}, 1M}}{Cu}	{Zn}	{\small \ce{Zn^{2+}, 1M}}{1}  % 1 to the right
+ \node[text width=12cm, fontscale=0.1, shift={(16,-1)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} The Daniell galvanic cell  };
+ 	
+%\hspace{6cm}
+%\batteryh{\ce{Cu^{2+}, 1M}}{Cu}{\ce{H^+}}{0}  % 1 to the right
+\end{tikzpicture}\end{center}
+
+
+
+\item[\docfilehook{Cell potential}{ }]
+Water flows down a waterfall due to the difference of potential energy between the high and low part of the waterfall. Similarly, heat flows between a hot and cold spot due to the difference in temperature between both locations. In the case of a batter--or more precisely a galvanic cell--we have a flow of electricity results from the difference of cell potential $\Delta \mathcal{E}$ between both electrodes. Cell potential is also referred as cell voltage, cell electromotive force or cell emf. Each electrode has a cell potential. The voltage of the anode ($\mathcal{E}_{anode}$) is always lower than the one from the cathode  ($\mathcal{E}_{cathode}$). The combination of the anodic and cathodic voltage gives the cell potential, in particular the voltage of the cathode with respect to the one in the anode. The overall voltage of a galvanic cell is always positive.
+\end{description}
+
+\section{Standard reduction potentials}
+Each electrode, by itself, has a given potential and when we combine two electrodes we obtain a cell potential that pushed electrons from the anode to the cathode producing a measurable intensity of current. This section gains insight into the characteristics of the electrode potentials. We will learn how to define electrode potentials and to identify the anode and cathode when we put in contact two electrodes.
+\sloppy
+\begin{description}
+\item[\docfilehook{Standard conditions for reduction potentials}{ }]
+The standard conditions for electrodes are 1M for all electrolyte and 1atm for pressures. The potential of a single electrode cannot be measured as electrodes only exist in the context of a galvanic cells. The standard hydrogen electrode (SHE) is used a reference so that the potential is considered as null and the voltage of the corresponding galvanic cell made of another electrode combined with the hydrogen electrode will give the electrode potential. The hydrogen electrode contains gas hydrogen in contact with an acidic 1M HCl solution at 298K with a wire made of platinum that mediates the electron transfer.
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+ \begin{center}
+\begin{tikzpicture}
+\batteryh{\ce{Cu^{2+}, 1M}}{Cu}{\ce{H^+}}{0}  % 1 to the right
+ \node[text width=12cm, fontscale=0.1, shift={(5,-1.3)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} A galvanic cell with a hydrogen anode and a copper cathode. The hydrogen electrode is the reference electrode with null electrodic voltage. Hence the voltage of this cell will directly give the copper electrode voltage.};
+\end{tikzpicture}\end{center}
+The reaction involved in the hydrogen electrode is involves gas hydrogen and protons:
+\begin{center} \ce{H2(\text{1 atm}) -> 2H_{(aq)}^{+}(\text{1 M}) + 2e^-}\hfill $\mathcal{E}^{\circ}=0$ \end{center}
+The electrode potential measured at 1atm and 298K is called standard reduction potential $\mathcal{E}^{\circ}$.
+\item[\docfilehook{Differentiate anodes and cathodes}{ }]
+What if we have to different electrodes involving the following reaction with the standard potentials indicated on the side:
+\begin{center}\ce{Cu^{2+}_{(aq)} + 2e^- ->Cu_{(s)} }\hfill $\mathcal{E}^{\circ}=$0.34V\\
+\ce{Zn^{2+}_{(aq)} + 2e^- ->Zn_{(s)} }\hfill $\mathcal{E}^{\circ}=$-0.76V\end{center}
+How to determine which electrode will act as an anode and which acts as cathode? The rule is the smaller the electrode potential the more tendency of the electrode to act as an anode. If we compare the copper and zinc electrodes, as the electrode potential of zinc is smaller--more negative--than the electrode potential of copper, zinc will act as an anode and copper will act as a cathode.
+
+\item[\docfilehook{Line notation for galvanic cells}{ }]
+There is a quick and easy way to represent a galvanic cell without having to draw the whole cell set up. This is called the line notation and galvanic cells are represented in a single line, starting from left to right. The anode is presented in the left, starting from the metallic part and followed by the electrolyte. A single line represents the liquid-solid contact. A double line represents the salt bridge and the cathode is represented in the right, starting for the electrolyte and finishing by the metal. As you can see, the line notation respect all interphase present in the cells: from left to right we have solid, liquid in contact with the salt bridge which is in contact with the liquid part of the cathode and finally we have the solid part of the cathode.
+For example, the line notation of Daniell cell is:
+\begin{center}\ce{Zn}| \ce{Zn^{2+}}\text{(1 M)}||\ce{Cu^{2+}}\text{(1 M)}|\ce{Cu}	\end{center}
+
+In case there are several electrolytes in any of the electrodes, as all species are in liquid phase we separate them with just a comma. For example, in the galvanic cell below the cathode contains two different states of iron and uses Pt for the charge transfer:
+\begin{center}\ce{Zn}| \ce{Zn^{2+}}\text{(1 M)}||\ce{Fe^{2+}}, \ce{Fe^{3+}}\text{(1 M)}|\ce{Pt}	\end{center}
+
+\end{description}
+
+
+
+\section{Standard reduction potential table}
+The reduction potential of most of the electrodes are tabulated in standard conditions. This section will cover how to employ the table of standard potentials in order to obtain the electrode potential for a given electrode.
+\sloppy
+\begin{description}
+\item[\docfilehook{Standard electrode potentials are expressed as reduction}{ }] 
+Electrodes potentials can be expressed as reduction or as oxidation. This is because all electrodes can behave as anode or cathode, depending on the conterelctrode used in the galvanic cell. For example, for the \ce{Zn_(s)}/\ce{Zn^{2+}_{(aq)}} the reduction potential is:
+
+\begin{center}\ce{Zn^{2+}_{(aq)} + 2e^- ->Zn_{(s)} }\hfill -0.76V\end{center}
+whereas the oxidation potential is:
+\begin{center}\ce{Zn_{(s)}		 ->	Zn^{2+}_{(aq)} + 2e^-		 }\hfill 0.76V\end{center}
+In the table of standard potentials all reactions are expressed only as reduction and as such all potentials are reduction potentials. As such, all reaction will have electrons on the left side of the arrow. The electrode potential you will find on the table for the \ce{Zn_(s)}/\ce{Zn^{2+}_{(aq)}}  would be
+\begin{center}\ce{Zn^{2+}_{(aq)} + 2e^- ->Zn_{(s)} }\hfill $\mathcal{E}^{\circ}=$-0.76V\end{center}
+    \hspace{-1cm}\begin{minipage}[b]{1.3\linewidth}
+
+\begin{center}
+        \begin{adjustbox}{center, width=\columnwidth+20pt}  % can also use \linewidth or sth. else
+
+\refstepcounter{table} \label{tab:{\chapterlabel}1}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}1} Standard reduction potentials at 298K} \\
+\midrule
+	\rowcolor{gray!10}Element&Reaction	&$\mathcal{E}^{\circ}$ (V)&Element&Reaction	&$\mathcal{E}^{\circ}$ (V)	\\ 
+
+\midrule
+\tikzmark{start} Sr \cellcolor{red!5}&\cellcolor{red!5}	\ce{Sr^{+} +e^-	<=>	Sr_{(s)}}&\cellcolor{red!5}		-4.10	& \cellcolor{red!25}	H&  \cellcolor{red!25}\ce{  2H+ + 2   e^-    <=>    H2_{(g)}   }&  \cellcolor{red!25}0.00   	  \\
+Ca\cellcolor{red!5}&\cellcolor{red!5}	\ce{Ca^{+} +e^-	<=>	Ca_{(s)}		}&\cellcolor{red!5}						-3.80	 &	\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	AgBr_{(s)} +e^-	 <=>	Ag_{(s)} + Br-}&\cellcolor{red!75}+0.07	 \\ 
+Li \cellcolor{red!5}&\cellcolor{red!5}\ce{	Li+	+e^-	 <=>	Li_{(s)}	}&\cellcolor{red!5}-3.04	  & 							\cellcolor{red!75}S&\cellcolor{red!75}\ce{	S4O_2^{6-} + 2   e^-	 <=>	2S2O2-3	}&\cellcolor{red!75}+0.08	\\ 
+Cs\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cs+	+e^-	 <=>	Cs_{(s)}	}&\cellcolor{red!5}-3.03	 & 							\cellcolor{red!75}N&\cellcolor{red!75}\ce{	N2_{(g)} + 2H2O + 6H+ + 6e^-	 <=>	2NH4OH_{(aq)}	}&\cellcolor{red!75}+0.09	\\ 
+Ca\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ca(OH)2 + 2   e^-	 <=>	Ca_{(s)} + 2OH-	}&\cellcolor{red!5}-3.02	 & 			\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	HgO_{(s)} + H2O + 2   e^-	 <=>	Hg(l) + 2OH-	}&\cellcolor{red!75}+0.10	\\ 
+Ba\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ba(OH)2 + 2   e^-	 <=>	Ba_{(s)} + 2OH-}&\cellcolor{red!5}	-2.99	&  				\cellcolor{red!75}C&\cellcolor{red!75}\ce{	C_{(s)} + 4H+ + 4e^-	 <=>	CH4_{(g)}	}&\cellcolor{red!75}+0.13	 \\ 
+Rb\cellcolor{red!5}&\cellcolor{red!5}\ce{	Rb+	+e^-	 <=>	Rb_{(s)}	}&\cellcolor{red!5}-2.98	 & 							\cellcolor{red!75}Sn&\cellcolor{red!75}\ce{	Sn^{4+} + 2   e^-	 <=>	Sn2+}&\cellcolor{red!75}+0.15	\\ 
+K\cellcolor{red!5}&\cellcolor{red!5}\ce{	K+ +e^-	 <=>	K_{(s)}	}&\cellcolor{red!5}-2.93	 & 							\cellcolor{red!75}Cu&\cellcolor{red!75}\ce{	Cu^{2+} +e^-	 <=>	Cu+}&\cellcolor{red!75}+0.159	 \\ 
+Ba\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ba^{2+} + 2   e^-	 <=>	Ba_{(s)}}&\cellcolor{red!5}	-2.91	&  						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	3Fe2O3_{(s)} + 2H+ + 2   e^-	 <=>	2Fe3O4_{(s)} + H2O }&\cellcolor{red!75}+0.22	\\  
+Sr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sr^{2+} + 2   e^-	 <=>	Sr_{(s)}	}&\cellcolor{red!5}-2.90	 & 					\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	AgCl_{(s)} +e^-	 <=>	Ag_{(s)} + Cl-}&\cellcolor{red!75}+0.22	 \\ 
+Sr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sr(OH)2 + 2   e^-	 <=>	Sr_{(s)} + 2OH-}&\cellcolor{red!5}	-2.88& 	 			\cellcolor{red!75}Cu&\cellcolor{red!75}\ce{	Cu^{2+} + 2   e^-	 <=>	Cu_{(s)}	}&\cellcolor{red!75}+0.34	 \\ 
+Ca\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ca^{2+} + 2   e^-	 <=>	Ca_{(s)}	}&\cellcolor{red!5}-2.87	  & 					\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe+ +e^-	 <=>	Fe_{(s)}}&\cellcolor{red!75}	+0.40	 \\ 
+Li\cellcolor{red!5}&\cellcolor{red!5}\ce{	Li^+ + C6_{(s)} +e^-	 <=>	LiC6_{(s)}}&\cellcolor{red!5}	-2.84	&  					\cellcolor{red!75}O&\cellcolor{red!75}\ce{	O2_{(g)} + 2H2O + 4e^-	 <=>	4OH-_{(aq)}	}&\cellcolor{red!75}+0.40	 \\ 
+Na\cellcolor{red!5}&\cellcolor{red!5}\ce{	Na^+ +e^-	 <=>	Na_{(s)}	}&\cellcolor{red!5}-2.71	  & 							\cellcolor{red!75}Cu&\cellcolor{red!75}\ce{	Cu^+ +e^-	 <=>	Cu_{(s)}	}&\cellcolor{red!75}+0.520	 \\ 
+Mg\cellcolor{red!5}&\cellcolor{red!5}\ce{	Mg(OH)2 + 2e^-	 <=>	Mg_{(s)} + 2OH-}&\cellcolor{red!5}	-2.69	 & 				\cellcolor{red!75}C&\cellcolor{red!75}\ce{	CO_{(g)} + 2H+ + 2   e^-	 <=>	C_{(s)} + H2O	}&\cellcolor{red!75}+0.52	\\ 
+Mg\cellcolor{red!5}&\cellcolor{red!5}\ce{	Mg^{2+} + 2   e^-	 <=>	Mg_{(s)}	}&\cellcolor{red!5}-2.37	 & 					\cellcolor{red!75}I&\cellcolor{red!75}\ce{	I2_{(s)} + 2   e^-	 <=>	2I-}&\cellcolor{red!75}+0.54	 \\ 
+H\cellcolor{red!5}&\cellcolor{red!5}\ce{	H2_{(g)} + 2   e^-	 <=>	2H-	}&\cellcolor{red!5}-2.23	 & 						\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + 2H2O + 3e^-	 <=>	MnO2_{(s)} + 4OH-	}&\cellcolor{red!75}+0.595	 \\ 
+Sr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sr^{2+} + 2   e^-	 <=>	Sr(Hg)	}&\cellcolor{red!5}-1.79	 & 					\cellcolor{red!75}O&\cellcolor{red!75}\ce{	O2_{(g)} + 2H+ + 2   e^-	 <=>	H2O2_{(aq)}	}&\cellcolor{red!75}+0.70	\\ 
+Al\cellcolor{red!5}&\cellcolor{red!5}\ce{	Al^{3+} + 3e^-	 <=>	Al_{(s)}	}&\cellcolor{red!5}-1.66	 & 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe2O3_{(s)} + 6H+ + 2   e^-	 <=>	2Fe^{2+} + 3H2O	}&\cellcolor{red!75}+0.728	 \\ 
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ti^{2+} + 2   e^-	 <=>	Ti_{(s)}	}&\cellcolor{red!5}-1.63& 	 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe^{3+} +e^-	 <=>	Fe^{2+}}&\cellcolor{red!75}+0.77	\\ 
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ti^{3+} + 3e^-	 <=>	Ti_{(s)}	}&\cellcolor{red!5}-1.37	 & 						\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	Ag+ +e^-	 <=>	Ag_{(s)}	}&\cellcolor{red!75}+0.80	 \\ 
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	TiO_{(s)} + 2H+ + 2   e^-	 <=>	Ti_{(s)} + H2O	}&\cellcolor{red!5}-1.31	& 			\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	Hg_2^{2+} + 2   e^-	 <=>	2Hg(l)	}&\cellcolor{red!75}+0.80	\\ 
+Mn\cellcolor{red!5}&\cellcolor{red!5}\ce{	Mn^{2+} + 2   e^-	 <=>	Mn_{(s)}	}&\cellcolor{red!5}-1.18	 & 					\cellcolor{red!75}N&\cellcolor{red!75}\ce{	NO_3^-_{(aq)} + 2H+ +e^-	 <=>	NO2_{(g)} + H2O	}&\cellcolor{red!75}+0.80	\\ 
+V\cellcolor{red!5}&\cellcolor{red!5}\ce{	V^{2+} + 2   e^-	 <=>	V_{(s)}	}&\cellcolor{red!5}-1.13	 & 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	2FeO2^{2-} + 5H2O + 6e^-	 <=>	Fe2O3_{(s)} + 10OH-	}&\cellcolor{red!75}+0.81	\\  
+Ti\cellcolor{red!5}&\cellcolor{red!5}\ce{	TiO^{2+} + 2H+ + 4e^-	 <=>	Ti_{(s)} + H2O	}&\cellcolor{red!5}-0.93	& 			\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	Hg^{2+} + 2   e^-	 <=>	Hg(l)	}&\cellcolor{red!75}+0.85	\\ 
+Si\cellcolor{red!5}&\cellcolor{red!5}\ce{	SiO2_{(s)} + 4H+ + 4e^-	 <=>	Si_{(s)} + 2H2O	}&\cellcolor{red!5}-0.91& 			\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + H+ +e^-	 <=>	HMnO_4^-	}&\cellcolor{red!75}+0.90\\ 	
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe2O3_{(s)} + 3H2O + 2   e^-	 <=>	2Fe(OH)2_{(s)} + 2OH-	}&\cellcolor{red!5}-0.86	&  	\cellcolor{red!75}Hg&\cellcolor{red!75}\ce{	2Hg^{2+}  + 2   e^-	 <=>	Hg2^{2+} 	}&\cellcolor{red!75}+0.91	 \\ 
+H\cellcolor{red!5}&\cellcolor{red!5}\ce{	2H2O + 2   e^-	 <=>	H2_{(g)} + 2OH-	}&\cellcolor{red!5}-0.828	 & 				\cellcolor{red!75}Pd\cellcolor{red!75}&\cellcolor{red!75}\ce{	Pd^{2+}  + 2   e^-	 <=>	Pd_{(s)}	}&\cellcolor{red!75}+0.915	 \\ 
+Zn\cellcolor{red!5}&\cellcolor{red!5}\ce{	Zn^{2+} + 2   e^-	 <=>	Zn_{(s)}	}&\cellcolor{red!5}-0.762	 & 					\cellcolor{red!75}N&\cellcolor{red!75}\ce{	NO_3^-_{(aq)} + 4H+ + 3e^-	 <=>	NO_{(g)} + 2H2O(l)	}&\cellcolor{red!75}+0.96	 \\ 
+Cr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cr^{3+} + 3e^-	 <=>	Cr_{(s)}	}&\cellcolor{red!5}-0.74	& 						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	Fe3O4_{(s)} + 8H+ + 2   e^-	 <=>	3Fe^{2+}  + 4H2O	}&\cellcolor{red!75}+0.98	\\  
+Ni\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ni(OH)2_{(s)} + 2   e^-	 <=>	Ni_{(s)} + 2OH-	}&\cellcolor{red!5}-0.72	&  			\cellcolor{red!75}Br&\cellcolor{red!75}\ce{	Br2_{(aq)} + 2   e^-	 <=>	2Br-}&\cellcolor{red!75}+1.09	 \\ 
+Ag\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ag2S_{(s)} + 2   e^-	 <=>	2Ag_{(s)} + S2-_{(aq)}	}&\cellcolor{red!5}-0.69	& 		\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	Ag2O_{(s)} + 2H+ + 2   e^-	 <=>	2Ag_{(s)} + H2O	}&\cellcolor{red!75}+1.17	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	PbO_{(s)} + H2O + 2   e^-	 <=>	Pb_{(s)} + 2OH-	}&\cellcolor{red!5}-0.58& 			\cellcolor{red!75}Pt&\cellcolor{red!75}\ce{	Pt^{2+} + 2   e^-	 <=>	Pt_{(s)}	}&\cellcolor{red!75}+1.188	 \\ 
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe^{2+} + 2   e^-	 <=>	Fe_{(s)}}&\cellcolor{red!5}	-0.44	 & 						\cellcolor{red!75}Cl&\cellcolor{red!75}\ce{	ClO-4 + 2H+ + 2   e^-	 <=>	ClO_3^- + H2O	}&\cellcolor{red!75}+1.20	\\ 
+Cr\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cr^{3+} +e^-	 <=>	Cr2+}&\cellcolor{red!5}-0.42	& 							\cellcolor{red!75}O&\cellcolor{red!75}\ce{	O2_{(g)} + 4H+ + 4e^-	 <=>	2H2O	}&\cellcolor{red!75}+1.229	 \\ 
+Cd\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cd^{2+} + 2   e^-	 <=>	Cd_{(s)}	}&\cellcolor{red!5}-0.40& 	 					\cellcolor{red!75}Cl&\cellcolor{red!75}\ce{	Cl_2_{(g)} + 2   e^-	 <=>	2Cl-}&\cellcolor{red!75}+1.36	 \\ 
+Cu\cellcolor{red!5}&\cellcolor{red!5}\ce{	Cu2O_{(s)} + H2O + 2   e^-	 <=>	2Cu_{(s)} + 2OH-	}&\cellcolor{red!5}-0.36	&  	\cellcolor{red!75}Br&\cellcolor{red!75}\ce{	BrO_3^- + 5H+ + 4e^-	 <=>	HBrO_{(aq)} + 2H2O	}&\cellcolor{red!75}+1.45	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	PbSO4_{(s)} + 2   e^-	 <=>	Pb_{(s)} + SO2-4	}&\cellcolor{red!5}-0.36	 & 		\cellcolor{red!75}Br&\cellcolor{red!75}\ce{	2BrO^{3-} + 12H+ + 10e^-	 <=>	Br2(l) + 6H2O	}&\cellcolor{red!75}+1.48	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	PbSO4_{(s)} + 2   e^-	 <=>	Pb(Hg) + SO2-4	}&\cellcolor{red!5}-0.35	 & 		\cellcolor{red!75}Cl&\cellcolor{red!75}\ce{	2ClO^{3-} + 12H+ + 10e^-	 <=>	Cl2_{(g)} + 6H2O	}&\cellcolor{red!75}+1.49\\ 	
+Co\cellcolor{red!5}&\cellcolor{red!5}\ce{	Co^{2+} + 2   e^-	 <=>	Co_{(s)}	}&\cellcolor{red!5}-0.28	 & 					\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + 8H+ + 5e^-	 <=>	Mn2+ + 4H2O	}&\cellcolor{red!75}+1.51	\\ 
+Ni\cellcolor{red!5}&\cellcolor{red!5}\ce{	Ni^{2+} + 2   e^-	 <=>	Ni_{(s)}	}&\cellcolor{red!5}-0.25	& 					\cellcolor{red!75}Au&\cellcolor{red!75}\ce{	Au^{3+} + 3e^-	 <=>	Au_{(s)}	}&\cellcolor{red!75}+1.52	\\ 
+As\cellcolor{red!5}&\cellcolor{red!5}\ce{	As_{(s)} + 3H+ + 3e^-	 <=>	AsH3_{(g)}	}&\cellcolor{red!5}-0.23& 	 			\cellcolor{red!75}Pb&\cellcolor{red!75}\ce{	Pb^{4+} + 2   e^-	 <=>	Pb^{2+}}&\cellcolor{red!75}+1.69	 \\
+Ag\cellcolor{red!5}&\cellcolor{red!5}\ce{	AgI_{(s)} +e^-	 <=>	Ag_{(s)} + I-}&\cellcolor{red!5}-0.15& 	 					\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	MnO_4^- + 4H+ + 3e^-	 <=>	MnO2_{(s)} + 2H2O	}&\cellcolor{red!75}+1.70\\	
+Sn\cellcolor{red!5}&\cellcolor{red!5}\ce{	Sn^{2+} + 2   e^-	 <=>	Sn_{(s)}	}&\cellcolor{red!5}-0.13	& 					\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	AgO_{(s)} + 2H+ +e^-	 <=>	Ag+ + H2O	}&\cellcolor{red!75}+1.77	\\ 
+Pb\cellcolor{red!5}&\cellcolor{red!5}\ce{	Pb^{2+} + 2   e^-	 <=>	Pb_{(s)}	}&\cellcolor{red!5}-0.126	 & 					\cellcolor{red!75}O&\cellcolor{red!75}\ce{	H2O2_{(aq)} + 2H+ + 2   e^-	 <=>	2H2O	}&\cellcolor{red!75}+1.78	\\ 
+C\cellcolor{red!5}&\cellcolor{red!5}\ce{	CO2_{(g)} + 2H+ + 2   e^-	 <=>	HCOOH_{(aq)}	}&\cellcolor{red!5}-0.11& 				\cellcolor{red!75}Au&\cellcolor{red!75}\ce{	Au+ +e^-	 <=>	Au_{(s)}	}&\cellcolor{red!75}+1.83	 \\ 
+C\cellcolor{red!5}&\cellcolor{red!5}\ce{	CO2_{(g)} + 2H+ + 2   e^-	 <=>	CO_{(g)} + H2O	}&\cellcolor{red!5}-0.11& 			\cellcolor{red!75}Ag&\cellcolor{red!75}\ce{	Ag^{2+} +e^-	 <=>	Ag+}&\cellcolor{red!75}+1.98	 \\ 
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe3O4_{(s)} + 8H+ + 8e^-	 <=>	3Fe_{(s)} + 4H2O	}&\cellcolor{red!5}-0.08	&  		\cellcolor{red!75}Mn&\cellcolor{red!75}\ce{	HMnO_4^- + 3H+ + 2   e^-	 <=>	MnO2_{(s)} + 2H2O	}	&\cellcolor{red!75}+2.09	\\ 
+Fe\cellcolor{red!5}&\cellcolor{red!5}\ce{	Fe^{3+} + 3e^-	 <=>	Fe_{(s)}	}&\cellcolor{red!5}-0.04	&  						\cellcolor{red!75}Fe&\cellcolor{red!75}\ce{	FeO_2^{4-} + 8H+ + 3e^-	 <=>	Fe3+ + 4H2O	}			&\cellcolor{red!75}+2.20	 \\ 
+\tikzmark{end}   H\cellcolor{red!25}& \cellcolor{red!25} \ce{	2H+ + 2   e^-	 <=>	H2_{(g)}	}&  \cellcolor{red!25}0.00	& 	\cellcolor{red!75}F&\cellcolor{red!75}\ce{	F2_{(g)} + 2H+ + 2   e^-	 <=>	2HF_{(aq)} 	}&\cellcolor{red!75}+3.05	\\ 
+  \bottomrule
+\end{tabular}
+\begin{tikzpicture}[overlay,remember picture]
+    \draw[<-] let \p1=(start), \p2=(end) in [shift={(-1,0)}]($(\x1-3,\y1)+(0.8,.2)$) -- node[rotate=90, shift={(0.0,0.4)} ] {Increasing oxidizing strength (decreasing reducing strength)} ($(\x1-3,\y2)+(0.8,1)$);
+        \draw[<-] let \p1=(start), \p2=(end) in [shift={(22.5,0)}]($(\x1-3,\y1)+(0.8,-1)$) -- node[rotate=90, shift={(0.0,-0.6)} ] {Increasing oxidizing strength (decreasing reducing strength)} ($(\x1-3,\y2)+(0.8,0)$);
+
+  \end{tikzpicture}
+\end{adjustbox}\end{center}
+\end{minipage}
+
+
+
+
+
+ \begin{center}\begin{tikzpicture}
+\electrodeSolid{\small \ce{Cu^{2+}, 1M}}{\textcolor{red}{Cu+CuO}}{blue!30}{blue!90}  % (1) electrolyte (2) solid (3) liquid color (4) solid color
+\end{tikzpicture}\end{center}
+
+
+
+
+
+
+\end{description}
+\end{document}

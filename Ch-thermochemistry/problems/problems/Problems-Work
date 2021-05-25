@@ -1,0 +1,26 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A sample of gas expands from 3 to 4 L at constant pressure. Using $1L\cdot atm=101.3J$, calculate the work done in J under the following conditions:
+\begin{inparaenum}[(a)]	
+\item The gas expands against the vacuum. 
+\item The gas expands against a constant pressure of 5atm 
+\end{inparaenum} 
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item 0
+\item	 -506J 
+\end{inparaenum} 
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A sample of gas expands carrying work on the surroundings of 120J and absorbing 150J of heat from the surroundings. Calculate the change of the internal energy of the system in J.
+\end{question}
+\begin{solution}
+30J
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+

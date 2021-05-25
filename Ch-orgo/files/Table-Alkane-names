@@ -1,0 +1,25 @@
+\begin{fullwidth}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Alkane names based on the number of carbons in the chain } \\
+\midrule
+Number of Carbons & Name& Condensed Structural formula &Molecular formula \\
+\midrule
+\multicolumn{1}{c}{1} & Methane & \chemfig{CH_4}  &\multicolumn{1}{c}{\ce{CH4}}\\
+\multicolumn{1}{c}{2} & Ethane & \chemfig{CH_3-CH_3} &\multicolumn{1}{c}{\ce{C2H6}} \\
+\multicolumn{1}{c}{3} & Propane & \chemfig{CH_3-CH_2-CH_3} &\multicolumn{1}{c}{\ce{C3H8}} \\
+\multicolumn{1}{c}{4} & Butane & \chemfig{CH_3-CH_2-CH_2-CH_3} &\multicolumn{1}{c}{\ce{C4H10}} \\
+\multicolumn{1}{c}{5} & Pentane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_3}&\multicolumn{1}{c}{\ce{C5H12}}  \\
+\multicolumn{1}{c}{6} & Hexane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_2-CH_3} &\multicolumn{1}{c}{\ce{C6H14}} \\
+\multicolumn{1}{c}{7} & Heptane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3}&\multicolumn{1}{c}{\ce{C7H16}} \\
+\multicolumn{1}{c}{8} & Octane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3}  &\multicolumn{1}{c}{\ce{C8H18}}\\
+\multicolumn{1}{c}{9} & Nonane & \chemfig{CH_3-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_2-CH_3}&\multicolumn{1}{c}{\ce{C9H20}}  \\
+\bottomrule
+\end{tabular}
+}\end{minipage} 
+\end{fullwidth}
+

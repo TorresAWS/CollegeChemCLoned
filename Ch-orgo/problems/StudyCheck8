@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name the following hydrocarbon:
+\begin{center} \chemfig{CH_3-C(-[:90,1]CH_3)(-[:-90,1]F)(-CH_2-I)}\end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-iodo-2-fluoro-2-methylpropane. \end{flushright}}
+

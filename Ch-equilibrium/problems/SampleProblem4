@@ -1,0 +1,17 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the following reaction
+\begin{center}\ce{2NH3_{(g)}  <=> N2_{(g)}	+ 3H2_{(g)}		}\end{center}
+The value of $K_c$ at 300K is 17. Calculate the value of $K_p$ at the same temperature.
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+First we will write down the expression of both equilibrium constants:
+\begin{center}$K_{c}=\frac{	\big[ \ce{NH3} \big]^2 			} {	\big[ \ce{N2} \big]\cdot \big[ \ce{H2} \big]^3	}$\hspace{1cm}
+$K_{p}=\frac{	P_{\ce{NH3}}^2  		} {P_{\ce{N2}}	\cdot P_{\ce{H2}}^3		}$\end{center}
+We will also calculate $\Delta n$ in order to establish the relationship between both constants:
+\[\Delta n=1+3-2=2\]
+We have that:
+\[K_p=K_c (RT)^{\Delta n}=K_c (RT)^2\]
+Given than $K_c$ at 300K is 17:
+\[K_p=K_c (RT)^{\Delta n}=17 (0.082\cdot 300)^2=10287\]
+In equilibrium, the pressure of products will be larger than the pressure of reactants.\\
+\import{./}{StudyCheck4}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

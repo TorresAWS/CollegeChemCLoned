@@ -1,0 +1,37 @@
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following species as Br\"{o}nsted-Lowry acids, bases or both:
+\begin{inparaenum}[(a)]
+\item \ce{H2O} % (both)
+\item \ce{NaOH} % (base)
+\item \ce{NH3} % (base)
+\item \ce{NO2-} % (base)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{H2O}   (both)
+\item \ce{NaOH}   (base)
+\item \ce{NH3}   (base)
+\item \ce{NO2-}   (base)
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following species as Br\"{o}nsted-Lowry acids, bases or both:
+\begin{inparaenum}[(a)]
+\item \ce{HCO3-} % (both)
+\item \ce{HI} % (acid)
+\item \ce{HCN} % (acid)
+\item \ce{HSO4-} % (both)
+\item \ce{HCOONa} % (base)
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item \ce{HCO3-}   (both)
+\item \ce{HI}   (acid)
+\item \ce{HCN}   (acid)
+\item \ce{HSO4-}   (both)
+\item \ce{HCOONa}   (base)
+\end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

@@ -1,0 +1,148 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A tank contains Ne gas at 700 mmHg, Ar at 2 atm, and Kr at 700 torr. What is the total pressure of the mixture in atm?
+\end{question}
+\begin{solution}
+1402torr
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+An anesthetic consist of a mixture of cyclopropane gas and oxygen gas. If the mixture has a total pressure of 2 atm and the partial pressure of cyclopropane is 0.5atm, what is the partial pressure of O2?
+\end{question}
+\begin{solution}
+1.5atm
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+The atmospheric pressure on a hot day is 780 mmHg. Given that the air is made of 78\% of nitrogen and 22\% of oxygen, calculate the partial pressure of each gas in the air.
+\end{question}
+\begin{solution}
+\ce{N2} 608 mmHg, \ce{O2} 171.6 mmHg
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Phosphorus reacts with oxygen gas to produce tetraphosphorus decaoxide according to the following equation:
+\begin{center}\ce{  P4(s)  + $\underset{\text{\large 2L}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x mol}}{\ce{P4O10(g)}}$  } \end{center}
+Calculate the number of moles of phosphorus that react with 2L of oxygen at STP conditions.
+\end{question}
+\begin{solution}
+0.017 mol
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following reaction, calculate the unknown $x$ at STP conditions:
+\begin{center}\ce{  C3H8(g)    + $\underset{\text{\large 5L}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
+\end{question}
+\begin{solution}
+3L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following reaction, calculate the unknown $x$ at STP conditions:
+\begin{center}\ce{  $\underset{\text{\large 3L}}{5\ce{C3H8(g)    }}$     + $\underset{\text{}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
+\end{question}
+\begin{solution}
+1.8L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the following reaction, calculate the unknown $x$ at STP conditions:
+\begin{center}\ce{  $\underset{\text{\large 6moles}}{5\ce{C3H8(g)    }}$     + $\underset{\text{}}{5\ce{O2(g)   }}$  -> $\underset{\text{\large x L}}{3\ce{CO2(g)}}$ + 4\ce{H2O_{(l)}}  } \end{center}
+\end{question}
+\begin{solution}
+80.64L
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider the set up below with three different gases in three different closed containers at 300K. Assuming that the connecting tubes have zero volume, once the flasks are connected, calculate:
+\begin{inparaenum}[(a)]	
+\item  The partial pressure of each gas in the mixture
+\item  The total gas pressure
+\end{inparaenum} 
+
+\begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (0,1)-- ++ (4.5,0)   -- ++ (0,-1) -- ++ (-0.25,0) -- ++ (0,0.8)-- ++ (-1.9,0) -- ++ (0,-0.8) -- ++ (-0.25,0)-- ++ (0,0.8)-- ++ (-1.8,0)  -- ++ (0,-0.8) |- cycle ;
+\draw [green, very thick,  fill=yellow!10, xshift=0.05cm,yshift=3.3cm]  (0,0)-- ++(0,-1) arc (100:450:0.8)   -- ++(0,1)  |- cycle ;
+\draw [green, very thick,  fill=yellow!10, xshift=2.15cm,yshift=3.3cm]  (0,0)-- ++(0,-1) arc (100:450:0.8)   -- ++(0,1)  |- cycle ;
+\draw [green, very thick,  fill=yellow!10, xshift=4.29cm,yshift=3.3cm]  (0,0)-- ++(0,-1) arc (100:450:1.3)   -- ++(0,1)  |- cycle ;
+\begin{scope}[rotate=90,transform canvas={scale=.1},overlay,shift={(32cm,-2.3cm)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\end{scope}
+\begin{scope}[rotate=90,transform canvas={scale=.1},overlay,shift={(32cm,-23.3cm)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\end{scope}
+\begin{scope}[rotate=90,transform canvas={scale=.1},overlay,shift={(32cm,-44.4cm)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\end{scope}
+\node [shift={(0,1.4)}, font=\small,scale=1] { \ce{N2} };
+\node [shift={(2.2,1.4)}, font=\small,scale=1] { \ce{Ar} };
+\node [shift={(4.2,1.4)}, font=\small,scale=1] { \ce{O2} };
+
+\node [shift={(0,-0.5)}, font=\small,scale=1] {n=0.4moles};
+\node [shift={(0,-1.2)}, font=\small,scale=1] {V=1L}; 
+\node [shift={(2.5,-0.5)}, font=\small,scale=1] {n=0.3moles};
+\node [shift={(2.5,-1.2)}, font=\small,scale=1] {V=1L}; 
+\node [shift={(4.5,-.5)}, font=\small,scale=1] {n=0.6moles};
+\node [shift={(4.5,-1.2)}, font=\small,scale=1] {V=3L};
+\end{tikzpicture}\end{center}
+
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]	
+\item  $p_{\ce{N2}}$=1.97atm, $p_{\ce{Ar}}$=1.48atm,$p_{\ce{O2}}$=2.95atm
+\item  6.40 atm
+\end{inparaenum} 
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Consider the set up presented below, where the connecting tubes have negligible volume. Calculate the partial pressure of each gas after the connection between the flasks is open.
+\begin{center}\begin{tikzpicture}[thick,scale=0.9, every node/.style={transform shape}]
+\draw [green, very thick,  fill=red!10] (0,0) -- ++ (-1,0) arc (0:350:1.0) -- ++ (1,0)   |- cycle ;
+\draw [green, very thick,  fill=yellow!10, yshift=.83cm]  (0,-1)-- ++(1,0) arc (190:540:1.0)  -- ++(-1,0)|- cycle ;
+\begin{scope}[transform canvas={scale=.1},overlay,shift={(-1,-1.8)}]
+\draw [red, fill=white] (0,0) -- ++ (1.5,0)-- ++ (0,1.9)-- ++ (-1.5,0)   |- cycle ;
+\draw[rounded corners=5pt, fill=white] (-0.25,1.9) rectangle ++(2,0.5);
+\draw[rounded corners=5pt, fill=white] (-0.25,-.5) rectangle ++(2,0.5);
+\draw (.7,1) node[circle, draw,fill=black]{};
+\draw[xshift=9, yshift=1.4cm]  (0,1) rectangle ++(.8,1);
+\draw [black, fill=white,yshift=3.3cm, xshift=-.5] (0,0) -- ++ (.8,1)-- ++ (.8,-1)    |- cycle ;
+\node [shift={(-19,-10)}, font=\small,scale=6] {P=0.3atm};
+\node [shift={(-19,-14)}, font=\small,scale=6] {V=1L}; 
+\node [shift={(19,-10)}, font=\small,scale=6] {P=0.6atm};
+\node [shift={(19,-14)}, font=\small,scale=6] {V=1L}; 
+\node [shift={(-18,1)}, font=\small,scale=6] {\ce{Ne}}; 
+\node [shift={(18,1)}, font=\small,scale=6] {\ce{Ar}}; 
+\end{scope}
+\end{tikzpicture}\end{center}
+\end{question}
+\begin{solution}
+\item  $p_{\ce{Ne}}$=0.15atm, $p_{\ce{Ar}}$=0.3atm
+
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+

@@ -1,0 +1,36 @@
+\begin{marginfigure}[-15cm]%%%%%%%% MARGIN FIGURE 
+\begin{adjustwidth*}{-20mm}{-5mm}\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lll }
+\rowcolor{black!45}
+\toprule
+\multicolumn{3}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Le Ch\^{a}telier principle } \\
+\midrule
+\multicolumn{1}{c}{Parameter} & \multicolumn{1}{c}{Change} & \multicolumn{1}{c}{Effect} \\
+\midrule
+
+\multicolumn{1}{c}{ Concentration	} & \multicolumn{1}{c}{ Add reactants } &\multicolumn{1}{c}{ \ce{->} }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Remove reactants } &\multicolumn{1}{c}{ \ce{<-} }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Add products } &\multicolumn{1}{c}{ \ce{<-} }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Remove products } &\multicolumn{1}{c}{ \ce{->} }    \\
+ \midrule
+\multicolumn{1}{c}{ Volume	} & \multicolumn{1}{c}{ Increase volume } &\multicolumn{1}{c}{ More moles }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Decrease volume } &\multicolumn{1}{c}{ Less moles }    \\
+ \midrule
+\multicolumn{1}{c}{ Catalyst	} & \multicolumn{1}{c}{ Add a catalyst } &\multicolumn{1}{c}{ No effect }    \\
+ \midrule
+\multicolumn{1}{c}{ Temperature	} & \multicolumn{1}{c}{ Endothermic reaction } &\multicolumn{1}{c}{  }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Increase temperature } &\multicolumn{1}{c}{\ce{->}  }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Decrease temperature } &\multicolumn{1}{c}{\ce{<-}  }    \\
+\multicolumn{1}{c}{ Temperature	} & \multicolumn{1}{c}{ Exothermic reaction } &\multicolumn{1}{c}{  }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Increase temperature } &\multicolumn{1}{c}{\ce{<-}  }    \\
+\multicolumn{1}{c}{  	} & \multicolumn{1}{c}{ Decrease temperature } &\multicolumn{1}{c}{\ce{->}  }    \\
+
+
+
+\bottomrule
+\end{tabular}
+}\end{minipage} 
+ \end{adjustwidth*} 
+   \end{marginfigure}%%%%%%% MARGIN FIGURE

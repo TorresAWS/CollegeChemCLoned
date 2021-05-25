@@ -1,0 +1,2 @@
+A shell (or a level) is a collection of orbital with the same value of $n$. For example: $\Psi_{2,1, -1}$ and $\Psi_{2,0, 1}$ belong to the same shell. A subshell (or sublevel) is a collection of orbitals with the same $n$ and $\ell$ values. For example: $\Psi_{2,1, -1}$ and $\Psi_{2,1, 0}$ and $\Psi_{2,1, 1}$ belong to the same subshell called $p$. The different subshells are names with the labels: $s$, $p$, $d$ and $f$.
+

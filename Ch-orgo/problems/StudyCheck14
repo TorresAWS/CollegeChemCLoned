@@ -1,0 +1,8 @@
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following molecules as an carboxylic acid or ester:
+\begin{center}  \chemfig{*6(-(-[:-90]C(=[:-45]O)(-[:-135]O-CH_3))-----)}  \hspace{0.5cm}  \chemfig{*6(---(-C(=[:-45]O)(-[:45]OH))---)}   \end{center}
+%\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ }
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{ \begin{flushright}  \mytriangleright{dgreen}\small Answer: (left) ester; (right) acid. \end{flushright}}
+
+ 

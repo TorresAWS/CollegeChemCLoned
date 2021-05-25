@@ -1,0 +1,19 @@
+ \begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} List of common chemicals } \\
+\midrule
+ \rowcolor{gray!10} Chemical & Name & Chemical & Name \\
+\midrule
+\ce{H2O} &  Water  &           \ce{Mg(OH)2} &  Milk of magnesia  \\  
+\ce{NH3} &  Ammonia &      \ce{N2O} &  Laughing gas       \\
+\ce{CH4} &  Methane  &     \ce{CaCO3} &  Marble        \\
+\ce{CO2} &  Dry ice  &     \ce{CaO} &  Quicklime       \\
+\ce{NaCl} &  Table salt   &       \ce{NaHCO3} &  Baking Soda     \\
+\ce{NaHCO3} &  Sodium Bicarbonate       &       \ce{MgSO4}$\cdot$ 7 \ce{H2O} &  Epsom Salt \\  
+\bottomrule
+\end{tabular}\end{center}

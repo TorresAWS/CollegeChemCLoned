@@ -1,0 +1,41 @@
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+      \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+    \begin{center} \begin{tikzpicture}[every node/.style = {font=\small}, specter/.style = {draw=red, very thick, rounded corners}, ]
+\draw[specter]
+    (0,0) -- (0.4,0) -- (0.5,1) node[above] {$3s^2$}
+          -- (0.6,0)
+          -- (2.4,0) -- (2.5,3) node[above] {$2p^6$}
+          -- (2.6,0) 
+           -- (3.9,0) -- (4.0,1) node[above] {$2s^2$}
+          -- (4.1,0) -- (5.5,0);
+\draw (0,-0.2) -- + (5.5,0) node[below, shift={(0em,-2em)}, rotate=00] {Energy, MJ/mol};
+\draw[double,double distance=1mm]
+    (5.5,-0.3) -- + (0.1,0.2);
+\foreach \i [count=\ix from 0] in {0,2,4,6,8,10}
+    \draw (\ix,-0.1) -- + (0,-0.1) node[below] {\i};
+        \draw (0,0) -- + (0,5) node[below, shift={(-2em,-7em)}, rotate=90] {Relative number of electrons};
+\begin{scope}[xshift=60mm]
+\draw[specter]
+    (0,0) -- (1.4,0) -- (1.5,1) node[above] {$1s^2$}
+          -- (1.6,0) -- (4.5,0);
+\draw (0,-0.2) -- + (4.5,0);
+%\draw[double,double distance=1mm]
+%    (5.9,-0.3) -- + (0.1,0.2);
+\foreach \i [count=\ix from 1] in {100,150,200}
+    \draw (\ix,-0.1) -- + (0,-0.1) node[below] {\i};
+\end{scope}
+%\begin{scope}[xshift=82mm]
+%\draw[specter]
+%    (0,0) -- (2.4,0) -- (2.5,1) node[above] {A}
+%          -- (2.6,0) -- (3.3,0);
+%\draw[->] (0,-0.2) -- + (3.5,0)
+%    node[below left=4mm and 0mm] {E (eV)};
+%\foreach \i [count=\ix from 1] in {4800,5000,5200}
+%    \draw (\ix,-0.1) -- + (0,-0.1) node[below] {\i};
+%\end{scope}
+            \node[text width=10cm, fontscale=1, shift={(17em,-5em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Photoelectron spectrum (PES) of Magnesium };
+
+    \end{tikzpicture}\end{center}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

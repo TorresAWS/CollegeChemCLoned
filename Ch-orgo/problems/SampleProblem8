@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Name the following hydrocarbon:
+\begin{center} \chemfig{CH_3-CH(-[:90,1]CH_3)(-CH(-[:-90,1]I)-Br)}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+First we find the ending of the name: as the molecule has three carbons in the main chain, the ending of the name would be: propane. Then we need to number the chain so that the number one carbon is the closest to the substituents:
+\begin{center} \chemfig{C\chembelow[1ex]{}{\tiny \textcolor{red}{3}}H_3-C\chembelow[1ex]{}{\tiny \textcolor{red}{2}}H(-[:90,1]CH_3)(-C\chemabove[2ex]{}{\tiny \textcolor{red}{1}}H(-[:-90,1]I)-Br)}\end{center}
+A methyl is connected to carbon two, and two halogens, a iodo and a bromo are connected to carbon number one. The substituents are: 2-methyl, 1-bromo, 1-iodo. If we order them: 1-bromo-1-iodo-2-methyl. And the final name would be: 
+\begin{flushright} \mytriangleright{dgreen}\small Answer: 1-bromo-1-iodo-2-methylpropane. \end{flushright}
+\import{./}{StudyCheck8}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

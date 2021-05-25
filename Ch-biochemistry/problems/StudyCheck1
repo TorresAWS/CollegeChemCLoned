@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following monosaccharide as aldo or keto:
+\begin{center}\chemfig{[2]OH-[4]C(-[6]H)(-[4]H)(-C(-[0]H)(-[4,1.2]\textcolor{red}{HO})-!x-!k-!t)}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \small ketopentose
+ \end{flushright} }

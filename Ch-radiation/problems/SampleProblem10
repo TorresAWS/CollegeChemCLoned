@@ -1,0 +1,8 @@
+\begin{example} %%%%%%% EXAMPLE BOX with explanation
+Obtain the full and abbreviated electronic configuration of Silver (Ag, Z=47) using the fact that the 4d and 5s orbitals switch order, being the d orbital filled first.\\
+\textlcsc{ \textcolor{dgreen}{\Large Solution} }\\
+The atomic number of Ag is Z=47 and that means Ag has 47 electrons. The orbital order from Figure \ref{orbitalfill} is: $1s$,$2s$, $2p$, $3s$, etc. Each $s$ orbital can fit two electrons, whereas the occupancy of  the $p$ orbitals is six electrons, and $d$ orbitals can fit 10 electrons. We will use the fact that the 4d orbital fills before the 5s. Hence the full electronic configuration of Ag is: 
+$1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2 4p^6 4d^{10} 5s^1$. As Kr is the noble gas on top with 36 electrons, the abbreviated electronic configuration of Ag is: $[Kr] 4d^{10} 5s^1$. Ag has 36 core electrons and 11 valence electrons.
+\\
+\import{./}{StudyCheck10}
+\end{example}%%%%%%% EXAMPLE BOX with explanation

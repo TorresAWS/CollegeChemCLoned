@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the expression of $K_c$ for the following reactions:\\
+(a) \ce{2NO2_{(g)} <=> N2O4_{(g)}}\\
+(b) \ce{C3H8_{(g)} + 5O2_{(g)} <=>  4H2O_{(g)} + 3CO2_{(g)}}\\
+(c) \ce{Zn_{(s)} + 2 HCl_{(Aq)} <=> ZnCl2_{(Aq)} + H2_{(g)}}
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Remember you can only include gas and aqueous solution in the expression of $K_c$. For the first example
+\begin{equation*} K_{c}=\frac{\big[ \ce{N2O4} \big]} {\big[ \ce{NO2} \big]^2 } \end{equation*}
+For the second example,
+ \begin{equation*} K_{c}=\frac{\big[ \ce{H2O} \big]^4 \cdot \big[ \ce{CO2} \big]^3} {\big[ \ce{C3H8} \big] \cdot \big[ \ce{O2} \big]^5} \end{equation*}
+For the last example:
+\begin{equation*}  K_{c}=\frac{\big[ \ce{ZnCl2} \big] \cdot \big[ \ce{H2} \big]} {\big[ \ce{HCl} \big]^2}\end{equation*} 
+\\
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

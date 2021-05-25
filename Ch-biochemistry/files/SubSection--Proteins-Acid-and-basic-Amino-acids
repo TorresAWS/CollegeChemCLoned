@@ -1,0 +1,10 @@
+Amino acids can also be classified according to their acid-base character. This property depends on the acid-base character of the side group. If this group is acidic then the amino acid will be acidic and basic side chains correspond to basic amino acids. For example Aspartic acid is an acidic amino acid as its side chain is acidic and arginine is a basic amino acid as its side chain is basic.
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.3\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.2\textwidth}}
+\setatomsep{2.5em}\asparaginacid
+&
+\setatomsep{2.5em}\arginin
+\tabularnewline\addlinespace
+\textcolor{blue}{Aspartic Acid (Asp)}  &\textcolor{blue}{Arginine (Arg)} \tabularnewline
+\textcolor{green}{Acidic AA}  &   \textcolor{green}{Basic AA} \tabularnewline
+\end{tabular*}\end{center}

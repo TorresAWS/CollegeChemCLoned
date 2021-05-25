@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given the following rate law. Indicate:
+\begin{inparaenum}[(a)]	
+\item The rate constant giving the correct units.
+\item	 The partial order of all species.
+\item  The total order of the reaction.
+\item  If $[\ce{F2}]$ is doubled how would the reaction rate be affected?
+\end{inparaenum} 
+\begin{center}\[r=0.002[\ce{Cl2}][\ce{F2}]^3\]\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Given the information provided in the rate law, we have that the reaction is first order with respect to \ce{Cl2} and third order with respect to \ce{F2}. The overall reaction order is four. The rate constant is 0.002 1/$\text{M}^2$s.
+\import{./}{StudyCheck2}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

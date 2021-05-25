@@ -1,0 +1,13 @@
+The equilibrium constant associated with a reaction $K_c$ indicates whether there is an abundance of reactants or products at equilibrium. Each reaction has one $K_c$ value that depends only on temperature and the subscript $_c$ represents concentration. On one hand, if $K_c$ is larger than one there will be a larger concentration of products than reactants in the equilibrium mixture. On the other hand, if  $K_c$ is smaller than one there will be a larger concentration of reactants than products in the equilibrium mixture. If  $K_c$ is close to one then both reactants and products will have the same concentration in the equilibrium mixture. 
+ \begin{center}\begin{tikzpicture}[colorbar arrow/.style={
+  shape=double arrow,
+  double arrow head extend=0.125cm, 
+  shape border rotate=0, 
+  minimum height=10cm,minimum width=2cm,
+  shading=#1 
+}]
+\node [colorbar arrow=shading1] (thickarrow) at (0,0) {};
+  \node[font=\large]  at (-3cm,0cm) {Mostly Reactants};   \node[font=\large]  at (3cm,0cm) {Mostly Products}; 
+\node[font=\large, below = 3mm of thickarrow]  at (-3cm,-1cm) { $K_{c}<1$};    \node[font=\large, below = 3mm of thickarrow]  at (0cm,-1cm) {$K_{c}\simeq 1$};  \node[font=\large, below = 3mm of thickarrow]  at (3cm,-1cm) {$K_{c}>1$}; 
+\end{tikzpicture}  \end{center}
+In terms of units, equilibrium constants are unit-less numbers--a number without units. In other words, they have no unit and they are simply expressed as a number.

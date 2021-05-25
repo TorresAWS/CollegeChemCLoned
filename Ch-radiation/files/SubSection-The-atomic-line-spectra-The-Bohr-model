@@ -1,0 +1,12 @@
+The Bohr model explains the electronic structure of hydrogen, in particular the spectrum of hydrogen and the position of the different energy lines. This model is based on the idea that the electron of hydrogen moves around the nucleus only in certain allowed circular orbits. Each orbit is called energy level, being characterized by an energy  $E_n$ and an integer number $n$. The following formula gives you the energy value for each level:
+%\resizeableyellownote{2.5}{1}{Add this formula to your flashcard.}
+\begin{equation*}
+\boxed{  E_n=-2.178\times 10^{-18}  \frac{1}{n^2}  } \quad \textcolor{blue}{\text{Bohr formula in J}}
+\end{equation*}
+where:
+\begin{where}
+ \item $E_n$   is the energy of the level $n$ in joules
+ \item $n$  is the number of the level
+  \item $-2.178\times 10^{-18}J=R_H$  is called the Rydberg constant ($-13.59eV$)
+\end{where}
+For example, the energy of the first level is $E_1=-2.178\times 10^{-18}J$, whereas the energy of the third level is $E_3=-5.44\times 10^{-19}J$; the higher the $n$ the larger--more positive--is the energy of the level. 

@@ -1,0 +1,15 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Combine the following molecules to produce a nucleotide:
+\begin{center}\begin{tikzpicture}
+\node (a) at (0,0) {\setatomsep{2.5em}\chemfig[][scale=.65]{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
+\node (b) at (2,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{thymine} } };
+\node (c) at (5,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{ribose} } };
+\end{tikzpicture}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+A nucleotide is the result of combining a sugar--either ribose or deoxyribose--and a base with phosphate. The sugar given is ribose and the base is thymine, so the nucleotide will be part of RNA:
+\begin{center}\begin{tikzpicture}
+\node (a) at (0,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{thyminephosphate} } };
+\node (a.south east ) [xshift=0cm,yshift=-2.5cm]{\small \textcolor{blue}{  Thymidine-5'-monophosphate   }};
+\end{tikzpicture}\end{center}
+%\import{./}{StudyCheck12}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

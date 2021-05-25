@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%TABLE%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{center}
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{ll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Radiation Measurement} \\
+\midrule
+\multirow{4}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}Activity\end{bf}} }
+&curie (Ci) \vspace{0.1cm}     \\ \cline{2-2}   
+&Becquerel (Bq) = $\text{2.7}\times 10^{-11}$ Ci \vspace{0.1cm}          \\ \cline{2-2} 
+&1Ci = $2.22\times10^{12}$  dpm \vspace{0.1cm}     \\\hline
+\multirow{3}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}Dosage (D)\end{bf}} }
+&rad  \vspace{0.6cm}       \\ \cline{2-2} 
+&gray (Gy) =100rad  \vspace{0.6cm}        \\\hline 
+\multirow{3}{*}{ \rotatebox[origin=c]{0}{ \begin{bf}Damage (H)\end{bf}} }
+&rem    \vspace{0.6cm}      \\ \cline{2-2} 
+&Sievert (Sv) = 100rem \vspace{0.6cm}         \\\hline
+\multicolumn{2}{c}{\begin{bf}rem=rad $\times$ Factor\end{bf}}\vspace{0.4cm} \\\hline
+\bottomrule
+\end{tabular}\end{center}
+%%%%%%%%%%%%%%%%%%%%TABLE%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,10 @@
+Imagine a hot air balloon. Air comes in and out of the balloon as the balloon is not closed balloon. Hence the pressure inside the balloon is just the atmospheric pressure. Also as the balloon is in contact with the air, its temperature will be constant, resulting from the thermal equilibrium between the inside of the balloon and the atmoshphere. If you inflate the balloon with hot air, the volume of the balloon and the number of moles are related by Avogadro's law:
+\begin{equation*}
+\boxed{ \frac{V} {n}=c \quad or \quad   \frac{V_1} {n_1}=\frac{V_2} {n_2}} \quad \textcolor{blue}{\text{Avogadro's law}}
+\end{equation*}
+where:
+\begin{where}
+ \item $V_1, n_1$   are the initial volume and number of moles
+ \item $V_2, n_2$   are the final volume and number of moles
+   \item $c$   is a constant
+\end{where}

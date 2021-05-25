@@ -1,0 +1,66 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the rate law of the following reaction: \ce{A + B -> C}
+\begin{center}\begin{tabular}[t]{  c c  c c  c  }
+\toprule
+Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
+\midrule
+1&	0.5&	0.2&	0.25\\
+2&	0.6&	0.2&	0.36\\
+3&	0.5&	0.3&	0.375\\
+4&	0.6	&0.3	&0.54\\
+\bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As they provide values of $[A]$ and  $[B]$ the rate law should be $r=k[A]^n[A]^m$. In order to calculate the rate law we need the values of $k$, $n$ and $m$.
+We will apply the rate law two the two different experiments and divide. But this time we will sort the data appropriately. In order to calculate the order or A we will select the data with different values of $[A]$ and the same value of $[B]$:
+\begin{center}\begin{tabular}[t]{  c c  c c  c  }
+\toprule
+Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
+\midrule
+1&	0.5&	0.2&	0.25\\
+2&	0.6&	0.2&	0.36\\
+\bottomrule
+\end{tabular}\end{center}
+Again, we will apply the rate law to each Experiment:
+\begin{align*}
+&\
+   \left.\begin{aligned}
+    0.25=k0.5^n0.2^m\quad (\text{Experiment 1}) \\
+     0.36=k0.6^n0.2^m\quad (\text{Experiment 2}) 
+\end{aligned}
+\right\}         \frac{0.25}{0.36}=\frac{\cancel{k}}{\cancel{k}}\cdot \Bigg(\frac{0.5}{0.6}\Bigg)^n \cdot \Bigg(\frac{\cancel{0.2}}{\cancel{0.2}}\Bigg)^m   
+\end{align*}
+This approach will cancel $k$ and $[B]$ leaving only $n$ giving
+\[0.694=(0.833)^n\]
+In order to solve for $n$ we need to apply 	natural logarithms (or simply log) to both sides of the equation in order to move the exponent down:
+\[Ln(0.694)=n\cdot Ln(0.833) \text{that gives }n=\frac{Ln(0.694)}{Ln(0.833)}=1.99=2\]
+Again, remember the orders are normally integer numbers so you can round to the closes integer. 
+In order to calculate the order or B we will select the data with different values of $[B]$ and the same value of $[A]$:
+\begin{center}\begin{tabular}[t]{  c c  c c  c  }
+\toprule
+Experiment	&$[A]$ (M)&		$[B]$ (M)	&	$r$ (M/s)\\
+\midrule
+1&	0.5&	0.2&	0.25\\
+3&	0.5&	0.3&	0.375\\
+\bottomrule
+\end{tabular}\end{center}
+Again, we will apply the rate law to each Experiment:
+\begin{align*}
+&\
+   \left.\begin{aligned}
+   0.25=k0.5^n0.2^m\quad (\text{Experiment 1}) \\
+     0.375=k0.5^n0.3^m\quad (\text{Experiment 3}) 
+\end{aligned}
+\right\}         \frac{0.25}{0.375}=\frac{\cancel{k}}{\cancel{k}}\cdot \Bigg(\frac{\cancel{0.5}}{\cancel{0.5}}\Bigg)^n \cdot \Bigg(\frac{ 0.2}{ 0.3}\Bigg)^m  
+\end{align*}
+We have that $0.666=(0.66)^m$.
+The order of B is $m$=1. 
+Now that we have the order, we can use the rate law again to obtain the rate constant using any of the experiments: 
+\[0.25=k0.5^2 0.2^1\quad (\text{Experiment 1})\]
+$r$=0.5M/s and $[A]=$0.5M, and given that now we know $n$=2
+\[ 0.5=k0.5^2\]
+Solving for $k$ we have $k$=5 1/M$^2$s. We have that the reaction law is: $r=5[A]^2[B]^1$
+\\
+\import{./}{StudyCheck7} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

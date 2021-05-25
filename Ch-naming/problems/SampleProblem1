@@ -1,0 +1,7 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the correct ionic state of: Cl, K, O and C. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Cl is on the 7A group and hence its charge is $1-$, whereas potassium belongs to 1A and its charge will be $1+$. Oxygen and carbon will have $2-$ and $4-$ charges. The final ionic states are: \ce{Cl^{-}}, \ce{K^{+}}, \ce{O^{2-}} and \ce{C^{4-}}.
+\\
+\import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

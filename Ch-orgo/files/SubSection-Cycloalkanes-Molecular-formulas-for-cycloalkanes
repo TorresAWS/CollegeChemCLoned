@@ -1,0 +1,6 @@
+The molecular formula for a general cycloalkane with $n$ carbon atoms is:
+\begin{equation}
+ \text{C}_n\text{H}_{2n}
+ \label{formula12.2}
+ \end{equation}
+ As an example, the formula for cyclopropane ($n=4$) is \ce{C4H_{8}} and the formula for cycloctane ($n=8$) is \ce{C_8H_{16}}.

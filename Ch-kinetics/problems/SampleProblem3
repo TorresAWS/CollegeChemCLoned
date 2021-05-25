@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given the following rate constants indicate the reaction order:
+\begin{inparaenum}[(a)]	
+\item  $k$=0.04 M/s
+\item	 $k$=0.09 1/Ms 
+\item  $k$=0.03 1/M$^4$s
+\end{inparaenum} \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Formula \ref{\chapterlabel:equation3} to calculate the reaction order. We have that 0.04 M/s is order zero, 0.09 1/Ms is first order and 0.03 1/M$^4$s is fifth order.
+\import{./}{StudyCheck3} 
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

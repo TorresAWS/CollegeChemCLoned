@@ -1,0 +1,37 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the reactions below indicate whether they will evolve towards the right or towards the left in order to reach equilibrium.
+\begin{center}\begin{tabular}[t]{  l c  c        }
+\toprule
+Reaction	&	$K_c$  	&		$Q$  \\
+\midrule
+\ce{2NH3_{(g)}  <=> N2  + 3H2 } &	17	&	20  	\\
+\ce{2SO3_{(g)}  <=> 2SO2_{(g)} + O2_{(g)} } &	0.243	&10	  	\\
+\ce{H2_{(g)}  + I2  <=>2HI_{(g)}   } &	50	&0.1	 	 \\
+\ce{H2O_{(l)} <=>H2O_{(g)}      } &	0.196	&0.196 	 	\\
+\bottomrule
+\end{tabular}\end{center}
+ \end{question}
+\begin{solution}
+\begin{center}\begin{tabular}[t]{  c c  c     c  }
+\toprule
+Reaction	&	$K_c$  	&		$Q$ &  (\ce{->}/\ce{<-})\\
+\midrule
+\ce{2NH3_{(g)}  <=> N2_{(g)} + 3H2_{(g)}} &	17	&	20 &$<-$	\\
+\ce{2SO3_{(g)}  <=> 2SO2_{(g)} + O2_{(g)}} &	0.243	&10	 &$<-$	\\
+\ce{H2_{(g)} + I2_{(g)} <=>2HI_{(g)}   } &	50	&0.1	 	&$->$\\
+\ce{H2O_{(l)} <=>H2O_{(g)}   } &	0.196	&0.196&$<=>$	 	\\
+%\ce{CaCl2.6H2O(s) <=> CaCl2(s) + 6H2O(g)   } &$3.5\times 10^{-54}$		&10	 &$<-$	\\
+\bottomrule
+\end{tabular}\end{center}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+For the decomposition of calcium chloride hexahydrate 
+\begin{center}\ce{CaCl2.6H2O(s) <=> CaCl2(s) + 6H2O(g)   } \end{center}
+we have that $K_c$=$3.5\times 10^{-54}$ and $Q$=10 at 300K. Indicate towards which direction the reaction will evolve to reach equilibrium.
+ \end{question}
+\begin{solution}
+$<-$
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \hspace{0cm}\begin{minipage}[b]{1.0\linewidth}
+\begin{tikzpicture}
+\tikzset{edge/.style = {->,> = latex'}}
+\def\r{1.1}% Mid-tube radius
+\def\t{.2} % Tube thickness
+\def\h{5}  % Straight height (total height is \r + \t/2 + \h)
+\def\lh{2} % Left height
+\def\rh{4} % Right height
+\path [pattern=north west lines, pattern color=green]
+  (-\r+\t/2, \lh) -- ++(0, -\lh) arc (180:360:\r-\t/2) |-
+  ( \r+\t/2, \rh) -- ++(0, -\rh) arc (360:180:\r+\t/2) |- cycle;
+\draw (-\r-\t/2, \lh-0.02) -- ++(\t,0)	 (\r-\t/2, \rh) -- ++(\t,0); 
+%\draw [black, thick] 
+%  (-\r-\t/2, \h) -- ++(0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+%  (-\r+\t/2, \h) -- ++(0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [black, thick] 
+  (-\r-\t/2, \h) -- ++        (0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+  (-\r+\t/2, \h) -- ++    (0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [white, thick, fill=red!10] 
+(-\r-\t/2+.1, \h     -1) -- ++ (-\r-2*\t/2, \h-0.1*\h-0.14cm) arc (0:350:1.0) -- ++ (\r+2*\t/2, \h-0.1*\h-0.16cm) |- cycle ;
+
+ \draw[red!10,  fill=red!10]  (-\r-\t/2, 2.5*\lh) -- ++(\t-0.02,0) -- ++(0, -1.5*\lh) -- ++(-\t+0.04,0)  |- cycle ;
+  \draw[black, thick]  (-\r-\t/2, 2.5*\lh-0.01) -- ++(\t,0)  ;
+  \draw[black, thick]  (\r-\t/2, \rh+1.0) -- ++(\t,0)  ;  % Open close
+\node [shift={(1.2,5.2)}, font=\small,scale=0.7] {Closed};% Open close
+
+\node [shift={(-3.5,4.1)}] {Gas};
+
+\draw[<->] (-0,2) -- (-0,4) ;
+\draw[dash pattern=on \pgflinewidth off 2pt] (-0,2) -- (-.9,2)   (-0,4) -- (.9,4);
+
+\node [shift={(0.2,3.1)}] {\small $\Delta$h};
+\node [shift={(0.2,-1.8)}] {\small $\text{P}^{closed}=\Delta \text{h}\text{dg}$};
+\draw[thin] (-1,0) -- ++(-.6,0) node [left,fill=white,font=\small,scale=0.7] {mercury};
+\draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {vacuum};
+
+\begin{scope}[xshift = 6cm]
+\path [pattern=north west lines, pattern color=green]
+  (-\r+\t/2, \lh) -- ++(0, -\lh) arc (180:360:\r-\t/2) |-
+  ( \r+\t/2, \rh) -- ++(0, -\rh) arc (360:180:\r+\t/2) |- cycle;
+\draw (-\r-\t/2, \lh-0.02) -- ++(\t,0)	 (\r-\t/2, \rh) -- ++(\t,0); 
+%\draw [black, thick] 
+%  (-\r-\t/2, \h) -- ++(0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+%  (-\r+\t/2, \h) -- ++(0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [black, thick] 
+  (-\r-\t/2, \h) -- ++        (0, -\h) arc (180:360:\r+\t/2) -- ++(0, \h)
+  (-\r+\t/2, \h) -- ++    (0, -\h) arc (180:360:\r-\t/2) -- ++(0, \h);
+\draw [white, thick, fill=red!10] 
+(-\r-\t/2+.1, \h     -1) -- ++ (-\r-2*\t/2, \h-0.1*\h-0.14cm) arc (0:350:1.0) -- ++ (\r+2*\t/2, \h-0.1*\h-0.16cm) |- cycle ;
+
+ \draw[red!10,  fill=red!10]  (-\r-\t/2, 2.5*\lh) -- ++(\t-0.02,0) -- ++(0, -1.5*\lh) -- ++(-\t+0.04,0)  |- cycle ;
+  \draw[black, thick]  (-\r-\t/2, 2.5*\lh-0.01) -- ++(\t,0)  ;
+ % \draw[black, thick]  (\r-\t/2, \rh+1.0) -- ++(\t,0)  ;  % Open close
+\node [shift={(1.2,5.2)}, font=\small,scale=0.7] {Open};% Open close
+
+\node [shift={(-3.5,4.1)}] {Gas};
+
+\draw[<->] (-0,2) -- (-0,4) ;
+\draw[dash pattern=on \pgflinewidth off 2pt] (-0,2) -- (-.9,2)   (-0,4) -- (.9,4);
+
+\node [shift={(0.2,3.1)}] {\small $\Delta$h};
+\node [shift={(0.2,-1.8)}] {\small $\text{P}^{open}=\Delta \text{h}\text{dg}+\text{P}_{atm}$};
+\draw[thin] (1,4.5) -- ++(-.3,0) node [left,fill=white,font=\small,scale=0.7] {atmosphere};
+
+\end{scope}
+	  \node[text width=12cm, fontscale=.2,shift={(8em,-13em)}] at (-1em,5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Two types of manometers: open-tube and closed-tube manometer };
+
+\end{tikzpicture}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

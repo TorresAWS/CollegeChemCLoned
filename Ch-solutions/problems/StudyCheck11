@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the solubility of nitrogen in water after exposing water to a 5 atm nitrogen pressure, given that Henry's constant is $6.1\times 10^{-4}$M/atm. 
+
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: $3.05\times 10^{-3}$M
+ \end{flushright} }

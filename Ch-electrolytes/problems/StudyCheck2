@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Classify the following molecules as polar or nonpolar: \ce{HF}, \ce{Cl2}, \ce{C2H4}, and \ce{C2H3Cl}.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+  Answer: polar, nonpolar, nonpolar, polar.
+ \end{flushright} }

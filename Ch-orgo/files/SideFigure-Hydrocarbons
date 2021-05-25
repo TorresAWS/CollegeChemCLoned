@@ -1,0 +1,15 @@
+   \begin{marginfigure}[0cm]
+   \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure3}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Methane (\ce{CH4}) is used as a fuel for ovens, homes, water heaters.};
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure2}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} www.wallpaperflare.com} ;
+\node[text width=5cm] at ([yshift=0.4cm]a.north) {\mytriangle{red}Hydrocarbons, made of carbon and hydrogen, tend to be gaseous molecules.};
+\end{tikzpicture}
+\end{marginfigure}
+   \begin{marginfigure}[2cm]
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm, height=4cm]{../Ch-orgo/figure4}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm] at ([yshift=1.0cm]a.north) {\mytriangle{red}The octane rating of gas is a standard measure of the performance of engine fuels, originally determined by mixing a gasoline made entirely of heptane and 2,2,4-trimethylpentane (a highly branched octane).};
+\end{tikzpicture}
+\end{marginfigure}

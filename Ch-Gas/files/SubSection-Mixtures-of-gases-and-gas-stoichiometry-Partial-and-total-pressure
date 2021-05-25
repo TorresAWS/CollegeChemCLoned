@@ -1,0 +1,4 @@
+Imagine you have a container with 1atm of Ar, and nother container of the same volume containing 1 atm of Ne. If you combine the containers into a single container (and temperature does not change), hence the pressure in the container will result from both gases and will be 2 atm. Inside the mixed container, 2 atm will the the total pressure ($P_{Total}$), whereas the partial pressure of each gas ($p_{1}$ and $p_{2}$) will be 1 atm. Dalton's Law says that the total pressure results from adding the partial pressure of each gas. For a gas mixture with $n$ components:
+\begin{equation*}
+\boxed{  P_{Total}=p_1+p_2+\dots p_n} \quad \textcolor{blue}{\text{Dalton's Law}}
+\end{equation*}

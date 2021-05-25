@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the half-life for a second order reaction with initial concentration of $5.99\times 10^3$ M if the rate constant is 0.005 1/Ms? 
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As we deal with a second order reaction, we will use $\frac{1}{k[\ce{A}]_0}$ given that $[\ce{A}]_0=5.99\times 10^3$M and $k$=0.005 1/Ms. We have that
+\[t_{\nicefrac{1}{2}}=\frac{1}{0.005\cdot 5.99\times 10^3}=0.03s\]
+\import{./}{StudyCheck5} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

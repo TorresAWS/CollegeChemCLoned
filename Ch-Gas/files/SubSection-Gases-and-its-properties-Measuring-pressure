@@ -1,0 +1,16 @@
+Two different devices are used to measure pressure, barometers and manometers. Barometer are used to measure specifically the atmospheric pressure and historically, they consist on a glass tube filled with mercury (\ce{Hg}), inverted on a plate containing more mercury. At the sea level, the height of the mercury columns should be close to 760mmHg.
+Manometers, on the other hand, are used to measure the pressure of any gas. Manometers consist of a u-shaped tube filled with mercury. There are two types of manometers: open-tube and closed-tube manometers.
+The pressure exerted by a gas changes level of mercury on both sides of the tube and the difference in height measured as the right minus the left side ($\Delta h=h_{right}-h_{left}$) is related to the gas pressure. For closed-tube manometers--normally used to measure pressured below the atmospheric pressure--when the gas pressure increases the left column of the barometer is reduced and the right column increases. The difference between both columns is related to the gas pressure by means of:
+\begin{equation}
+\boxed{   \text{P}^{closed}=\text{hdg}} \quad\quad\quad  \boxed{ \text{P}^{open}=\text{hdg}+\text{P}_{atm}}    
+\end{equation}
+where:
+\begin{where}
+ \item P   is the pressure of the gas in Pa
+\item $\Delta$h is the heigh difference in m, measured as $h_{right}-h_{left}$
+ \item d   is the density of mercury 13593 kg/$\text{m}^3$
+\item g   is gravity, 9.8 m/$\text{s}^2$
+\item $\text{P}_{atm}$   is the atmospheric pressure close to 101325 Pa
+\end{where}
+
+For the open-tube manometer, normally used to measure pressured above the atmospheric pressure, we need to take into account the atmospheric pressure to the gas pressure. For this type of manometers, if the left column is below the right column ($\Delta h=h_{right}-h_{left}<0$), this means that the pressure of in the gas is below the atmospheric pressure.

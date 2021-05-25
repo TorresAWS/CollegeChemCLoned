@@ -1,0 +1,25 @@
+ 
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{minipage}[b]{1.2\linewidth}\resizebox{0.8\textwidth}{!}{
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lllllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{9}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Different $K_c$ values at 298K } \\
+\midrule
+\multicolumn{7}{c}{\ce{Reaction}} & $K_c$ & Equilibrium mixture \\
+\midrule
+
+\multicolumn{1}{c}{\ce{2NH3_{(g)}}} & \multicolumn{1}{c}{ } &\multicolumn{1}{c}{ } & \multicolumn{1}{c}{\ce{<=>}}  & \multicolumn{1}{c}{\ce{N2_{(g)}}}&\multicolumn{1}{c}{+ }&\multicolumn{1}{c}{\ce{3H2_{(g)}}} &\multicolumn{1}{c}{17	}&\multicolumn{1}{c}{ Products $>$ Reactants}\\
+
+ \multicolumn{1}{c}{\ce{H2_{(g)}}} & \multicolumn{1}{c}{+} &\multicolumn{1}{c}{\ce{I2_{(g)}} } & \multicolumn{1}{c}{\ce{<=>}}  & \multicolumn{1}{c}{\ce{2HI_{(g)}}}&\multicolumn{1}{c}{  }&\multicolumn{1}{c}{ } &\multicolumn{1}{c}{50	}&\multicolumn{1}{c}{ Products $>$ Reactants}\\
+ 
+ \multicolumn{1}{c}{\ce{2SO3_{(g)}}} & \multicolumn{1}{c}{ } &\multicolumn{1}{c}{ } & \multicolumn{1}{c}{\ce{<=>}}  & \multicolumn{1}{c}{\ce{2SO2_{(g)}}}&\multicolumn{1}{c}{+ }&\multicolumn{1}{c}{\ce{O2_{(g)}}} &\multicolumn{1}{c}{0.3	}&\multicolumn{1}{c}{ Products $<$ Reactants}\\
+
+  \multicolumn{1}{c}{\ce{H2O_{(l)}}} & \multicolumn{1}{c}{ } &\multicolumn{1}{c}{ } & \multicolumn{1}{c}{\ce{<=>}}  & \multicolumn{1}{c}{\ce{H2O_{(g)}}}&\multicolumn{1}{c}{  }&\multicolumn{1}{c}{ } &\multicolumn{1}{c}{0.2	}&\multicolumn{1}{c}{ Products $<$ Reactants}\\
+
+\bottomrule
+\end{tabular}
+}\end{minipage} 
+ 
+   

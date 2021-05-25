@@ -1,0 +1,16 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Given the following rate constants indicate the reaction order:
+\begin{inparaenum}[(a)]	
+\item $k$=0.03 1/s
+\item	 $k$=$3\times 10^{-4}$ L/smol
+\item  $k$=$3\times 10^{-5}$ 1/sM$^2$
+\end{inparaenum} 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+  Answer:   
+\begin{inparaenum}[(a)]	
+\item Order 1
+\item	 Order 2
+\item  Order 3
+\end{inparaenum}
+ \end{flushright} }
+

@@ -1,0 +1,51 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following nucleic acid as nucleotide or nucleoside.
+\begin{center}
+\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxythymidine} }
+\end{center}
+\end{question}\begin{solution}
+ Nucleoside
+  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following nucleic acid as nucleotide or nucleoside.
+\begin{center}
+\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyadenosinephosphate} }
+\end{center}
+\end{question}\begin{solution}
+Nucleotide
+  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Classify the following nucleic acid as nucleotide or nucleoside.
+\begin{center}
+\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyuridine} }
+\end{center}
+\end{question}\begin{solution}
+Nucleoside
+  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+
+
+  %%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Combine the following molecules to produce a nucleoside:\\
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+\begin{tikzpicture}
+\node[shift={(-9em,0)}] (a) at (0,0) {\setatomsep{2.5em}\chemfig[][scale=.65]{P(-[:-90,0.8]OH)(-[:90,0.8]OH)(=[:180,0.8]O)(-[:0,0.8]OH)}};
+\node[shift={(-9em,0)}] (b) at (2,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{adenine} } };
+\node[shift={(-5em,0)}] (c) at (4,0)  {\setatomsep{2.5em}\chemfig[][scale=.65]{!{deoxyribose} } };
+\end{tikzpicture}}\end{minipage}
+\end{question}\begin{solution}
+Not given
+  \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

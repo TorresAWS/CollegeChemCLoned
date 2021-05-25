@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A metal with workfunction of 5eV is exposed to a radiation source with frequency of $9\times 10^{14}$Hz. Indicate whether electrons will be ejected and if so, indicate the kinetic energy of these. 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: no electrons will be ejected
+ \end{flushright} }

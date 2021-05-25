@@ -1,0 +1,12 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the reaction below, the rate of appearance of C is 0.3M/s. Calculate:
+\begin{inparaenum}[(a)]	
+\item The rate of disappearance of A and B.
+\item  The rate of appearance of D.
+\item  The rate of reaction.
+\end{inparaenum} 
+\begin{center}\ce{5A + 2B -> C + 2D         }\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:  $r_A$=-1.5M/s, $r_B$=-0.6M/s, $r_D$=0.6M/s, and $r$=0.3M/s
+ \end{flushright} }
+

@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Classify the following AA as acidic, basic, hydrophilic or hydrophobic:
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.3\textwidth}>{\centering}m{0.3\textwidth}>{\centering}m{0.2\textwidth}}
+\setatomsep{2.5em}\lysin
+&
+\setatomsep{2.5em}\proline
+\tabularnewline\addlinespace
+\end{tabular*}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+They key to classify the different AA is on its side chain. The AA on the left has a nonpolar side chain made of C and H and hence it will hydrophobic. The AA on the right has a polar side chain with N and at the same time a basic side chain. This AA will be hydrophilic and at the same time basic.\\
+\import{./}{StudyCheck11}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

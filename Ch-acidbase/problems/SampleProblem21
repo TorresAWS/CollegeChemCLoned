@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+When titrating hydrochloric acid with sodium chloride using p-Nitrophenol ($K_a=6.3\times 10^{-8}$), indicate the PH at which the ratio between the acid and base form if the indicator is 10\%.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the PH at which an indicator changes color depends on the $pK_a$ of the indicator. $pK_a$ for p-Nitrophenol is 7.2, hence the PH for color transition will be $7.2 \pm log(\Delta)$, given that $\Delta$ is the difference in concentration between acid and basic form. For a 10\% difference, we have that $7.2 \pm log(10)$ and the color change will start at 6.2 and finish at 8.2
+\\
+\import{./}{StudyCheck21}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

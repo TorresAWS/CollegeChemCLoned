@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the half-life for a first order reaction with initial concentration of $5.99\times 10^3$ mol/L if the rate constant is 0.02 1/s? 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   34.65s
+ \end{flushright} }
+

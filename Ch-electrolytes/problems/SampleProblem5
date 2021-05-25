@@ -1,0 +1,17 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A NaCl solution is prepared by mixing 4g of \ce{NaCl} (MW=58.4$g/mol$) with 50 g of water until a final volume of 52mL of solution. Calculate:  (a) the mass percent (m/m) concentration; (b) the molarity.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) to calculate the mass percent (m/m) we just need the grams of solute and the grams of solution--that is four plus fifty. Both numbers are already given:
+\begin{equation*}
+ m/m=\frac{\text{g of solute}}{\text{g of solution}}\times 100 =\frac{\text{4 g of solute}}{\text{54 g of solution}}\times 100=9.2\%
+\end{equation*}
+(b) To calculate molarity we need the moles of solute and the liters of solution. We have the mL of solution, that can be converted to L: 52mL$=5.2\times 10^{-2}L$. To calculate the moles of solute, we will use the grams of solute and the molar mass to convert this value into moles: $4g/58.4 g/mol=$0.068moles. Plugging all values into the molarity formula:
+\begin{equation*}
+M=\frac{\text{moles of solute}}{\text{L of solution}}
+=\frac{\text{0.068 moles of solute}}{5.2\times 10^{-2}\text{L of solution}}=1.31M
+%% 4  \cancel{\text{g of \ce{NaCl}}} \times \dfrac{\text{1 mole of \ce{NaCl}} } { \cancel{\text{58.4 g of \ce{NaCl}}} } 
+\end{equation*}
+\\
+ \import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

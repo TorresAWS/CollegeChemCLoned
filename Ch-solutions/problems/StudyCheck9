@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+We prepare a 0.1M solution of a weak electrolyte with $i$=3. Given that the degree of dissociation of the electrolyte is 95\%, calculate the osmotic pressure of the solution at 298K.
+
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: 7.23atm
+ \end{flushright} }

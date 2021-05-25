@@ -1,0 +1,257 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{Ch-solubility}\setcounter{figurenewcounter}{0}\setcounter{tablenewcounter}{0}\setcounter{formulanewcounter}{0}
+ 
+\begin{document}
+
+
+
+
+\chapter[Solubility equilibria ]{Solubility equilibria and complex ions}
+
+
+\begin{marginfigure}
+\begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../Ch-solubility/figure0}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} imaggeo.egu.eu/view/195/} ;
+\end{tikzpicture}
+\end{marginfigure}
+
+
+
+   
+\lettrine[lines=4]{\color{black!45}I}{nsoluble} compounds and the solubility of solid chemicals in water is critical in fields such as engineering, medicine, and dentistry. For example, the presence of acids in the saliva enables tooth decay as they enhance the solubility of tooth enamel made of \ce{Ca5(PO4)3OH} in saliva. On a similar note, barium sulfate is an insoluble compound opaque to x-rays used to reveal digestive track issues. This chapter applies concepts of chemical equilibrium to the study of insoluble compounds. We will learn how to compute chemical solubilities using the equilibrium constant associated with the solubility equilibrium, and to assess the effect on the solubility of a common ion in solution. The chapter also covers the basis properties and naming of complex ions, ions composed of a central atom bonded to one or more molecules or ions.
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item Compute solubility product constants
+\item Compute solubility from solubility product constants
+\item Predict the precipitation of a ion mixture
+\item Assess the impact of a common ion on solubility
+\item Name complex ions
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+\docenvdef{Discussion:} {\discussionSOLUBLE} \end{tcolorbox}
+
+\end{marginfigure}%LEARNING GOALS BOX
+
+
+
+
+
+\section{Solubility equilibrium } \import{files/}{SectionIntro-Solubility-equilibrium}
+\sloppy\begin{description}
+\item[\docfilehook{Solubility equilibrium}{}] \import{files/}{SubsectionSolubility-equilibrium-Solubility-equilibrium}
+\import{files/}{Table-Solubility-product}
+\import{problems/}{SampleProblem1}
+\end{description}
+
+
+\section{Solubility product}   \import{files/}{SectionIntro-Solubility-product}
+\sloppy\begin{description}
+\item[\docfilehook{Solubility product in terms of molarities, $K_{sp}$}{}]  \import{files/}{SubsectionSolubility-product-in-terms-of-molarities}
+\import{problems/}{SampleProblem2}
+\end{description}
+
+\section{Predicting precipitation } \import{files/}{SectionIntro-Predicting-precipitation}
+\sloppy\begin{description}
+\item[\docfilehook{Predicting precipitation: an introduction}{}]
+The values of the solubility product constant can be used to predict the precipitation of a salt. Imagine for example that we have a 0.1M \ce{Cu^+} solution and you gradually add a \ce{I^-} solution. Given that \ce{CuI} can precipitate and its $K_{sp}$ is $1.27\times 10^{-12}$, the goal would be to determine at what point will \ce{CuI} precipitate, that is, what is the \ce{I^-} concentration that would make \ce{CuI} precipitate. We will answer this question by obtaining first the expression for $K_{sp}$:
+\begin{center}\ce{CuI_{(s)}  <=> Cu^{+}_{(aq)} + I^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{I^{-}} \big]=1.27\times 10^{-12}$\end{center}
+As we know the concentration of \ce{Cu^+}, we can solve for $\big[ \ce{I^{-}} \big]$:
+\begin{center}$K_{sp}= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{I^{-}} \big]=(0.1)\cdot\big[ \ce{I^{-}} \big]=1.27\times 10^{-12}$\end{center}
+We have that $\big[ \ce{I^{-}} \big]=1.27\times 10^{-11}$M. Hence, Copper(I) iodide will precipitate with a very small concentration of iodide in the solution. 
+\item[\docfilehook{Selective precipitation}{}] When we have a mixture of different ions that form insoluble precipitates (e.g. \ce{Pb^{2+}} and \ce{Cu^{+}}) we can use the principles of selective precipitation to separate the ions. Imagine that the concentration of both ions in the mixture is 0.01M. We will add a common anion (e.g. \ce{Br^-}) that will produce two different precipitates (\ce{CuBr} and \ce{PbBr2}). We will also asume that the addition of the cation will not modify much the volume of the mixture. If the solubility product of both insoluble compounds is different enough, we will be able to selectively precipitate first the less soluble compound and the more soluble. We will calculate the amount of the added solution needed to precipitate each solid. Let us first address the expressions for the solubility product for each solid:
+\begin{center}
+\ce{CuBr_{(s)}  <=> Cu^{+}_{(aq)} + Br^{-}_{(aq)}}\hfill $K_{sp}(\ce{CuBr})= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}$\\
+\ce{PbBr2_{(s)}  <=> Pb^{2+}_{(aq)} + 2Br^{-}_{(aq)}}\hfill $K_{sp}(\ce{PbBr2})= \big[ \ce{Pb^{2+}} \big]\cdot \big[ \ce{Br^{-}} \big]^2=6.6\times 10^{-6}$
+\end{center}
+We will calculate the concentration of bromide needed to precipitate each of the solids, first Copper(I) bromide:
+\begin{center}
+$K_{sp}(\ce{CuBr})= \big[ \ce{Cu^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]=(0.01)\cdot\big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}$\\
+\end{center}
+Solving for $\big[ \ce{Br^{-}} \big]$ we have: $\big[ \ce{Br^{-}} \big]=6.3\times 10^{-9}/0.01=6.3\times 10^{-7}$M for the precipitation of \ce{CuBr}. Now, the concentration of bromide needed to precipitate Lead(II) bromide would be:
+$ \big[ \ce{Br^{-}} \big]^2=\frac{6.6\times 10^{-6}}{0.01}$ hence $ \big[ \ce{Br^{-}} \big]=\big(\frac{6.6\times 10^{-6}}{0.01}\big)^{\frac{1}{2}}=2.5\times 10^{-2}$M for \ce{PbBr2}. Comparing both concentrations we have that the values are separate enough (more than 99\%) so it would be feasible to separate both ions in solution.
+\end{description}
+
+
+\section{\color{blue!30!black}{Solubility and $K_{sp}$}}  \import{files/}{SectionIntro-Solubility-and-Ksp}
+\sloppy\begin{description}
+\item[\docfilehook{Molar solubility}{}] In general terms, solubility is the amount of solute in 1L of saturated solution. There are two main ways to describe solubility. On one hand, molar solubility $s$ is the number of moles of solute per liter of saturated solution. On the other hand, solubility $\overline{s}$ is normally defined as the number of grams of solute per liter of saturated solution. Both types of solubility are simply related by the molar mass:
+\begin{equation}
+\boxed{ \overline{s}= s\cdot MW  }\label{\chapterlabel:equation1}
+\end{equation}
+where:
+\begin{where}
+ \item $\overline{s}$  is solubility in mol/L
+ \item $s$  is solubility in g/L
+ \item $MW$  the molar weight of the insoluble compound
+\end{where}
+
+
+  \import{problems/}{SampleProblem3}
+
+
+
+
+\item[\docfilehook{$K_{sp}$ in terms of molar solubility}{}] The solubility product is directly related to molar solubility $s$. We will demonstrate how to obtain this relationship by means of three examples.
+First, the solubility product of \ce{AgCl} is:
+\begin{center}\ce{AgCl_{(s)}  <=> Ag^{+}_{(aq)} + Cl^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^{+}} \big]\cdot \big[ \ce{Cl^{-}} \big]$\end{center}
+As the concentration of each ion, \ce{Ag^{+}} and \ce{Cl^{-}}, is related to the molar solubility of the salt, we have
+\begin{center}$K_{sp}= \big[ \ce{Ag^{+}} \big]\cdot \big[ \ce{Cl^{-}} \big]=(s)\cdot(s)=s^2$\end{center}
+Second, for silver sulfide, an insoluble compound with a more complex stoichiometry, we have:
+\begin{center}\ce{Ag2S_{(s)}  <=> 2Ag^{+}_{(aq)} + S^{2-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^{+}} \big]^2\cdot \big[ \ce{S^{2-}} \big]=(2s)^2\cdot(s)=4s^3 $\end{center}
+Third, the solubility equilibrium and $K_{sp}$ expression for \ce{Nd2(CO3)3} is
+\begin{center}\ce{Nd2(CO3)3_{(s)}  <=> 2Nd^{3+}_{(aq)} + 3CO3^{2-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Nd^{3+}} \big]^2\cdot \big[ \ce{CO3^{2-}} \big]^3$\end{center}
+As the ion concentrations are related to solubility, we have
+\begin{center}$K_{sp}=(2s)^2\cdot(3s)^3=108s^5 $\end{center}
+
+\item[\docfilehook{$K_{sp}$ in terms of molar solubility: general formula}{}] For any insoluble salt \ce{A_xB_y}, we have that $K_{sp}$ is related to $s$ by means of a general formula:
+\begin{equation}
+\boxed{ K_{sp}= a\cdot s^b  }\label{\chapterlabel:equation2}
+\end{equation}
+where:
+\begin{where}
+ \item $a$  is $x^x\cdot y^y$
+ \item $b$  is $x+y$
+\end{where}
+For example, for \ce{Ba1F2} the constant $a$ would be $1^1\cdot 2^2$, that is four, whereas the constant $b$ will be $1+2$ that equals to three. As such, the expression of $K_{sp}$ in terms of $s$ would be: $K_{sp}=4s^3$. This approach is useful when the we need to compute the solubility product constant given the molar solubility.
+
+  \import{problems/}{SampleProblem4}
+
+
+\item[\docfilehook{Molar solubility in terms of $K_{sp}$: general formula}{}] We previously explored the relationship between $K_{sp}$ and molar solubility. Here we will explore the relationship between molar solubility and $K_{sp}$, simply solving for $s$ in Equation \ref{\chapterlabel:equation2}. Again, for any insoluble salt \ce{A_xB_y}, we have:
+\begin{equation}
+\boxed{ s= \Big( \frac{K_{sp}}{a} \Big)^{\frac{1}{b}}  }\label{\chapterlabel:equation3}
+\end{equation}
+where:
+\begin{where}
+ \item $a$  is $x^x\cdot y^y$
+ \item $b$  is $x+y$
+\end{where}
+For example, for \ce{Ba1F2} the constant $a$ would be $1^1\cdot 2^2$, that is four, whereas the constant $b$ will be $1+2$ that equals to three. As such, the expression of $s$ in terms of $K_{sp}$ would be: $s= \big( \frac{K_{sp}}{4} \big)^{\frac{1}{3}} $. This approach is useful when the solubility product constant is given and we need to calculate the molar solubility.
+As the relation between molar solubility and $K_{sp}$ is not a one-to-one relationship, $K_{sp}$ are not directly related to solubility. For salts with a similar stoichiometry, it would be safe to compare solubilities in terms of $K_{sp}$. For example:
+\begin{center}
+\ce{CuS}	\hfill	$K_{sp}$=$8\times10^{-37}$\hfill$s=6\times10^{-19}$\\
+\ce{PbS}	\hfill	$K_{sp}$=$3\times10^{-28}$\hfill$s=1\times10^{-14}$\\
+\ce{LiF}	\hfill	$K_{sp}$=$2\times10^{-3}$\hfill$s=3\times10^{-2}$
+\end{center}
+and we have that the lower $K_{sp}$ the lower solubility. When the salt stoichiometry differs
+\begin{center}
+%\ce{CuS}	\hfill	$K_{sp}$=$8\times10^{-37}$\hfill$s=8\times10^{-19}$\\
+%\ce{Al(OH)3}	\hfill	$K_{sp}$=$3\times10^{-34}$\hfill$s=2\times10^{-9}$\\
+\ce{MgF2}	\hfill	$K_{sp}$=$5\times10^{-11}$\hfill$s=2\times10^{-4}$\\
+\ce{Li3PO4}	\hfill	$K_{sp}$=$2\times10^{-4}$\hfill$s=7\times10^{-2}$\\
+\ce{Li2CO3}	\hfill	$K_{sp}$=$8\times10^{-4}$\hfill$s=6\times10^{-2}$\\
+\end{center}
+then an increase in $K_{sp}$ do not necesarily follows an increase in solubility.
+
+
+
+  \import{problems/}{SampleProblem5}
+
+
+\end{description}
+
+
+
+\section{\color{blue!30!black}{Solubility and $K_{sp}$}} \import{files/}{SectionIntro-Common-ion-effect}
+\sloppy\begin{description}
+\item[\docfilehook{Solubility and PH}{}] Some insoluble salts have acid-base character. For example, \ce{Ba(OH)2} is an insoluble salt with basic character--mind \ce{OH^-} is a base--and \ce{FeF2} is also a basic salt, as \ce{F^-} is a moderately strong base resulting from the dissociation of \ce{HF}, a weak acid. Therefore, for these salts, solubility is related to the PH. Only salts that result from weak acids or bases would have an acid-base character. For example, \ce{CaCO3} or \ce{CuCN} are all basic insoluble salts as carbonic acid and hydrocyanic acid are both weak acids. Let us calculate the PH of a \ce{Ba(OH)2} solution. We have that the solubility equilibrium is given by
+\begin{center}\ce{	Ba(OH)2_{(s)} <=> Ba^{2+}_{(aq)}	+ 2OH^{-}_{(aq)}	}	\end{center}
+and $K_{sp}$ is reates to solubility $s$ by means the following formula
+\[K_{sp}=4s^3			\]
+As the solubility product of \ce{Ba(OH)2}  is $2.5\times10^{-4}$ we have that the solubility of the hydroxide is  0.04M. We have that the concentration of the ions in solution is related to solubility by
+\begin{center}$\big[ \ce{Ba^{2+}}\big]=s$\hfill$\big[ \ce{OH^{-}}\big]=2s$\end{center}
+Hence we have that the PH is directly related to solubility
+\[POH=-log (\big[ \ce{OH^{-}}\big])=-log(2s)=1.09			\]
+and PH will be 12.9.
+At the same time, solubility of insoluble compounds with acid-base properties will be affected by the PH of the solution. In the example above, as \ce{Ba(OH)2} is a basic compound,  increasing PH towards even more basic values would impede the salt dissociation and hence decrease its solubility. Differently, decreasing PH would increase solubility as the amount of hydroxils in solution would hence decrease and hence, more would need to be formed. 
+
+
+\item[\docfilehook{Common ion effect}{}]
+Insoluble compounds dissociate to produce ions in solution. For example, a saturated \ce{AgCl} solution will contain $1.3\times 10^{-5}$M-\ce{Ag^{+}} and \ce{Cl^{-}}. By adding a chemical with a common ion (e.g. \ce{NaCl}) into the solution we can decrease solubility as common ions will decrease the salt dissociation. Let us work on a problem: we want to calculate the solubility of \ce{AgCl} in a 0.1M-\ce{NaCl} solution given that $K_{sp}(\ce{AgCl})=1.8\times 10^{-10}$. In order to do this, we will first display the solubility equilibriu of the salt
+\begin{center}\ce{AgCl_{(s)}  <=> Ag^+_{(aq)} + Cl^-_{(aq)}}\hfill $K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]=1.8\times 10^{-10}$\end{center}
+The concentration of the different ions in solution are related to the salt solubility. However, as we now have a common ion (\ce{Cl^-}), we should add this new concentration to the original solubility of the salt
+\begin{center}$\big[ \ce{Ag^{+}}\big]=s$\hfill$\big[ \ce{Cl^{-}}\big]=0.1+s$\end{center}
+Solving for $s$ we have:
+\begin{center}$K_{sp}= \big[ \ce{Ag^+} \big]\cdot \big[ \ce{Cl^-} \big]=(s)\cdot(0.1+s)=1.8\times 10^{-10}$\end{center}
+that leads to a polynomia
+\begin{center}$s^2 + 0.1s -1.8\times 10^{-10}=0$\end{center}
+
+\end{description}
+
+
+
+\section{\color{blue!30!black}{Predicting precipitation from mixtures and solutions}} \import{files/}{SectionIntro-Predicting-precipitation}
+Mixing ion solutions can lead to precipitation. This section addresses how to predict the precipitation of an insoluble compound from mixtures containing different ions and mixtures of solutions. 
+ \sloppy
+\begin{description}
+\item[\docfilehook{Predicting precipitation from mixtures}{}] 
+Let us analyze a situation in which we dissolve in water an insoluble compound such as lead(II) fluoride. The solubility products constant $K_{sp}$ is just an equilibrium constant that described the process of solubility. $K_{sp}$ depends on the equilibrium concentration of the ions in solution. For example, $K_{sp}$ for lead(II) fluoride is $3.3\times10^{-8}$ and its mathematycal expression is presented below
+\begin{center}\ce{PbF2{(s)}  <=> Pb^{2+}_{(aq)} + 2F^{-}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Pb^{2+}} \big]\cdot \big[ \ce{F^{-}} \big]^2$= $3.3\times10^{-8}$\end{center}
+In the expression above, $\big[ \ce{Pb^{2+}} \big]$ represents the equilibrium concentration of ions Lead(II) and $\big[ \ce{F^{-}} \big]$ is the equilibrium concentration of fluoride. These concentrations result from dissolving the insoluble chemical in water.
+Let us now analyze a situation in which we have a mixture of ions containing 0.1M-\ce{Pb^{2+}} ions and 0.1M-\ce{F^{-}}. We want to assess if a precipitate will form, given that both ions can combine to produce lead(II) fluoride. To predict precipitation, we will use the reaction concentration product $Q_c$, and we will compare this product with the solubility product constant $K_{sp}$:
+\begin{equation}
+\boxed{  Q_{c}=\big[\text{Products}\big]_{noneq} } \quad \textcolor{blue}{\text{concentration product}}\label{\chapterlabel:equation4}
+\end{equation}
+By comparing the calculated concentration product and the solubility product constant we can predict if a precipitate will appear or not. A precipitate will appear only for $Q_c$ values larger than $K_{sp}$. In other words, mixtures of solutions more concentrated that the compound solubility will precipitate, whereas  less concentrated mixtures in comparison with solubility will not precipitate.
+
+ \begin{center}\begin{tikzpicture}[colorbar arrow/.style={
+  shape=double arrow,
+  double arrow head extend=0.125cm, 
+  shape border rotate=0, 
+  minimum height=10cm,minimum width=2cm,
+  shading=#1 
+}]
+\node [colorbar arrow=shading1] (thickarrow) at (0,0) {};
+  \node[font=\large]  at (-3cm,0cm) {$Q_c<K_{sp}$};   \node[font=\tiny, rotate=90]  at (0cm,0cm) {Equilibrium}; \node[font=\large]  at (3cm,0cm) {$Q_c>K_{sp}$}; 
+%\node[font=\large, below = 3mm of thickarrow]  at (-3cm,-1cm) { $K_{c}<1$}; 
+\draw[ultra thick, ->]  (-3cm,-1cm) --+(1cm,0cm) node[shift={(0,-1em)}] {Dissolution}; 
+   \node[font=\large, below = 3mm of thickarrow, shift={(0cm,.5cm)}]  at (0cm,-1cm) {$K_{sp}$};  
+\draw[ultra thick, ->]  (3cm,-1cm) --+(-1cm,0cm) node[shift={(0,-1em)}] {Precipitation}; 
+\end{tikzpicture}  \end{center}
+As a side note the difference between the concentration in $K_{sp}$ and $Q_c$ is based on the fact that $K_{sp}$ include \emph{equilibrium} concentration resulting of the slow dissolution of an insoluble compound, whereas $Q_c$ include \emph{nonequilibrium} concentrations resulting of artificially preparing and mixing ion solutions. For the example we are considering, after mixing a 0.1M-\ce{Pb^{2+}} solution and a 0.1M-\ce{F^{-}} solution, we have that  $Q_c$ is larger than $K_{sp}$ and therefore a precipitate will form:
+\begin{center} $Q_{c}= \big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=0.1\cdot 0.1^2=1\times 10^{-3}>K_{sp}=3.3\times10^{-8}$ hence (\ce{v})\end{center}
+Imaging that we mix now a $10^{-3}$M-\ce{Pb^{2+}} solution and a $10^{-3}$M-\ce{F^{-}} solution. For this case we have that $Q_c$ is smaller than $K_{sp}$ and therefore no precipitate will form:
+\begin{center} $Q_{c}= \big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=10^{-3}\cdot (10^{-3})^2=10^{-9}<K_{sp}=3.3\times10^{-8}$ hence (\cancel{\ce{v}})\end{center}
+  \import{problems/}{SampleProblem6}
+\item[\docfilehook{Predicting precipitation from mixing solutions}{}] 
+Let us now analyze a situation in which we mix two different solutions, 5mL of a solution containing 0.1M \ce{Pb(NO3)2} and 6mL of a solution containing 0.01M \ce{NaF}. Assuming that liquid volume can be added, we would like to know whether lead(II) fluoride would precipitate. To answer this question, we need to calculate the concentration of lead(II) and of fluoride in the resulting mixture. With this information, we could compute the ion product and compare this value with the solubility product ($3.3\times10^{-8}$). We will first calculate the concentration of lead(II) produced from \ce{Pb(NO3)2}, given that the salt dissociates giving one lead cation and two nitrate anions:
+\[ \big[ \ce{Pb^{2+}} \big]=\frac{0.1M\cdot 5mL}{11mL}=4.5\times 10^{-2}M\]
+and then calculate the fluoride concentration produced from \ce{NaF}, given that the salt dissociates giving one sodium cation and one fluoride anion:
+\begin{equation*}\big[ \ce{F^{-}} \big]=\frac{0.01M\cdot 6mL}{11mL}=5.4\times 10^{-3}M\end{equation*}
+With these two concentrations, we can compute the ion product $Q_c$ and compare it with $K_{sp}$:
+\begin{equation*}\begin{split}Q_{c}=\big[ \ce{Pb^{2+}} \big]_{noneq}\cdot \big[ \ce{F^{-}} \big]^2_{noneq}=(4.5\times 10^{-2})\cdot(5.4\times 10^{-3})^2=\\=1.3\times 10^{-6}< K_{sp}=3.3\times10^{-8} \text{ hence } (\ce{v})	\end{split}\end{equation*}
+Based on this comparison, we can predict that after mixing the two solutions \ce{PbF2} will precipitate.
+\import{problems/}{SampleProblem7}
+\item[\docfilehook{Predicting the amount of precipitate formed}{}] 
+A precipitate can form when mixing two solutions containing specific ions. For example, \ce{AgCl} is an insoluble compound. A precipitate will form if you mix solutions of \ce{AgNO3} and \ce{NaCl}. In these chemicals, \ce{Ag^+} and \ce{Cl^-} are directly involved in the precipitate formation, whereas \ce{NO3^-} and \ce{Na^+} are spectators. In this section, we will cover how to compute the amount of precipitate formed and the concentration of the leftovers. We will leave aside the spectator ions knowing that they will remain in solution.
+Let us consider the situation in which we mix 5mL of 0.01M-\ce{AgNO3} with 6mL of 0.005M-\ce{AgNO3}. In order to determine the amount of precipitate formed, we will first set up the precipitation reaction:
+\begin{center} \ce{Ag^+_{(aq)} + Cl^-_{(aq)} -> AgCl_{(s)}} \end{center}
+Second, we will identify the limiting reactant by comparing the moles of ions reacting. We will calculate the moles of \ce{Ag^+} by computing the moles of silver(I) coming from \ce{AgNO3}--when multiplying volume by molarity we obtain mmol:
+\[n^{\ce{Ag^+}}= 5\text{mL}\cdot 0.01\text{M} =5\times 10^{-2}\text{mmol}	\]
+We will now calculate the number of moles of cloride:
+\[n^{\ce{Cl^-}}= 6\text{mL}\cdot 0.005\text{M} =3\times 10^{-2}\text{mmol}	\]
+We have that in order to react with the amount of \ce{Ag^+} in the mixture, we would need $n^{\ce{Cl^-}}=5\times 10^{-2}\text{mmol}$ and we only have $3\times 10^{-2}\text{mmol}$ of cloride, hence cloride is the limiting reagent and the leftovers will be:
+\[n^{\ce{Ag^+}}_{left}= 5\times 10^{-2} - 3\times 10^{-2} = 2\times 10^{-2} \text{mmol}	\]
+The number of moles of precipitate formed will be given by:
+\[n^{\ce{AgCl}}= 3\times 10^{-2}\text{mmol of \ce{Cl^{-}}}\times\frac{1\text{mol of \ce{AgCl}}}{1\text{mol of \ce{Cl^-}}}=3\times 10^{-2}\text{mmol of \ce{AgCl}}	\]
+When \ce{AgCl} forms at the same time there will be silver(I) leftovers. We will finally calculate the concentration of the leftover ion simply by dividing the leftover moles by the overall volume of the mixture--mind we mix two different voluments and we asume liquid volumes can be added:
+\[\big[\ce{Ag^+} \big]=\frac{n^{\ce{Ag^+}}_{left}}{V}=\frac{2\times 10^{-2}\text{mmol}}{(5+6)\text{mL}}=1.8\times 10^{-3}\text{M} \]
+
+\import{problems/}{SampleProblem8}
+
+
+
+
+
+\end{description}
+
+
+
+
+
+
+\end{document}

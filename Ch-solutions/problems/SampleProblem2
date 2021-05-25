@@ -1,0 +1,16 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A 2M NaCl (MW=59g/mol) solution has a density of 1.2g/mL. Calculate: 
+\begin{inparaenum}[(a)]	
+\item The molality of the solution
+\item  The mass percent of solute
+\item	 The mole fraction of solute 
+\end{inparaenum}\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+ We will first convert molarity into molality using density and the molar mass of the solute.
+ \[\text{m}=\frac{1000\cdot \text{M}}{1000\cdot d - \text{M}\cdot MW}=\frac{1000\cdot 2}{1000\cdot 1.2 - 2\cdot 59}=1.84m\]
+ We will then convert molarity into mass percent:
+ \[ \%_m=\frac{\text{M}\cdot MW }{10\cdot \text{d} }=\frac{2\cdot 59 }{10\cdot 1.2 }=9.83\%\]
+ We will finally convert the mass percent of solute into mole fraction:
+ \[\chi=\frac{18\cdot  \%_{m}  }{100\cdot MW + (18-MW)\cdot \%_{m} }=\frac{18\cdot  9.83\%  }{100\cdot 59 + (18-59)\cdot 9.83\%  }=0.03\]
+\import{./}{StudyCheck2}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

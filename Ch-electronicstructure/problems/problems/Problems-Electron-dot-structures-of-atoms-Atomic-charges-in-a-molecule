@@ -1,0 +1,34 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the charge of the atom marked blue in the following electron-dot structure:
+\vspace{0.3cm}\begin{multicols*}{2}
+\begin{enumerate}[label=(\alph*)]
+\item \chemleft[\chemfig{\lewis{2,{\color{blue}C}}( (-[:0]H)(-[:180]H)(-[:270]H))}\chemright] \chemmove{\node[] at (0pt,15pt) {\footnotesize $ $};}
+\item \chemleft[\chemfig{\lewis{2,{\color{blue}O}}( (-[:0]H)(-[:180]H)(-[:270]H))}\chemright]
+\chemmove{\node[] at (0pt,15pt) {\footnotesize $ $};}
+\end{enumerate}\end{multicols*}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+\item -2
+\item +1
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the charge of the atom marked blue in the following electron-dot structure:
+\vspace{0.3cm}\begin{multicols*}{2}
+\begin{enumerate}[label=(\alph*)]
+\item \chemleft[\chemfig{{\color{blue}N}( (-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H))}\chemright]\chemmove{\node[] at (0pt,35pt) {\footnotesize $ $};}
+\item \chemleft[\chemfig{C((-[:90]H)(-[:180]H)(-[:270]H))-[:0]\lewis{026,{\color{blue}O}}}\chemright]\chemmove{\node[] at (0pt,35pt) {\footnotesize $ $};}
+\end{enumerate}
+\end{multicols*}
+\end{question}
+\begin{solution} 
+ \begin{inparaenum}[(a)]
+\item +1
+\item -1
+ \end{inparaenum}\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%

@@ -1,0 +1,19 @@
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the zwitterion state of the following AA
+\begin{center}
+\chemfig{C(-[:0]NH_2)(-[:180]HOOC)(-[:-90]CH(-[:-135]CH_{3})(-[:-45]CH_{3}))(-[:90]H)}
+\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In its zwitterion state an AA has a netaive acidic group and a positive amino group. The acid group has one less H and the amine gains that proton:
+\begin{center}
+\chemfig{C(-[:0]^{+}NH_3)(-[:180]^{-}OOC)(-[:-90]CH(-[:-135]CH_{3})(-[:-45]CH_{3}))(-[:90]H)}
+\end{center}
+
+%\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+%Write down the zwitterion state of the following AA
+%\begin{center}
+%\chemfig{C(-[:0]C(-[:0]OH)(=[:270]O))(-[:270]H)(-[:180]H_2N(-[:270,1,,,draw=none]))(-[:90]CH_{2}(-[:90]?(*6([::-30]=-NH-(**6(------))=?))))}
+%\end{center}
+\import{./}{StudyCheck10}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

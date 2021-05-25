@@ -1,0 +1,77 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the solubility product in terms of the molarities of the ions in solution for the following chemicals:
+\begin{inparaenum}[(a)]
+\item \ce{CuCl} %	$K_{sp}(\ce{CuCl})= \big[ \ce{Cu^+} \big]\cdot \big[ \ce{Cl^-} \big]$ 
+ \item \ce{FeS} %	$K_{sp}(\ce{FeS})= \big[ \ce{Fe^{2+}} \big]\cdot \big[ \ce{S^{-2}} \big]$ 
+ \item \ce{MnS} %	$K_{sp}(\ce{MnS})= \big[ \ce{Mn^{2+}} \big]\cdot \big[ \ce{S^{-2}} \big]$ 
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+ \item  	$K_{sp}(\ce{CuCl})= \big[ \ce{Cu^+} \big]\cdot \big[ \ce{Cl^-} \big]$ 
+ \item  $K_{sp}(\ce{FeS})= \big[ \ce{Fe^{2+}} \big]\cdot \big[ \ce{S^{-2}} \big]$ 
+ \item  	$K_{sp}(\ce{MnS})= \big[ \ce{Mn^{2+}} \big]\cdot \big[ \ce{S^{-2}} \big]$
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the solubility product in terms of the molarities of the ions in solution for the following chemicals:
+\begin{inparaenum}[(a)]
+ \item \ce{MgCO3} %	$K_{sp}(\ce{MgCO3})= \big[ \ce{Mg^{2+}} \big]\cdot \big[ \ce{CO3^{-2}} \big]$ 
+ \item \ce{PbCrO4} %	$K_{sp}(\ce{PbCrO4})= \big[ \ce{Pb^{2+}} \big]\cdot \big[ \ce{CrO4^{-2}} \big]$ 
+ \item \ce{TlBr} %	$K_{sp}(\ce{TlBr})= \big[ \ce{Tl^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]$ 
+  \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item  	$K_{sp}(\ce{MgCO3})= \big[ \ce{Mg^{2+}} \big]\cdot \big[ \ce{CO3^{-2}} \big]$ 
+ \item  	$K_{sp}(\ce{PbCrO4})= \big[ \ce{Pb^{2+}} \big]\cdot \big[ \ce{CrO4^{-2}} \big]$ 
+ \item  	$K_{sp}(\ce{TlBr})= \big[ \ce{Tl^{+}} \big]\cdot \big[ \ce{Br^{-}} \big]$ 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the solubility product in terms of the molarities of the ions in solution for the following chemicals:
+\begin{inparaenum}[(a)]
+ \item \ce{ScF3} %	$K_{sp}(\ce{ScF3})= \big[ \ce{Sc^{3+}} \big]\cdot \big[ \ce{F^{-}} \big]^3$ 
+ \item \ce{NiS} %	$K_{sp}(\ce{NiS})= \big[ \ce{Ni^{2+}} \big]\cdot \big[ \ce{S^{-2}} \big]$ 
+ \item \ce{HgI2} %	$K_{sp}(\ce{HgI2})= \big[ \ce{Hg^{2+}} \big]\cdot \big[ \ce{I^{-}} \big]^2$ 
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item \ce{ScF3} %	$K_{sp}(\ce{ScF3})= \big[ \ce{Sc^{3+}} \big]\cdot \big[ \ce{F^{-}} \big]^3$ 
+ \item \ce{NiS} %	$K_{sp}(\ce{NiS})= \big[ \ce{Ni^{2+}} \big]\cdot \big[ \ce{S^{-2}} \big]$ 
+ \item \ce{HgI2} %	$K_{sp}(\ce{HgI2})= \big[ \ce{Hg^{2+}} \big]\cdot \big[ \ce{I^{-}} \big]^2$ 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the solubility product in terms of the molarities of the ions in solution for the following chemicals:
+\begin{inparaenum}[(a)]
+ \item \ce{Cu2O} %	$K_{sp}(\ce{Cu2O})= \big[ \ce{Cu^{+}} \big]^2\cdot \big[ \ce{O^{-2}} \big]$ 
+ \item \ce{Co3(PO4)2} %	$K_{sp}(\ce{Co3(PO4)2})= \big[ \ce{Co^{+2}} \big]^2\cdot \big[ \ce{PO4^{-3}} \big]^3$ 
+ \item \ce{Fe(OH)3} %	$K_{sp}(\ce{Fe(OH)3})= \big[ \ce{Fe^{+3}} \big]\cdot \big[ \ce{OH^{-}} \big]^3$ 
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item  	$K_{sp}(\ce{Cu2O})= \big[ \ce{Cu^{+}} \big]^2\cdot \big[ \ce{O^{-2}} \big]$ 
+ \item  	$K_{sp}(\ce{Co3(PO4)2})= \big[ \ce{Co^{+2}} \big]^2\cdot \big[ \ce{PO4^{-3}} \big]^3$ 
+ \item  	$K_{sp}(\ce{Fe(OH)3})= \big[ \ce{Fe^{+3}} \big]\cdot \big[ \ce{OH^{-}} \big]^3$ 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+

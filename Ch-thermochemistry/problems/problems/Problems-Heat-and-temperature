@@ -1,0 +1,54 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A 50g piece of aluminum ($c_e=0.214\frac{cal}{g^{\circ}C}$) initially at 25$^{\circ}$C absorbs 100cal. Calculate the final temperature of the aluminum piece.
+\end{question}
+\begin{solution}
+$34.34^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+A 200g piece of iron ($c_e=0.1\frac{cal}{g^{\circ}C}$) initially at 15$^{\circ}$C absorbs 1000cal. Calculate the final temperature of the metal piece.
+\end{question}
+\begin{solution}
+$T_{Final}=65^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+How many calories are required to raise the temperature of a 35 g sample of iron from 25$^{\circ}$C to 35$^{\circ}$C?  Iron has a specific heat of $0.108\frac{cal}{g^{\circ}C}$.
+\end{question}
+\begin{solution}
+38 cal
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the final temperature of a 35 g sample of iron at 25$^{\circ}$C after receiving 50cal?  Iron has a specific heat of $0.108\frac{cal}{g^{\circ}C}$.
+\end{question}
+\begin{solution}
+38$^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the initial temperature of a 50 g sample of aluminum that after receiving 50cal reaches a temperature of 50$^{\circ}$C?  Al has a specific heat of $0.2\frac{cal}{g^{\circ}C}$.
+\end{question}
+\begin{solution}
+45$^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+What is the specific heat of a metal if a 100 g sample at 25$^{\circ}$C warms up until 50$^{\circ}$C after receiving 100cal? 
+\end{question}
+\begin{solution}
+$0.04cal/g^{\circ}$C
+ \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+

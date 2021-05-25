@@ -1,0 +1,17 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A solution is prepared by mixing 1g of glucose (MW=180g/mol) in 50g of water to give a final volume of 100mL. Calculate: 
+\begin{inparaenum}[(a)]	
+\item The percent by mass of solute %1.96\%
+\item	 The mole fraction of solute %$2\times 10^{-3}$
+\item  The molarity of the solution	%0.05M
+\item  The molality of the solution	%0.11m
+\item  The density of the solution	%0.51g/mL
+\end{inparaenum}
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small Answer: \begin{inparaenum}[(a)]	
+\item  1.96\%
+\item  $2\times 10^{-3}$
+\item   0.05M
+\item   0.11m
+\item   0.51g/mL
+\end{inparaenum}
+ \end{flushright} }

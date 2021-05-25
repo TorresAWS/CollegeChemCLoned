@@ -1,0 +1,15 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the alkene and alkyne groups in the molecule:
+\begin{center}\chemfig{H_2C=C(-[1]CH_2-CH~CH)(-[-1]H)}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+A double bond is carbon atoms sharing two pairs of electrons, whereas a triple bond is a pair of atoms sharing three pairs of electrons. They are represented with a double and triple line, respectively. In the question:
+\begin{center}\chemfig{H_2\phantom{}@{A}C=\phantom{}@{B}C(-[1]CH_2-H\phantom{}@{C}C~\phantom{}@{D}CH)(-[-1]H)}\end{center}
+\chemmove{
+   \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-10pt]A.south west) rectangle ([xshift=0pt,yshift=10pt]B.north east) ;
+      \fill [fill=red, fill opacity=.1,line width=.00pt] ([xshift=0pt,yshift=-10pt]C.south west) rectangle ([xshift=0pt,yshift=10pt]D.north east)  ;
+}
+\begin{flushright} \mytriangleright{dgreen}\small Answer: (left) alkene; (right) alkyne \end{flushright}
+\import{./}{StudyCheck11}
+
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

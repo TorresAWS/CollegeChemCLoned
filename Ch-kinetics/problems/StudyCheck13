@@ -1,0 +1,16 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The Arrhenius parameters for the gas-phase reaction below are $6\times10^{-12}\text{ s}^{-1}$ and 665J/mol. 
+\begin{center}\ce{H2S + OH -> HS + H2O}\end{center}
+Calculate:
+\begin{inparaenum}[(a)]	
+\item  the rate constant at 300K.
+\item	 the temperature at which the rate constant is $5\times10^{-12}\text{ s}^{-1}$
+\end{inparaenum} 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   
+\begin{inparaenum}[(a)]	
+\item  $4.6\times10^{-12}\text{ s}^{-1}$
+\item	 432K
+\end{inparaenum}
+ \end{flushright} }
+

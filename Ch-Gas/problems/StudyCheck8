@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A mixture of gases with a total pressure of 5 atm contains 1 mol of Ar and 1 mol of He. Calculate the partial pressure of each component on the mixture. 
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $p_{Ar}$=2.5 atm, $p_{He}$=2.5atm. \end{flushright} }

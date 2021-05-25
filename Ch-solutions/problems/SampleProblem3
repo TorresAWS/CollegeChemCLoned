@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+We prepare a solution by weighting 5g of solute and adding 10g of solvent in order to prepare a 0.1m solution. Calculate the molar mass of the solute.
+\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In this example, we are given molality (m=0.1), the mass of solute ($m_{\text{solute}}$=5g) and the mass of solvent ($m_{\text{solvent}}$=0.01kg). In order to calculate the molar mass of a solute by means of molality we have that:
+ \[MW=\frac{ \text{g of solute}   }{\text{m}\cdot \text{kg of solvent}   	}=\frac{5}{0.1\cdot 0.01}=5000g/mol \]
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

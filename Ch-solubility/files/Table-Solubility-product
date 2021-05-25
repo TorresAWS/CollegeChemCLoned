@@ -1,0 +1,89 @@
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\begin{fullwidth} \hspace{-6cm}
+\begin{minipage}[b]{0.9\linewidth}
+
+ 
+        \begin{adjustbox}{center, width=\columnwidth+110pt}  % can also use \linewidth or sth. else
+
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Solubility product constants on water at 25$^{\circ}$C} \\
+\midrule
+	\rowcolor{gray!10}Name &Formula	&$K_{sp}$ &  Name &Formula	&$K_{sp}$ \\ 
+
+\midrule
+Aluminium hydroxide			&\ce{Al(OH)3	}&		$3.00\times10^{-34}$&	Magnesium phosphate		&\ce{Mg3(PO4)2}&		$1.04\times10^{-24}$\\
+Aluminium phosphate		&\ce{AlPO4}&			$9.84\times10^{-21}$&	Manganese(II) carbonate		&\ce{MnCO3}&			$2.24\times10^{-11}$\\
+Barium bromate			&\ce{Ba(BrO3)2}&		$2.43\times10^{-4}$&	Manganese(II) hydroxide		&\ce{Mn(OH)2}&			$2.00\times10^{-13}$\\
+Barium carbonate			&\ce{BaCO3}&			$2.58\times10^{-9}$&	Manganese(II) iodate		&\ce{Mn(IO3)2}&			$4.37\times10^{-7}$\\
+Barium chromate			&\ce{BaCrO4}&			$1.17\times10^{-10}$&	Manganese(II) sulfide (green)	&\ce{MnS}&				$3.00\times10^{-14}$\\
+Barium fluoride				&\ce{BaF2}&			$1.84\times10^{-7}$&	Manganese(II) sulfide (pink)	&\ce{MnS	}&			$3.00\times10^{-11}$\\
+Barium hydroxide octahydrate	&\ce{Ba(OH)2.8H2O}&		$2.55\times10^{-4}$&	Mercury(I) bromide			&\ce{Hg2Br2}&			$6.40\times10^{-23}$\\
+Barium iodate				&\ce{Ba(IO3)2}&			$4.01\times10^{-9}$&	Mercury(I) carbonate			&\ce{Hg2CO3}&			$3.6\times10^{-17}$\\
+Barium iodate monohydrate	&\ce{Ba(IO3)2.H2O}&		$1.67\times10^{-9}$&	Mercury(I) chloride			&\ce{Hg2Cl2}&			$1.43\times10^{-18}$\\
+Barium molybdate			&\ce{BaMoO4}&			$3.54\times10^{-8}$&	Mercury(I) fluoride			&\ce{Hg2F2}&			$3.10\times10^{-6}$\\
+Barium nitrate				&\ce{Ba(NO3)2}&			$4.64\times10^{-3}$&	Mercury(I) iodide			&\ce{Hg2I2}&			$5.20\times10^{-29}$\\
+Barium selenate			&\ce{BaSeO4}&			$3.40\times10^{-8}$&	Mercury(I) oxalate			&\ce{Hg2C2O4	}&		$1.75\times10^{-13}$\\
+Barium sulfate				&\ce{BaSO4}&			$1.08\times10^{-10}$&	Mercury(I) sulfate			&\ce{Hg2SO4}&			$6.50\times10^{-7}$\\
+Barium sulfite				&\ce{BaSO3}&			$5.00\times10^{-10}$&	Mercury(I) thiocyanate		&\ce{Hg2(SCN)2}&		$3.20\times10^{-20}$\\
+Beryllium hydroxide			&\ce{Be(OH)2}&			$6.92\times10^{-22}$&	Mercury(II) bromide			&\ce{HgBr2}&			$6.20\times10^{-20}$\\
+Cadmium arsenate			&\ce{Cd3(AsO4)2}&		$2.20\times10^{-33}$&	Mercury(II) hydroxide		&\ce{HgO}&				$3.60\times10^{-26}$\\
+Cadmium carbonate			&\ce{CdCO3}&			$1.00\times10^{-12}$&	Mercury(II) iodide			&\ce{HgI2}&				$2.90\times10^{-29}$\\
+Cadmium fluoride			&\ce{CdF2}&			$6.44\times10^{-3}$&	Mercury(II) sulfide (black)		&\ce{HgS}&				$2.00\times10^{-53}$\\
+Cadmium hydroxide			&\ce{Cd(OH)2}&			$7.20\times10^{-15}$&	Mercury(II) sulfide (red)		&\ce{HgS}&				$2.00\times10^{-54}$\\
+Cadmium iodate			&\ce{Cd(IO3)2}&			$2.50\times10^{-8}$&	Neodymium carbonate		&\ce{Nd2(CO3)3}&		$1.08\times10^{-33}$\\
+Cadmium phosphate			&\ce{Cd3(PO4)2}&		$2.53\times10^{-33}$&	Nickel(II) carbonate			&\ce{NiCO3}&			$1.42\times10^{-7}$\\
+Cadmium sulfide			&\ce{CdS}&				$1.00\times10^{-27}$&	Nickel(II) hydroxide			&\ce{Ni(OH)2}&			$5.48\times10^{-16}$\\
+Calcium carbonate (calcite)	&\ce{CaCO3}&			$3.36\times10^{-9}$&	Nickel(II) iodate				&\ce{Ni(IO3)2}&			$4.71\times10^{-5}$\\
+Calcium fluoride			&\ce{CaF2}&			$3.45\times10^{-11}$&	Nickel(II) phosphate			&\ce{Ni3(PO4)2}&		$4.74\times10^{-32}$\\
+Calcium hydroxide			&\ce{Ca(OH)2}&			$5.02\times10^{-6}$&	Nickel(II) sulfide (alpha)		&\ce{NiS}&				$4.00\times10^{-20}$\\
+Calcium iodate				&\ce{Ca(IO3)2}&			$6.47\times10^{-6}$&	Nickel(II) sulfide (beta)		&\ce{NiS}&				$1.30\times10^{-25}$\\
+Calcium molybdate			&\ce{CaMoO}&			$1.46\times10^{-8}$&	Potassium hexachloroplatinate	&\ce{K2PtCl6}&			$7.48\times10^{-6}$\\
+Calcium phosphate			&\ce{Ca3(PO4)2}&		$2.07\times10^{-33}$&	Potassium perchlorate		&\ce{KClO4}&			$1.05\times10^{-2}$\\
+Calcium sulfate				&\ce{CaSO4}&			$4.93\times10^{-5}$&	Potassium periodate			&\ce{KIO4	}&			$3.71\times10^{-4}$\\
+Cobalt(II) arsenate			&\ce{Co3(AsO4)2}&		$6.80\times10^{-29}$&	Praseodymium hydroxide		&\ce{Pr(OH)3}&			$3.39\times10^{-24}$\\
+Cobalt(II) carbonate			&\ce{CoCO3}&			$1.00\times10^{-10}$&	Radium iodate				&\ce{Ra(IO3)2}&			$1.16\times10^{-9}$\\
+Cobalt(II) phosphate			&\ce{Co3(PO4)2}&		$2.05\times10^{-35}$&	Radium sulfate				&\ce{RaSO4}&			$3.66\times10^{-11}$\\
+Copper(I) bromide			&\ce{CuBr	}&			$6.27\times10^{-9}$&	Rubidium perchlorate		&\ce{RuClO4}&			$3.00\times10^{-3}$\\
+Copper(I) chloride			&\ce{CuCl	}&			$1.72\times10^{-7}$&	Scandium fluoride			&\ce{ScF3}&				$5.81\times10^{-24}$\\
+Copper(I) cyanide			&\ce{CuCN}&			$3.47\times10^{-20}$&	Scandium hydroxide			&\ce{Sc(OH)3}&			$2.22\times10^{-31}$\\
+Copper(I) hydroxide			&\ce{Cu2O}&			$2.00\times10^{-15}$&	Silver(I) acetate				&\ce{AgCH3COO}&		$1.94\times10^{-3}$\\
+Copper(I) iodide			&\ce{CuI}&				$1.27\times10^{-12}$&	Silver(I) arsenate			&\ce{Ag3AsO4}&			$1.03\times10^{-22}$\\
+Copper(I) thiocyanate		&\ce{CuSCN}&			$1.77\times10^{-13}$&	Silver(I) bromate			&\ce{AgBrO3}&			$5.38\times10^{-5}$\\
+Copper(II) arsenate			&\ce{Cu3(AsO4)2}&		$7.95\times10^{-36}$&	Silver(I) bromide			&\ce{AgBr}&				$5.35\times10^{-13}$\\
+Copper(II) hydroxide			&\ce{Cu(OH)2}&			$4.80\times10^{-20}$&	Silver(I) carbonate			&\ce{Ag2CO3}&			$8.46\times10^{-12}$\\
+Copper(II) iodate monohydrate	&\ce{Cu(IO3)2.H2O}&		$6.94\times10^{-8}$&	Silver(I) chloride			&\ce{AgCl}&				$1.77\times10^{-10}$\\
+Copper(II) oxalate			&\ce{CuC2O4}&			$4.43\times10^{-10}$&	Silver(I) chromate			&\ce{Ag2CrO4	}&		$1.12\times10^{-12}$\\
+Copper(II) phosphate		&\ce{Cu3(PO4)2}&		$1.40\times10^{-37}$&	Silver(I) cyanide			&\ce{AgCN}&			$5.97\times10^{-17}$\\
+Copper(II) sulfide			&\ce{CuS}&				$8.00\times10^{-37}$&	Silver(I) iodate				&\ce{AgIO3}&			$3.17\times10^{-8}$\\
+Iron(II) carbonate			&\ce{FeCO3}&			$3.13\times10^{-11}$&	Silver(I) iodide				&\ce{AgI}&				$8.52\times10^{-17}$\\
+Iron(II) fluoride				&\ce{FeF2	}&			$2.36\times10^{-6}$&	Silver(I) oxalate				&\ce{Ag2C2O4}&			$5.40\times10^{-12}$\\
+Iron(II) hydroxide			&\ce{Fe(OH)2}&			$4.87\times10^{-17}$&	Silver(I) phosphate			&\ce{Ag3PO4}&			$8.89\times10^{-17}$\\
+Iron(II) sulfide				&\ce{FeS}&				$8.00\times10^{-19}$&	Silver(I) sulfate				&\ce{Ag2SO4}&			$1.20\times10^{-5}$\\
+Iron(III) hydroxide			&\ce{Fe(OH)3}&			$2.79\times10^{-39}$&	Silver(I) sulfide				&\ce{Ag2S}&			$8\times10^{-51}$\\
+Iron(III) phosphate dihydrate	&\ce{FePO4.2H2O}&		$9.91\times10^{-16}$&	Silver(I) sulfite				&\ce{Ag2SO3}&			$1.50\times10^{-14}$\\
+%Lead(II) bromide			&\ce{PbBr2}&			$6.60\times10^{-6}$&	Silver(I) thiocyanate			&\ce{AgSCN}&			$1.03\times10^{-12}$\\
+%Lead(II) carbonate			&\ce{PbCO3}&			$7.40\times10^{-14}$&	Strontium arsenate			&\ce{Sr3(AsO4)2}&		$4.29\times10^{-19}$\\
+%Lead(II) chloride			&\ce{PbCl2}&			$1.70\times10^{-5}$&	Strontium carbonate			&\ce{SrCO3}&			$5.60\times10^{-10}$\\
+%Lead(II) chromate			&\ce{PbCrO4}&			$3\times10^{-13}$&	Strontium fluoride			&\ce{SrF2	}&			$4.33\times10^{-9}$\\
+%Lead(II) fluoride				&\ce{PbF2}&			$3.3\times10^{-8}$&	Strontium iodate			&\ce{Sr(IO3)2}&			$1.14\times10^{-7}$\\
+%Lead(II) hydroxide			&\ce{Pb(OH)2}&			$1.43\times10^{-20}$&	Strontium oxalate			&\ce{SrC2O4}&			$5\times10^{-8}$\\
+%Lead(II) iodate				&\ce{Pb(IO3)2}&			$3.69\times10^{-13}$&	Strontium sulfate			&\ce{SrSO4}&			$3.44\times10^{-7}$\\
+%Lead(II) iodide				&\ce{PbI2}&				$9.8\times10^{-9}$&	Thallium(I) bromate			&\ce{TlBrO3}&			$1.10\times10^{-4}$\\
+%Lead(II) oxalate				&\ce{PbC2O4}&			$8.5\times10^{-9}$&	Thallium(I) bromide			&\ce{TlBr}&				$3.71\times10^{-6}$\\
+%Lead(II) selenate			&\ce{PbSeO4}&			$1.37\times10^{-7}$&	Tin(II) hydroxide			&\ce{Sn(OH)2}&			$5.45\times10^{-27}$\\
+%Lead(II) sulfate				&\ce{PbSO4}&			$2.53\times10^{-8}$&	Zinc arsenate				&\ce{Zn3(AsO4)2}&		$2.8\times10^{-28}$\\
+%Lead(II) sulfide				&\ce{PbS}&				$3\times10^{-28}$&	Zinc carbonate				&\ce{ZnCO3}&			$1.46\times10^{-10}$\\
+%Magnesium carbonate		&\ce{MgCO3}&			$6.82\times10^{-6}$&	Zinc fluoride				&\ce{ZnF}&				$3.04\times10^{-2}$\\
+%Magnesium fluoride			&\ce{MgF2}&			$5.16\times10^{-11}$&	Zinc hydroxide				&\ce{Zn(OH)2}&			$3\times10^{-17}$\\
+%Magnesium hydroxide		&\ce{Mg(OH)2}&			$5.61\times10^{-12}$&	Zinc sulfide (alpha)			&\ce{ZnS}&				$2\times10^{-25}$\\
+  \bottomrule
+\end{tabular}
+
+\end{adjustbox} 
+\end{minipage}
+
+\end{fullwidth}

@@ -1,0 +1,141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{fullwidth}
+\tikzstyle{every picture}+=[remember picture]
+\tikzstyle{na} = [baseline=-.5ex]
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} 
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+
+\begin{tikzpicture}[fill between/on layer={axis grid}, line width=1pt, xscale=1,yscale=1, every node/.style={scale=0.9}]
+
+
+\begin{axis}[
+legend columns=-1,
+ xlabel={\small $\lambda$, nm},
+xticklabel style = {font=\tiny,yshift=0.2ex},
+minor tick style={draw=none},
+xmin=10^-4,
+xmax=10^12	,
+xtick distance=10^2,
+xticklabel pos=top,
+%x unit=\si{\nano\meter},
+xmode=log,
+ymin=0,
+ymax=1,
+major tick length=1.5cm,
+height=3cm,
+yticklabels={},
+ytick=\empty,
+legend cell align=left,
+legend style={at={(0.85,3.77)},anchor=north}
+]
+\addplot[draw=none, name path=start, forget plot] coordinates{(10^-4,0)(10^-4,1)} ;
+\addplot[draw=none, name path=gamma, forget plot] coordinates{(10^-3,0)(10^-3,1)} node[font=\tiny,white, above, sloped, pos = .5] {Gamma Rays};
+\addplot[draw=none, name path=xrays, forget plot] coordinates{(10^-1,0)(10^-1,1)} node[font=\tiny,white, above, sloped, pos = .5] {X-Rays};
+\addplot[draw=none, name path=uv, forget plot] coordinates{(400,0)(400,1)} ;
+\addplot[draw=none, name path=visible, forget plot] coordinates{(700,0)(700,1)};
+\addplot[draw=none, name path=ir, forget plot] coordinates{(10^1,0)(10^1,1)} node[font=\tiny,white, above, sloped, pos = .5] {UV};
+\addplot[draw=none,  forget plot] coordinates{(10^4,0)(10^4,1)} node[font=\tiny,white, above, sloped, pos = .5] {IR} ;
+%node[font=\tiny,black, above, sloped, pos = .5, yshift=6cm, xshift=3em, rotate=-90] {\small $\lambda$, nm};
+\addplot[draw=none,  forget plot] coordinates{(10^7,0)(10^7,1)} node[font=\tiny,white, above, sloped, pos = .5] {Microwaves};
+\addplot[draw=none,  forget plot] coordinates{(10^11,0)(10^11,1)} node[font=\tiny,white, above, sloped, pos = .5] {Radiowaves}  ;
+\addplot[draw=none, name path=radiowave, forget plot] coordinates{(10^12,0)(10^12,1)};
+\addplot[back, area legend] fill between[of=start and radiowave];
+%\addlegendentry{$\nu$-ray}
+%\addplot[black, area legend] fill between[of=gamma and xrays];
+%%\addlegendentry{X-ray}
+%\addplot[black, area legend] fill between[of=xrays and uv];
+%%\addlegendentry{Ultra violet}
+%\addplot[shading=visiblelight, area legend] fill between[of=uv and visible];
+%%\addlegendentry{Visible light}
+%\addplot[black, area legend] fill between[of=visible and ir];
+%%\addlegendentry{Infrared}
+%\addplot[black, area legend] fill between[of=ir and microwave];
+%%\addlegendentry{Micro wave}
+%\addplot[black, area legend] fill between[of=visible and radiowave];
+%\addlegendentry{Radio wave}
+\end{axis}
+
+
+\pgfmathsetmacro{\oxa}{27}
+\pgfmathsetmacro{\oxb}{1}
+\pgfmathsetmacro{\oxc}{10}
+
+\begin{scope}[xshift =10em, yshift =0em, scale=1]
+
+\foreach \x in {0,...,12}
+{
+ \pgfmathsetmacro{\oxaa}{-8+ \oxa / 13 *\x}
+   \pgfmathsetmacro{\oxaaa}{\oxaa +  \oxa / 13 *1}
+  \pgfmathsetmacro{\oxbb}{2+ \oxb / 13 *\x}
+  \pgfmathsetmacro{\oxbbb}{\oxbb +  \oxb / 13 *1}
+\draw [draw=none, thin, black, dotted, shading=shading\x ,  shading angle=225, fill opacity=0.8] 	(\oxbb em,4em) --   (\oxbb em,0em) --  	      (\oxaa em,-5em)  -- (\oxaa em,-10 em)  --    (\oxaaa em,-10em) -- (\oxaaa em,-5 em) --   (\oxbbb em,0em)  --          (\oxbbb em,4em) -- cycle ;
+}
+\draw[thin] (-8 em,-5em) rectangle  (19 em,-10em);
+\draw[thin]  (-8 em,-10em) --++ (0 em,-0.5em) node[yshift=-0.5em] {\small 400};
+\draw[thin]  (1 em,-10em) --++ (0 em,-0.5em) node[yshift=-0.5em] {\small 500} node [yshift=-0.5em,xshift=4em]  {$\lambda$, nm} node [rotate=90, yshift=-1.5em,xshift=12.5em]  {\tiny\color{white}Visible spectrum};
+\draw[thin]  (10 em,-10em) --++ (0 em,-0.5em) node[yshift=-0.5em] {\small 600};
+\draw[thin]  (19 em,-10em)  --++ (0 em,-0.5em) node[yshift=-0.5em] {\small 700};
+
+ \end{scope}
+
+\begin{scope}[xshift =30em, yshift =-5em, scale=1]
+\begin{axis}[hide axis,red,width=12cm,height=3.5cm,thick] 
+\pgftransformrotate{180}
+\addplot[white, domain=20:200,samples=800,thick, point meta=x*x]{sin(pow(x,2)/10)};
+\end{axis}
+ \end{scope}
+ 
+\begin{scope} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (19em,3em);
+\coordinate (magnifying glass) at (19em,7em);
+\node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Flickr}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend right=45] (a.west) -- (a.east)  to [bend left=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-10]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny Heat lamp};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (23em,2em);
+\coordinate (magnifying glass) at (25em,8em);
+\node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Flickr}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend right=45] (a.west) -- (a.east)  to [bend left=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-14]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny cell phone};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (0em,3em);
+\coordinate (magnifying glass) at (0em,8em);
+\node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-13]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny nuclear plant};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (6em,3em);
+\coordinate (magnifying glass) at (6em,7.5em);
+\node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Wikipedia}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.west) -- (a.east)  to [bend right=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-12]  (c) at (magnifying glass) {} node[yshift=0.5em] at (c.north) {\tiny X rays};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (20em,1em);
+\coordinate (magnifying glass) at (29em,-2em);
+\node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} cartalk.com}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend right=45] (a.south) -- (a.north)  to [bend left=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-16]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {\tiny radars};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coordinate (spy point) at (10em,1em);
+\coordinate (magnifying glass) at (1em,-2em);
+\node [draw=none, shape=circle, inner sep=1.5em, postaction={decorate,decoration={raise=-0.6em, text along path,text align=right,text={|\tiny\color{black}|{\textsuperscript{\textcopyright}} Flikr}}}]  (a) at (magnifying glass) {};
+\draw[draw=none, fill=gray, fill opacity=0.2] (spy point) to [bend left=45] (a.north) -- (a.south)  to [bend right=45]  (spy point) -- cycle;
+\node  [thin, draw=black, shape=circle, inner sep=1.5em, fill overzoom image=../{\chapterlabel}/figure1-15]  (c) at (magnifying glass) {} node[yshift=-0.5em] at (c.south) {\tiny tanning lights};
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\node[xshift=25em, yshift=-10em, text width=14cm, fontscale=0.1] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Spectrum of the electromagnetic radiation, from gamma rays (shortest wavelength) to radio waves (highest wavelength). The visible part of the spectrum ranges from 400 nm (violet) to 700 nm(red).   };
+      \end{scope}
+   
+\end{tikzpicture}
+%\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}\end{minipage}
+
+\end{fullwidth}

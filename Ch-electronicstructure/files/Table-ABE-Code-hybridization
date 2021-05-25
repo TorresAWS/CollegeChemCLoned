@@ -1,0 +1,31 @@
+\begin{fullwidth}
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Tab:{\chapterlabel}\thefigurenewcounter}\begin{minipage}[b]{1.0\linewidth}\resizebox{.8\textwidth}{!}{
+\fontfamily{ppl}\selectfont
+\begin{tabular}{lccp{3cm}lc}
+\rowcolor{black!45}
+\toprule
+\multicolumn{5}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{Tab:{\chapterlabel}\thefigurenewcounter} Equivalency between the ABE code and the orbital hybridization} \\
+\midrule
+ABE Code & Electron Regions & Hybrid & Shape&Bond Angle  \\
+\midrule
+\ce{AB2}, \ce{ABE} &  2     &  sp &\begin{minipage}{.1\textwidth}\begin{tikzpicture}
+\satom[name=A, color=green!50!black]{red/180/180/0/1 ,red/0/0/0/1}
+\end{tikzpicture}\end{minipage}   &   $180^{\circ}$  \\
+\ce{AB3}, \ce{AB2E},\ce{ABE3} &  3    &  sp$^2$ &\begin{minipage}{.1\textwidth}  \begin{tikzpicture}
+\satom[name=A, color=green!50!black]{red/180/180/0/1 ,red/25/25/0/0.8,red/-30/-30/0/0.9 }
+\end{tikzpicture}
+\end{minipage}   &   $120^{\circ}$  \\
+\ce{AB4}, \ce{AB3E},\ce{AB2E2},\ce{ABE3}  &  4    &  sp$^3$ &\begin{minipage}{.1\textwidth}  
+\begin{tikzpicture}
+\satom[name=A, color=green!50!black]{red/90/90/0/1 ,red/-19/-19/0/.9, red/255/255/0/1, red/199/199/0/0.9}
+\end{tikzpicture}
+\end{minipage}   &   $109.5^{\circ}$  \\
+\ce{AB5}, \ce{AB4E},\ce{AB3E2},\ce{AB2E3}  &  5    &  sp$^3d$ &\begin{minipage}{.1\textwidth}  
+\begin{tikzpicture}
+\satom[name=A, color=green!50!black]{red/90/90/0/1,red/180/180/0/1 ,red/25/25/0/0.8,red/-30/-30/0/0.9,red/270/270/0/1 }
+\end{tikzpicture}
+\end{minipage}   &   $90^{\circ}$ and $120^{\circ}$  \\
+\bottomrule
+\end{tabular}
+}\end{minipage}
+\end{fullwidth}

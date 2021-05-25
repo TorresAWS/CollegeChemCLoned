@@ -1,0 +1,11 @@
+Let us compare two different molecules: \ce{H2} and \ce{HCl}. We say \ce{H2} is a non-polar molecule. The reason for this is that each atom in the covalent H-H bond equally share the electrons. Differently, \ce{HCl} is a polar molecule, as \ce{H} is an electropositive atom and \ce{Cl} is electronegative. That implies that in the H-Cl covalent bond each atoms shares the electrons in the bond differently. H will be less prone to attract the electrons and Cl would tend to attract the bond electrons more than H. The result would be that the electrons in the bond would belong more to Cl than to H. Another consequence is that the molecule would have a permanent dipole--a permanent charge distribution--result of a uneven charge distribution in the chemical bond. We represent excess of charge as on Cl as \chemfig{Cl\pol{-}}\hspace{.05in} and electron deficiency in H as  \chemfig{H\pol{+}}. 
+The polarity of the bond is represented as:
+\begin{center}
+\chemfig{
+        \chemabove[3pt]{H}{\scriptstyle +}(-[::270,0.5,,,draw=none]@{a})-
+        \chemabove[3pt]{Cl}{\scriptstyle - }(-[::270,0.5,,,draw=none]@{b})
+        }
+\chemmove{
+          \draw[|->, very thick] (a)--(b);
+         }
+\end{center}

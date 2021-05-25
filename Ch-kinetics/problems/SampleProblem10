@@ -1,0 +1,72 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Using the following data, calculate the order and rate constant and write down the rate law.
+\begin{center}\begin{tabular}[t]{   c|  c cccc  }
+\toprule
+%  $t$ ( s)	&$[A]$, (M) \\
+%\midrule
+%1&	0.44\\
+%2&	0.38\\
+%3&	0.32\\
+%4&	0.26\\
+%5&	0.20\\
+  $t$ ( s)	&  1&2&3&4&5 \\
+  \midrule
+  $[A]$, (M)&0.44 &0.38&0.32 &0.26 &0.20\\
+\bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will apply the integral method and will process the data calculating the logarithm of the molarity and the inverse of molarity. It is recommended to use three digits in order for the regression to be consistent:
+\begin{center}\begin{tabular}[t]{   c  c cc  }
+\toprule
+  $t$ (s)	&$[A]$, (M) &$Ln([A])$&$\frac{1}{[A]}$, (M$^{-1}$)\\
+\midrule
+1      & 0.440&   -0.821 &2.273\\
+2      & 0.380 &  -0.967 & 2.631\\
+3       &0.320 &  -1.139 & 3.125\\
+4       &0.260&   -1.347  &3.846\\
+5       &0.200 &  -1.609 & 5.000\\
+\bottomrule
+\end{tabular}\end{center}
+Now we will create three different plots and carry linear regressions for each:
+ \pgfplotstableread{    
+t       A               lnA             Ain
+1       0.440   -0.821 2.273
+2       0.380   -0.967  2.631
+3       0.320   -1.139  3.125
+4       0.260   -1.347  3.846
+5       0.200   -1.609  5.000
+}\tableLabel
+\MakeRegression{t}{A}{reg1}{\SlA}{\IntA}{\RsqA}
+\MakeRegression{t}{lnA}{reg2}{\SlB}{\IntB}{\RsqB}
+\MakeRegression{t}{Ain}{reg3}{\SlC}{\IntC}{\RsqC}
+
+\begin{minipage}[b]{1.0\linewidth}\resizebox{1.0\textwidth}{!}{
+ \begin{tikzpicture}
+\begin{groupplot}[height=5cm,width=6.4cm,
+  group style={
+    group size=2 by 2 ,
+  }
+]
+\nextgroupplot[title={$[A]$ vs. $t$}, legend style={at={(1.05,1.4)} }]
+\addplot +[mark=none, color=red, fill=red] table [x=t, y=reg1] {\tableLabel};
+\addplot +[only marks, color=red, fill=red] table [x=t, y=A]  {\tableLabel};   
+\addlegendentry{\LegendEntryB{\SlA}{\IntA}{\RsqA}}
+%\addlegendentry{Set A}
+\nextgroupplot[title={$Ln([A])$ vs. $t$}, legend style={at={(0.99,1.4)} }]
+\addplot +[mark=none, color=blue, fill=blue] table [x=t, y=reg2] {\tableLabel};
+\addplot +[only marks, color=blue, fill=blue] table [x=t, y=lnA]  {\tableLabel};   
+\addlegendentry{\LegendEntryB{\SlB}{\IntB}{\RsqB}}
+%%\addlegendentry{Set B}
+\nextgroupplot[title={$\frac{1}{[A]}$ vs. $t$}, legend style={at={(1.05,-0.15)} }]
+\addplot +[mark=none, color=green, fill=green] table [x=t, y=reg3] {\tableLabel};
+\addplot +[only marks, color=green, fill=green] table [x=t, y=Ain]  {\tableLabel};   
+\addlegendentry{\LegendEntryB{\SlC}{\IntC}{\RsqC}}
+\end{groupplot}
+%\node[anchor=north]  at (5,0) {molality, m};
+%\node[anchor=north, rotate=90]  at (-1,2) {T, $^{\circ}$C};
+\end{tikzpicture} 
+}\end{minipage}
+We have the the reaction can be order zero or order one, as for both cases $r^2$ is larger or equal to 0.99. However, the fir for zeroth-order is better, so we will choose that possibility. For an oder zero plot, the absolute value of the slope gives the rate constant. The final rate law would be: $r=6\times 10^{-2}$.
+\\
+\import{./}{StudyCheck10} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

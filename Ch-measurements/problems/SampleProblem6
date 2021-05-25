@@ -1,0 +1,9 @@
+\begin{example} % EXAMPLE BOX
+Convert 30 $m^3$ into L.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to convert $m^3$ into L we just need to remember that the L actually refers to $dm^3$, therefore is connected to meter. We will first convert $m^3$ into $dm^3$ and then $dm^3$ into L.
+ \begin{equation*}
+30\cancel{m^3} \times \dfrac{1 \cancel{dm^3}}{1\times10^{-3}\cancel{m^3}}   \times  \dfrac{1L}{1\cancel{dm^3}} =3\times 10^{4}L
+\end{equation*}
+\import{./}{StudyCheck6}
+\end{example}% EXAMPLE BOX ALTERNATIVE

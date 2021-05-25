@@ -1,0 +1,2191 @@
+\documentclass[main.tex]{subfiles}
+\newcommand\chapterlabel{entropy}
+\setcounter{figurenewcounter}{0}
+
+
+\begin{document}
+\linenumbers
+%\setcounter{chapter}{5}
+  
+\chapter[Entropy and free energy]{Entropy and free energy}
+%\label{ch:atoms}
+
+
+      \begin{marginfigure}
+      \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4cm]{../Ch-thermo/figure1}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} PxFuel} ;
+\end{tikzpicture}
+\end{marginfigure}
+
+
+\lettrine[lines=4]{\color{black!45}I}{t} is common sense that some natural phenomena happen spontaneously in nature and for example, one would expect a ball on a hill to roll down instead of up. How does common sense apply in chemistry? Why some reactions happen naturally whereas others do not. For example, carbon dioxide and water are spontaneously produced from methane (\ce{CH4}) and oxygen. Differently, mixing water and carbon dioxide does not produce spontaneously \ce{CH4}. This chapter covers three thermodynamic properties:  enthalpy, entropy, and Gibbs free energy. These properties predict whether a reaction spontaneously happens without any help. At the end of the chapter, we will address how thermodynamic properties are related to equilibrium. 
+\begin{marginfigure}%LEARNING GOALS BOX
+\begin{mytcbox}{GOALS}
+\begin{enumerate}[label=\protect\circled{\color{white}\arabic*}]
+\item Calculate and predict $\Delta \text{S}^{\circ}$
+\item Calculate and predict $\Delta \text{G}^{\circ}$
+\item Predict the spontaneity of a chemical reaction
+\item Use $\Delta \text{S}^{\circ}$ to predict boiling temperatures
+\item Calculate and predict $\Delta \text{G}$
+\end{enumerate}
+\end{mytcbox}
+\vspace{1cm}
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop heavy lifted shadow]
+\faGears\ 
+\docenvdef{Discussion:} \discussionTHERMODYN \end{tcolorbox}
+\end{marginfigure}%LEARNING GOALS BOX
+
+\section{Spontaneity and entropy}
+This section will address the meaning of spontaneity in the chemistry field and will proceed by introducing entropy. Entropy, expressed as $S$ has a macroscopic and microscopic description, and in general terms, refer to the spreading of energy of a system. Think about a glass full of hot water. After a while, water is going to spontaneously cool down, as the energy spreads between the glass and its environment. Energy has the tendency to naturally spread and this spreading is represented by entropy. We will learn ow to calculate changes of entropy in chemical reaction but also how to predict simple the sign of the entropy change, as entropy of chemicals and compounds follow certain trends.
+\sloppy
+
+\begin{description}
+\item[\docfilehook{Thermodynamics and kinetics}{ }] Chemical kinetics is a discipline that deals with the speed of chemical reactions by using activation energies, concentrations and temperatures. It deals with the different pathways of reaction. However, chemical kinetics does no inform about the reasons why a chemical reactions happens. Thermodynamics informs about the direction in which a chemical reaction occurs and the reasons for this reaction to happen, without informing about the speed at which the process occurs. Overall, kinetics and thermodynamics are complementary disciplines in chemistry.
+
+\item[\docfilehook{Spontaneity}{ }] A spontaneous process happens naturally, without any help, under a certain set of conditions. For example, ice spontaneously melts at room temperature, without any help. Differently, ice do not melt at -5$^{\circ}$C, as the process in these conditions is not spontaneous. Other spontaneous processes are: the rusting of iron at room temperature, or the freezing of water below 0$^{\circ}$C.
+\item[\docfilehook{Entropy, $S$: a qualitative description}{ }]
+Entropy, qualitatively, is a measure of how spread out in space--or at different levels--the energy of a system, or simply the system is. For example, in the example of a glass full of hot water, the energy is concentrated in the glass as the water molecules initially have high thermal energy. With time, the system evolves naturally so that the heat spreads in the room. The initial state (glass with hot water) has lower entropy than the final state (glass with water thermalized with the environment). Another example if a concentrated solution in contact by means of a membrane with a more diluted system. Initially, the entropy of the system is concentrated as one side of the container has a high density of molecules and the other has low density. As the molecules diffuse and the concentration equalizes, the energy of the system spread. In this case, the entropy of the initial state (a concentrated and a diluted solution) is lower than the entropy of the final system (two solutions of equal concentration). 
+\item[\docfilehook{Entropy,$S$: a quantitative description}{ }]
+A mathematical or molecular level description of entropy was suggested by Ludwig Boltzmann. Entropy depends on the number of energetically equivalent microstates, that is, the number of different ways in which a system existing in a given state can be arranged:
+\begin{equation}
+\boxed{  S=k_B ln(X^N)	}\label{\chapterlabel:equation1}
+\end{equation}
+where:
+\begin{where}
+ \item $S$   is the entropy of a system
+ \item $k_B$   is the Botzmann constant ($1.38\times 10^{23}$ J/K)
+ \item $N$  is the number of particles in the system
+  \item $X$  is the number of possible arrangements
+\end{where}
+Hence the molecular-level description of entropy is closely related to probability. In particular, the larger the number of microstates--the more ways a particular state can be achieved--the most probable the configuration--the greater is the likelihood of finding that state. Let us analyze an example in which we have a box with two particles and two compartments. In each compartments, the particles can occupy  four different locations, with two locations on the top part of the compartment and two locations on the bottom part. We will analyze the number of equivalent microstates when the box is closed and the particles cannot jump into the other compartment. 
+\begin{center}
+ \tikz[remember picture, overlay]\draw[ thick ] (1.4,1) --+ (0,-1.5);\fbox{%
+    \begin{tabular}{cccc}
+         $\bullet$  & $\bullet$ &$\circ$&$\circ$ \\
+        $\circ$ & $\circ$& $\circ$ &$\circ$\\
+      \end{tabular}}
+        \tikz[remember picture, overlay]\draw[ thick ] (1.4,1) --+ (0,-1.5);\fbox{%
+    \begin{tabular}{cccc}
+            $\circ$ & $\circ$& $\circ$ &$\circ$\\
+         $\bullet$  & $\bullet$ &$\circ$&$\circ$ \\
+      \end{tabular}}
+        \tikz[remember picture, overlay]\draw[ thick ] (1.4,1) --+ (0,-1.5);\fbox{%
+    \begin{tabular}{cccc}
+         $\bullet$  & $\circ$ &$\circ$&$\circ$ \\
+        $\bullet$ & $\circ$& $\circ$ &$\circ$\\
+      \end{tabular}}\vspace{1cm}
+             \tikz[remember picture, overlay]\draw[ thick ] (1.4,1) --+ (0,-1.5);\fbox{%
+    \begin{tabular}{cccc}
+         $\circ$   &$\bullet$  &$\circ$&$\circ$ \\
+        $\circ$ & $\bullet$& $\circ$ &$\circ$\\
+      \end{tabular}} 
+                   \tikz[remember picture, overlay]\draw[ thick ] (1.4,1) --+ (0,-1.5);\fbox{%
+    \begin{tabular}{cccc}
+         $\bullet$    &$\circ$  &$\circ$&$\circ$ \\
+        $\circ$ & $\bullet$& $\circ$ &$\circ$\\
+      \end{tabular}} 
+                         \tikz[remember picture, overlay]\draw[ thick ] (1.4,1) --+ (0,-1.5);\fbox{%
+    \begin{tabular}{cccc}
+            $\circ$ & $\bullet$& $\circ$ &$\circ$\\
+
+         $\bullet$    &$\circ$  &$\circ$&$\circ$ \\
+      \end{tabular}} \end{center}
+
+      The number of different microstates represented above is $X$=6. If we open the separation between the two compartment, the number of microstates increases considerably. In particular we have a set of six microstates in which both particles populate the left compartiment and a set of six microsctates in which both particles populate the right compartment. We would also have a set of 16 microstates in which each particle populates a different compartment. As such the situation in which each particle populates a different compartment has larger entropy and hence is the most probable scenario or configuration. 
+      The type of probability related to number of configurations in space is called \emph{positional probability} and compute the number of microstates in order to estimate positional probability is not practical for large systems as we can encounter numerous configuration. Similarly, the number of microstates increases exponentially with the number of particles to the point that, for large systems, is not practical to compute entropy using Equation \ref{\chapterlabel:equation1}. Positional probability can be used to understand phenomena such as the change of state of the dissolution of solids in liquids. When a solid becomes liquid the number of possible microstates increases and hence entropy increases as well. Similarly, when dissolving a solute into a liquid, the number of microstates and entropy increases.
+      
+\item[\docfilehook{Standard entropy, $\text{S}^{\circ}$}{ }]
+The standard entropy of a substance is the absolute value of its entropy at 1 atm. Entropies are absolute properties in contrast to other thermodynamic parameters such as enthalpy. The standard entropy values are tabulated at the end of the chapter at 25 $^{\circ}$C, where temperature is not part of the standard definition. The units of entropy are J/molK and they tend to be very small values--as the unit joule is in general a small unit of energy. Entropies can be positive or negative values.
+\item[\docfilehook{Factors affecting $S$}{ }]
+The entropy is affected by the following:
+\\ \faCodeFork\ \begin{bf}The state of matter:\end{bf} The standard entropy of gases is larger than the standard entropy of liquids as gases present large degree of freedom (possible configurations) than liquids. The standard entropy of liquids is larger than the standard entropy of solids as liquids present large degree of freedom than solids. Overall, we can assume that liquids and solid has almost null entropy whereas gases have very large entropy.
+ \\ \faCodeFork\ \begin{bf}Molar mass:\end{bf} For monoatomic substances (e.g. Ne, Ar, etc.) the larger the atomic weight the larger entropy
+ \\ \faCodeFork\ \begin{bf}Molecular complexity:\end{bf} For substances with comparable molar mass (\ce{O3} and \ce{F2}), the more complex the molecule the larger entropy.
+  \\ \faCodeFork\ \begin{bf}Temperature:\end{bf} Temperature increases entropy as the system have more accessible microstates. The plot below represents the entropy change with temperature for a substance.
+  
+      \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+     \begin{tikzpicture}
+  \begin{axis}[
+            axis lines=middle,
+             enlargelimits=0.1,
+            xmin=0,
+            xmax=1.0,
+            ymin=0.01,
+            ymax=0.1,
+            xtick=\empty,
+            ytick=\empty,xtick distance=0.05,
+            xlabel=$\text{Temperature, K}$,
+            ylabel=$S\text{, J/K}\cdot\text{ mol}$,
+            x label style={at={(axis description cs:0.5,-0.0)},anchor=north},
+    y label style={at={(axis description cs:0.07,.4)},rotate=90,anchor=south},
+             domain=\pgfkeysvalueof{/pgfplots/xmin}:(\pgfkeysvalueof{/pgfplots/xmax},
+            tangent/.style={add node at x={#1}{},},
+        ]
+     	              
+     
+	 \draw[red, thick] (0em,0em)  to[bend left=5]   (4em,1em)   --  (4em,4em)    to[bend left=5] (12em,6em)   --  (12em,11em) to[bend left=5]   (24em,14em);
+	  \node[shift={(8.5em,5.5em+0.7em)}] (0,0) {Liquid} node[shift={(15em,9em)}] (0,0) {$\Delta S_{vap}$}  node[shift={(2em,-0em)}] (0,0) {Solid} node[shift={(6em,3em)}] (0,0) {$\Delta S_{fus}$}  node[shift={(17em,12em)}] (0,0) {Gas};
+	  
+	%  node[shift={(5.5em,5em+0.7em)}] (0,0) {\tiny $\Delta c$} node[shift={(8.5em,2.0em+0.9em)}] (0,0) {\tiny $\Delta t$} node[green!75!black, shift={(23em,12em)}] (0,0) {\small Product} node[blue!75!black, shift={(23em,2em)}] (0,0) {\small Reactants} ; 
+
+
+
+        \end{axis}
+     \begin{scope}[xshift =0em, yshift =0em]
+\node[text width=12cm, fontscale=0.1, shift={(15em,-4em)}] at (-0em,-0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Entropy as function of temperature indicating the entropy changes for the fusion and vaporization processes.  };
+   \end{scope} 
+\end{tikzpicture}\end{center}
+
+
+
+  
+  
+     \faCodeFork\ \begin{bf}Number of particles:\end{bf} The larger the number of particles of a system, the larger entropy, as the more particles the more microstates or possible configurations.
+    \\ \faCodeFork\ \begin{bf}Volume:\end{bf} The larger the volume of a system, the larger entropy, as the larger volume the more microstates or possible configurations. In particular, the entropy change associated to the expansion of an ideal is given by the following equation:
+    \begin{equation}
+\boxed{  \Delta S=nR \ln	\Big(\frac{V_f}{V_i}\Big)	}\label{\chapterlabel:equation2}
+\end{equation}
+where:
+\begin{where}
+ \item $\Delta S$   is the entropy change
+ \item $n$   is the number of moles of gas
+ \item $R$  is the constant of the gases in energy units (8.314J/molK)
+   \item $V_f$  is the final volume
+      \item $V_i$  is the initial volume
+
+\end{where}
+    
+ \begin{center}
+\refstepcounter{table} \label{tab:{\chapterlabel}1}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{8}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}1} Standard entropy S$^{\circ}$ at 25 $^{\circ}$C in  J/(mol$\cdot$ K)} \\
+\midrule
+ \rowcolor{gray!10} Substance &     S$^{\circ}$ &	Substance &     S$^{\circ}$ &	Substance &     S$^{\circ}$ &	Substance &     S$^{\circ}$ \\
+\midrule
+\ce{ Br_{2}_{(l)}} 		& 152	&	\ce{Br_{2}_{(g)}}  		& 245 	 &\ce{ CH3OH_{(l)}}	 	& 127	 &	 \ce{ CH3OH_{(g)}}	 	& 240	\\
+\ce{ CS2_{(l)}}  		& 151		 	  	  &	 \ce{ CS2 _{(g)}}	 		& 238&\ce{ H2O_{(l)}}  		& 70		 	  	  &	 \ce{ H2O _{(g)}}	 		& 189	 	\\
+\ce{ H2O2_{(l)}}  		& 233		 	  	  &	 \ce{ H2O2 _{(g)}}	 		& 189	&\ce{ Rb_{(s)}}  		& 70		 	  	  &	 \ce{ Rb_{(g)}}	 		& 170 	\\
+\ce{ Cs_{(s)}}  		& 83		 	  	  &	 \ce{ Cs_{(g)}}	 		& 176	&\ce{ He_{(g)}}  		& 126		 	  	  &	 \ce{ Ne_{(g)}}	 		& 146 	\\
+\ce{ Ar_{(g)}}  		& 155		 	  	  &	 \ce{ Kr_{(g)}}	 		& 164	&\ce{ O3_{(g)}}  		& 238		 	  	  &	 \ce{ F2_{(g)}}	 		& 203 	\\
+ \bottomrule
+\end{tabular}\end{center}
+\end{description}
+ 
+ \section{Entropy change of reactions}
+This section covers the calculation and estimation of the entropy change of a reaction. Entropies are well as enthalpies are tabulated and one can compute the entropy change of a reaction by using the tabulated molar entropies. On the other hand it is very convenient to be able to estimate the just the sign of the entropy change of a reaction. Here we will provide a set of general rules to do this.
+\sloppy
+
+\begin{description}
+ 
+ 
+ 
+\item[\docfilehook{Standard entropy of reaction, $\Delta \text{S}_R^{\circ}$}{ }]
+We can calculate the standard entropy of a reaction in a similar way as we calculate the standard enthalpy of a reaction:
+\begin{equation}\begin{split}
+\boxed{  \Delta S^{\circ}_R=\Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}  } \quad \textcolor{blue}{\text{Entropy change}}\label{\chapterlabel:equation3}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S^{\circ}_R$   is the standard entropy change of the reaction
+  \item $\Delta S^{\circ}_{products}$   is the standard entropy  of all products
+\item $\Delta S^{\circ}_{reactants} $ is the standard entropy  of all reactants
+ \end{where}
+ It is important to take into account the stoichiometric coefficients. For example, for the reaction:
+ \begin{center}\ce{2CH3OH_{(g)} + 3O2_{(g)} -> 2CO2_{(g)} + 4H2O_{(l)}  } \end{center}  
+We have the entropy values of: 
+$S^{\circ}(\ce{CH3OH_{(g)}})$=239.7 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{O2_{(g)}})$=161.1 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{CO2_{(g)}})$=213.79  J/K$\cdot \text{ }$mol, and $S^{\circ}(\ce{H2O_{(l)}})$=69.95  J/K$\cdot \text{ }$mol. We can calculate $\Delta S^{\circ}_R$:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}=\\ \Big(S^{\circ}(2\cdot \ce{CO2_{(g)}})   + 4\cdot S^{\circ}(\ce{H2O_{(l)}}) \Big)-\Big(2\cdot S^{\circ}(\ce{CH3OH_{(g)}})+ 3\cdot S^{\circ}(\ce{O2_{(g)}}) \Big)      \\
+  =     \Big(2\cdot 213.79  + 4\cdot 69.95\Big)-\Big(2\cdot 239.7 + 3\cdot 161.1 \Big)= -255.32 J/K
+\end{split}\end{equation*}
+
+\item[\docfilehook{Interpreting $\Delta \text{S}_R^{\circ}$}{ }]
+If the entropy change of a reaction is positive we will say that the reaction produces entropy. Similarly, if the entropy change of a reaction is negative we will say that the reaction consumes entropy. An analog trend can be found for the change of enthalpy--remember the enthalpy of the heat measured at constant pressure conditions--so if the enthalpy change of a reaction is positive we say the reaction is exothermic and consumes heat, whereas a negative enthalpy change for a reaction means the reaction produces heat.
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the entropy change of the following reaction and give an interpretation based on the sign of the change:
+ \begin{equation*} \ce{C_{(s)} + H2O_{(g)} ->  CO_{(g)} + H2_{(g)} } \end{equation*}
+Given: $S^{\circ}(\ce{C_{(s)}})$=5.69 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{H2O_{(g)}})$=188.7 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{CO_{(g)}})$=197.9 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{H2_{(g)}})$=131 J/K$\cdot \text{ }$mol.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Using the formula for $\Delta S^{\circ}_R$ we have:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}=\\ \Big(S^{\circ}(\ce{CO_{(g)}})   + S^{\circ}(\ce{H2_{(g)}}) \Big)-\Big(S^{\circ}(\ce{C_{(s)}})+ S^{\circ}(\ce{H2O_{(g)}}) \Big)      \\
+  =     \Big(197.9   + 131\Big)-\Big(5.69 + 188.7 \Big)= 134.51J/K
+\end{split}\end{equation*}
+This produces entropy.\\
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the entropy change of the following reaction and give an interpretation based on the sign of the change:
+ \begin{equation*} \ce{C2H4_{(g)}  + H2_{(g)}  -> C2H6_{(g)} 	 } \end{equation*}
+Given: $S^{\circ}(\ce{C2H4_{(g)}})$= 219.5 J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{C2H6_{(g)}})$= 229.5J/K$\cdot \text{ }$mol, $S^{\circ}(\ce{H2_{(g)}})$=131 J/K$\cdot \text{ }$mol.
+ \\
+ \flushright  {\small Answer: -121J/K, consumes entropy }
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\item[\docfilehook{Estimate the sign for $\Delta \text{S}_R^{\circ}$}{ }]
+Often times were are more interested in predicting the sign of the entropy change of a reaction than to compute the exact value. This is because the sign can be used in order to estimate wether a reaction proceeds spontaneously. Two basic rules are used in order to estimate the entry change sign:
+\\ \faCodeFork\ \begin{bf}The state of matter:\end{bf} solids and liquids have very low entropy in comparison to gases. For example, in the case below, we have the the production of liquid water from ice produces entropy as liquids have more entropy than solids:
+ \begin{center} \ce{H2O_{(s)}  -> H2O_{(l)} 	 } \hfill $\Delta \text{S}_R^{\circ}>0$\end{center}
+On the other hand, the condensation of water vapor to produce a liquid consumes entropy, as liquids have less entropy than gases:
+ \begin{center} \ce{H2O_{(g)}  -> H2O_{(l)} 	 } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
+  \faCodeFork\ \begin{bf}The number of molecules:\end{bf} the larger the number of molecules of gas the larger entropy. For example, in the reaction below we have that we produce three molecules from two molecules. Hence, the entropy increases.
+ \begin{center} \ce{2SO3_{(g)}  -> 2SO2_{(g)}  + O2_{(g)}  } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
+However, this rules only works if we only take into account the number of gas molecules. For example, in the reaction below we produce two gas molecules from three gas molecules and hence we lose entropy:
+ \begin{center}\ce{2H2S_{(g)} + SO2_{(g)}  ->3S_{(s)} + 2H2O_{(g)}  } \hfill $\Delta \text{S}_R^{\circ}<0$\end{center}
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Estimate the sign of the entropy change for the following reactions:
+\begin{enumerate}[label=(\alph*)]
+\item \ce{2SO3_{(g)}  -> 2SO2_{(g)}  + O2_{(g)} }
+\item \ce{H2_{(g)}  + 1/2O2_{(g)}  -> H2O_{(l)} 	}
+\item \ce{2CH3OH_{(g)}   + 3O2_{(g)}   -> 2CO2_{(g)}  + 4H2O_{(g)} 	}
+\end{enumerate}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will calculate the change on the number of moles of gases in the reaction $\Delta n$ in order to estimate the sign of the entropy change. This is just the total number of product molecules with respect to the total number of reactant molecules. We have that $\Delta n$ for the first reaction is 1 and hence $\Delta \text{S}_R^{\circ}>0$. For the second reaction we have that  $\Delta n$ is -1.5 and hence $\Delta \text{S}_R^{\circ}<0$. Remember that liquids and solids are not counted towards $\Delta n$ as their entropy is very small. Finally for the last reaction, we have that $\Delta n$ is 1 and hence $\Delta \text{S}_R^{\circ}>0$.
+\\
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Estimate the sign of the entropy change for the following reactions:
+\begin{enumerate}[label=(\alph*)]
+\item \ce{C2H2_{(g)} + 4F2_{(g)} ->  2CF4_{(g)}  + H2_{(g)}}
+\item \ce{2Al_{(s)} +  3Br2_{(l)} -> 2AlBr3_{(s)} 	}
+\end{enumerate}
+ \flushright  {\small Answer: $\Delta \text{S}_R^{\circ}>0$, $\Delta \text{S}_R^{\circ}\simeq 0$ }
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+
+
+
+
+
+\end{description}
+
+
+
+\section{The second and third law of thermodynamics}
+This new section will gain deeper insight into entropy and its role in spontaneity. We will discuss the role of the surroundings and the universe in the change of entropy of a system and we will define the smallest possible entropy value. \sloppy
+
+\begin{description}
+\item[\docfilehook{System, its surroundings and the universe}{ }] Thermodynamics study particular systems such as a hot container with water or a chemical reaction. The system just means the problems we are dealing with. However, every system has its surroundings and the surroundings of a system is everything else but the system. Both the system and its surroundings is called the universe. If we study how a system loses heat or a reaction consumes entropy it is convenient to think about where the heat goes of where the entropy lost is coming from.
+\item[\docfilehook{Calculating $\Delta \text{S}_{surr}$ }{ }] 
+Now, let us leave the any system we are interested and focus on the surroundings. If a system loses heat, the heat being lost has to go to the surroundings of the system. So if a reaction is exothermic, hence the surroundings will experience an increase in enthalpy. In order to calculate the entropy of the surroundings we need to use the formula:
+\begin{equation}\begin{split}
+\boxed{  \Delta S_{surr}=-\frac{\Delta H_{sys}}{T}   }
+\label{\chapterlabel:equation4}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S_{surr}$   is the entropy change on the surroundings
+ \item $\Delta H_{sys}$   is the enthalpy change on the system
+ \item $T$   is the absolute temperature 
+ \end{where}
+
+\item[\docfilehook{Calculating $\Delta \text{S}_{univ}$ }{ }] 
+Now that we have included the surroundings in our analysis we can combine both the system and its surroundings in order to track the overall change in entropy in the universe:
+\begin{equation}\begin{split}
+\boxed{  \Delta S_{univ}=\Delta S_{sys}+ \Delta S_{surr}=\Delta S_{sys} -\frac{\Delta H_{sys}}{T}    }
+\label{\chapterlabel:equation5}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S_{univ}$   is the entropy change on the universe
+ \item $\Delta S_{sys}$   is the entropy change on the system
+  \item $\Delta H_{sys}$   is the enthalpy change on the system
+ \item $T$   is the absolute temperature 
+ \end{where}
+Overall the second law of thermodynamics states that spontaneous process increase the entropy of the universe. At the same time when the overall change of entropy of the universe is null the system will be in equilibrium. We will leave the explanation of the second law of thermodynamics here, involving spontaneity, and we will address more deeply the assessment of spontaneity at the end of this chapter.
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the reaction:
+\begin{center}\ce{2SO3_{(g)}  -> 2SO2_{(g)}  + O2_{(g)} }\end{center}
+we have that $\Delta H_{R}^{\circ}$ is -93kJ/mol and $\Delta S_{R}^{\circ}$ is -199J/mol. Calculate the entropy change on the system, its surroundings and the overall universe at 25 $^{\circ}$C.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the system is just the reaction we observe, hence $\Delta S_{sys}^{\circ}$=-199 J/mol. The entropy change of the surroundings--the environment where the reaction takes place--is:
+\[ \Delta S_{surr}=-\frac{\Delta H_{sys}}{T}   =-\frac{-93}{298}=0.312kJ/mol=312J/mol\]
+If we combine both contributions we have that the entropy change of the universe is:
+\[ \Delta S_{univ}=\Delta S_{sys}+ \Delta S_{surr}= -199+312=113J/mol	\]
+As this value is positive, the reaction will happen spontaneously at that temperature.
+\\
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the reaction:
+\begin{center}\ce{    H2_{(g)}  + 1/2 O2_{(g)} ->  H2O_{(g)}}\end{center}
+we have that $\Delta H_{R}^{\circ}$ is -250kJ/mol and $\Delta S_{R}^{\circ}$ is -58J/mol. Calculate the entropy change on the system, its surroundings and the overall universe at 289K.\\
+
+ \flushright  {\small Answer: $\Delta S_{surr}=838$J/mol, $\Delta S_{univ}=781$J/mol }
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+\item[\docfilehook{The third law of thermodynamics }{ }] 
+The third law of thermodynamics established the lower possible entropy value. We have that from a microscopic or molecular point of view entropy is associated with the number of molecular configurations. Well, at the lowest possible temperature 0K and for a perfect crystal there would be no molecular motion and hence the system would have only one possible configuration that would lead to a null entropy.
+\begin{equation}\begin{split}
+\boxed{  \Delta S_{s}(0K)=0  \quad \textcolor{blue}{\text{3rd law of thermodynamics}}  }
+\label{\chapterlabel:equation6}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta S_{s}$   is the entropy of a perfect crystal at 0K
+ \end{where}
+A perfect crystal represents a crystalline material without any defects. The third law of thermodynamics stablished the minimum entropy value as entropy is an absolute  property. At this pint we have cover the first law of thermodynamics in the first chapters of this class that claims that the internal energy of a system is conserved. The second law claims that the entropy of the universe can only increase. And the last and third law of thermodynamics deals with the scale of entropies.
+ 
+ 
+\end{description}
+
+
+
+\section{Gibbs free-energy}
+We address two thermodynamic functions at this point: enthalpy and entropy. The first is associated with the energy exchange whereas the second is associated with the spreading of energy. If we combine both functions we obtains a new thermodynamic function that this time is associated with spontaneity. We will define first Gibbs free-energy and we will discuss the standard values to then discuss the conditions that makes a process spontaneous in terms of enthalpy and entropy.
+\sloppy
+
+\begin{description}
+\item[\docfilehook{Definition of Gibbs free-energy}{ }] The Gibbs free-energy is just a combination of enthalpy and entropy for a given temperature:
+
+\begin{equation}\begin{split}
+\boxed{  \Delta G  =  \Delta H -T \Delta S \quad \textcolor{blue}{\text{Gibbs free-energy}}  }
+\label{\chapterlabel:equation6}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta G$ is the Gibbs free-energy change   
+ \item $\Delta H$ is the enthalpy change   
+ \item $\Delta S$ is the entropy change 
+  \item $T$ is the temperature  
+ \end{where}
+Gibbs free-energy is a state function, that means that its change only depends on the final and initial state and not the path followed. At the same time, Gibbs free-energy depends on temperature and pressure--we will discuss more about this at the end of the section. More importantly, the change in Gibbs free-energy is associated with the spontaneity of the process.
+\item[\docfilehook{Gibbs free-energy and spontaneity}{ }] The Gibbs free-energy change of a reaction is associated with the spontaneity of the process or with its state of equilibrium. In particular, reactions that produce Gibbs free-energy are nonspontaneous. Differently, reaction consuming free-energy are indeed spontaneous. Finally, reaction without a change in free-energy are in equilibrium.
+\\  \faCodeFork\ \begin{bf}$\Delta G<0$:\end{bf} The reaction is spontaneous
+  \\ \faCodeFork\ \begin{bf}$\Delta G=0$:\end{bf} The reaction is in equilibrium
+    \\ \faCodeFork\ \begin{bf}$\Delta G>0$:\end{bf} The reaction is nonspontaneous
+\item[\docfilehook{Estimating spontaneity based on the sign of H and S}{ }]
+As Gibbs free-energy depends on the enthalpy and entropy. We can estimate the sign of $G$ based on the signs of $H$ and $S$. The table below show the different sign combinations.
+\begin{center}
+\refstepcounter{table} \label{tab:{\chapterlabel}2}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}2} Sign combination of entropy and enthalpy in connection with $G$} \\
+\midrule
+ \rowcolor{gray!10} $\Delta H$ Sign &     $\Delta S$ Sign	&	$\Delta G$ Sign&     Spontaneity  \\
+\midrule
+  $\Huge -$ & $\Huge +$   	&$\Huge -$			&   Always spontaneous  	  \\
+  $\Huge +$ & $\Huge -$   	&$\Huge +$			&    Always nonspontaneous  	  \\
+  $\Huge -$ & $\Huge -$   	&$\Huge -$ for T<$T_c$	and $\Huge +$ for T>$T_c$		&    Conditionally Spontaneous: below $T_c$  	  \\
+  $\Huge +$ & $\Huge +$   	&$\Huge +$ for T<$T_c$	and $\Huge -$ for T>$T_c$		&    Conditionally Spontaneous: above $T_c$ 	  \\
+ \bottomrule
+\end{tabular}\end{center}
+The reasoning behind the different sign combinations is that as Gibbs free-energy is related to minus the entropy, in order to achieve a final negative value of $G$ we need negative enthalpy and positive entropy that would lead to a spontaneous process that consumes free-energy. In another words, exothermic process that produce heat and process that produce entropy are spontaneous. Differently, endothermic process that consume heat and processes that consume entropy are nonspontaneous. For a entropy and enthalpy combination with the same sign, then the spontaneity will depend on temperature. For example, for endothermic processes and processes that produce entropy, we need high temperature that help enthalpy. In the case of a exothermic process that consumes entropy we need low temperatures that help alleviate the entropy. For both case, the critical temperature for spontaneity is give by:
+\begin{equation}\begin{split}
+\boxed{  T_c  = \frac{\Delta H}{\Delta S}  }
+\label{\chapterlabel:equation7}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $T_c$ is the critical temperature for spontaneity in Kelvins  
+ \end{where}
+ Mind that the units of $\Delta H$ tend to be kJ/mol, whereas the units of $\Delta S$ tend to be J/mol. Therefore, we need to remove the kilo prefix in order to calculate $T_c$.
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the reaction:
+\begin{center}\ce{C_{(s)} + H2O_{(g)} -> CO_{(g)} 	+ H2_{(g)}	 }\end{center}
+we have that $\Delta H_{R}^{\circ}$ is 113kJ/mol and $\Delta S_{R}^{\circ}$ is 133J/mol. Indicate wether the reaction will proceed spontaneously. Will it proceed at 200K? Will it proceed at 900K?\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+When the entropy change and the enthalpy change have the same sign, the reaction will be conditionally spontaneous. In this case, we would need to overcome the positive enthalpy change and we can do this at very high temperatures. In particular, temperatures higher than a critical value give by:
+\[T_c  = \frac{\Delta H}{\Delta S} =\frac{113\times 10^3}{133}=850K\]
+The reaction will not proceed at temperatures below 850K as such it will not proceed at 100, but it will work at 900K.\\
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the reaction:
+\begin{center}\ce{C2H4_{(g)} + H2_{(g)} ->	C2H6_{(g)} }\end{center}
+we have that $\Delta H_{R}^{\circ}$ is -135kJ/mol and $\Delta S_{R}^{\circ}$ is -120J/mol. Indicate under which conditions will the reaction will proceed spontaneously.\\ 
+\flushright  {\small Answer: spontaneous below 1125K }
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\item[\docfilehook{Standard Gibbs free-energy}{ }] Gibbs free-energy depends on temperature and pressure, that means that for every pressure and for every temperature we have a free-energy value. Similar to the case of enthalpy, a standard state is define in order to tabulate the free-energy values. The standard states of an element represent its most stable form at 1atm and 298K. In the case of solutions, the standard state corresponds to a 1molar concentration and in the case of gases to a 1 atm pressure.
+ For example, you can find Bromine as a solid, liquid or gas. However, its natural state is liquid. That is the reason why $\Delta G^{\circ}(\ce{Br_2_{(g)}})=3$KJ/mol, whereas $\Delta G^{\circ}(\ce{Br2_{(l)}})=0$KJ/mol. In general, for metals, its natural state is solid. For non-metallic elements, such as hydrogen, oxygen, nitrogen, fluorine, chlorine, its natural state is in the form of a diatomic gas molecule. For example, $\Delta G^{\circ}(\ce{H2_{(g)}})=0$KJ/mol, $\Delta G^{\circ}(\ce{N2_{(g)}})=0$KJ/mol or $\Delta G^{\circ}(\ce{O2_{(g)}})=0$KJ/mol. For the case of carbon, its natural state is graphite, $\Delta G^{\circ}(\ce{C_{graphite}_{(s)}})=0$KJ/mol. Molecules such as \ce{H2O} or \ce{NO} have standard free-energydifferent than zero. Mind that molecules are not elements, and hence are made of different elements.
+\begin{center}
+\refstepcounter{table} \label{tab:{\chapterlabel}3}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}3} Standard states for different elements. For all $\Delta G^{\circ}=0$ KJ/mol} \\
+\midrule
+ \rowcolor{gray!10} Element &     Standard state &	Element &      Standard state\\
+\midrule
+  Hydrogen 		& 	\ce{H2_{(g)}}	 	  	  &	Oxygen 		& 	\ce{O2_{(g)}}	  	\\
+  Nitrogen 		& 	\ce{N2_{(g)}}	 	  	  &	Chlorine 		& 	\ce{Cl2_{(g)}}	  	\\
+    Iron 		& 	\ce{Fe_{(s)}}	 	  	  &	Aluminium 		& 	\ce{Al_{(s)}}	  	\\
+   Carbon 		& 	\ce{C_{graphite}_{(s)}}	 	  	  &	Phosphorus 		& 	\ce{P4_{(s)}}	  	\\
+    Fluorine		& 	\ce{ F2_{(g)}}	 	  	  &	 Bromine		& 	\ce{ Br_{(l )}}	  	\\
+    	Mercury	& 	\ce{ Hg_{(l)}}	 	  	  &	Sulfur 		& 	\ce{ S8_{(s)}}	  	\\
+    	Iodine	& 	\ce{ I2_{(s)}}	 	  	  &Silicon	 		& 	\ce{ Si_{(s)}}	  	\\
+ %   		& 	\ce{ _{ }_{( )}}	 	  	  &	 		& 	\ce{ _{( )}}	  	\\
+ \bottomrule
+\end{tabular}\end{center}
+
+\item[\docfilehook{Standard free-energy of reaction, $\Delta \text{G}_R^{\circ}$}{ }]
+We can calculate the standard free-energy of a reaction in a similar way as we calculate the standard enthalpy or entropy of a reaction:
+\begin{equation}\begin{split}
+\boxed{  \Delta G^{\circ}_R=\Delta G^{\circ}_{products}-\Delta G^{\circ}_{reactants}  } \quad \textcolor{blue}{\text{Free-energy change}}\label{\chapterlabel:equation9}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $\Delta G^{\circ}_R$   is the standard Gibbs free-energy change of the reaction
+  \item $\Delta G^{\circ}_{products}$   is the standard Gibbs free-energy of all products
+\item $\Delta G^{\circ}_{reactants} $ is the standard Gibbs free-energy of all reactants
+ \end{where}
+ There are two possible ways to calculate $\Delta \text{G}_R^{\circ}$. We can compute $\Delta \text{G}_R^{\circ}$ from the enthalpy and entropy change at fixed 298K. Remember the standard thermodynamic parameters are computer at this temperature. Or we can compute $\Delta \text{G}_R^{\circ}$ from the tabulated $\text{G}_R^{\circ}$ values. The next two examples walk you through these two possible scenarios.
+ 
+ 
+ \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
+\begin{center}\ce{C_{(s)} + H2O_{(g)} -> CO_{(g)}  	+ H2_{(g)} }\end{center}
+\begin{center}\begin{tabular}[t]{  c c c   }
+\toprule
+  Compound &$\text{H}_f^{\circ}$	& $\text{S}^{\circ}$  \\
+\midrule
+\ce{C_{(s)}} & 		0		&	5.7\\
+\ce{H2O_{(g)}} & 	-241.8	&	188.7\\
+\ce{CO_{(g)}} & 	-110.5	&	197.6\\
+\ce{H2_{(g)}} &		0		&	130.6\\
+ \bottomrule
+\end{tabular}\end{center}
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+ As we have the standard formation enthalpy values and the standard entropy values, we can compute the entropy and enthalpy of reaction. We have that:
+\begin{equation*}\begin{split}
+  \Delta H^{\circ}_R= \Delta H^{\circ}_{products}-\Delta H^{\circ}_{reactants}= \\ \Big(  \Delta H_f^{\circ}(\ce{CO_{(g)}}) + \Delta H_f^{\circ}(\ce{H2_{(g)}})    \Big)-\Big(  \Delta H_f^{\circ}(\ce{C_{(s)}})+ \Delta H_f^{\circ}(\ce{H2O_{(g)}}) \Big)      \\
+  =     \Big(  -110.5	+0	  \Big)-\Big(   0	+-241.8	 \Big)=  131.3KJ
+\end{split}\end{equation*}
+ We also have:
+\begin{equation*}\begin{split}
+  \Delta S^{\circ}_R= \Delta S^{\circ}_{products}-\Delta S^{\circ}_{reactants}= \\ \Big(  \Delta S^{\circ}(\ce{CO_{(g)}}) + \Delta S^{\circ}(\ce{H2_{(g)}})    \Big)-\Big(  \Delta S^{\circ}(\ce{C_{(s)}})+ \Delta S^{\circ}(\ce{H2O_{(g)}}) \Big)      \\
+  =     \Big(  197.6	+	130.6	  \Big)-\Big(   5.7	+	188.7	 \Big)=  133.8J/K
+\end{split}\end{equation*}
+ We have that the Gibbs free-energy will be:
+ \[	 \Delta G  =  \Delta H -T \Delta S  = 131.3\times 10^3-298\cdot 133.8=91427.6J=	91.4kJ\]
+ As the free-energy is positive the reaction is not spontaneous. The reason for this non-spontaneity is the endothermicity. As such working at high temperatures we can overcome the enthalpy, in particular working at temperatures higher than  981K. \\
+ \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
+\begin{center}\ce{C2H4_{(g)} + H2_{(g)} ->	C2H6_{(g)} }\end{center}
+\begin{center}\begin{tabular}[t]{  c c c   }
+\toprule
+  Compound &$\text{H}_f^{\circ}$	& $\text{S}^{\circ}$  \\
+\midrule
+\ce{C2H4_{(g)}} & 		-52.5	&			219.5\\
+\ce{H2_{(g)}} &			0		&		130.6\\
+\ce{C2H6_{(g)}} &		-84.7		&		229.5\\
+ \bottomrule
+\end{tabular}\end{center}
+\begin{flushright} Answer: 
+	$\Delta H^{\circ}_R=-32kJ$; $\Delta S^{\circ}_R=-120.6J/K$; $\Delta G^{\circ}_R=4kJ$; spontaneous for T<265K
+\end{flushright}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+In the following example we will show how to compute Gibbs free-energy of a reaction by means of standard Gibbs free-energies of the molecules involved in the reaction. 
+
+ \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
+\begin{center}\ce{6CO2_{(g)} + 6H2O_{(l)} -> C6H12O6_{(s)} + 6O2_{(s)}}\end{center}
+\begin{center}\begin{tabular}[t]{  c c     }
+\toprule
+  Compound &$\text{G}_f^{\circ}$	  \\
+\midrule
+\ce{CO2_{(g)}} & 		-394.4		 \\
+\ce{H2O_{(l)}} & 		-237.2		 \\
+\ce{C6H12O6_{(s)}} & 		-910.56		 \\
+
+ \bottomrule
+\end{tabular}\end{center}
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We can compute the Gibbs free-energy of a reaction by means of the free-energies of the molecules involved in the reaction:
+\begin{equation*}\begin{split}
+  \Delta G^{\circ}_R= \Delta G^{\circ}_{products}-\Delta G^{\circ}_{reactants}= \\  \Big(  \Delta G_f^{\circ}(\ce{C6H12O6_{(s)}}) +6\Delta G_f^{\circ}(\ce{O2_{(g)}})        \Big)-\Big(  6\cdot \Delta G_f^{\circ}(\ce{CO2_{(g)}})+ 6\cdot \Delta G_f^{\circ}(\ce{H2O_{(l)}}) \Big)      \\
+  =     \Big(  -910.56	-6\cdot 0 	  \Big)-\Big(  6\cdot  -394.4	+ 6\cdot    -237.2	 \Big)=  2879 KJ
+\end{split}\end{equation*}
+ 
+ As the free-energy is positive the reaction is not spontaneous.  \\
+ \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Use the data below to calculate the Gibbs free-energy of the reaction at 298K:
+\begin{center}\ce{2NO2(g) -> 2NO(g) + O2(g) }\end{center}
+\begin{center}\begin{tabular}[t]{  c c     }
+\toprule
+  Compound &$\text{G}_f^{\circ}$	  \\
+\midrule
+\ce{NO2_{(g)}} & 		51.3		 \\
+\ce{NO_{(g)}} & 		86.6		 \\
+
+ \bottomrule
+\end{tabular}\end{center}
+\begin{flushright} Answer: 
+	$\Delta G^{\circ}_R=71kJ$; nonspontaneous 
+\end{flushright}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\item[\docfilehook{Gibbs free-energy and phase transitions}{ }]
+Gibbs free energy are useful to calculate phase transition temperatures, that is the temperature to melt a solid or vaporize a liquid. As a phase transition is an equilibrium process and as in equilibrium we have that $\Delta G^{\circ}_R=0$ we can estimate the fusion and vaporization temperatures using the formulas below:
+
+
+
+
+\begin{equation}\begin{split}
+\boxed{  T_{fus}=\frac{\Delta H^{\circ}_{fus}}{\Delta S^{\circ}_{fus}} } \quad\text{and}\quad \boxed{  T_{vap}=\frac{\Delta H^{\circ}_{vap}}{\Delta S^{\circ}_{vap}} } 
+ \label{\chapterlabel:equation10}
+\end{split}\end{equation}
+where:
+\begin{where}
+ \item $T_{melt}$  and  $T_{vap}$	are the fusion and vaporization temperature in Kelvins
+  \item $\Delta H^{\circ}_{fus}$   and $\Delta S^{\circ}_{fus}$ is the enthalpy and entropy of fusion
+  \item $\Delta H^{\circ}_{vap}$   and $\Delta S^{\circ}_{vap}$ is the enthalpy and entropy of vaporization
+ \end{where}
+
+
+\begin{center}
+\refstepcounter{table} \label{tab:{\chapterlabel}5}
+%\begin{table}[ht]
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llllll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{6}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}5} Standard entropies and enthalpies of phase transition at 1atm } \\
+\midrule
+ \rowcolor{gray!10} Compound &     $\Delta H^{\circ}_{fus}$ (kJ/mol) &	     $\Delta H^{\circ}_{vap}$ (kJ/mol) & Compound &     $\Delta S^{\circ}_{fus}$ (J/mol$\cdot\text{}$ K)&	     $\Delta S^{\circ}_{vap}$ (J/mol$\cdot\text{}$ K)\\
+\midrule
+  	\ce{Ar_{(g)}}	&  1.188 	 	  	  &	6.447  		& 	\ce{Ar_{(g)}} & 14.17   &   74.53 	\\
+\ce{Br2_{(g)}}	&  	-- 	  	  &29.8	  		& 	\ce{Br2_{(g)}} & 39.76   &   88.61 	\\
+  	\ce{C6H6_{(g)}}	&  	 	 10.9 	  &	33.9 		& 	\ce{C6H6_{(g)}} & 38.00   &   87.19 	\\
+\ce{CH3COOH_{(g)}} &  	23.7 	  	  &	11.72  		& 	\ce{CH3COOH_{(g)}} & 40.40   &   61.90 	\\
+% 		&  	 	  	  &	  		& 	\ce{CH3OH_{(g)}} & 18.03   &   104.60 	\\
+% 		&  	 	  	  &	  		& 	\ce{Cl2_{(g)}} & 37.22   &   85.38 	\\
+% 		&  	 	  	  &	  		& 	\ce{H2_{(g)}} & 8.38   &   44.96 	\\
+ \ce{H2O_{(g)}}		&  	6.01 	  	  &40.66	  		& 	\ce{H2O_{(g)}} & 22.00   &   109.00 	\\
+%  		&  	 	  	  &	  		& 	\ce{H2S_{(g)}} & 12.67   &   87.75 	\\
+ \ce{NH3_{(g)}}		&  	 	5.65  	  &	23.35  		& 	\ce{NH3_{(g)}} & 28.93    &   97.41 	\\
+% \ce{HCl_{(g)}}		&  	 	1.99  	  &	16.15 		&   &     &     	\\
+% \ce{CO_{(g)}}		&  	 	0.84  	  &	6.04 		&   &     &     	\\
+
+ \bottomrule
+\end{tabular}\end{center}
+The following example describes how to compute phase transition temperatures using thermodynamic data.
+
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the fusion and vaporization temperatures of benzene given that $\Delta H^{\circ}_{fus}$= 10.9kJ/mol, $\Delta H^{\circ}_{vap}$= 33.9kJ/mol, $\Delta S^{\circ}_{fus}$= 38.0J/mol$\cdot\text{ }$ K and $\Delta S^{\circ}_{vap}$= 87.19 J/mol$\cdot\text{ }$ K. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the temperature of fusion for benzene we just need to divide the enthalpy and entropy of fusion making sure the units are consistent (converting enthalpy into J/mol)
+\[T_{fus}=\frac{\Delta H^{\circ}_{fus}}{\Delta S^{\circ}_{fus}} =\frac{10.9\times 10^3}{38.0}=287K	\]
+Similarly, in order to calculate the temperature of vaporization for benzene we just need to divide the enthalpy and entropy of vaporization making sure the units are consistent (converting enthalpy into J/mol)
+\[T_{vap}=\frac{\Delta H^{\circ}_{vap}}{\Delta S^{\circ}_{vap}} =\frac{33.9\times 10^3}{87.19}=389K	\]
+
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Estimate the fusion and vaporization temperatures in celcius of water given that $\Delta H^{\circ}_{fus}$= 6.007kJ/mol, $\Delta H^{\circ}_{vap}$= 40.66kJ/mol, $\Delta S^{\circ}_{fus}$=  22.00J/mol$\cdot\text{ }$ K and $\Delta S^{\circ}_{vap}$= 109.00 J/mol$\cdot\text{ }$ K.\\ 
+\flushright  {\small Answer: -0.3$^{\circ}$C and 100$^{\circ}$C }
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\item[\docfilehook{Gibbs free-energy and work}{ }] 
+Gibbs free-energy of a reaction gives an estimate of the thermodynamic feasibility of a reaction. In another words, if Gibbs free-energy predicts that a reaction is not likely to happen there is no need to invest time in energy trying to make a reaction work. The change in Gibbs free-energy, as its name indicates, also gives insight into the maximum amount of work that can be extracted from a system (chemical reaction, an engine, etc). More precisely, $\Delta G$ represents the maximum amount of work that can be extracted from a system a fixed pressure and temperature conditions. In another words, it represents the amount of energy that a system have that is useful to do work. When this value is positive, it represents the amount of work that needs to be put into the system in order to make the process work:
+
+\begin{equation}
+\boxed{ w\leq \Delta G_R 	}\label{\chapterlabel:equation13}
+\end{equation}
+\end{description}
+Gibbs free energy also tells about how efficient the energy conversion is. Let us analyze the energy contained in the battery of a cell phone. We could use this energy to produce work and power the cell phone. However, every electricity flow implies a loos of heat due to friction and hence all energy contained in the battery could only be used if the electricity flow is very very small and under these conditions the battery will not be able to do real work. Hence, energy can only fully used to do work in a hypothetical scenario in which the process work reversibly. However, all real process are irreversibly and energy will always be lost. For such reason, it will take more energy to charge a battery that the energy given by the battery, as an irreversible electric flow implies energy lose. In another words, energy irreversibly used degrades on its use.
+
+
+
+\section{Gibbs free-energy and equilibrium}
+Thermodynamics is a science that studies states of equilibrium, in contrast to chemical kinetics that studies the speed at which chemical reactions reach equilibrium. This section addresses the relationship between some of the thermodynamic functions and equilibrium. We will describe how to compute equilibrium constants by means of Gibbs free-energy of reactions and how to describe an equilibrium mixture based on the Gibbs free-energy value with the goal to evaluate if the mixture contains more products or more reactants. Finally, we will address the impact of real reactant pressures on Gibbs free-energy and hence the impact of pressure on equilibrium.
+\sloppy
+\begin{description}
+\item[\docfilehook{Impact of pressure on Gibbs free-energy}{ }] We already discuss the idea of standard Gibbs free-energy of reaction, that is calculates at 1 atm and 298K. What if we are not in standard conditions? When reactions involving gas-phase reactants advance producing products, the pressure in the container increases as gas-molecules are being produces so chances are the standard conditions do not hold. We use the following expression in order to include the effect of pressure on $\Delta G^{\circ}_R$:
+\begin{equation}
+\boxed{ \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p	}\label{\chapterlabel:equation11}
+\end{equation}
+where:
+\begin{where}
+ \item $ \Delta G_R$   is the Gibbs free-energy of a reaction not at standard conditions
+ \item $\Delta G^{\circ}_R$   is the Gibbs free-energy of a reaction at standard conditions (1atm and 298K)
+ \item $Q_p$  is the reaction ratio in terms of pressure
+ \item $R$  is the constant of the gases in energy units (8.314J/mol$\cdot\text{ }$  K)
+  \item $T$  is the absolute temperature
+\end{where}
+
+Overall, pressure is another variable that can be used to favor chemical reactions. For example, the reaction between hydrogen and iodine exhibits a positive standard Gibbs free-energy and that means under standard conditions, at 1 atm and 298K, is not likely to happen
+\begin{center}\ce{H2_{(g)} + I2_{(s)} -> 2HI_{(g)}}\hfill $\Delta G^{\circ}_R=2.60$kJ/mol\end{center}
+If we include the effects of pressure on the calculation of Gibbs free energy we have that at very low products pressures and relatively large reactant pressures ($P_{\ce{HI}}=1\times 10^{-5}$ atm and $P_{\ce{H2}}=1\times 10^{5}$atm) Gibbs free energy is negative:
+\begin{equation*}\begin{split}  \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p=   \Delta G^{\circ}_R + RT\ln \Big( \frac{P_{\ce{HI}^2}}	{P_{\ce{H2}}} \Big)\hfill \text{ }\\
+ \hfill =  2.60\times 10^3 +8.314\cdot 298 \ln \Big( \frac{ (1\times 10^{-5})^2}{1\times 10^{5}} \Big) =-8.3\times 10^4 \text{J/mol}\end{split}\end{equation*} 
+This calculations demonstrate that one can use the pressure conditions in order to favor a reaction. In general large reactant pressures and low products pressures can compensate positive Gibbs free-energy values. 
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate whether the reaction will be spontaneous at 298K under the following pressure conditions: $P_{\ce{NO2}}=1\times 10^{5}$ atm and $P_{\ce{N2O4}}=1\times 10^{-5}$ atm 
+\begin{center}\ce{N2O4_{(g)}  -> 2NO2_{(g)}}\hfill $\Delta G^{\circ}_R=5.4$kJ/mol\end{center}
+
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The working pressure-conditions represent a large pressure of products and a small pressure of reactants hence very probably these conditions will not favor spontaneity. Let us prove this:
+\begin{equation*}\begin{split}  \Delta G_R= \Delta G^{\circ}_R + RT\ln Q_p=   \Delta G^{\circ}_R + RT\ln \Big( \frac{P_{\ce{NO2}^2}}	{P_{\ce{N2O4}}} \Big)\hfill \text{}\\
+ \hfill =  5.4\times 10^3 +8.314\cdot 298 \ln \Big( \frac{ (1\times 10^{5})^2}{1\times 10^{-5}} \Big) =9\times 10^4 \text{J/mol}\end{split}\end{equation*} 
+As Gibbs free-energy is positive the reaction will not spontaneously proceed.\\
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate whether the reaction will be spontaneous at 298K under the following pressure conditions: $P_{\ce{NO2}}=1\times 10^{-5}$ atm and $P_{\ce{N2O4}}=1\times 10^{5}$ atm 
+\begin{center}\ce{N2O4_{(g)}  -> 2NO2_{(g)}}\hfill $\Delta G^{\circ}_R=5.4$kJ/mol\end{center}
+\flushright  {\small Answer: $\Delta G_R=-8\times10^4 \text{J/mol}$ sponateneous }
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+\item[\docfilehook{Relationship between $\Delta G^{\circ}_R$ and $K_p$}{ }] In equilibrium we have that Gibbs free-energy is null: $\Delta G_R=0$. At the same time in equilibrium we have that the equilibrium constant is the same as the reaction ration: $Q_p=K_p$. Hence we have that the equilibrium constant and the standard Gibbs free-energy are related by:
+\begin{equation}
+\boxed{ \Delta G^{\circ}_R =-RT\ln K_p	}\label{\chapterlabel:equation12}
+\end{equation}
+where:
+\begin{where}
+ \item $K_p$   the equilibrium constant in terms of pressure
+ \item $\Delta G^{\circ}_R$   is the Gibbs free-energy of a reaction at standard conditions (1atm and 298K)
+ \item $R$  is the constant of the gases in energy units (8.314J/mol$\cdot\text{ }$  K)
+  \item $T$  is the absolute temperature
+\end{where}
+In another words, equilibrium constants and standard Gibbs free-energy convey the same type of information. We have that when $\Delta G^{\circ}_R<0$ at the same time $K_p>1$ and in the mixture of reactants and products we will have more products than reactants--that means the reaction will happen spontaneously. Differently, when $\Delta G^{\circ}_R>0$ at the same time $K_p<1$ and in the mixture of reactants and products we will have more reactants than products--that means the reaction will not happen spontaneously.
+
+ \begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the equilibrium of the reaction at 400K:
+\begin{center}\ce{	HCN(g)  +  2H2(g) -> CH3NH2(g) }\end{center}
+\begin{center}\begin{tabular}[t]{  c c     }
+\toprule
+  Compound &$\text{G}_f^{\circ}$	  \\
+\midrule
+\ce{CH3NH2_{(g)}} & 		23.99		 \\
+\ce{HCN_{(s)}} & 		124.7		 \\
+
+ \bottomrule
+\end{tabular}\end{center}
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We can compute the Gibbs free-energy of a reaction by means of the free-energies of the molecules involved in the reaction:
+\begin{equation*}\begin{split}
+  \Delta G^{\circ}_R= \Delta G^{\circ}_{products}-\Delta G^{\circ}_{reactants}= \\ \Big(  \Delta G_f^{\circ}(\ce{CH3NH2_{(g)}})      \Big)-\Big(  1\cdot \Delta G_f^{\circ}(\ce{HCN_{(g)}})+ 2\cdot \Delta G_f^{\circ}(\ce{H2_{(g)}}) \Big)      \\
+  =     \Big(  23.99	 	  \Big)-\Big(  1\cdot  124.7 	+ 2\cdot    0	 \Big)=  -100.71 KJ
+\end{split}\end{equation*}
+ 
+ Now we can convert the Gibbs free-energy of the reaction into $K_c$:
+ \[-100.71\times 10^3 =-RT\ln K_p=-8.314\cdot 400\ln K_p\]
+ Solving for $K_p$ we have that:
+  \[	K_p=e^{\frac	{100.71\times 10^3}{8.314\cdot 400}}=1.4\times 10^{13} \]
+  We have that as the Gibbs free-energy of reaction is negative the value of the equilibrium constant is larger than 1. This means that the reaction will proceed spontaneously and that on the reactive mixture we will have more products than reactants.\\
+ \faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Use the data below to calculate the equilibrium of the reaction at 400K:
+\begin{center}\ce{	2NO_{(g)} -> N2_{(g)} +  O2_{(g)}  }\end{center}
+\begin{center}\begin{tabular}[t]{  c c     }
+\toprule
+  Compound &$\text{G}_f^{\circ}$	  \\
+\midrule
+\ce{NO_{(g)}} & 		87.60		 \\
+
+ \bottomrule
+\end{tabular}\end{center}
+\begin{flushright} Answer: 
+	$K_p=7.6\times 10^{20}$  
+\end{flushright}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+
+
+\end{description}
+\refstepcounter{table} \label{tab:{\chapterlabel}4}
+
+%%%%%%%%%%%%%%%ENTHALPY TABLES%%%%%%%%%%%
+
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule 
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Al} \\	\midrule
+
+\ce{Al(s)	}	&		0	&		0	&		28.3 \\
+\ce{Al3+(g)}	&			5483.9	&		N-A-	&		149.9 \\
+\ce{Al(aq)}	&			-524.7	&		-481.2	&		----- \\
+\ce{AlF3(s)}	&			-1504.1	&		-1425.1	&		66.4 \\
+\ce{AlCl3(s)}	&		-704.2		&	-628.9		&	110.7 \\
+\ce{AlCl3.6H2O(s)}	&		-2691.6&			N-A-		&	N-A- \\
+\ce{AlBr3(s)	}	&	-527.2		&	-488.4		&	163.2 \\
+\ce{AlI3(s)		}&		-313.8	&		-300.8	&		159.0 \\
+\ce{Al2O3(s)	}	&	-1675.7		&	-1582.4		&	50.9 \\
+\ce{Al(OH)3(s)	}&		-1287.4	&		-1149.8	&		85.4 \\
+\ce{Al(NO3)3.6H2O(s)}	&	-2850.5	&		-2203.9	&		467.8 \\
+\ce{Al2S3(s)	}	&	-723.8		&	N-A			&decomposes \\
+\ce{Al2(SO4)3(s)}	&		-3440.0	&		-3100.1	&		239.3 \\
+\ce{Al2(SO4)3.6H2O(s)	}&	-5311.7	&		-4622.6	&		469.0 \\
+\ce{Al2(SO4)3.18H2O(s)}	&	-8878.9	&		-7437.5	&		----- \\
+									
+									
+									
+									
+									
+									
+\midrule	\multicolumn{4}{c}{Sb} \\	\midrule
+								
+									
+									
+\ce{Sb3+(g)	}	&		2703.3	&		N-A-		&	168.7 \\
+\ce{SbH3(g)}		&		145.1	&		147.7	&		232.7 \\
+\ce{SbF3(s)}		&		-915.5	&		-807.0	&		105.4 \\
+\ce{SbCl3(s)}		&	-382.2	&		-323.7		&	184.0 \\
+\ce{SbCl5(l)}		&	-440.2	&		-350.2	&		301.0 \\
+\ce{Sb4O6(s)}		&	-1440.6	&		-1268.2		&	220.9 \\
+\ce{Sb2S3(black)(s)}&			-174.9	&		-173.6&			182.0 \\
+\ce{Sb2(SO4)3(s)}	&		-2402.5	&		N-A		&	 \\
+\midrule	\multicolumn{4}{c}{As} \\	\midrule
+								
+	\ce{As(s)}&0&0&35.1\\
+\ce{As3+(g)}&5950.2&N-A---&162.3\\
+\ce{AsH3(g)}&66.4&68.9&222.7\\
+\ce{AsF3(l)}&-956.3&-909.1&181.2\\
+\ce{AsF3(g)}&-920.6&-905.7&289.0\\
+\ce{AsCl3(l)}&-305.0&-259.4&216.3\\
+\ce{AsBr3(s)}&-197.5&-169.0&161.1\\
+\ce{As2O3(s)}&-653.0&-571.0&117.0\\
+\ce{As2O5(s)}&-924.9&-782.4&105.4\\
+\ce{As2O3(s)}&-169.0&-168.6&163.6\\
+\ce{As4O6(s)}&-1314.0&-1153.0&223.0\\
+\midrule	\multicolumn{4}{c}{Ba} \\	\midrule
+
+\ce{Ba(s)}&0&0&66.9\\
+\ce{Ba2+(g)}&1660.5&N-A--&170.2\\
+\ce{Ba2+(aq)}&-537.0&-560.8&9.6\\
+\ce{BaH2(s)}&-178.7&-132.2&N-A--\\
+\ce{BaF2(s)}&-1207.1&-1156.9&96.4\\
+\ce{BaCl2(s)}&-858.6&-810.4&123.7\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule 
+\ce{BaCl2.2H2O(s)}&-1406.1&-1296.5&202.9\\
+\ce{Ba(ClO3)2(s)}&-762.7&-556.9&231.0\\
+\ce{Ba(ClO3)2.H2O(s)}&-1069.0&---N-A---&0.125\\
+\ce{Ba(ClO4)2(s)}&-800.0&-535.1&249.0\\
+\ce{BaBr2(s)}&-757.3&-736.8&146.0\\
+\ce{BaBr2.2HO(s)}&-1366.1&-1230.5&226.0\\
+\ce{Ba(BrO3)2(s)}&-752.7&-577.4&243.0\\
+\ce{Ba(BrO3)2.H2O(s)}&-1054.8&-824.6&292.5\\
+\ce{BaI2(s)}&-602.1&-609.0&167.0\\
+\ce{BaI2.2H2O(s)}&-1216.7&N-A-&0.63\\
+\ce{Ba(IO3)2(s)}&-1027.2&-864.8&249.0\\
+\ce{Ba(IO3)2.H2O(s)}&-1322.1&-1104.2&297.0\\
+
+\ce{BaO(s)}&-553.5&-525.1&70.4\\
+\ce{BaO2(s)}&-634.3&-572.0&65.7\\
+\ce{Ba(OH)2(s)}&-944.7&-855.2&99.7\\
+\ce{BaCO3(s)}&-1216.3&-1137.6&112.1\\
+\ce{Ba(HCO3)2(s)}&-1921.6&-1734.3&192.0\\
+\ce{Ba(NO3)2(s)}&-992.1&-796.7&213.8\\
+\ce{BaS(s)}&-460.0&-456.0&78.2\\
+\ce{BaSO4(s)}&-1473.2&-1362.3&151.9\\
+\ce{BaCrO4(s)}&-1428.0&-1338.8&132.2\\
+\ce{BaC2O4(s)}&-1368.6&N-A-&5.2x10-5\\
+\ce{BaC2O4.2H2O(s)}&-1971.1&N-A-&5.20x10-5\\
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Be} \\	\midrule
+
+
+\ce{Be(s)}&0&0&9.5\\
+\ce{Be2+(s)}&2993.0&N-A---&136.2\\
+\ce{BeF2(s)}&-1026.8&-979.5&53.2\\
+\ce{BeCl2(s)}&-490.4&-445.6&82.7\\
+\ce{BeCl2.4H2O(s)}&-1808.3&-1563.0&243.1\\
+\ce{BeBr2(s)}&-353.5&-354.0&112.1\\
+\ce{BeO(s)}&-609.6&-580.3&14.1\\
+\ce{Be(OH)2(s)}&-902.4&-815.0&51.9\\
+\ce{Be(NO3)2.3H2O(s)}&-787.8&N-A-&0.804\\
+\ce{BeS(s)}&-234.3&-232.0&35.0\\
+\ce{BeSO4(s)}&-1205.2&-1093.9&77.9\\
+\ce{BeSO4.4H2O(s)}&-2423.7&-2080.7&234.0\\
+
+
+\midrule	\multicolumn{4}{c}{Bi} \\	\midrule
+
+\ce{Bi(s)}&0&0&56.9\\
+\ce{Bi3+(g)}&5005.7&---N-A---&\\
+\ce{BiCl3(s)}&-379.1&-315.1&177.0\\
+\ce{Bi(ClO)3(s)}&-366.9&-322.2&120.5\\
+\ce{BiI3(s)}&-105.0&-175.3&233.9\\
+\ce{Bi2O3(s)}&-573.9&-493.7&151.5\\
+\ce{Bi2S3(s)}&-143.1&-140.6&200.46\\
+\ce{Bi2(SO4)3(s)}&-2544.3&-2583.6&N-A---\\
+
+
+
+
+
+
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule 
+
+
+\midrule	\multicolumn{4}{c}{B} \\	\midrule
+
+
+\ce{B(s)}&0&0&5.9\\
+\ce{B3+(s)}&7468.0&N-A---&138.5\\
+\ce{B2H6(g)}&35.6&86.6&232.0\\
+\ce{BF3(g)}&-137.0&-1120.3&254.0\\
+\ce{BCl3(l)}&-427.2&-387.4&206.3\\
+\ce{BCl3(g)}&-403.7&-388.7&290.0\\
+\ce{BI3(g)}&71.1&20.8&349.1\\
+\ce{B2O3(s)}&-1272.8&-1193.7&54.0\\
+\ce{B2O3(l)}&-1254.5&-1182.4&77.8\\
+\ce{B(OH)3(s)}&-1094.0&-969.0&88.8\\
+\ce{BN(s)}&-254.4&-228.4&14.8\\
+\ce{B2S3(s)}&-240.6&-229.0&57.4\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Br} \\	\midrule
+
+
+\ce{Br2(l)}&0&0&152.2\\
+\ce{Br2(g)}&30.9&3.1&245.4\\
+\ce{Br-1(g)}&-233.9&-238.7&163.4\\
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Cd} \\	\midrule
+
+
+
+\ce{Cd(s)}&0&0&51.8\\
+\ce{Cd2+(g)}&2623.5&N-A----&167.7\\
+\ce{CdF2(s)}&-700.4&-647.7&77.4\\
+\ce{CdCl2(s)}&-391.5&-344.0&115.3\\
+\ce{CdCl2.H2O(s)}&-688.4&-587.1&167.8\\
+\ce{Cd(ClO4)2(aq)}&-334.6&-94.8&290.8\\
+
+\ce{Cd(ClO4)2.6H2O(s)}&-2052.7&----N-A-----&\\
+\ce{CdBr2(s)}&-316.2&-296.3&137.2\\
+\ce{CdI2(s)}&-203.3&-201.4&161.1\\
+\ce{Cd(IO3)2(s)}&N-A----&377.1&N-A-----\\
+\ce{CdO(s)}&-258.2&-228.4&54.8\\
+\ce{Cd(OH)2(s)}&-560.7&-473.6&96.0\\
+\ce{Cd(CN)2(s)}&162.2&207.9&104.2\\
+\ce{Cd(NO3)2(s)}&-456.3&-259.0&197.9\\
+\ce{Cd(NO3)2.2H2O(s)}&-1055.6&-748.9&N-A---\\
+\ce{Cd(NO3)2.4H2O(s)}&-1649.0&-1217.1&N-A---\\
+\ce{CdS(s)}&-161.9&-156.5&64.8\\
+\ce{CdSO4(s)}&-933.3&-822.8&123.0\\
+\ce{CdSO4.2.67H2O(s)}&-1729.4&-1465.3&229.6\\
+
+
+
+\midrule	\multicolumn{4}{c}{Cs} \\	\midrule
+
+
+
+
+\ce{Cs(s)}&0&0&\\
+
+\ce{Cs+1(g)}&458.0&N-A--&169.7\\
+\ce{CsF(s)}&-553.5&-525.5&92.8\\
+\ce{CsCl(s)}&-443.0&-414.5&101.2\\
+\ce{CsClO3(s)}&-411.7&-307.9&156.1\\
+\ce{CsClO4(s)}&-443.1&-314.3&175.1\\
+\ce{CsBr(s)}&-405.8&-391.4&113.1\\
+\ce{CsI(s)}&-346.0&-340.6&123.1\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{CsIO4(s)}&N-A---&-380.7&184.0\\
+\ce{Cs2O(s)}&-345.8&-308.2&146.9\\
+\ce{CsOH(s)}&-417.2&-359.0&86.0\\
+\ce{CsHCO3(s)}&-966.1&-831.8&130.0\\
+\ce{CsNO3(s)}&-506.0&-406.6&155.2\\
+\ce{Cs2SO4(s)}&-1443.0&-1323.7&211.9\\
+
+
+\midrule	\multicolumn{4}{c}{Ca} \\	\midrule
+
+
+
+
+
+\ce{Ca(s)}&0&0&41.4\\
+\ce{Ca2+(g)}&1925.0&N-A-&154.8\\
+\ce{CaH2(s)}&-186.2&-147.3&42.0\\
+\ce{CaF2(s)}&-1219.6&-1167.3&68.9\\
+
+\ce{CaCl2(s)}&-795.8&-748.1&104.6\\
+\ce{CaCl2.H2O(s)}&-1109.2&-1010.9&N-A---\\
+\ce{CaCl2.2H2O(s)}&-1402.9&--N-A--&0.665\\
+\ce{CaCl2.4H2O(s)}&-2009.6&-1724.0&212.6\\
+\ce{CaCl2.6H2O(s)}&-2607.9&-2205.0&284.9\\
+\ce{Ca(ClO4)2(s)}&-736.8&N-A---&233.0\\
+\ce{Ca(ClO4)2.4H2O(s)}&-1948.9&-1476.8&433.5\\
+\ce{CaBr2(s)}&-682.8&-663.6&130.0\\
+\ce{CaBr2.6H2O(s)}&-2506.2&-2153.1&410.0\\
+\ce{Ca(BrO3)2(s)}&-718.8&N-A---&227.6\\
+\ce{CaI2(s)}&-533.5&-528.9&142.0\\
+\ce{CaI2.8H2O(s)}&-2929.6&--N-A--&\\
+\ce{Ca(IO3)2(s)}&-1002.5&-893.3&230.1\\
+\ce{Ca(IO3)2.H2O(s)}&-1293.3&--N-A--&\\
+\ce{Ca(IO3)2.6H2O(s)}&-2780.7&-2267.7&451.9\\
+\ce{CaO(s)}&-635.1&-604.0&39.7\\
+\ce{Ca(OH)2(s)}&-986.1&-898.6&83.4\\
+\ce{CaC2(s)}&-59.1&-64.8&69.9\\
+\ce{CaCO3calcite}&-1206.9&-1128.8&92.9\\
+\ce{CaCO3aragonite}&-1207.1&-1127.8&88.7\\
+\ce{Ca(NO3)2(s)}&-635.1&-743.2&193.3\\
+\ce{Ca(NO3)2.2H2O(s)}&-1540.8&-1229.3&269.4\\
+\ce{Ca(NO3)2.3H2O(s)}&-1838.0&-1471.9&319.2\\
+\ce{Ca(NO3)2.4H2O(s)}&-2132.3&-1713.5&375.3\\
+\ce{CaS(s)}&-482.4&-477.4&56.5\\
+\ce{CaSO3(s)}&-1156.0&N-A&\\
+\ce{CaSO4(s)}&-1431.1&-1321.9&106.7\\
+\ce{CaSO4.0.5H2O(s)}&-1576.7&-1436.8&130.5\\
+\ce{CaSO4.2H2O(s)}&-2022.6&-1797.4&194.1\\
+\ce{Ca3(PO4)2(s)}&-4120.8&-3884.8&236.0\\
+\ce{CaCrO4.2H2O}&-1379.0&-1277.4&133.9\\
+
+\ce{CaC2O4(s)}&-1360.6&N-A&N-A\\
+\ce{CaC2O4.H2O(s)}&-1674.9&-1514.0&156.5\\
+\ce{CaSi2(s)}&-151.0&N-A&decomposes\\
+\ce{CaSiO3(s)}&-1634.9&-1549.7&81.9\\
+\ce{Ca2SiO4(s)}&-2307.5&-2192.8&127.7\\
+
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\midrule	\multicolumn{4}{c}{C} \\	\midrule
+
+
+\ce{C(s,graphite)}&0&0&5.7\\
+\ce{C(s,diamond)}&1.9&2.9&2.4\\
+\ce{C(g)}&716.7&671.3&158.0\\
+\ce{C2(g)}&836.8&780.4&199.3\\
+\ce{C3(g)}&793.5&773.1&212.1\\
+\ce{CCl4(l)}&-134.0&-65.3&214.4\\
+\ce{CO(g)}&-110.5&-137.2&197.6\\
+\ce{CO2(g)}&-393.5&-394.4&213.6\\
+\ce{CO2(aq)}&-413.8&-386.0&117.6\\
+\ce{CO32-(aq)}&-677.1&-527.8&-56.9\\
+\ce{C2N2(g)}&307.9&296.3&242.1\\
+\ce{CS2(l)}&98.7&65.2&151.3\\
+\ce{CS2(g)}&117.0&67.2&237.7\\
+
+
+
+
+\midrule	\multicolumn{4}{c}{Cl} \\	\midrule
+
+
+
+\ce{Cl2(g)}&0&0&233.0\\
+\ce{Cl-1(g)}&-246.0&-240.0&153.1\\
+\ce{Cl2O(g)}&80.3&97.9&266.1\\
+\ce{ClO2(g)}&102.5&120.5&256.7\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Cr} \\	\midrule
+
+
+\ce{Cr(s)}&0&0&23.8\\
+\ce{Cr3+(aq)}&-232.0&--N-A---&\\
+\ce{CrF3(s)}&-1159.0&-1088.0&93.9\\
+\ce{CrCl2(s)}&-326.0&-282.0&115.0\\
+\ce{CrCl3(s)}&-556.5&-486.2&115.3\\
+\ce{CrO2Cl2(l)}&-579.5&-510.9&221.8\\
+\ce{CrI3(s)}&-205.0&-202.5&N-A--\\
+
+\ce{Cr2O3(s)}&-1139.7&-1058.1&81.2\\
+\ce{CrO3(s)}&-598.5&-501.0&N-A---\\
+\ce{Cr2(SO4)3(s)}&-3025.0&--N-A--&0.163\\
+\ce{Cr2(SO4)3.18H2O(s)}&-8339.0&--N-A--&0.167\\
+\ce{Cr(CO)6(s)}&-1076.9&-975.0&N-A---\\
+
+
+
+
+\midrule	\multicolumn{4}{c}{Co} \\	\midrule
+
+
+
+\ce{Co(s)}&0&0&30.0\\
+\ce{Co2+(g)}&2841.6&N-A--&178.8\\
+\ce{CoF3(g)}&-810.9&-707.0&94.6\\
+\ce{CoCl2(s)}&-312.5&-269.9&109.2\\
+\ce{CoCl2.2H2O(s)}&-923.0&-764.8&188.0\\
+\ce{CoCl2.6H2O(s)}&-2115.4&-1725.5&343.0\\
+\ce{Co(ClO4)2(aq)}&-316.7&-71.5&251.0\\
+\ce{Co(ClO4)2.6H2O(s)}&-2038.4&-N-A-&0.707\\
+\ce{CoBr2(s)}&-220.0&-210.0&135.6\\
+\ce{CoBr2.6H2O(s)}&-2020.0&-N-A-&\\
+\ce{CoI2(s)}&-88.7&-101.3&158.2\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{Co(IO3)2(aq)}&-500.8&-310.4&125.5\\
+\ce{Co(IO3)2.2H2O(s)}&-1081.9&-795.8&267.8\\
+\ce{CoO(s)}&-237.9&-214.2&53.0\\
+\ce{Co3O4(s)}&-891.0&-774.0&102.5\\
+\ce{Co(OH)2(s)}&-539.7&-454.4&79.0\\
+\ce{Co(NO3)2(s)}&-420.5&-237.0&192.0\\
+\ce{Co(NO3)2.2H2O(s)}&-1021.7&N-A-&\\
+\ce{Co(NO3)2.3H2O(s)}&-1325.9&N-A-&\\
+\ce{Co(NO3)2.4H2O(s)}&-1630.5&N-A-&\\
+\ce{Co(NO3)2.6H2O(s)}&-2211.2&-1655.6&N-A--\\
+\ce{CoS(s)}&-80.8&-82.8&67.4\\
+\ce{CoSO4(s)}&-888.3&-782.4&118.0\\
+\ce{CoSO4.7H2O(s)}&-2979.9&-2473.8&406.1\\
+
+
+
+\midrule	\multicolumn{4}{c}{Cu} \\	\midrule
+
+\ce{Cu(s)}&0&0&33.2\\
+\ce{Cu2+(g)}&3054.0&N-A---&179.0\\
+\ce{CuF2(s)}&-542.7&-481.0&88.0\\
+\ce{CuF2.2H2O(s)}&N-A---&-981.6&N-A--\\
+\ce{CuCl(s)}&-137.2&-119.9&86.2\\
+\ce{CuCl2(s)}&-220.1&-175.7&108.1\\
+\ce{Cu(ClO4)2(aq)}&-193.1&48.3&264.4\\
+\ce{Cu(ClO4)2.6H2O(s)}&-1928.4&--N-A--&very\\
+\ce{CuBr2(s)}&-141.8&-108.7&118.0\\
+\ce{CuBr2.4H2O(s)}&-1326.3&-1081.1&293.7\\
+\ce{CuI(s)}&-67.7&-69.5&96.7\\
+\ce{Cu(IO3)2(aq)}&-377.8&-190.4&137.2\\
+\ce{Cu(IO3)2.H2O(s)}&-692.0&-468.6&247.2\\
+\ce{Cu2O(s)}&-168.6&-146.0&93.1\\
+\ce{CuO(s)}&-157.3&-129.7&42.6\\
+\ce{Cu(OH)2(s)}&-449.8&-359.4&75.0\\
+\ce{Cu(NO3)2(s)}&-302.9&-118.2&193.0\\
+\ce{Cu(NO3)2.3H2O(s)}&-1217.1&--N-A--&0.570\\
+\ce{Cu(NO3)2.6H2O(s)}&-2110.8&--N-A--&0.824\\
+\ce{Cu2S(s)}&-79.0&-86.2&120.9\\
+\ce{CuS(s)}&-53.1&-53.6&66.5\\
+\ce{CuSO4(s)}&-771.4&-661.9&109.0\\
+\ce{CuSO4.5H2O(s)}&-2279.6&-1880.1&300.4\\
+
+
+
+\midrule	\multicolumn{4}{c}{F} \\	\midrule
+
+
+
+\ce{F2(g)}&0&0&202.7\\
+\ce{F-(g)}&-270.7&-266.6&145.4\\
+\ce{F2O(g)}&-21.7&-4.7&247.3\\
+
+\midrule	\multicolumn{4}{c}{Ga} \\	\midrule
+
+
+
+\ce{Ga3+(g)}&5816.0&N-A---&161.6\\
+\ce{GaF3(s)}&-1163.0&-1085.3&84.0\\
+\ce{GaCl3(s)}&-524.7&-454.8&142.0\\
+\ce{GaBr3(s)}&-386.6&-359.8&180.0\\
+\ce{GaI3(s)}&-238.9&-217.6&49.0\\
+\ce{Ga2O3(s)}&-1089.1&-998.3&85.0\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\midrule	\multicolumn{4}{c}{Ge} \\	\midrule
+
+
+
+\ce{Ge4+(g)}&10412.3&--N-A--&\\
+\ce{GeF4(g)}&---N-A--&302.8&decomposes\\
+\ce{GeCl2(s)}&---N-A---&N-A----&\\
+\ce{GeCl4(l)}&-531.8&-462.8&245.6\\
+\ce{GeBr4(l)}&-347.7&-331.4&280.7\\
+\ce{GeBr4(g)}&-300.0&-318.0&396.1\\
+\ce{GeO(s)}&-212.1&-237.2&50.0\\
+\ce{GeO2(s)}&-551.0&-497.1&55.3\\
+\ce{GeS(s)}&-69.0&-71.5&71.0\\
+\ce{GeS2(s)}&-189.5&---N-A----&0.00329\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Au} \\	\midrule
+
+\ce{Au(s)}&0&0&47.7\\
+\ce{Au+1(g)}&1262.4&N-A-----&174.7\\
+\ce{AuH(g)}&294.9&265.7&211.0\\
+\ce{AuF3(s)}&-363.0&-297.5&210.9\\
+\ce{AuCl3(s)}&-117.6&-55.2&147.3\\
+\ce{AuCl3.2H2O(s)}&-715.0&-519.0&226.0\\
+\ce{AuBr3(s)}&-53.3&-31.0&100.0\\
+\ce{AuI(s)}&0.0&-0.2&119.2\\
+\ce{Au2O3(s)}&-3.3&76.2&N-A-----\\
+
+
+
+
+\midrule	\multicolumn{4}{c}{H} \\	\midrule
+
+
+\ce{H2(g)}&0&0&130.6\\
+\ce{HF(g)}&-271.1&-273.2&173.7\\
+\ce{HCl(g)}&-92.3&-95.2&186.8\\
+\ce{HCl(aq)}&-167.2&-131.2&56.5\\
+
+\ce{HClO(aq)}&-131.3&-80.2&106.8\\
+\ce{HBr(g)}&-36.4&-53.4&198.6\\
+\ce{HI(g)}&26.5&1.7&206.5\\
+\ce{HIO3(s)}&-230.1&-144.3&118.0\\
+\ce{H2O(l)}&-285.8&-237.2&69.9\\
+\ce{H2O(g)}&-241.8&-228.6&188.7\\
+\ce{H2O2(l)}&-187.8&-120.4&109.6\\
+\ce{H3AsO3(aq)}&-742.2&-N-A&\\
+\ce{H3AsO4(aq)}&-902.5&-N-A-&\\
+\ce{HCN(l)}&108.9&124.9&112.8\\
+\ce{HCN(g)}&135.1&124.7&201.7\\
+\ce{H2CO3(aq)}&-699.6&-623.3&187.4\\
+\ce{HCO3-1(aq)}&-692.0&-586.8&91.2\\
+\ce{HNO3(l)}&-174.1&-80.8&266.3\\
+\ce{H2S(g)}&-20.6&-33.6&205.7\\
+\ce{H2S(aq)}&-39.7&-27.9&121.3\\
+\ce{H2S2(l)}&-23.1&-N-A-&decomposes\\
+\ce{H2Se(g)}&76.0&62.3&219.0\\
+\ce{H2SO4(l)}&-814.0&-690.1&156.9\\
+\ce{H2SO4(aq)}&-909.3&-744.5&20.1\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+
+\ce{H2Te(g)}&154.0&138.0&234.0\\
+\ce{H3PO4(s)}&-1279.0&-1119.2&110.5\\
+\ce{H3BO3(s)}&-1094.3&-969.0&88.8\\
+\ce{H3O+1(g)}&979.9&N-A&\\
+\ce{OH+1(g)}&1328.4&N-A&\\
+\ce{OH-1(g)}&-140.9&N-A&\\
+\ce{H2S+1(aq)}&995.0&N-A&\\
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{I} \\	\midrule
+
+
+\ce{I2(s)}&0&0&116.1\\
+\ce{I2(g)}&62.4&19.4&260.6\\
+\ce{IF(g)}&-95.6&-118.5&236.1\\
+\ce{I2+1(g)}&967.5&N-A&\\
+\ce{ICl(s)}&-35.1&N-A&decomposes\\
+\ce{ICl3(s)}&-89.5&-22.3&167.4\\
+\ce{IBr(s)}&-10.5&N-A--&138.1\\
+\ce{I2O5(s)}&-158.1&-38.0&N-A--\\
+\ce{I-1(g)}&-196.6&-221.9&169.1\\
+
+
+
+
+\midrule	\multicolumn{4}{c}{Fe} \\	\midrule
+
+
+
+\ce{Fe(s)}&0&0&27.0\\
+\ce{Fe2+(g)}&2752.2&N-A-&177.2\\
+\ce{Fe2+(aq)}&-89.1&-78.9&137.7\\
+\ce{Fe3+(g)}&-48.5&-4.7&315.9\\
+\ce{FeF2(s)}&-686.0&-644.0&87.0\\
+\ce{FeF3(aq)}&-1046.4&-841.0&357.0\\
+\ce{FeCl2(s)}&-341.8&-302.3&117.9\\
+\ce{FeCl2.2H2O(s)}&-953.1&-797.5&N-A---\\
+\ce{FeCl2.4H2O(s)}&-1549.3&-1275.7&N-A---\\
+\ce{FeCl3(s)}&-399.5&-334.1&142.3\\
+\ce{FeCl3.6H2O(s)}&-2223.8&-1812.9&N-A--\\
+\ce{Fe(ClO4)2(aq)}&-347.7&-96.1&226.4\\
+\ce{Fe(ClO4)2.6H2O(s)}&-2086.6&-N-A-&0.270\\
+\ce{FeBr2(s)}&-249.8&-236.0&140.7\\
+\ce{FeI2(s)}&-113.0&-128.4&77.0\\
+\ce{FeI3(g)}&71.0&N-A-&\\
+\ce{FeO(s)}&-271.9&-245.4&58.5\\
+\ce{Fe2O3(s)}&-824.2&-742.2&87.4\\
+\ce{Fe3O4(s)}&-1118.4&-1015.5&146.4\\
+\ce{Fe(OH)2(s)}&-569.0&-486.6&88.0\\
+\ce{Fe(OH)3(s)}&-823.0&-696.6&106.7\\
+\ce{FeCO3(s)}&-740.6&-666.7&92.9\\
+\ce{Fe(CO)5(l)}&-774.0&-705.4&338.1\\
+\ce{FeS(s)}&-100.0&-100.4&60.3\\
+\ce{FeS2(s)}&-178.2&-166.9&52.9\\
+\ce{FeSO4(s)}&-928.4&-820.9&107.5\\
+\ce{FeSO4.7H2O(s)}&-3014.6&-2510.3&409.2\\
+
+\ce{Fe2(S)4)3(s)}&-2581.5&N-A--&261.7\\
+\ce{Fe(NO3)3(aq)}&-674.9&-N-A-&\\
+
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\midrule	\multicolumn{4}{c}{Pb} \\	\midrule
+
+
+
+
+\ce{Pb(s)}&0&0&64.8\\
+\ce{Pb2+(g)}&916.8&N-A-&175.3\\
+\ce{Pb2+(aq)}&-1.7&-24.4&10.5\\
+\ce{PbF2(s)}&-664.0&-617.1&110.5\\
+\ce{PbCl2(s)}&-359.4&-314.1&136.0\\
+\ce{PbCl4(l)}&-329.2&-259.0&N-A--\\
+\ce{PbBr2(s)}&-278.7&-261.9&161.5\\
+\ce{Pb(BrO3)2(s)}&-134.0&-50.0&N-A--\\
+\ce{PbI2(s)}&-175.5&-173.6&174.5\\
+\ce{PbO(s)}&-217.3&-187.9&68.7\\
+\ce{PbO2(s)}&-277.4&-217.4&68.6\\
+\ce{Pb(OH)2(s)}&-515.9&-420.9&88.0\\
+\ce{Pb3O4(s)}&-718.4&-601.2&211.3\\
+\ce{PbCO3(s)}&-700.0&-626.3&131.0\\
+\ce{Pb(NO3)2(s)}&-451.9&-251.0&213.0\\
+\ce{PbS(s)}&-100.4&-98.7&91.2\\
+\ce{PbSO4(s)}&-919.0&-813.2&148.6\\
+\ce{PbCrO4(s)}&-899.6&-819.6&152.7\\
+\ce{Pb(CH3COO)2.3H2O(s)}&-1851.0&-N-A--&0.204\\
+\ce{Pb(C2H5)4(l)}&52.7&336.4&472.5\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Li} \\	\midrule
+
+
+\ce{Li(s)}&0&0&28.4\\
+\ce{Li+1(g)}&679.6&650.0&132.9\\
+\ce{Li+1(aq)}&-278.6&N-A--&10.3\\
+\ce{LiH(s)}&-90.5&-68.4&20.3\\
+\ce{Li3H4(s)}&N-A&N-A-&decomposes\\
+\ce{LiF(s)}&-616.0&-587.7&35.6\\
+\ce{LiCl(s)}&-408.6&-384.4&59.3\\
+\ce{LiClO3(s)}&-369.0&N-A-&5.531\\
+
+\ce{LiClO4(s)}&-381.0&-N-A-&0.564\\
+\ce{LiClO4.H2O(s)}&-697.1&-509.6&155.2\\
+\ce{LiClO4.3H2O(s)}&-1298.0&-1001.3&254.8\\
+\ce{LiBr(s)}&-351.2&-342.0&74.3\\
+\ce{LiBr.H2O(s)}&-662.6&-594.3&109.6\\
+\ce{LiBr.2H2O(s)}&-962.7&-840.6&162.3\\
+\ce{LiBrO3(s)}&-347.0&-N-A-&\\
+\ce{LiI(s)}&-270.4&-270.3&86.8\\
+\ce{LiI.H2O(s)}&-590.3&-531.4&123.0\\
+\ce{LiI.2H2O(s)}&-890.4&-780.3&184.0\\
+\ce{LiI.3H2O(s)}&-1192.1&-N-A-&0.804\\
+\ce{LiIO3(s)}&-503.4&-N-A-&0.442\\
+\ce{Li2O(s)}&-597.9&-561.2&37.6\\
+\ce{LiOH(s)}&-484.4&-439.0&42.8\\
+\ce{LiOH.H2O(s)}&-788.0&-681.0&71.2\\
+\ce{Li2CO3(s)}&-1215.9&-1132.1&90.4\\
+\ce{LiHCO3(s)}&-969.6&-880.9&123.4\\
+\ce{Li3N(s)}&-199.0&-155.4&37.7\\
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+
+\ce{LiNO3(s)}&-483.1&-381.2&90.0\\
+\ce{LiNO3.3H2O(s)}&-1374.4&-1103.7&223.4\\
+\ce{Li2SO4(s)}&-1436.5&-1321.8&115.1\\
+\ce{Li2SO4.H2O(s)}&-1735.5&-1565.7&163.6\\
+\ce{Li3PO4(s)}&-2095.8&-N-A-&0.000257\\
+\ce{LiAlH4(s)}&-116.3&-44.8&78.7\\
+
+
+
+\midrule	\multicolumn{4}{c}{Mg} \\	\midrule
+
+
+
+
+\ce{Mg(s)}&0&0&32.5\\
+\ce{Mg2+(aq)}&-466.9&-454.8&-138.1\\
+\ce{MgF2(s)}&-1123.4&-1070.3&57.2\\
+\ce{MgCl2(s)}&-641.3&-591.8&89.6\\
+\ce{MgCl2.H2O(s)}&-966.6&-861.8&137.2\\
+\ce{MgCl2.2H2O(s)}&-1279.7&-1118.1&179.9\\
+
+\ce{MgCl2.4H2O(s)}&-1898.9&-1623.5&264.0\\
+\ce{MgCl2.6H2O(s)}&-2499.0&-2115.0&366.1\\
+\ce{Mg(ClO4)2(s)}&-568.9&-432.2&213.0\\
+\ce{Mg(ClO4)2.2H2O(s)}&-1218.7&N-A&\\
+\ce{Mg(ClO4)2.4H2O(s)}&-1837.2&N-A&\\
+\ce{Mg(ClO4)2.6H2O(s)}&-2445.5&-1863.1&520.9\\
+\ce{MgBr2(s)}&-524.3&-503.8&117.2\\
+\ce{MgBr2.6H2O(s)}&-2410.0&-2056.0&397.0\\
+\ce{MgI2(s)}&-364.0&-358.2&129.7\\
+\ce{MgO(s)}&-601.7&-569.4&26.9\\
+\ce{Mg(OH)2(s)}&-924.5&-833.6&63.2\\
+\ce{MgCO3(s)}&-1095.8&-1012.1&65.7\\
+\ce{Mg3N2(s)}&-460.7&-406.0&90.0\\
+\ce{Mg(NO3)2(s)}&-790.7&-589.5&164.0\\
+\ce{Mg(NO3)2.2H2O(s)}&-1409.2&N-A-&soluble\\
+\ce{Mg(NO3)2.6H2O(s)}&-2613.3&-2080.7&452.0\\
+\ce{MgS(s)}&-346.0&-341.8&50.3\\
+\ce{MgSO4(s)}&-1284.9&-1170.7&91.6\\
+\ce{MgSO4.2H2O(s)}&-1896.2&-1376.5&N-A--\\
+\ce{MgSO4.4H2O(s)}&-2496.6&-2138.9&N-A--\\
+\ce{MgSO4.6H2O(s)}&-3086.9&-2632.2&348.1\\
+\ce{MgSO4.7H2O(s)}&-3388.7&-2871.9&372.0\\
+\ce{Mg3(PO4)2.2H2O(s)}&-4022.9&N-A&7.61x10-5\\
+\ce{Mg2Si(s)}&-77.8&-75.0&75.0\\
+\ce{MgSiO3(s)}&-1549.0&-11462.1&67.7\\
+\ce{Mg2SiO4(s)}&-2174.0&-2055.2&95.1\\
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Mn} \\	\midrule
+
+
+\ce{Mn(s)}&0&0&32.0\\
+\ce{Mn2+(g)}&2519.0&N-A-&173.6\\
+\ce{Mn2+(aq)}&-233.0&-228.0&-74.6\\
+\ce{MnCl2(s)}&-481.3&-440.5&118.2\\
+
+\ce{MnCl2.H2O(s)}&-789.9&-696.2&174.1\\
+\ce{MnCl2.2H2O(s)}&-1092.0&-942.2&218.8\\
+\ce{MnCl2.4H2O(s)}&-1687.4&-1423.8&303.3\\
+\ce{MnBr2(s)}&-384.9&-365.7&138.0\\
+\ce{MnBr2.H2O(s)}&-705.0&N-A&\\
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{MnBr2.4H2O(s)}&-1590.3&-1292.4&291.6\\
+\ce{MnI2(aq)}&-331.0&-250.6&152.7\\
+\ce{MnI2.2H2O(s)}&-842.7&N-A&N-A--\\
+\ce{MnI2.4H2O(s)}&-1438.9&N-A&N-A--\\
+\ce{MnO(s)}&-385.2&-362.9&59.7\\
+\ce{MnO4-1(aq)}&-542.7&-449.4&191.0\\
+\ce{Mn3O4(s)}&-1387.8&-1283.2&155.6\\
+\ce{Mn2O3(s)}&-959.0&-881.2&110.5\\
+\ce{MnO2(s)pyrolusite}&-520.0&-465.2&53.1\\
+\ce{Mn(OH)2(s)}&-695.4&-615.0&99.2\\
+\ce{MnCO3(s)}&-894.1&-816.7&85.8\\
+\ce{Mn(NO3)2(s)}&-576.3&-503.3&168.6\\
+\ce{Mn(NO3)2.6H2O(s)}&-2371.9&-1809.6&N-A---\\
+\ce{MnS(s)}&-214.2&-218.4&78.2\\
+\ce{MnSO4(s)}&-1065.2&-957.4&112.1\\
+\ce{MnSO4.H2O(s)}&-1376.5&-1214.6&N-A--\\
+\ce{MnSO4.4H2O(s)}&-2258.1&-1908.3&N-A--\\
+\ce{MnSO4.5H2O(s)}&-2553.1&-2140.0&N-A--\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Hg} \\	\midrule
+
+
+
+\ce{Hg(l)}&0&0&76.1\\
+\ce{Hg(g)}&61.32&-178.6&146.0\\
+\ce{Hg2+(g)}&2890.4&N-A&174.9\\
+\ce{Hg22+(aq)}&172.3&153.6&84.5\\
+\ce{Hg2F2(s)}&-485.0&-435.6&160.7\\
+\ce{Hg2Cl2(s)calomel}&-265.2&-210.8&192.5\\
+\ce{HgCl2(s)}&-224.3&-178.7&146.0\\
+\ce{Hg2Br2(s)}&-206.9&-181.1&218.0\\
+\ce{HgBr2(s)}&-170.7&-153.1&172.0\\
+\ce{Hg2I2(s)}&-121.3&-111.0&233.5\\
+\ce{HgI2(s)}&red&-105.4&-101.7\\
+\ce{HgO(s)}&red&-90.8&-58.6\\
+\ce{Hg(OH)2(aq)}&-355.2&-274.9&142.3\\
+\ce{Hg2(NO3)2.2H2O(s)}&-868.2&-563.2&N-A--\\
+\ce{HgS(s)black}&-53.6&-47.7&88.3\\
+\ce{HgS(s)red}&-58.2&-50.6&82.4\\
+\ce{Hg2SO4(s)}&-743.1&-625.9&200.7\\
+\ce{HgSO4(s)}&-707.5&-590.0&145.0\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Ni} \\	\midrule
+
+
+\ce{Ni(s)}&0&0&30.0\\
+\ce{Ni2+(aq)}&-54.0&-45.6&-128.9\\
+\ce{NiF2(s)}&-651.4&-604.2&73.6\\
+\ce{NiCl2(s)}&-305.3&-259.1&97.7\\
+\ce{NiCl2.2H2O(s)}&-922.2&-760.2&176.0\\
+\ce{NiCl2.4H2O(s)}&-1516.7&-1235.0&243.0\\
+\ce{NiCl2.6H2O(s)}&-2103.2&-1713.5&344.4\\
+\ce{Ni(ClO4)2(aq)}&-312.5&-62.8&235.1\\
+\ce{NiBr2(s)}&-212.1&-205.0&133.0\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{NiBr2.3H2O(s)}&-1146.4&N-A&N-A\\
+\ce{Ni(IO3)2(s)}&-489.1&-326.4&213.0\\
+\ce{NiO(s)}&-239.7&-211.7&38.0\\
+\ce{NiO2(s)}&N-A&-199.0&N-A-\\
+\ce{Ni(OH)2(s)}&-529.7&-447.3&88.0\\
+\ce{Ni(CN)2(s)}&127.6&N-A-&94.1\\
+\ce{Ni(NO3)2(s)}&-415.0&-238.0&192.0\\
+\ce{Ni(NO3)2.3H2O(s)}&-1326.3&N-A&\\
+\ce{Ni(NO3)2.6H2O(s)}&-2211.7&-1662.7&N-A-\\
+\ce{NiS(s)}&-82.0&-79.5&53.0\\
+
+\ce{NiSO4(s)}&-872.9&-759.8&92.0\\
+\ce{NiSO4.4H2O(s)}&-2104.1&N-A&\\
+\ce{NiSO4.6H2O(s)}&-2682.8&-2224.9&334.5\\
+\ce{NiSO4.7H2O(s)}&-2976.3&-2462.2&378.9\\
+\ce{NiC3(s)}&-664.0&-615.0&91.6\\
+\ce{Ni(CO)4(l)}&-633.0&-588.3&313.4\\
+
+
+
+
+\midrule	\multicolumn{4}{c}{N} \\	\midrule
+
+
+\ce{N2(g)}&0&0&191.5\\
+\ce{N2H4(l)hydrazine}&50.6&149.2&121.2\\
+\ce{NF3(g)}&-124.7&-83.3&260.2\\
+\ce{NCl3(l)}&230.1&-N-A&insoluble\\
+\ce{N2O(g)}&82.0&104.2&219.7\\
+\ce{NO(g)}&90.2&86.6&210.7\\
+\ce{N2O3(g)}&83.7&139.4&312.0\\
+\ce{decomposes}&&&\\
+\ce{NO2(g)}&33.2&51.3&240.0\\
+\ce{decomposes}&&&\\
+\ce{N2O4(g)}&9.2&97.8&304.2\\
+\ce{decomposes}&&&\\
+\ce{N2O5(g)}&-41.2&113.8&178.2\\
+\ce{decomposes}&&&\\
+\ce{NO3-1(aq)}&-205.0&-108.7&146.4\\
+
+
+
+
+
+
+
+
+\ce{NH3(g)}&-46.1&-16.5&192.3\\
+\ce{NH4+1(aq)}&-132.5&-79.4&113.0\\
+\ce{NH4F(s)}&-464.0&-348.8&72.0\\
+\ce{NH4Cl(s)}&-314.4&-203.0&94.6\\
+\ce{NH4ClO4(s)}&-295.3&-88.9&186.2\\
+\ce{NH4Br(s)}&-270.8&-175.3&113.0\\
+\ce{NH4I(s)}&-201.4&-112.5&117.0\\
+\ce{NH4IO3(s)}&-385.8&N-A&0.0107\\
+\ce{(NH4)2Cr2O7(s)}&-1807.0&N-A&\\
+\ce{NH4OH(l)}&-361.2&-254.1&165.6\\
+\ce{NH4NO3(s)}&-365.6&-184.0&151.1\\
+\ce{(NH4)2SO4(s)}&-1180.9&-901.9&220.1\\
+\ce{NH4VO3(s)}&-1053.1&-888.3&140.6\\
+
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\midrule	\multicolumn{4}{c}{O} \\	\midrule
+
+\ce{O2(g)}&0&0&205.0\\
+\ce{O3(g)ozone}&142.7&163.2&238.8\\
+\ce{OH-1(aq)}&-230.0&-157.2&-10.8\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{P} \\	\midrule
+
+
+\ce{P(s)(white)}&0&0&41.1\\
+\ce{P4(g)}&314.5&278.3&163.2\\
+\ce{PH3(g)}&5.4&13.4&210.1\\
+\ce{PH4I(s)}&-69.9&0.8&123.0\\
+\ce{PF3(g)}&-918.8&-897.5&273.1\\
+\ce{PF5(g)}&-1595.8&N-A-&281.0\\
+\ce{PCl3(l)}&-319.7&-272.4&217.1\\
+\ce{PCl5(s)}&-443.5&N-A-&166.5\\
+\ce{POCl3(l)}&-597.1&-520.9&222.5\\
+\ce{PBr3(l)}&-184.5&-175.7&240.2\\
+\ce{PBr5(s)}&-269.9&--N-A-&decomposes\\
+\ce{POBr3(s)}&-458.6&-430.5&N-A--\\
+\ce{P4O6(s)}&-1640.1&-N-A-&decomposes\\
+\ce{P4O10(s)}&-2984.0&-2697.8&228.9\\
+\ce{P2S5(s)}&251.0&-N-A-&insoluble\\
+
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{K} \\	\midrule
+
+
+\ce{K(s)}&0&0&64.2\\
+\ce{K+1(g)}&514.3&481.2&154.4\\
+\ce{KF(s)}&-567.3&-537.8&66.6\\
+\ce{KF.2H2O(s)}&-1163.6&-1021.6&155.2\\
+\ce{KCl(s)}&-436.7&-409.2&82.6\\
+\ce{KClO3(s)}&-397.7&-296.3&143.1\\
+\ce{KClO4(s)}&-432.8&-303.2&151.0\\
+
+\ce{KBr(s)}&-393.8&-380.7&95.9\\
+\ce{KBrO3(s)}&-360.2&-271.2&149.2\\
+\ce{KBrO4(s)}&-287.9&-174.5&170.1\\
+\ce{KI(s)}&-327.9&-324.9&106.3\\
+\ce{KIO3(s)}&-501.4&-418.4&151.5\\
+\ce{KIO4(s)}&-467.2&-361.4&176.0\\
+\ce{K2O(s)}&-361.4&N-A&N-A\\
+\ce{KO2(s)}&-284.9&-239.5&116.7\\
+\ce{KOH(s)}&-424.8&-379.1&78.9\\
+\ce{KOH.2H2O(s)}&-1051.0&-887.4&151.0\\
+\ce{K2CO3(s)}&-1151.0&-1063.6&155.5\\
+\ce{KHCO3(s)}&-963.2&-863.6&115.5\\
+\ce{KNO2(s)}&-369.8&-306.6&152.1\\
+\ce{KNO3(s)}&-494.6&-349.9&133.1\\
+\ce{KCN(s)}&-113.0&-101.9&128.5\\
+\ce{KSCN(s)}&-200.2&-178.3&124.3\\
+\ce{K2S(s)}&-380.7&-364.0&104.6\\
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{K2SO4(s)}&-1437.8&-1321.4&175.6\\
+\ce{KHSO4(s)}&-1160.6&-1031.4&138.1\\
+\ce{KH2PO4(s)}&-1568.3&-1415.9&134.9\\
+\ce{KMnO4(s)}&-837.2&-737.6&171.7\\
+\ce{K2CrO4(s)}&-1403.7&-1295.8&200.1\\
+\ce{K2Cr2O7(s)}&-2061.4&-1882.0&291.2\\
+\ce{KAl(SO4)2(s)}&-2470.2&-2240.1&204.6\\
+\ce{KAl(SO4)2.12H2O(s)}&-6061.8&-5141.7&687.4\\
+\ce{KCr(SO4)2.12H2O(s)}&-5777.3&N-A&0.0441\\
+\ce{K3Fe(CN)6(s)}&-249.8&-129.7&426.1\\
+\ce{K4Fe(CN)6(s)}&-594.1&-453.1&418.8\\
+\ce{K4Fe(CN)6.3H2O(s)}&-1466.5&-1169.0&593.7\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Rb} \\	\midrule
+
+\ce{Rb+1(g)}&490.1&N-A-&164.2\\
+\ce{RbH(s)}&-52.1&-32.2&N-A-\\
+\ce{RbF(s)}&-557.7&-523.4&82.1\\
+\ce{RbCl(s)}&-435.3&-407.8&95.9\\
+\ce{RbClO3(s)}&-402.9&-300.4&151.9\\
+\ce{RbClO4(s)}&-437.2&-307.7&164.0\\
+\ce{RbBr(s)}&-394.6&-381.8&110.0\\
+\ce{RbBrO3(s)}&-367.3&-278.1&161.1\\
+\ce{RbI(s)}&-333.8&-328.9&118.4\\
+\ce{RbIO3(s)}&N-A-&-426.3&N-A-\\
+\ce{RbOH(s)}&-418.2&N-A-&84.1\\
+\ce{RbOH.H2O(s)}&-748.9&N-A-&\\
+\ce{RbOH.2H2O(s)}&-1053.2&N-A-&\\
+\ce{Rb2CO3(s)}&-1136.0&-1051.0&181.4\\
+\ce{RbHCO3(s)}&-936.2&-893.6&121.3\\
+\ce{RbNO3(s)}&-495.1&-395.8&147.3\\
+\ce{Rb2S(s)}&-360.7&-339.0&134.0\\
+\ce{Rb2SO4(s)}&-1435.6&-1317.0&197.4\\
+\ce{RbHSO4(s)}&-1158.9&-1030.1&N-A--\\
+
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Sc} \\	\midrule
+
+\ce{Sc3+(g)}&4627.0&N-A-&156.3\\
+\ce{ScF3(s)}&-1629.2&-1555.6&92.0\\
+\ce{ScCl3(s)}&-925.1&-858.0&127.2\\
+\ce{Sc2O3(s)}&-1908.8&-1819.4&77.0\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Si} \\	\midrule
+
+
+\ce{Si(s)}&0&0&19.0\\
+\ce{SiH4(g)}&34.3&56.9&204.5\\
+\ce{SiF4(g)}&-1614.9&-1572.7&282.4\\
+\ce{SiCl4(l)}&-687.0&-619.9&239.7\\
+\ce{SiCl4(g)}&-657.0&-617.0&330.6\\
+\ce{SiBr4(l)}&-457.3&-443.9&277.8\\
+\ce{SiBr4(g)}&-415.4&-431.8&377.8\\
+\ce{SiO(g)}&-99.6&-126.3&211.5\\
+\ce{SiO2(s)quartz}&-910.9&-856.7&41.8\\
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{SiO2(s)}&-909.5&-855.9&42.7\\
+\ce{SiO2(s)}&-909.1&-855.3&43.5\\
+\ce{SiC(s)}&-62.8&-60.2&16.5\\
+\ce{SiS2(s)}&-207.1&-175.3&66.9\\
+\ce{Si4+(g)}&10428.5&N-A--&229.8\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Ag} \\	\midrule
+
+
+\ce{Ag(s)}&0&0&42.6\\
+\ce{Ag+1(g)}&1019.2&N-A--&167.2\\
+\ce{Ag+1(aq)}&105.2&77.1&72.7\\
+\ce{AgF(s)}&-204.6&-186.6&80.1\\
+\ce{AgF.2H2O(s)}&-800.8&-671.1&174.9\\
+\ce{AgF.4H2O(s)}&-1388.3&-1147.3&268.0\\
+\ce{AgCl(s)}&-127.1&-109.8&96.2\\
+\ce{AgClO3(s)}&-25.5&61.7&149.4\\
+\ce{AgClO4(s)}&-31.1&77.0&N-A-\\
+\ce{AgBr(s)}&-100.4&-96.9&107.1\\
+\ce{AgBrO3(s)}&-27.2&54.4&152.7\\
+\ce{AgI(s)}&-61.8&-66.2&115.5\\
+\ce{Ag2O(s)}&-31.0&-11.2&121.3\\
+\ce{Ag2CO3(s)}&-505.8&-436.8&167.4\\
+\ce{AgNO3(s)}&-124.4&-33.5&140.9\\
+\ce{AgCN(s)}&146.0&156.9&107.2\\
+\ce{Ag2S(s)}&-29.4&-39.5&150.6\\
+\ce{Ag2SO4(s)}&-715.9&-618.5&200.4\\
+\ce{Ag2CrO4(s)}&-712.1&-621.7&216.7\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Na} \\	\midrule
+
+
+\ce{Na(s)}&0&0&51.0\\
+\ce{Na+1(g)}&609.0&N-A-&147.9\\
+\ce{Na+1(aq)}&-240.1&-261.9&59.0\\
+\ce{NaH(s)}&-56.1&-33.5&40.0\\
+\ce{NaF(s)}&-573.6&-543.5&51.5\\
+\ce{NaCl(s)}&-411.2&-384.2&72.1\\
+\ce{NaClO3(s)}&-365.8&-262.2&123.4\\
+
+\ce{NaClO4(s)}&-383.3&-254.9&142.3\\
+\ce{NaBr(s)}&-361.1&-349.0&86.8\\
+\ce{NaBr.H2O(s)}&-951.9&-828.4&179.1\\
+\ce{NaBrO3(s)}&-344.1&-242.8&128.9\\
+\ce{NaI(s)}&-287.8&-286.1&98.5\\
+\ce{NaIO3(s)}&-481.8&N-A-&135.1\\
+\ce{NaIO3.H2O(s)}&-779.5&-634.1&162.3\\
+\ce{NaIO3.5H2O(s)}&-1952.3&N-A-&\\
+\ce{Na2O(s)}&-414.5&-375.5&75.1\\
+\ce{Na2O2(s)}&-510.9&-447.7&95.0\\
+\ce{NaOH(s)}&-425.6&-379.5&64.5\\
+\ce{NaOH.H2O(s)}&-734.5&-629.4&99.5\\
+\ce{Na2CO3(s)}&-1130.7&-1044.5&135.0\\
+\ce{Na2CO3.10H2O(s)}&-4081.3&-3428.2&564.0\\
+\ce{NaHCO3(s)}&-950.8&-851.0&101.7\\
+\ce{NaNO2(s)}&-358.7&-284.6&103.8\\
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+
+
+\ce{NaCN(s)}&-87.5&-76.4&115.6\\
+\ce{Na2S(s)}&-364.8&-349.8&83.7\\
+\ce{Na2SO4(s)}&-1387.1&-1270.2&149.6\\
+\ce{Na2SO4.10H2O(s)}&-4327.3&-3647.4&592.0\\
+\ce{NaHSO4(s)}&-1125.5&-992.9&113.0\\
+\ce{Na2S2O3(s)}&-1123.0&-1028.0&155.0\\
+\ce{Na2S2O3.5H2O(s)}&-2607.9&-2230.1&372.4\\
+\ce{Na3PO4(s)}&-1917.4&-1788.9&173.8\\
+\ce{Na2SiO3(s)}&-1554.9&-1461.0&113.8\\
+\ce{Na2B4O7(s)}&-3291.1&-3096.2&189.2\\
+\ce{Na2B4O7.10H2O(s)}&-6288.6&-5516.6&585.5\\
+\ce{NaNH2(s)}&-123.8&-64.0&76.9\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Sr} \\	\midrule
+
+\ce{Sr2+(g)}&1790.6&N-A--&164.6\\
+\ce{SrF2(s)}&-1216.3&-1164.8&82.1\\
+\ce{SrCl2(s)}&-828.9&-781.2&114.9\\
+\ce{SrCl2.H2O(s)}&-1136.8&-1036.4&172.0\\
+\ce{SrCl2.2H2O(s)}&-1438.0&-1282.0&218.0\\
+\ce{SrCl2.6H2O(s)}&-2623.8&-2241.2&390.8\\
+\ce{Sr(ClO4)2(s)}&-762.8&N-A-&247.1\\
+\ce{SrBr2(s)}&-717.6&-697.1&135.1\\
+\ce{SrI2(s)}&-558.1&-562.3&159.0\\
+\ce{SrI2.H2O(s)}&-886.0&N-A-&\\
+\ce{SrI2.2H2O(s)}&-1182.4&N-A-&\\
+\ce{SrI2.6H2O(s)}&-2388.6&N-A-&\\
+\ce{Sr(IO3)2(s)}&-1019.2&-855.2&234.0\\
+\ce{SrO(s)}&-592.0&-561.9&54.4\\
+\ce{Sr(OH)2(s)}&-959.0&-869.4&88.0\\
+\ce{Sr(OH)2.8H2O(s)}&-3352.2&-N-A-&0.00655\\
+\ce{SrCO3(s)}&-1220.1&-1104.4&97.1\\
+\ce{Sr(HCO3)2(aq)}&-1927.9&-1731.3&150.6\\
+\ce{Sr(NO3)2(s)}&-978.2&-780.1&194.6\\
+\ce{Sr(NO3)2.4H2O(s)}&-2154.8&-1730.7&369.0\\
+\ce{SrS(s)}&-453.1&-448.5&68.2\\
+\ce{SrSO4(s)}&-1453.1&-1341.0&117.0\\
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{S} \\	\midrule
+
+\ce{S(s)(rhombic)}&0&0&31.8\\
+\ce{S2-(aq)}&33.1&85.8&-14.6\\
+\ce{SF4(g)}&-774.9&-731.4&291.9\\
+\ce{SF6(g)}&-1209.0&-1105.4&291.7\\
+\ce{SCl2(g)}&-19.7&N-A--&282.2\\
+\ce{SCl4(l)}&-56.1&N-A-&decomposes\\
+\ce{S2Cl2(s)}&-59.4&4.2&N-A-\\
+\ce{SOCl2(l)}&-245.6&-197.9&307.9\\
+\ce{SO2Cl2(l)}&-394.1&-305.0&216.7\\
+\ce{SO2(g)}&-296.8&-300.2&248.1\\
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\ce{SO3(l)}&-441.0&-368.4&95.6\\
+\ce{SO3(g)}&-396.0&-370.0&256.0\\
+\ce{S(g)}&278.8&238.3&167.8\\
+\ce{S2(g)}&128.4&79.3&228.1\\
+\ce{S8(g)}&102.3&49.7&430.9\\
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Sn} \\	\midrule
+
+
+\ce{Sn(s)(white)}&0&0&51.6\\
+\ce{Sn2+(g)}&2434.9&N-A-&168.4\\
+\ce{Sn2+(aq)}&-8.8&-27.2&-17.0\\
+\ce{Sn4+(g)}&9323.2&N-A-&168.4\\
+\ce{SnH4(g)}&162.8&188.2&227.6\\
+\ce{SnCl2(s)}&-325.1&N-A&1.42\\
+\ce{SnCl2.2H2O(s)}&-921.3&-787.8&N-A--\\
+\ce{SnCl4(l)}&-511.3&-440.2&258.6\\
+\ce{SnBr2(s)}&-243.5&-250.6&146.0\\
+\ce{SnBr4(s)}&-377.4&-350.2&264.4\\
+\ce{SnBr4.8H2O(s)}&-276.8&-N-A-&\\
+\ce{SnI2(s)}&-143.5&-145.2&168.6\\
+\ce{SnO(s)}&-285.8&-256.9&56.5\\
+\ce{SnO2(s)}&-580.7&-519.7&52.3\\
+\ce{SnS(s)}&-100.0&-98.3&77.0\\
+\ce{Sn(SO4)2(s)}&-1629.2&-1443.0&155.2\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Ti} \\	\midrule
+
+
+\ce{Ti2+(g)}&2450.6&N-A-&\\
+\ce{Ti3+(g)}&9290.2&N-A-&\\
+\ce{TiH2(s)}&-119.7&-80.3&29.1\\
+\ce{TiCl2(s)}&-513.8&-464.4&87.4\\
+\ce{TiCl3(s)}&-720.9&-653.5&139.7\\
+\ce{TiCl4(s)}&-804.2&-737.2&252.3\\
+\ce{TiBr2(s)}&-402.0&-375.0&130.1\\
+\ce{TiBr3(s)}&-548.5&-523.8&176.6\\
+\ce{TiBr4(s)}&-616.7&-589.5&243.5\\
+\ce{TiI2(s)}&-263.0&-270.1&147.7\\
+\ce{TiI4(s)}&-375.7&-371.5&249.4\\
+\ce{TiO2(s)}&-939.7&-884.5&49.9\\
+\ce{Ti2O3(s)}&-1520.9&-1434.3&78.9\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{W} \\	\midrule
+
+
+\ce{W+1(g)}&1625.9&N-A&\\
+\ce{WF6(l)}&-1747.7&-1631.4&251.5\\
+\ce{WCl2(s)}&-255.0&-213.6&130.2\\
+\ce{WCl4(s)}&-467.0&-303.1&344.5\\
+\ce{WCl6(s)}&-682.5&-548.9&254.0\\
+\ce{WBr6(s)}&-348.5&-328.0&472.0\\
+\ce{WO3(s)wolfamite}&-842.9&-764.1&75.9\\
+\ce{WS2(s)}&-209.0&N-A&84.0\\
+\ce{WC(s)}&-40.5&-40.2&35.6\\
+
+
+
+
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+\newpage\begin{fullwidth}
+\begin{figure*}[h] % FUL FIGURE
+\centering
+\fontfamily{ppl}\selectfont
+\begin{tabular}{llll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{4}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}l} Standard thermodynamic functions at 1atm and 298K.} \\
+\toprule
+\rowcolor{black!45}Substance & $\Delta H_f^{\circ}$ (KJ/mol)&  $\Delta G_f^{\circ}$ (KJ/mol)& $\Delta S^{\circ}$  (J/K$\cdot\text{ }$ mol)\\
+\midrule
+
+\midrule	\multicolumn{4}{c}{U} \\	\midrule
+
+
+
+\ce{UF6(g)}&-2112.9&-2029.3&379.7\\
+\ce{UCl2(s)}&-75.3&-80.3&79.0\\
+\ce{UCl2O2(s)}&-1263.1&-1159.0&150.5\\
+\ce{UO2(s)}&-1129.7&-1075.3&77.8\\
+\ce{UO3(s)}&-1263.6&-1184.1&98.6\\
+\ce{U2C3(s)}&-205.0&-201.0&105.0\\
+\ce{UO2(NO3)2(s)}&-1377.4&-1142.7&276.1\\
+\ce{UO2(NO3)2.6H2O(s)}&-3197.8&-2615.0&505.6\\
+\ce{US2(s)}&-502.0&-531.7&110.5\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{V} \\	\midrule
+
+
+\ce{V2+(g)}&2590.5&N-A-&169.4\\
+\ce{V3+(g)}&5430.5&N-A-&171.5\\
+\ce{V4+(g)}&9943.3&N-A-&169.3\\
+\ce{VF4(s)}&-1403.3&N-A&\\
+\ce{VF5(l)}&-1480.3&-1373.2&175.7\\
+\ce{VF5(g)}&-1433.8&-1369.8&320.8\\
+\ce{VCl2(s)}&-452.0&-406.0&97.1\\
+\ce{VCl3(s)}&-580.7&-511.3&131.0\\
+\ce{VCl4(l)}&-569.4&-503.7&255.2\\
+\ce{VBr2(s)}&-365.3&N-A&126.0\\
+\ce{VBr3(s)}&-433.5&N-A&142.0\\
+\ce{VBr4(g)}&-336.8&N-A&335.0\\
+\ce{VI2(s)}&-251.5&N-A&143.1\\
+\ce{VO(s)}&-431.8&-404.2&38.9\\
+\ce{V2O3(s)}&-1228.0&-1139.3&98.3\\
+\ce{V2O5(s)}&-1550.6&-1419.6&131.0\\
+
+
+
+
+
+
+
+\midrule	\multicolumn{4}{c}{Xe} \\	\midrule
+
+
+\ce{XeF2(s)}&-133.9&-62.8&133.9\\
+\ce{XeF4(s)}&-261.5&-121.3&146.4\\
+\ce{XeF6(s)}&-380.7&N-A&\\
+\ce{XeO3(s)}&401.7&N-A&\\
+\midrule	\multicolumn{4}{c}{Zn} \\	\midrule
+
+\ce{Zn(s)}&0&0&41.6\\
+\ce{Zn2+(g)}&2782.7&N-A-&160.9\\
+\ce{Zn2+(aq)}&-153.9&-147.1&-112.1\\
+\ce{ZnF2(s)}&-764.4&-449.5&73.7\\
+\ce{ZnCl2(s)}&-415.1&-369.4&111.5\\
+\ce{ZnBr2(s)}&-328.7&-312.1&138.5\\
+\ce{ZnI2(s)}&-208.0&-208.9&161.1\\
+\ce{ZnO(s)}&-348.3&-318.3&43.6\\
+\ce{ZnCO3(s)}&-812.8&-731.6&82.4\\
+\ce{Zn(NO3)2(s)}&-483.7&N-A&\\
+\ce{Zn(NO3)2.6H2O(s)}&-2306.6&-1773.1&456.9\\
+\ce{ZnS(s)wurtzite}&-192.6&-187.0&57.7\\
+\ce{ZnS(s)blende}&-206.0&-201.3&65.3\\
+\ce{ZnSO4(s)}&-982.8&-874.5&119.7\\
+\ce{ZnSO4.7H2O(s)}&-3077.8&-2563.1&388.7\\								
+									
+									
+									
+									
+\bottomrule
+\end{tabular}
+\end{figure*} % FUL FIGURE
+\end{fullwidth}
+
+
+
+
+\end{document}

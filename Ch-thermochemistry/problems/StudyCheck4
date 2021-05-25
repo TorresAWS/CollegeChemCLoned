@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+How many calories are absorbed by 100g of Gold ($c_e=0.0308\frac{cal}{g^{\circ}C}$) if its temperature rises from 25$^{\circ}$C to 100$^{\circ}$C. 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $Q=231cal$.
+ \end{flushright} }
+

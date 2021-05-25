@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Given the following Lewis structures, identify the hybridization of the central atom:
+\begin{center}\hspace{.05in}\chemfig{B(-[:0]\lewis{026,F})(-[:120]\lewis{024,F})(-[:240]\lewis{046,F})}\hspace{.05in}\hspace{.15in}\chemfig{\lewis{2,S}(=[:330]\lewis{06,O})(-[:210]\lewis{246,O})}\hspace{.05in} and \hspace{.05in}\chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)}\hspace{.05in}
+\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to identify the hybrid character of the central atom, we first need to obtain the \ce{ABE} code. For \ce{BF3} the class is \ce{AB3}, for \ce{SO2} is \ce{AB2E} and finally for \ce{CH4} is \ce{AB4}. The number of electron regions for \ce{BF3} is three. Therefore we would need three hybrid orbitals: $sp2$. An empty $p$ orbital will remain unused in the bond. For  \ce{SO2} we need three electron regions and hence the hybridization of the central atom will also be $sp2$. For the case of methane, the hybridization will be $sp3$, as the molecule has four electron regions.
+\\
+ \import{./}{StudyCheck9}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

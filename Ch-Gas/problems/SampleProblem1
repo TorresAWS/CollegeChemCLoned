@@ -1,0 +1,18 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+An oxygen sample has a pressure of 2 atm. Convert this value to: (a) mmHg and (b) Pascals.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(a) we start by placing the given data (2 atm) and using the conversion factor between atm and mmHg, with the atm unit on the bottom, so that the units cancel
+\begin{equation*}
+2   \cancel{\text{ atm }} \times
+\dfrac{760\text{ mmHg}  } {1\cancel{\text{ atm}}}=1520\text{mmHg}
+\end{equation*}
+(b) we proceed as in (a) but using the conversion between atm and Pa:
+\begin{equation*}
+2   \cancel{\text{ atm }} \times
+\dfrac{101325\text{ Pa}  } {1\cancel{\text{ atm}}}=2.02\times 10^{5}\text{Pa}
+\end{equation*}
+\\
+\import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+

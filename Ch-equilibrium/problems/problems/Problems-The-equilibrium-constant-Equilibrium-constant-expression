@@ -1,0 +1,36 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the expression of $K_{c}$ for the following reaction:
+ \begin{enumerate}[label=(\alph*)]	
+\item  \ce{2SO2_{(g)} + O2_{(g)} <=> 2SO3_{(g)}} % $K_{c}=\frac{   \big[ \ce{SO3} \big]^2    } { \big[\ce{SO2} \big]^2 \cdot \big[\ce{O2} \big]\  } $
+\item  \ce{CO_{(g)} + 2H2_{(g)} <=> CH3OH_{(g)}} % $K_{c}=\frac{  \big[\ce{CH3OH} \big]  } { \big[\ce{H2} \big]^2 \cdot \big[\ce{CO} \big]\  } $
+\item  \ce{C2H6_{(g)} + Cl2_{(g)} <=> C2H2Cl_{(s)} + HCl_{(g)}} %$K_{c}=\frac{   \big[ \ce{HCl} \big]    } { \big[\ce{C2H6} \big] \cdot \big[\ce{Cl2} \big]\  } $
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item    $K_{c}=\frac{   \big[ \ce{SO3} \big]^2    } { \big[\ce{SO2} \big]^2 \cdot \big[\ce{O2} \big]\  } $ ; $K_{p}=\frac{   p_{\ce{SO3}}^2    } { p_{\ce{SO2}}^2 \cdot p_{\ce{O2}}  } $
+\item    $K_{c}=\frac{  \big[\ce{CH3OH} \big]  } { \big[\ce{H2} \big]^2 \cdot \big[\ce{CO} \big]\  } $;$K_{p}=\frac{  p_{\ce{CH3OH}}   } { p_{\ce{H2}}^2 \cdot p_{\ce{CO}}  } $
+\item  $K_{c}=\frac{   \big[ \ce{HCl} \big]    } { \big[\ce{C2H6} \big] \cdot \big[\ce{Cl2} \big]\  } $ ; $K_{p}=\frac{   p_{ \ce{HCl}}    } { p_{\ce{C2H6}}  \cdot p_{\ce{Cl2}}   } $
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Write down the expression of $K_c$ for the following reaction:
+ \begin{enumerate}[label=(\alph*)]	
+\item \ce{BaCO3_{(s)} <=> Ba^{2+}_{(aq)} + CO3^{2-}_{(aq)}} % $\big[\ce{Ba^{2+}}\big] \cdot \big[\ce{CO3^{2-}} \big]\  $
+\item \ce{2H2_{(g)} + O2_{(g)} <=> 2H2O_{(l)}} %$\frac{  1  } { \big[\ce{H2} \big]^2 \cdot \big[\ce{O2} \big]\  } $
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   $\big[\ce{Ba^{2+}}\big] \cdot \big[\ce{CO3^{2-}} \big]\  $
+\item  $\frac{  1  } { \big[\ce{H2} \big]^2 \cdot \big[\ce{O2} \big]\  } $
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+

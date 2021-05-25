@@ -1,0 +1,14 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The solubility product of Copper(II) arsenate  \ce{Cu3(AsO4)2} is $7.95\times10^{-36}$. Calculate the molar solubility of the salt.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+In order to calculate the salt solubility, we will first break it down into ions. Copper(II) arsenate contains \ce{Cu^{2+}} ions and arsenate ions \ce{AsO4^{3+}}. The solubility dissociation is given by:
+\begin{center}\ce{Cu3(AsO4)2_{(s)}  <=> 3Cu^{2+}_{(aq)} + 2AsO4^{3+}_{(aq)}}\hfill $K_{sp}= \big[ \ce{Cu^{2+}} \big]^3\cdot \big[ \ce{AsO4^{3+}} \big]^2$\end{center}
+The molar concentration of copper and arsenate are related to solubility, taking into account the stoichiometric coefficients:
+\begin{center}$K_{sp}= \big[ \ce{Cu^{2+}} \big]^3\cdot \big[ \ce{AsO4^{3+}} \big]^2=(3s)^3\cdot(2s)^2=108s^{5}$\end{center}
+As we know the value of the solubility product, we can solve for $s$:
+\begin{center}$7.95\times10^{-36}=108s^{5}$\end{center}
+Solving for $s$ we have:
+\begin{center}$s^{5}=\frac{7.95\times10^{-36}}{108}\text{ and } s=\sqrt[5]{\frac{7.95\times10^{-36}}{108}  }= \big(\frac{7.95\times10^{36}}{108} \big)^{\frac{1}{5}}=3.7\times 10^{-8}M  $\end{center}
+\import{./}{StudyCheck5}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

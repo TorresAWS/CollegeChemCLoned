@@ -1,0 +1,77 @@
+ 
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+     \begin{center}
+\begin{tikzpicture}[scale=1]
+\pgfmathsetmacro{\shift}{2}
+\begin{scope}[->,xshift=-2.3cm]
+      \draw(0,0,0)coordinate(O)--+(.5,0,0)node[above]{\tiny\(x\)};
+      \draw(O)--+(0,.5,0)node[above]{\tiny\(y\)};
+      \draw(O)--+(0,0,.5)node[left]{\tiny\(z\)};
+    \end{scope}
+    
+\begin{scope}[xshift=0cm]
+\node[scale=0.5] at (-1.0,0.0) {\usebox\mononutdashed};\node[scale=0.5] at (0.0,0.0) {\usebox\mononut} ;
+\fill[red!20] (-0.5,0) circle (0.1);\node at (-0.5,0.0) {\tiny\ce{O}};\node at (-0.5,-1.0) {$p_{x}$};
+\node at (1.0,0.0) {\huge$-$};
+\node[scale=0.5] at (2.0,0.0) {\usebox\mononutdashed};\node[scale=0.5] at (3.0,0.0) {\usebox\mononut} ;
+\fill[red!20] (2.5,0) circle (0.1);\node at (2.5,0.0) {\tiny\ce{O}};\node at (2.5,-1.0) {$p_{x}$};
+ \draw[->,black, solid] (4.0,0.0) -- (4.5,0.0)   ;
+ \node[scale=0.5] at (\shift+4.5-1.38,0.0) {\usebox\mononutdashed};
+\node[scale=0.5, line width = 2pt] at (\shift+4.5,0.0) {\usebox\peanut}; \node[scale=0.5] at (\shift+4.5+1.38,0.0) {\usebox\mononutdashed};\fill[red!20] (\shift+4.3,0.0) circle (0.1) (\shift+4.6,0.0) circle (0.1);\fill[red!20] (\shift+4.3,0.04) rectangle (\shift+4.7,-0.04);\node at (\shift+4.3,0.0) {\tiny\ce{O}};\node at (\shift+4.6,0.0) {\tiny\ce{O}};\node at (\shift+4.6,-1.0) {$\sigma_{2p}$};
+\end{scope}
+\begin{scope}[yshift=-2cm]
+\begin{scope}[->,xshift=-2.3cm]
+      \draw(0,0,0)coordinate(O)--+(.5,0,0)node[above]{\tiny\(x\)};
+      \draw(O)--+(0,.5,0)node[above]{\tiny\(y\)};
+      \draw(O)--+(0,0,.5)node[left]{\tiny\(z\)};
+    \end{scope}
+\node[scale=0.5] at (-1.0,0.0) {\usebox\mononutdashed};\node[scale=0.5] at (0.0,0.0) {\usebox\mononut} ;
+\fill[red!20] (-0.5,0) circle (0.1);\node at (-0.5,0.0) {\tiny\ce{O}};\node at (-0.5,-1.0) {$p_{x}$};
+\node at (1.0,0.0) {\huge$+$};
+\node[scale=0.5] at (2.0,0.0) {\usebox\mononutdashed};\node[scale=0.5] at (3.0,0.0) {\usebox\mononut} ;
+\fill[red!20] (2.5,0) circle (0.1);\node at (2.5,0.0) {\tiny\ce{O}};\node at (2.5,-1.0) {$p_{x}$};
+ \draw[->,black, solid] (4.0,0.0) -- (4.5,0.0)   ;
+ \node[scale=0.5] at (\shift+4.5-1.38,0.0) {\usebox\mononutdashed};
+\node[scale=0.5, line width = 2pt] at (\shift+4.1,0.0) {\usebox\mononut}; \node[scale=0.5, line width = 2pt] at (\shift+4.1+1,0.0) {\usebox\mononutdashed }; 
+\node[scale=0.5] at (\shift+4.7+1.41,0.0) {\usebox\mononut};\fill[red!20] (\shift+4.3,0.0) circle (0.1) (\shift+5.0,0.0) circle (0.1);\fill[red!20] (\shift+4.3,0.04) rectangle (\shift+5.1,-0.04);\node at (\shift+4.3,0.0) {\tiny\ce{O}};\node at (\shift+5.0,0.0) {\tiny\ce{O}};\node at (\shift+4.6,-1.0) {$\sigma^*_{2p}$};
+\end{scope}
+
+\pgfmathsetmacro{\shift}{2}
+\begin{scope}[->,xshift=-2.3cm, yshift=-5cm]
+      \draw(0,0,0)coordinate(O)--+(.5,0,0)node[above]{\tiny\(x\)};
+      \draw(O)--+(0,.5,0)node[above]{\tiny\(y\)};
+      \draw(O)--+(0,0,.5)node[left]{\tiny\(z\)};
+    \end{scope}
+\begin{scope}[xshift=0cm, yshift=-5cm]
+\node[scale=0.5] at (0.0,0.5) {\usebox\mononut};\node[scale=0.5] at (0.0,-0.5) {\usebox\mononutdashed } ;
+\fill[red!20] (0,0) circle (0.1);\node at (0,0.0) {\tiny\ce{O}};\node at (0,-1.5) {$p_{y}$};
+\node at (1.0,0.0) {\huge$+$};
+\node[scale=0.5] at (2.0,0.5) {\usebox\mononut };\node[scale=0.5] at (2.0,-0.5) {\usebox\mononutdashed} ;
+\fill[red!20] (2,0) circle (0.1);\node at (2,0.0) {\tiny\ce{O}};\node at (2.,-1.5) {$p_{y}$};
+ \draw[->,black, solid] (4.0,0.0) -- (4.5,0.0)   ;
+\node[scale=0.5, line width = 2pt] at (\shift+4.5,0.5) {\usebox\peanut};\node[scale=0.5, line width = 2pt] at (\shift+4.5,-0.50) {\usebox\peanutdashed};
+ \fill[red!20] (\shift+4.3,0.0) circle (0.1) (\shift+4.6,0.0) circle (0.1);\fill[red!20] (\shift+4.3,0.04) rectangle (\shift+4.7,-0.04);\node at (\shift+4.3,0.0) {\tiny\ce{O}};\node at (\shift+4.6,0.0) {\tiny\ce{O}};\node at (\shift+4.6,-1.5) {$\pi_{2p}$};
+\end{scope}
+
+\begin{scope}[yshift=-8cm]
+\begin{scope}[->,xshift=-2.3cm]
+      \draw(0,0,0)coordinate(O)--+(.5,0,0)node[above]{\tiny\(x\)};
+      \draw(O)--+(0,.5,0)node[above]{\tiny\(y\)};
+      \draw(O)--+(0,0,.5)node[left]{\tiny\(z\)};
+    \end{scope}
+\node[scale=0.5] at (0.0,0.5) {\usebox\mononut};\node[scale=0.5] at (0.0,-0.5) {\usebox\mononutdashed } ;
+\fill[red!20] (0,0) circle (0.1);\node at (0,0.0) {\tiny\ce{O}};\node at (0,-1.5) {$p_{y}$};
+\node at (1.0,0.0) {\huge$-$};
+\node[scale=0.5] at (2.0,0.5) {\usebox\mononut };\node[scale=0.5] at (2.0,-0.5) {\usebox\mononutdashed} ;
+\fill[red!20] (2,0) circle (0.1);\node at (2,0.0) {\tiny\ce{O}};\node at (2.,-1.5) {$p_{y}$};
+ \draw[->,black, solid] (4.0,0.0) -- (4.5,0.0)   ;
+\node[scale=0.5] at (\shift+4.2,0.5) {\usebox\mononut};\node[scale=0.5] at (\shift+4.2,-0.5) {\usebox\mononutdashed } ;
+\node[scale=0.5] at (\shift+5.2,0.5) {\usebox\mononutdashed  };\node[scale=0.5] at (\shift+5.2,-0.5) {\usebox\mononut} ;
+ \fill[red!20] (\shift+4.3,0.0) circle (0.1) (\shift+5.2,0.0) circle (0.1);\fill[red!20] (\shift+4.3,0.04) rectangle (\shift+5.3,-0.04);\node at (\shift+4.3,0.0) {\tiny\ce{O}};\node at (\shift+5.2,0.0) {\tiny\ce{O}};\node at (\shift+4.6,-1.5) {$\pi^*_{2p}$};
+\end{scope}
+
+ \node[text width=12cm, fontscale=.3,shift={(7em,-30em)}] at (-0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} (Top) Bonding and antibonding $\sigma$ orbitals resulting of combining two $2p_x$ atomic orbitals of Oxygen. (Bottom) Bonding and antibonding $\pi$ orbitals resulting of combining two $2p$ atomic orbitals of Oxygen. };\end{tikzpicture}\end{center}
+ 
+ 
+ 
+

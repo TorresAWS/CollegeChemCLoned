@@ -1,0 +1,14 @@
+Bohr's models was able to explain the experimental data for the hydrogen spectrum but still scientist--not even Bohr himself--did not know why electrons were restricted to move in specific orbits. Louis de Broglie solved this questions by suggesting that if light can behave--under some conditions--as a particle, perhaps particles such as electrons, can also behave as a wave--under certain circumstances. De Broglie deduced that a particle and wave are related by the following expression:
+ \begin{equation*}
+\lambda=\frac{h}{ m\cdot v}
+\end{equation*}
+where:
+\begin{where}
+ \item $\lambda$   is De Broglie's wavelength of a particle
+  \item $6.6\times 10^{-34}$Js is called Plank's constant, $h$
+ \item $m\cdot v$  is the momentum of a particle, p, that depends on the mass and velocity of the particle
+\end{where}
+In general the wavelength of a particle is referred as the De Broglie wavelength and the mass associated with a wavelength is called De Broglie mass. De Broglie came to this conclusion using the following reasoning: if an electron in the hydrogen atoms behaves like a wave then its wavelength ($\lambda$) must fill the length of the circular orbit ($2\pi r$) so that
+ \begin{equation*}
+n\lambda=2\pi r
+\end{equation*}

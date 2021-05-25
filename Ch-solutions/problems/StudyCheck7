@@ -1,0 +1,4 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Calculate the vapor-pressure lowering of a 3m \ce{I2} (MW=254g/mol) solution in cyclohexane at 279K given  that the vapor pressure of cyclohexane at that temperature is 5.164kPa and the solution density is 1.3g/mL.
+\providetoggle{long}\settoggle{long}{false}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: $\chi=0.05$; $\Delta P_{vap}=-0.26kPa$ 
+ \end{flushright} }

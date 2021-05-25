@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+A KCl solution is prepared by mixing 5g of \ce{KCl} with 200g of \ce{H2O}. Calculate the percent (m/m) of the solution.
+
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: 2.4 \%.
+ \end{flushright} }

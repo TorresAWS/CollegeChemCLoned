@@ -1,0 +1,10 @@
+Often times fatty acids contains double bonds called unsaturations. They can have a single double bond or more than one double bond. Monounsaturated fatty acids only contain a single unsaturation and polyunsaturated fatty acids have more than one double bond. Examples are palmitoleic acid, a monounsaturated fatty acid found in butter or linolenic acid, a polyunsaturated fatty acid found in corn oil. 
+\begin{center}
+\begin{tabular*}{1\textwidth}{@{\extracolsep{\fill}}>{\centering}m{0.36\textwidth}>{\centering}m{0.27\textwidth}>{\centering}m{0.27\textwidth}}
+\chemfig{-[:-45]-[:45]-[:-45]-[:45]-[:-45]=[:0]-[:45](=[:90]O)(-[:-45]OH)}
+&
+\chemfig{-[:45]-[:-45]=[:0]-[:45]-[:-45]=[:0]-[:45](=[:90]O)(-[:-45]OH)}
+\tabularnewline\addlinespace
+\textcolor{blue}{Monounsaturated fatty Acid} & \textcolor{blue}{Polyunsaturated fatty Acid} \tabularnewline
+\end{tabular*}\end{center}
+

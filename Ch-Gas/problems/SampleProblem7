@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Medical Air is a odorless gas made mostly of nitrogen and oxygen,  administer by ventilator in hospital settings with an operating gauge pressure of 3 atm. If the oxygen pressure inside a container is 2.37 atm, calculate the partial pressure of nitrogen in the mixture. 
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The problem gives the total pressure of the mixture and the partial pressure of one of the components. By using Dalton's law, we know that if the total pressure is 3atm and the partial pressure of oxygen is 2.37, hence the partial pressure of the other component has to be 0.63 atm.
+\\
+\import{./}{StudyCheck7}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

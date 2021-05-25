@@ -1,0 +1,125 @@
+\begin{fullwidth}
+ 
+\begin{minipage}[b]{1.7\linewidth}
+ 
+\stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+
+\begin{tikzpicture}[transform canvas={scale=1}, shift={(7,0)}]
+  \begin{scope}[transform canvas={scale=.5}, shift={(0,0)}]
+  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+  \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+        \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+    \draw[-latex,line width=6mm, shift={(1.5,0)}] (3.5,0) -- (6.5,0);
+     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Before collision} ;
+     \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+  \end{scope}
+  
+
+  
+   \begin{scope}[transform canvas={scale=.5}, shift={(12,0)}]
+   \shade[ball color=red!80!  ] (2,0) coordinate(O) circle (0.9) ;
+  \shade[ball color=blue!50! ] (2.5,1.5) coordinate(Hm) circle (.9) ;
+    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
+        \shade[ball color=green!50!] (-2,0) coordinate(Hp) circle (1.3) ;
+        \node[ shift={(-1.,0)},starburst, draw, minimum width=2cm, minimum height=2cm,yellow!90,fill=yellow!40,line width=0.5pt, rotate=90] (-2.5,0)
+{};
+        \draw[-latex,line width=6mm, shift={(0.7,0)}] (3.5,0) -- (6.5,0);
+          \draw (0,0) node[below, shift={(0,-2)}]{\Huge Successful collision (TS)} ;
+          \draw [red, thick] (-3.5,-2) to [square left brace ] (-3.5,3);
+                    \draw [red, thick] ( 3.5,-2) to [square right brace ] ( 3.5,3) node[ red,shift={(0.7,0.6)}] {\Huge \ddag};
+  \end{scope}
+
+   \begin{scope}[transform canvas={scale=.5}, shift={(24,0)}]
+   \shade[ball color=red!80!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }  ] (6,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+  \shade[ball color=blue!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding } ] (6.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (-1,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+        \shade[ball color=green!50!] (-3,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+{};
+          \draw (0,0) node[below, shift={(1,-2)}]{\Huge After collision} ;
+               \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(2,-3)}]   (2,3)--(3,3) ;
+
+  \end{scope}
+
+
+
+ \begin{scope}[transform canvas={scale=.5}, shift={(0,-7)}]
+         \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0.5,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+      \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+    \draw[-latex,line width=6mm, shift={(1.5,0)}] (3.5,0) -- (6.5,0);
+         \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+
+     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Before collision} ;
+  \end{scope}
+
+\begin{scope}[transform canvas={scale=.5}, shift={(12,-7)}]
+     \shade[shift={(-2,0)}, ball color=green!50! ] (0.5,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+  \shade[ball color=red!80! ] (0.5,0) coordinate(O) circle (0.9) ;
+    \shade[ball color=green!50! ] (2.5,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+      \shade[ball color=blue!50! ] (0,1.5) coordinate(Hm) circle (.9) ;      
+        \node[ shift={(-0.8,0)},starburst, draw, minimum width=2cm, minimum height=2cm,yellow!90,fill=yellow!40,line width=0.5pt, rotate=90] (-2.5,0)
+{};
+        \draw[-latex,line width=6mm, shift={(0.5,0)}] (3.5,0) -- (6.5,0);
+          \draw (0,0) node[below, shift={(0,-2)}]{\Huge Unsuccessful collision (Wrong orientation)} ;
+  \end{scope}
+   \begin{scope}[transform canvas={scale=.5}, shift={(25,-7)}]
+       \shade[shift={(-3,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (1.5,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (3.5,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+      \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (1.0,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+                     \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+
+          \draw (0,0) node[below, shift={(1,-2)}]{\Huge After collision} ;
+  \end{scope}
+  
+
+
+ 
+
+
+
+ \begin{scope}[transform canvas={scale=.5}, shift={(0,-14)}]
+  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+  \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (2.5,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+        \shade[shift={(-4,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl} ;
+    \draw[-latex,line width=6mm, shift={(1.5,0)}] (3.5,0) -- (6.5,0);
+     \draw (0,0) node[below, shift={(0,-2)}]{\Huge Before collision} ;
+     \draw [->, very thick, shift={(-4,-3)}] (0,3) -- (1,3); \draw	[<-, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+  \end{scope}
+  
+
+  
+   \begin{scope}[transform canvas={scale=.5}, shift={(12,-14)}]
+   \shade[ball color=red!80!  ] (2,0) coordinate(O) circle (0.9) ;
+  \shade[ball color=blue!50! ] (2.5,1.5) coordinate(Hm) circle (.9) ;
+    \shade[ball color=green!50!] (0,0) coordinate(Hp) circle (1.3) ;
+        \shade[ball color=green!50!] (-2,0) coordinate(Hp) circle (1.3) ;
+        \node[ shift={(-1.,0)},starburst, draw, minimum width=2cm, minimum height=2cm,red!90,fill=red!40,line width=0.5pt, rotate=90] (-2.5,0)
+{};
+        \draw[-latex,line width=6mm, shift={(0.7,0)}] (3.5,0) -- (6.5,0);
+          \draw (0,0) node[below, shift={(0,-2)}]{\Huge Unsuccessful collision (insufficient energy)  } ;
+       
+  \end{scope}
+
+   \begin{scope}[transform canvas={scale=.5}, shift={(25,-14)}]
+       \shade[shift={(-3,0)}, ball color=green!50!,    blur shadow={ shadow xshift=-8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (0,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+  \shade[ball color=red!80!,blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (1.5,0) coordinate(O) circle (0.9) node[align=right,above,xshift=0.0em] {\Huge O};
+    \shade[ball color=green!50!,    blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (3.5,0) coordinate(Hp) circle (1.3) node[align=right,above,xshift=0.0em] {\Huge Cl};
+      \shade[ball color=blue!50!, blur shadow={ shadow xshift=8ex,shadow yshift=0ex,shadow scale=1.0,shadow blur steps=15, shadow blur radius=1.5ex,shadow blur extra rounding }] (1.0,1.5) coordinate(Hm) circle (.9) node[align=right,above,xshift=0.0em] {\Huge N};
+                     \draw [->, very thick, shift={(-4,-3)}] (1,3) -- (0,3)  ; \draw	[->, very thick, shift={(-2,-3)}]   (2,3)--(3,3) ;
+
+          \draw (0,0) node[below, shift={(1,-2)}]{\Huge After collision} ;
+  \end{scope}
+
+
+
+
+
+  
+\node[text width=14cm, fontscale=0.1, shift={(6,-8)}] at (-8em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Example of three collisions, a successful collision that leads to a transition state and the products and two unsuccessful collisions due to an ineffective molecular arrangement and insufficient energy.  };
+\end{tikzpicture}
+\end{minipage}
+\end{fullwidth}

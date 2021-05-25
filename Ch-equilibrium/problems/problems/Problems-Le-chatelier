@@ -1,0 +1,80 @@
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Using the Le Ch\^{a}telier principle indicate whether the reaction below 
+\begin{center}\ce{2SO2(g) + O2(g) <=> 2SO3(g)}\end{center}
+will shift in the direction of products (\ce{->}) or reactants (\ce{<-}) after the following actions:
+  \begin{inparaenum}[(a)]
+\item   add \ce{SO2} %\ce{->}
+\item  add \ce{SO3}% \ce{<-}
+\item  remove \ce{O2}%\ce{<-}
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item  \ce{->}
+\item   \ce{<-}
+\item  \ce{<-}
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+According to Le Ch\^{a}telier principle indicate whether the reaction will shift in the direction of products (\ce{->}) or reactants (\ce{<-}):
+ \begin{enumerate}[label=(\alph*)]	
+\item \ce{CO(g) + 2H2(g) <=> CH3OH(g) + Heat} \hspace{1cm} increase temperature% \ce{<-}
+\item \ce{2B(s) + 3H2(g) + Heat <=> B2H6(g)} \hspace{1cm} increase temperature%\ce{->}
+ \end{enumerate}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+\item   \ce{<-}
+\item  \ce{->}
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+According to Le Ch\^{a}telier principle indicate whether the following reaction will shift in the direction of products (\ce{->}) or reactants (\ce{<-}) after the following changes: 
+  \begin{center}\includegraphics[width=0.3\textwidth]{../Ch-equilibrium/figure14}\end{center}
+  \begin{inparaenum}[(a)]
+\item adding reactants %\ce{->}
+\item increasing temperature %\ce{<-}
+\item decreasing temperature% \ce{->}
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+  \begin{inparaenum}[(a)]
+\item  \ce{->}
+\item  \ce{<-}
+\item  \ce{->}
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+According to Le Ch\^{a}telier principle indicate whether the following reaction will shift in the direction of products (\ce{->}) or reactants (\ce{<-}) after the following changes: 
+  \begin{center}\includegraphics[width=0.3\textwidth]{../Ch-equilibrium/figure15}\end{center}
+  \begin{inparaenum}[(a)]
+\item   adding products %\ce{<-}
+\item removing products%\ce{->}
+\item increasing temperature %\ce{->} 
+ \end{inparaenum}
+\end{question}
+\begin{solution}
+  \begin{inparaenum}[(a)]
+
+\item    \ce{<-}
+\item  \ce{->}
+\item  \ce{->} 
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+
+
+

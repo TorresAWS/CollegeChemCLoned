@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+When a hot ballon inflates and deflates in order to change its height. It receives $10^3$J of heat and its volume increases from $3.0\times 10^{5}$L to $3.5\times 10^{5}$L at fixed external pressure of 1atm. Calculate the internal energy of the hot ballon, using 1J=$101.3\text{L}\cdot \text{atm}$.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Equation \ref{formula2:92} that related work with pressure and volume change. As the resulting unit of work will be $ \text{L}\cdot \text{atm}$, we will directly convert the value into J: 
+\[\text{W} = -\text{P}\cdot \Delta \text{V}=-1\text{atm}\cdot (3.5\times 10^{5}-3.0\times 10^{5})\text{L}\times \frac{1\text{J}}{101.3\text{L}\cdot \text{atm}}=-493.6 \text{J} \]
+Now we will add the value of heat ($10^3$J) to the value of work to calculate the internal energy:
+\[\Delta E= Q+W=10^3 + (-493.6)=1493.6 \text{J} \]
+Overall, the hot ballon receives more heat that the work it gives away and hence the resulting internal energy is positive--the system gains energy.\\
+
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,4 @@
+For a mixture with different gases, the partial pressure of a given gas ($A$) will depend on the number of moles of that particular gas and the overall volume of the mixture
+\begin{equation*}
+\boxed{  p_A = \frac{n_A RT }{V }    }
+\end{equation*}

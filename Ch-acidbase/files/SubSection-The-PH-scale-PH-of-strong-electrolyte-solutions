@@ -1,0 +1,19 @@
+Imagine we prepare a strong acid solution and we want to estimate the PH of the resulting solution. The solution PH will depend on the molarity of the resulting solution:
+\begin{equation}
+\boxed{PH=-log \big(n_{\ce{H}}\cdot c_a \big)  }\label{\chapterlabel:equation7}
+\end{equation}
+where:
+\begin{where}
+ \item $n_{\ce{H}}$   is the number of protons in the acid (e.g. \ce{H3PO4} has $n_{\ce{H}}$=3)
+ \item $c_a$   is the molarity of the acid solution
+\end{where}
+We have an equivalent formula for the POH of a strong base: 
+\begin{equation}
+\boxed{POH=-log \big(n_{\ce{OH}}\cdot c_b \big)  }\label{\chapterlabel:equation8}
+\end{equation}
+where:
+\begin{where}
+ \item $n_{\ce{OH}}$   is the number of hydroxyls in the base  (e.g. \ce{Ca(OH)2} has $n_{\ce{OH}}$=2)
+ \item $c_b$   is the molarity of the base solution
+\end{where}
+Mind these formulas only work for strong acids and bases, as their molarity is directly related to the concentration of protons and hydroxyls. The following example will demonstrate the use of these formulas.

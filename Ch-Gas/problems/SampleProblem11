@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Order the following molecules in increasing order of root mean square velocity: \ce{Ne}, \ce{CO2} and \ce{H2O}.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Root mean square velocity is inversely proportional to the molecular weight of the gas; hence, the larger the mass the lower velocity. If we compare the molecular weight of the gases: \ce{Ne}(MW=20g/mol), \ce{CO2}(MW=44g/mol) and \ce{H2O}(MW=18g/mol). The root mean square velocity of water is the largest and the root mean square velocity of carbon dioxide is the smallest.
+\\
+\import{./}{StudyCheck11}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

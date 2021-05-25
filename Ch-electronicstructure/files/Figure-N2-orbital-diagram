@@ -1,0 +1,56 @@
+\begin{center}
+\begin{tikzpicture}[scale=1,
+  a/.style={on chain,join,draw,rounded corners,minimum size=1.5em,inner sep=1pt},
+  r/.style={a,text=red},
+  % Style for molecular orbital matrices
+  mo/.style={inner sep=-\pgflinewidth,label distance=0.3em,label position=below},
+  % Adjustments for left atom
+  left atom/.style={execute at begin cell={\begin{scope}},
+    execute at end cell={\coordinate[a];\end{scope}},mo,xshift=-1.5cm,matrix anchor=base east},
+  % Adjustments for right atom
+  right atom/.style={execute at begin cell={\begin{scope}\coordinate[a];},
+    execute at end cell={\end{scope}},mo,xshift=1.5cm,matrix anchor=base west},
+  % Adjustments for molecular orbitals
+  molecule/.style={execute at begin cell={\begin{scope}\coordinate[a,inner sep=2cm];},
+    execute at end cell={\coordinate[a];\end{scope}},mo,anchor=base},
+  % Morbusg's scope-chain magic
+  every scope/.style={start chain,node distance=1mm},
+  ]
+\matrix[molecule,yshift=2cm] (as) { % Antibonding Sigma
+    \node[a,label=$\sigma_{2p}^*$]{}; \\};
+\matrix[molecule,yshift=0.8cm] (ap) {  % Antibonding Pi
+    \node[a,label=$\pi_{2p}^*$]{};
+    \node[a,label=$\pi_{2p}^*$]{}; \\};
+\matrix[molecule,yshift=-2cm] (bp) { % Bonding Pi
+      \node[a,label=$\pi_{2p}$]{\moupdown};
+      \node[a,label=$\pi_{2p}$]{\moupdown}; \\};
+\matrix[molecule,yshift=-0.8cm] (bs) { % Bonding Sigma
+    \node[a,label=$\sigma_{2p}$]{\moupdown}; \\};
+\matrix [left atom,yshift=0.0cm] (la){ % Left Atom
+    \node[a]{\moupdown}; \node[a, label={N 2p}]{\moup}; \node[a]{\moup};\\} ;
+\matrix [right atom,yshift=0.0cm] (ra) { % Right Atom
+   \node[a]{\moupdown}; \node[a,label={N 2p}]{\modown}; \node[a]{\modown}; \\} ;
+\draw [densely dashed] (la.base east) -- (bs.base west)
+  (bs.base east) -- (ra.base west) -- (as.base east)
+  (as.base west) -- (la.base east) -- (bp.base west)
+  (bp.base east) -- (ra.base west) -- (ap.base east)
+  (ap.base west) -- (la.base east);
+   \draw[->,blue, solid] ( -4cm, -7cm) -- ( -4cm, 1cm) node[right,rotate=90]{Energy}  ;
+   \draw[->,blue, solid]   ( -4cm, -7cm)  --( 4cm, -7cm)  ;
+
+  
+  \matrix[molecule,yshift=-3cm] (as) { % Antibonding Sigma
+    \node[a,label=$\sigma_{2p}^*$]{\moupdown}; \\};
+  \matrix[molecule,yshift=-5cm] (bs) { % Bonding Sigma
+    \node[a,label=$\sigma_{2p}$]{\moupdown}; \\};
+  \matrix [left atom,yshift=-4.0cm] (la){ % Left Atom
+     \node[a,label={N 2s}]{\moupdown};\\} ;
+\matrix [right atom,yshift=-4.0cm] (ra) { % Right Atom
+   \node[a,label={N 2s}]{\moupdown}; \\} ;
+\draw [densely dashed] (la.base east) -- (bs.base west)
+  (bs.base east) -- (ra.base west) -- (as.base east)
+  (as.base west) -- (la.base east) 
+  ;
+  \node at (-2,-6){\ce{N}} ; \node at (-0,-6){\ce{N2}}   ;\node at (2,-6){\ce{N}}   ;
+\end{tikzpicture}\end{center}
+

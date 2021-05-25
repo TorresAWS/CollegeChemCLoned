@@ -1,0 +1,30 @@
+ \begin{adjustwidth*}{}{15mm}
+ We can also think about increasing or decreasing the volume in which the reaction takes place. This change will have an impact on the reaction equilibrium as the concentrations of reactants and products will be altered by this change. Changes in volume will shift the reaction towards the left or right depending on the overall stoichiometric change of the reaction, that is on whether the reaction produces or consumes molecules. For reactions that generate matter, that is, in the case that $\Delta n >0$, increasing the volume will follow the increase of the number of moles. In other words, by increasing the volume, the equilibrium will shift towards the products, that is towards the right. For reactions that consume matter ($\Delta n <0$), increasing the volume will shift the equilibrium towards the reactants, that is towards the left.
+For example, the reaction below consumes molecules:
+ \begin{equation*} \ce{CO(g) + 3H2(g) <=> CH4(g) + H2O(g) } \end{equation*}
+ \end{adjustwidth*}
+ 
+
+   
+if we increase the volume of the container in which the reaction takes place, the equilibrium will shift towards the left:
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<-}};
+  \begin{scope}[rotate around={5:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO(g) + 3H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CH4(g) + H2O(g) }};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}
+The opposite shift will follow a volume decrease as the reaction shift towards the right.

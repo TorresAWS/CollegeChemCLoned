@@ -1,0 +1,13 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Given the following rate law. Calculate:
+\begin{inparaenum}[(a)]	
+\item The rate constant giving the correct units.
+\item	 The partial order of all species.
+\item  The total order of the reaction.
+\item  If $[\ce{A}]$ is doubled how would the reaction rate be affected?
+\end{inparaenum} 
+\begin{center}\[r=0.056[A]^4[B]^2[C]^2\]\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   Orders: A(4), B(2), C(2), overall(8); k=0.056 1/$\text{M}^7$s; 16 times larger
+ \end{flushright} }
+

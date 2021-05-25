@@ -1,0 +1,8 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Identify the acid, the base, the conjugate acid and the conjugate base in the reaction:
+\begin{center}\ce{ NH3_{(g)} + H2O_{(l)}   <=> NH4^{+}_{(aq)} + OH^-_{(aq)}}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The trick is first identifying the acid and the base starting for the left side of the formula. In this case \ce{NH3_{(g)}} is the base and hence water is the acid. Now connect the acid and the base with the other side of the arrow, and use conjugate with the opposite term. For example: \ce{NH3} is a base and should be related with \ce{NH4^+} that is the conjugate acid. Similarly, \ce{H2O} is a acid, being related with \ce{OH^-} that is the conjugate base. In summary:
+\begin{center}\ce{$\textcolor{blue}{\underset{\text{Base}}{\ce{NH3_{(g)}}}}$ + $\textcolor{red}{\underset{\text{Acid}}{\ce{H2O_{(l)}}}}$  <=> $\textcolor{red}{\underset{\text{Conjugate Acid}}{\ce{NH4^+_{(aq)}}}}$ + $\textcolor{blue}{\underset{\text{Conjugate Base}}{\ce{OH^-_{(aq)}}}}$}\end{center}
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX\end{description}

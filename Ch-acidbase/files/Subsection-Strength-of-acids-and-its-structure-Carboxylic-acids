@@ -1,0 +1,39 @@
+We can start by comparing the acidity of two different organic compounds, methanol, the simplest of all alcohols and formic acid, the simplest carboxylic acid. The structure of both molecules is presented below:
+\begin{center}\chemname{\chemfig{H-C(-[:90]H)(-[:-90]H)(-[:0]O-H)}}{Methanol}\hspace{1cm} and \hspace{1cm}\chemname{\chemfig{H-C(=[:90]O)-O-H}  }{Formic acid}\end{center}
+Indeed, methanol as well as other alcohols are not really acidic whereas carboxylic acids and in particular formic acid are in general weak acids. We can understand this trend by two factors. On one hand, following \emph{acidity factor 4} carboxylic acids have two oxygen atoms connected to the central carbon. Both withdrawn electron density from carbon hence weakening the \ce{O-H} bond and increasing acidity. There is a new acidity factor that contribute to the acidity of carboxylic acids. The result of dissociating a carboxylic acid is a negatively charged carboxylate ion
+\begin{center}\chemname{\chemfig{H-C(=[:90]O)-O-H}  }{Formic acid}\hspace{1cm} and \hspace{1cm}\chemname{\chemfig{H-C(=[:90]O)-O\rlap{\color{black}{${\ }^-$}}}  }{Formate ion}\end{center}
+The negative charge in the oxygen is stabilized by resonance, that is, it is not localized on a single oxygen but distributed between the two oxygen atoms as shown below. Hence carboxylates are stabilized by resonance and this contribute to the acidity of the carboxylic acids \emph{acidity factor 5}.
+
+\begin{center}
+\schemestart
+    \chemleft{[}
+    \subscheme{
+        \chemfig{
+             H
+            -C
+            (-[::-45]\lewis{1:5:7:,O}\rlap{\color{purple}{${\ }^-$}})
+            =[@{b1}::45]@{o1}\lewis{1:3:,O}
+        }
+        \arrow{<->}
+        \chemfig{
+             H
+            -C\rlap{\color{teal}{${}^+$}}
+            (-[@{b2}::-45]\lewis{1:5:7:,O}@{o2}\rlap{\color{purple}{${\ }^-$}})
+            -[::45]\lewis{1:3:7:,O}\rlap{\color{purple}{${\ }^-$}}
+        }
+        \arrow{<->}
+        \chemfig{
+             H
+            -C
+            (=[::-45]\lewis{5:7:,O})
+            -[::45]\lewis{1:3:7:,O}\rlap{\color{purple}{${\ }^-$}}
+        }
+        \chemmove{
+            \draw[shorten <=3pt,shorten >=1pt,purple](b1)..controls +(-15:10mm) and +(-30:5mm)..(o1);
+            \draw[shorten <=3pt,shorten >=1pt,purple](o2)..controls +(90:5mm) and +(45:5mm)..(b2);
+        }
+    }
+    \chemright{]}
+\schemestop
+\end{center}
+

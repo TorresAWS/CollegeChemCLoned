@@ -1,0 +1,15 @@
+Concentration ratios helps predict whether a reaction will proceed towards the left or towards the right when we start with a mixture of reactants and products away from equilibrium.
+ \begin{center}\begin{tikzpicture}[colorbar arrow/.style={
+  shape=double arrow,
+  double arrow head extend=0.125cm, 
+  shape border rotate=0, 
+  minimum height=10cm,minimum width=2cm,
+  shading=#1 
+}]
+\node [colorbar arrow=shading1] (thickarrow) at (0,0) {};
+  \node[font=\large]  at (-3cm,0cm) {$Q_c<K_c$};   \node[font=\tiny, rotate=90]  at (0cm,0cm) {Equilibrium}; \node[font=\large]  at (3cm,0cm) {$Q_c>K_c$}; 
+\draw[ultra thick, ->]  (-3cm,-1cm) --+(1cm,0cm) ; 
+   \node[font=\large, below = 3mm of thickarrow, shift={(0cm,.5cm)}]  at (0cm,-1cm) {$K_c$};  
+\draw[ultra thick, ->]  (3cm,-1cm) --+(-1cm,0cm) ; 
+\end{tikzpicture}  \end{center}
+If $Q_c$ is larger than $K_c$ the reaction will proceed towards the left producing reactants. On the other hand, if $Q_c$ is smaller than $K_c$ the reaction will proceed towards the right producing products. If $Q_c$ equals to $K_c$ then the reaction is in equilibrium.

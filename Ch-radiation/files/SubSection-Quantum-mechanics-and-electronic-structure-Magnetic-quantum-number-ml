@@ -1,0 +1,3 @@
+The third quantum number $m_{\ell}$ is called \emph{magnetic quantum number} and is vaguely related to the orientation of the orbital.
+The values of $m_{\ell}$ depend on the value of $\ell$. In general  $m_{\ell}$ varies in a range of numbers indulging zero, $-l$, $-l-1$, ..., 0, ..., $l+1$, $l$. For example, if $\ell=3$, $m_{\ell}$ can be any of these values: -3, -2, -1, 0, 1, 2, or 3.
+ 

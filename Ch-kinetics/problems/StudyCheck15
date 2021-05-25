@@ -1,0 +1,12 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Assess whether the reaction below:
+\begin{center}\ce{ 2NO_{(g)} + O2_{(g)} -> 2NO2_{(g)}}{ \hfill $r^{Exp}=k^{Exp} [\ce{NO}]^2[\ce{O2}] $} \end{center}
+is correctly represented by the following mechanism:
+\begin{center}
+(1)\hfill\ce{ NO_{(g)} + NO_{(g)}		<=>[$k_1$][$k_{-1}$]      N2O2_{(g)}  }{   \hfill(equil.)} \\
+(2)\hfill\ce{N2O2_{(g)} + O2_{(g)} ->[$k_2$] 2NO2_{(g)} }{  \hfill(\small slow)} 
+\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   yes with $k^{Exp}=\frac{k_2\cdot k_1}{k_{-1}}$
+ \end{flushright} }
+

@@ -1,0 +1,15 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Convert the following energy values:
+\begin{multicols}{2}
+\begin{enumerate}[label=(\alph*)]
+\item 50000 cal to Kcal
+\item 48000 J to cal
+\end{enumerate}
+\end{multicols}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use the conversion factor for kilo and the relationship between calorie and joule:\\
+(a) $50000 \text{cal}\times\frac{1 \text{kcal}}{1000 \text{cal}}=50\text{kcal}  $; (b) $ 48000 \text{J}\times\frac{1 \text{cal}}{4.184 \text{J}}=11472.2 \text{cal} $.\\
+
+\import{./}{StudyCheck1}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

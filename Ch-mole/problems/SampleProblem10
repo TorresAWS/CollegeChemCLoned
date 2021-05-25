@@ -1,0 +1,13 @@
+The following examples shows how to interelate atoms into molecules.
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Calculate the number of O atoms in 4.5 moles of \ce{NO2}. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+(c) 4.5 moles of \ce{NO2} contains $5.4\times 10^{24}$ O atoms, as
+ \begin{equation*}\begin{split}
+4.5  \cancel{\text{moles of }\ce{NO2}} \times 
+\dfrac{6.022\times 10^{23} \cancel{\ce{NO2} \text{ molecules}}  } {  1\cancel{\text{moles of }\ce{NO2}}} 
+\times\dfrac{2 \text{O atoms}}{1\cancel{\ce{NO2} \text{ molecules}}}\\
+=5.4\times 10^{24}\text{O atoms}
+\end{split}\end{equation*}\\
+% \import{./}{StudyCheck1}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

@@ -1,0 +1,31 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+For the energy profile below
+\begin{center}
+\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,4,3}
+  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -5};
+ \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small 15};
+  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small 10};
+ \end{endiagram}\end{center}
+Calculate
+\begin{inparaenum}[(a)]	
+\item The energy of the reactants
+\item	 The energy of the products
+\item	 The energy of the transition state
+\item	 The activation energy
+\item	 The reaction energy  
+\item	 Indicate whether the reaction is endothermic or exothermic
+\end{inparaenum} 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   
+\begin{inparaenum}[(a)]	
+\item  -5kJ/mol
+\item	  10kJ/mol
+\item	  15kJ/mol
+\item	  20kJ/mol
+\item	  15kJ/mol
+\item	   Endothermic
+\end{inparaenum}
+ \end{flushright} }
+

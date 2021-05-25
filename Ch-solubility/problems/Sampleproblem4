@@ -1,0 +1,11 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the relationship between $K_{sp}$ and $s$ for the following salts: \ce{Co3(PO4)2} and \ce{HgS}.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Equation \ref{\chapterlabel:equation2}. For the first salt, we have:
+\[K_{sp}(\ce{Co3(PO4)2})=(3^3\cdot 2^2)\cdot s^{3+2}=108\cdot s^5\]
+For the second salt:
+\[K_{sp}(\ce{HgS})=(1^1\cdot 1^1)\cdot s^{1+1}= s^2\]
+\import{./}{StudyCheck4}
+
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

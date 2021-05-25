@@ -1,0 +1,66 @@
+ Let us consider the following equilibrium:
+ \begin{equation*} \ce{CO2(g) + H2(g) <=> CO(g) + H2O(g)} \end{equation*}
+$K_c$ for this reaction equals to one at 1200K. This means that the concentration of reactants and products are the same. We can represent this by means of this balance or seesaw
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<=>}};
+  \begin{scope}[rotate around={0:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO2(g) + H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CO(g) + H2O(g)}};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}
+If we add some \ce{CO2} the equilibrium will be affected. To counteract on this stress, the reaction will restore the equilibrium by decreasing the amount of \ce{CO2}. This can only be achieved by displacing the equilibrium to the right, so that \ce{CO2} is removed. Mind that \ce{CO2} is consumed if the reaction moves from reactants $\ce{->}$ to products and it is produced when going from products $\ce{<-}$ to reactants. We can represent this with the following seesaw. 
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{->}};
+  \begin{scope}[rotate around={5:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO2(g) + H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CO(g) + H2O(g)}};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}
+As we added \ce{CO2} the reactants now weight more and hence the reaction has to proceed to the right $\ce{->}$. Now imagine we remove some \ce{CO2(g)}. Again, the equilibrium will be affected and the reaction will restore its equilibrium state by by doing the opposite, that is producing \ce{CO2(g)} as the reaction proceeds from reactants $\ce{<-}$ to products. Again using the seesaw:
+\begin{center}\tikzset{
+  pivot/.style={
+    draw, 
+    regular polygon, 
+    regular polygon sides = 3, 
+    fill = red, 
+    node distance = 1cm, 
+    minimum height = 2em,
+    at = {(0,0)}
+  }
+}
+\begin{tikzpicture}
+  \node [pivot] (a) {};\node [font=\tiny ]  {\ce{<-}};
+  \begin{scope}[rotate around={-5:(a.corner 1)}]
+   \draw (a.corner 1) -| ++(-3cm,5mm) node[transform shape,above] (t1) {\ce{CO2(g) + H2(g)}};
+   \draw (a.corner 1) -| ++(3cm,5mm) node[transform shape,above] (t2) {\ce{CO(g) + H2O(g)}};
+   \draw (t1.south east) -- (t1.south west);
+   \draw (t2.south east) -- (t2.south west);
+  \end{scope}
+\end{tikzpicture}\end{center}
+We can also add a different chemical that is not involved in the equilibrium. In this case, the equilibrium will not be affected by this change.

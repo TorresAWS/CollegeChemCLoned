@@ -1,0 +1,28 @@
+% \begin{marginfigure}[-5cm]%%%%%%%MARGIN FIGURE
+%\begin{tcolorbox}[tab2,tabularx={X|X}]%%%% FANCY COLOR TABLE
+% l value     &  Orbital label\\\hline\hline
+%\end{tcolorbox}%%%% FANCY COLOR TABLE
+% \end{marginfigure}%%%%%%%MARGIN FIGURE
+%
+
+\begin{marginfigure}[-0cm]%%%%%%%MARGIN FIGURE
+\resizebox{1.0\textwidth}{!}{
+
+\stepcounter{tablenewcounter}\refstepcounter{table}\label{tab:{\chapterlabel}\thetablenewcounter}
+\fontfamily{ppl}\selectfont
+\begin{tabular}{ll}
+\rowcolor{black!45}
+\toprule
+\multicolumn{2}{l}{\hypersetup{colorlinks,linkcolor={white}} \cellcolor{black}\color{white}\bfseries\small Table \ref{tab:{\chapterlabel}\thetablenewcounter} Orbital Labels } \\
+\midrule
+\rowcolor{gray!10} $\ell$ value     &  Orbital label\\
+\midrule
+0  &  $s$       \\
+1  &   $p$        \\
+2  &   $d$       \\
+3  &  $f$      \\ 
+ \bottomrule
+
+\end{tabular}
+}
+\end{marginfigure}

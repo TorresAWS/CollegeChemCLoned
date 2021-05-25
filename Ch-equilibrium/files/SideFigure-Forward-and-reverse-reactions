@@ -1,0 +1,20 @@
+   \begin{marginfigure}[-0cm]
+\begin{tikzpicture}
+% \node[text width=5cm, shift={(2cm,8cm)}] at (-0cm,-0cm) {\ce{3H2 + N2 <=> 2NH3}}; 
+\node   at (-0cm,-2cm) {\includegraphics[width=1\columnwidth]{../Ch-equilibrium/figure6}};
+ \node[text width=5cm, shift={(2cm,1cm)}] at (-0cm,-0cm) {{\bf\ce{3H2 + N2 -> 2NH3}}}; 
+ \node[text width=5cm, shift={(2cm,-6cm)}] at (-0cm,-0cm) {{\bf\ce{2NH3  -> 3H2 + N2}}}; 
+
+% \node [font=\Large ] at (1cm,6cm)  {
+% \begin{tabular}{c}
+%Reverse  \\
+%reaction  \\
+%\end{tabular} };
+% \node [font=\Large ] at (1cm,12cm)  {
+% \begin{tabular}{c}
+%Forward  \\
+%reaction  \\
+%\end{tabular} };
+  \node[text width=5cm, shift={(-0cm,-11cm)}] at (-0cm,-0cm) {\mytriangle{red}The forward reaction goes from reactants to products whereas the reverse reaction goes from products to reactants.};
+\end{tikzpicture}
+\end{marginfigure}

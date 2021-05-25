@@ -1,0 +1,52 @@
+\item[\docfilehook{Combining ions }{}] 
+In order to combine two ions, you first arrange the positive ion in the left followed by the negative ion in the right, to then cross the ionic charges from the top of the ion to the bottom of the opposite ion. The positive and negative charges are not carried. If the ions have more than one element we have to use parenthesis. An example would be combining \ce{Ca^{2+}} and \ce{PO4^{3-}} leading  to \ce{Ca3(PO4)2}: 
+\vspace{.5cm}\begin{center}
+  \schemestart
+    \chemfig{3@{Cl1}Ca^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{2P@{Cl2}O_4^{3-}}   \arrow \ce{Ca3(PO4)2}
+  \schemestop
+  \chemmove{
+    \draw[elmove=left] (Cl2) ..controls +(45:2cm) and +(-45:1cm) .. (Cl1) ;
+      \draw[elmove=left]   (Cl1) ..controls +(45:1cm) and +(-45:2cm) .. (Cl2) ;
+  }\end{center}\vspace{.5cm}
+We would simplify in case the charges compensate with each other. 
+
+An example would be combining \ce{Mg^{2+}} and \ce{SO4^{2-}} leading  to \ce{MgSO4}
+
+\vspace{.5cm}\begin{center}
+  \schemestart
+    \chemfig{@{a1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{S@{a2}O_4^{2-}}   \arrow \ce{Mg_{\cancel{2}}(SO4)_{\cancel{2}}} \arrow\ce{MgSO4}
+  \schemestop
+  \chemmove{
+    \draw[elmove=left] (a2) ..controls +(45:2cm) and +(-45:1cm) .. (a1) ;
+      \draw[elmove=left]   (a1) ..controls +(45:1cm) and +(-45:2cm) .. (a2) ;
+  }\end{center}\vspace{.5cm}
+
+%\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+%Combine the following ions or break down the following chemicals into ions:\\
+%\begin{tabularx}{0.75\textwidth}{>{\centering}m{.4\textwidth} *{2}{Y} }
+%  \toprule
+%\heading{Ions} & \multicolumn{2}{c}{\textbf{Combination}}   \\
+%    \midrule
+%   \ce{Li^{+}} and  \ce{PO4^{3-}} & 	\multicolumn{2}{c}{     }    \\
+%      \ce{Ca^{2+}} and  \ce{NO3^{-}} & 	\multicolumn{2}{c}{     }    \\
+%         & 	\multicolumn{2}{c}{  \ce{Li2CO3}   }    \\
+%         & 	\multicolumn{2}{c}{  \ce{Mg2NO3}  }    \\
+%      \bottomrule
+%\end{tabularx}\\
+%\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+%By combining   \ce{Li^{+}} and  \ce{PO4^{3-}} one obtains \ce{Li3PO4}, and  \ce{Ca^{2+}} and  \ce{NO3^{-}} gives  \ce{Ca(NO3)2}. \ce{Li2CO3} results from \ce{Li^{+}} and  \ce{CO3^{2-}}  and \ce{Mg2NO3} from combining \ce{Mg^{2+}} with \ce{NO3^{-}}.  \\
+%\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+%Combine the following ions or give the ions given the final compound: \ce{Ca^{2+}} and  \ce{NO3^{-}} and \ce{K2SO4}.\\
+%\flushright Answer: \ce{Ca2NO3};  \ce{K^{+}} and  \ce{SO4^{2-}}.
+%\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+
+%An example would be combining \ce{Mg^{2+}} and \ce{HPO4^{2-}} leading  to \ce{MgHPO4}
+%
+%\vspace{.5cm}\begin{center}
+%  \schemestart
+%    \chemfig{@{a1}Mg^{2+} }  \hspace{1cm}  \chemfig{+}\hspace{1cm}   \chemfig{HP@{a2}O_4^{2-}}   \arrow \ce{Mg_{\cancel{2}}(HPO4)_{\cancel{2}}} %\arrow\ce{MgHPO4}
+%  \schemestop
+%  \chemmove{
+%    \draw[elmove=left] (a2) ..controls +(45:2cm) and +(-45:1cm) .. (a1) ;
+%      \draw[elmove=left]   (a1) ..controls +(45:1cm) and +(-45:2cm) .. (a2) ;
+%  }\end{center}\vspace{.5cm}

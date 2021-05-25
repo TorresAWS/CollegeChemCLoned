@@ -1,0 +1,12 @@
+This section covers the PH calculation of buffers when external acids or bases different than the ones involved in the buffer equilibrium, are added to the solution. For example, the PH of 5mL of a 0.01M \ce{CH3COOH}/0.1M \ce{NaCH3COO} ($K_a=1.75 \times 10^{-5}$) after adding 1mL of NaOH 3M would be calculated with the following formula:
+\begin{equation}
+\boxed{ PH=PK_a + \text{log} \Big(\frac{V_b\cdot c_b + (V_b\cdot c_b)^{added} - (V_a\cdot c_a)^{added} }{V_a\cdot c_a + (V_a\cdot c_a)^{added}  -(V_b\cdot c_b)^{added}    }\Big) }\label{\chapterlabel:equation17}
+\end{equation}
+where most of the symbols of Equation \ref{\chapterlabel:equation17} are the same as in Equation \ref{\chapterlabel:equation16}:
+\begin{where}
+ \item $(V_b\cdot c_b)^{added}$  is volume and molarity of added base
+ \item $(V_a\cdot c_a)^{added}$  is volume and molarity of added acid
+\end{where}
+The following example illustrates how to use Equation \ref{\chapterlabel:equation16}.
+
+

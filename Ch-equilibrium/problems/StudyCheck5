@@ -1,0 +1,4 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The value of the equilibrium constant for the reaction \begin{center}\ce{C3H8_{(g)} + 5O2_{(g)} <=> 4H2O_{(g)} + 3CO2_{(g)}}\end{center}  is $500$ at a given temperature. An analysis of an equilibrium mixture gave a concentration of water, carbon dioxide and \ce{C3H8} of 1M. Calculate the equilibrium concentration of oxygen at that temperature.\\
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small  Answer: $\big[ \ce{O2} \big]=0.43M$ 
+ \end{flushright} }

@@ -1,0 +1,35 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+What is the density of a Helium balloon at 400K and 3 atm.
+\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Besides the data in the problem, as the gas is He we already know its atomic mass from the periodic table:
+%%% DATA BOX
+\begin{tcbitemize}[raster columns=3, raster rows=3, enhanced, sharp corners, raster equal height=rows, raster force size=false, raster column skip=0pt, raster row skip = 0pt]
+%Empty corner and two headers
+\tcbitem[blankest, width=1cm]
+\tcbitem[header = helpful]
+\texta
+\tcbitem[header = harmful]
+\textb
+%First row
+\tcbitem[firstcol = internal]
+\textcn
+\tcbitem[swotbox = G]
+$T=400K$\\
+$P=3atm$\\
+$AW=4 g\cdot mol^{-1}$\\
+$R=0.082\frac{\text{atm}\cdot \text{L}}{\text{mol}\cdot \text{K}}$\\
+\tcbitem[swotbox = A]
+$D$\\
+\\
+\\
+\\
+\end{tcbitemize}%%% DATA BOX
+Using now the ideal gases formula in terms of density: $P\cdot MW=DRT$, we have
+\begin{equation*}
+3 \cancel{\text{atm}}\cdot 4\frac{g}{\cancel{\text{mol}}}=D\cdot 0.082\frac{\cancel{\text{atm}}\cdot \text{L}}{\cancel{\text{mol}}\cdot \cancel{\text{K}}}\cdot 400\cancel{K}
+\end{equation*}
+Solving for D we have 0.36 $g\cdot L^{-1}$.
+\\
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

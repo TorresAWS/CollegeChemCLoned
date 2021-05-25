@@ -1,0 +1,12 @@
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter}
+	  \begin{tikzpicture} 
+	  \node (a) at (-8em,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure1-22}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm, fontscale=.1] at ([yshift=0.5cm]a.north) {\mytriangle{red}{\small Diffraction pattern of electrons}};
+	  \node (b) at (7em,0) {\includegraphics[width=10cm, height=4cm]{../{\chapterlabel}/figure1-23}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=6cm, fontscale=.1] at ([yshift=0.5cm]b.north) {\mytriangle{red}{\small Diffraction pattern achieved with a laser}};
+
+ \node[text width=12cm, fontscale=0.1, shift={(0em,-8em)}] at (0em,0em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Diffraction patterns produced by light and by matter};
+\end{tikzpicture}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

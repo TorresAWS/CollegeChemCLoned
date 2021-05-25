@@ -1,0 +1,10 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The velocity of an electron is $2\times 10^{5} \pm 2\times 10^{3}$m/s given that the mass of an electron is $9\times 10^{-31}kg$. Calculate the minimum uncertainty in the position of the electron.\\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will use Heisensberg's relationship that links the uncertainty of the momentum and the position, given that the uncertainty of the velocity ($\Delta$ v) is $2\times 10^{3}$m/s and $h$ is $6.6\times 10^{34}$kgm$^2$/s:
+\[
+\Delta x\cdot 9\times 10^{-31}\cdot  2\times 10^3 \geq \frac{6.6\times 10^{34}}{4\pi} 
+\]
+We have that the uncertainty on the position $\Delta x$ is larger or equal than $2.9\times 10^{8}$m.\\
+\import{./}{StudyCheck7}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

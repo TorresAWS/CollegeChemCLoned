@@ -1,0 +1,27 @@
+This is the most comprehensive acid-base model that we will cover in this chapter. A Lewis acid is a chemical able to receive electron pairs, whereas a Lewis base is able to give way electron pairs. In other words, acids are electron-pair receiver and bases are electron-pair givers. In the example below you can see why ammonia acts as a base:
+\begin{center}
+\setatomsep{2em}
+\schemestart
+\chemname{\ce{H^+}}{}
+\+
+\chemname{\chemfig{ \lewis{4,N}( (-[:90]H)(-[:-90]H)(-[:0]H))}}{Lewis base}
+\arrow{->}
+\chemname{\chemfig{H-N( (-[:45,0.35,,,draw=none]\scriptstyle +)(-[:90]H)(-[:-90]H)(-[:0]H))}}{  }
+\schemestop
+\end{center}
+Ammonia as well as other molecules contain lone pairs. These lone pairs are key in the definition of a Lewis acid-base, as acids and base receive and give away electron density. Lewis bases contain lone pairs and can give away electron density to an acid. 
+Another example is presented below. The presence of two lone pairs in water make it a Lewis base that can give electron density to carbon dioxide, a lewis acid.
+\begin{center}
+\setatomsep{2.em}
+\schemestart
+\chemname{\chemfig{  \lewis{02,O}( (-[:-85]H)(-[:180]H))    }}{}
+\+
+\chemname{\chemfig{ C( (=[:90]\lewis{13,O})(=[:-90]\lewis{57,O}))}}{Lewis acid}
+%\arrow{->}
+%\chemname{\chemfig{  \lewis{2,O}( (-[:45,0.45,,,draw=none]\scriptstyle +)(-[:-90]H)(-[:180]H))-C( (-[:90]\lewis{024,O}(-[:45,0.45,,,draw=none]\scriptstyle {-}))(=[:-90]\lewis{57,O}))     }}{Carbonic Acid}
+\arrow{->}
+\chemname{\chemfig{  H^+   }}{}
+\+
+\chemname{\chemfig{  \lewis{2,O}( (-[:-99]H))-C( (-[:90]\lewis{024,O}(-[:45,0.45,,,draw=none]\scriptstyle {-}))(=[:-90]\lewis{57,O}))     }}{ }
+\schemestop
+\end{center}

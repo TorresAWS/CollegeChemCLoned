@@ -1,0 +1,14 @@
+%%%%%%%PROBLEM
+\vspace{-0.5cm}\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Among the elements, indicate the element with the largest electronegativity  
+\begin{inparaenum}[(a)]
+\item B
+\item C
+\item F
+\item  Li
+\end{inparaenum}
+ \end{question}
+\begin{solution}
+F
+\hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

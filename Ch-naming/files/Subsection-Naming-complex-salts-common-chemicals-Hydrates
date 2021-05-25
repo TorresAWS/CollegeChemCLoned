@@ -1,0 +1,5 @@
+\item[\docfilehook{Hydrates }{}] 
+Some chemicals contain water molecules trapped in its structure and therefore water molecules (\ce{H2O}) are often indicated in chemical formulas.  These types of chemicals containing water are called \emph{hydrates}, precisely because hydrate means water. Examples of hydrates are: \ce{BeSO4 . 4H2O} or \ce{CuSO4 . 5H2O} called respectively beryllium sulfate tetrahydrate and cupper(II) sulfate pentahydrate. In order to formulate hydrates you just need to use prefixes such as mono, di, tetra--the same ones we use to name covalent chemicals--to indicate the number of water molecules in the chemical and end the name with \emph{hydrate}. As a note,  warming up hydrates (e.g. \ce{BeSO4 . 4H2O}) results on the release of water producing a dehydrated or \emph{anhydrous} compound (e.g. \ce{BeSO4}). A final example of hydrate naming:
+ \begin{namingbox} {}
+\ce{Na2SO4 . 5H2O} \hfill {\small (a hydrate)}\hfill Sodium sulfate pentahydrate 
+\end{namingbox}

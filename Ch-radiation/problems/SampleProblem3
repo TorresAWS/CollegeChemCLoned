@@ -1,0 +1,9 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+A metal with workfunction of 5eV is exposed to a radiation source with frequency of $2\times 10^{15}$Hz. Indicate whether electrons will be ejected and if so, indicate the kinetic energy of these. \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Using the photoelectric effect equation we have that a radiation of $10^{15}$Hz frequency has an energy of 
+\[4.13\times 10^{-15} \cdot 2\times 10^15=8.27eV\]
+As this values is larger than the workfunction of the metal (W=5eV), therefore electrons will be ejected with a kinetic energy of:
+\[KE=8.27-5=3.27eV\]
+\import{./}{StudyCheck3}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

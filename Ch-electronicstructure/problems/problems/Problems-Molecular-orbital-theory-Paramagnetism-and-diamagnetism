@@ -1,0 +1,8 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Indicate the magnetic (paramagnetic or diamagnegtic) configuration of the molecule with MO configuration: $\sigma^{2}_{2s}\sigma^{2*}_{2s} \sigma^{2}_{2p}\pi^{4}_{2p}\pi^{3*}_{2p}$
+\end{question}
+\begin{solution} 
+ paramagnetic\hspace{0.1cm}\end{solution}
+\stepcounter{numA}
+%%%%%%%%%%%%%%

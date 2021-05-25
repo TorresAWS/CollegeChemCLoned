@@ -1,0 +1,5 @@
+Waves result from the propagation of energy and are not localized. Electrons behave as waves under certain conditions. In order to approach the problem of trying to locate a particle that behaves as a wave, Heisenberg uncertainty principle states that it is impossible to measure simultaneously both the momentum ($m\cdot v$) and the position ($x$) of a particle. In another words, the uncertainty of the position ($\Delta x$) and the uncertainty on the momentum ($m\cdot \Delta v$) are linked by the relationship:
+\begin{equation}
+\Delta x\cdot m\Delta v \geq \frac{h}{4\pi} 
+\end{equation}
+This relation, involving Plank's constant $h$, should be interpreted as: if the uncertainty of the position is large, then the uncertainty of the velocity (or momentum) must be small. And the minimum values for the product of uncertainties if $\frac{h}{4\pi} $. 

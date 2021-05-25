@@ -1,0 +1,5 @@
+In the same way as we defined the PH and POH scale, we can also use the logarithmic notation to transform acidity and basicity constant into more manageable number. We define $PK_a$ of an acid as:
+ \begin{equation}
+\boxed{PK_a=-log \big( K_a \big) }\label{\chapterlabel:equation13}
+\end{equation}
+For example, as the acidity constant of acetic acid is $1.75 \times 10^{-5}$ its $PK_a$ would be 4.74. An equivalent definition exist for $PK_b$.

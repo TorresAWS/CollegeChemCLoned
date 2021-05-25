@@ -1,0 +1,19 @@
+%\marginnote{\faBicycle\ Remember: the square root  key in your calculator looks like \keystroke{\large $\sqrt{}$}.}
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+The value of the equilibrium constant for the reaction 
+ \begin{equation*} \ce{3H2(g) + N2(g) <=>  2NH3(g)} \end{equation*}
+ is $3\cdot 10^{8}$ at 300K. An analysis of an equilibrium mixture gave a concentration of nitrogen and ammonia of 2M, respectively. Calculate the equilibrium concentration of hydrogen at 300K.
+ \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+The value of the equilibrium constant for the formation of ammonia is: 
+ \begin{equation*} K_{c}=\frac{\big[ \ce{NH3} \big]^2 }{\big[ \ce{H2} \big]^3 \cdot \big[ \ce{N2} \big]}  \end{equation*}
+We know $\big[ \ce{NH3} \big]$ and $\big[ \ce{N2} \big]$ and both values are 2M, and we also know $ K_{c}=3\cdot 10^{8}$. Plugging these values into the previous equations we obtain:
+ \begin{equation*}3\cdot 10^{8}=\frac{2^2 } {\big[ \ce{H2} \big]^3 \cdot 2} \end{equation*}
+we can solve for $\big[ \ce{H2} \big]$:
+ \begin{equation*}\big[ \ce{H2} \big]^3= 6.6\cdot 10^{-9}   \end{equation*}
+In order to obtain $\big[ \ce{H2} \big]$ we need a a cubic root:
+ \begin{equation*}\big[ \ce{H2} \big]= \sqrt[3]{6.6\cdot 10^{-9}} =1.9\cdot 10^{-3}M  \end{equation*}
+\\
+\import{./}{StudyCheck5}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+%\marginnote{\faBicycle\ Remember: to solve $x^5=100$ you need \keystroke{ $\sqrt[5]{}$}. You can solve this by typing: 100\keystroke{\^}\keystroke{ $(1/5)$} and the answer is 2.51.}

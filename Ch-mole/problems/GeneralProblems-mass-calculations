@@ -1,0 +1,10 @@
+
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Calculate the number of grams of hydrogen needed to react with 0.3 moles of nitrogen, to produce ammonia:
+\begin{center}  \ce{ $\underset{\hlmath{\hspace{25pt}}\text{ grams}}{\ce{3H2(g)}}$ + $\underset{\text{0.3 moles}}{\ce{N2(g)}}$ -> 2NH3(g) }\end{center}
+\end{question}
+\begin{solution}
+1.8 g
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%
+

@@ -1,0 +1,23 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+For the energy profile below
+\begin{center}
+\begin{endiagram}[x-label-text=\footnotesize reaction coordinate, y-label-text={\footnotesize Enthalpy, kJ/mol}]
+  \ENcurve{1,2,0}
+  \ShowNiveaus[length=2,niveau={N1-1, N1-2,N1-3}]
+  \node[below,xshift=4pt] at (N1-1) { } node[above,yshift=5pt] at (N1-1) {\small -15};
+ \node[above] at (N1-2) {  } node[below,yshift=-5pt]  at (N1-2) {\small -5};
+  \node[below,xshift=4pt] at (N1-3) {  } node[above,yshift=5pt] at (N1-3) {\small -25};
+ \end{endiagram}\end{center}
+Calculate
+\begin{inparaenum}[(a)]	
+\item The energy of the reactants
+\item	 The energy of the products
+\item	 The energy of the transition state
+\item	 The activation energy
+\item	 The reaction energy  
+\item	 Indicate whether the reaction is endothermic or exothermic
+\end{inparaenum} \\
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We have that the energy of the reactants is -15kJ/mol, the energy of the products is -25kJ/mol and the energy of the transition state (TS) is -5kJ/mol. The reaction energy represents the energy of the products concerning the reactants: $-25 - (-15)=-10$kJ/mol. This is an exothermic reaction. The activation energy represents the energy of the TS concerning the reactants: $-5 - (-15)=10$kJ/mol. \\
+\import{./}{StudyCheck12} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

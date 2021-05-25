@@ -1,0 +1,37 @@
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Balance the following redox reactions in acidic medium:
+\begin{center}\ce{ I^-_{(aq)} + MnO4^-_{(aq)}   ->  I2_{(s)} + Mn^{2+}_{(aq)}       }\end{center}
+\end{question}\begin{solution}
+\ce{   10I^-_{(aq)} + 2MnO4^-_{(aq)}+ 16H^+_{(aq)}  ->  5I2_{(s)} + 2Mn^{2+}_{(aq)} + 8H2O_{(l)}    } 
+   \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Balance the following redox reactions in acidic medium:
+\begin{center}\ce{ MnO4^{-}_{(aq)} + SO3^{-2}_{(aq)} -> MnO2_{(s)} + SO4^{-2}_{(aq)}      }\end{center}
+\end{question}\begin{solution}
+ \ce{    2MnO4^{-}_{(aq)} + 2H^+ +3SO3^{-2}_{(aq)} -> H2O_{(l)} + 2MnO2_{(s)} + 3SO4^{-2}_{(aq)}     }
+    \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%
+
+%%%%%%%%PROBLEM
+%\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+%Balance the following redox reactions in acidic medium:
+%\begin{center}\ce{  2MnO4^{-}_{(aq)} + 2H^+ +3SO3^{-2}_{(aq)} -> H2O_{(l)} + 2MnO2_{(s)}+ 3SO4^{-2}_{(aq)}     }\end{center}
+%\end{question}\begin{solution}
+% \ce{     2MnO4^{-}_{(aq)} + H2O_{(l)} +3SO3^{-2}_{(aq)} -> 2OH^-_{(aq)} + 2MnO2_{(s)} + 3SO4^{-2}_{(aq)}    }
+%     \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%%
+
+%%%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Balance the following redox reactions in acidic medium:
+\begin{enumerate}[label=(\alph*)]
+ \item \ce{   Zn_{(s)} + NO_3^{-}_{(aq)} ->Zn^{2+}_{(aq)} + NO_2_{(g)}  }
+ \item \ce{  O_2_{(g)} + Fe^{2+}_{(aq)} -> Fe^{3+}_{(aq)}}
+\end{enumerate}
+\end{question}\begin{solution}
+ No solution listed
+     \hspace{0.1cm}\end{solution}\stepcounter{numA}
+%%%%%%%%%%%%%%

@@ -1,0 +1,58 @@
+
+
+ \newcommand\chapterlabel{Ch-equilibrium}
+ \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck1}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+   \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck2}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+ \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck3}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+ \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck4}\vspace{1cm}
+Show work: \begin{solution}[1.0in]\end{solution}
+ \vspace{5cm}
+Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+\end{problem*}
+
+
+
+
+
+%%% SECOND PARD
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck5}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck6}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+%
+% \begin{problem*}\import{../\chapterlabel/problems/}{StudyCheck7}\vspace{1cm}
+%Show work: \begin{solution}[1.0in]\end{solution}
+% \vspace{5cm}
+%Write just the final answer here:\begin{solution} \fillin{1in}{     }\end{solution}\\
+%\end{problem*}
+
+
+
+
+
+
+
+
+

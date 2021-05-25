@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+The PH of a patients blood is 7.3. Indicate whether the patient suffers alkalosis, acidosis or perhaps none of the affections. Can the PH level cause death?
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: acidosis, no deadly.
+ \end{flushright} }
+

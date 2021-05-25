@@ -1,0 +1,6 @@
+Substituents are atoms or groups of atoms replace hydrogens in alkane chains. You could envision attaching substituents at different points of the chain. For example:
+\begin{center} \chemfig{CH_3-CH(-[:90,1]Br)-CH_3} \hspace{0.5cm}or\hspace{0.5cm} \chemfig{CH_2(-[:90,1]Br)-CH_2-CH_3}\end{center}
+In the right example, Br is plugged to the left C atom, whereas in the left example C is plugged into the middle carbon. Hence, it is important first, to learn how to number a hydrocarbon chain. Let us use propane--a molecule with three atoms--as an example. In order to number the chain, you start by selecting the extreme that is the closest to the substituent using this carbon as number one. Next carbon would be carbon number two and so on until you arrive at carbon number three. 
+\begin{center}\chemfig{C\chembelow[1ex]{}{\tiny \textcolor{red}{1}}H(-[:90]Br)-C\chembelow[1ex]{}{\tiny \textcolor{red}{2}}H_2-C\chembelow[1ex]{}{\tiny \textcolor{red}{3}}H_3}\end{center}
+As the Br atom in the carbon number one, the name of the molecule would be: 1-bromopropane or simply bromopropane. Differently, when the substituent is in a carbon different than one, you need to indicate that location. For example:
+\begin{center} \chemfig{CH_3-CH(-[:90,1]Br)-CH_3} \hspace{0.5cm}\textcolor{blue}{2-Bromopropane}\end{center}

@@ -1,0 +1,5 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Name or give the formula for the following ionic compounds: phosphoric acid and \ce{Mg(OH)2}.
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{H3PO4};  magnesium hydroxide.
+ \end{flushright} }

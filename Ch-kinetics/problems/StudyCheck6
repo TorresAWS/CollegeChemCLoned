@@ -1,0 +1,14 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Use the data below to calculate the rate law of the following reaction: \ce{A -> B}
+\begin{center}\begin{tabular}[t]{  c c  c   }
+\toprule
+ Experiment &$r$ (M/s)	&$[A]$, (M) \\
+\midrule
+1&	0.5&	2.5\\
+2&	0.6 &3.0	\\
+\bottomrule
+\end{tabular}\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer:   $r=0.2[A]^1$
+ \end{flushright} }
+

@@ -1,0 +1,6 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Balance the following redox in acidic medium:
+\begin{center}\ce{  Cr2O2^{-7}_{(aq)} + NO2^{-}_{(aq)} -> Cr^{3+}_{(aq)} + NO3^-_{(aq)}    }\end{center}
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: \ce{3NO2_{(aq)} + 8H^+_{(aq)} + Cr2O2^{7-}_{(aq)} -> 3NO3^-_{(aq)} + 2Cr^{3+}_{(aq)} + 4H2O_{(l)}}.
+ \end{flushright} }

@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \stepcounter{figurenewcounter}   \refstepcounter{figure}  \label{Fig:{\chapterlabel}\thefigurenewcounter} \begin{center}
+ \begin{tikzpicture}
+  \begin{scope}[font=\itshape]% to not type it every time, but better go for math mode
+  \begin{scope}[on background layer]\draw[-latex] (0,0)--(1,0) node[above]{x};\end{scope}
+  \draw[-latex] (0,0)--(-0.5,-0.7) node[above]{y};
+  \draw[-latex] (0,0)--(0,1) node[above]{z};
+  \orbital[pos = {(0,0)}]{py} %y
+  \node[above] at (0.7,0.7) {p$_x$};
+
+
+  \draw[-latex] (3,0)--(4,0) node[above]{x};
+  \draw[-latex] (3,0)--(2.5,-0.7) node[above]{y};
+  \draw[-latex] (3,0)--(3,1) node[above]{z};
+  \orbital[pos = {(3,0)}]{px} %x
+  \node[above] at (3.7,0.7) {p$_y$};
+  \draw[-latex] (6,0)--(7,0) node[above]{x};
+  \draw[-latex] (6,0)--(5.5,-0.7) node[above]{y};
+    \begin{scope}[on background layer]  \draw[-latex] (6,0)--(6,1) node[above]{z};\end{scope}
+  \orbital[pos = {(6,0)}]{pz} %z
+  \node[above] at (6.7,0.7) {p$_z$};
+    \end{scope}
+    \node[minimum width=\columnwidth] at (current bounding box.center){};  
+\node[text width=12cm, fontscale=0.1] at (10em,-5em) { \begin{bf}\color{black}\bfseries\large Figure \ref{Fig:{\chapterlabel}\thefigurenewcounter} \end{bf} Surface plots of the three $p$ orbitals. };
+\end{tikzpicture}\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

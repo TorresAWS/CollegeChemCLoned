@@ -1,0 +1,21 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{fullwidth}
+\begin{minipage}[b]{1.0\linewidth}
+
+	  \begin{tikzpicture} \node (a) at (0,0) {\includegraphics[width=4.5cm, height=4.5cm]{../{\chapterlabel}/figure1-17}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]a.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm, fontscale=.1] at ([yshift=0.5cm]a.north) {\mytriangle{red}{\small Standing waves of a guitar}};
+ 
+ \node (b) at (6cm,0) {\includegraphics[width=4.5cm, height=4.cm]{../{\chapterlabel}/figure1-18}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]b.south east) {\textsuperscript{\textcopyright} wikipedia} ;
+\node[text width=5cm, fontscale=0.1] at ([yshift=0.5cm]b.north) {\mytriangle{red}{\small Traveling waves}};
+
+
+ \node (c) at (12cm,0) {\includegraphics[width=4cm, height=4cm]{../{\chapterlabel}/figure1-19}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} PxHere} ;
+\node[text width=5cm] at ([yshift=0.5cm]c.north) {\mytriangle{red}{\small Light is a wave}};
+
+%
+% \node (d) at (18cm,0) {\includegraphics[width=5cm, height=5cm]{chapter2/figure1-10}} node[rotate=90, font=\tiny] at ([yshift=.5cm,xshift=.1cm]c.south east) {\textsuperscript{\textcopyright} Needpix} ;
+%\node[text width=4cm] at ([yshift=0.8cm]c.north) {\mytriangle{red}{\small Heat is thermal energy}};
+\end{tikzpicture}
+\end{minipage}
+\end{fullwidth}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FIGURE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

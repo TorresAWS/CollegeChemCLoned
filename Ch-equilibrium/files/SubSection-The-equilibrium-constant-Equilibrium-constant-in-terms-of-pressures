@@ -1,0 +1,12 @@
+The equilibrium constant $K_{c}$ is the ratio of the concentration of products and reactants. As concentration is related to pressure--remember the chapter about gases--we can also express an equilibrium constant in terms of pressures, we call this $K_{p}$.
+\begin{equation}
+\boxed{  K_{p}=\frac{P_{\text{Products}}}{P_{\text{Reactants}}}=\frac{P_{C}^c \cdot P_{D}^d} {P_{A}^a \cdot P_{B}^b} } \quad \textcolor{blue}{\text{Equilibrium constant}}
+\label{\chapterlabel:equation2}
+\end{equation}
+Let's focus on an example. Think about the reaction below that involved just gases:
+\begin{center}\ce{CH4_{(g)} + 2O2_{(g)} <=> CO2_{(g)} + 2H2O_{(g)}}\end{center}
+The expression of the equilibrium constant would be:
+\begin{equation*}
+  K_{p}=\frac{P_{\ce{CO2}} \cdot P_{\ce{H2O}}^2} {P_{\ce{CH4}} \cdot P_{\ce{O2}}^2} 
+\end{equation*}
+$K_{p}$ values larger than one imply that in the mixture the pressure of products is larger than the pressure of reactants and the opposite is true for values smaller than one.

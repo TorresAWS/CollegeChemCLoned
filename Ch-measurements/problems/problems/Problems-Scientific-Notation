@@ -1,0 +1,21 @@
+%%%%%PROBLEM
+\begin{question}[ID=\the\value{numA}]\SetQuestionProperties{section-title=\nameref{sec:units}}
+Compute the following calculations involving scientific notation:
+\begin{multicols}{3}  
+\noindent
+  \begin{enumerate} [ label=(\alph*)]	
+\item $\frac{6.5\times 10^{3}}{3\times 10^{2}}$
+\item $\frac{6.1\times 10^{-3}}{3\times 10^{4}}$
+\item $\frac{1.3\times 10^{-3}}{2.5\times 10^{-2}}$
+\item $\frac{2.4\times 10^{-3}}{5\cdot 4.6\times 10^{-6}}$
+\end{enumerate}
+\end{multicols}
+\end{question}
+\begin{solution}
+\begin{inparaenum}[(a)]
+  \item 21.66
+    \item $2.03\times 10^{-7}$
+\item 0.052
+\item 104.35
+ \end{inparaenum}
+\hspace{0.1cm}\end{solution}\stepcounter{numA}%%%%%%%%%%%%

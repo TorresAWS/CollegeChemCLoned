@@ -1,0 +1,31 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Use the data below to calculate the rate law of the following reaction: \begin{center}\ce{A -> B}\end{center}
+\begin{center}\begin{tabular}[t]{  c c  c   }
+\toprule
+ Experiment &$r$ (M/s)	&$[A]$, (M) \\
+\midrule
+1&	0.5&	0.5\\
+2&	0.72 &0.6	\\
+\bottomrule
+\end{tabular}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+As they provide values of $[A]$ the rate law should be $r=k[A]^n$. In order to calculate the rate law we need the values of $k$ and $n$.
+We will apply the rate law two the two different experiments and divide:
+\begin{align*}
+&\
+   \left.\begin{aligned}
+    0.5=k0.5^n\quad (\text{Experiment 1}) \\
+    0.72=k0.6^n\quad (\text{Experiment 2}) 
+\end{aligned}
+\right\}         \frac{0.5}{0.72}=\frac{\cancel{k}}{\cancel{k}}\cdot \Bigg(\frac{0.5}{0.6}\Bigg)^n 
+\end{align*}
+This approach will cancel $k$ leaving only $n$. 
+\[ 0.694=(0.833)^n\]
+Remember that if we divide two numbers with the same exponent we can combine the numbers and share the exponents. In order to solve for $n$ we need to apply 	natural logarithms (or simply log) to both sides of the equation in order to move the exponent down:
+\[Ln(0.694)=n\cdot Ln(0.833) \text{that gives }n=\frac{Ln(0.694)}{Ln(0.833)}=1.99=2\]
+Remember the orders are normally integer numbers so you can round to the closes integer. Now that we have the order, we can use the rate law again to obtain the rate constant using for example: $r$=0.5M/s and $[A]=$0.5M, and given that now we know $n$=2
+\[ 0.5=k0.5^2\]
+Solving for $k$ we have $k$=2 1/Ms. We have that the reaction law is: $r=2[A]^2$
+\\
+\import{./}{StudyCheck6} 
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

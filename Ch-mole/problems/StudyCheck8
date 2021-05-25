@@ -1,0 +1,7 @@
+\faDiamond\ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Study Check}} }\\
+Ammonia is produced by reacting molecular nitrogen and molecular hydrogen following the reaction:
+\begin{center}\ce{3H2_{(g)} + N2_{(g)} -> 2NH3_{(g)} } \end{center}
+Calculate the percent yield of ammonia if 1 moles of nitrogen gives 1.5 moles of ammonia 
+\providetoggle{long}\settoggle{long}{true}\iftoggle{long}{}{\begin{flushright} \mytriangleright{dgreen}\small 
+ Answer: $75\%$.
+ \end{flushright} }

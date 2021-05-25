@@ -1,0 +1,13 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+We prepare a solution by adding 1g of solute--a non-electrolyte--into 100mL of water. The solution experience a freezing point depression of 2.1$^{\circ}$C. Given than the freezing depression constant of water is 0.512$^{\circ}$C/m, calculate the molar mass of the solute.
+\\
+ \textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+We will first calculate the molality of the solution by means of the freezing point depression. 
+\[\Delta T_f =-i\cdot k_f\cdot m\]
+We will use the freezing point depression ($\Delta T_f $=-2.1$^{\circ}$C), Van't Hoff's factor ($i$=1) and the freezing point depression constant ($k_f$=0.512$^{\circ}$C/m):
+\[-2.1 =-1\cdot 0.512\cdot m\]
+we have that the molality of the solution is $m$=4.10m. Now that we have the molality we will calculate the molar mass of the solute using the information provided regarding the solution preparation: mass of solute ($m_{solute}$=1g) and volume of water ($m_{solvent}$=0.1kg), taking into account that the density of water is 1g/mL. We have that the molar mass of the solute is:
+\[MW=\frac{ \text{g of solute}   }{\text{m}\cdot \text{kg of solvent}   	}=\frac{1}{4.10\cdot 0.1}=5.12g/mol\]
+\\
+\import{./}{StudyCheck10}
+\end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

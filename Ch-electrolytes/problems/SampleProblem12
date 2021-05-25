@@ -1,0 +1,12 @@
+\begin{example} %%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX
+Write down the ionic equation and net ionic for the following formula equation:
+\begin{center}\ce{HBr_{(aq)} +  KOH_{(aq)}  ->  KBr_{(aq)}  +  H2O_{(l)}}\end{center}
+\textlcsc{ \textcolor{dgreen}{\Large \textbf{Solution}} }\\
+Mind we can only break down strong electrolytes. Hence, water will not be expressed in the form or ions as it is a weak electrolyte. If we break down the other chemicals we have the ionic equation:
+\begin{center}\ce{H^+_{(aq)} + Br^-_{(aq)} +  K^+_{(aq)}  + OH^-_{(aq)} ->  K^+_{(aq)}  + Br^-_{(aq)} +  H2O_{(l)}}\end{center}
+If we eliminate the ions that are repeated in both sides:
+\begin{center}\ce{H^+_{(aq)} + \Cancel{Br^-_{(aq)}} +  \Cancel{K^+_{(aq)}}  + OH^-_{(aq)} ->  \Cancel{K^+_{(aq)} } + \Cancel{Br^-_{(aq)}} +  H2O_{(l)}}\end{center}
+we have the net ionic equation:
+\begin{center}\ce{H^+_{(aq)}  + OH^-_{(aq)} ->   H2O_{(l)}}\end{center}
+ \import{./}{StudyCheck12}
+     \end{example}%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE BOX

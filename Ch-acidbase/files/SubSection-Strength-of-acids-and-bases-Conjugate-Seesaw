@@ -1,0 +1,4 @@
+The strength of an acid and its conjugate base are not independent. Strong acids produce conjugate bases that are moderately week. Similarly, weak acids produce conjugate bases that are moderately strong. The same reasoning can be applied to bases. This idea is called the conjugate seesaw and helps predict why the conjugate salt of a weak base such as ammonia (\ce{NH4Cl}) gives a moderately strong acidic solution. This idea is summarized in the following relationship and we have that $pK_a$ and $pK_a$ are also related:
+ \begin{equation}
+\boxed{PK_a +PK_b =14  }  \label{\chapterlabel:equation13a}
+\end{equation}
